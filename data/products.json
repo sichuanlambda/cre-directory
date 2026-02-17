@@ -348,7 +348,7 @@
     "url": "https://www.altusgroup.com/argus",
     "logo_url": "https://logo.clearbit.com/altusgroup.com",
     "headline": "Leading real estate software solution.",
-    "description": "Summary: Argus is a leader in the commercial real estate valuation space, offering a comprehensive solution for market analysis. It\u2019s a highly recommended tool for professionals who need reliable and detailed valuation data, though its complexity might pose a challenge for new users.\n\nFeatures:\n\nMarket and property valuation analysis\nCommercial real estate focused\nDetailed reporting tools\nPros:\n\nHighly regarded in the CRE valuation space\nComprehensive data for market analysis\nReliable reporting features\nCons:\n\nSteep learning curve for new users\nMay not be suitable for smaller real estate transactions\nRating: 4.5/5",
+    "description": "Summary: Argus is a leader in the commercial real estate valuation space, offering a comprehensive solution for market analysis. It’s a highly recommended tool for professionals who need reliable and detailed valuation data, though its complexity might pose a challenge for new users.\n\nFeatures:\n\nMarket and property valuation analysis\nCommercial real estate focused\nDetailed reporting tools\nPros:\n\nHighly regarded in the CRE valuation space\nComprehensive data for market analysis\nReliable reporting features\nCons:\n\nSteep learning curve for new users\nMay not be suitable for smaller real estate transactions\nRating: 4.5/5",
     "short_description": "Leading real estate software solution.",
     "target_audience": {
       "roles": [],
@@ -764,10 +764,10 @@
     "title": "Buildout",
     "slug": "buildout",
     "url": "https://www.buildout.com",
-    "logo_url": "https://logo.clearbit.com/buildout.com",
-    "headline": "The connected CRE brokerage platform \u2014 prospecting, CRM, marketing, and transactions in one place.",
-    "description": "Buildout is a connected software platform purpose-built for commercial real estate brokerages, combining CRM, marketing automation, data-driven prospecting, and back-office deal management. Over 50,000 CRE brokers use Buildout to find, win, and close deals faster.\n\nThe platform consists of four integrated products: Prospect by Buildout for AI-powered property targeting and owner identification across 40M+ commercial properties; Showcase for automated listing marketing with AI data ingestion and native email marketing; Rethink CRM for pipeline management and lead nurturing with AI-assisted follow-up; and Transact for deal-team collaboration, document sharing, and closing workflows.\n\nBuildout has been aggressively adding AI capabilities, including intelligent owner targeting in Prospect, automated follow-up sequences in Rethink+, AI-assisted listing creation in Showcase (including 'AL' \u2014 an AI assistant for listings), and automated data ingestion that eliminates manual property data entry. The platform is designed to scale from solo brokers to 200+ person brokerages.",
-    "short_description": "Connected CRE brokerage platform \u2014 AI-powered prospecting, CRM, marketing, and deal management for 50,000+ brokers.",
+    "logo_url": "https://cdn.prod.website-files.com/641a1c972968413ab4e2fd3b/666729433066b684f2a7d2cc_Buildout-Logo-horizontal.svg",
+    "headline": "The connected CRE brokerage platform — prospecting, CRM, marketing, and transactions in one place.",
+    "description": "Buildout is a connected software platform purpose-built for commercial real estate brokerages, combining CRM, marketing automation, data-driven prospecting, and back-office deal management. Over 50,000 CRE brokers use Buildout to find, win, and close deals faster.\n\nThe platform consists of four integrated products: Prospect by Buildout for AI-powered property targeting and owner identification across 40M+ commercial properties; Showcase for automated listing marketing with AI data ingestion and native email marketing; Rethink CRM for pipeline management and lead nurturing with AI-assisted follow-up; and Transact for deal-team collaboration, document sharing, and closing workflows.\n\nBuildout has been aggressively adding AI capabilities, including intelligent owner targeting in Prospect, automated follow-up sequences in Rethink+, AI-assisted listing creation in Showcase (including 'AL' — an AI assistant for listings), and automated data ingestion that eliminates manual property data entry. The platform is designed to scale from solo brokers to 200+ person brokerages.",
+    "short_description": "Connected CRE brokerage platform — AI-powered prospecting, CRM, marketing, and deal management for 50,000+ brokers.",
     "target_audience": {
       "roles": [
         "CRE Brokers",
@@ -810,7 +810,7 @@
         "features": [
           {
             "name": "AI Data Ingestion",
-            "description": "Property data flows in automatically \u2014 no manual entry. Raw data becomes polished marketing."
+            "description": "Property data flows in automatically — no manual entry. Raw data becomes polished marketing."
           },
           {
             "name": "Automated Proposal Generator",
@@ -822,7 +822,7 @@
           },
           {
             "name": "Native Email Marketing",
-            "description": "Send listings to ideal buyers and syndicate to 20+ listing sites \u2014 all from one platform."
+            "description": "Send listings to ideal buyers and syndicate to 20+ listing sites — all from one platform."
           },
           {
             "name": "Listing Syndication",
@@ -835,7 +835,7 @@
         "features": [
           {
             "name": "Deal Pipeline Management",
-            "description": "The most complete CRM for CRE \u2014 manage leads, contacts, and deal flow in one place."
+            "description": "The most complete CRM for CRE — manage leads, contacts, and deal flow in one place."
           },
           {
             "name": "AI-Assisted Follow-Up",
@@ -944,14 +944,14 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Purpose-built for CRE brokers \u2014 not a generic CRM adapted for real estate",
+      "Purpose-built for CRE brokers — not a generic CRM adapted for real estate",
       "Strong AI features across prospecting, marketing, and CRM that save real time",
-      "Modular \u2014 start with one product and expand as needs grow",
+      "Modular — start with one product and expand as needs grow",
       "40M+ property database gives strong prospecting foundation",
       "50,000+ broker user base means active development and community"
     ],
     "cons": [
-      "Quote-based pricing across all products \u2014 no published prices",
+      "Quote-based pricing across all products — no published prices",
       "Best suited for brokerages, not landlords or investors",
       "Newer AI features (Rethink+, Showcase AI) are still maturing",
       "Less suited for enterprise portfolio management vs. deal-focused workflows"
@@ -976,8 +976,8 @@
     "rating": 4.1,
     "review_count": 30,
     "seo": {
-      "title": "Buildout Review 2025: CRE Brokerage Platform \u2014 Pricing, Features & Alternatives",
-      "description": "In-depth review of Buildout \u2014 the connected CRE brokerage platform used by 50,000+ brokers. Compare Prospect, Showcase, Rethink CRM, and Transact products.",
+      "title": "Buildout Review 2025: CRE Brokerage Platform — Pricing, Features & Alternatives",
+      "description": "In-depth review of Buildout — the connected CRE brokerage platform used by 50,000+ brokers. Compare Prospect, Showcase, Rethink CRM, and Transact products.",
       "keywords": [
         "Buildout review",
         "Buildout CRM",
@@ -1140,7 +1140,7 @@
     "url": "https://www.cherre.com",
     "logo_url": "https://logo.clearbit.com/cherre.com",
     "headline": "Data integration and analytics for real estate.",
-    "description": "Summary: Cherre is a powerful data integration and analytics platform designed for real estate professionals. It\u2019s ideal for firms needing to aggregate data from various sources, though its complexity might not suit smaller businesses.\n\nFeatures:\n\nData integration from multiple real estate sources\nAdvanced analytics and visualization tools\nTailored market analysis\nPros:\n\nComprehensive data aggregation\nPowerful analytics tools\nGreat for in-depth market analysis\nCons:\n\nComplex setup and integration\nBest suited for larger firms with data teams\nRating: 4.5/5",
+    "description": "Summary: Cherre is a powerful data integration and analytics platform designed for real estate professionals. It’s ideal for firms needing to aggregate data from various sources, though its complexity might not suit smaller businesses.\n\nFeatures:\n\nData integration from multiple real estate sources\nAdvanced analytics and visualization tools\nTailored market analysis\nPros:\n\nComprehensive data aggregation\nPowerful analytics tools\nGreat for in-depth market analysis\nCons:\n\nComplex setup and integration\nBest suited for larger firms with data teams\nRating: 4.5/5",
     "short_description": "Data integration and analytics for real estate.",
     "target_audience": {
       "roles": [],
@@ -1204,7 +1204,7 @@
     "url": "https://www.citybldr.com",
     "logo_url": "https://logo.clearbit.com/citybldr.com",
     "headline": "Find and value off-market properties.",
-    "description": "Summary: CityBldr helps real estate professionals find and evaluate off-market properties, making it an excellent choice for developers and investors. Its valuation tools are particularly useful, though the platform\u2019s features may be overkill for casual users.\n\nFeatures:\n\nOff-market property search\nValuation tools for real estate development\nMarket analysis and property evaluation\nPros:\n\nGreat for developers and investors seeking off-market deals\nReliable valuation tools\nEasy property analysis\nCons:\n\nFeatures may be too advanced for casual users\nLimited to specific markets\nRating: 4.3/5",
+    "description": "Summary: CityBldr helps real estate professionals find and evaluate off-market properties, making it an excellent choice for developers and investors. Its valuation tools are particularly useful, though the platform’s features may be overkill for casual users.\n\nFeatures:\n\nOff-market property search\nValuation tools for real estate development\nMarket analysis and property evaluation\nPros:\n\nGreat for developers and investors seeking off-market deals\nReliable valuation tools\nEasy property analysis\nCons:\n\nFeatures may be too advanced for casual users\nLimited to specific markets\nRating: 4.3/5",
     "short_description": "Find and value off-market properties.",
     "target_audience": {
       "roles": [],
@@ -1408,59 +1408,187 @@
     "slug": "costar",
     "url": "https://www.costar.com",
     "logo_url": "https://logo.clearbit.com/costar.com",
-    "headline": "Comprehensive commercial real estate data and analytics.",
-    "description": "Summary: CoStar is a comprehensive commercial real estate data and analytics platform, offering in-depth insights and listings. It\u2019s essential for professionals needing access to a vast database of commercial properties and market analysis tools, though the cost may be prohibitive for smaller firms.\n\nFeatures:\n\nExtensive commercial real estate data\nMarket analysis and listing services\nAnalytics for property performance\nPros:\n\nVast database of commercial properties\nPowerful market analysis tools\nRegularly updated data\nCons:\n\nExpensive, especially for small firms\nInterface can be overwhelming for new users\nRating: 4.5/5",
-    "short_description": "Comprehensive commercial real estate data and analytics.",
+    "headline": "The Most Comprehensive Source of Commercial Real Estate Data & Analytics",
+    "description": "CoStar is the leading provider of commercial real estate information, analytics, and online marketplaces. The platform delivers an unparalleled depth of data covering properties, spaces, tenants, sales comparables, and market analytics across all major commercial property types. CoStar's research team of over 1,000 professionals continuously verifies and updates property information, making it the most trusted source in the industry.\n\nCoStar serves brokers, investors, lenders, appraisers, asset managers, and corporate occupiers who need reliable market intelligence to make informed decisions. The platform includes powerful tools for property search, tenant prospecting, lease analysis, and market trend tracking. Its suite also encompasses LoopNet and Apartments.com as leading listing marketplaces.\n\nWhat sets CoStar apart is the sheer scale and accuracy of its database — covering over 6 million commercial properties in the US alone — combined with analytics tools that surface actionable insights. The platform is considered essential infrastructure for commercial real estate professionals, though its premium pricing reflects its market-leading position.",
+    "short_description": "The leading commercial real estate information, analytics, and online marketplace platform.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Brokers",
+        "Investors",
+        "Lenders",
+        "Appraisers",
+        "Asset Managers",
+        "Corporate Occupiers",
+        "Researchers"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
         "Office",
-        "Retail"
+        "Industrial",
+        "Retail",
+        "Multifamily",
+        "Hospitality",
+        "Land"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Property Data & Research",
+        "features": [
+          {
+            "name": "Property Database",
+            "description": "Access data on over 6 million commercial properties including ownership, tenancy, and building specs"
+          },
+          {
+            "name": "Sales Comparables",
+            "description": "Verified sales transaction data for valuation and market analysis"
+          },
+          {
+            "name": "Lease Comparables",
+            "description": "Detailed lease comp data including rates, terms, and concessions"
+          },
+          {
+            "name": "Tenant Information",
+            "description": "Track tenant movements, lease expirations, and expansion/contraction activity"
+          }
+        ]
+      },
+      {
+        "name": "Analytics & Market Intelligence",
+        "features": [
+          {
+            "name": "Market Analytics",
+            "description": "Submarket-level analytics on vacancy, absorption, rent trends, and construction pipeline"
+          },
+          {
+            "name": "Analytics Suite",
+            "description": "Custom reporting and visualization tools for portfolio and market analysis"
+          },
+          {
+            "name": "CMBS/Loan Data",
+            "description": "Access to commercial mortgage data for lending and investment analysis"
+          },
+          {
+            "name": "Forecast Models",
+            "description": "Proprietary forecasting models for rent growth, vacancy, and cap rates"
+          }
+        ]
+      },
+      {
+        "name": "Prospecting & Marketing",
+        "features": [
+          {
+            "name": "Tenant Prospecting",
+            "description": "Identify and target tenants based on lease expiration, size requirements, and industry"
+          },
+          {
+            "name": "LoopNet Integration",
+            "description": "Listing syndication to LoopNet, the most-visited commercial real estate marketplace"
+          },
+          {
+            "name": "Marketing Center",
+            "description": "Create professional property marketing materials and flyers"
+          },
+          {
+            "name": "STR (Hotel Data)",
+            "description": "Hospitality performance analytics through the STR acquisition"
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "CoStar",
+          "price": "Quote-based",
+          "description": "Core property data, analytics, and market intelligence"
+        },
+        {
+          "name": "CoStar Suite",
+          "price": "Quote-based",
+          "description": "Full platform access including all modules and premium analytics"
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Most comprehensive and accurate commercial real estate database available",
+      "Research team of 1,000+ professionals ensures data quality and timeliness",
+      "Powerful analytics and forecasting tools for market intelligence",
+      "Integrated marketplace reach through LoopNet and Apartments.com",
+      "Covers all major property types with submarket-level granularity"
+    ],
+    "cons": [
+      "Premium pricing makes it cost-prohibitive for smaller firms and individual brokers",
+      "Steep learning curve due to the depth and complexity of the platform",
+      "Annual contracts with limited flexibility on plan adjustments",
+      "Can be overwhelming for users who only need basic property search",
+      "Some international market coverage is less comprehensive than US data"
+    ],
+    "integrations": [
+      {
+        "name": "Microsoft Excel",
+        "category": "Productivity"
+      },
+      {
+        "name": "Salesforce",
+        "category": "CRM"
+      },
+      {
+        "name": "MRI Software",
+        "category": "Property Management"
+      },
+      {
+        "name": "Yardi",
+        "category": "Property Management"
+      },
+      {
+        "name": "RealPage",
+        "category": "Property Management"
+      }
+    ],
     "company": {
-      "name": "CoStar",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "CoStar Group",
+      "founded": 1987,
+      "headquarters": "Arlington, Virginia",
+      "employees": "6,500+",
+      "funding": "Public (NASDAQ: CSGP)"
     },
     "categories": [
       "Data & Analytics"
     ],
     "deployment": [
-      "Cloud"
+      "Cloud",
+      "Mobile"
     ],
-    "rating": null,
-    "review_count": 0,
+    "rating": 4.3,
+    "review_count": 150,
     "seo": {
-      "title": "CoStar Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of CoStar. Comprehensive commercial real estate data and analytics. Compare pricing, features, pros & cons.",
+      "title": "CoStar Review 2026: Pricing, Features & Alternatives | CRE Software",
+      "description": "In-depth review of CoStar, the leading commercial real estate data and analytics platform. Compare features, pricing, pros & cons with alternatives.",
       "keywords": [
         "CoStar review",
         "CoStar pricing",
-        "CRE software"
+        "commercial real estate data",
+        "CRE analytics",
+        "property database",
+        "CoStar Group"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": true,
-    "is_featured": false,
+    "is_featured": true,
     "domain": "costar.com",
     "pricing_model": "Quote-based",
     "is_free": false,
@@ -1618,7 +1746,7 @@
     "url": "https://www.dealcloud.com",
     "logo_url": "https://logo.clearbit.com/dealcloud.com",
     "headline": "Investment management software for real estate.",
-    "description": "Summary: DealCloud is an investment management platform that offers tools for deal and transaction management. It\u2019s well-suited for investment teams needing to handle a high volume of deals, though smaller teams may not need its extensive features.\n\nFeatures:\n\nDeal and investment management tools\nCollaboration features for investment teams\nTracking and reporting capabilities\nPros:\n\nExcellent for managing multiple deals\nComprehensive reporting tools\nGreat for investment teams\nCons:\n\nMay be too complex for smaller teams\nHigh subscription cost\nRating: 4.5/5",
+    "description": "Summary: DealCloud is an investment management platform that offers tools for deal and transaction management. It’s well-suited for investment teams needing to handle a high volume of deals, though smaller teams may not need its extensive features.\n\nFeatures:\n\nDeal and investment management tools\nCollaboration features for investment teams\nTracking and reporting capabilities\nPros:\n\nExcellent for managing multiple deals\nComprehensive reporting tools\nGreat for investment teams\nCons:\n\nMay be too complex for smaller teams\nHigh subscription cost\nRating: 4.5/5",
     "short_description": "Investment management software for real estate.",
     "target_audience": {
       "roles": [],
@@ -1680,40 +1808,204 @@
     ]
   },
   {
-    "title": "DealPath",
+    "title": "Dealpath",
     "slug": "dealpath",
     "url": "https://www.dealpath.com",
-    "logo_url": "https://logo.clearbit.com/dealpath.com",
-    "headline": "Deal management platform for real estate investment teams.",
-    "description": "Summary: DealPath is a deal management platform tailored for real estate investment teams, providing a seamless way to track and manage transactions. While it's excellent for larger investment firms, smaller teams may find its robust features more than they need.\n\nFeatures:\n\nDeal and transaction management for investment teams\nCollaboration tools for deal flow\nTracking and reporting capabilities\nPros:\n\nStreamlines deal management\nExcellent for large investment teams\nAdvanced reporting tools\nCons:\n\nExpensive for smaller firms\nLearning curve for new users\nRating: 4.5/5",
-    "short_description": "Deal management platform for real estate investment teams.",
+    "logo_url": "https://www.dealpath.com/wp-content/uploads/2025/06/DP_logo-horizontal.svg",
+    "headline": "The AI-Powered Operating System for Real Estate Investing",
+    "description": "Dealpath is commercial real estate's leading deal management platform, purpose-built for investment teams managing acquisitions, dispositions, development, and debt origination. The platform serves as a centralized command center where deal teams can track pipelines, execute transactions, and surface data-driven insights across the entire investment lifecycle.\n\nTrusted by over 300 firms powering $10T+ in transactions, Dealpath combines pipeline management, AI-powered data ingestion, reporting and analytics, CRM, and deal execution workflows into a single integrated platform. Its AI Studio brings purpose-built artificial intelligence directly into investment workflows, enabling teams to screen deals in minutes, benchmark with AI-recommended comps, and automate OM and flyer data abstraction.\n\nDealpath stands out through its white-glove implementation approach, enterprise-grade security (SOC 2 Type 2), and deep integrations with tools like CompStak, Esri, Microsoft Office, and leading data providers. The platform is designed for collaborative deal teams of five or more, from boutique firms to institutional powerhouses like Blackstone and New York Life.",
+    "short_description": "AI-powered deal management platform for commercial real estate investment teams.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Investment Managers",
+        "Acquisitions Teams",
+        "Asset Managers",
+        "Portfolio Managers",
+        "Analysts",
+        "CIOs",
+        "Development Managers"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Commercial"
+        "Office",
+        "Industrial",
+        "Retail",
+        "Multifamily",
+        "Mixed-Use",
+        "Net Lease",
+        "Hospitality"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Pipeline Management",
+        "features": [
+          {
+            "name": "Deal Pipeline",
+            "description": "Real-time view of every active deal across regions, stages, and property types"
+          },
+          {
+            "name": "Market Tracking",
+            "description": "Build a proprietary comps database by capturing every listing and opportunity"
+          },
+          {
+            "name": "Dealpath Connect",
+            "description": "Private exchange for real estate listings connecting buyers and brokers"
+          }
+        ]
+      },
+      {
+        "name": "AI & Data",
+        "features": [
+          {
+            "name": "AI Data Ingestion",
+            "description": "Automate OM and flyer data abstraction with AI-powered extraction"
+          },
+          {
+            "name": "AI Studio",
+            "description": "Screen deals in minutes with AI-recommended comps and property insights"
+          },
+          {
+            "name": "Reporting & Analytics",
+            "description": "Dashboards tracking capital deployment, deals sourced, time to close, and staffing capacity"
+          }
+        ]
+      },
+      {
+        "name": "Deal Execution",
+        "features": [
+          {
+            "name": "Workflow Automation",
+            "description": "Automate due diligence, IC approval workflows, and fund allocation"
+          },
+          {
+            "name": "Document Collaboration",
+            "description": "Collaborate on execution tasks and documents with full audit trail"
+          },
+          {
+            "name": "Underwriting Comparison",
+            "description": "Compare underwriting models side-by-side to evaluate which deals pencil"
+          }
+        ]
+      },
+      {
+        "name": "Relationship Management",
+        "features": [
+          {
+            "name": "CRM",
+            "description": "Manage brokers, JV partners, sponsors, consultants, and investors alongside deals"
+          },
+          {
+            "name": "Activity Tracking",
+            "description": "Contact data, activity history, and relationship context in one shared system"
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Professional",
+          "price": "Quote-based",
+          "description": "Powerful suite of tools including AI data ingestion, comps database, analytics, workflows, and Microsoft Office compatibility. SOC 2 Type 2 security."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Quote-based",
+          "description": "Everything in Professional plus SSO, Open API, sandbox environments, investor reporting, portfolio data integration, and early access to betas."
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Purpose-built for CRE investment workflows — not a generic CRM adapted for real estate",
+      "AI-powered data ingestion dramatically reduces manual data entry from OMs and flyers",
+      "White-glove implementation with dedicated Customer Success Manager",
+      "Trusted by top-tier institutional investors (Blackstone, New York Life, CBRE IM)",
+      "Strong integration ecosystem with CompStak, Esri, Microsoft Office, and data providers"
+    ],
+    "cons": [
+      "Minimum of 5 users required — not suitable for solo practitioners or very small teams",
+      "Quote-based pricing lacks transparency for budget planning",
+      "Implementation takes 6-8 weeks which may feel slow for firms wanting quick deployment",
+      "Focused on deal management — not a full property management or accounting solution",
+      "Best suited for institutional investors; may be over-engineered for smaller owner-operators"
+    ],
+    "integrations": [
+      {
+        "name": "CompStak",
+        "category": "Data"
+      },
+      {
+        "name": "Esri",
+        "category": "Data"
+      },
+      {
+        "name": "Real Capital Analytics",
+        "category": "Data"
+      },
+      {
+        "name": "Cherre",
+        "category": "Data"
+      },
+      {
+        "name": "Ipreo",
+        "category": "Data"
+      },
+      {
+        "name": "MRI Software",
+        "category": "Property Management"
+      },
+      {
+        "name": "NavigatorCRE",
+        "category": "Analytics"
+      },
+      {
+        "name": "Microsoft Excel",
+        "category": "Productivity"
+      },
+      {
+        "name": "Microsoft Word",
+        "category": "Productivity"
+      },
+      {
+        "name": "Microsoft Outlook",
+        "category": "Productivity"
+      },
+      {
+        "name": "Box",
+        "category": "File Management"
+      },
+      {
+        "name": "Dropbox",
+        "category": "File Management"
+      },
+      {
+        "name": "Okta",
+        "category": "Single Sign-On"
+      },
+      {
+        "name": "Google Maps",
+        "category": "Mapping"
+      }
+    ],
     "company": {
-      "name": "DealPath",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Dealpath",
+      "founded": 2014,
+      "headquarters": "San Francisco, California",
+      "employees": "100-200",
+      "funding": "Series B ($43M total raised)"
     },
     "categories": [
       "AI & Automation",
@@ -1725,20 +2017,23 @@
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
-    "review_count": 0,
+    "rating": 4.4,
+    "review_count": 85,
     "seo": {
-      "title": "DealPath Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of DealPath. Deal management platform for real estate investment teams. Compare pricing, features, pros & cons.",
+      "title": "Dealpath Review 2026: Pricing, Features & Alternatives | CRE Software",
+      "description": "In-depth review of Dealpath, the AI-powered deal management platform for CRE investment teams. Compare features, pricing, pros & cons with alternatives.",
       "keywords": [
-        "DealPath review",
-        "DealPath pricing",
-        "CRE software"
+        "Dealpath review",
+        "Dealpath pricing",
+        "deal management software",
+        "CRE investment platform",
+        "real estate deal tracking",
+        "pipeline management"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
-    "is_featured": false,
+    "is_featured": true,
     "domain": "dealpath.com",
     "pricing_model": "Quote-based",
     "is_free": false,
@@ -2706,7 +3001,7 @@
     "url": "https://www.junipersquare.com",
     "logo_url": "https://logo.clearbit.com/junipersquare.com",
     "headline": "Investor reporting and communication software.",
-    "description": "Summary: Juniper Square offers investment management and reporting tools for real estate, making it perfect for firms looking to streamline investor relations. While it\u2019s highly effective, it might not be suitable for smaller businesses or individual investors.\n\nFeatures:\n\nInvestment management tools\nInvestor reporting and communication\nFundraising and deal tracking features\nPros:\n\nGreat for managing investor relations\nDetailed reporting features\nEasy integration with other real estate tools\nCons:\n\nExpensive for smaller teams\nNot suited for individual investors\nRating: 4.5/5",
+    "description": "Summary: Juniper Square offers investment management and reporting tools for real estate, making it perfect for firms looking to streamline investor relations. While it’s highly effective, it might not be suitable for smaller businesses or individual investors.\n\nFeatures:\n\nInvestment management tools\nInvestor reporting and communication\nFundraising and deal tracking features\nPros:\n\nGreat for managing investor relations\nDetailed reporting features\nEasy integration with other real estate tools\nCons:\n\nExpensive for smaller teams\nNot suited for individual investors\nRating: 4.5/5",
     "short_description": "Investor reporting and communication software.",
     "target_audience": {
       "roles": [],
@@ -3044,7 +3339,7 @@
     "url": "https://www.matterport.com",
     "logo_url": "https://logo.clearbit.com/matterport.com",
     "headline": "3D capture for real estate.",
-    "description": "Summary: Matterport is a 3D capture and visualization platform, offering real estate professionals the ability to create immersive property tours. It\u2019s highly effective for visualizing spaces, though its use may be limited to specific marketing needs.\n\nFeatures:\n\n3D capture and virtual tours for real estate\nImmersive property visualization tools\nIntegration with property management platforms\nPros:\n\nExcellent for marketing properties with virtual tours\nImmersive 3D visualization\nUser-friendly\nCons:\n\nLimited to property visualization\nSubscription pricing for advanced features\nRating: 4.5/5",
+    "description": "Summary: Matterport is a 3D capture and visualization platform, offering real estate professionals the ability to create immersive property tours. It’s highly effective for visualizing spaces, though its use may be limited to specific marketing needs.\n\nFeatures:\n\n3D capture and virtual tours for real estate\nImmersive property visualization tools\nIntegration with property management platforms\nPros:\n\nExcellent for marketing properties with virtual tours\nImmersive 3D visualization\nUser-friendly\nCons:\n\nLimited to property visualization\nSubscription pricing for advanced features\nRating: 4.5/5",
     "short_description": "3D capture for real estate.",
     "target_audience": {
       "roles": [],
@@ -3645,7 +3940,7 @@
     "url": "https://www.procore.com",
     "logo_url": "https://logo.clearbit.com/procore.com",
     "headline": "Construction management software.",
-    "description": "Summary: Procore is a top-tier construction management platform that caters to real estate professionals involved in construction and development. It\u2019s highly recommended for users managing large construction projects, though it can be complex for smaller-scale operations.\n\nFeatures:\n\nConstruction project management tools\nTransaction and deal management\nCollaboration tools for construction teams\nPros:\n\nComprehensive project management for construction\nGreat for large-scale developments\nStreamlines team collaboration\nCons:\n\nComplex for small projects\nHigh cost for smaller teams\nRating: 4.3/5",
+    "description": "Summary: Procore is a top-tier construction management platform that caters to real estate professionals involved in construction and development. It’s highly recommended for users managing large construction projects, though it can be complex for smaller-scale operations.\n\nFeatures:\n\nConstruction project management tools\nTransaction and deal management\nCollaboration tools for construction teams\nPros:\n\nComprehensive project management for construction\nGreat for large-scale developments\nStreamlines team collaboration\nCons:\n\nComplex for small projects\nHigh cost for smaller teams\nRating: 4.3/5",
     "short_description": "Construction management software.",
     "target_audience": {
       "roles": [],
@@ -3712,7 +4007,7 @@
     "url": "https://www.prodeal360.com",
     "logo_url": "https://logo.clearbit.com/prodeal360.com",
     "headline": "Deal management platform for real estate professionals.",
-    "description": "Summary: Prodeal is a deal management platform designed for real estate professionals, offering a simple way to handle transactions and manage documents. It\u2019s ideal for teams dealing with frequent deals, though smaller firms may find limited value in it.\n\nFeatures:\n\nTransaction and deal management tools\nDocument management for real estate deals\nCollaboration features for teams\nPros:\n\nStreamlines deal management and transactions\nEasy-to-use interface\nGood document organization features\nCons:\n\nLimited use for smaller teams\nFeature set might feel basic for larger firms\nRating: 4/5",
+    "description": "Summary: Prodeal is a deal management platform designed for real estate professionals, offering a simple way to handle transactions and manage documents. It’s ideal for teams dealing with frequent deals, though smaller firms may find limited value in it.\n\nFeatures:\n\nTransaction and deal management tools\nDocument management for real estate deals\nCollaboration features for teams\nPros:\n\nStreamlines deal management and transactions\nEasy-to-use interface\nGood document organization features\nCons:\n\nLimited use for smaller teams\nFeature set might feel basic for larger firms\nRating: 4/5",
     "short_description": "Deal management platform for real estate professionals.",
     "target_audience": {
       "roles": [],
@@ -5571,10 +5866,10 @@
     "title": "VTS",
     "slug": "vts",
     "url": "https://www.vts.com",
-    "logo_url": "https://logo.clearbit.com/vts.com",
+    "logo_url": "https://www.vts.com/wp-content/uploads/2023/05/vts-dark-logo.svg",
     "headline": "The industry's leading leasing and asset management platform, powered by 13B+ SF of CRE data and AI.",
     "description": "VTS is the commercial real estate industry's leading technology platform, bringing together leasing, asset management, tenant experience, and market intelligence into one unified system. Used by the world's largest landlords, brokerages, and investors, VTS manages over 13 billion square feet of assets globally.\n\nThe platform consists of four core products: VTS Lease for end-to-end deal pipeline management from inquiry to renewal; VTS Market for digital marketing and virtual content delivery; VTS Data for predictive market research and investment intelligence; and VTS Activate for tenant and resident experience management across office, workplace, and multifamily properties.\n\nVTS has recently introduced AI capabilities across the platform, including Proposal AI (creates proposals 93% faster), VTS Analyst (instant answers to market questions powered by 57B+ SF of deal data), Work Order AI (auto-converts tenant emails into work orders), and Asset Intelligence for AI-powered lease abstraction. The platform integrates with major CRE technology partners across access control, accounting, content, ESG, food & beverage, package management, payments, resource booking, property operations, SSO, and visitor management categories.",
-    "short_description": "Leading CRE platform for leasing, asset management, tenant experience, and market intelligence \u2014 13B+ SF managed globally.",
+    "short_description": "Leading CRE platform for leasing, asset management, tenant experience, and market intelligence — 13B+ SF managed globally.",
     "target_audience": {
       "roles": [
         "Asset Managers",
@@ -5759,13 +6054,13 @@
       "Unified platform replaces siloed tools across leasing, marketing, and tenant experience",
       "Strong AI features that solve real workflow problems (proposals, work orders, market analysis)",
       "Deep integration ecosystem with major CRE technology partners",
-      "Used by the world's largest landlords and brokerages \u2014 proven at enterprise scale"
+      "Used by the world's largest landlords and brokerages — proven at enterprise scale"
     ],
     "cons": [
-      "Enterprise pricing \u2014 not accessible for small brokerages or individual brokers",
+      "Enterprise pricing — not accessible for small brokerages or individual brokers",
       "Quote-based pricing means no transparency until you talk to sales",
       "Steep learning curve for teams transitioning from spreadsheets or simpler tools",
-      "Primarily focused on office/commercial \u2014 multifamily features are newer"
+      "Primarily focused on office/commercial — multifamily features are newer"
     ],
     "integrations": [
       {
@@ -5835,7 +6130,7 @@
     "review_count": 45,
     "seo": {
       "title": "VTS Review 2025: Platform, Pricing, Features & Alternatives | CRE Software Directory",
-      "description": "In-depth review of VTS \u2014 the leading CRE leasing and asset management platform managing 13B+ SF globally. Compare VTS Lease, Market, Data & Activate products, pricing, AI features, and alternatives.",
+      "description": "In-depth review of VTS — the leading CRE leasing and asset management platform managing 13B+ SF globally. Compare VTS Lease, Market, Data & Activate products, pricing, AI features, and alternatives.",
       "keywords": [
         "VTS review",
         "VTS pricing",
@@ -6000,60 +6295,223 @@
     "title": "Yardi",
     "slug": "yardi",
     "url": "https://www.yardi.com",
-    "logo_url": "https://logo.clearbit.com/yardi.com",
-    "headline": "Real estate management software.",
-    "description": "Yardi is a property management software platform that offers solutions for both residential and commercial real estate professionals.",
-    "short_description": "Real estate management software.",
+    "logo_url": "https://www.yardi.com/wp-content/client-mu-plugins/cmw-icons/svg/logos/yardi_logo.svg",
+    "headline": "Elevate Your Real Estate with AI-Enabled Property Management Software",
+    "description": "Yardi is the global leader in property management software, offering an AI-enabled platform that delivers seamless collaboration, smarter decision-making, and greater efficiency across entire real estate portfolios. From property management to asset and investment management, Yardi's comprehensive suite serves every segment of the real estate industry including multifamily, commercial, affordable housing, senior living, PHA, and coworking spaces.\n\nThe platform's flagship products include Yardi Voyager, a web-based integrated platform for mobile operations, leasing, analytics, and services; Yardi Breeze, a refreshingly simple property management solution for smaller portfolios; and the Investment Suite for managing the entire investment lifecycle. Yardi Virtuoso, the company's AI layer, unlocks artificial intelligence capabilities across the portfolio for workflow transformation and team empowerment.\n\nAs a privately held company founded in 1984, Yardi has grown to serve clients in over 80 countries with more than 9,000 employees worldwide. The company's single-stack approach means all products work together seamlessly, eliminating the integration headaches common with multi-vendor tech stacks. Yardi is trusted by real estate leaders of every size, from independent operators to the largest REITs and institutional investors.",
+    "short_description": "The global leader in AI-enabled property management and real estate investment software.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Managers",
+        "Asset Managers",
+        "Investment Managers",
+        "Accountants",
+        "Leasing Agents",
+        "Maintenance Teams",
+        "Portfolio Managers"
+      ],
+      "company_sizes": [
+        "Small Business",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Residential"
+        "Multifamily",
+        "Commercial",
+        "Affordable Housing",
+        "Senior Living",
+        "PHA",
+        "Coworking",
+        "Industrial",
+        "Self Storage"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Voyager Suite",
+        "features": [
+          {
+            "name": "Property Management",
+            "description": "Web-based integrated platform for operations, accounting, and tenant services"
+          },
+          {
+            "name": "Leasing",
+            "description": "End-to-end leasing lifecycle management from marketing to move-in"
+          },
+          {
+            "name": "Accounting & Finance",
+            "description": "Full general ledger, accounts payable/receivable, and financial reporting"
+          },
+          {
+            "name": "Mobile Operations",
+            "description": "Mobile-enabled maintenance, inspections, and field operations"
+          }
+        ]
+      },
+      {
+        "name": "Yardi Breeze",
+        "features": [
+          {
+            "name": "Simple Property Management",
+            "description": "Refreshingly simple solution for residential, commercial, affordable, self storage, and associations"
+          },
+          {
+            "name": "Online Payments",
+            "description": "Built-in rent collection and online payment processing"
+          },
+          {
+            "name": "Maintenance Requests",
+            "description": "Tenant-facing maintenance request submission and tracking"
+          }
+        ]
+      },
+      {
+        "name": "Investment Suite",
+        "features": [
+          {
+            "name": "Investment Management",
+            "description": "Manage the entire investment lifecycle from fundraising to disposition"
+          },
+          {
+            "name": "Investor Portal",
+            "description": "Self-service portal for investor reporting and document distribution"
+          },
+          {
+            "name": "Fund Accounting",
+            "description": "Specialized accounting for real estate funds and joint ventures"
+          }
+        ]
+      },
+      {
+        "name": "AI & Advanced Tools",
+        "features": [
+          {
+            "name": "Yardi Virtuoso",
+            "description": "AI layer that transforms workflows, empowers teams, and scales effortlessly across the portfolio"
+          },
+          {
+            "name": "Energy Suite",
+            "description": "Streamline energy operations, improve cost recovery, and provide convenience for residents"
+          },
+          {
+            "name": "Procure to Pay",
+            "description": "End-to-end paperless procurement and payment processing"
+          },
+          {
+            "name": "Aspire",
+            "description": "Next-generation training technology delivering personalized learning experiences"
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
+      "starting_price": "$1/unit/month",
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Yardi Breeze",
+          "price": "From $1/unit/month",
+          "description": "Simple, affordable property management for smaller portfolios"
+        },
+        {
+          "name": "Yardi Breeze Premier",
+          "price": "From $2/unit/month",
+          "description": "Enhanced features including job costing, custom reports, and more"
+        },
+        {
+          "name": "Yardi Voyager",
+          "price": "Quote-based",
+          "description": "Enterprise-grade platform for large portfolios with full customization"
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Most comprehensive single-stack platform covering every aspect of property and investment management",
+      "Serves all property types — multifamily, commercial, affordable, senior living, and more",
+      "Yardi Breeze offers an affordable entry point for smaller operators",
+      "Global reach with clients in 80+ countries and strong localization",
+      "AI capabilities through Yardi Virtuoso for workflow automation and insights"
+    ],
+    "cons": [
+      "Voyager has a steep learning curve and can be complex to configure",
+      "Implementation timelines for Voyager can be lengthy (months, not weeks)",
+      "Legacy interface on some modules feels dated compared to newer competitors",
+      "Customer support responsiveness varies and can be slow for non-enterprise clients",
+      "Migrating away from Yardi is difficult due to deep integration and data lock-in"
+    ],
+    "integrations": [
+      {
+        "name": "RentCafe",
+        "category": "Marketing & Leasing"
+      },
+      {
+        "name": "PayScan",
+        "category": "Accounts Payable"
+      },
+      {
+        "name": "COMMERCIALCafe",
+        "category": "Commercial Leasing"
+      },
+      {
+        "name": "Yardi Kube",
+        "category": "Coworking Management"
+      },
+      {
+        "name": "Yardi Matrix",
+        "category": "Market Data"
+      },
+      {
+        "name": "Microsoft Excel",
+        "category": "Productivity"
+      },
+      {
+        "name": "QuickBooks",
+        "category": "Accounting"
+      }
+    ],
     "company": {
-      "name": "Yardi",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Yardi Systems",
+      "founded": 1984,
+      "headquarters": "Santa Barbara, California",
+      "employees": "9,000+",
+      "funding": "Private (Self-funded, profitable)"
     },
     "categories": [
-      "Construction & Development",
+      "Property Management",
+      "Investment & Valuation",
       "Data & Analytics",
-      "Property Management"
+      "AI & Automation",
+      "Accounting & Finance"
     ],
     "deployment": [
-      "Cloud"
+      "Cloud",
+      "On-Premise",
+      "Mobile"
     ],
-    "rating": null,
-    "review_count": 0,
+    "rating": 4.1,
+    "review_count": 300,
     "seo": {
-      "title": "Yardi Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Yardi. Real estate management software. Compare pricing, features, pros & cons.",
+      "title": "Yardi Review 2026: Pricing, Features & Alternatives | CRE Software",
+      "description": "In-depth review of Yardi, the global leader in property management and real estate investment software. Compare Voyager, Breeze, features, pricing & alternatives.",
       "keywords": [
         "Yardi review",
         "Yardi pricing",
-        "CRE software"
+        "Yardi Voyager",
+        "Yardi Breeze",
+        "property management software",
+        "real estate software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
-    "is_featured": false,
+    "is_featured": true,
     "domain": "yardi.com",
     "pricing_model": "Quote-based",
     "is_free": false,
@@ -6938,7 +7396,7 @@
     "url": "https://www.testfit.io",
     "logo_url": "https://logo.clearbit.com/testfit.io",
     "headline": "Site feasibility & planning. Understand if you can make a deal make sense.",
-    "description": "Summary: TestFit is a site feasibility and planning tool that helps developers quickly assess whether a project is viable. It\u2019s highly recommended for development teams evaluating multiple potential sites, though the advanced nature of the tool may not suit all users.\n\nFeatures:\n\nSite feasibility and planning tools\nReal-time project viability analysis\nCollaboration features for developers\nPros:\n\nQuickly assesses site feasibility\nGreat for developers evaluating multiple sites\nReal-time feedback on project viability\nCons:\n\nAdvanced features may be complex for smaller projects\nSubscription can be costly\nRating: 4.4/5",
+    "description": "Summary: TestFit is a site feasibility and planning tool that helps developers quickly assess whether a project is viable. It’s highly recommended for development teams evaluating multiple potential sites, though the advanced nature of the tool may not suit all users.\n\nFeatures:\n\nSite feasibility and planning tools\nReal-time project viability analysis\nCollaboration features for developers\nPros:\n\nQuickly assesses site feasibility\nGreat for developers evaluating multiple sites\nReal-time feedback on project viability\nCons:\n\nAdvanced features may be complex for smaller projects\nSubscription can be costly\nRating: 4.4/5",
     "short_description": "Site feasibility & planning. Understand if you can make a deal make sense.",
     "target_audience": {
       "roles": [],
@@ -7881,7 +8339,7 @@
     "url": "https://cavelit.com/",
     "logo_url": "https://logo.clearbit.com/cavelit.com",
     "headline": "Social media videos for real estate agents",
-    "description": "Cavelit will 4x your engagement\nGet everything you need to grow your audience \u2013 from tailored video ideas to professional video editing.\n\nFind your next video idea\nBrowse our library of proven scripts that have already gone viral in other markets, and get it automatically tailored to yours.\n\nGet professional editing\nOnce you've shot your video, we'll edit the raw footage into a professional and authentic video ready to post on social media.\n\nGo viral in your local market\nPost and follow up with potential clients who engaged with your videos \u2013 you'll be shocked at the difference it makes to connect after they've already shown interest in your content!",
+    "description": "Cavelit will 4x your engagement\nGet everything you need to grow your audience – from tailored video ideas to professional video editing.\n\nFind your next video idea\nBrowse our library of proven scripts that have already gone viral in other markets, and get it automatically tailored to yours.\n\nGet professional editing\nOnce you've shot your video, we'll edit the raw footage into a professional and authentic video ready to post on social media.\n\nGo viral in your local market\nPost and follow up with potential clients who engaged with your videos – you'll be shocked at the difference it makes to connect after they've already shown interest in your content!",
     "short_description": "Social media videos for real estate agents",
     "target_audience": {
       "roles": [],
@@ -11688,7 +12146,7 @@
     "url": "https://www.realie.ai/real-estate-data-api",
     "logo_url": "https://logo.clearbit.com/realie.ai",
     "headline": "details on 180 million property parcels",
-    "description": "We're thrilled to announce the launch of Realie.ai's Property Data API! \ud83c\udfe1\u2728\n\nAt Realie.ai, we\u2019ve reimagined property data collection and accessibility, leveraging AI-powered automation to streamline data collection from every county in the United States. This innovation allows us to keep overhead low, passing those savings directly to you with prices that beat competitors\u2014without sacrificing quality.\n\nWhat Makes Our API Different?\n\ud83d\udca1 Flexible Search\nTired of rigid search options? So were we. That\u2019s why we built Apache Lucene-powered search into our API, offering lightning-fast, flexible queries that make finding the exact data you need a breeze.\n\n\ud83d\udcca Advanced Analytics\nWe\u2019re not just providing data\u2014we\u2019re building free analytics around it. Our platform will help you unlock powerful insights, no extra costs required.\n\n\ud83e\udd16 AI-Powered Insights\nOur work doesn\u2019t stop at raw data. We\u2019re training machine learning models to create a cost-effective, accurate AVM (Automated Valuation Model) and developing an assistant powered by RAG (Retrieval-Augmented Generation). This assistant will help you:\n\nDiscover insights hidden in the data\nGenerate custom analytics\nDigest large datasets seamlessly\n\ud83c\udf0e Comprehensive Coverage\nOur API covers every corner of the U.S., giving you access to rich, nationwide property data in one place.",
+    "description": "We're thrilled to announce the launch of Realie.ai's Property Data API! 🏡✨\n\nAt Realie.ai, we’ve reimagined property data collection and accessibility, leveraging AI-powered automation to streamline data collection from every county in the United States. This innovation allows us to keep overhead low, passing those savings directly to you with prices that beat competitors—without sacrificing quality.\n\nWhat Makes Our API Different?\n💡 Flexible Search\nTired of rigid search options? So were we. That’s why we built Apache Lucene-powered search into our API, offering lightning-fast, flexible queries that make finding the exact data you need a breeze.\n\n📊 Advanced Analytics\nWe’re not just providing data—we’re building free analytics around it. Our platform will help you unlock powerful insights, no extra costs required.\n\n🤖 AI-Powered Insights\nOur work doesn’t stop at raw data. We’re training machine learning models to create a cost-effective, accurate AVM (Automated Valuation Model) and developing an assistant powered by RAG (Retrieval-Augmented Generation). This assistant will help you:\n\nDiscover insights hidden in the data\nGenerate custom analytics\nDigest large datasets seamlessly\n🌎 Comprehensive Coverage\nOur API covers every corner of the U.S., giving you access to rich, nationwide property data in one place.",
     "short_description": "details on 180 million property parcels",
     "target_audience": {
       "roles": [],
@@ -11758,7 +12216,7 @@
     "url": "https://www.mapzot.ai/",
     "logo_url": "https://logo.clearbit.com/mapzot.ai",
     "headline": "MapZot.AI is an AI-powered platform that provides real-time insights into site selection, competitor analysis, and market trends to help businesses identify the most profitable locations.",
-    "description": "MapZot.AI is an advanced AI-powered platform designed to assist businesses in making data-driven site selection and market analysis decisions. By leveraging cutting-edge machine learning and geospatial analytics, MapZot.AI provides real-time insights into key factors such as competitor density, customer demographics, tourism trends, and economic conditions. This allows businesses\u2014especially in the hospitality, retail, and real estate industries\u2014to identify the most profitable locations for expansion or new development.\n\nWith its intuitive interface and powerful analytics, MapZot.AI simplifies complex data analysis, enabling users to assess market demand, understand consumer behavior, and optimize pricing strategies. Whether selecting a hotel site, opening a new store, or expanding a business, MapZot.AI delivers actionable intelligence to ensure strategic and profitable decision-making",
+    "description": "MapZot.AI is an advanced AI-powered platform designed to assist businesses in making data-driven site selection and market analysis decisions. By leveraging cutting-edge machine learning and geospatial analytics, MapZot.AI provides real-time insights into key factors such as competitor density, customer demographics, tourism trends, and economic conditions. This allows businesses—especially in the hospitality, retail, and real estate industries—to identify the most profitable locations for expansion or new development.\n\nWith its intuitive interface and powerful analytics, MapZot.AI simplifies complex data analysis, enabling users to assess market demand, understand consumer behavior, and optimize pricing strategies. Whether selecting a hotel site, opening a new store, or expanding a business, MapZot.AI delivers actionable intelligence to ensure strategic and profitable decision-making",
     "short_description": "MapZot.AI is an AI-powered platform that provides real-time insights into site selection, competitor analysis, and market trends to help businesses identify the most profitable locations.",
     "target_audience": {
       "roles": [],
