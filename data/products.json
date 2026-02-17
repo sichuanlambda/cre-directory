@@ -5376,26 +5376,32 @@
     "url": "https://www.realnex.com",
     "logo_url": "https://logo.clearbit.com/realnex.com",
     "headline": "Real estate solutions for professionals.",
-    "description": "RealNex is a commercial real estate platform offering CRM, marketing, and transaction management tools. It helps brokers manage their client relationships, conduct market research, and close deals efficiently.",
+    "description": "RealNex is a comprehensive commercial real estate software suite that provides the complete solution for CRE professionals, including CRM, deal management, analytics, and marketplace capabilities. The platform features RealNex Navigator and NavigatorPRO™ which combines market-leading CRM with investment analysis, presentation tools, transaction management, and a dynamic marketplace. With RX Data integration, the platform provides critical property records, ownership details, loan information, and predictive analytics to help users find, win, and execute business more efficiently.",
     "short_description": "Real estate solutions for professionals.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Commercial Real Estate Brokers",
+        "Investment Advisors",
+        "Leasing Agents",
+        "Property Managers",
+        "Deal Teams"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
+        "Commercial",
         "Office",
-        "Retail"
+        "Industrial",
+        "Retail",
+        "Multifamily",
+        "Investment Properties"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Subscription-based - Contact for pricing and demo",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -5441,7 +5447,26 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "features": [
+      "RealNex Navigator CRM system",
+      "NavigatorPRO with RX Data integration",
+      "Property records and ownership data",
+      "Loan details with lender information and maturity dates",
+      "Investment and lease analysis engine",
+      "Presentation builder with 60+ templates",
+      "Transaction management and deal tracking",
+      "Virtual Deal Rooms for secure transactions",
+      "RealNex MarketPlace for global exposure",
+      "eMarketing campaigns and automation",
+      "Predictive analytics for prospecting",
+      "Mobile app and cloud access",
+      "Tour scheduling and management",
+      "Online leasing portal",
+      "7 levels of security access control"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:37:27.798594Z"
   },
   {
     "title": "Realpage",
@@ -5449,34 +5474,29 @@
     "url": "https://www.realpage.com",
     "logo_url": "https://logo.clearbit.com/realpage.com",
     "headline": "Commercial real estate software solution",
-    "description": "Professional commercial real estate software platform providing comprehensive tools and solutions for industry professionals.",
+    "description": "RealPage is a leading property management software platform that serves the multifamily rental housing industry with comprehensive technology solutions. The platform features the Lumina AI Workforce, a team of digital agents built to handle routine tasks across leasing, operations, facilities, finance, and resident support. RealPage provides end-to-end solutions including demand forecasting, online leasing, property management, revenue optimization, and resident experience platforms, trusted by some of the world largest and most respected rental real estate organizations.",
     "short_description": "Commercial real estate software platform.",
     "target_audience": {
       "roles": [
         "Property Managers",
-        "Brokers",
-        "Investors"
+        "Leasing Teams",
+        "Asset Managers",
+        "Operations Teams",
+        "Revenue Managers"
       ],
       "company_sizes": [
-        "Small",
-        "Mid-Market"
+        "Mid-Market",
+        "Enterprise"
       ],
       "property_types": [
-        "Commercial"
+        "Multifamily",
+        "Residential",
+        "Apartment Communities",
+        "Rental Housing"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact for custom pricing based on property portfolio size",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -5515,7 +5535,26 @@
     "tagline": "Commercial real estate software solution",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Lumina AI Workforce - Digital agents for multifamily operations",
+      "DemandX Platform - Demand forecasting and operations",
+      "OneSite Property Management Software",
+      "Online Leasing platform and automation",
+      "LOFT Resident Experience Platform",
+      "Revenue Management and optimization",
+      "Spend Management and vendor control",
+      "Utility Management and billing",
+      "Prequalification and fraud prevention solutions",
+      "AI and machine learning fraud detection",
+      "Income and identity verification (with Plaid)",
+      "Financial suite and accounting tools",
+      "G5 Marketing Solutions and digital advertising",
+      "Knock CRM for multifamily",
+      "Market intelligence and analytics"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:37:42.744229Z"
   },
   {
     "title": "Reonomy",
@@ -5523,25 +5562,27 @@
     "url": "https://www.reonomy.com",
     "logo_url": "https://logo.clearbit.com/reonomy.com",
     "headline": "Unlock CRE Property Intelligence",
-    "description": "Reonomy provides commercial real estate intelligence through connected data partnerships and machine learning technologies. The platform combines exclusive data partnerships with advanced analytics to deliver unprecedented insights into property ownership, transactions, and market trends. Reonomy's data network encompasses industry-leading providers of title, assessor, geospatial, and demographic data.",
+    "description": "Reonomy is a commercial real estate property intelligence platform that combines an exclusive network of data partnerships with machine learning technologies to deliver comprehensive property insights. The platform provides connected data from industry-leading providers including title and assessor data, geospatial information, and demographic analytics. Reonomy helps CRE professionals access unprecedented property intelligence through their extensive network of data suppliers and advanced analytics capabilities.",
     "short_description": "CRE intelligence platform combining exclusive data partnerships with machine learning.",
     "target_audience": {
       "roles": [
+        "Commercial Real Estate Professionals",
+        "Property Researchers",
+        "Investment Analysts",
         "Brokers",
-        "Investors",
-        "Lenders",
-        "Analysts",
         "Developers"
       ],
       "company_sizes": [
+        "Small",
         "Mid-Market",
         "Enterprise"
       ],
       "property_types": [
+        "Commercial",
         "Office",
         "Industrial",
         "Retail",
-        "Multifamily"
+        "Mixed-Use"
       ]
     },
     "feature_groups": [
@@ -5563,17 +5604,7 @@
         ]
       }
     ],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Free trial available, contact for pricing",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -5617,7 +5648,22 @@
       "Industrial",
       "Retail",
       "Multifamily"
-    ]
+    ],
+    "features": [
+      "CRE property intelligence platform",
+      "Machine learning-powered data analysis",
+      "Title and assessor data integration",
+      "Geospatial data and mapping",
+      "Demographic data and analytics",
+      "Comprehensive property insights",
+      "Connected data network access",
+      "Industry-leading data partnerships",
+      "Property research and due diligence tools",
+      "Advanced analytics and intelligence",
+      "Real estate market data access"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:37:56.623107Z"
   },
   {
     "title": "Rethink CRM",
@@ -5760,24 +5806,25 @@
     "url": "https://www.routable.com",
     "logo_url": "https://logo.clearbit.com/routable.com",
     "headline": "Automated payments for businesses.",
-    "description": "Automated payments for businesses.. Routable streamlines accounts payable and receivable processes, automating payments for businesses.",
+    "description": "Routable is a comprehensive accounts payable automation and vendor management platform designed for modern businesses. The platform automates invoice processing and payments, streamlines vendor onboarding, and provides customizable approval workflows at 30% less cost than competitors. While not specifically designed for commercial real estate, many CRE companies use Routable to manage their vendor payments, contractor payments, and financial operations across their property portfolios and business operations.",
     "short_description": "Automated payments for businesses.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Finance Teams",
+        "Accounts Payable Managers",
+        "CFOs",
+        "Operations Teams"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Commercial"
+        "Not CRE-specific - General business financial operations"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "30% less than competitors - Contact for specific pricing",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -5819,7 +5866,25 @@
     "tagline": "Automated payments for businesses.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Accounts payable automation",
+      "Mass payments to 220+ countries",
+      "Vendor management system",
+      "Automated invoice processing",
+      "Customizable approval workflows",
+      "Vendor onboarding and compliance",
+      "Tax management (W-9, W-8, 1099, 1042)",
+      "International payments in 140+ currencies",
+      "API integration capabilities",
+      "Audit-ready data and compliance",
+      "Payment reconciliation automation",
+      "Vendor compliance checks",
+      "Real-time payment tracking",
+      "Enterprise-grade security"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:38:24.658674Z"
   },
   {
     "title": "russ",
