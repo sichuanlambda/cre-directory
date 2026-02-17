@@ -37,6 +37,18 @@ function pricingLabel(product) {
   return 'Contact for pricing';
 }
 
+function compactProductCard(p) {
+  return `<div class="product-card product-card-compact">
+    <div class="card-top">
+      <div class="product-logo" style="width:40px;height:40px">${logoHTML(p, 40)}</div>
+      <div class="product-info">
+        <h3><a href="product.html#${p.slug}">${p.title}</a></h3>
+        <div class="tagline">${p.short_description || p.tagline || p.headline || ''}</div>
+      </div>
+    </div>
+  </div>`;
+}
+
 function productCard(p) {
   const cats = (p.categories || []).slice(0, 2).map(c => `<span class="badge badge-accent">${c}</span>`).join('');
   const rating = p.rating ? `<div class="card-rating">${starsHTML(p.rating, 13)} <span class="rating-num">${p.rating}</span></div>` : '';
@@ -67,16 +79,27 @@ function productCard(p) {
   </div>`;
 }
 
+const CATEGORY_ICONS = {
+  'property-management': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4"/><path d="M9 9h1"/><path d="M14 9h1"/><path d="M9 13h1"/><path d="M14 13h1"/></svg>',
+  'crm-marketing': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="7" r="3"/><circle cx="17" cy="7" r="3"/><path d="M3 21v-2a4 4 0 0 1 4-4h4a4 4 0 0 1 4 4v2"/><path d="M21 21v-2a4 4 0 0 0-3-3.87"/></svg>',
+  'investment-valuation': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/></svg>',
+  'construction-development': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18h20"/><path d="M6 18V8l6-4 6 4v10"/><path d="M10 18v-6h4v6"/><path d="M2 8l4-2"/><path d="M22 8l-4-2"/><rect x="3" y="14" width="3" height="4"/><rect x="18" y="14" width="3" height="4"/></svg>',
+  'data-analytics': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="12" width="4" height="9"/><rect x="10" y="7" width="4" height="14"/><rect x="17" y="3" width="4" height="18"/></svg>',
+  'broker-tools': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2"/><path d="M12 12v1"/></svg>',
+  'site-selection': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>',
+  'tenant-experience': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 2H9a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"/><path d="M7 7v3a5 5 0 0 0 10 0V7"/><circle cx="12" cy="17" r="1"/><path d="M12 18v4"/></svg>',
+  'accounting-finance': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="12" y1="10" x2="14" y2="10"/><line x1="8" y1="14" x2="10" y2="14"/><line x1="12" y1="14" x2="14" y2="14"/><line x1="8" y1="18" x2="10" y2="18"/><line x1="12" y1="18" x2="16" y2="18"/></svg>',
+  'ai-automation': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 1v3"/><path d="M15 1v3"/><path d="M9 20v3"/><path d="M15 20v3"/><path d="M1 9h3"/><path d="M1 15h3"/><path d="M20 9h3"/><path d="M20 15h3"/><rect x="8" y="8" width="8" height="8" rx="1"/></svg>',
+  'listing-services': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>',
+  'crowdfunding-investing': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="6"/><circle cx="16" cy="16" r="6"/><path d="M7 6v4"/><path d="M5.5 8h3"/><path d="M14 16h4"/></svg>',
+  'legal-compliance': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3"/><path d="M5.5 9l6.5-3 6.5 3"/><path d="M3 15l3-6h0"/><path d="M21 15l-3-6h0"/><circle cx="6" cy="15" r="3"/><circle cx="18" cy="15" r="3"/><path d="M3 21h18"/></svg>',
+  'workplace-space-management': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg>'
+};
+
 function categoryCard(cat) {
-  const icons = {
-    'property-management': '🏢', 'crm-marketing': '📧', 'investment-valuation': '📊',
-    'construction-development': '🏗️', 'data-analytics': '📈', 'broker-tools': '🤝',
-    'site-selection': '📍', 'tenant-experience': '👥', 'accounting-finance': '💰',
-    'ai-automation': '🤖', 'listing-services': '📋', 'crowdfunding-investing': '💎',
-    'legal-compliance': '⚖️', 'workplace-space-management': '🏬'
-  };
+  const icon = CATEGORY_ICONS[cat.slug] || '';
   return `<a class="cat-card" href="category.html#${cat.slug}">
-    <span class="cat-icon">${icons[cat.slug] || '📦'}</span>
+    <span class="cat-icon">${icon}</span>
     <h3>${cat.name}</h3>
     <div class="count">${cat.product_count} tools</div>
   </a>`;
@@ -331,7 +354,7 @@ async function initProduct() {
     if (related.length === 0) return;
     const items = related.slice(0, 10);
     const id = 'carousel-' + slugify(cat);
-    const cards = items.map(p => { usedSlugs.add(p.slug); return productCard(p); }).join('');
+    const cards = items.map(p => { usedSlugs.add(p.slug); return compactProductCard(p); }).join('');
     relatedHTML += `<div class="carousel-group"><h3>${cat}</h3><div class="carousel-wrapper">
       <button class="carousel-btn prev" onclick="scrollCarousel('${id}',-1)">‹</button>
       <div class="carousel-track" id="${id}">${cards}</div>
@@ -461,21 +484,54 @@ async function initCategory() {
     return;
   }
   
-  const seoTitle = `${cat.name} Software - CRE Software Directory`;
+  const seoTitle = cat.seo_title || `${cat.name} Software - CRE Software Directory`;
+  const seoDesc = cat.seo_description || `${cat.description} Browse and compare ${cat.product_count} ${cat.name.toLowerCase()} tools.`;
   document.title = seoTitle;
-  setMeta('description', `${cat.description} Browse and compare ${cat.product_count} ${cat.name.toLowerCase()} tools.`);
+  setMeta('description', seoDesc);
   setMeta('og:title', seoTitle);
-  setMeta('og:description', cat.description);
+  setMeta('og:description', seoDesc);
   setMeta('og:url', `${BASE_URL}/category.html#${slug}`);
+  setMeta('og:type', 'website');
   setCanonical(`${BASE_URL}/category.html#${slug}`);
+
+  const ed = cat.editorial || {};
   
   if (header) {
+    const icon = typeof CATEGORY_ICONS !== 'undefined' ? (CATEGORY_ICONS[slug] || '') : '';
     header.innerHTML = `<div class="container">
       <div class="breadcrumbs"><a href="index.html">Home</a> / ${cat.name}</div>
-      <h1>${cat.name} Software</h1>
-      <p>${cat.description}</p>
-      <div class="cat-stats"><strong>${cat.product_count}</strong> tools in this category</div>
+      <div class="category-hero-row">
+        ${icon ? `<span class="category-hero-icon">${icon}</span>` : ''}
+        <div>
+          <h1>${cat.name} Software</h1>
+          <p>${cat.description}</p>
+          <div class="cat-stats"><strong>${cat.product_count}</strong> tools in this category</div>
+        </div>
+      </div>
     </div>`;
+  }
+
+  // Editorial intro
+  const editorialContainer = document.getElementById('editorial-content');
+  if (editorialContainer && ed.intro) {
+    let editorialHTML = '';
+    // Intro
+    editorialHTML += `<div class="editorial-intro">${ed.intro.split('\n').filter(p=>p.trim()).map(p => `<p>${p}</p>`).join('')}</div>`;
+    // What to look for
+    if (ed.what_to_look_for && ed.what_to_look_for.length) {
+      editorialHTML += `<div class="editorial-criteria"><h2>What to Look For in ${cat.name} Software</h2><div class="criteria-grid">${ed.what_to_look_for.map(c => `<div class="criteria-card"><h3>${c.title}</h3><p>${c.description}</p></div>`).join('')}</div></div>`;
+    }
+    editorialContainer.innerHTML = editorialHTML;
+    editorialContainer.style.display = '';
+  }
+
+  // FAQ section
+  const faqContainer = document.getElementById('faq-section');
+  if (faqContainer && ed.faq && ed.faq.length) {
+    faqContainer.innerHTML = `<div class="container"><h2>Frequently Asked Questions</h2><div class="faq-list">${ed.faq.map(f => `<details class="faq-item"><summary>${f.question}</summary><p>${f.answer}</p></details>`).join('')}</div>${ed.buyer_tip ? `<div class="buyer-tip"><strong>💡 Buyer Tip:</strong> ${ed.buyer_tip}</div>` : ''}</div>`;
+    faqContainer.style.display = '';
+    // FAQ JSON-LD
+    addJsonLd({"@context":"https://schema.org","@type":"FAQPage","mainEntity":ed.faq.map(f=>({"@type":"Question","name":f.question,"acceptedAnswer":{"@type":"Answer","text":f.answer}}))});
   }
   
   let products = PRODUCTS.filter(p => cat.products.includes(p.slug));

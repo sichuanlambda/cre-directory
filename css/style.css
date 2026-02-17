@@ -115,7 +115,7 @@ nav .nav-links a.active { color: var(--white); background: rgba(255,255,255,0.12
   gap: 12px;
 }
 .cat-card:hover { border-color: var(--accent); box-shadow: var(--shadow-md); transform: translateY(-1px); text-decoration: none; }
-.cat-icon { font-size: 28px; flex-shrink: 0; }
+.cat-icon { font-size: 28px; flex-shrink: 0; color: var(--accent); display: flex; align-items: center; justify-content: center; width: 40px; height: 40px; background: var(--accent-light); border-radius: var(--radius); }
 .cat-card h3 { font-size: 14px; font-weight: 600; color: var(--navy); margin-bottom: 2px; }
 .cat-card .count { font-size: 12px; color: var(--gray-600); }
 
@@ -475,6 +475,41 @@ nav .nav-links a.active { color: var(--white); background: rgba(255,255,255,0.12
 .seo-block { max-width: 800px; }
 .seo-block h2 { font-size: 20px; font-weight: 700; color: var(--navy); margin-bottom: 12px; }
 .seo-block p { font-size: 15px; line-height: 1.8; color: var(--gray-700); }
+
+/* ===== COMPACT PRODUCT CARDS ===== */
+.product-card-compact { padding: 14px; gap: 0; }
+.product-card-compact .card-top { gap: 10px; }
+.product-card-compact .product-info h3 { font-size: 14px; }
+.product-card-compact .tagline { font-size: 12px; -webkit-line-clamp: 2; }
+
+/* ===== CATEGORY HERO ===== */
+.category-hero-row { display: flex; align-items: flex-start; gap: 16px; }
+.category-hero-icon { color: var(--accent); flex-shrink: 0; margin-top: 4px; }
+.category-hero-icon svg { width: 36px; height: 36px; }
+
+/* ===== EDITORIAL CONTENT ===== */
+.editorial-intro { max-width: 800px; margin-bottom: 32px; padding: 0 24px; }
+.editorial-intro p { font-size: 15px; line-height: 1.8; color: var(--gray-700); margin-bottom: 16px; }
+#editorial-content { padding-top: 0; }
+#editorial-content .editorial-intro { margin: 0 auto 32px; }
+#editorial-content .editorial-criteria { max-width: var(--max-width); margin: 0 auto; padding: 0 24px; }
+.editorial-criteria h2 { font-size: 20px; font-weight: 700; color: var(--navy); margin-bottom: 16px; }
+.criteria-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; margin-bottom: 24px; }
+.criteria-card { background: var(--gray-50); border: 1px solid var(--gray-200); border-radius: var(--radius-lg); padding: 20px; }
+.criteria-card h3 { font-size: 15px; font-weight: 700; color: var(--navy); margin-bottom: 6px; }
+.criteria-card p { font-size: 14px; line-height: 1.6; color: var(--gray-700); }
+
+/* ===== FAQ SECTION ===== */
+#faq-section { background: var(--gray-50); }
+#faq-section h2 { font-size: 22px; font-weight: 700; color: var(--navy); margin-bottom: 20px; }
+.faq-list { max-width: 800px; }
+.faq-item { border: 1px solid var(--gray-200); border-radius: var(--radius); margin-bottom: 8px; background: var(--white); }
+.faq-item summary { padding: 16px 20px; font-size: 15px; font-weight: 600; color: var(--navy); cursor: pointer; list-style: none; }
+.faq-item summary::-webkit-details-marker { display: none; }
+.faq-item summary::before { content: '▸ '; color: var(--accent); }
+.faq-item[open] summary::before { content: '▾ '; }
+.faq-item p { padding: 0 20px 16px; font-size: 14px; line-height: 1.7; color: var(--gray-700); }
+.buyer-tip { margin-top: 24px; padding: 20px; background: var(--accent-light); border-left: 4px solid var(--accent); border-radius: var(--radius); font-size: 14px; line-height: 1.7; color: var(--gray-800); max-width: 800px; }
 
 /* ===== FOOTER ===== */
 footer { background: var(--navy); color: var(--gray-400); padding: 32px 0; margin-top: 48px; }
