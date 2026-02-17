@@ -4,19 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Compare CRE Software - CRE Software Directory</title>
-  <meta name="description" content="Compare commercial real estate software tools side by side.">
+  <meta name="description" content="Compare commercial real estate software tools side by side. Evaluate features, pricing, and more.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav>
-    <div class="container">
+    <div class="container nav-inner">
       <a href="index.html" class="logo">CRE<span>Software</span></a>
-      <button class="mobile-toggle">☰</button>
+      <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
       <div class="nav-links">
         <a href="index.html">Directory</a>
-        <a href="compare.html">Compare</a>
+        <a href="compare.html" class="active">Compare</a>
         <a href="submit.html">Submit a Tool</a>
       </div>
     </div>
@@ -24,15 +24,16 @@
 
   <section class="section">
     <div class="container">
+      <div class="breadcrumbs"><a href="index.html">Home</a> / Compare</div>
       <h1 class="section-title" style="font-size:28px;margin-bottom:8px">Compare CRE Software</h1>
       <p style="color:var(--gray-600);margin-bottom:32px">Select two tools to compare side by side.</p>
       <div class="compare-container">
         <div class="compare-select">
-          <select class="compare-product-select" style="width:100%;padding:10px;border:1px solid var(--gray-300);border-radius:var(--radius);font-size:14px;margin-bottom:16px"></select>
+          <select class="compare-product-select"></select>
           <div id="compare-detail-0"></div>
         </div>
         <div class="compare-select">
-          <select class="compare-product-select" style="width:100%;padding:10px;border:1px solid var(--gray-300);border-radius:var(--radius);font-size:14px;margin-bottom:16px"></select>
+          <select class="compare-product-select"></select>
           <div id="compare-detail-1"></div>
         </div>
       </div>
@@ -40,7 +41,7 @@
   </section>
 
   <footer>
-    <div class="container">
+    <div class="container footer-inner">
       <span>© 2025 CRE Software Directory</span>
       <div><a href="submit.html">Submit a Tool</a> · <a href="mailto:hello@cresoftware.tech">Contact</a></div>
     </div>

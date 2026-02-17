@@ -11,43 +11,54 @@
 </head>
 <body>
   <nav>
-    <div class="container">
+    <div class="container nav-inner">
       <a href="index.html" class="logo">CRE<span>Software</span></a>
-      <button class="mobile-toggle">☰</button>
+      <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
       <div class="nav-links">
         <a href="index.html">Directory</a>
         <a href="compare.html">Compare</a>
-        <a href="submit.html">Submit a Tool</a>
+        <a href="submit.html" class="active">Submit a Tool</a>
       </div>
     </div>
   </nav>
 
   <div class="form-page">
+    <div class="breadcrumbs"><a href="index.html">Home</a> / Submit a Tool</div>
     <h1>Submit a Tool</h1>
     <p class="subtitle">Know a CRE software tool that's missing from our directory? Add it here.</p>
     
-    <div class="success-msg" id="success-msg">✅ Thank you! Your submission has been received and will be reviewed shortly.</div>
+    <div class="success-msg" id="success-msg">
+      <div class="success-icon">✅</div>
+      <h3>Thank you!</h3>
+      <p>Your submission has been received and will be reviewed shortly.</p>
+      <a href="index.html" class="cta-btn cta-btn-sm">Browse Directory</a>
+    </div>
 
     <form id="submit-form" action="https://formspree.io/f/maqdjvqo" method="POST">
       <div class="form-group">
-        <label>Company Name <span class="req">*</span></label>
-        <input type="text" name="company_name" required>
+        <label>Tool Name <span class="req">*</span></label>
+        <input type="text" name="tool_name" required placeholder="e.g. VTS, Yardi, CoStar">
       </div>
       <div class="form-group">
         <label>Website URL <span class="req">*</span></label>
         <input type="url" name="website_url" required placeholder="https://...">
       </div>
       <div class="form-group">
-        <label>Product Name <span class="req">*</span></label>
-        <input type="text" name="product_name" required>
+        <label>Your Email <span class="req">*</span></label>
+        <input type="email" name="email" required placeholder="you@company.com">
       </div>
       <div class="form-group">
-        <label>Short Description / Tagline <span class="req">*</span> <small>(max 200 chars)</small></label>
-        <input type="text" name="tagline" required maxlength="200">
+        <label>Your Relationship to This Tool</label>
+        <select name="relationship">
+          <option value="">Select...</option>
+          <option value="I work there">I work there</option>
+          <option value="I'm a user">I'm a user</option>
+          <option value="Just suggesting">Just suggesting</option>
+        </select>
       </div>
       <div class="form-group">
-        <label>Full Description <span class="req">*</span> <small>(max 2000 chars)</small></label>
-        <textarea name="description" required maxlength="2000" rows="5"></textarea>
+        <label>Short Description <small>(one-liner)</small></label>
+        <input type="text" name="short_description" maxlength="200" placeholder="What does this tool do in one sentence?">
       </div>
       <div class="form-group">
         <label>Categories</label>
@@ -56,7 +67,6 @@
           <label><input type="checkbox" name="categories" value="CRM & Marketing"> CRM & Marketing</label>
           <label><input type="checkbox" name="categories" value="Investment & Valuation"> Investment & Valuation</label>
           <label><input type="checkbox" name="categories" value="Construction & Development"> Construction & Development</label>
-          <label><input type="checkbox" name="categories" value="Lease Administration"> Lease Administration</label>
           <label><input type="checkbox" name="categories" value="Data & Analytics"> Data & Analytics</label>
           <label><input type="checkbox" name="categories" value="Broker Tools"> Broker Tools</label>
           <label><input type="checkbox" name="categories" value="Site Selection"> Site Selection</label>
@@ -65,43 +75,21 @@
           <label><input type="checkbox" name="categories" value="AI & Automation"> AI & Automation</label>
           <label><input type="checkbox" name="categories" value="Listing Services"> Listing Services</label>
           <label><input type="checkbox" name="categories" value="Crowdfunding & Investing"> Crowdfunding & Investing</label>
-          <label><input type="checkbox" name="categories" value="Energy & Sustainability"> Energy & Sustainability</label>
           <label><input type="checkbox" name="categories" value="Legal & Compliance"> Legal & Compliance</label>
           <label><input type="checkbox" name="categories" value="Workplace & Space Management"> Workplace & Space Management</label>
         </div>
       </div>
       <div class="form-group">
-        <label>Property Types</label>
-        <div class="checkbox-group">
-          <label><input type="checkbox" name="property_types" value="Office"> Office</label>
-          <label><input type="checkbox" name="property_types" value="Retail"> Retail</label>
-          <label><input type="checkbox" name="property_types" value="Industrial"> Industrial</label>
-          <label><input type="checkbox" name="property_types" value="Multifamily"> Multifamily</label>
-          <label><input type="checkbox" name="property_types" value="Mixed-Use"> Mixed-Use</label>
-          <label><input type="checkbox" name="property_types" value="Residential"> Residential</label>
-        </div>
+        <label>Pricing Info <small>(plans, pricing, free trial?)</small></label>
+        <textarea name="pricing_info" rows="3" placeholder="e.g. Free plan available, Pro at $49/mo, Enterprise custom pricing"></textarea>
       </div>
       <div class="form-group">
-        <label>Pricing Model</label>
-        <div class="radio-group">
-          <label><input type="radio" name="pricing_model" value="Free"> Free</label>
-          <label><input type="radio" name="pricing_model" value="Freemium"> Freemium</label>
-          <label><input type="radio" name="pricing_model" value="Subscription"> Subscription</label>
-          <label><input type="radio" name="pricing_model" value="Quote-based"> Quote-based</label>
-          <label><input type="radio" name="pricing_model" value="Other"> Other</label>
-        </div>
+        <label>Screenshot URLs <small>(comma-separated)</small></label>
+        <textarea name="screenshot_urls" rows="2" placeholder="https://example.com/screenshot1.png, https://..."></textarea>
       </div>
       <div class="form-group">
-        <label>Starting Price <small>(optional)</small></label>
-        <input type="text" name="starting_price" placeholder="e.g. $99/month">
-      </div>
-      <div class="form-group">
-        <label>Contact Email <span class="req">*</span></label>
-        <input type="email" name="email" required>
-      </div>
-      <div class="form-group">
-        <label>Logo URL <small>(optional)</small></label>
-        <input type="url" name="logo_url" placeholder="https://...">
+        <label>Additional Notes</label>
+        <textarea name="notes" rows="4" placeholder="Anything else you'd like us to know about this tool..."></textarea>
       </div>
       <div class="form-submit">
         <button type="submit" class="cta-btn">Submit Tool for Review</button>
@@ -110,7 +98,7 @@
   </div>
 
   <footer>
-    <div class="container">
+    <div class="container footer-inner">
       <span>© 2025 CRE Software Directory</span>
       <div><a href="submit.html">Submit a Tool</a> · <a href="mailto:hello@cresoftware.tech">Contact</a></div>
     </div>
@@ -121,16 +109,11 @@
     initNav();
     document.getElementById('submit-form').addEventListener('submit', function(e) {
       e.preventDefault();
-      // Save to localStorage as backup
       const data = Object.fromEntries(new FormData(this));
       const submissions = JSON.parse(localStorage.getItem('cre-submissions') || '[]');
       submissions.push({...data, submitted_at: new Date().toISOString()});
       localStorage.setItem('cre-submissions', JSON.stringify(submissions));
-      
-      // Try Formspree
-      fetch(this.action, { method: 'POST', body: new FormData(this), headers: { 'Accept': 'application/json' }})
-        .catch(() => {});
-      
+      fetch(this.action, { method: 'POST', body: new FormData(this), headers: { 'Accept': 'application/json' }}).catch(() => {});
       this.style.display = 'none';
       document.getElementById('success-msg').style.display = 'block';
     });

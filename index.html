@@ -3,23 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRE Software Directory - Find & Compare 180+ Commercial Real Estate Tools</title>
-  <meta name="description" content="The most comprehensive directory of commercial real estate software. Find, compare, and evaluate 180+ CRE tools for property management, investment analysis, brokerage, and more.">
-  <meta property="og:title" content="CRE Software Directory">
-  <meta property="og:description" content="Find and compare 180+ software tools for CRE professionals.">
+  <title>CRE Software Directory - Find & Compare 174+ Commercial Real Estate Tools</title>
+  <meta name="description" content="The most comprehensive directory of commercial real estate software. Find, compare, and evaluate 174+ CRE tools for property management, investment analysis, brokerage, and more.">
+  <meta property="og:title" content="CRE Software Directory - Find the Right CRE Software">
+  <meta property="og:description" content="Find and compare 174+ software tools for CRE professionals.">
   <meta property="og:type" content="website">
-  <link rel="canonical" href="https://sichuanlambda.github.io/cre-directory/">
+  <meta property="og:url" content="https://cresoftware.tech/">
+  <link rel="canonical" href="https://cresoftware.tech/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <nav>
-    <div class="container">
+    <div class="container nav-inner">
       <a href="index.html" class="logo">CRE<span>Software</span></a>
-      <button class="mobile-toggle">☰</button>
+      <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
       <div class="nav-links">
-        <a href="index.html">Directory</a>
+        <a href="index.html" class="active">Directory</a>
         <a href="compare.html">Compare</a>
         <a href="submit.html">Submit a Tool</a>
       </div>
@@ -28,12 +29,21 @@
 
   <section class="hero">
     <div class="container">
-      <h1>The Commercial Real Estate Software Directory</h1>
-      <p>Find and compare 180+ software tools for CRE professionals</p>
+      <h1>Find the Right CRE Software</h1>
+      <p>Compare <strong id="hero-count">174+</strong> tools across <strong id="hero-cats">14</strong> categories</p>
       <div class="search-box">
         <span class="search-icon">🔍</span>
-        <input type="text" id="search-input" placeholder="Search tools by name, category, or feature..." aria-label="Search software tools">
+        <input type="text" id="search-input" placeholder="Search by name, category, or feature..." aria-label="Search software tools">
       </div>
+    </div>
+  </section>
+
+  <section class="section hide-on-search" id="featured-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">⭐ Featured & Top Rated</h2>
+      </div>
+      <div class="product-grid" id="featured-products"></div>
     </div>
   </section>
 
@@ -44,25 +54,35 @@
     </div>
   </section>
 
-  <section class="section hide-on-search">
+  <section class="section hide-on-search" id="recent-section">
     <div class="container">
-      <h2 class="section-title">Featured Tools</h2>
-      <div class="product-grid" id="featured-products"></div>
+      <h2 class="section-title">Recently Updated</h2>
+      <div class="product-grid" id="recent-products"></div>
     </div>
   </section>
 
   <section class="section">
     <div class="container">
-      <h2 class="section-title">All Software Tools</h2>
+      <h2 class="section-title" id="all-title">All Software Tools</h2>
       <div class="product-grid" id="all-products"></div>
     </div>
   </section>
 
-  <footer>
+  <section class="section hide-on-search seo-footer-section">
     <div class="container">
+      <div class="seo-block">
+        <h2>About CRE Software Directory</h2>
+        <p>CRE Software Directory helps commercial real estate professionals find the right software for their needs. Whether you're a broker looking for deal management tools, an asset manager evaluating portfolio analytics, or a property manager seeking tenant experience platforms, our directory provides comprehensive reviews, pricing information, feature comparisons, and alternatives for over 174 tools across 14 categories. Every listing includes detailed feature breakdowns, pricing plans, pros and cons, and company information to help you make informed decisions.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
       <span>© 2025 CRE Software Directory</span>
       <div>
         <a href="submit.html">Submit a Tool</a> · 
+        <a href="compare.html">Compare Tools</a> · 
         <a href="mailto:hello@cresoftware.tech">Contact</a>
       </div>
     </div>

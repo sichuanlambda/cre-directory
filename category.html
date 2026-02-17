@@ -11,9 +11,9 @@
 </head>
 <body>
   <nav>
-    <div class="container">
+    <div class="container nav-inner">
       <a href="index.html" class="logo">CRE<span>Software</span></a>
-      <button class="mobile-toggle">☰</button>
+      <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
       <div class="nav-links">
         <a href="index.html">Directory</a>
         <a href="compare.html">Compare</a>
@@ -24,11 +24,17 @@
   <div class="category-header" id="category-header"></div>
   <section class="section">
     <div class="container">
-      <div class="product-grid" id="category-products"></div>
+      <div class="category-layout">
+        <aside class="filter-sidebar" id="filter-sidebar"></aside>
+        <div class="category-main">
+          <div class="sort-bar" id="sort-bar"></div>
+          <div class="product-grid" id="category-products"></div>
+        </div>
+      </div>
     </div>
   </section>
   <footer>
-    <div class="container">
+    <div class="container footer-inner">
       <span>© 2025 CRE Software Directory</span>
       <div><a href="submit.html">Submit a Tool</a> · <a href="mailto:hello@cresoftware.tech">Contact</a></div>
     </div>
