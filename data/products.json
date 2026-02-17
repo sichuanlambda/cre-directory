@@ -11298,15 +11298,9 @@
     "url": "https://www.rentometer.com",
     "logo_url": "https://logo.clearbit.com/rentometer.com",
     "headline": "Rental pricing data and analysis for property owners and investors.",
-    "description": "Rentometer provides rental pricing data and analysis to help property owners and investors make informed decisions.",
+    "description": "Rentometer is a rental market analysis platform that provides hyperlocal rent estimates and comparables to help real estate professionals quickly evaluate rental properties. The platform offers detailed rent analysis reports, market comps, and data-driven insights for property investors, agents, and wholesalers to make informed rental market decisions.",
     "short_description": "Rental pricing data and analysis for property owners and investors.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Real estate investors, real estate agents, wholesale real estate businesses, property managers, and anyone needing rental market analysis and comparable data for investment decisions.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -11356,7 +11350,23 @@
     "tagline": "Rental pricing data and analysis for property owners and investors.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "QuickView\u2122 Rent Estimates",
+      "Pro Reports with detailed analysis",
+      "Rent Comp Downloads",
+      "Custom Report Branding",
+      "Rentometer API",
+      "Yield Tracker",
+      "Batch Processor",
+      "Lead Generation tools",
+      "Mobile App Access",
+      "Hyperlocal rental data",
+      "Market analysis reports"
+    ],
+    "pricing_info": "Subscription-based pricing with Essential and Pro tiers. Essential includes QuickView estimates, Pro Reports, rent comp downloads, custom branding, and mobile access. Pro tier adds API access, Yield Tracker, Batch Processor, and Lead Generation tools. Contact for specific pricing details.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:28:53.678390Z"
   },
   {
     "title": "DoorLoop",
@@ -11364,24 +11374,9 @@
     "url": "https://www.doorloop.com",
     "logo_url": "https://logo.clearbit.com/doorloop.com",
     "headline": "All-in-one property management software",
-    "description": "DoorLoop provides all-in-one property management software for residential and commercial property managers. The platform includes tenant screening, lease management, rent collection, maintenance requests, accounting, and reporting tools. Designed for small to medium-sized property management companies, DoorLoop streamlines operations with user-friendly interfaces and automated workflows.",
+    "description": "DoorLoop is an all-in-one cloud-based property management software built for landlords, property managers, and real estate investors of any size. The platform streamlines rental property operations from tenant screening and e-leases to rent collection, maintenance management, and full accounting, replacing multiple tools and spreadsheets with one comprehensive system designed for rental growth.",
     "short_description": "All-in-one property management software for residential and commercial properties.",
-    "target_audience": {
-      "roles": [
-        "Property Managers",
-        "Landlords",
-        "Real Estate Investors"
-      ],
-      "company_sizes": [
-        "Small",
-        "Mid-Market"
-      ],
-      "property_types": [
-        "Residential",
-        "Multifamily",
-        "Commercial"
-      ]
-    },
+    "target_audience": "Landlords, property managers, and real estate investors of any size managing single-family homes, multi-family properties, mixed-use commercial properties, HOAs, mobile home parks, student housing, and affordable housing portfolios.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -11436,7 +11431,30 @@
       "Residential",
       "Multifamily",
       "Commercial"
-    ]
+    ],
+    "features": [
+      "AI Assistant for automated tenant support",
+      "AI Inspections for rapid property assessments",
+      "DoorLoop Workflows for task automation",
+      "Rapid rent collection with multiple payment methods",
+      "Automated payment reminders and late fee tracking",
+      "Full property accounting and reporting",
+      "Real-time financial dashboards",
+      "QuickBooks integration and bank syncing",
+      "Complete maintenance request management",
+      "Vendor payment and 1099 form generation",
+      "Tenant screening and background checks",
+      "E-signature lease agreements",
+      "Listing syndication to major rental sites",
+      "Custom rental websites",
+      "Tenant and owner portals",
+      "One-click integrations via Zapier",
+      "Open API for custom integrations",
+      "Mobile access and on-site functionality"
+    ],
+    "pricing_info": "Subscription-based pricing starting at $69/month with plans that scale by unit count and feature needs. Higher tiers include advanced features like full accounting, maintenance management, and extensive integrations. Contact for specific pricing tiers and custom enterprise solutions.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:29:10.695824Z"
   },
   {
     "title": "RealCrowd",
@@ -11444,17 +11462,9 @@
     "url": "https://www.realcrowd.com",
     "logo_url": "https://logo.clearbit.com/realcrowd.com",
     "headline": "Commercial real estate investment platform for accredited investors.",
-    "description": "RealCrowd is a commercial real estate investment platform that connects accredited investors with investment opportunities.",
+    "description": "RealCrowd was a real estate crowdfunding and investment marketplace that provided accredited investors access to private equity real estate investments. The platform has been acquired by Trinity Investors, which continues to offer similar private equity investment opportunities with enhanced access, transparency, and control. RealCrowd historically connected investors with vetted real estate sponsors and investment opportunities they would not otherwise be able to participate in.",
     "short_description": "Commercial real estate investment platform for accredited investors.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Industrial",
-        "Office",
-        "Retail"
-      ]
-    },
+    "target_audience": "Accredited investors seeking access to private equity real estate investments, individual investors looking for commercial real estate opportunities, and investors interested in crowdfunding real estate deals with vetted sponsors.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -11507,7 +11517,21 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "features": [
+      "Access to private equity real estate investments",
+      "Direct investment model with no fund structures",
+      "Vetted real estate sponsors and opportunities",
+      "Transparent reporting and performance tracking",
+      "Historical investment preservation",
+      "Accredited investor marketplace",
+      "Transition to Trinity Investors platform",
+      "Enhanced deal flow and investment access",
+      "Real-time asset performance insights"
+    ],
+    "pricing_info": "Platform has transitioned to Trinity Investors. Historical investments through RealCrowd remain unchanged. Pricing and investment minimums would be determined by individual investment opportunities and Trinity Investors terms. Contact Trinity Investors for current investment requirements and fee structure.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:29:24.585950Z"
   },
   {
     "title": "LeaseQuery",
@@ -11515,15 +11539,9 @@
     "url": "https://www.leasequery.com",
     "logo_url": "https://logo.clearbit.com/leasequery.com",
     "headline": "Lease accounting software for compliance with financial regulations.",
-    "description": "LeaseQuery is a lease accounting software designed to help businesses manage leases and comply with financial regulations.",
+    "description": "LeaseQuery (now powered by FinQuery) is the #1 rated cloud-based lease accounting software designed to help organizations comply with lease accounting standards including ASC 842, IFRS 16, GASB 87/96, SFFAS 54, and FRS 102. Used by over 8,500 customers, the platform automates lease accounting processes with CPA-approved journal entries, amortization schedules, and compliance reports, serving organizations from small portfolios to large enterprises.",
     "short_description": "Lease accounting software for compliance with financial regulations.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Accountants, CFOs, controllers, and finance professionals at organizations with lease portfolios requiring compliance with modern lease accounting standards. Serves small businesses to large enterprises across all industries needing ASC 842, IFRS 16, GASB, or other lease accounting compliance.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -11573,7 +11591,27 @@
     "tagline": "Lease accounting software for compliance with financial regulations.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Auto-generated amortization schedules and journal entries",
+      "CPA-approved compliance for ASC 842, IFRS 16, GASB 87/96, SFFAS 54, FRS 102",
+      "Portfolio monitoring dashboard with alerts",
+      "AI-powered document processing via FinQuery Inbox",
+      "Dual standard reporting capabilities",
+      "Variable payments and complex scenario handling",
+      "Point-in-time reporting and catch-up adjustments",
+      "Integration with any ERP (NetSuite, SAP, QuickBooks, etc.)",
+      "Foreign exchange rate management with SFTP integration",
+      "Read-only auditor access",
+      "Push-button compliance reporting",
+      "Centralized lease database and management",
+      "Custom calendar and workflow notifications",
+      "SOC 1 Type 2 compliance",
+      "Mobile access and cloud-based deployment"
+    ],
+    "pricing_info": "Multiple pricing tiers: LeaseGuru (free for first 2 leases), Essential (for portfolios of 25 leases and under), full LeaseQuery solution, and NetSuite-integrated version. Quote-based pricing for larger implementations with enterprise support and training included.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:29:57.672753Z"
   },
   {
     "title": "Roofstock",
@@ -11581,15 +11619,9 @@
     "url": "https://www.roofstock.com",
     "logo_url": "https://logo.clearbit.com/roofstock.com",
     "headline": "Online marketplace for buying and selling rental properties.",
-    "description": "Roofstock is an online marketplace for buying and selling rental properties, offering property listings and investment tools.",
+    "description": "Roofstock is a comprehensive residential real estate investment platform that combines decades of property management expertise, purpose-built technology, and proprietary data to help investors make smarter decisions in single-family rental (SFR) properties. With over 400,000 users and 20,000 homes under management, Roofstock enables modern residential investing at scale with a mission to accelerate housing supply through high-quality rental homes.",
     "short_description": "Online marketplace for buying and selling rental properties.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Residential real estate investors including individuals, partners, and institutions seeking to invest in single-family rental properties at scale. Serves both new and experienced investors looking for data-driven property management and investment solutions.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -11641,7 +11673,24 @@
     "tagline": "Online marketplace for buying and selling rental properties.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Single Family Rental (SFR) property investing platform",
+      "Property acquisitions and sourcing",
+      "Professional property management services",
+      "Asset management and portfolio optimization",
+      "Property dispositions and exit strategies",
+      "Real estate valuations and analytics",
+      "Proprietary investment data and insights",
+      "Institutional and individual investor solutions",
+      "Property exploration and marketplace",
+      "Stessa integration for rental management",
+      "RentPrep tenant screening services",
+      "Technology-enabled investment processes"
+    ],
+    "pricing_info": "Service-based pricing model with fees typically structured around property acquisitions, management services, and transaction volumes. Contact Roofstock directly for specific pricing on acquisitions, property management fees, and institutional investment solutions.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:30:20.696069Z"
   },
   {
     "title": "Mashvisor",
@@ -11649,15 +11698,9 @@
     "url": "https://www.mashvisor.com",
     "logo_url": "https://logo.clearbit.com/mashvisor.com",
     "headline": "Real estate investment property data and analysis platform.",
-    "description": "Mashvisor offers real estate investment property data and analysis, providing insights for investors to make better decisions.",
+    "description": "Mashvisor is a comprehensive real estate investment analysis platform that specializes in short-term and long-term rental property data. The platform provides data-driven solutions for real estate investors, Airbnb hosts, and property managers to identify lucrative investment opportunities, analyze rental property profitability, and optimize vacation rental performance through accurate market research and AI-powered analytics.",
     "short_description": "Real estate investment property data and analysis platform.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Real estate investors seeking rental property opportunities, Airbnb hosts looking to optimize their short-term rental performance, property managers managing vacation rental portfolios, and API developers building real estate applications requiring reliable market data.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -11708,7 +11751,27 @@
     "tagline": "Real estate investment property data and analysis platform.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Market Finder for top rental markets nationwide",
+      "Property Finder with customizable search criteria",
+      "Airbnb Calculator for income potential analysis",
+      "Dynamic Pricing powered by AI and machine learning",
+      "Mashmeter scoring system for property evaluation",
+      "Short-term and long-term rental data analysis",
+      "Comprehensive Airbnb data and analytics",
+      "Real Estate Data API for developers",
+      "Property investment profitability analysis",
+      "Rental revenue and cap rate calculations",
+      "Market trends and migration analysis",
+      "Short-term rental regulations tracking",
+      "Multi-city property search capabilities",
+      "Rent comps and market research",
+      "Vacation rental management tools"
+    ],
+    "pricing_info": "Subscription-based pricing with multiple tiers including Standard Quarterly plans. Offers different pricing levels based on features and data access needs. Contact for specific pricing on premium features, API access, and enterprise solutions.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:30:38.470824Z"
   },
   {
     "title": "Hemlane",
@@ -11716,15 +11779,9 @@
     "url": "https://www.hemlane.com",
     "logo_url": "https://logo.clearbit.com/hemlane.com",
     "headline": "Property management software for remote landlords.",
-    "description": "Hemlane is a property management software designed for remote landlords, offering tools for leasing, rent collection, and maintenance.",
+    "description": "Hemlane is an all-in-one property management platform designed for long-term rental properties, offering landlords and property managers complete control without the chaos. The platform provides end-to-end rental management services from tenant placement to lease renewals, with a focus on automation and transparency. Hemlane helps property owners manage rentals remotely with 70% time savings while ensuring 100% of rental income goes directly to the owner.",
     "short_description": "Property management software for remote landlords.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Rental property owners seeking to self-manage properties, real estate agents offering additional value to clients through leasing services, property managers looking to streamline operations and grow portfolios, and tenants seeking an easy rental experience.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -11774,7 +11831,27 @@
     "tagline": "Property management software for remote landlords.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Qualified tenant placement in under 19 days",
+      "Listing distribution to 15+ rental sites",
+      "Comprehensive tenant screening and background checks",
+      "Automated rent collection with direct deposit",
+      "Late fee automation and collection",
+      "In-app lease management and e-signing",
+      "Lease renewal automation and coordination",
+      "24/7 repair coordination and maintenance services",
+      "Tenant communication via SMS and email",
+      "Real-time property performance tracking",
+      "Bank account synchronization for accounting",
+      "Eviction Shield protection with 93% court avoidance",
+      "Guided property tours and showings",
+      "Tenant coordinator support when needed",
+      "Remote property management capabilities"
+    ],
+    "pricing_info": "Transparent pricing model where 100% of rent goes to the property owner with no surprise deductions or hidden cuts. Service fees likely structured around tenant placement and ongoing management services rather than percentage-based cuts of rental income. Contact for specific pricing details.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:30:55.520359Z"
   },
   {
     "title": "Stessa",
@@ -11782,24 +11859,9 @@
     "url": "https://www.stessa.com",
     "logo_url": "https://logo.clearbit.com/stessa.com",
     "headline": "Real estate investor portfolio management and tax preparation",
-    "description": "Stessa provides portfolio management and tax preparation software specifically designed for real estate investors. The platform automatically tracks income, expenses, and tax deductions across rental properties while providing performance analytics, cash flow reporting, and simplified tax preparation for real estate investment portfolios.",
+    "description": "Stessa is the #1 free property management software for landlords, designed to power the entire real estate investment cycle from acquisition to exit. The platform replaces spreadsheets and fragmented tools with one intelligent system that helps investors make smarter decisions while reducing busywork. Users report saving an average of $4,000 and 100+ hours annually through automation and streamlined workflows.",
     "short_description": "Portfolio management and tax preparation software for real estate investors.",
-    "target_audience": {
-      "roles": [
-        "Real Estate Investors",
-        "Property Owners",
-        "Tax Professionals"
-      ],
-      "company_sizes": [
-        "Small",
-        "Mid-Market"
-      ],
-      "property_types": [
-        "Residential",
-        "Multifamily",
-        "Commercial"
-      ]
-    },
+    "target_audience": "Rental property investors and landlords of all sizes, from individual property owners to larger portfolio managers, seeking to automate their property management workflows, improve financial tracking, and streamline tenant management processes.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -11854,7 +11916,27 @@
       "Residential",
       "Multifamily",
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Investment property marketplace powered by Roofstock",
+      "Automated bookkeeping and single-entry accounting",
+      "Tax package reports and CPA-approved financial reporting",
+      "Real-time dashboards and income statements",
+      "Net cash flow reporting and Schedule of Real Estate Owned",
+      "Built-in maintenance tracking and vendor scheduling",
+      "Integrated RentPrep tenant screening (25% default reduction)",
+      "eSigning with 50+ legal templates via DocuSign",
+      "Automated rent collection with multiple payment options",
+      "Landlord banking with high-yield accounts (3.24% APY for Pro)",
+      "Separate bank accounts for each property",
+      "Cash-back debit cards for account holders",
+      "Mobile app for iOS and Android",
+      "Live data connections and automatic transaction import",
+      "Portfolio performance tracking and analytics"
+    ],
+    "pricing_info": "Freemium model with Essentials (free), Manage, and Pro (premium) subscription tiers. Free plan includes basic features, while Pro subscribers get 3.24% APY on banking services and 1.10% cash back on debit purchases. Premium plans offer enhanced reporting, banking benefits, and advanced features.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:31:12.940149Z"
   },
   {
     "title": "DealMachine",
@@ -11862,15 +11944,9 @@
     "url": "https://www.dealmachine.com",
     "logo_url": "https://logo.clearbit.com/dealmachine.com",
     "headline": "Real estate marketing and lead generation tool for property investors.",
-    "description": "DealMachine is a real estate marketing and lead generation tool for property investors, helping them find and close deals.",
+    "description": "DealMachine is a comprehensive real estate lead generation and marketing platform designed to help investors and wholesalers find and connect with property owners. The platform combines property data, owner contact information, and automated marketing tools to streamline the process of discovering off-market deals through driving for dollars, targeted marketing campaigns, and direct outreach to property owners.",
     "short_description": "Real estate marketing and lead generation tool for property investors.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Real estate investors, wholesalers, fix-and-flip investors, and real estate professionals looking to generate leads through driving for dollars, direct mail campaigns, and cold calling to find off-market property deals and connect with motivated sellers.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -11921,7 +11997,27 @@
     "tagline": "Real estate marketing and lead generation tool for property investors.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Access to 150+ million property records nationwide",
+      "Unlimited property owner contact information",
+      "List Builder with 70+ pre-designed filters",
+      "700+ data points per property with daily updates",
+      "AI-powered dialer with instant call transcriptions",
+      "AI-assisted calling scripts and automated follow-ups",
+      "Driving for dollars mobile app functionality",
+      "Virtual driving capabilities from home",
+      "Personalized direct mail automation",
+      "Customizable mail templates and designs",
+      "Handwritten letter generation with property images",
+      "Multi-source data curation for accuracy",
+      "Cross-platform solution for mobile and desktop",
+      "Custom property highlights and drive tracking",
+      "Off-market lead discovery tools"
+    ],
+    "pricing_info": "Subscription-based pricing model with unlimited access to property owner contact information included. Pricing tiers likely based on feature access including AI dialer, direct mail volume, and advanced list building capabilities. Contact for specific pricing details on premium features and enterprise solutions.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:31:31.719597Z"
   },
   {
     "title": "Knock",
@@ -11929,15 +12025,9 @@
     "url": "https://www.knockcrm.com",
     "logo_url": "https://logo.clearbit.com/knockcrm.com",
     "headline": "CRM and leasing tools for property managers and real estate professionals.",
-    "description": "Knock provides CRM and leasing tools for property managers and real estate professionals, helping them manage clients and properties.",
+    "description": "Knock is a comprehensive multifamily leasing and marketing platform that delivers the most enjoyable leasing experience for renters and efficient tools for leasing teams. The integrated suite of front office technology helps multifamily owners and operators improve operational efficiency, maximize NOI, and guide prospects from lead to lease to retained resident through intelligent automation and data-driven insights.",
     "short_description": "CRM and leasing tools for property managers and real estate professionals.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Multifamily property owners and operators, leasing teams, property managers, marketing directors, operations teams, IT departments, and corporate multifamily organizations seeking to optimize leasing performance and maximize NOI through technology-enabled processes.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -11987,7 +12077,27 @@
     "tagline": "CRM and leasing tools for property managers and real estate professionals.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Knock Now\u2122 self-scheduling for prospect tours (2.5x increase)",
+      "Source attribution data and automated marketing campaigns",
+      "Multi-channel messaging (email, text, voice, chat) in single screen",
+      "Gamified task management and leasing workflows",
+      "Modern visitor experience with flexible conversion processes",
+      "Team oversight with benchmarking and performance analytics",
+      "Centralized dashboard for remote and onsite leasing teams",
+      "Knock Insights for strategic planning and data analysis",
+      "Knock Mobile for mobile workforce management",
+      "Knock Tours with 360-degree leasing operation visibility",
+      "Lead-to-lease tracking and conversion optimization",
+      "Performance management and NOI maximization tools",
+      "PMS integrations and partnership APIs",
+      "Resident retention and renewal automation",
+      "Real-time reporting and engagement scoring"
+    ],
+    "pricing_info": "Enterprise-focused pricing model with custom solutions based on property portfolio size and feature requirements. Demo-based sales process with pricing tailored to multifamily operations scale and specific technology needs. Contact for detailed pricing information and implementation packages.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:31:50.505369Z"
   },
   {
     "title": "RoofSnap",
@@ -11995,15 +12105,9 @@
     "url": "https://www.roofsnap.com",
     "logo_url": "https://logo.clearbit.com/roofsnap.com",
     "headline": "Roofing software with property measurement and estimation tools.",
-    "description": "RoofSnap offers roofing software with property measurement and estimation tools, helping contractors estimate and plan roofing jobs.",
+    "description": "RoofSnap is specialized roofing software designed for small crews and solo roofers to streamline the entire sales process from measurement to payment collection. The platform provides remote roof measurements, instant estimate generation, and payment processing capabilities, helping roofing contractors quote smarter, close faster, and win more jobs without the complexity of larger software platforms.",
     "short_description": "Roofing software with property measurement and estimation tools.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Small roofing crews, solo roofers, gutter contractors, lighting installation contractors, and roofing companies seeking streamlined measurement, estimation, and payment collection processes without the complexity of enterprise-level software platforms.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -12053,7 +12157,27 @@
     "tagline": "Roofing software with property measurement and estimation tools.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Remote roof measurements delivered within 4 hours (rush available in 30 minutes)",
+      "Standard, gutter, and lighting measurement reports",
+      "DIY in-app sketch tool for unlimited self-measurements",
+      "Detailed measurement diagrams with waste calculations",
+      "Instant Good, Better, Best pricing estimates",
+      "Detailed estimate builder with custom line items",
+      "Markup and discount application tools",
+      "Professional contract generation and e-signing",
+      "RoofSnap Payments powered by Stripe integration",
+      "Credit card and ACH payment processing",
+      "Company logo and branding customization",
+      "Photo and inspection note integration",
+      "Mobile and web-based access",
+      "Subscription and pay-as-you-go pricing options",
+      "Material bins for gutter contractors with downspout placement"
+    ],
+    "pricing_info": "Flexible pricing model with pay-as-you-go measurements and subscription options. Payment processing rates: Credit cards as low as 2.9% + $0.30 per transaction, ACH processing at 1% per successful charge. Rush measurement orders available for faster turnaround, subscription plans available for frequent users.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:32:12.151438Z"
   },
   {
     "title": "Property Meld",
@@ -12061,15 +12185,9 @@
     "url": "https://www.propertymeld.com",
     "logo_url": "https://logo.clearbit.com/propertymeld.com",
     "headline": "Maintenance management software for rental properties.",
-    "description": "Property Meld provides maintenance management software for rental properties, helping landlords track and manage maintenance requests.",
+    "description": "Property Meld is a specialized property maintenance software platform designed to streamline maintenance operations for property management companies. The platform eliminates maintenance backlogs and provides comprehensive tools for communication, scheduling, vendor management, and data analytics, helping property managers focus on growth while delivering efficient maintenance coordination across their portfolios.",
     "short_description": "Maintenance management software for rental properties.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Property management companies operating single-family rental properties, multifamily housing complexes, HOA communities, and student housing facilities seeking to optimize maintenance operations, eliminate backlogs, and improve resident satisfaction through better maintenance coordination.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -12120,7 +12238,27 @@
     "tagline": "Maintenance management software for rental properties.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Comprehensive maintenance communication system",
+      "Advanced scheduling and work order management",
+      "Maintenance data analytics and reporting",
+      "Max Intelligence AI-powered maintenance insights",
+      "Vendor Nexus for sourcing reliable local vendors",
+      "Integration with major property management software",
+      "Mobile and web-based platform access",
+      "Maintenance oversight and visibility tools",
+      "Resident and investor retention optimization",
+      "Efficiency and productivity enhancement tools",
+      "Monthly benchmark reporting",
+      "Training resources through Meld Academy",
+      "Club Meld community platform",
+      "Peak-season turnover management",
+      "Real-time maintenance coordination"
+    ],
+    "pricing_info": "Contact-based pricing model tailored to property management portfolio size and specific maintenance operation needs. Pricing likely based on number of units managed and feature requirements. Integration partnerships with major property management platforms suggest enterprise-focused solutions.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:32:38.157924Z"
   },
   {
     "title": "Clear Capital",
@@ -12186,7 +12324,10 @@
     "tagline": "Real estate valuation and appraisal technology for professionals.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "failure_reason": "403 Forbidden - Website blocks automated requests",
+    "enrichedAt": "2026-02-17T23:32:48.642532Z"
   },
   {
     "title": "Cozy",
@@ -12250,7 +12391,10 @@
     "tagline": "Property management software for independent landlords.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "failure_reason": "Access Denied - Website blocks automated requests",
+    "enrichedAt": "2026-02-17T23:32:56.705728Z"
   },
   {
     "title": "Obie",
@@ -12258,15 +12402,9 @@
     "url": "https://www.obierisk.com",
     "logo_url": "https://logo.clearbit.com/obierisk.com",
     "headline": "Insurance solutions for real estate investors and landlords.",
-    "description": "Obie provides insurance solutions for real estate investors and landlords, offering property insurance and risk management tools.",
+    "description": "Obie is a specialized insurance technology platform designed exclusively for landlords and real estate investors, providing comprehensive landlord insurance coverage for investment properties. The platform combines technology-driven solutions with expert guidance to deliver faster quotes, customizable coverage, and streamlined policy management for various property types from single-family homes to large apartment buildings.",
     "short_description": "Insurance solutions for real estate investors and landlords.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Real estate investors, landlords, property owners with rental portfolios, fix-and-flip investors, and anyone seeking specialized insurance coverage for investment properties ranging from single-family homes to large multifamily apartment buildings.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -12315,7 +12453,27 @@
     "tagline": "Insurance solutions for real estate investors and landlords.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Technology and data-driven insurance quoting",
+      "Online policy binding in as little as 15 minutes",
+      "Customizable insurance solutions for investment properties",
+      "Expert guidance and personalized support",
+      "Transparent pricing and efficient processes",
+      "Single-family home insurance coverage",
+      "Multifamily building insurance (2-4 units)",
+      "Apartment building insurance (5+ units)",
+      "Condo unit investment property insurance",
+      "Fix-and-flip loan insurance compliance",
+      "Long-term rental property coverage",
+      "Lender requirement compliance",
+      "User-friendly online platform",
+      "Quote comparison capabilities",
+      "Responsive customer service team"
+    ],
+    "pricing_info": "Competitive insurance premiums with quick online quotes available in 15 minutes. Pricing based on property type, location, coverage needs, and investment strategy (fix-and-flip vs long-term rental). Custom quotes tailored to specific property portfolios and lender requirements.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:33:14.736517Z"
   },
   {
     "title": "Tenant Turner",
@@ -12379,7 +12537,10 @@
     "tagline": "Leasing automation software for property managers and landlords.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "failure_reason": "Web fetch failed - Unable to connect to website",
+    "enrichedAt": "2026-02-17T23:33:24.268200Z"
   },
   {
     "title": "Wealthfront",
@@ -12387,15 +12548,9 @@
     "url": "https://www.wealthfront.com",
     "logo_url": "https://logo.clearbit.com/wealthfront.com",
     "headline": "Robo-advisor platform with real estate investment options.",
-    "description": "Wealthfront is a robo-advisor platform that includes real estate investment options for users looking to diversify their portfolios.",
+    "description": "Wealthfront is a comprehensive financial technology platform offering automated investment management services, high-yield cash accounts, and robo-advisor portfolio management. While primarily focused on general wealth management, the platform provides investment tools and services that can be utilized by real estate professionals and investors for portfolio diversification and cash management alongside their real estate investments.",
     "short_description": "Robo-advisor platform with real estate investment options.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "General investors, high-net-worth individuals, real estate professionals seeking diversified investment options, and anyone looking for automated wealth management services to complement their real estate investment portfolios.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -12447,7 +12602,26 @@
     "tagline": "Robo-advisor platform with real estate investment options.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "High-yield Cash Account with 3.30% base APY (up to 3.95% with welcome offer)",
+      "Automated portfolio management and robo-advisor services",
+      "Self-directed investing options for DIY investors",
+      "No account fees or minimum balance requirements",
+      "Free 24/7 instant withdrawals",
+      "Up to $8M FDIC insurance through program banks",
+      "Portfolio diversification across asset classes",
+      "Automated rebalancing and tax-loss harvesting",
+      "Financial planning tools and goal-based investing",
+      "Mobile and web-based platform access",
+      "Trusted by 1.3M+ clients with $90B+ in client funds",
+      "14+ years of experience since 2011",
+      "Transparent fee structure",
+      "Investment methodology and research insights"
+    ],
+    "pricing_info": "Competitive fee-based pricing structure typical of robo-advisor platforms. High-yield Cash Account offers 3.30% base APY with promotional rates up to 3.95% for new accounts. No account fees, minimum balances, or withdrawal fees for cash accounts. Investment management fees likely based on assets under management percentage.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:33:42.924847Z"
   },
   {
     "title": "SimpleNexus",
@@ -12455,15 +12629,9 @@
     "url": "https://www.simplenexus.com",
     "logo_url": "https://logo.clearbit.com/simplenexus.com",
     "headline": "Mortgage origination software for real estate professionals.",
-    "description": "SimpleNexus offers mortgage origination software for real estate professionals, helping streamline loan processes.",
+    "description": "SimpleNexus (now nCino Mortgage Suite) is a comprehensive digital mortgage lending platform that automates loan processing and closing to increase mortgage profitability for financial institutions. The platform has been acquired by nCino and delivers modern customer convenience, data insights, and simplified incentive compensation management throughout the entire mortgage lifecycle from origination to closing.",
     "short_description": "Mortgage origination software for real estate professionals.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Financial institutions, mortgage lenders, credit unions, and banking organizations seeking to modernize their mortgage lending operations and increase profitability through digital transformation and process automation.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -12513,7 +12681,26 @@
     "tagline": "Mortgage origination software for real estate professionals.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "End-to-end automated loan processing and closing",
+      "Modern customer journey streamlining",
+      "Enhanced stakeholder collaboration tools",
+      "Incentive compensation management automation",
+      "Unified mortgage analytics and data insights",
+      "Intuitive dashboards and performance tracking",
+      "Pipeline and loan-level drilldown capabilities",
+      "Improved origination and closing efficiency",
+      "Lead capture and conversion optimization",
+      "Real-time performance scorecards",
+      "Integration with financial institution systems",
+      "Turnkey mortgage insights and reporting",
+      "Digital mortgage transformation tools",
+      "Risk management and compliance features"
+    ],
+    "pricing_info": "Enterprise-focused pricing model for financial institutions. Trusted by over 2,700 financial institutions. Custom pricing based on institution size, loan volume, and feature requirements. Contact nCino for detailed pricing and implementation packages.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:33:59.771579Z"
   },
   {
     "title": "Fund That Flip",
@@ -12579,7 +12766,10 @@
     "tagline": "Crowdfunding platform for real estate flippers and investors.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "failure_reason": "403 Forbidden - Website blocks automated requests with access control",
+    "enrichedAt": "2026-02-17T23:34:08.499847Z"
   },
   {
     "title": "LendingHome",
@@ -12587,15 +12777,9 @@
     "url": "https://www.lendinghome.com",
     "logo_url": "https://logo.clearbit.com/lendinghome.com",
     "headline": "Real estate investment loans for residential properties.",
-    "description": "LendingHome offers real estate investment loans for residential properties, helping investors secure financing for property purchases.",
+    "description": "LendingHome (now rebranded as Kiavi) is a technology-driven real estate investment financing platform that provides faster, simpler access to financing for real estate investors. The platform specializes in financing for fix-and-flip projects, rental properties, and new construction investments, leveraging cutting-edge technology to streamline the lending process for non-owner-occupied investment properties.",
     "short_description": "Real estate investment loans for residential properties.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Residential"
-      ]
-    },
+    "target_audience": "Real estate investors, fix-and-flip investors, rental property investors, real estate developers, and anyone seeking financing for non-owner-occupied investment properties including single-family rentals, multi-family properties, and new construction projects.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -12646,7 +12830,26 @@
     "tagline": "Real estate investment loans for residential properties.",
     "property_types": [
       "Residential"
-    ]
+    ],
+    "features": [
+      "Technology-driven financing platform",
+      "Fix-and-flip loan financing",
+      "Rental property investment loans",
+      "New construction project financing",
+      "Fast approval and funding processes",
+      "Simplified application and underwriting",
+      "Non-owner-occupied property financing",
+      "Competitive interest rates and terms",
+      "Nationwide availability (most US states plus DC)",
+      "Expert guidance and support throughout the process",
+      "Experience-backed lending decisions",
+      "Flexible loan terms and structures",
+      "Real estate investor-focused services",
+      "4.8 out of 5 star customer rating"
+    ],
+    "pricing_info": "Competitive interest rates and terms based on loan terms, borrower qualifications, LTV ratios, and property factors. Rates are subject to change and vary by project type. Contact Kiavi (formerly LendingHome) for specific rate quotes and loan terms based on individual investment scenarios.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:34:27.169168Z"
   },
   {
     "title": "PeerStreet",
@@ -12654,15 +12857,9 @@
     "url": "https://www.peerstreet.com",
     "logo_url": "https://logo.clearbit.com/peerstreet.com",
     "headline": "Real estate debt investment platform for accredited investors.",
-    "description": "PeerStreet is a real estate debt investment platform for accredited investors, offering access to real estate-backed loans.",
+    "description": "PeerStreet is the first and largest online real estate debt investment platform that allows investors to invest in high-yield, short-term real estate loans without the hassle or expense of managing property. The platform operates as a two-sided marketplace, sourcing loans from a nationwide network of private lenders and brokers, then aggregating, servicing, and managing those loans for individual and institutional investors seeking fixed-income returns.",
     "short_description": "Real estate debt investment platform for accredited investors.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Individual investors and institutional investors seeking fixed-income returns through real estate debt investments, investors looking to diversify portfolios with real estate exposure without property management responsibilities, and accredited investors interested in short-term, high-yield real estate loans.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -12712,7 +12909,26 @@
     "tagline": "Real estate debt investment platform for accredited investors.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "High-yield, short-term real estate loan investments",
+      "Monthly interest payments from borrower loan payments",
+      "Transparent loan vetting with dozens of data points",
+      "Portfolio diversification across geographies and lenders",
+      "Multiple asset classes, terms, LTV ratios, and rates",
+      "Manual or automatic investment diversification",
+      "PeerStreet Pocket earning 4.00% interest on cash",
+      "No maintenance fees or minimum balances on Pocket",
+      "One-click deposit and investment functionality",
+      "Comprehensive loan documentation and transparency",
+      "Two-sided marketplace platform",
+      "Nationwide network of private lenders and brokers",
+      "Professional loan aggregation and servicing",
+      "Real-time investment tracking and reporting"
+    ],
+    "pricing_info": "Returns based on interest payments from underlying real estate loans, with rates varying by loan terms, LTV ratios, and borrower profiles. PeerStreet Pocket offers 4.00% interest on uninvested cash. No maintenance fees or minimum balances. Returns are investment-based rather than fee-based pricing model.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:34:45.341709Z"
   },
   {
     "title": "Property Finder",
@@ -12720,15 +12936,9 @@
     "url": "https://www.propertyfinder.ae",
     "logo_url": "https://logo.clearbit.com/propertyfinder.ae",
     "headline": "Online real estate platform for buying and renting properties.",
-    "description": "Property Finder is an online real estate platform that allows users to buy and rent properties across various regions.",
+    "description": "Property Finder is the leading real estate platform in the UAE, providing comprehensive property search, buying, renting, and investment services. The platform offers the most accurate and reliable property listings in the UAE market, with advanced search capabilities, market insights, valuations, and professional services to help users make informed real estate decisions across Dubai, Abu Dhabi, and other Emirates.",
     "short_description": "Online real estate platform for buying and renting properties.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Property buyers, renters, and investors in the UAE real estate market, real estate agents and brokers in the UAE, first-time homebuyers in Dubai, property investors seeking off-plan opportunities, and expatriates looking for housing in the Emirates.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -12779,7 +12989,26 @@
     "tagline": "Online real estate platform for buying and renting properties.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Comprehensive property search for rent, buy, and investment",
+      "Instant property valuations and market trends",
+      "Off-plan project discovery with launch prices and progress tracking",
+      "Verified property listings validated by the platform team",
+      "SuperAgent matching with most responsive agents",
+      "Rent vs Buy calculator for decision making",
+      "Mortgage calculator and financing assistance",
+      "Area insights with price trends and community data",
+      "Investment hotspot identification with transaction histories",
+      "Popular community recommendations (budget-friendly, family-friendly)",
+      "Mobile app with scanning functionality",
+      "Developer directory with latest projects",
+      "Market analysis and forecasting tools",
+      "First-time buyer registration and developer connections"
+    ],
+    "pricing_info": "Free property search and platform access for users. Revenue likely generated through agent commissions, developer partnerships, and premium listing services. Mortgage brokers and SuperAgents pay for platform access and lead generation. No direct fees to property seekers or investors using the platform.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:35:07.892651Z"
   },
   {
     "title": "JustPark",
@@ -12787,15 +13016,9 @@
     "url": "https://www.justpark.com",
     "logo_url": "https://logo.clearbit.com/justpark.com",
     "headline": "Parking space rental and management platform.",
-    "description": "JustPark is a platform that facilitates the rental and management of parking spaces for real estate owners and individuals.",
+    "description": "JustPark is the UK's leading parking platform and mobile app that connects drivers with available parking spaces while enabling property owners to monetize unused parking areas. With over 100,000 reservable spaces and 13+ million trusted drivers, the platform provides stress-free, cheaper parking solutions and allows property owners to earn tax-free income by renting out their parking spaces and EV charging facilities.",
     "short_description": "Parking space rental and management platform.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "UK drivers seeking convenient and affordable parking spaces, property owners with unused parking areas or driveways looking to generate rental income, business operators with car parks seeking yield optimization, EV charging station operators, and commercial property managers seeking parking revenue streams.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -12845,7 +13068,26 @@
     "tagline": "Parking space rental and management platform.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Over 100,000 reservable parking spaces across the UK",
+      "Mobile app for iOS and Android (5-star rated, 96% satisfaction)",
+      "Real-time parking space availability and booking",
+      "Best price guarantee for parking rates",
+      "Property owner parking space rental platform",
+      "EV charging space rental capabilities",
+      "Tax-free income generation for space owners",
+      "Free listing service for property owners",
+      "Car park management solutions for businesses",
+      "Yield maximization for underused car parks",
+      "Payment processing and management",
+      "Popular locations coverage (attractions, cities, airports, train stations, stadiums)",
+      "Quick setup process for space owners",
+      "Business solutions for car park operators"
+    ],
+    "pricing_info": "Free platform for drivers to find and book parking with competitive rates guaranteed. Free listing service for property owners renting out spaces. Revenue generated through booking commissions and business solutions. Property owners earn tax-free income with simple setup process taking just a few minutes.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:35:27.812633Z"
   },
   {
     "title": "CRED iQ",
@@ -12916,7 +13158,10 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "enrichment_failed": true,
+    "failure_reason": "Access Denied - Geographic location restrictions blocking access",
+    "enrichedAt": "2026-02-17T23:35:38.440435Z"
   },
   {
     "title": "CoFoundersLab",
@@ -12924,15 +13169,9 @@
     "url": "https://www.cofounderslab.com",
     "logo_url": "https://logo.clearbit.com/cofounderslab.com",
     "headline": "Networking platform for real estate and tech entrepreneurs.",
-    "description": "CoFoundersLab is a networking platform for real estate and tech entrepreneurs looking to connect and build startups.",
+    "description": "CoFoundersLab is the largest startup community platform on the Internet, connecting entrepreneurs, cofounders, advisors, and investors from around the world. While not specifically focused on real estate, the platform serves entrepreneurs in all industries including PropTech and real estate startups, providing tools and resources to help founders start, grow, and fund their businesses with access to a global network of 700,000+ users.",
     "short_description": "Networking platform for real estate and tech entrepreneurs.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Entrepreneurs and startup founders across all industries (including PropTech and real estate technology), individuals seeking cofounders for new ventures, startup advisors and mentors, investors looking for early-stage opportunities, and innovators developing the next generation of business solutions.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -12982,7 +13221,24 @@
     "tagline": "Networking platform for real estate and tech entrepreneurs.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Cofounder matching based on interests, skills, and location",
+      "Access to 200+ expert advisors and industry leaders",
+      "Startup funding preparation and pitch development",
+      "Global networking across 200+ cities and 6 continents",
+      "Mentorship and business growth resources",
+      "Community of 700,000+ entrepreneurs worldwide",
+      "Exclusive access to investors and funding opportunities",
+      "Business development frameworks and proven methodologies",
+      "Collaboration tools for startup teams",
+      "Innovation and idea development support",
+      "Market launch acceleration resources",
+      "Startup education and best practices sharing"
+    ],
+    "pricing_info": "Community-based platform likely offering freemium model with premium memberships for enhanced features. Access to basic community features may be free, with paid tiers for advanced matching, direct advisor access, premium funding resources, and exclusive investor networks.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:35:56.867089Z"
   },
   {
     "title": "ParkMobile",
@@ -12990,15 +13246,9 @@
     "url": "https://www.parkmobile.io",
     "logo_url": "https://logo.clearbit.com/parkmobile.io",
     "headline": "Parking management and booking app for real estate owners.",
-    "description": "ParkMobile is a parking management and booking app that helps real estate owners manage parking spaces and bookings.",
+    "description": "ParkMobile is a comprehensive parking technology platform and mobile app that simplifies parking for both consumers and businesses. The platform allows users to easily find and pay for on-street and off-street parking, make advance reservations, and manage parking without the need to return to feed meters, while also providing business solutions for companies and parking providers to streamline operations and improve user experience.",
     "short_description": "Parking management and booking app for real estate owners.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Individual drivers seeking convenient parking solutions, businesses needing to manage employee parking and expenses, parking garage operators and providers, event organizers requiring parking management, fleet managers overseeing multiple vehicles, and municipalities looking to modernize parking infrastructure.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -13048,7 +13298,26 @@
     "tagline": "Parking management and booking app for real estate owners.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Mobile app for finding and paying for parking",
+      "On-street parking payment without meter feeding",
+      "Advance parking reservation system",
+      "Stress-free parking spot booking",
+      "ParkMobile for Business enterprise solutions",
+      "Vehicle and user management for companies",
+      "Expense tracking and detailed monthly reporting",
+      "Easy-to-use business portal",
+      "Solutions for parking providers and garage operators",
+      "Event parking management capabilities",
+      "Fleet parking management tools",
+      "Forward-looking parking technology solutions",
+      "Free mobile app for consumers",
+      "Fraud awareness and security features"
+    ],
+    "pricing_info": "Free mobile app for consumers with pay-per-use parking fees. Business solutions likely subscription or usage-based pricing for companies managing multiple users and vehicles. Parking providers and enterprise customers receive custom pricing based on scale and specific requirements.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:36:19.127662Z"
   },
   {
     "title": "RentPath",
@@ -13056,15 +13325,9 @@
     "url": "https://www.rentpath.com",
     "logo_url": "https://logo.clearbit.com/rentpath.com",
     "headline": "Digital marketing solutions for multifamily and rental properties.",
-    "description": "RentPath offers digital marketing solutions for multifamily and rental properties, helping landlords find tenants online.",
+    "description": "RentPath (formerly operating Rent.com and ApartmentGuide.com) was a comprehensive rental listing and digital marketing platform that provided multifamily housing listing services and digital marketing solutions. As of June 15th, 2025, RentPath services have been discontinued and integrated into the Zillow Rentals Network, with Zillow becoming the sole provider of multifamily listings (25+ units) across the former RentPath network properties.",
     "short_description": "Digital marketing solutions for multifamily and rental properties.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Multifamily"
-      ]
-    },
+    "target_audience": "Formerly served multifamily property owners, property managers, and rental property operators. Current users must transition to Zillow for multifamily listings (25+ units) or use Redfin Rental Tools for single-family rentals and properties under 25 units.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -13114,7 +13377,22 @@
     "tagline": "Digital marketing solutions for multifamily and rental properties.",
     "property_types": [
       "Multifamily"
-    ]
+    ],
+    "features": [
+      "Rental listing platform (discontinued)",
+      "Digital Marketing Solutions (DMS) including RentSearch, RentSocial, RentTarget, RentRep, RentEngage (discontinued)",
+      "Property listing on Rent.com, ApartmentGuide.com, and Redfin.com (now Zillow-managed)",
+      "RentHQ management platform (discontinued)",
+      "ILS (Internet Listing Service) capabilities (discontinued)",
+      "Single-family and small property listings (transitioned to Redfin Rental Tools)",
+      "Lead generation and application collection",
+      "Historical performance reporting (no longer accessible)",
+      "Property management tools and analytics",
+      "Transition support and billing portal access"
+    ],
+    "pricing_info": "RentPath services have been discontinued as of June 15th, 2025. Multifamily properties (25+ units) must now contract directly with Zillow for listing services. Single-family rentals and smaller properties can use Redfin Rental Tools for free. Outstanding invoices can be paid through pay.rent.com portal.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:36:41.768533Z"
   },
   {
     "title": "DoorDash Drive",
@@ -13322,15 +13600,9 @@
     "url": "https://credataextractor.com/",
     "logo_url": "https://logo.clearbit.com/credataextractor.com",
     "headline": "Stop manually extracting text from images of rent rolls, use CRE Data Extractor to get your rent roll into a csv format in minutes",
-    "description": "CRE Data extractor allows users to turn their rent rolls that are in image format (JPG, PNG, PDF) into a csv format, making them much easier to use in financial models.",
+    "description": "CRE Data Extractor is a specialized AI-powered tool designed for commercial real estate professionals to convert rent roll images into structured CSV data. The platform uses advanced AI models to automatically extract and digitize rent roll information from uploaded images, streamlining data entry and analysis processes for property managers and real estate analysts.",
     "short_description": "Stop manually extracting text from images of rent rolls, use CRE Data Extractor to get your rent roll into a csv format in minutes",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Commercial real estate professionals, property managers, real estate analysts, asset managers, and CRE professionals who regularly work with rent rolls and need to convert physical or image-based rent roll data into digital, analyzable formats.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -13381,7 +13653,22 @@
     "tagline": "Stop manually extracting text from images of rent rolls, use CRE Data Extractor to get your rent roll into a csv format in minutes",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "AI-powered rent roll image processing",
+      "Support for multiple image formats (JPG, JPEG, PDF, PNG)",
+      "Automated CSV generation from rent roll images",
+      "Quick processing time (30 seconds to 2 minutes)",
+      "Direct CSV download functionality",
+      "Drag-and-drop file upload interface",
+      "Structured data extraction from unstructured images",
+      "Data digitization for property management workflows",
+      "Time-saving automation for rent roll analysis",
+      "Integration-friendly CSV output format"
+    ],
+    "pricing_info": "Pricing model not explicitly stated on the website. Likely offers pay-per-use, subscription-based, or freemium pricing for rent roll processing services. Users agree to Terms of Service for usage, suggesting potential paid tiers or usage limitations.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:37:00.939626Z"
   },
   {
     "title": "Comp Crunch",
@@ -13389,15 +13676,9 @@
     "url": "https://www.compcrunch.com/",
     "logo_url": "https://logo.clearbit.com/compcrunch.com",
     "headline": "Export your zillow search",
-    "description": "Zillow provides users with the ability to look at tons of real estate data online which is amazing, but sometimes you need a wholistic view of the data so you can do your own analysis. \n\nWith the Comp Crunch Chrome extension, you can easily analyze and/or export any Zillow search. This saves you time spent talking to real estate agents or laboriously copy and pasting data points into excel! We offer the ability to export your Zillow search data as either a PDF or CSV file. Additionally, we provide a quick summary of your searched area by showing the average, median, 25th percentile and 75th percentile prices of the results in your search. You also can see how sold homes have trended in an area over time.",
+    "description": "Comp Crunch is a Chrome extension designed to help real estate professionals easily analyze and export Zillow search results with comprehensive data insights. The tool streamlines the process of gathering market data by providing instant analysis, export capabilities, and market statistics, saving significant time for agents, investors, and analysts who rely on Zillow data for decision-making.",
     "short_description": "Export your zillow search",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Real estate agents serving investor clients, real estate investors conducting market analysis, Zillow users requiring comprehensive market data, real estate analysts and researchers, and professionals needing quick access to rental market data for specific neighborhoods.",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -13446,7 +13727,24 @@
     "tagline": "Export your zillow search",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Chrome extension for Zillow data analysis",
+      "Unlimited CSV and PDF exports of search results",
+      "Market overview statistics and insights",
+      "Sale price trends and historical data visualization",
+      "Neighborhood-specific rental market data",
+      "Average and median price calculations while browsing",
+      "Quick market condition analysis",
+      "User-friendly PDF report generation",
+      "Custom real estate data analysis consulting",
+      "Custom data integrations with CRM and analysis tools",
+      "AI automation for real estate workflows",
+      "Real estate technology consulting services"
+    ],
+    "pricing_info": "Chrome extension with pricing not explicitly stated on website. Likely offers free basic features with premium paid tiers for advanced functionality. Additional custom real estate technology consulting services available for advanced solutions, data integrations, and AI automation implementations.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:37:16.706506Z"
   },
   {
     "title": "Mustwants",
@@ -13796,15 +14094,9 @@
     "url": "https://www.realie.ai/real-estate-data-api",
     "logo_url": "https://logo.clearbit.com/realie.ai",
     "headline": "details on 180 million property parcels",
-    "description": "We're thrilled to announce the launch of Realie.ai's Property Data API! \ud83c\udfe1\u2728\n\nAt Realie.ai, we\u2019ve reimagined property data collection and accessibility, leveraging AI-powered automation to streamline data collection from every county in the United States. This innovation allows us to keep overhead low, passing those savings directly to you with prices that beat competitors\u2014without sacrificing quality.\n\nWhat Makes Our API Different?\n\ud83d\udca1 Flexible Search\nTired of rigid search options? So were we. That\u2019s why we built Apache Lucene-powered search into our API, offering lightning-fast, flexible queries that make finding the exact data you need a breeze.\n\n\ud83d\udcca Advanced Analytics\nWe\u2019re not just providing data\u2014we\u2019re building free analytics around it. Our platform will help you unlock powerful insights, no extra costs required.\n\n\ud83e\udd16 AI-Powered Insights\nOur work doesn\u2019t stop at raw data. We\u2019re training machine learning models to create a cost-effective, accurate AVM (Automated Valuation Model) and developing an assistant powered by RAG (Retrieval-Augmented Generation). This assistant will help you:\n\nDiscover insights hidden in the data\nGenerate custom analytics\nDigest large datasets seamlessly\n\ud83c\udf0e Comprehensive Coverage\nOur API covers every corner of the U.S., giving you access to rich, nationwide property data in one place.",
+    "description": "Realie is an AI-powered real estate data API platform providing access to the most comprehensive property data available, with over 180 million properties directly sourced from local counties. The platform delivers blazingly fast, low-latency API access to comprehensive property insights with 100+ data fields, serving both enterprise users and individual developers with constantly updated, county-sourced real estate information.",
     "short_description": "details on 180 million property parcels",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Enterprise software developers building real estate applications, individual developers creating PropTech solutions, real estate technology companies requiring comprehensive property data, data analysts and researchers in real estate, and businesses needing reliable, fast access to property information for their platforms.",
     "feature_groups": [],
     "pricing": {
       "model": "Free",
@@ -13858,7 +14150,24 @@
     "tagline": "details on 180 million property parcels",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "AI-powered real estate data API",
+      "Access to 180+ million properties nationwide",
+      "Direct sourcing from local counties",
+      "Over 100 comprehensive property data fields",
+      "Lightning-fast, low-latency API delivery",
+      "Constant data updates and refreshes",
+      "County-sourced data for maximum accuracy",
+      "Custom enterprise solutions and integrations",
+      "Comprehensive property insights and analytics",
+      "Developer-friendly API documentation",
+      "Scalable infrastructure for high-volume usage",
+      "Enterprise and individual user support"
+    ],
+    "pricing_info": "API-based pricing model likely offering tiered access based on usage volume and features. Enterprise custom solutions available for high-volume users. Pricing details available through API documentation and direct consultation for custom enterprise implementations.",
+    "enriched": true,
+    "enrichedAt": "2026-02-17T23:37:34.305980Z"
   },
   {
     "title": "MapZot.AI",
