@@ -753,24 +753,33 @@
     "url": "https://www.buildium.com",
     "logo_url": "https://logo.clearbit.com/buildium.com",
     "headline": "Property management software.",
-    "description": "Summary: Buildium is a comprehensive property management software designed for property managers who need streamlined, easy-to-use tools. While highly effective, it may not have all the features required for larger commercial properties.\n\nFeatures:\n\nProperty management for residential real estate\nTenant and lease tracking\nFinancial management tools\nPros:\n\nEasy-to-use interface\nIdeal for small to mid-size residential properties\nAll-in-one property management\nCons:\n\nLimited for large commercial property needs\nCan become expensive as portfolios grow\nRating: 4/5",
+    "description": "Buildium is comprehensive all-in-one property management software built specifically for residential property managers, landlords, and real estate professionals. The cloud-based platform streamlines day-to-day operations with purpose-built tools for rental property management including single-family, multi-family rentals, community associations, and mixed portfolios. Buildium serves customers ranging from individual landlords to large property management companies managing 15,000+ units.",
     "short_description": "Property management software.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Managers",
+        "Individual Landlords",
+        "Property Management Companies",
+        "Community Association Managers"
+      ],
+      "company_sizes": [
+        "Solo",
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Residential"
+        "Residential",
+        "Single-Family",
+        "Multi-Family",
+        "Community Associations",
+        "Student Housing",
+        "Commercial",
+        "Storage Units"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Subscription-based pricing tiers - Contact for quote based on portfolio size",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -814,7 +823,26 @@
     "tagline": "Property management software.",
     "property_types": [
       "Residential"
-    ]
+    ],
+    "features": [
+      "All-in-one property management platform",
+      "Rental listing and marketing tools",
+      "Tenant screening and background checks",
+      "Online leasing and lease management",
+      "Automated rent collection and payment processing",
+      "Online resident portal for tenant self-service",
+      "Maintenance request management and automation",
+      "Property accounting and financial reporting",
+      "Communication tools for owners and tenants",
+      "Mobile app for 24/7 access",
+      "Automated rent reminders and notifications",
+      "Portfolio analytics and reporting",
+      "Online signature collection from any device",
+      "Mixed portfolio support (residential, commercial, student housing)",
+      "Community association management features"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:47:37.114032Z"
   },
   {
     "title": "Buildout",
@@ -1162,34 +1190,29 @@
     "url": "https://www.cherre.com",
     "logo_url": "https://logo.clearbit.com/cherre.com",
     "headline": "Commercial real estate software solution",
-    "description": "Professional commercial real estate software platform providing comprehensive tools and solutions for industry professionals.",
+    "description": "Cherre is a leading real estate data management platform that makes complex data operations beautifully simple. With 0M in Series C funding and partnerships with major firms like Nuveen Real Estate, Cherre provides a comprehensive data infrastructure that connects, standardizes, and enriches real estate data from multiple sources. The platform manages 150+ data partnerships, 200+ data lakes, and over 3.5 billion unique connected data points to empower real estate professionals with data confidence.",
     "short_description": "Commercial real estate software platform.",
     "target_audience": {
       "roles": [
-        "Property Managers",
-        "Brokers",
-        "Investors"
+        "Asset Managers",
+        "Investment Managers",
+        "Data Engineers",
+        "Portfolio Managers",
+        "Real Estate Analysts"
       ],
       "company_sizes": [
-        "Small",
-        "Mid-Market"
+        "Mid-Market",
+        "Enterprise"
       ],
       "property_types": [
-        "Commercial"
+        "Commercial Portfolios",
+        "Institutional Real Estate",
+        "Multi-Asset Portfolios",
+        "Investment Properties"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Enterprise pricing - Contact for custom quote based on data requirements",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -1228,7 +1251,25 @@
     "tagline": "Commercial real estate software solution",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Universal Data Model for standardization",
+      "Data ingestion workflows with observability",
+      "AI-powered data validation and cleaning",
+      "Agent STUDIO for AI workflow automation",
+      "Data Submission Portal (DSP) for user-controlled ingestion",
+      "150+ data and application partnerships",
+      "Real-time data processing and transformation",
+      "Schema change management (20K+ ongoing changes)",
+      "Connected data ecosystem with 3.5B+ data points",
+      "Marketplace with AI agents and connections",
+      "Portfolio performance optimization tools",
+      "Automated reporting and analytics",
+      "Risk management and benchmarking capabilities",
+      "Data quality assurance and governance"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:47:23.057975Z"
   },
   {
     "title": "CityBldr",
@@ -1304,34 +1345,31 @@
     "url": "https://www.compstak.com",
     "logo_url": "https://logo.clearbit.com/compstak.com",
     "headline": "Commercial real estate software solution",
-    "description": "Professional commercial real estate software platform providing comprehensive tools and solutions for industry professionals.",
+    "description": "Compstak is a leading commercial real estate data platform that provides authenticated lease and sales comparable data for CRE professionals. With over 35,000 members across the industry, Compstak delivers accurate, specific deal information that covers all of the United States. Unlike other data providers that anonymize and average information, Compstak provides detailed specifics on each deal, making it a valuable resource for appraisers, brokers, investors, and other CRE professionals for market analysis and decision-making.",
     "short_description": "Commercial real estate software platform.",
     "target_audience": {
       "roles": [
-        "Property Managers",
-        "Brokers",
-        "Investors"
+        "Commercial Real Estate Appraisers",
+        "CRE Brokers",
+        "Real Estate Investors",
+        "Market Analysts",
+        "CRE Economists"
       ],
       "company_sizes": [
         "Small",
-        "Mid-Market"
+        "Mid-Market",
+        "Enterprise"
       ],
       "property_types": [
-        "Commercial"
+        "Office",
+        "Industrial",
+        "Retail",
+        "Commercial",
+        "Investment Properties"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Subscription-based - Contact for pricing and membership details",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -1370,7 +1408,24 @@
     "tagline": "Commercial real estate software solution",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Authenticated CRE lease and sales data",
+      "Comprehensive U.S. market coverage",
+      "Detailed deal-specific information (non-anonymized)",
+      "Real-time market analysis and reporting",
+      "Member-contributed data network (35,000+ professionals)",
+      "Office, industrial, and retail comparable data",
+      "Market trend analysis and insights",
+      "Economic research and reporting",
+      "Professional data verification process",
+      "Multi-market analysis capabilities",
+      "Historical transaction data",
+      "Custom market reports",
+      "API and data integration capabilities"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:46:24.925146Z"
   },
   {
     "title": "CoreLogic",
@@ -1446,19 +1501,19 @@
     "url": "https://www.costar.com",
     "logo_url": "https://logo.clearbit.com/costar.com",
     "headline": "The Most Comprehensive Source of Commercial Real Estate Data & Analytics",
-    "description": "CoStar is the leading provider of commercial real estate information, analytics, and online marketplaces. The platform delivers an unparalleled depth of data covering properties, spaces, tenants, sales comparables, and market analytics across all major commercial property types. CoStar's research team of over 1,000 professionals continuously verifies and updates property information, making it the most trusted source in the industry.\n\nCoStar serves brokers, investors, lenders, appraisers, asset managers, and corporate occupiers who need reliable market intelligence to make informed decisions. The platform includes powerful tools for property search, tenant prospecting, lease analysis, and market trend tracking. Its suite also encompasses LoopNet and Apartments.com as leading listing marketplaces.\n\nWhat sets CoStar apart is the sheer scale and accuracy of its database — covering over 6 million commercial properties in the US alone — combined with analytics tools that surface actionable insights. The platform is considered essential infrastructure for commercial real estate professionals, though its premium pricing reflects its market-leading position.",
+    "description": "CoStar is the world leader in commercial real estate information and marketplaces, providing comprehensive data, analytics, and online marketplace services to commercial real estate professionals. As a publicly-traded company, CoStar maintains the largest database of commercial real estate information in the United States, including detailed building and ownership data, lease comps, sales transactions, and market analytics. The platform serves over 150,000 CRE professionals with critical market intelligence and research capabilities.",
     "short_description": "The leading commercial real estate information, analytics, and online marketplace platform.",
     "target_audience": {
       "roles": [
-        "Brokers",
+        "Commercial Real Estate Brokers",
         "Investors",
-        "Lenders",
         "Appraisers",
-        "Asset Managers",
-        "Corporate Occupiers",
-        "Researchers"
+        "Lenders",
+        "Developers",
+        "Market Researchers"
       ],
       "company_sizes": [
+        "Small",
         "Mid-Market",
         "Enterprise"
       ],
@@ -1467,8 +1522,8 @@
         "Industrial",
         "Retail",
         "Multifamily",
-        "Hospitality",
-        "Land"
+        "Land",
+        "Investment Properties"
       ]
     },
     "feature_groups": [
@@ -1536,27 +1591,7 @@
         ]
       }
     ],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": [
-        {
-          "name": "CoStar",
-          "price": "Quote-based",
-          "description": "Core property data, analytics, and market intelligence"
-        },
-        {
-          "name": "CoStar Suite",
-          "price": "Quote-based",
-          "description": "Full platform access including all modules and premium analytics"
-        }
-      ]
-    },
+    "pricing": "Subscription-based - Multiple tiers available, contact for enterprise pricing",
     "screenshots": [],
     "video_url": null,
     "pros": [
@@ -1634,7 +1669,26 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "features": [
+      "Comprehensive commercial property database",
+      "Building and ownership information",
+      "Lease comparable data and analysis",
+      "Sales transaction records",
+      "Market analytics and research tools",
+      "Property photos and mapping",
+      "Market trends and forecasting",
+      "Tenant and space information",
+      "Investment sales data",
+      "Market reports and insights",
+      "Portfolio analysis tools",
+      "Custom research capabilities",
+      "Mobile app access",
+      "API and data integration",
+      "Professional market research services"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:46:38.908946Z"
   },
   {
     "title": "CREModels",
@@ -1713,17 +1767,18 @@
     "url": "https://www.crexi.com",
     "logo_url": "https://logo.clearbit.com/crexi.com",
     "headline": "Commercial real estate marketplace and investment platform",
-    "description": "Crexi is a comprehensive commercial real estate marketplace that connects buyers, sellers, brokers, and lenders. The platform offers property listings, market analytics, deal sourcing, and financing solutions. With advanced search capabilities, detailed property information, and integrated communication tools, Crexi streamlines the commercial real estate transaction process from initial search through closing.",
+    "description": "Crexi is a leading commercial real estate marketplace and technology platform that connects buyers, sellers, tenants, and brokers in a single ecosystem. The platform provides comprehensive tools for listing, marketing, analyzing, and transacting commercial real estate deals. Crexi combines marketplace functionality with advanced analytics, deal management, and networking capabilities to streamline the entire commercial real estate transaction process from initial marketing to closing.",
     "short_description": "Comprehensive CRE marketplace connecting buyers, sellers, brokers, and lenders.",
     "target_audience": {
       "roles": [
-        "Brokers",
+        "Commercial Real Estate Brokers",
         "Investors",
-        "Buyers",
-        "Sellers",
-        "Lenders"
+        "Property Owners",
+        "Developers",
+        "Real Estate Agents"
       ],
       "company_sizes": [
+        "Solo",
         "Small",
         "Mid-Market",
         "Enterprise"
@@ -1734,7 +1789,8 @@
         "Retail",
         "Multifamily",
         "Land",
-        "Special Purpose"
+        "Investment Properties",
+        "Mixed-Use"
       ]
     },
     "feature_groups": [
@@ -1773,17 +1829,7 @@
         ]
       }
     ],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Freemium model - Free basic access, premium subscriptions for advanced features",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -1830,7 +1876,26 @@
       "Multifamily",
       "Land",
       "Special Purpose"
-    ]
+    ],
+    "features": [
+      "Commercial real estate marketplace",
+      "Property listing and marketing platform",
+      "Advanced search and filtering capabilities",
+      "Deal analysis and underwriting tools",
+      "Property valuation and comp analysis",
+      "Network and contact management",
+      "Transaction management and tracking",
+      "Document storage and sharing",
+      "Mobile app for on-the-go access",
+      "Market analytics and insights",
+      "Lead generation and management",
+      "Property tours and virtual showings",
+      "Broker and agent networking tools",
+      "Investment property analysis",
+      "Multi-channel marketing syndication"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:46:50.422590Z"
   },
   {
     "title": "DealCloud",
@@ -1905,30 +1970,27 @@
     "url": "https://www.dealpath.com",
     "logo_url": "https://www.dealpath.com/wp-content/uploads/2025/06/DP_logo-horizontal.svg",
     "headline": "The AI-Powered Operating System for Real Estate Investing",
-    "description": "Dealpath is commercial real estate's leading deal management platform, purpose-built for investment teams managing acquisitions, dispositions, development, and debt origination. The platform serves as a centralized command center where deal teams can track pipelines, execute transactions, and surface data-driven insights across the entire investment lifecycle.\n\nTrusted by over 300 firms powering $10T+ in transactions, Dealpath combines pipeline management, AI-powered data ingestion, reporting and analytics, CRM, and deal execution workflows into a single integrated platform. Its AI Studio brings purpose-built artificial intelligence directly into investment workflows, enabling teams to screen deals in minutes, benchmark with AI-recommended comps, and automate OM and flyer data abstraction.\n\nDealpath stands out through its white-glove implementation approach, enterprise-grade security (SOC 2 Type 2), and deep integrations with tools like CompStak, Esri, Microsoft Office, and leading data providers. The platform is designed for collaborative deal teams of five or more, from boutique firms to institutional powerhouses like Blackstone and New York Life.",
+    "description": "Dealpath is real estate's leading deal management software and AI-powered operating system for real estate investing. Trusted by 300+ firms powering over 0 trillion in transactions, Dealpath provides a comprehensive platform that centralizes data, surfaces insights, and enables efficient execution from sourcing to close. The platform combines AI-driven automation with comprehensive deal management capabilities to help investment teams identify opportunities, execute confidently, and maximize returns.",
     "short_description": "AI-powered deal management platform for commercial real estate investment teams.",
     "target_audience": {
       "roles": [
-        "Investment Managers",
+        "Real Estate Investment Managers",
         "Acquisitions Teams",
-        "Asset Managers",
         "Portfolio Managers",
-        "Analysts",
-        "CIOs",
-        "Development Managers"
+        "Chief Investment Officers",
+        "Development Teams"
       ],
       "company_sizes": [
         "Mid-Market",
         "Enterprise"
       ],
       "property_types": [
-        "Office",
-        "Industrial",
-        "Retail",
-        "Multifamily",
-        "Mixed-Use",
-        "Net Lease",
-        "Hospitality"
+        "Commercial",
+        "Acquisitions",
+        "Development",
+        "Dispositions",
+        "Debt/Lending",
+        "Multi-Asset Portfolios"
       ]
     },
     "feature_groups": [
@@ -1997,27 +2059,7 @@
         ]
       }
     ],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": [
-        {
-          "name": "Professional",
-          "price": "Quote-based",
-          "description": "Powerful suite of tools including AI data ingestion, comps database, analytics, workflows, and Microsoft Office compatibility. SOC 2 Type 2 security."
-        },
-        {
-          "name": "Enterprise",
-          "price": "Quote-based",
-          "description": "Everything in Professional plus SSO, Open API, sandbox environments, investor reporting, portfolio data integration, and early access to betas."
-        }
-      ]
-    },
+    "pricing": "Subscription-based with multiple tiers - Contact for custom pricing",
     "screenshots": [],
     "video_url": null,
     "pros": [
@@ -2132,7 +2174,26 @@
     "tagline": "Deal management platform for real estate investment teams.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "AI-powered deal management and pipeline tracking",
+      "Dealpath AI Studio for investment workflow automation",
+      "Market tracking with proprietary comps database",
+      "AI data ingestion and OM abstraction",
+      "Deal sourcing through Dealpath Connect marketplace",
+      "Centralized pipeline management across regions",
+      "Real-time reporting and analytics dashboards",
+      "CRM for relationship and contact management",
+      "Deal execution with due diligence workflows",
+      "Underwriting model comparison tools",
+      "Investment committee (IC) approval automation",
+      "Document collaboration and storage",
+      "Fund allocation and deal tracking",
+      "Market trend analysis and insights",
+      "Integration capabilities with existing tech stack"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:47:07.452071Z"
   },
   {
     "title": "Enertiv",
