@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sichuanlambda.github.io/cre-directory/sitemap.xml

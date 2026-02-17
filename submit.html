@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit a Tool - CRE Software Directory</title>
+  <meta name="description" content="Submit your commercial real estate software tool to be listed in the CRE Software Directory.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <div class="container">
+      <a href="index.html" class="logo">CRE<span>Software</span></a>
+      <button class="mobile-toggle">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Directory</a>
+        <a href="compare.html">Compare</a>
+        <a href="submit.html">Submit a Tool</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="form-page">
+    <h1>Submit a Tool</h1>
+    <p class="subtitle">Know a CRE software tool that's missing from our directory? Add it here.</p>
+    
+    <div class="success-msg" id="success-msg">✅ Thank you! Your submission has been received and will be reviewed shortly.</div>
+
+    <form id="submit-form" action="https://formspree.io/f/xplaceholder" method="POST">
+      <div class="form-group">
+        <label>Company Name <span class="req">*</span></label>
+        <input type="text" name="company_name" required>
+      </div>
+      <div class="form-group">
+        <label>Website URL <span class="req">*</span></label>
+        <input type="url" name="website_url" required placeholder="https://...">
+      </div>
+      <div class="form-group">
+        <label>Product Name <span class="req">*</span></label>
+        <input type="text" name="product_name" required>
+      </div>
+      <div class="form-group">
+        <label>Short Description / Tagline <span class="req">*</span> <small>(max 200 chars)</small></label>
+        <input type="text" name="tagline" required maxlength="200">
+      </div>
+      <div class="form-group">
+        <label>Full Description <span class="req">*</span> <small>(max 2000 chars)</small></label>
+        <textarea name="description" required maxlength="2000" rows="5"></textarea>
+      </div>
+      <div class="form-group">
+        <label>Categories</label>
+        <div class="checkbox-group" id="cat-checkboxes">
+          <label><input type="checkbox" name="categories" value="Property Management"> Property Management</label>
+          <label><input type="checkbox" name="categories" value="CRM & Marketing"> CRM & Marketing</label>
+          <label><input type="checkbox" name="categories" value="Investment & Valuation"> Investment & Valuation</label>
+          <label><input type="checkbox" name="categories" value="Construction & Development"> Construction & Development</label>
+          <label><input type="checkbox" name="categories" value="Lease Administration"> Lease Administration</label>
+          <label><input type="checkbox" name="categories" value="Data & Analytics"> Data & Analytics</label>
+          <label><input type="checkbox" name="categories" value="Broker Tools"> Broker Tools</label>
+          <label><input type="checkbox" name="categories" value="Site Selection"> Site Selection</label>
+          <label><input type="checkbox" name="categories" value="Tenant Experience"> Tenant Experience</label>
+          <label><input type="checkbox" name="categories" value="Accounting & Finance"> Accounting & Finance</label>
+          <label><input type="checkbox" name="categories" value="AI & Automation"> AI & Automation</label>
+          <label><input type="checkbox" name="categories" value="Listing Services"> Listing Services</label>
+          <label><input type="checkbox" name="categories" value="Crowdfunding & Investing"> Crowdfunding & Investing</label>
+          <label><input type="checkbox" name="categories" value="Energy & Sustainability"> Energy & Sustainability</label>
+          <label><input type="checkbox" name="categories" value="Legal & Compliance"> Legal & Compliance</label>
+          <label><input type="checkbox" name="categories" value="Workplace & Space Management"> Workplace & Space Management</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Property Types</label>
+        <div class="checkbox-group">
+          <label><input type="checkbox" name="property_types" value="Office"> Office</label>
+          <label><input type="checkbox" name="property_types" value="Retail"> Retail</label>
+          <label><input type="checkbox" name="property_types" value="Industrial"> Industrial</label>
+          <label><input type="checkbox" name="property_types" value="Multifamily"> Multifamily</label>
+          <label><input type="checkbox" name="property_types" value="Mixed-Use"> Mixed-Use</label>
+          <label><input type="checkbox" name="property_types" value="Residential"> Residential</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Pricing Model</label>
+        <div class="radio-group">
+          <label><input type="radio" name="pricing_model" value="Free"> Free</label>
+          <label><input type="radio" name="pricing_model" value="Freemium"> Freemium</label>
+          <label><input type="radio" name="pricing_model" value="Subscription"> Subscription</label>
+          <label><input type="radio" name="pricing_model" value="Quote-based"> Quote-based</label>
+          <label><input type="radio" name="pricing_model" value="Other"> Other</label>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Starting Price <small>(optional)</small></label>
+        <input type="text" name="starting_price" placeholder="e.g. $99/month">
+      </div>
+      <div class="form-group">
+        <label>Contact Email <span class="req">*</span></label>
+        <input type="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label>Logo URL <small>(optional)</small></label>
+        <input type="url" name="logo_url" placeholder="https://...">
+      </div>
+      <div class="form-submit">
+        <button type="submit" class="cta-btn">Submit Tool for Review</button>
+      </div>
+    </form>
+  </div>
+
+  <footer>
+    <div class="container">
+      <span>© 2025 CRE Software Directory</span>
+      <div><a href="submit.html">Submit a Tool</a> · <a href="mailto:hello@cresoftware.tech">Contact</a></div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+  <script>
+    initNav();
+    document.getElementById('submit-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      // Save to localStorage as backup
+      const data = Object.fromEntries(new FormData(this));
+      const submissions = JSON.parse(localStorage.getItem('cre-submissions') || '[]');
+      submissions.push({...data, submitted_at: new Date().toISOString()});
+      localStorage.setItem('cre-submissions', JSON.stringify(submissions));
+      
+      // Try Formspree
+      fetch(this.action, { method: 'POST', body: new FormData(this), headers: { 'Accept': 'application/json' }})
+        .catch(() => {});
+      
+      this.style.display = 'none';
+      document.getElementById('success-msg').style.display = 'block';
+    });
+  </script>
+</body>
+</html>
