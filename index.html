@@ -29,25 +29,36 @@
 
   <section class="hero">
     <div class="container">
-      <h1>Find the Right CRE Software</h1>
-      <p>Compare <strong id="hero-count">174+</strong> tools across <strong id="hero-cats">14</strong> categories</p>
+      <h1>Find the Right Software for Commercial Real Estate</h1>
+      <p>The independent directory for CRE professionals. Compare <strong id="hero-count">174+</strong> tools across <strong id="hero-cats">14</strong> categories.</p>
       <div class="search-box">
-        <span class="search-icon">🔍</span>
-        <input type="text" id="search-input" placeholder="Search by name, category, or feature..." aria-label="Search software tools">
+        <svg class="search-icon-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="search-input" placeholder="Search tools, categories, or features..." aria-label="Search software tools">
       </div>
+      <div class="hero-pills" id="hero-pills"></div>
     </div>
   </section>
 
+  <div class="social-proof-bar hide-on-search">
+    <div class="container social-proof-inner">
+      <span id="proof-tools">174 tools reviewed</span>
+      <span class="proof-dot">·</span>
+      <span id="proof-cats">14 categories</span>
+      <span class="proof-dot">·</span>
+      <span>Updated February 2026</span>
+      <span class="proof-dot">·</span>
+      <span>Independent & unbiased</span>
+    </div>
+  </div>
+
   <section class="section hide-on-search" id="featured-section">
     <div class="container">
-      <div class="section-header">
-        <h2 class="section-title">⭐ Featured & Top Rated</h2>
-      </div>
+      <h2 class="section-title">Featured Tools</h2>
       <div class="product-grid" id="featured-products"></div>
     </div>
   </section>
 
-  <section class="section hide-on-search">
+  <section class="section section-alt hide-on-search">
     <div class="container">
       <h2 class="section-title">Browse by Category</h2>
       <div class="cat-grid" id="cat-grid"></div>
@@ -57,13 +68,43 @@
   <section class="section hide-on-search" id="recent-section">
     <div class="container">
       <h2 class="section-title">Recently Updated</h2>
-      <div class="product-grid" id="recent-products"></div>
+      <div class="recent-row" id="recent-products"></div>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section section-alt hide-on-search" id="trust-section">
     <div class="container">
-      <h2 class="section-title" id="all-title">All Software Tools</h2>
+      <h2 class="section-title" style="text-align:center">What Makes This Directory Different</h2>
+      <div class="trust-grid">
+        <div class="trust-card">
+          <div class="trust-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Independent Reviews</h3>
+          <p>We're not pay-to-play. Every tool is evaluated on its merits.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4"/></svg>
+          </div>
+          <h3>Built for CRE</h3>
+          <p>Not a generic software directory. Every tool here serves commercial real estate.</p>
+        </div>
+        <div class="trust-card">
+          <div class="trust-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          </div>
+          <h3>Always Current</h3>
+          <p>Products are regularly updated with the latest features and pricing.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search results (hidden by default, shown when searching) -->
+  <section class="section show-on-search" id="search-results-section" style="display:none">
+    <div class="container">
+      <h2 class="section-title" id="all-title">Results</h2>
       <div class="product-grid" id="all-products"></div>
     </div>
   </section>
@@ -72,18 +113,21 @@
     <div class="container">
       <div class="seo-block">
         <h2>About CRE Software Directory</h2>
-        <p>CRE Software Directory helps commercial real estate professionals find the right software for their needs. Whether you're a broker looking for deal management tools, an asset manager evaluating portfolio analytics, or a property manager seeking tenant experience platforms, our directory provides comprehensive reviews, pricing information, feature comparisons, and alternatives for over 174 tools across 14 categories. Every listing includes detailed feature breakdowns, pricing plans, pros and cons, and company information to help you make informed decisions.</p>
+        <p>CRE Software Directory helps commercial real estate professionals — brokers, asset managers, investors, and property managers — find the right technology tools. From leasing management to site selection, we cover every category of CRE software with independent, detailed reviews.</p>
       </div>
     </div>
   </section>
 
   <footer>
     <div class="container footer-inner">
-      <span>© 2025 CRE Software Directory</span>
-      <div>
-        <a href="submit.html">Submit a Tool</a> · 
-        <a href="compare.html">Compare Tools</a> · 
-        <a href="mailto:hello@cresoftware.tech">Contact</a>
+      <span>&copy; 2025 CRE Software Directory</span>
+      <div class="footer-links">
+        <div class="footer-cat-links" id="footer-cat-links"></div>
+        <div class="footer-main-links">
+          <a href="submit.html">Submit a Tool</a> · 
+          <a href="compare.html">Compare Tools</a> · 
+          <a href="mailto:hello@cresoftware.tech">Contact</a>
+        </div>
       </div>
     </div>
   </footer>

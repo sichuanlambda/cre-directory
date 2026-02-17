@@ -124,63 +124,114 @@ function initNav() {
   }
 }
 
+function featuredCard(p) {
+  const cat = (p.categories || [])[0];
+  const catBadge = cat ? `<span class="badge badge-accent">${cat}</span>` : '';
+  return `<a class="product-card product-card-link featured-card" href="product.html#${p.slug}">
+    <div class="card-top">
+      <div class="product-logo" style="width:56px;height:56px">${logoHTML(p, 56)}</div>
+      <div class="product-info">
+        <h3>${p.title}</h3>
+        <div class="tagline">${p.short_description || p.tagline || p.headline || ''}</div>
+      </div>
+    </div>
+    <div class="card-bottom">
+      <div class="card-meta">${catBadge}</div>
+    </div>
+  </a>`;
+}
+
+function recentCard(p) {
+  return `<a class="product-card product-card-link product-card-compact" href="product.html#${p.slug}">
+    <div class="card-top">
+      <div class="product-logo" style="width:40px;height:40px">${logoHTML(p, 40)}</div>
+      <div class="product-info">
+        <h3>${p.title}</h3>
+        <div class="tagline">${p.short_description || p.tagline || p.headline || ''}</div>
+      </div>
+    </div>
+  </a>`;
+}
+
 // ====== HOMEPAGE ======
 async function initHome() {
   await loadData();
   initNav();
   
+  const catCount = Object.keys(CATEGORIES).length;
+  
   // Update stats
   const countEl = document.getElementById('hero-count');
   const catsEl = document.getElementById('hero-cats');
   if (countEl) countEl.textContent = PRODUCTS.length + '+';
-  if (catsEl) catsEl.textContent = Object.keys(CATEGORIES).length;
+  if (catsEl) catsEl.textContent = catCount;
+
+  // Social proof bar
+  const proofTools = document.getElementById('proof-tools');
+  const proofCats = document.getElementById('proof-cats');
+  if (proofTools) proofTools.textContent = `${PRODUCTS.length} tools reviewed`;
+  if (proofCats) proofCats.textContent = `${catCount} categories`;
+
+  // Hero pills (top 6 categories)
+  const pillsEl = document.getElementById('hero-pills');
+  if (pillsEl) {
+    const topCats = Object.values(CATEGORIES).sort((a, b) => b.product_count - a.product_count).slice(0, 6);
+    pillsEl.innerHTML = topCats.map(c => `<a href="category.html#${c.slug}" class="hero-pill">${c.name}</a>`).join('');
+  }
 
   // Categories
   const catGrid = document.getElementById('cat-grid');
   if (catGrid) {
     catGrid.innerHTML = Object.values(CATEGORIES)
       .sort((a, b) => b.product_count - a.product_count)
+      .slice(0, 10)
       .map(categoryCard).join('');
   }
   
-  // Featured
+  // Featured (no stars, no ratings)
   const featured = document.getElementById('featured-products');
   if (featured) {
-    const top = PRODUCTS.filter(p => p.is_featured || (p.rating && p.rating >= 4));
-    const items = top.length >= 6 ? top.slice(0, 6) : PRODUCTS.slice(0, 6);
-    featured.innerHTML = items.map(productCard).join('');
+    const top = PRODUCTS.filter(p => p.is_featured);
+    const items = top.length >= 8 ? top.slice(0, 8) : PRODUCTS.slice(0, 8);
+    featured.innerHTML = items.map(featuredCard).join('');
   }
   
-  // Recently updated
+  // Recently updated (compact row)
   const recent = document.getElementById('recent-products');
   if (recent) {
     const sorted = [...PRODUCTS].sort((a, b) => (b.last_updated || '').localeCompare(a.last_updated || '')).slice(0, 6);
-    recent.innerHTML = sorted.map(productCard).join('');
+    recent.innerHTML = sorted.map(recentCard).join('');
   }
   
-  // All products
-  const allGrid = document.getElementById('all-products');
-  if (allGrid) {
-    allGrid.innerHTML = PRODUCTS.map(productCard).join('');
+  // Footer category links
+  const footerCats = document.getElementById('footer-cat-links');
+  if (footerCats) {
+    const topCats = Object.values(CATEGORIES).sort((a, b) => b.product_count - a.product_count).slice(0, 8);
+    footerCats.innerHTML = topCats.map(c => `<a href="category.html#${c.slug}">${c.name}</a>`).join('');
   }
   
-  // Search
+  // Search — only show results when query exists
   const search = document.getElementById('search-input');
+  const allGrid = document.getElementById('all-products');
+  const searchSection = document.getElementById('search-results-section');
   if (search) {
     search.addEventListener('input', (e) => {
       const q = e.target.value.toLowerCase().trim();
-      if (!allGrid) return;
-      const filtered = q ? PRODUCTS.filter(p =>
-        p.title.toLowerCase().includes(q) ||
-        (p.short_description || p.tagline || '').toLowerCase().includes(q) ||
-        (p.categories || []).some(c => c.toLowerCase().includes(q))
-      ) : PRODUCTS;
-      allGrid.innerHTML = filtered.map(productCard).join('');
-      const allTitle = document.getElementById('all-title');
-      if (allTitle) allTitle.textContent = q ? `Results (${filtered.length})` : 'All Software Tools';
-      document.querySelectorAll('.hide-on-search').forEach(el => {
-        el.style.display = q ? 'none' : '';
-      });
+      if (q) {
+        const filtered = PRODUCTS.filter(p =>
+          p.title.toLowerCase().includes(q) ||
+          (p.short_description || p.tagline || '').toLowerCase().includes(q) ||
+          (p.categories || []).some(c => c.toLowerCase().includes(q))
+        );
+        if (allGrid) allGrid.innerHTML = filtered.map(productCard).join('');
+        const allTitle = document.getElementById('all-title');
+        if (allTitle) allTitle.textContent = `Results (${filtered.length})`;
+        if (searchSection) searchSection.style.display = '';
+        document.querySelectorAll('.hide-on-search').forEach(el => el.style.display = 'none');
+      } else {
+        if (searchSection) searchSection.style.display = 'none';
+        document.querySelectorAll('.hide-on-search').forEach(el => el.style.display = '');
+      }
     });
   }
   
@@ -190,7 +241,7 @@ async function initHome() {
     "@type": "WebSite",
     "name": "CRE Software Directory",
     "url": BASE_URL,
-    "description": "Find and compare 174+ commercial real estate software tools",
+    "description": "Find and compare " + PRODUCTS.length + "+ commercial real estate software tools",
     "potentialAction": {
       "@type": "SearchAction",
       "target": BASE_URL + "/?q={search_term_string}",
