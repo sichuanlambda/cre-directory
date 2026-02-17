@@ -119,41 +119,122 @@ async function initProduct() {
   
   document.title = `${product.title} - CRE Software Directory`;
   
-  // Meta tags
   setMeta('description', `${product.title}: ${product.tagline}. Compare CRE software tools.`);
   setMeta('og:title', `${product.title} - CRE Software Directory`);
   setMeta('og:description', product.tagline);
   
+  // Badges
+  const badges = [];
+  if (product.is_free) badges.push('<span class="badge-hero badge-hero-free">Free</span>');
+  if (product.is_top_rated) badges.push('<span class="badge-hero badge-hero-top">⭐ Top Rated</span>');
+  if (product.is_verified) badges.push('<span class="badge-hero badge-hero-verified">✓ Verified</span>');
+
+  // Rating
+  const ratingHTML = product.rating ? `<div class="rating-display">
+    <span class="rating-stars">${'★'.repeat(Math.round(product.rating))}${'☆'.repeat(5 - Math.round(product.rating))}</span>
+    <span class="rating-text">${product.rating}/5${product.review_count ? ` (${product.review_count} reviews)` : ''}</span>
+  </div>` : '';
+
+  // Screenshots
+  const screenshotsHTML = product.screenshots && product.screenshots.length
+    ? `<div class="screenshot-gallery"><h2>Screenshots</h2><div class="screenshot-scroll">${product.screenshots.map(s => `<img src="${s}" alt="Screenshot" onclick="openLightbox(this.src)">`).join('')}</div></div>`
+    : '<div class="screenshot-gallery"><div class="screenshot-placeholder">📷 No screenshots available yet</div></div>';
+
+  // Features
+  const featuresHTML = product.features && product.features.length
+    ? `<div class="features-section"><h2>Features</h2><div class="features-grid">${product.features.map(f => `<div class="feature-item">${f}</div>`).join('')}</div></div>` : '';
+
+  // Pros & Cons
+  const hasProsCons = (product.pros && product.pros.length) || (product.cons && product.cons.length);
+  const prosConsHTML = hasProsCons ? `<div class="proscons">
+    <div class="proscons-col">${product.pros && product.pros.length ? `<h2 class="pros-title">✓ Pros</h2>${product.pros.map(p => `<div class="proscons-item"><span class="icon-pro">✓</span>${p}</div>`).join('')}` : ''}</div>
+    <div class="proscons-col">${product.cons && product.cons.length ? `<h2 class="cons-title">✗ Cons</h2>${product.cons.map(c => `<div class="proscons-item"><span class="icon-con">✗</span>${c}</div>`).join('')}` : ''}</div>
+  </div>` : '';
+
+  // Pricing details
+  const pd = product.pricing_details || {};
+  const hasPricingDetails = pd.starting_price || pd.free_trial || (pd.tiers && pd.tiers.length);
+  const pricingDetailsHTML = hasPricingDetails ? `<div class="pricing-section"><h2>Pricing Details</h2>
+    ${pd.starting_price ? `<div class="pricing-detail"><strong>Starting at:</strong> ${pd.starting_price}</div>` : ''}
+    ${pd.free_trial ? '<div class="pricing-detail">✓ Free trial available</div>' : ''}
+    ${pd.tiers && pd.tiers.length ? `<div class="pricing-detail"><strong>Plans:</strong> ${pd.tiers.join(', ')}</div>` : ''}
+  </div>` : '';
+
+  // Integrations
+  const integrationsHTML = product.integrations && product.integrations.length
+    ? `<div class="integrations-section"><h2>Integrations</h2><div class="integrations-list">${product.integrations.map(i => `<span class="integration-badge">${i}</span>`).join('')}</div></div>` : '';
+
+  // Company info
+  const hasCompanyInfo = product.founded || product.headquarters || product.company_size;
+  const companyHTML = hasCompanyInfo ? `<div class="company-info"><h2>Company Info</h2><div class="company-info-grid">
+    ${product.founded ? `<div class="company-info-item"><div class="ci-label">Founded</div><div class="ci-value">${product.founded}</div></div>` : ''}
+    ${product.headquarters ? `<div class="company-info-item"><div class="ci-label">Headquarters</div><div class="ci-value">${product.headquarters}</div></div>` : ''}
+    ${product.company_size ? `<div class="company-info-item"><div class="ci-label">Company Size</div><div class="ci-value">${product.company_size}</div></div>` : ''}
+  </div></div>` : '';
+
+  // Stats bar
+  const stats = [
+    { label: 'Pricing', value: product.pricing_model + (product.is_free ? ' · Free' : '') },
+    { label: 'Deployment', value: product.deployment.join(', ') },
+    { label: 'Property Types', value: product.property_types.join(', ') },
+  ];
+  if (product.founded) stats.push({ label: 'Founded', value: product.founded });
+
+  // Categories with links
   const cats = product.categories.map(c => {
     const cs = Object.values(CATEGORIES).find(cat => cat.name === c);
     return cs ? `<a href="category.html#${cs.slug}" class="badge badge-accent">${c}</a>` : `<span class="badge badge-accent">${c}</span>`;
   }).join(' ');
-  
-  const related = PRODUCTS.filter(p => p.slug !== slug && p.categories.some(c => product.categories.includes(c))).slice(0, 4);
-  
+
+  // Related tools by category — carousel per category
+  let relatedHTML = '';
+  const usedSlugs = new Set([slug]);
+  const carousels = [];
+  product.categories.forEach(cat => {
+    const related = PRODUCTS.filter(p => !usedSlugs.has(p.slug) && p.categories.includes(cat));
+    if (related.length === 0) return;
+    const items = related.slice(0, 10);
+    const id = 'carousel-' + slugify(cat);
+    carousels.push(id);
+    const cards = items.map(p => { usedSlugs.add(p.slug); return productCard(p); }).join('');
+    relatedHTML += `<div class="carousel-group"><h3>${cat}</h3><div class="carousel-wrapper">
+      <button class="carousel-btn prev" onclick="scrollCarousel('${id}',-1)">‹</button>
+      <div class="carousel-track" id="${id}">${cards}</div>
+      <button class="carousel-btn next" onclick="scrollCarousel('${id}',1)">›</button>
+    </div></div>`;
+  });
+
   el.innerHTML = `
     <div class="breadcrumbs">
       <a href="index.html">Home</a> / 
       ${product.categories[0] ? `<a href="category.html#${slugify(product.categories[0])}">${product.categories[0]}</a> / ` : ''}
       ${product.title}
     </div>
-    <div class="product-header">
-      <div class="logo-large">${logoHTML(product, 72)}</div>
+    <div class="product-hero">
+      <div class="logo-large">${logoHTML(product, 96)}</div>
       <div>
         <h1>${product.title}</h1>
         <div class="tagline">${product.tagline}</div>
+        ${ratingHTML}
+        <div class="hero-badges">${badges.join('')} ${cats}</div>
+        <a href="${product.url}" target="_blank" rel="noopener" class="cta-btn">Visit Website →</a>
       </div>
     </div>
-    <div class="product-meta">
-      <div class="meta-item"><label>Categories</label><span>${cats}</span></div>
-      <div class="meta-item"><label>Property Types</label><span>${product.property_types.join(', ')}</span></div>
-      <div class="meta-item"><label>Deployment</label><span>${product.deployment.join(', ')}</span></div>
-      <div class="meta-item"><label>Pricing</label><span>${product.pricing_model}${product.is_free ? ' · Free' : ''}</span></div>
+    <div class="stats-bar">
+      ${stats.map(s => `<div class="stat-item"><div class="stat-label">${s.label}</div><div class="stat-value">${s.value}</div></div>`).join('')}
     </div>
-    <div class="product-description">${product.description.replace(/\n/g, '<br>')}</div>
-    <a href="${product.url}" target="_blank" rel="noopener" class="cta-btn">Visit Website →</a>
-    <a href="submit.html" class="claim-link">Is this your product? Claim it or suggest edits</a>
-    ${related.length ? `<div class="section"><h2 class="section-title">Related Tools</h2><div class="product-grid">${related.map(productCard).join('')}</div></div>` : ''}
+    ${screenshotsHTML}
+    <div class="description-section"><h2>About ${product.title}</h2><div class="product-description">${product.description.replace(/\n/g, '<br>')}</div></div>
+    ${featuresHTML}
+    ${prosConsHTML}
+    ${pricingDetailsHTML}
+    ${integrationsHTML}
+    ${companyHTML}
+    <div class="bottom-cta">
+      <a href="${product.url}" target="_blank" rel="noopener" class="cta-btn">Visit ${product.title} Website →</a>
+      <a href="submit.html" class="claim-link">Is this your product? Claim it or suggest edits</a>
+    </div>
+    ${relatedHTML ? `<div class="related-section"><h2>Related Tools</h2>${relatedHTML}</div>` : ''}
   `;
   
   // JSON-LD
@@ -167,10 +248,25 @@ async function initProduct() {
     "operatingSystem": product.deployment.join(', '),
     "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
   };
+  if (product.rating) { ld.aggregateRating = { "@type": "AggregateRating", "ratingValue": product.rating, "bestRating": 5, "reviewCount": product.review_count || 1 }; }
   const script = document.createElement('script');
   script.type = 'application/ld+json';
   script.textContent = JSON.stringify(ld);
   document.head.appendChild(script);
+}
+
+function scrollCarousel(id, dir) {
+  const track = document.getElementById(id);
+  if (!track) return;
+  track.scrollBy({ left: dir * 320, behavior: 'smooth' });
+}
+
+function openLightbox(src) {
+  const overlay = document.createElement('div');
+  overlay.className = 'lightbox-overlay';
+  overlay.innerHTML = `<img src="${src}" alt="Screenshot">`;
+  overlay.onclick = () => overlay.remove();
+  document.body.appendChild(overlay);
 }
 
 // Category page
