@@ -28,31 +28,33 @@ function starsHTML(rating, size = 16) {
   return `<span class="stars" style="font-size:${size}px">${'★'.repeat(full)}${half ? '⯨' : ''}${'☆'.repeat(empty)}</span>`;
 }
 
-function pricingLabel(product) {
+function pricingLabel(product, forCard = false) {
   const p = product.pricing || {};
   if (p.starting_price) return p.starting_price;
   if (p.free_tier) return 'Free';
   if (p.model === 'Free') return 'Free';
+  if (forCard) return '';
   if (p.model === 'Subscription') return 'Subscription';
   return 'Contact for pricing';
 }
 
 function compactProductCard(p) {
-  return `<div class="product-card product-card-compact">
+  return `<a class="product-card product-card-compact product-card-link" href="product.html#${p.slug}">
     <div class="card-top">
       <div class="product-logo" style="width:40px;height:40px">${logoHTML(p, 40)}</div>
       <div class="product-info">
-        <h3><a href="product.html#${p.slug}">${p.title}</a></h3>
+        <h3>${p.title}</h3>
         <div class="tagline">${p.short_description || p.tagline || p.headline || ''}</div>
       </div>
     </div>
-  </div>`;
+  </a>`;
 }
 
 function productCard(p) {
   const cats = (p.categories || []).slice(0, 2).map(c => `<span class="badge badge-accent">${c}</span>`).join('');
   const rating = p.rating ? `<div class="card-rating">${starsHTML(p.rating, 13)} <span class="rating-num">${p.rating}</span></div>` : '';
-  const price = `<span class="card-price">${pricingLabel(p)}</span>`;
+  const priceText = pricingLabel(p, true);
+  const price = priceText ? `<span class="card-price">${priceText}</span>` : '';
   const badges = [];
   if (p.pricing && p.pricing.free_trial) badges.push('<span class="badge badge-green">Free Trial</span>');
   if (p.pricing && p.pricing.free_tier) badges.push('<span class="badge badge-green">Free</span>');
@@ -62,11 +64,11 @@ function productCard(p) {
   const features = (p.feature_groups || []).flatMap(g => g.features || []).slice(0, 3);
   const featHTML = features.length ? `<div class="card-features">${features.map(f => `<span class="card-feature">✦ ${f.name}</span>`).join('')}</div>` : '';
   
-  return `<div class="product-card">
+  return `<a class="product-card product-card-link" href="product.html#${p.slug}">
     <div class="card-top">
       <div class="product-logo">${logoHTML(p)}</div>
       <div class="product-info">
-        <h3><a href="product.html#${p.slug}">${p.title}</a></h3>
+        <h3>${p.title}</h3>
         <div class="tagline">${p.short_description || p.tagline || p.headline || ''}</div>
         ${rating}
       </div>
@@ -76,7 +78,7 @@ function productCard(p) {
       <div class="card-meta">${price} ${badges.join('')}</div>
       <div class="cats">${cats}</div>
     </div>
-  </div>`;
+  </a>`;
 }
 
 const CATEGORY_ICONS = {

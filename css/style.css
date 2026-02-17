@@ -132,6 +132,16 @@ nav .nav-links a.active { color: var(--white); background: rgba(255,255,255,0.12
   gap: 12px;
 }
 .product-card:hover { border-color: var(--accent); box-shadow: var(--shadow-md); }
+a.product-card-link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+a.product-card-link:hover {
+  text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-lg);
+}
 .card-top { display: flex; gap: 14px; align-items: flex-start; }
 .product-logo {
   width: 48px; height: 48px; border-radius: var(--radius);
