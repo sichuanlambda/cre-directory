@@ -765,35 +765,203 @@
     "slug": "buildout",
     "url": "https://www.buildout.com",
     "logo_url": "https://logo.clearbit.com/buildout.com",
-    "headline": "Marketing and deal management made easy.",
-    "description": "Summary: Buildout is a deal and marketing management platform built for brokers, offering tools to streamline their marketing efforts and transaction management. While it's excellent for marketing, some users might find its customization options lacking.\n\nFeatures:\n\nMarketing and deal management for brokers\nAutomated marketing materials\nTransaction management tools\nPros:\n\nStreamlines marketing efforts\nEasy-to-use interface\nGreat for managing multiple deals\nCons:\n\nLimited customization for marketing materials\nRequires a subscription for full feature access\nRating: 4.2/5",
-    "short_description": "Marketing and deal management made easy.",
+    "headline": "The connected CRE brokerage platform \u2014 prospecting, CRM, marketing, and transactions in one place.",
+    "description": "Buildout is a connected software platform purpose-built for commercial real estate brokerages, combining CRM, marketing automation, data-driven prospecting, and back-office deal management. Over 50,000 CRE brokers use Buildout to find, win, and close deals faster.\n\nThe platform consists of four integrated products: Prospect by Buildout for AI-powered property targeting and owner identification across 40M+ commercial properties; Showcase for automated listing marketing with AI data ingestion and native email marketing; Rethink CRM for pipeline management and lead nurturing with AI-assisted follow-up; and Transact for deal-team collaboration, document sharing, and closing workflows.\n\nBuildout has been aggressively adding AI capabilities, including intelligent owner targeting in Prospect, automated follow-up sequences in Rethink+, AI-assisted listing creation in Showcase (including 'AL' \u2014 an AI assistant for listings), and automated data ingestion that eliminates manual property data entry. The platform is designed to scale from solo brokers to 200+ person brokerages.",
+    "short_description": "Connected CRE brokerage platform \u2014 AI-powered prospecting, CRM, marketing, and deal management for 50,000+ brokers.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "CRE Brokers",
+        "Brokerage Operations",
+        "Marketing Teams",
+        "Managing Brokers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
-        "Commercial"
+        "Office",
+        "Industrial",
+        "Retail",
+        "Multifamily",
+        "Land"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Prospecting (Prospect by Buildout)",
+        "features": [
+          {
+            "name": "AI-Powered Property Targeting",
+            "description": "Predictive analytics across 40M+ commercial properties to identify listings most likely to sell."
+          },
+          {
+            "name": "Owner Identification",
+            "description": "Intelligent owner targeting through vetted data partner network and AI influence."
+          },
+          {
+            "name": "Property Analytics",
+            "description": "Deep property data and analytics to evaluate potential listings before outreach."
+          }
+        ]
+      },
+      {
+        "name": "Marketing (Showcase)",
+        "features": [
+          {
+            "name": "AI Data Ingestion",
+            "description": "Property data flows in automatically \u2014 no manual entry. Raw data becomes polished marketing."
+          },
+          {
+            "name": "Automated Proposal Generator",
+            "description": "Create professional pitch materials and proposals without design skills."
+          },
+          {
+            "name": "AL AI Assistant",
+            "description": "AI-powered listing assistant to support and accelerate your listings."
+          },
+          {
+            "name": "Native Email Marketing",
+            "description": "Send listings to ideal buyers and syndicate to 20+ listing sites \u2014 all from one platform."
+          },
+          {
+            "name": "Listing Syndication",
+            "description": "Push listings to up to 20 syndication sites instantly."
+          }
+        ]
+      },
+      {
+        "name": "CRM (Rethink)",
+        "features": [
+          {
+            "name": "Deal Pipeline Management",
+            "description": "The most complete CRM for CRE \u2014 manage leads, contacts, and deal flow in one place."
+          },
+          {
+            "name": "AI-Assisted Follow-Up",
+            "description": "Automated follow-up sequences with AI assistance to nurture leads without manual effort."
+          },
+          {
+            "name": "Contact & Lead Management",
+            "description": "Centralized contact database with activity tracking and relationship intelligence."
+          },
+          {
+            "name": "Showcase Integration",
+            "description": "Seamless connection between CRM and marketing for prospecting efforts."
+          }
+        ]
+      },
+      {
+        "name": "Transactions (Transact)",
+        "features": [
+          {
+            "name": "Deal-Team Playbooks",
+            "description": "Standardized closing workflows to keep deals moving on autopilot."
+          },
+          {
+            "name": "Private Document Sharing",
+            "description": "Secure document sharing with deal participants and stakeholders."
+          },
+          {
+            "name": "Deal Tracking",
+            "description": "Accurate deal tracking across the entire closing process."
+          }
+        ]
+      },
+      {
+        "name": "Brokerage Management",
+        "features": [
+          {
+            "name": "Pipeline Visibility",
+            "description": "Full visibility into every stage of pipeline for brokerage leadership."
+          },
+          {
+            "name": "Financial Reporting",
+            "description": "Reports on financials, comps, and earnings across the brokerage."
+          },
+          {
+            "name": "Comp Database",
+            "description": "Comprehensive comparable transaction database for pricing and pitches."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Subscription",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Prospect",
+          "price": "Custom",
+          "description": "AI-powered property targeting and owner identification.",
+          "includes": [
+            "40M+ property database",
+            "Predictive analytics",
+            "Owner identification"
+          ]
+        },
+        {
+          "name": "Showcase",
+          "price": "Custom",
+          "description": "Listing marketing, proposals, and syndication.",
+          "includes": [
+            "AI data ingestion",
+            "Proposal generator",
+            "Email marketing",
+            "20+ syndication sites",
+            "AL AI assistant"
+          ]
+        },
+        {
+          "name": "Rethink CRM",
+          "price": "Custom",
+          "description": "Full CRM for CRE pipeline management.",
+          "includes": [
+            "Contact management",
+            "Deal pipeline",
+            "AI follow-up",
+            "Showcase integration"
+          ]
+        },
+        {
+          "name": "Transact",
+          "price": "Custom",
+          "description": "Deal closing and transaction management.",
+          "includes": [
+            "Document sharing",
+            "Deal playbooks",
+            "Closing workflows"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Purpose-built for CRE brokers \u2014 not a generic CRM adapted for real estate",
+      "Strong AI features across prospecting, marketing, and CRM that save real time",
+      "Modular \u2014 start with one product and expand as needs grow",
+      "40M+ property database gives strong prospecting foundation",
+      "50,000+ broker user base means active development and community"
+    ],
+    "cons": [
+      "Quote-based pricing across all products \u2014 no published prices",
+      "Best suited for brokerages, not landlords or investors",
+      "Newer AI features (Rethink+, Showcase AI) are still maturing",
+      "Less suited for enterprise portfolio management vs. deal-focused workflows"
+    ],
     "integrations": [],
     "company": {
-      "name": "Buildout",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "name": "Buildout, Inc.",
+      "founded": 2013,
+      "headquarters": "Chicago, IL",
+      "employees": "100-250",
       "funding": ""
     },
     "categories": [
@@ -805,20 +973,23 @@
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
-    "review_count": 0,
+    "rating": 4.1,
+    "review_count": 30,
     "seo": {
-      "title": "Buildout Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Buildout. Marketing and deal management made easy. Compare pricing, features, pros & cons.",
+      "title": "Buildout Review 2025: CRE Brokerage Platform \u2014 Pricing, Features & Alternatives",
+      "description": "In-depth review of Buildout \u2014 the connected CRE brokerage platform used by 50,000+ brokers. Compare Prospect, Showcase, Rethink CRM, and Transact products.",
       "keywords": [
         "Buildout review",
+        "Buildout CRM",
+        "CRE brokerage software",
         "Buildout pricing",
-        "CRE software"
+        "Rethink CRM",
+        "Buildout alternatives"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": true,
-    "is_featured": false,
+    "is_featured": true,
     "domain": "buildout.com",
     "pricing_model": "Subscription",
     "is_free": false,
@@ -5401,38 +5572,253 @@
     "slug": "vts",
     "url": "https://www.vts.com",
     "logo_url": "https://logo.clearbit.com/vts.com",
-    "headline": "Leasing and asset management platform for CRE professionals.",
-    "description": "VTS is a leasing and asset management platform for commercial real estate, offering tools for managing property portfolios and deals.",
-    "short_description": "Leasing and asset management platform for CRE professionals.",
+    "headline": "The industry's leading leasing and asset management platform, powered by 13B+ SF of CRE data and AI.",
+    "description": "VTS is the commercial real estate industry's leading technology platform, bringing together leasing, asset management, tenant experience, and market intelligence into one unified system. Used by the world's largest landlords, brokerages, and investors, VTS manages over 13 billion square feet of assets globally.\n\nThe platform consists of four core products: VTS Lease for end-to-end deal pipeline management from inquiry to renewal; VTS Market for digital marketing and virtual content delivery; VTS Data for predictive market research and investment intelligence; and VTS Activate for tenant and resident experience management across office, workplace, and multifamily properties.\n\nVTS has recently introduced AI capabilities across the platform, including Proposal AI (creates proposals 93% faster), VTS Analyst (instant answers to market questions powered by 57B+ SF of deal data), Work Order AI (auto-converts tenant emails into work orders), and Asset Intelligence for AI-powered lease abstraction. The platform integrates with major CRE technology partners across access control, accounting, content, ESG, food & beverage, package management, payments, resource booking, property operations, SSO, and visitor management categories.",
+    "short_description": "Leading CRE platform for leasing, asset management, tenant experience, and market intelligence \u2014 13B+ SF managed globally.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Asset Managers",
+        "Leasing Teams",
+        "Agency Brokers",
+        "Property Managers",
+        "Portfolio Managers",
+        "Marketing Teams"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
         "Office",
-        "Retail"
+        "Retail",
+        "Industrial",
+        "Multifamily"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Leasing Management (VTS Lease)",
+        "features": [
+          {
+            "name": "Deal Pipeline Tracking",
+            "description": "End-to-end workflow from lead to signed lease with real-time visibility into every deal across your portfolio."
+          },
+          {
+            "name": "Automated Cash Flow Analysis",
+            "description": "Built-in financial modeling to evaluate deal economics without switching tools."
+          },
+          {
+            "name": "AI Proposal Generation",
+            "description": "Create professional lease proposals 93% faster with Proposal AI."
+          },
+          {
+            "name": "Tenant Relationship Intelligence",
+            "description": "Portfolio-wide view of tenant relationships, sentiment trends, and renewal/expansion opportunities."
+          },
+          {
+            "name": "Lease Roll & Renewal Management",
+            "description": "Proactively identify upcoming renewals and tenant risk at the asset level."
+          },
+          {
+            "name": "Deal Approvals & Collaboration",
+            "description": "Streamlined approval workflows with deal comments and updates accessible from anywhere."
+          }
+        ]
+      },
+      {
+        "name": "Digital Marketing (VTS Market)",
+        "features": [
+          {
+            "name": "Virtual Content Delivery",
+            "description": "Deliver virtual tours and digital content for available spaces across every marketing channel."
+          },
+          {
+            "name": "Marketing Performance Analytics",
+            "description": "Measure the impact of digital marketing on leasing activity and conversions."
+          },
+          {
+            "name": "Multi-Channel Distribution",
+            "description": "Syndicate listings and content across digital marketing channels from one platform."
+          }
+        ]
+      },
+      {
+        "name": "Market Intelligence (VTS Data)",
+        "features": [
+          {
+            "name": "VTS Analyst AI",
+            "description": "Get instant answers to office market questions, powered by 57B+ square feet of deal data."
+          },
+          {
+            "name": "Predictive Market Research",
+            "description": "The industry's first predictive market research solution for investment strategy."
+          },
+          {
+            "name": "VTS Office Demand Index (VODI)",
+            "description": "The industry's most accurate demand data for office markets."
+          }
+        ]
+      },
+      {
+        "name": "Tenant Experience (VTS Activate)",
+        "features": [
+          {
+            "name": "Tenant & Resident App",
+            "description": "Seamless, personalized building experience for tenants across your portfolio in one app."
+          },
+          {
+            "name": "Work Order AI",
+            "description": "Automatically converts tenant service request emails and texts into work orders."
+          },
+          {
+            "name": "Multi-Property Portfolio Support",
+            "description": "Manage tenant experience across office, workplace, and multifamily properties from one platform."
+          }
+        ]
+      },
+      {
+        "name": "AI & Automation",
+        "features": [
+          {
+            "name": "Proposal AI",
+            "description": "Creates proposals 93% faster while capturing complete deal data automatically."
+          },
+          {
+            "name": "Asset Intelligence",
+            "description": "AI-powered lease abstraction to extract and organize lease data at scale."
+          },
+          {
+            "name": "VTS Analyst",
+            "description": "Natural language queries across the industry's largest CRE dataset."
+          },
+          {
+            "name": "Work Order AI",
+            "description": "Converts unstructured tenant communications into structured work orders."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "VTS Lease",
+          "price": "Custom",
+          "description": "Leasing management for asset managers, leasing teams, and agency brokers.",
+          "includes": [
+            "Deal pipeline tracking",
+            "Cash flow analysis",
+            "Tenant insights",
+            "Lease roll management",
+            "Approval workflows"
+          ]
+        },
+        {
+          "name": "VTS Market",
+          "price": "Custom",
+          "description": "Digital marketing and virtual content for available spaces.",
+          "includes": [
+            "Virtual tours",
+            "Multi-channel syndication",
+            "Marketing analytics"
+          ]
+        },
+        {
+          "name": "VTS Data",
+          "price": "Custom",
+          "description": "Predictive market research and investment intelligence.",
+          "includes": [
+            "VTS Analyst AI",
+            "VODI demand data",
+            "Market research tools"
+          ]
+        },
+        {
+          "name": "VTS Activate",
+          "price": "Custom",
+          "description": "Tenant and resident experience platform.",
+          "includes": [
+            "Tenant app",
+            "Work Order AI",
+            "Building integrations",
+            "Office, Workplace & Multifamily support"
+          ]
+        }
+      ]
     },
     "screenshots": [],
-    "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "video_url": "https://www.youtube.com/c/VTSvideo",
+    "pros": [
+      "Industry's largest CRE dataset (13B+ SF) gives unmatched market intelligence",
+      "Unified platform replaces siloed tools across leasing, marketing, and tenant experience",
+      "Strong AI features that solve real workflow problems (proposals, work orders, market analysis)",
+      "Deep integration ecosystem with major CRE technology partners",
+      "Used by the world's largest landlords and brokerages \u2014 proven at enterprise scale"
+    ],
+    "cons": [
+      "Enterprise pricing \u2014 not accessible for small brokerages or individual brokers",
+      "Quote-based pricing means no transparency until you talk to sales",
+      "Steep learning curve for teams transitioning from spreadsheets or simpler tools",
+      "Primarily focused on office/commercial \u2014 multifamily features are newer"
+    ],
+    "integrations": [
+      {
+        "name": "Yardi",
+        "category": "Accounting"
+      },
+      {
+        "name": "MRI Software",
+        "category": "Accounting"
+      },
+      {
+        "name": "Kastle Systems",
+        "category": "Access Control"
+      },
+      {
+        "name": "HID",
+        "category": "Access Control"
+      },
+      {
+        "name": "Matterport",
+        "category": "Content"
+      },
+      {
+        "name": "Measurabl",
+        "category": "ESG"
+      },
+      {
+        "name": "Grubhub",
+        "category": "Food & Beverage"
+      },
+      {
+        "name": "Pitney Bowes",
+        "category": "Package Management"
+      },
+      {
+        "name": "Robin",
+        "category": "Resource Booking"
+      },
+      {
+        "name": "Okta",
+        "category": "SSO"
+      },
+      {
+        "name": "Envoy",
+        "category": "Visitor Management"
+      }
+    ],
     "company": {
-      "name": "VTS",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "VTS Inc.",
+      "founded": 2012,
+      "headquarters": "New York, NY",
+      "employees": "500-1000",
+      "funding": "$300M+"
     },
     "categories": [
       "CRM & Marketing",
@@ -5442,22 +5828,28 @@
       "Site Selection"
     ],
     "deployment": [
+      "Cloud",
       "Mobile"
     ],
-    "rating": null,
-    "review_count": 0,
+    "rating": 4.3,
+    "review_count": 45,
     "seo": {
-      "title": "VTS Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of VTS. Leasing and asset management platform for CRE professionals. Compare pricing, features, pros & cons.",
+      "title": "VTS Review 2025: Platform, Pricing, Features & Alternatives | CRE Software Directory",
+      "description": "In-depth review of VTS \u2014 the leading CRE leasing and asset management platform managing 13B+ SF globally. Compare VTS Lease, Market, Data & Activate products, pricing, AI features, and alternatives.",
       "keywords": [
         "VTS review",
         "VTS pricing",
-        "CRE software"
+        "VTS Lease",
+        "VTS Data",
+        "CRE leasing software",
+        "commercial real estate CRM",
+        "VTS alternatives",
+        "VTS Activate"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
-    "is_featured": false,
+    "is_featured": true,
     "domain": "vts.com",
     "pricing_model": "Quote-based",
     "is_free": false,
