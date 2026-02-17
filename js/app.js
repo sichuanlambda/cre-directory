@@ -291,7 +291,13 @@ async function initProduct() {
   </div>` : '';
 
   // Tab navigation
-  const tabs = ['Overview', 'Features', 'Pricing', 'Screenshots', 'Company', 'Alternatives'];
+  // Only show tabs for sections that have content
+  const tabs = ['Overview'];
+  if (fg.length) tabs.push('Features');
+  if (hasPricingInfo) tabs.push('Pricing');
+  if (hasScreenshots || hasVideo) tabs.push('Screenshots');
+  if (company.founded || company.headquarters || company.employees) tabs.push('Company');
+  tabs.push('Alternatives');
 
   // Quick stats
   const statsItems = [
@@ -346,9 +352,10 @@ async function initProduct() {
     </div>`).join('')}
   </div>` : '';
 
-  // Pricing cards
+  // Pricing cards — only show if we have real pricing info
   const plans = pricing.plans || [];
-  const pricingHTML = `<div class="pricing-section" id="sec-pricing">
+  const hasPricingInfo = plans.length > 0 || pricing.starting_price || pricing.free_trial || pricing.free_tier;
+  const pricingHTML = hasPricingInfo ? `<div class="pricing-section" id="sec-pricing">
     <h2>Pricing</h2>
     <div class="pricing-meta">
       <span class="pricing-model-badge">${pricing.model || 'Quote-based'}</span>
@@ -364,19 +371,18 @@ async function initProduct() {
         ${plan.includes && plan.includes.length ? `<ul class="plan-includes">${plan.includes.map(i => `<li>✓ ${i}</li>`).join('')}</ul>` : ''}
       </div>`).join('')}
     </div>` : `<div class="pricing-contact">
-      <p>${pricing.starting_price ? `Starting at <strong>${pricing.starting_price}</strong>` : 'Contact vendor for pricing details.'}</p>
-      <a href="${product.url}" target="_blank" rel="noopener" class="cta-btn cta-btn-outline">Get Pricing →</a>
+      <p>Starting at <strong>${pricing.starting_price}</strong></p>
     </div>`}
-  </div>`;
+  </div>` : '';
 
-  // Screenshots
-  const screenshotsHTML = `<div class="screenshot-gallery" id="sec-screenshots">
+  // Screenshots — only show section if we have screenshots or a video
+  const hasScreenshots = product.screenshots && product.screenshots.length;
+  const hasVideo = product.video_url;
+  const screenshotsHTML = (hasScreenshots || hasVideo) ? `<div class="screenshot-gallery" id="sec-screenshots">
     <h2>Screenshots</h2>
-    ${product.screenshots && product.screenshots.length
-      ? `<div class="screenshot-scroll">${product.screenshots.map(s => `<img src="${s}" alt="${product.title} screenshot" onclick="openLightbox(this.src)">`).join('')}</div>`
-      : '<div class="screenshot-placeholder">📷 No screenshots available yet. <a href="submit.html">Submit screenshots</a></div>'}
-    ${product.video_url ? `<div class="video-embed"><iframe src="${product.video_url}" allowfullscreen></iframe></div>` : ''}
-  </div>`;
+    ${hasScreenshots ? `<div class="screenshot-scroll">${product.screenshots.map(s => `<img src="${s}" alt="${product.title} screenshot" onclick="openLightbox(this.src)">`).join('')}</div>` : ''}
+    ${hasVideo ? `<div class="video-embed"><iframe src="${product.video_url}" allowfullscreen></iframe></div>` : ''}
+  </div>` : '';
 
   // Integrations
   const integrationsHTML = product.integrations && product.integrations.length
