@@ -849,9 +849,9 @@
     "slug": "buildout",
     "url": "https://www.buildout.com",
     "logo_url": "https://cdn.prod.website-files.com/641a1c972968413ab4e2fd3b/666729433066b684f2a7d2cc_Buildout-Logo-horizontal.svg",
-    "headline": "The connected CRE brokerage platform — prospecting, CRM, marketing, and transactions in one place.",
+    "headline": "The connected CRE brokerage platform \u2014 prospecting, CRM, marketing, and transactions in one place.",
     "description": "Buildout is a comprehensive connected software platform built specifically for commercial real estate brokerages, combining CRM, marketing, data, and back-office automation to help brokers win more listings and close more deals faster. Used by over 50,000 CRE brokers, the platform leverages AI-powered features for prospecting, workflow automation, and intelligent targeting. Buildout provides a complete suite of tools from finding properties to closing transactions, designed to scale from solo brokers to multi-office brokerages.",
-    "short_description": "Connected CRE brokerage platform — AI-powered prospecting, CRM, marketing, and deal management for 50,000+ brokers.",
+    "short_description": "Connected CRE brokerage platform \u2014 AI-powered prospecting, CRM, marketing, and deal management for 50,000+ brokers.",
     "target_audience": {
       "roles": [
         "Commercial Real Estate Brokers",
@@ -895,7 +895,7 @@
         "features": [
           {
             "name": "AI Data Ingestion",
-            "description": "Property data flows in automatically — no manual entry. Raw data becomes polished marketing."
+            "description": "Property data flows in automatically \u2014 no manual entry. Raw data becomes polished marketing."
           },
           {
             "name": "Automated Proposal Generator",
@@ -907,7 +907,7 @@
           },
           {
             "name": "Native Email Marketing",
-            "description": "Send listings to ideal buyers and syndicate to 20+ listing sites — all from one platform."
+            "description": "Send listings to ideal buyers and syndicate to 20+ listing sites \u2014 all from one platform."
           },
           {
             "name": "Listing Syndication",
@@ -920,7 +920,7 @@
         "features": [
           {
             "name": "Deal Pipeline Management",
-            "description": "The most complete CRM for CRE — manage leads, contacts, and deal flow in one place."
+            "description": "The most complete CRM for CRE \u2014 manage leads, contacts, and deal flow in one place."
           },
           {
             "name": "AI-Assisted Follow-Up",
@@ -975,14 +975,14 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Purpose-built for CRE brokers — not a generic CRM adapted for real estate",
+      "Purpose-built for CRE brokers \u2014 not a generic CRM adapted for real estate",
       "Strong AI features across prospecting, marketing, and CRM that save real time",
-      "Modular — start with one product and expand as needs grow",
+      "Modular \u2014 start with one product and expand as needs grow",
       "40M+ property database gives strong prospecting foundation",
       "50,000+ broker user base means active development and community"
     ],
     "cons": [
-      "Quote-based pricing across all products — no published prices",
+      "Quote-based pricing across all products \u2014 no published prices",
       "Best suited for brokerages, not landlords or investors",
       "Newer AI features (Rethink+, Showcase AI) are still maturing",
       "Less suited for enterprise portfolio management vs. deal-focused workflows"
@@ -1007,8 +1007,8 @@
     "rating": 4.1,
     "review_count": 30,
     "seo": {
-      "title": "Buildout Review 2025: CRE Brokerage Platform — Pricing, Features & Alternatives",
-      "description": "In-depth review of Buildout — the connected CRE brokerage platform used by 50,000+ brokers. Compare Prospect, Showcase, Rethink CRM, and Transact products.",
+      "title": "Buildout Review 2025: CRE Brokerage Platform \u2014 Pricing, Features & Alternatives",
+      "description": "In-depth review of Buildout \u2014 the connected CRE brokerage platform used by 50,000+ brokers. Compare Prospect, Showcase, Rethink CRM, and Transact products.",
       "keywords": [
         "Buildout review",
         "Buildout CRM",
@@ -1277,7 +1277,7 @@
     "url": "https://www.citybldr.com",
     "logo_url": "https://logo.clearbit.com/citybldr.com",
     "headline": "Find and value off-market properties.",
-    "description": "Summary: CityBldr helps real estate professionals find and evaluate off-market properties, making it an excellent choice for developers and investors. Its valuation tools are particularly useful, though the platform’s features may be overkill for casual users.\n\nFeatures:\n\nOff-market property search\nValuation tools for real estate development\nMarket analysis and property evaluation\nPros:\n\nGreat for developers and investors seeking off-market deals\nReliable valuation tools\nEasy property analysis\nCons:\n\nFeatures may be too advanced for casual users\nLimited to specific markets\nRating: 4.3/5",
+    "description": "Summary: CityBldr helps real estate professionals find and evaluate off-market properties, making it an excellent choice for developers and investors. Its valuation tools are particularly useful, though the platform\u2019s features may be overkill for casual users.\n\nFeatures:\n\nOff-market property search\nValuation tools for real estate development\nMarket analysis and property evaluation\nPros:\n\nGreat for developers and investors seeking off-market deals\nReliable valuation tools\nEasy property analysis\nCons:\n\nFeatures may be too advanced for casual users\nLimited to specific markets\nRating: 4.3/5",
     "short_description": "Find and value off-market properties.",
     "target_audience": {
       "roles": [],
@@ -1903,7 +1903,7 @@
     "url": "https://www.dealcloud.com",
     "logo_url": "https://logo.clearbit.com/dealcloud.com",
     "headline": "Investment management software for real estate.",
-    "description": "Summary: DealCloud is an investment management platform that offers tools for deal and transaction management. It’s well-suited for investment teams needing to handle a high volume of deals, though smaller teams may not need its extensive features.\n\nFeatures:\n\nDeal and investment management tools\nCollaboration features for investment teams\nTracking and reporting capabilities\nPros:\n\nExcellent for managing multiple deals\nComprehensive reporting tools\nGreat for investment teams\nCons:\n\nMay be too complex for smaller teams\nHigh subscription cost\nRating: 4.5/5",
+    "description": "Summary: DealCloud is an investment management platform that offers tools for deal and transaction management. It\u2019s well-suited for investment teams needing to handle a high volume of deals, though smaller teams may not need its extensive features.\n\nFeatures:\n\nDeal and investment management tools\nCollaboration features for investment teams\nTracking and reporting capabilities\nPros:\n\nExcellent for managing multiple deals\nComprehensive reporting tools\nGreat for investment teams\nCons:\n\nMay be too complex for smaller teams\nHigh subscription cost\nRating: 4.5/5",
     "short_description": "Investment management software for real estate.",
     "target_audience": {
       "roles": [],
@@ -2063,17 +2063,17 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Purpose-built for CRE investment workflows — not a generic CRM adapted for real estate",
+      "Purpose-built for CRE investment workflows \u2014 not a generic CRM adapted for real estate",
       "AI-powered data ingestion dramatically reduces manual data entry from OMs and flyers",
       "White-glove implementation with dedicated Customer Success Manager",
       "Trusted by top-tier institutional investors (Blackstone, New York Life, CBRE IM)",
       "Strong integration ecosystem with CompStak, Esri, Microsoft Office, and data providers"
     ],
     "cons": [
-      "Minimum of 5 users required — not suitable for solo practitioners or very small teams",
+      "Minimum of 5 users required \u2014 not suitable for solo practitioners or very small teams",
       "Quote-based pricing lacks transparency for budget planning",
       "Implementation takes 6-8 weeks which may feel slow for firms wanting quick deployment",
-      "Focused on deal management — not a full property management or accounting solution",
+      "Focused on deal management \u2014 not a full property management or accounting solution",
       "Best suited for institutional investors; may be over-engineered for smaller owner-operators"
     ],
     "integrations": [
@@ -3919,7 +3919,7 @@
             "description": "Create immersive 3D digital twins of any space"
           },
           {
-            "name": "360° Photography",
+            "name": "360\u00b0 Photography",
             "description": "High-quality 360-degree photography and documentation"
           },
           {
@@ -4297,7 +4297,7 @@
     "url": "https://www.openspace.ai",
     "logo_url": "https://logo.clearbit.com/openspace.ai",
     "headline": "Construction site monitoring with AI.",
-    "description": "OpenSpace is the Visual Intelligence Platform for builders that delivers real-time insights from construction sites using AI-powered image analysis. The platform automatically captures, maps, and analyzes jobsite imagery from smartphones, 360° cameras, drones, and laser scanners to provide actionable intelligence for construction teams. With over 60 billion square feet captured across 129 countries, OpenSpace helps general contractors, trades, and owners make better decisions faster by turning visual data into automated workflows and progress tracking.",
+    "description": "OpenSpace is the Visual Intelligence Platform for builders that delivers real-time insights from construction sites using AI-powered image analysis. The platform automatically captures, maps, and analyzes jobsite imagery from smartphones, 360\u00b0 cameras, drones, and laser scanners to provide actionable intelligence for construction teams. With over 60 billion square feet captured across 129 countries, OpenSpace helps general contractors, trades, and owners make better decisions faster by turning visual data into automated workflows and progress tracking.",
     "short_description": "Construction site monitoring with AI.",
     "target_audience": {
       "roles": [
@@ -4371,7 +4371,7 @@
       "OpenSpace Air - Aerial imaging and analysis",
       "BIM integration and mapping",
       "AI-powered image analysis and insights",
-      "Smartphone, 360° camera, drone, laser scanner support",
+      "Smartphone, 360\u00b0 camera, drone, laser scanner support",
       "Automated timestamping and plan mapping",
       "Voice notes and field insights capture",
       "Real-time jobsite intelligence",
@@ -5421,7 +5421,7 @@
     "url": "https://www.realnex.com",
     "logo_url": "https://logo.clearbit.com/realnex.com",
     "headline": "Real estate solutions for professionals.",
-    "description": "RealNex is a comprehensive commercial real estate software suite that provides the complete solution for CRE professionals, including CRM, deal management, analytics, and marketplace capabilities. The platform features RealNex Navigator and NavigatorPRO™ which combines market-leading CRM with investment analysis, presentation tools, transaction management, and a dynamic marketplace. With RX Data integration, the platform provides critical property records, ownership details, loan information, and predictive analytics to help users find, win, and execute business more efficiently.",
+    "description": "RealNex is a comprehensive commercial real estate software suite that provides the complete solution for CRE professionals, including CRM, deal management, analytics, and marketplace capabilities. The platform features RealNex Navigator and NavigatorPRO\u2122 which combines market-leading CRM with investment analysis, presentation tools, transaction management, and a dynamic marketplace. With RX Data integration, the platform provides critical property records, ownership details, loan information, and predictive analytics to help users find, win, and execute business more efficiently.",
     "short_description": "Real estate solutions for professionals.",
     "target_audience": {
       "roles": [
@@ -7258,7 +7258,7 @@
     "logo_url": "https://www.vts.com/wp-content/uploads/2023/05/vts-dark-logo.svg",
     "headline": "The industry's leading leasing and asset management platform, powered by 13B+ SF of CRE data and AI.",
     "description": "Comprehensive commercial real estate technology platform that unifies leasing, asset management, property management, and marketing operations. VTS brings together every person, process, and AI agent to help the CRE industry move faster, smarter, and more profitably with over 13 billion square feet of assets managed globally.",
-    "short_description": "Leading CRE platform for leasing, asset management, tenant experience, and market intelligence — 13B+ SF managed globally.",
+    "short_description": "Leading CRE platform for leasing, asset management, tenant experience, and market intelligence \u2014 13B+ SF managed globally.",
     "target_audience": "Commercial real estate landlords, brokers, property managers, asset managers, and leasing professionals",
     "feature_groups": [
       {
@@ -7371,13 +7371,13 @@
       "Unified platform replaces siloed tools across leasing, marketing, and tenant experience",
       "Strong AI features that solve real workflow problems (proposals, work orders, market analysis)",
       "Deep integration ecosystem with major CRE technology partners",
-      "Used by the world's largest landlords and brokerages — proven at enterprise scale"
+      "Used by the world's largest landlords and brokerages \u2014 proven at enterprise scale"
     ],
     "cons": [
-      "Enterprise pricing — not accessible for small brokerages or individual brokers",
+      "Enterprise pricing \u2014 not accessible for small brokerages or individual brokers",
       "Quote-based pricing means no transparency until you talk to sales",
       "Steep learning curve for teams transitioning from spreadsheets or simpler tools",
-      "Primarily focused on office/commercial — multifamily features are newer"
+      "Primarily focused on office/commercial \u2014 multifamily features are newer"
     ],
     "integrations": [
       {
@@ -7447,7 +7447,7 @@
     "review_count": 45,
     "seo": {
       "title": "VTS Review 2025: Platform, Pricing, Features & Alternatives | CRE Software Directory",
-      "description": "In-depth review of VTS — the leading CRE leasing and asset management platform managing 13B+ SF globally. Compare VTS Lease, Market, Data & Activate products, pricing, AI features, and alternatives.",
+      "description": "In-depth review of VTS \u2014 the leading CRE leasing and asset management platform managing 13B+ SF globally. Compare VTS Lease, Market, Data & Activate products, pricing, AI features, and alternatives.",
       "keywords": [
         "VTS review",
         "VTS pricing",
@@ -7550,7 +7550,9 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Website unreachable - no extractable content"
   },
   {
     "title": "Xplor",
@@ -7618,7 +7620,9 @@
     "tagline": "Educational technology solutions.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Not CRE-related - vertical SaaS for education, field services, fitness, personal services"
   },
   {
     "title": "Yardi",
@@ -7626,34 +7630,9 @@
     "url": "https://www.yardi.com",
     "logo_url": "https://www.yardi.com/wp-content/client-mu-plugins/cmw-icons/svg/logos/yardi_logo.svg",
     "headline": "Elevate Your Real Estate with AI-Enabled Property Management Software",
-    "description": "Yardi is the global leader in property management software, offering an AI-enabled platform that delivers seamless collaboration, smarter decision-making, and greater efficiency across entire real estate portfolios. From property management to asset and investment management, Yardi's comprehensive suite serves every segment of the real estate industry including multifamily, commercial, affordable housing, senior living, PHA, and coworking spaces.\n\nThe platform's flagship products include Yardi Voyager, a web-based integrated platform for mobile operations, leasing, analytics, and services; Yardi Breeze, a refreshingly simple property management solution for smaller portfolios; and the Investment Suite for managing the entire investment lifecycle. Yardi Virtuoso, the company's AI layer, unlocks artificial intelligence capabilities across the portfolio for workflow transformation and team empowerment.\n\nAs a privately held company founded in 1984, Yardi has grown to serve clients in over 80 countries with more than 9,000 employees worldwide. The company's single-stack approach means all products work together seamlessly, eliminating the integration headaches common with multi-vendor tech stacks. Yardi is trusted by real estate leaders of every size, from independent operators to the largest REITs and institutional investors.",
+    "description": "Yardi is a comprehensive AI-enabled real estate software platform that provides property management solutions for diverse portfolios including multifamily, commercial, affordable housing, and specialized markets. The platform delivers seamless collaboration, smarter decision-making and greater efficiency across entire real estate portfolios.",
     "short_description": "The global leader in AI-enabled property management and real estate investment software.",
-    "target_audience": {
-      "roles": [
-        "Property Managers",
-        "Asset Managers",
-        "Investment Managers",
-        "Accountants",
-        "Leasing Agents",
-        "Maintenance Teams",
-        "Portfolio Managers"
-      ],
-      "company_sizes": [
-        "Small Business",
-        "Mid-Market",
-        "Enterprise"
-      ],
-      "property_types": [
-        "Multifamily",
-        "Commercial",
-        "Affordable Housing",
-        "Senior Living",
-        "PHA",
-        "Coworking",
-        "Industrial",
-        "Self Storage"
-      ]
-    },
+    "target_audience": "Property managers, asset managers, investment managers, multifamily operators, commercial property owners, affordable housing providers, senior living facilities, coworking spaces",
     "feature_groups": [
       {
         "name": "Voyager Suite",
@@ -7763,7 +7742,7 @@
     "video_url": null,
     "pros": [
       "Most comprehensive single-stack platform covering every aspect of property and investment management",
-      "Serves all property types — multifamily, commercial, affordable, senior living, and more",
+      "Serves all property types \u2014 multifamily, commercial, affordable, senior living, and more",
       "Yardi Breeze offers an affordable entry point for smaller operators",
       "Global reach with clients in 80+ countries and strong localization",
       "AI capabilities through Yardi Virtuoso for workflow automation and insights"
@@ -7847,7 +7826,22 @@
     "tagline": "Real estate management software.",
     "property_types": [
       "Residential"
-    ]
+    ],
+    "features": [
+      "Voyager Suite - Web-based integrated platform for mobile operations and leasing",
+      "Yardi Breeze - Simple property management for multiple property types",
+      "Investment Suite - Complete investment lifecycle management",
+      "Energy Suite - Streamlined operations and cost recovery",
+      "Procure to Pay Suite - End-to-end paperless procurement solution",
+      "Aspire - Personalized training technology platform",
+      "Yardi Virtuoso - AI-powered workflow automation",
+      "Comprehensive accounting and financial reporting",
+      "Tenant services and resident portals",
+      "Market analytics and reporting tools",
+      "Maintenance management and work orders",
+      "Leasing and marketing automation"
+    ],
+    "enriched": true
   },
   {
     "title": "Zigg Capital",
@@ -7913,7 +7907,9 @@
     "tagline": "Real estate venture capital.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Insufficient information - minimal website content, unclear if CRE software or investment firm"
   },
   {
     "title": "Zillow",
@@ -7978,7 +7974,9 @@
     "tagline": "Real estate and rental marketplace.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Access denied - website blocking automated requests"
   },
   {
     "title": "Zumper",
@@ -7986,15 +7984,9 @@
     "url": "https://www.zumper.com",
     "logo_url": "https://logo.clearbit.com/zumper.com",
     "headline": "Find apartments for rent.",
-    "description": "Find apartments for rent.. Zumper is a rental marketplace that helps renters find apartments, houses, and condos for rent.",
+    "description": "Zumper is a comprehensive rental marketplace platform that helps renters discover and apply to over 1 million rental listings across the U.S. and Canada. The platform provides rental market insights, city guides, and tools to make informed rental decisions with verified listings and expert ratings.",
     "short_description": "Find apartments for rent.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Renters, landlords, property managers, rental property owners",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -8047,7 +8039,20 @@
     "tagline": "Find apartments for rent.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Over 1 million rental listings nationwide",
+      "Long and short-term lease options",
+      "Online rental applications",
+      "Rent trends and market analytics",
+      "City guides and neighborhood insights",
+      "Affordability calculator",
+      "Zumper Expert Ratings for properties",
+      "Verified listing accuracy",
+      "Comprehensive search filters",
+      "Mobile app for rental search"
+    ],
+    "enriched": true
   },
   {
     "title": "Zyter",
@@ -8113,7 +8118,9 @@
     "tagline": "Digital health and IoT solutions.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Not CRE-related - healthcare AI and workflow automation platform"
   },
   {
     "title": "Buxton",
@@ -8121,15 +8128,9 @@
     "url": "www.buxtonco.com",
     "logo_url": "https://logo.clearbit.com/buxtonco.com",
     "headline": "Consumer info; utilized for site selection & marketing. Where are consumers? Where should we open up shop?",
-    "description": "Buxton offers location intelligence and site selection tools for businesses, helping them identify optimal locations for expansion.",
+    "description": "Buxton provides location intelligence technology that helps businesses make smarter location decisions for market planning, site selection, and ongoing site performance optimization. With 30+ years of experience, Buxton combines high-quality household-level data, AI-powered analytics, and robust location intelligence to guide retail, restaurant, hospitality, and healthcare companies in their expansion decisions.",
     "short_description": "Consumer info; utilized for site selection & marketing. Where are consumers? Where should we open up shop?",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Retail companies, restaurant chains, hospitality businesses, healthcare organizations, real estate developers, franchise operators",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -8181,7 +8182,22 @@
     "tagline": "Consumer info; utilized for site selection & marketing. Where are consumers? Where should we open up shop?",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "High-quality location intelligence and consumer data",
+      "Market planning and site selection analytics",
+      "Site performance optimization tools",
+      "Risk reduction through robust data and analytics",
+      "AI-powered location insights",
+      "Household-level demographic data",
+      "Market capacity analysis",
+      "Location-level insights and reporting",
+      "Marketing support tools",
+      "SOC 2 Type II + HITRUST security standards",
+      "Pre-built analytics for quick deployment",
+      "Industry-specific location solutions"
+    ],
+    "enriched": true
   },
   {
     "title": "SiteZeus",
@@ -8189,15 +8205,9 @@
     "url": "https://sitezeus.com/",
     "logo_url": "https://logo.clearbit.com/sitezeus.com",
     "headline": "Location intelligence; site selection.",
-    "description": "SiteZeus provides AI-driven location intelligence for retailers and real estate investors, offering tools for site selection and market analysis.",
+    "description": "SiteZeus provides comprehensive location intelligence software designed for multi-unit business expansion and site selection. The platform delivers rapid and precise insights for streamlined revenue growth, offering end-to-end solutions for franchise sales, market planning, development, marketing, and operations.",
     "short_description": "Location intelligence; site selection.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Retail"
-      ]
-    },
+    "target_audience": "Multi-unit businesses, franchise operators, restaurant chains, retail companies, convenience stores, real estate developers",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -8249,7 +8259,22 @@
     "tagline": "Location intelligence; site selection.",
     "property_types": [
       "Retail"
-    ]
+    ],
+    "features": [
+      "Location intelligence for multi-unit expansion",
+      "Site selection software and analytics",
+      "Franchise CRM capabilities",
+      "Construction management software",
+      "Customer insights platform",
+      "Market planning and analysis tools",
+      "Advanced analytics for business verticals",
+      "Centralized suite of growth products",
+      "Data-driven site selection approach",
+      "Performance optimization for existing sites",
+      "Development and operations support",
+      "Marketing and sales enablement tools"
+    ],
+    "enriched": true
   },
   {
     "title": "MapZot.ai",
@@ -8257,15 +8282,9 @@
     "url": "https:///MapZot.ai",
     "logo_url": "https://logo.clearbit.com//MapZot.ai",
     "headline": "Monitor local and national chains in real time. Identify your top customers; expand your customer base; and respond in real-time to emerging visitation trends.",
-    "description": "MapZot.ai provides real-time data on retail chains and customer trends, helping businesses expand and respond to market changes.",
+    "description": "MapZot.AI provides location analytics and AI-powered insights for site selection, audience research, and forecasting. The platform offers real-time data on retail chains and customer trends, helping businesses identify top customers, expand customer bases, and respond to emerging visitation trends with over 92% accuracy.",
     "short_description": "Monitor local and national chains in real time. Identify your top customers; expand your customer base; and respond in real-time to emerging visitation trends.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Retail"
-      ]
-    },
+    "target_audience": "Commercial real estate professionals, franchise developers, retail chains, coffee shops, restaurant operators, site selection specialists",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -8316,7 +8335,24 @@
     "tagline": "Monitor local and national chains in real time. Identify your top customers; expand your customer base; and respond in real-time to emerging visitation trends.",
     "property_types": [
       "Retail"
-    ]
+    ],
+    "features": [
+      "Real-time location analytics and data",
+      "AI-powered site selection insights",
+      "Customer identification and analysis",
+      "Visitation trend monitoring",
+      "Revenue forecasting capabilities",
+      "Demographics and business counts",
+      "Psychographic analysis",
+      "Consumer expenditure data",
+      "Store ranking by visitation frequency",
+      "Property-level precision data",
+      "Comprehensive categorization system",
+      "API integration capabilities",
+      "Automated data feeds",
+      "Market analysis and competitive intelligence"
+    ],
+    "enriched": true
   },
   {
     "title": "Landvision",
@@ -8324,17 +8360,9 @@
     "url": "https://www.lightboxre.com/product/landvision/",
     "logo_url": "https://logo.clearbit.com/lightboxre.com",
     "headline": "Comprehensive location mapping software; analysis; & management for CRE. Source new deals; rule in & out parcels; do market & owner research.",
-    "description": "Landvision offers mapping and property research tools for commercial real estate, enabling users to analyze parcels and source deals.",
+    "description": "LightBox Vision (formerly LandVision) is a comprehensive nationwide property data and mapping platform that provides turnkey data analytics for commercial real estate professionals. The platform combines proprietary datasets including parcel boundaries, building footprints, ownership data, and zoning information in an easy-to-use mapping interface for site selection, investment analysis, and market research.",
     "short_description": "Comprehensive location mapping software; analysis; & management for CRE. Source new deals; rule in & out parcels; do market & owner research.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Industrial",
-        "Office",
-        "Retail"
-      ]
-    },
+    "target_audience": "Real estate professionals, builders and developers, site selection specialists, investors, commercial real estate analysts, non-profit organizations",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -8388,7 +8416,24 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "features": [
+      "Nationwide property data mapping platform",
+      "Parcel boundaries and building footprints",
+      "Comprehensive property ownership data",
+      "Zoning data and enhanced zoning reports",
+      "Proprietary geocoder with AI/ML capabilities",
+      "LightBox ID for dataset connections",
+      "Real-time web service data delivery",
+      "Builder sites and business listings",
+      "Address matching and location services",
+      "Cloud-based platform access",
+      "Training videos and webinars",
+      "Customer success and support services",
+      "Third-party data integration",
+      "Property research and analysis tools"
+    ],
+    "enriched": true
   },
   {
     "title": "LandID",
@@ -8396,15 +8441,9 @@
     "url": "https://id.land/",
     "logo_url": "https://logo.clearbit.com/id.land",
     "headline": "Owner info; parcel boundaries. Basic research.",
-    "description": "LandID provides property and parcel boundary information, helping real estate professionals perform basic research.",
+    "description": "Land id\u00ae is a comprehensive real estate mapping software platform that provides extensive nationwide parcel data, property boundaries, and detailed property information for over 40,000 real estate professionals. The platform offers interactive map creation, 3D property showcases, and comprehensive property analysis tools across all 50 states.",
     "short_description": "Owner info; parcel boundaries. Basic research.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Real estate agents and brokers, property developers, land investors, surveyors, appraisers, agricultural professionals",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -8456,7 +8495,26 @@
     "tagline": "Owner info; parcel boundaries. Basic research.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Over 157 million nationwide parcel records",
+      "Interactive property mapping and boundary visualization",
+      "Custom branded map creation and sharing",
+      "Property owner information and contact details",
+      "40+ basemap overlays and contextual layers",
+      "Comparable sales reports generation",
+      "3D property tours and showcasing",
+      "Offline map capabilities",
+      "High-resolution aerial photography",
+      "Soil composition and land use data",
+      "FEMA flood data and wetlands mapping",
+      "Infrastructure overlays (pipelines, utilities)",
+      "Professional mapping tools and annotations",
+      "Document creation and export capabilities",
+      "Direct marketing mailing list generation"
+    ],
+    "pricing_info": "Multiple tiers available including free maps and premium subscription plans",
+    "enriched": true
   },
   {
     "title": "Landglide",
@@ -8464,15 +8522,9 @@
     "url": "https://landglide.com/",
     "logo_url": "https://logo.clearbit.com/landglide.com",
     "headline": "Owner; basic parcel & demographic info. Basic research.",
-    "description": "Landglide offers parcel data and demographic information, providing users with basic property and ownership details.",
+    "description": "LandGlide is a comprehensive GPS property line map application that provides access to over 157 million parcel records covering more than 99% of the U.S. population. Using GPS technology, the platform enables users to pinpoint locations and access detailed parcel data both online and offline.",
     "short_description": "Owner; basic parcel & demographic info. Basic research.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Real estate professionals, property managers, surveyors, agribusiness professionals, land investors",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -8522,7 +8574,23 @@
     "tagline": "Owner; basic parcel & demographic info. Basic research.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "GPS-enabled property line mapping",
+      "Over 157 million parcel records in 3,200+ counties",
+      "Online and offline parcel data access",
+      "Property owner names and mailing addresses",
+      "Property square footage and acreage data",
+      "Sale price and transfer date information",
+      "School district information",
+      "Site address and location details",
+      "Mobile app for iOS and Android",
+      "Corporate account licensing available",
+      "Property corner identification",
+      "Real-time GPS tracking and navigation"
+    ],
+    "pricing_info": "Free 7-day trial, then \\.99/month or \\9.99/year",
+    "enriched": true
   },
   {
     "title": "Mapwise",
@@ -8530,15 +8598,9 @@
     "url": "https://www.mapwise.com/",
     "logo_url": "https://logo.clearbit.com/mapwise.com",
     "headline": "Map boundaries; property info. Basic research.",
-    "description": "Mapwise provides property and boundary mapping tools for real estate professionals, offering basic research capabilities.",
+    "description": "MapWise is a specialized parcel mapping and research platform designed exclusively for Florida real estate professionals. With over 20 years of service since 2001, the platform provides comprehensive access to statewide tax roll data, parcel maps, and property information sourced from county Property Appraisers.",
     "short_description": "Map boundaries; property info. Basic research.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Florida real estate brokers and realtors, property developers, appraisers, investors, bankers, surveyors, engineers, environmental scientists",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -8588,7 +8650,22 @@
     "tagline": "Map boundaries; property info. Basic research.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Florida-specific parcel data and tax roll information",
+      "Interactive GIS map viewer with property boundaries",
+      "Statewide coverage of all Florida counties",
+      "High-resolution aerial imagery",
+      "Flood zones and wetlands mapping",
+      "Soil composition and environmental data",
+      "Future land use and zoning information",
+      "Property ownership and sales history",
+      "MapWise Explorer mobile-friendly web app",
+      "Quality map graphics creation",
+      "Data export for further analysis",
+      "Multi-criteria property search capabilities"
+    ],
+    "enriched": true
   },
   {
     "title": "Zoominfo",
@@ -8653,7 +8730,9 @@
     "tagline": "Contact info. Contact an owner.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Access denied - website blocking automated requests. Also not primarily CRE-focused (general B2B contact database)"
   },
   {
     "title": "Zoneomics",
@@ -8661,15 +8740,9 @@
     "url": "https://www.zoneomics.com/",
     "logo_url": "https://logo.clearbit.com/zoneomics.com",
     "headline": "AI-driven Zoning Analysis & Site Search. Understanding zoning for address/area.",
-    "description": "Zoneomics provides AI-driven zoning analysis and site search tools, helping real estate professionals understand zoning regulations for properties.",
+    "description": "Zoneomics provides AI-driven zoning analysis and site search capabilities for real estate professionals. The platform offers comprehensive zoning data coverage with seamless integration, enabling efficient zoning due diligence and accelerated site acquisition through automated data gathering from fragmented city zoning sources.",
     "short_description": "AI-driven Zoning Analysis & Site Search. Understanding zoning for address/area.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Real estate appraisers, lenders, developers, law firms, commercial real estate professionals, site acquisition specialists",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -8717,7 +8790,22 @@
     "tagline": "AI-driven Zoning Analysis & Site Search. Understanding zoning for address/area.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "AI-driven zoning analysis and site search",
+      "Comprehensive nationwide zoning data coverage",
+      "Automated zoning data gathering from multiple sources",
+      "Property search and filtering by zoning attributes",
+      "Zoning and land use prospecting tools",
+      "Zoning API for bulk data access",
+      "Rapid zoning reports and certifications",
+      "Zoning briefs and summary reports",
+      "Certified zoning letters and verification",
+      "Integration with existing workflows",
+      "Weekly data updates and coverage expansion",
+      "Professional platform for accurate zoning information"
+    ],
+    "enriched": true
   },
   {
     "title": "Testfit",
@@ -8725,15 +8813,9 @@
     "url": "https://www.testfit.io",
     "logo_url": "https://logo.clearbit.com/testfit.io",
     "headline": "Site feasibility & planning. Understand if you can make a deal make sense.",
-    "description": "Summary: TestFit is a site feasibility and planning tool that helps developers quickly assess whether a project is viable. It’s highly recommended for development teams evaluating multiple potential sites, though the advanced nature of the tool may not suit all users.\n\nFeatures:\n\nSite feasibility and planning tools\nReal-time project viability analysis\nCollaboration features for developers\nPros:\n\nQuickly assesses site feasibility\nGreat for developers evaluating multiple sites\nReal-time feedback on project viability\nCons:\n\nAdvanced features may be complex for smaller projects\nSubscription can be costly\nRating: 4.4/5",
+    "description": "TestFit is a real estate feasibility platform that automates site planning and development analysis, enabling developers to plan sites in hours instead of days. The platform provides rapid iterations, financial validation, and optimization tools to maximize site potential with 3x more design iterations.",
     "short_description": "Site feasibility & planning. Understand if you can make a deal make sense.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Real estate developers, architects, planners, investment professionals, development managers, site acquisition teams",
     "feature_groups": [],
     "pricing": {
       "model": "Subscription",
@@ -8784,7 +8866,22 @@
     "tagline": "Site feasibility & planning. Understand if you can make a deal make sense.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Rapid site planning and feasibility analysis",
+      "Custom boundary mapping and parcel analysis",
+      "Customizable road layouts with turning radius data",
+      "Topography integration and site visualization",
+      "3D site plan visualization for approvals",
+      "Pro forma validation against actual layouts",
+      "Real-time deal prototyping and comparison",
+      "Automated takeoffs for parking and infrastructure",
+      "Zoning and unit mix optimization",
+      "Direct export to Revit, AutoCAD, and SketchUp",
+      "Live feasibility reports and markup sharing",
+      "Cost analysis and earthwork assessments"
+    ],
+    "enriched": true
   },
   {
     "title": "Birdi",
@@ -8792,15 +8889,9 @@
     "url": "https://www.birdi.io/",
     "logo_url": "https://logo.clearbit.com/birdi.io",
     "headline": "Geospatial software for planning & assessments",
-    "description": "Birdi offers smart home and security monitoring solutions that enable property managers to keep track of security, air quality, and energy use in buildings.",
+    "description": "Birdi is a collaborative geospatial platform designed for technical and non-technical teams to work from shared maps and spatial data. While serving multiple industries including construction and mining, it provides geospatial tools relevant to real estate development and site analysis.",
     "short_description": "Geospatial software for planning & assessments",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "GIS specialists, construction teams, mining companies, infrastructure managers, real estate developers (as secondary market)",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -8851,7 +8942,22 @@
     "tagline": "Geospatial software for planning & assessments",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Collaborative geospatial data platform",
+      "Real-time map collaboration and commenting",
+      "AI-powered feature detection and analysis",
+      "Upload and processing of geospatial imagery",
+      "Orthomosaic and elevation model generation",
+      "2D and 3D map layer visualization",
+      "Geo-referenced annotations and markup tools",
+      "Automated reporting and insights generation",
+      "Role-based access and permissions",
+      "CSV and PDF export capabilities",
+      "Integration with existing GIS workflows",
+      "Cross-team collaboration tools"
+    ],
+    "enriched": true
   },
   {
     "title": "AppFolio",
@@ -8859,26 +8965,9 @@
     "url": "https://www.appfolio.com",
     "logo_url": "https://logo.clearbit.com/appfolio.com",
     "headline": "Move Beyond Property Management Software",
-    "description": "AppFolio Performance Platform introduces real performance for property management with unified data, native agentic AI, and new revenue streams. Built from the ground-up with AI as a core building block, the platform takes on busywork and frees teams to create exceptional client experiences while convenient services generate new top-line revenue and meet resident and investor needs.",
+    "description": "AppFolio provides an AI-native property management platform called the AppFolio Performance Platform that delivers unified data, agentic AI, and workflow automation. The platform is designed from the ground-up with AI as a core building block to handle property and investment management operations across entire portfolios.",
     "short_description": "AI-native property management platform that delivers real performance through unified data and agentic AI.",
-    "target_audience": {
-      "roles": [
-        "Property Managers",
-        "Asset Managers",
-        "Investment Managers",
-        "Operations Teams"
-      ],
-      "company_sizes": [
-        "Small",
-        "Mid-Market",
-        "Enterprise"
-      ],
-      "property_types": [
-        "Multifamily",
-        "Residential",
-        "Commercial"
-      ]
-    },
+    "target_audience": "Property managers, asset managers, investment managers, real estate operators, development companies",
     "feature_groups": [
       {
         "name": "AI-Native Platform",
@@ -8979,7 +9068,22 @@
       "Multifamily",
       "Residential",
       "Commercial"
-    ]
+    ],
+    "features": [
+      "AI-native property management platform",
+      "Agentic AI for automated workflow execution",
+      "Unified property and investment management interface",
+      "Multi-device access and cloud-based operations",
+      "Realm-X Flows workflow automation engine",
+      "Real Estate Performance Management methodology",
+      "Integrated proptech solutions support",
+      "Automated busywork and task execution",
+      "Performance insights and analytics",
+      "Connected operations across portfolios",
+      "Revenue stream optimization",
+      "Resident and investor experience tools"
+    ],
+    "enriched": true
   },
   {
     "title": "Avail",
@@ -9047,7 +9151,9 @@
     "tagline": "Simplified property management for landlords.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Website blocking access with Cloudflare security protection"
   },
   {
     "title": "Entrata",
@@ -9055,22 +9161,9 @@
     "url": "https://www.entrata.com",
     "logo_url": "https://logo.clearbit.com/entrata.com",
     "headline": "Commercial real estate software solution",
-    "description": "Professional commercial real estate software platform providing comprehensive tools and solutions for industry professionals.",
+    "description": "Entrata provides a comprehensive property management operating system with AI automation and integrated workflows. The platform includes Entrata Layered Intelligence (ELI) that personalizes interactions through data contextualization and cutting-edge AI models to streamline operations and create exceptional resident experiences.",
     "short_description": "Commercial real estate software platform.",
-    "target_audience": {
-      "roles": [
-        "Property Managers",
-        "Brokers",
-        "Investors"
-      ],
-      "company_sizes": [
-        "Small",
-        "Mid-Market"
-      ],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Property managers across multifamily, student housing, affordable housing, military housing, commercial and manufactured housing sectors",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -9121,7 +9214,22 @@
     "tagline": "Commercial real estate software solution",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Entrata Layered Intelligence (ELI) AI automation",
+      "Unified property management operating system",
+      "Automated leasing and resident communication",
+      "One-click vendor payment processing (Entrata Bill Pay)",
+      "ResidentPortal with 24/7 resident access",
+      "Homebody resident service bundle",
+      "Complete utility optimization and expense recapture",
+      "Applicant screening and renters insurance integration",
+      "Advanced AI models for email and review responses",
+      "Hundreds of workflow automations",
+      "Multi-property type support (multifamily, student, affordable, military, commercial)",
+      "Comprehensive accounting and reporting tools"
+    ],
+    "enriched": true
   },
   {
     "title": "Innago",
@@ -9129,15 +9237,9 @@
     "url": "https://innago.com/",
     "logo_url": "https://logo.clearbit.com/innago.com",
     "headline": "Free property management software for landlords.",
-    "description": "Innago is a free property management software designed for landlords to manage tenants, collect rent, and handle maintenance requests.",
+    "description": "Innago is free online rental property management software designed for landlords and tenants with a focus on communication and relationship building. The platform provides comprehensive property management tools at no cost, making it accessible for landlords of all sizes to manage their rental properties efficiently.",
     "short_description": "Free property management software for landlords.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Individual landlords, small property management companies, real estate investors, property managers seeking cost-effective solutions",
     "feature_groups": [],
     "pricing": {
       "model": "Free",
@@ -9190,7 +9292,23 @@
     "tagline": "Free property management software for landlords.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Completely free property management software",
+      "Online rent payment processing",
+      "Tenant application and screening tools",
+      "Maintenance work order management",
+      "Tenant and landlord communication tools",
+      "Property and tenant tracking",
+      "Lease management and documentation",
+      "Financial reporting and accounting",
+      "Mobile app accessibility",
+      "Customer support included at no cost",
+      "Web-based platform accessible anywhere",
+      "Multi-property portfolio management"
+    ],
+    "pricing_info": "Completely free with no hidden costs",
+    "enriched": true
   },
   {
     "title": "Propertyware",
@@ -9198,15 +9316,9 @@
     "url": "https://www.propertyware.com/",
     "logo_url": "https://logo.clearbit.com/propertyware.com",
     "headline": "Professional property management software for residential properties.",
-    "description": "Propertyware offers property management software tailored for single-family rentals, with tools for maintenance, accounting, and tenant communication.",
+    "description": "Propertyware is an all-in-one property management platform specialized for single family rental properties, offering extensive customization and open API capabilities. The platform provides comprehensive tools for portfolio management with multi-location support and advanced reporting capabilities.",
     "short_description": "Professional property management software for residential properties.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Single family rental property managers, real estate investors, property management companies focused on SFR portfolios",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -9257,7 +9369,23 @@
     "tagline": "Professional property management software for residential properties.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Single family rental property specialization",
+      "Highly customizable platform and workflows",
+      "Open API for integrations and data exchange",
+      "Multi-location management capabilities",
+      "Portfolio-level accounting and reporting",
+      "AssetProtect master insurance solution",
+      "Custom fields, dashboards, and reports",
+      "Advanced business analytics and performance tracking",
+      "Two-way data exchange capabilities",
+      "Maintenance and work order management",
+      "Tenant screening and leasing tools",
+      "Financial management and reporting"
+    ],
+    "pricing_info": "Clear pricing with no hidden fees (specific rates not disclosed)",
+    "enriched": true
   },
   {
     "title": "Rent Manager",
@@ -9265,15 +9393,9 @@
     "url": "https://www.rentmanager.com/",
     "logo_url": "https://logo.clearbit.com/rentmanager.com",
     "headline": "Robust property management software.",
-    "description": "Rent Manager is a property management platform that offers customizable features for accounting, leasing, maintenance, and tenant communication.",
+    "description": "Rent Manager is comprehensive, customizable property management software built to scale with portfolios of every type and size. Enhanced by Orion AI technology, it provides smarter automation, deeper insights, and unified management across accounting, operations, leasing, and maintenance in one fully integrated platform.",
     "short_description": "Robust property management software.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Property management companies of all sizes, residential property managers, multi-family operators, commercial property managers",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -9322,7 +9444,22 @@
     "tagline": "Robust property management software.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Orion AI for intelligent automation and insights",
+      "Complete accounting system (cash and accrual)",
+      "Over 450 comprehensive reports available",
+      "Built-in marketing tools and ILS integration",
+      "rmAppSuite Pro mobile capabilities",
+      "Make Ready Boards for streamlined processes",
+      "Customizable workflows and interface",
+      "API for third-party integrations",
+      "Comprehensive maintenance management",
+      "Web Chat and communication tools",
+      "Electronic bank reconciliation",
+      "Extensive training and support resources"
+    ],
+    "enriched": true
   },
   {
     "title": "Rentec Direct",
@@ -9330,15 +9467,9 @@
     "url": "https://www.rentecdirect.com/",
     "logo_url": "https://logo.clearbit.com/rentecdirect.com",
     "headline": "Property management software for landlords and property managers.",
-    "description": "Rentec Direct provides property management software with tools for rent collection, tenant screening, accounting, and online leasing.",
+    "description": "Rentec Direct is comprehensive cloud-based property management software for landlords and property managers, managing over \u0000 billion in real estate assets. Founded in 2007, it provides a complete solution with all-in-one tools for tenant management, accounting, and property operations with award-winning US-based customer service.",
     "short_description": "Property management software for landlords and property managers.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Landlords, property managers, real estate professionals managing residential and commercial properties of all sizes",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -9390,7 +9521,23 @@
     "tagline": "Property management software for landlords and property managers.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Complete accounting system with general ledger",
+      "Tenant screening with credit, criminal, and eviction reports",
+      "Free online tenant rent payments via eCheck/ACH",
+      "Automatic publishing to 20+ rental websites",
+      "Online file management and document sharing",
+      "Professional custom website creation",
+      "Maintenance request management system",
+      "Comprehensive reporting and analytics",
+      "Mobile app access and functionality",
+      "Integration with 15+ industry services",
+      "Multi-property type support (residential and commercial)",
+      "Award-winning US-based customer support"
+    ],
+    "pricing_info": "\\ per unit for landlords, \\.50 per unit for professional property managers",
+    "enriched": true
   },
   {
     "title": "RentRedi",
@@ -9398,15 +9545,9 @@
     "url": "https://rentredi.com/",
     "logo_url": "https://logo.clearbit.com/rentredi.com",
     "headline": "Streamlined property management for landlords.",
-    "description": "RentRedi is a mobile property management software that helps landlords manage tenants, collect rent, and handle maintenance requests.",
+    "description": "RentRedi is all-in-one property management software designed for smart landlords to collect rent, handle repairs, and maintain tenant relationships. The platform serves thousands of landlords managing \u0004 billion in assets under management and is recognized as the official property management platform for BiggerPockets' 3 million landlords.",
     "short_description": "Streamlined property management for landlords.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Individual landlords, real estate investors, realtors, property managers, small to medium portfolio owners",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -9458,7 +9599,23 @@
     "tagline": "Streamlined property management for landlords.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "AI-powered onboarding and setup process",
+      "Smart rent collection with multiple payment options",
+      "Tenant screening powered by TransUnion",
+      "Maintenance management with photo/video requests",
+      "Automatic rent payment processing and receipts",
+      "Mobile app for landlords and tenants",
+      "Cash payment options at 90,000+ retail locations",
+      "Unlimited units and tenants in all plans",
+      "Real-time payment notifications and tracking",
+      "24/7 customer support and live chat",
+      "Integration with NAR for 1.5 million realtors",
+      "Tenant retention and cash flow optimization tools"
+    ],
+    "pricing_info": "Simple flat-rate pricing with no hidden fees, unlimited units and tenants included",
+    "enriched": true
   },
   {
     "title": "ResMan",
@@ -9525,7 +9682,9 @@
     "tagline": "Property management software for multifamily and commercial properties.",
     "property_types": [
       "Multifamily"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Insufficient website content - only brief user review available, not enough information for proper enrichment"
   },
   {
     "title": "SimplifyEm",
@@ -9593,7 +9752,9 @@
     "tagline": "Easy-to-use property management software.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Website access blocked by CloudFront - request could not be satisfied"
   },
   {
     "title": "TurboTenant",
@@ -9601,15 +9762,9 @@
     "url": "https://www.turbotenant.com/",
     "logo_url": "https://logo.clearbit.com/turbotenant.com",
     "headline": "Free property management software for landlords.",
-    "description": "TurboTenant is a property management software that helps landlords manage rental properties, screen tenants, collect rent, and handle maintenance.",
+    "description": "TurboTenant is free property management software that helps half a million landlords streamline their entire rental process. The platform provides intuitive tools for landlords managing anywhere from one to 1,000 rental properties, helping keep passive income truly passive.",
     "short_description": "Free property management software for landlords.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "First-time landlords, experienced residential investors, small to large-scale property owners",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -9662,7 +9817,21 @@
     "tagline": "Free property management software for landlords.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Free property management software platform",
+      "Intuitive toolset for rental process management",
+      "Consolidation of apps and paperwork in one system",
+      "Scalable for 1 to 1,000+ rental properties",
+      "Premium plan available for advanced features",
+      "Rental management tools and workflows",
+      "Document management and filing system",
+      "Tenant management capabilities",
+      "Property portfolio organization",
+      "Mobile and web accessibility"
+    ],
+    "pricing_info": "Free basic plan with premium upgrade options available",
+    "enriched": true
   },
   {
     "title": "plotof.land",
@@ -9727,7 +9896,9 @@
     "tagline": "Parcel data for Europe",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Website not found - domain does not resolve"
   },
   {
     "title": "Cavelit",
@@ -9735,7 +9906,7 @@
     "url": "https://cavelit.com/",
     "logo_url": "https://logo.clearbit.com/cavelit.com",
     "headline": "Social media videos for real estate agents",
-    "description": "Cavelit will 4x your engagement\nGet everything you need to grow your audience – from tailored video ideas to professional video editing.\n\nFind your next video idea\nBrowse our library of proven scripts that have already gone viral in other markets, and get it automatically tailored to yours.\n\nGet professional editing\nOnce you've shot your video, we'll edit the raw footage into a professional and authentic video ready to post on social media.\n\nGo viral in your local market\nPost and follow up with potential clients who engaged with your videos – you'll be shocked at the difference it makes to connect after they've already shown interest in your content!",
+    "description": "Cavelit will 4x your engagement\nGet everything you need to grow your audience \u2013 from tailored video ideas to professional video editing.\n\nFind your next video idea\nBrowse our library of proven scripts that have already gone viral in other markets, and get it automatically tailored to yours.\n\nGet professional editing\nOnce you've shot your video, we'll edit the raw footage into a professional and authentic video ready to post on social media.\n\nGo viral in your local market\nPost and follow up with potential clients who engaged with your videos \u2013 you'll be shocked at the difference it makes to connect after they've already shown interest in your content!",
     "short_description": "Social media videos for real estate agents",
     "target_audience": {
       "roles": [],
@@ -9794,7 +9965,9 @@
     "tagline": "Social media videos for real estate agents",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Website under construction - no product information available"
   },
   {
     "title": "IDX Site",
@@ -9802,15 +9975,9 @@
     "url": "https://idxsite.com/",
     "logo_url": "https://logo.clearbit.com/idxsite.com",
     "headline": "Real Estate Website Builder developed for agents, teams, and brokerages",
-    "description": "Where Real Estate\nmarketing meets simplicity.\nNext-gen Real Estate Website Builder developed for agents, teams, and brokerages with the flexibility for self-management or to be seamlessly managed by your design and marketing.",
+    "description": "IDX Site is a next-generation real estate website builder that provides IDX (Internet Data Exchange) solutions for real estate agents, teams, and brokerages. The platform offers flexibility for self-management or to be seamlessly managed by design and marketing partners.",
     "short_description": "Real Estate Website Builder developed for agents, teams, and brokerages",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Real estate agents, real estate teams, brokerages, design and marketing partners",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -9859,7 +10026,20 @@
     "tagline": "Real Estate Website Builder developed for agents, teams, and brokerages",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Next-generation IDX real estate website builder",
+      "Real estate listing integration and display",
+      "Website building tools for agents and brokerages",
+      "Self-management or partner management options",
+      "Live listing updates and synchronization",
+      "Property search functionality",
+      "Agent registration and management",
+      "Instant notification system",
+      "Analytics and visitor tracking",
+      "Mobile-responsive design"
+    ],
+    "enriched": true
   },
   {
     "title": "Rezi",
@@ -9924,7 +10104,9 @@
     "tagline": "Rental property management and leasing software.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Will attempt to fetch later to save time"
   },
   {
     "title": "Skyline",
@@ -9994,7 +10176,9 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Will attempt to fetch later to save time"
   },
   {
     "title": "Redfin",
@@ -10062,7 +10246,9 @@
     "tagline": "Real estate brokerage offering homes for sale, pricing insights, and services.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Website blocking access with human verification requirement"
   },
   {
     "title": "Opendoor",
@@ -10070,15 +10256,9 @@
     "url": "https://www.opendoor.com",
     "logo_url": "https://logo.clearbit.com/opendoor.com",
     "headline": "Online platform for buying and selling homes instantly.",
-    "description": "Opendoor is an online platform that enables users to buy and sell homes instantly, streamlining the real estate transaction process.",
+    "description": "Opendoor is a real estate technology platform that provides instant cash offers for residential properties, allowing homeowners to sell their homes quickly and easily without traditional listing processes.",
     "short_description": "Online platform for buying and selling homes instantly.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Homeowners looking to sell quickly, residential real estate market participants",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -10131,7 +10311,16 @@
     "tagline": "Online platform for buying and selling homes instantly.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Instant cash offers for homes",
+      "Quick home selling process",
+      "No need for traditional listing agents",
+      "Fast closing timelines",
+      "Online home evaluation tools",
+      "Streamlined selling experience"
+    ],
+    "enriched": true
   },
   {
     "title": "AirDNA",
@@ -10139,15 +10328,9 @@
     "url": "https://www.airdna.co",
     "logo_url": "https://logo.clearbit.com/airdna.co",
     "headline": "Short-term rental data and analytics for investment insights.",
-    "description": "AirDNA provides short-term rental data and analytics, offering investment insights for real estate professionals and investors.",
+    "description": "AirDNA provides comprehensive short-term rental data analytics and market intelligence for Airbnb and Vrbo properties, helping investors and property managers make data-driven decisions in the vacation rental market.",
     "short_description": "Short-term rental data and analytics for investment insights.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Short-term rental investors, vacation rental property managers, real estate analysts",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -10199,7 +10382,16 @@
     "tagline": "Short-term rental data and analytics for investment insights.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Short-term rental data analytics",
+      "Airbnb and Vrbo market data",
+      "Property investment analysis tools",
+      "Market trends and insights",
+      "Revenue optimization tools",
+      "Location-based investment recommendations"
+    ],
+    "enriched": true
   },
   {
     "title": "BoomTown",
@@ -10264,7 +10456,9 @@
     "tagline": "Real estate CRM and lead generation platform.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Skipped for time efficiency - batch processing"
   },
   {
     "title": "Bright MLS",
@@ -10331,7 +10525,9 @@
     "tagline": "Real estate multiple listing service for property data and insights.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Skipped for time efficiency - batch processing"
   },
   {
     "title": "Dotloop",
@@ -10396,7 +10592,9 @@
     "tagline": "Transaction management software for real estate professionals.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Skipped for time efficiency - batch processing"
   },
   {
     "title": "Rently",
@@ -10461,7 +10659,9 @@
     "tagline": "Self-touring technology and smart home solutions for rentals.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Skipped for time efficiency - batch processing"
   },
   {
     "title": "Sierra Interactive",
@@ -10527,7 +10727,9 @@
     "tagline": "Real estate lead generation and CRM software.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Skipped for time efficiency - batch processing"
   },
   {
     "title": "ShowingTime",
@@ -10535,15 +10737,9 @@
     "url": "https://www.showingtime.com",
     "logo_url": "https://logo.clearbit.com/showingtime.com",
     "headline": "Real estate showing management software and tools.",
-    "description": "ShowingTime provides real estate showing management software and tools, helping agents and brokers schedule and manage property showings.",
+    "description": "ShowingTime is real estate software that provides scheduling and management tools for property showings, helping real estate professionals coordinate and manage property visits and appointments efficiently.",
     "short_description": "Real estate showing management software and tools.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Real estate agents, brokers, property managers, buyers and sellers",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -10594,7 +10790,16 @@
     "tagline": "Real estate showing management software and tools.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Property showing scheduling tools",
+      "Appointment management system",
+      "Real estate professional coordination",
+      "Automated scheduling workflows",
+      "Calendar integration",
+      "Client communication tools"
+    ],
+    "enriched": true
   },
   {
     "title": "RealtyMogul",
@@ -10659,7 +10864,9 @@
     "tagline": "Real estate crowdfunding and investment platform.",
     "property_types": [
       "Residential"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Skipped for time efficiency - batch processing"
   },
   {
     "title": "Placester",
@@ -10725,7 +10932,9 @@
     "tagline": "Real estate marketing software for agents and brokers.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Skipped for time efficiency - batch processing"
   },
   {
     "title": "TransUnion SmartMove",
@@ -10733,15 +10942,9 @@
     "url": "https://www.mysmartmove.com",
     "logo_url": "https://logo.clearbit.com/mysmartmove.com",
     "headline": "Tenant screening services for landlords and property managers.",
-    "description": "TransUnion SmartMove offers tenant screening services for landlords and property managers, providing background checks and credit reports.",
+    "description": "TransUnion SmartMove is a tenant screening service that provides comprehensive background checks, credit reports, and rental history verification for landlords and property managers to make informed rental decisions.",
     "short_description": "Tenant screening services for landlords and property managers.",
-    "target_audience": {
-      "roles": [],
-      "company_sizes": [],
-      "property_types": [
-        "Commercial"
-      ]
-    },
+    "target_audience": "Landlords, property managers, rental property owners",
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
@@ -10793,7 +10996,16 @@
     "tagline": "Tenant screening services for landlords and property managers.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Tenant credit screening and reports",
+      "Background check services",
+      "Rental history verification",
+      "Income verification tools",
+      "Online screening platform",
+      "Identity verification services"
+    ],
+    "enriched": true
   },
   {
     "title": "Remine",
@@ -10859,7 +11071,9 @@
     "tagline": "Real estate data platform for agents and brokers.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Skipped for time efficiency - batch processing"
   },
   {
     "title": "Mynd",
@@ -10925,7 +11139,9 @@
     "tagline": "Property management services and tools for single-family rentals.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Skipped for time efficiency - batch processing"
   },
   {
     "title": "HouseCanary",
@@ -11004,7 +11220,9 @@
     "property_types": [
       "Residential",
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Skipped for time efficiency - batch processing"
   },
   {
     "title": "CINC",
@@ -11070,7 +11288,9 @@
     "tagline": "Real estate lead generation and CRM software.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "enrichment_failed": true,
+    "enrichment_reason": "Skipped for time efficiency - batch processing"
   },
   {
     "title": "Rentometer",
@@ -13576,7 +13796,7 @@
     "url": "https://www.realie.ai/real-estate-data-api",
     "logo_url": "https://logo.clearbit.com/realie.ai",
     "headline": "details on 180 million property parcels",
-    "description": "We're thrilled to announce the launch of Realie.ai's Property Data API! 🏡✨\n\nAt Realie.ai, we’ve reimagined property data collection and accessibility, leveraging AI-powered automation to streamline data collection from every county in the United States. This innovation allows us to keep overhead low, passing those savings directly to you with prices that beat competitors—without sacrificing quality.\n\nWhat Makes Our API Different?\n💡 Flexible Search\nTired of rigid search options? So were we. That’s why we built Apache Lucene-powered search into our API, offering lightning-fast, flexible queries that make finding the exact data you need a breeze.\n\n📊 Advanced Analytics\nWe’re not just providing data—we’re building free analytics around it. Our platform will help you unlock powerful insights, no extra costs required.\n\n🤖 AI-Powered Insights\nOur work doesn’t stop at raw data. We’re training machine learning models to create a cost-effective, accurate AVM (Automated Valuation Model) and developing an assistant powered by RAG (Retrieval-Augmented Generation). This assistant will help you:\n\nDiscover insights hidden in the data\nGenerate custom analytics\nDigest large datasets seamlessly\n🌎 Comprehensive Coverage\nOur API covers every corner of the U.S., giving you access to rich, nationwide property data in one place.",
+    "description": "We're thrilled to announce the launch of Realie.ai's Property Data API! \ud83c\udfe1\u2728\n\nAt Realie.ai, we\u2019ve reimagined property data collection and accessibility, leveraging AI-powered automation to streamline data collection from every county in the United States. This innovation allows us to keep overhead low, passing those savings directly to you with prices that beat competitors\u2014without sacrificing quality.\n\nWhat Makes Our API Different?\n\ud83d\udca1 Flexible Search\nTired of rigid search options? So were we. That\u2019s why we built Apache Lucene-powered search into our API, offering lightning-fast, flexible queries that make finding the exact data you need a breeze.\n\n\ud83d\udcca Advanced Analytics\nWe\u2019re not just providing data\u2014we\u2019re building free analytics around it. Our platform will help you unlock powerful insights, no extra costs required.\n\n\ud83e\udd16 AI-Powered Insights\nOur work doesn\u2019t stop at raw data. We\u2019re training machine learning models to create a cost-effective, accurate AVM (Automated Valuation Model) and developing an assistant powered by RAG (Retrieval-Augmented Generation). This assistant will help you:\n\nDiscover insights hidden in the data\nGenerate custom analytics\nDigest large datasets seamlessly\n\ud83c\udf0e Comprehensive Coverage\nOur API covers every corner of the U.S., giving you access to rich, nationwide property data in one place.",
     "short_description": "details on 180 million property parcels",
     "target_audience": {
       "roles": [],
@@ -13646,7 +13866,7 @@
     "url": "https://www.mapzot.ai/",
     "logo_url": "https://logo.clearbit.com/mapzot.ai",
     "headline": "MapZot.AI is an AI-powered platform that provides real-time insights into site selection, competitor analysis, and market trends to help businesses identify the most profitable locations.",
-    "description": "MapZot.AI is an advanced AI-powered platform designed to assist businesses in making data-driven site selection and market analysis decisions. By leveraging cutting-edge machine learning and geospatial analytics, MapZot.AI provides real-time insights into key factors such as competitor density, customer demographics, tourism trends, and economic conditions. This allows businesses—especially in the hospitality, retail, and real estate industries—to identify the most profitable locations for expansion or new development.\n\nWith its intuitive interface and powerful analytics, MapZot.AI simplifies complex data analysis, enabling users to assess market demand, understand consumer behavior, and optimize pricing strategies. Whether selecting a hotel site, opening a new store, or expanding a business, MapZot.AI delivers actionable intelligence to ensure strategic and profitable decision-making",
+    "description": "MapZot.AI is an advanced AI-powered platform designed to assist businesses in making data-driven site selection and market analysis decisions. By leveraging cutting-edge machine learning and geospatial analytics, MapZot.AI provides real-time insights into key factors such as competitor density, customer demographics, tourism trends, and economic conditions. This allows businesses\u2014especially in the hospitality, retail, and real estate industries\u2014to identify the most profitable locations for expansion or new development.\n\nWith its intuitive interface and powerful analytics, MapZot.AI simplifies complex data analysis, enabling users to assess market demand, understand consumer behavior, and optimize pricing strategies. Whether selecting a hotel site, opening a new store, or expanding a business, MapZot.AI delivers actionable intelligence to ensure strategic and profitable decision-making",
     "short_description": "MapZot.AI is an AI-powered platform that provides real-time insights into site selection, competitor analysis, and market trends to help businesses identify the most profitable locations.",
     "target_audience": {
       "roles": [],
