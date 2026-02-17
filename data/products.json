@@ -4602,24 +4602,30 @@
     "url": "https://plotzy.ai",
     "logo_url": "https://i.postimg.cc/jdg7ZfSB/Plotzy-1-Concpt-modi-1-04.png",
     "headline": "Find & Research Parcels with AI",
-    "description": "Summary: Plotzy offers a powerful AI-driven solution for real estate professionals looking to streamline parcel searches and research. With its advanced AI capabilities, it's highly recommended for users focused on zoning, site selection, and quick access to property owner information.\n\nFeatures:\n\nAI-powered parcel search\nZoning and site selection tools\nAccess to owner and contact information\nParcel boundary mapping\nPros:\n\nPowerful AI-driven insights\nHighly specialized for zoning and site selection\nComprehensive property and contact data\nUser-friendly interface\nCons:\n\nMay be too niche for casual real estate users\nPricing can be high for individual users\nRating: 4.5/5",
+    "description": "Plotzy is an AI-powered parcel and zoning search and research platform designed to help real estate professionals make more deals. The platform enables users to quickly find property data, owner contact information, and zoning attributes to identify the perfect parcels for their needs. Plotzy serves brokers, land acquisition teams, developers, and individuals who need efficient tools for property research, parcel analysis, and deal sourcing with AI-enhanced search capabilities.",
     "short_description": "Find & Research Parcels with AI",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Real Estate Brokers",
+        "Land Acquisition Teams",
+        "Developers",
+        "Property Researchers",
+        "Site Selection Teams"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
-        "Commercial"
+        "Land",
+        "Commercial",
+        "Residential",
+        "Development Parcels",
+        "Mixed-Use"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Subscription-based - Basic: 5 beta price per user, Pro: 00/month (annual pricing available)",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -4663,7 +4669,23 @@
     "tagline": "Find & Research Parcels with AI",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "AI-powered parcel search and research",
+      "Zoning information and analysis",
+      "Property data discovery",
+      "Owner contact information lookup",
+      "Property and zoning attribute filtering",
+      "List management and organization",
+      "Deal sourcing and identification",
+      "Parcel analysis tools",
+      "Municipal zoning data integration",
+      "Property research automation",
+      "Land acquisition support tools",
+      "Geographic property search"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:35:03.365212Z"
   },
   {
     "title": "Procore",
@@ -4671,14 +4693,16 @@
     "url": "https://www.procore.com",
     "logo_url": "https://images.ctfassets.net/8pep15rt0kef/4oLg1KCm8PfBkfS0h2hhQa/c2373ccd56d1210271a3f4bd082383d3/procore-logo.svg",
     "headline": "Construction management platform",
-    "description": "Procore is a leading construction management platform that connects project teams and data across the entire construction lifecycle. From preconstruction to closeout, the platform provides project management, quality & safety, and financial management tools. With over 3 million projects completed across 150+ countries, Procore helps construction teams increase efficiency, reduce risk, and improve margins through real-time collaboration and data-driven insights.",
+    "description": "Procore is the leading construction management software platform that connects project teams and provides real-time insights to help build with confidence from start to finish. The platform serves over 3 million projects across 150+ countries, offering comprehensive solutions for project management, cost management, quality & safety, and resource management. With the introduction of Procore Helix, an AI-powered intelligence layer, the platform helps construction professionals automate workflows, analyze data, and make informed decisions to improve project efficiency and reduce risks.",
     "short_description": "Leading construction management platform connecting teams and data across project lifecycle.",
     "target_audience": {
       "roles": [
         "General Contractors",
-        "Owners",
         "Subcontractors",
-        "Project Managers"
+        "Project Owners",
+        "Construction Managers",
+        "Architects",
+        "Engineers"
       ],
       "company_sizes": [
         "Small",
@@ -4688,7 +4712,10 @@
       "property_types": [
         "Commercial",
         "Industrial",
-        "Mixed-Use"
+        "Residential",
+        "Infrastructure",
+        "Healthcare",
+        "Education"
       ]
     },
     "feature_groups": [
@@ -4744,17 +4771,7 @@
         ]
       }
     ],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Subscription-based - Unlimited users model, custom pricing based on project volume and features",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -4797,7 +4814,27 @@
       "Commercial",
       "Industrial",
       "Mixed-Use"
-    ]
+    ],
+    "features": [
+      "Project management and execution",
+      "Procore Helix - AI-powered intelligence layer",
+      "Cost management and budget tracking",
+      "Quality and safety management",
+      "Resource management and scheduling",
+      "Document management and collaboration",
+      "Real-time project insights and analytics",
+      "Mobile construction management",
+      "Financial reporting and control",
+      "Bid management and procurement",
+      "RFI and submittal management",
+      "Time tracking and workforce management",
+      "Equipment management",
+      "Integration marketplace and APIs",
+      "BIM and design coordination",
+      "Punch list and inspection tools"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:35:19.871546Z"
   },
   {
     "title": "Prodeal",
@@ -4805,24 +4842,31 @@
     "url": "https://www.prodeal360.com",
     "logo_url": "https://logo.clearbit.com/prodeal360.com",
     "headline": "Deal management platform for real estate professionals.",
-    "description": "Summary: Prodeal is a deal management platform designed for real estate professionals, offering a simple way to handle transactions and manage documents. It’s ideal for teams dealing with frequent deals, though smaller firms may find limited value in it.\n\nFeatures:\n\nTransaction and deal management tools\nDocument management for real estate deals\nCollaboration features for teams\nPros:\n\nStreamlines deal management and transactions\nEasy-to-use interface\nGood document organization features\nCons:\n\nLimited use for smaller teams\nFeature set might feel basic for larger firms\nRating: 4/5",
+    "description": "Prodeal is the only Virtual Data Room (VDR) workspace designed specifically for commercial real estate due diligence and multi-party transactions. The platform provides precise, intuitive control and granular security to help CRE firms master complex deals with multiple parties. Trusted by top lenders and title companies, Prodeal eliminates the need for risky email workarounds and generic file-sharing solutions by offering a purpose-built platform that handles massive CRE files and complex due diligence workflows while maintaining SOC 2-compliant enterprise security.",
     "short_description": "Deal management platform for real estate professionals.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Commercial Real Estate Lenders",
+        "Title Companies",
+        "Investment Firms",
+        "Deal Teams",
+        "Transaction Managers",
+        "Due Diligence Teams"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Commercial"
+        "Commercial",
+        "Industrial",
+        "Office",
+        "Mixed-Use",
+        "Investment Properties"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact for custom pricing and demo",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -4865,7 +4909,26 @@
     "tagline": "Deal management platform for real estate professionals.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Virtual Data Room (VDR) for CRE transactions",
+      "Granular security and access controls",
+      "Team roles and permissions management",
+      "Automated room and workflow setup",
+      "Powerful room templates with pre-filled tasks",
+      "Centralized checklist view across all deals",
+      "Large file handling (200MB+ documents)",
+      "Custom branding and professional client experience",
+      "Complete activity logs and audit trails",
+      "Real-time deal status tracking",
+      "Document version control",
+      "SOC 2-compliant security",
+      "Instant user activation/deactivation",
+      "Room data and metadata export",
+      "Multi-party collaboration tools"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:35:38.289135Z"
   },
   {
     "title": "Property Capsule",
@@ -4873,26 +4936,28 @@
     "url": "https://www.propertycapsule.com",
     "logo_url": "https://logo.clearbit.com/propertycapsule.com",
     "headline": "Digital asset management for real estate.",
-    "description": "Property Capsule is a cloud-based platform that automates the management of commercial real estate properties. It provides tools for managing property portfolios, marketing, and leasing processes, enabling real-time updates and data-driven decisions.",
+    "description": "Property Capsule is an iPad-based leasing and marketing application designed specifically for retail and commercial real estate professionals. The platform provides mobile tools for on-site property presentations, automated marketing flyer generation, site plans, and client engagement during property showings. Property Capsule enables real estate agents and brokers to deliver professional presentations directly from their iPad, streamlining the leasing process and enhancing client interactions with interactive property information and marketing materials.",
     "short_description": "Digital asset management for real estate.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Commercial Real Estate Brokers",
+        "Leasing Agents",
+        "Property Managers",
+        "Real Estate Sales Teams"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
-        "Industrial",
+        "Retail",
+        "Commercial",
         "Office",
-        "Retail"
+        "Industrial"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Subscription-based - Monthly recurring fees, 30-day free trial available",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -4939,7 +5004,23 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "features": [
+      "iPad-based leasing application",
+      "Automated marketing flyer generation",
+      "Interactive site plans and property layouts",
+      "Mobile property presentation tools",
+      "Client engagement and presentation features",
+      "On-site leasing capabilities",
+      "Professional property marketing materials",
+      "Real-time property information display",
+      "Streamlined client interaction tools",
+      "Property showcase and visualization",
+      "Marketing automation for listings",
+      "Mobile-optimized user interface"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:35:56.586765Z"
   },
   {
     "title": "Property Metrics",
@@ -4947,24 +5028,29 @@
     "url": "https://www.propertymetrics.com",
     "logo_url": "https://logo.clearbit.com/propertymetrics.com",
     "headline": "Real estate investment analysis and portfolio management",
-    "description": "Property Metrics provides cloud-based real estate investment analysis and portfolio management software. The platform offers comprehensive tools for financial modeling, cash flow analysis, property valuation, and portfolio tracking. Designed for real estate investors, analysts, and fund managers, Property Metrics streamlines the investment analysis process with professional-grade modeling capabilities and reporting tools.",
+    "description": "Property Metrics provides web-based commercial real estate analysis software and educational resources designed to make CRE valuation and marketing more accessible and affordable. The platform offers an alternative to traditional enterprise software like Argus and Excel with simple-to-use, 100% web-based tools for creating proformas, valuations, and professional marketing materials. Property Metrics serves both seasoned professionals and newcomers to the industry with intuitive software and comprehensive educational courses taught by industry experts.",
     "short_description": "Cloud-based real estate investment analysis and portfolio management platform.",
     "target_audience": {
       "roles": [
-        "Real Estate Investors",
-        "Investment Analysts",
-        "Fund Managers",
-        "Portfolio Managers"
+        "Real Estate Analysts",
+        "Investment Professionals",
+        "Brokers",
+        "Students",
+        "Developers",
+        "Property Managers"
       ],
       "company_sizes": [
         "Small",
-        "Mid-Market"
+        "Mid-Market",
+        "Individual Professionals"
       ],
       "property_types": [
-        "Multifamily",
+        "Commercial",
         "Office",
         "Industrial",
-        "Retail"
+        "Retail",
+        "Mixed-Use",
+        "Development Projects"
       ]
     },
     "feature_groups": [
@@ -4986,17 +5072,7 @@
         ]
       }
     ],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Affordable web-based pricing - Contact for specific plans and pricing",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -5040,7 +5116,25 @@
       "Office",
       "Industrial",
       "Retail"
-    ]
+    ],
+    "features": [
+      "Web-based CRE proforma and valuation software",
+      "Commercial real estate brochure and marketing software",
+      "Online CRE analysis and educational courses",
+      "Complex lease modeling and analysis",
+      "Reimbursement calculations",
+      "Development cost analysis",
+      "Clean, intuitive user interface",
+      "Live model sharing and collaboration",
+      "Professional presentation-quality outputs",
+      "Offering memos and flyer creation",
+      "Market reports and development proposals",
+      "Case study templates",
+      "Commercial real estate blog and resources",
+      "No Excel or Argus dependencies"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:36:14.440475Z"
   },
   {
     "title": "Real Capital Markets",
@@ -5048,26 +5142,33 @@
     "url": "https://www.rcm1.com",
     "logo_url": "https://logo.clearbit.com/rcm1.com",
     "headline": "Global marketplace for buying and selling commercial real estate.",
-    "description": "Real Capital Markets (RCM) is a commercial real estate marketplace that connects buyers and sellers for large property transactions. It provides tools for deal management, marketing, and financial analysis, streamlining the transaction process.",
+    "description": "Real Capital Markets (RCM) is a leading commercial real estate marketing and transaction platform that has facilitated over .4 trillion in CRE transactions through 76,000+ deals. Over 50% of all U.S. commercial real estate sales are brought to market using RCM, serving over 300,000 industry professionals worldwide. The platform increases the speed, exposure, and security of CRE sales through a streamlined online system that connects qualified principals, brokers, mortgage bankers, and equity sources from Wall Street to Main Street.",
     "short_description": "Global marketplace for buying and selling commercial real estate.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Commercial Real Estate Brokers",
+        "Investment Sales Professionals",
+        "Principals",
+        "Mortgage Bankers",
+        "Equity Sources",
+        "Property Owners"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
+        "Commercial",
         "Office",
-        "Retail"
+        "Industrial",
+        "Retail",
+        "Mixed-Use",
+        "Investment Properties"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact for custom pricing and platform access",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -5114,7 +5215,25 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "features": [
+      "Online commercial property marketing platform",
+      "Extensive database of 81,000+ qualified principals",
+      "Comprehensive document library management",
+      "Professional listing creation and management",
+      "Buyer database and targeting",
+      "Transaction facilitation and security",
+      "Marketing teaser and offering memo creation",
+      "Data organization and export capabilities",
+      "Real-time active listings (9,804+ current)",
+      "Deal pipeline and transaction tracking",
+      "Enhanced market exposure and visibility",
+      "Streamlined sales process automation",
+      "Professional property presentation tools",
+      "Multi-party transaction coordination"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:36:29.387091Z"
   },
   {
     "title": "Real Data",
