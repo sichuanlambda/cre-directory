@@ -141,24 +141,32 @@
     "title": "Apto",
     "slug": "apto",
     "url": "https://www.apto.com",
-    "logo_url": "https://thumbs.bfldr.com/at/qs6h1rk9/v/310198?expiry=1729091118&fit=bounds&height=800&sig=OTFkYjg1OGM5NDkzYzgwOWFjYjMyYTRmOTdjNmYwZGI1NjIwZDcxNQ%3D%3D&width=1100",
-    "headline": "Summary: Apto is an effective CRM solution tailored for commercial real estate (CRE) brokers. Its deal management tools make it a go-to for brokers lo.",
-    "description": "Summary: Apto is an effective CRM solution tailored for commercial real estate (CRE) brokers. Its deal management tools make it a go-to for brokers looking to streamline operations, though its limited customization may not suit all needs.\n\nFeatures:\n\nCRM system tailored for CRE brokers\nDeal management capabilities\nBroker-specific tools for tracking leads\nPros:\n\nTailored specifically for CRE professionals\nEasy deal management\nImproves brokerage workflows\nCons:\n\nLimited flexibility for other real estate segments\nCustomization options are minimal\nRating: 4/5",
-    "short_description": "Summary: Apto is an effective CRM solution tailored for commercial real estate (CRE) brokers. Its deal management tools make it a go-to for brokers lo.",
+    "logo_url": "https://logo.clearbit.com/apto.com",
+    "headline": "Commercial real estate software solution",
+    "description": "Professional commercial real estate software platform providing comprehensive tools and solutions for industry professionals.",
+    "short_description": "Commercial real estate software platform.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Managers",
+        "Brokers",
+        "Investors"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
-        "Industrial",
-        "Office",
-        "Retail"
+        "Commercial"
       ]
     },
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -176,34 +184,31 @@
       "funding": ""
     },
     "categories": [
-      "CRM & Marketing",
       "Data & Analytics"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 3.9,
     "review_count": 0,
     "seo": {
       "title": "Apto Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Apto. Summary: Apto is an effective CRM solution tailored for commercial real estate (CRE) brokers. Its deal management tools make it a go-to for brokers lo. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of Apto. Commercial real estate software platform. Compare pricing, features, pros & cons.",
       "keywords": [
         "Apto review",
         "Apto pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "apto.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Summary: Apto is an effective CRM solution tailored for commercial real estate (CRE) brokers. Its deal management tools make it a go-to for brokers lo.",
+    "tagline": "Commercial real estate software solution",
     "property_types": [
-      "Industrial",
-      "Office",
-      "Retail"
+      "Commercial"
     ]
   },
   {
@@ -343,27 +348,76 @@
     ]
   },
   {
-    "title": "Argus",
+    "title": "Argus by Altus Group",
     "slug": "argus",
     "url": "https://www.altusgroup.com/argus",
-    "logo_url": "https://logo.clearbit.com/altusgroup.com",
-    "headline": "Leading real estate software solution.",
-    "description": "Summary: Argus is a leader in the commercial real estate valuation space, offering a comprehensive solution for market analysis. It’s a highly recommended tool for professionals who need reliable and detailed valuation data, though its complexity might pose a challenge for new users.\n\nFeatures:\n\nMarket and property valuation analysis\nCommercial real estate focused\nDetailed reporting tools\nPros:\n\nHighly regarded in the CRE valuation space\nComprehensive data for market analysis\nReliable reporting features\nCons:\n\nSteep learning curve for new users\nMay not be suitable for smaller real estate transactions\nRating: 4.5/5",
-    "short_description": "Leading real estate software solution.",
+    "logo_url": "https://images.ctfassets.net/8jgyidtgyr4v/4J5fh7Rdh38QZKpJbqU85G/1b577367614fbd12614d9adc0a2a89fd/Altus-Group-logo-white.svg",
+    "headline": "Leading commercial real estate valuation and investment analysis",
+    "description": "Argus by Altus Group is the industry-leading software for commercial real estate valuation and investment analysis. Used by professionals worldwide for cash flow modeling, discounted cash flow analysis, and property valuation. The platform provides comprehensive tools for underwriting, investment analysis, and portfolio management with sophisticated modeling capabilities that have become the global standard for CRE professionals.",
+    "short_description": "Industry-leading commercial real estate valuation and investment analysis software.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Investment Analysts",
+        "Appraisers",
+        "Asset Managers",
+        "Underwriters",
+        "Portfolio Managers"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
         "Office",
-        "Retail"
+        "Industrial",
+        "Retail",
+        "Multifamily",
+        "Mixed-Use"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Valuation & Analysis",
+        "features": [
+          {
+            "name": "DCF Modeling",
+            "description": "Industry-standard discounted cash flow analysis and modeling"
+          },
+          {
+            "name": "Cash Flow Projections",
+            "description": "Detailed cash flow modeling with multiple scenarios"
+          },
+          {
+            "name": "Investment Analysis",
+            "description": "Comprehensive investment returns analysis and metrics"
+          }
+        ]
+      },
+      {
+        "name": "Portfolio Management",
+        "features": [
+          {
+            "name": "Portfolio Tracking",
+            "description": "Monitor and analyze entire real estate portfolios"
+          },
+          {
+            "name": "Market Analysis",
+            "description": "Compare properties and analyze market trends"
+          },
+          {
+            "name": "Reporting Tools",
+            "description": "Professional reports and presentations for stakeholders"
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -374,42 +428,44 @@
     "cons": [],
     "integrations": [],
     "company": {
-      "name": "Argus",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Altus Group",
+      "founded": 2005,
+      "headquarters": "Toronto, Canada",
+      "employees": "2,500+",
+      "funding": "Public (TSX: AIF)"
     },
     "categories": [
-      "Broker Tools",
+      "Investment & Valuation",
       "Data & Analytics",
-      "Investment & Valuation"
+      "Broker Tools"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 4.5,
     "review_count": 0,
     "seo": {
-      "title": "Argus Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Argus. Leading real estate software solution. Compare pricing, features, pros & cons.",
+      "title": "Argus by Altus Group Review 2025: Pricing, Features & Alternatives | CRE Software",
+      "description": "Comprehensive review of Argus by Altus Group. Industry-leading commercial real estate valuation and investment analysis software. Compare pricing, features, pros & cons.",
       "keywords": [
-        "Argus review",
-        "Argus pricing",
+        "Argus by Altus Group review",
+        "Argus by Altus Group pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
-    "is_featured": false,
+    "is_featured": true,
     "domain": "altusgroup.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Leading real estate software solution.",
+    "tagline": "Leading commercial real estate valuation and investment analysis",
     "property_types": [
-      "Industrial",
       "Office",
-      "Retail"
+      "Industrial",
+      "Retail",
+      "Multifamily",
+      "Mixed-Use"
     ]
   },
   {
@@ -1139,12 +1195,19 @@
     "slug": "cherre",
     "url": "https://www.cherre.com",
     "logo_url": "https://logo.clearbit.com/cherre.com",
-    "headline": "Data integration and analytics for real estate.",
-    "description": "Summary: Cherre is a powerful data integration and analytics platform designed for real estate professionals. It’s ideal for firms needing to aggregate data from various sources, though its complexity might not suit smaller businesses.\n\nFeatures:\n\nData integration from multiple real estate sources\nAdvanced analytics and visualization tools\nTailored market analysis\nPros:\n\nComprehensive data aggregation\nPowerful analytics tools\nGreat for in-depth market analysis\nCons:\n\nComplex setup and integration\nBest suited for larger firms with data teams\nRating: 4.5/5",
-    "short_description": "Data integration and analytics for real estate.",
+    "headline": "Commercial real estate software solution",
+    "description": "Professional commercial real estate software platform providing comprehensive tools and solutions for industry professionals.",
+    "short_description": "Commercial real estate software platform.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Managers",
+        "Brokers",
+        "Investors"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
         "Commercial"
       ]
@@ -1153,7 +1216,10 @@
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -1176,24 +1242,24 @@
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 3.9,
     "review_count": 0,
     "seo": {
       "title": "Cherre Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Cherre. Data integration and analytics for real estate. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of Cherre. Commercial real estate software platform. Compare pricing, features, pros & cons.",
       "keywords": [
         "Cherre review",
         "Cherre pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "cherre.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Data integration and analytics for real estate.",
+    "tagline": "Commercial real estate software solution",
     "property_types": [
       "Commercial"
     ]
@@ -1267,27 +1333,35 @@
     ]
   },
   {
-    "title": "CompStak",
+    "title": "Compstak",
     "slug": "compstak",
     "url": "https://www.compstak.com",
     "logo_url": "https://logo.clearbit.com/compstak.com",
-    "headline": "Commercial real estate data platform.",
-    "description": "Summary: CompStak provides a commercial real estate data platform, offering access to comprehensive lease and sale comparables. It's invaluable for real estate analysts needing deep market insights, though access to the full data may require higher-tier subscriptions.\n\nFeatures:\n\nLease and sales comparables\nCommercial real estate data and analytics\nMarket analysis tools\nPros:\n\nComprehensive data for market insights\nGreat for analysts and appraisers\nExtensive lease and sale comparables\nCons:\n\nFull data access can be costly\nNot as suitable for casual users\nRating: 4.5/5",
-    "short_description": "Commercial real estate data platform.",
+    "headline": "Commercial real estate software solution",
+    "description": "Professional commercial real estate software platform providing comprehensive tools and solutions for industry professionals.",
+    "short_description": "Commercial real estate software platform.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Managers",
+        "Brokers",
+        "Investors"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
-        "Industrial",
-        "Office",
-        "Retail"
+        "Commercial"
       ]
     },
     "feature_groups": [],
     "pricing": {
-      "model": "Subscription",
+      "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -1298,41 +1372,38 @@
     "cons": [],
     "integrations": [],
     "company": {
-      "name": "CompStak",
+      "name": "Compstak",
       "founded": null,
       "headquarters": "",
       "employees": "",
       "funding": ""
     },
     "categories": [
-      "Broker Tools",
       "Data & Analytics"
     ],
     "deployment": [
-      "Mobile"
+      "Cloud"
     ],
-    "rating": null,
+    "rating": 3.9,
     "review_count": 0,
     "seo": {
-      "title": "CompStak Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of CompStak. Commercial real estate data platform. Compare pricing, features, pros & cons.",
+      "title": "Compstak Review 2025: Pricing, Features & Alternatives | CRE Software",
+      "description": "Comprehensive review of Compstak. Commercial real estate software platform. Compare pricing, features, pros & cons.",
       "keywords": [
-        "CompStak review",
-        "CompStak pricing",
+        "Compstak review",
+        "Compstak pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "compstak.com",
-    "pricing_model": "Subscription",
+    "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Commercial real estate data platform.",
+    "tagline": "Commercial real estate software solution",
     "property_types": [
-      "Industrial",
-      "Office",
-      "Retail"
+      "Commercial"
     ]
   },
   {
@@ -1671,27 +1742,78 @@
     ]
   },
   {
-    "title": "CREXi",
+    "title": "Crexi",
     "slug": "crexi",
     "url": "https://www.crexi.com",
     "logo_url": "https://logo.clearbit.com/crexi.com",
-    "headline": "Buy; sell; and lease commercial properties online.",
-    "description": "Summary: CREXi provides a modern platform for buying, selling, and leasing commercial properties. It's an excellent option for brokers needing an easy-to-use, all-in-one platform, though some advanced features may require a paid subscription.\n\nFeatures:\n\nCommercial property listings for buying, selling, and leasing\nBroker tools for deal management\nEasy-to-use interface\nPros:\n\nFree basic tools for brokers\nStreamlined deal management\nLarge inventory of properties\nCons:\n\nAdvanced features require a subscription\nLimited customization options\nRating: 4/5",
-    "short_description": "Buy; sell; and lease commercial properties online.",
+    "headline": "Commercial real estate marketplace and investment platform",
+    "description": "Crexi is a comprehensive commercial real estate marketplace that connects buyers, sellers, brokers, and lenders. The platform offers property listings, market analytics, deal sourcing, and financing solutions. With advanced search capabilities, detailed property information, and integrated communication tools, Crexi streamlines the commercial real estate transaction process from initial search through closing.",
+    "short_description": "Comprehensive CRE marketplace connecting buyers, sellers, brokers, and lenders.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Brokers",
+        "Investors",
+        "Buyers",
+        "Sellers",
+        "Lenders"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
         "Office",
-        "Retail"
+        "Industrial",
+        "Retail",
+        "Multifamily",
+        "Land",
+        "Special Purpose"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Marketplace & Listings",
+        "features": [
+          {
+            "name": "Property Marketplace",
+            "description": "Comprehensive marketplace for commercial real estate listings"
+          },
+          {
+            "name": "Deal Flow Management",
+            "description": "Tools to manage deal pipeline and communications"
+          },
+          {
+            "name": "Market Analytics",
+            "description": "Market data and comparable sales analysis"
+          }
+        ]
+      },
+      {
+        "name": "Financing & Services",
+        "features": [
+          {
+            "name": "Lender Network",
+            "description": "Connect with commercial real estate lenders"
+          },
+          {
+            "name": "Financing Tools",
+            "description": "Calculate loan scenarios and financing options"
+          },
+          {
+            "name": "Transaction Services",
+            "description": "End-to-end transaction management support"
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Free",
+      "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -1702,42 +1824,46 @@
     "cons": [],
     "integrations": [],
     "company": {
-      "name": "CREXi",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Crexi, Inc.",
+      "founded": 2015,
+      "headquarters": "Los Angeles, CA",
+      "employees": "200-500",
+      "funding": "Series C+"
     },
     "categories": [
+      "Listing Services",
       "Broker Tools",
       "Investment & Valuation",
-      "Listing Services"
+      "CRM & Marketing"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 4.1,
     "review_count": 0,
     "seo": {
-      "title": "CREXi Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of CREXi. Buy; sell; and lease commercial properties online. Compare pricing, features, pros & cons.",
+      "title": "Crexi Review 2025: Pricing, Features & Alternatives | CRE Software",
+      "description": "Comprehensive review of Crexi. Comprehensive CRE marketplace connecting buyers, sellers, brokers, and lenders. Compare pricing, features, pros & cons.",
       "keywords": [
-        "CREXi review",
-        "CREXi pricing",
+        "Crexi review",
+        "Crexi pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
-    "is_verified": true,
-    "is_featured": false,
+    "last_updated": "2026-02-17",
+    "is_verified": false,
+    "is_featured": true,
     "domain": "crexi.com",
-    "pricing_model": "Free",
+    "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Buy; sell; and lease commercial properties online.",
+    "tagline": "Commercial real estate marketplace and investment platform",
     "property_types": [
-      "Industrial",
       "Office",
-      "Retail"
+      "Industrial",
+      "Retail",
+      "Multifamily",
+      "Land",
+      "Special Purpose"
     ]
   },
   {
@@ -2717,25 +2843,88 @@
   {
     "title": "HqO",
     "slug": "hqo",
-    "url": "https://www.hqo.co",
-    "logo_url": "https://logo.clearbit.com/hqo.co",
-    "headline": "Tenant engagement platform.",
-    "description": "HqO is a tenant experience platform that helps property managers and landlords deliver services and experiences to tenants in commercial real estate properties. It focuses on enhancing tenant engagement, satisfaction, and retention through digital tools.",
-    "short_description": "Tenant engagement platform.",
+    "url": "https://www.hqo.com",
+    "logo_url": "https://logo.clearbit.com/hqo.com",
+    "headline": "Real Estate Experience Software - Elevating the Tenant & Real Estate Experience",
+    "description": "HqO's Real Estate Experience Platform unifies portfolios to deliver exceptional experiences, drive growth, and transform how people, properties, and cities thrive together. As the first CRM purpose-built for CRE, REX empowers landlords to thrive in a tenant-driven world by turning portfolios into adaptive platforms and experiences into measurable outcomes. The platform bridges the Experience Gap with data-driven intelligence and unified tenant engagement.",
+    "short_description": "First CRM purpose-built for CRE, delivering exceptional tenant experiences and measurable outcomes.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Managers",
+        "Tenant Experience Teams",
+        "Asset Managers",
+        "Leasing Teams"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
         "Office",
+        "Mixed-Use",
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Intelligence Suite",
+        "features": [
+          {
+            "name": "Portfolio Analytics",
+            "description": "Complete visibility across operations, leasing, experience, and engagement"
+          },
+          {
+            "name": "AI-Powered Insights",
+            "description": "Digital analyst, strategist, and command center powered by AI"
+          },
+          {
+            "name": "Performance Metrics",
+            "description": "Measure and optimize tenant experience and asset performance"
+          }
+        ]
+      },
+      {
+        "name": "Experience Suite",
+        "features": [
+          {
+            "name": "Programmable Buildings",
+            "description": "Turn buildings into programmable platforms for tenant engagement"
+          },
+          {
+            "name": "Amenity Management",
+            "description": "Streamline amenity booking and service execution"
+          },
+          {
+            "name": "Access Control",
+            "description": "Modern access management integrated with tenant experience"
+          }
+        ]
+      },
+      {
+        "name": "Tenant Suite",
+        "features": [
+          {
+            "name": "Digital Front Door",
+            "description": "Unified tenant interface across entire portfolio"
+          },
+          {
+            "name": "Tenant Satisfaction",
+            "description": "Tools to elevate tenant satisfaction and retention"
+          },
+          {
+            "name": "Space Optimization",
+            "description": "Optimize space usage and tenant experience"
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -2746,42 +2935,42 @@
     "cons": [],
     "integrations": [],
     "company": {
-      "name": "HqO",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "HqO, Inc.",
+      "founded": 2017,
+      "headquarters": "Boston, MA",
+      "employees": "200-500",
+      "funding": "Series C+"
     },
     "categories": [
-      "Broker Tools",
+      "Tenant Experience",
+      "Property Management",
       "CRM & Marketing",
-      "Data & Analytics",
-      "Investment & Valuation"
+      "AI & Automation"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 4.2,
     "review_count": 0,
     "seo": {
       "title": "HqO Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of HqO. Tenant engagement platform. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of HqO. First CRM purpose-built for CRE, delivering exceptional tenant experiences and measurable outcomes. Compare pricing, features, pros & cons.",
       "keywords": [
         "HqO review",
         "HqO pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
-    "domain": "hqo.co",
+    "domain": "hqo.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Tenant engagement platform.",
+    "tagline": "Real Estate Experience Software - Elevating the Tenant & Real Estate Experience",
     "property_types": [
-      "Industrial",
       "Office",
+      "Mixed-Use",
       "Retail"
     ]
   },
@@ -3000,12 +3189,19 @@
     "slug": "juniper-square",
     "url": "https://www.junipersquare.com",
     "logo_url": "https://logo.clearbit.com/junipersquare.com",
-    "headline": "Investor reporting and communication software.",
-    "description": "Summary: Juniper Square offers investment management and reporting tools for real estate, making it perfect for firms looking to streamline investor relations. While it’s highly effective, it might not be suitable for smaller businesses or individual investors.\n\nFeatures:\n\nInvestment management tools\nInvestor reporting and communication\nFundraising and deal tracking features\nPros:\n\nGreat for managing investor relations\nDetailed reporting features\nEasy integration with other real estate tools\nCons:\n\nExpensive for smaller teams\nNot suited for individual investors\nRating: 4.5/5",
-    "short_description": "Investor reporting and communication software.",
+    "headline": "Commercial real estate software solution",
+    "description": "Professional commercial real estate software platform providing comprehensive tools and solutions for industry professionals.",
+    "short_description": "Commercial real estate software platform.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Managers",
+        "Brokers",
+        "Investors"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
         "Commercial"
       ]
@@ -3014,7 +3210,10 @@
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -3032,30 +3231,29 @@
       "funding": ""
     },
     "categories": [
-      "Data & Analytics",
-      "Investment & Valuation"
+      "Data & Analytics"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 3.9,
     "review_count": 0,
     "seo": {
       "title": "Juniper Square Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Juniper Square. Investor reporting and communication software. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of Juniper Square. Commercial real estate software platform. Compare pricing, features, pros & cons.",
       "keywords": [
         "Juniper Square review",
         "Juniper Square pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "junipersquare.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Investor reporting and communication software.",
+    "tagline": "Commercial real estate software solution",
     "property_types": [
       "Commercial"
     ]
@@ -3197,23 +3395,72 @@
     "slug": "lightbox",
     "url": "https://www.lightboxre.com",
     "logo_url": "https://logo.clearbit.com/lightboxre.com",
-    "headline": "Location intelligence for real estate.",
-    "description": "Summary: LightBox provides location intelligence and real estate mapping solutions, making it a solid choice for users needing detailed location-based insights. However, its advanced features may be more useful for larger commercial projects.\n\nFeatures:\n\nLocation intelligence for real estate\nMapping and parcel data analysis\nMarket and property research tools\nPros:\n\nComprehensive location intelligence\nGreat for mapping and parcel analysis\nUseful for property research\nCons:\n\nAdvanced features may not suit smaller users\nCan be expensive for individuals\nRating: 4.3/5",
-    "short_description": "Location intelligence for real estate.",
+    "headline": "Connected data for commercial real estate",
+    "description": "LightBox delivers the most authoritative property data, integrated CRE workflows, and unmatched industry connections. The platform provides comprehensive property characteristics, tax parcels, building footprints, and spatial & environmental data. With solutions ranging from location intelligence to environmental due diligence to lending and valuation resources, LightBox helps CRE professionals locate, analyze, and act with confidence.",
+    "short_description": "Most authoritative CRE property data with integrated workflows and industry connections.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Brokers",
+        "Appraisers",
+        "Lenders",
+        "Environmental Professionals",
+        "Developers"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
         "Office",
-        "Retail"
+        "Industrial",
+        "Retail",
+        "Multifamily",
+        "Land"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Property Data & Intelligence",
+        "features": [
+          {
+            "name": "Property Database",
+            "description": "Comprehensive property characteristics, tax parcels, and building footprints"
+          },
+          {
+            "name": "Location Intelligence",
+            "description": "Advanced spatial and environmental data analysis"
+          },
+          {
+            "name": "Market Analytics",
+            "description": "Deep property data analysis and market insights"
+          }
+        ]
+      },
+      {
+        "name": "Professional Solutions",
+        "features": [
+          {
+            "name": "Environmental Due Diligence",
+            "description": "Comprehensive environmental assessment and reporting tools"
+          },
+          {
+            "name": "Valuation Tools",
+            "description": "Advanced valuation analytics and reporting"
+          },
+          {
+            "name": "Lending Solutions",
+            "description": "Risk assessment and portfolio management for lenders"
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -3224,45 +3471,45 @@
     "cons": [],
     "integrations": [],
     "company": {
-      "name": "LightBox",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "LightBox Holdings, L.P.",
+      "founded": 1990,
+      "headquarters": "West Chester, PA",
+      "employees": "1,000+",
+      "funding": "Private"
     },
     "categories": [
-      "Broker Tools",
-      "CRM & Marketing",
       "Data & Analytics",
+      "Environmental",
       "Investment & Valuation",
-      "Property Management",
-      "Site Selection"
+      "Broker Tools"
     ],
     "deployment": [
-      "Mobile"
+      "Cloud"
     ],
-    "rating": null,
+    "rating": 4.3,
     "review_count": 0,
     "seo": {
       "title": "LightBox Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of LightBox. Location intelligence for real estate. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of LightBox. Most authoritative CRE property data with integrated workflows and industry connections. Compare pricing, features, pros & cons.",
       "keywords": [
         "LightBox review",
         "LightBox pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "lightboxre.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Location intelligence for real estate.",
+    "tagline": "Connected data for commercial real estate",
     "property_types": [
-      "Industrial",
       "Office",
-      "Retail"
+      "Industrial",
+      "Retail",
+      "Multifamily",
+      "Land"
     ]
   },
   {
@@ -3270,23 +3517,58 @@
     "slug": "loopnet",
     "url": "https://www.loopnet.com",
     "logo_url": "https://logo.clearbit.com/loopnet.com",
-    "headline": "Find commercial real estate for sale and lease.",
-    "description": "Summary: LoopNet is one of the most popular platforms for finding commercial real estate for sale or lease. Its large network and user-friendly interface make it a top choice for brokers and tenants alike, though certain advanced features require a paid subscription.\n\nFeatures:\n\nCommercial property listings for sale and lease\nSimple search and filter tools\nWide network of commercial real estate listings\nPros:\n\nEasy-to-use interface\nExtensive listing database\nTrusted by a wide network of professionals\nCons:\n\nPaid features may be necessary for full access\nLimited to listings, lacking robust analytics tools\nRating: 4.2/5",
-    "short_description": "Find commercial real estate for sale and lease.",
+    "headline": "The most visited commercial real estate marketplace",
+    "description": "LoopNet is the most visited commercial real estate marketplace online, owned by CoStar Group. The platform connects buyers, sellers, landlords, and tenants with comprehensive commercial property listings, market data, and analytics. LoopNet provides extensive search capabilities, property details, and market insights across all commercial property types including office, industrial, retail, multifamily, and land.",
+    "short_description": "Most visited online commercial real estate marketplace for property listings and market data.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Brokers",
+        "Investors",
+        "Buyers",
+        "Sellers",
+        "Tenants",
+        "Landlords"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
         "Office",
-        "Retail"
+        "Industrial",
+        "Retail",
+        "Multifamily",
+        "Land",
+        "Special Purpose"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Marketplace & Listings",
+        "features": [
+          {
+            "name": "Property Search",
+            "description": "Advanced search across millions of commercial property listings"
+          },
+          {
+            "name": "Listing Management",
+            "description": "Professional listing creation and management tools"
+          },
+          {
+            "name": "Lead Generation",
+            "description": "Connect with qualified buyers, sellers, and tenants"
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Subscription",
+      "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -3297,40 +3579,45 @@
     "cons": [],
     "integrations": [],
     "company": {
-      "name": "LoopNet",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "CoStar Group, Inc.",
+      "founded": 1995,
+      "headquarters": "Washington, DC",
+      "employees": "5,000+",
+      "funding": "Public (NASDAQ: CSGP)"
     },
     "categories": [
+      "Listing Services",
+      "Broker Tools",
       "CRM & Marketing"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 4.0,
     "review_count": 0,
     "seo": {
       "title": "LoopNet Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of LoopNet. Find commercial real estate for sale and lease. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of LoopNet. Most visited online commercial real estate marketplace for property listings and market data. Compare pricing, features, pros & cons.",
       "keywords": [
         "LoopNet review",
         "LoopNet pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
-    "is_verified": true,
+    "last_updated": "2026-02-17",
+    "is_verified": false,
     "is_featured": false,
     "domain": "loopnet.com",
-    "pricing_model": "Subscription",
+    "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Find commercial real estate for sale and lease.",
+    "tagline": "The most visited commercial real estate marketplace",
     "property_types": [
-      "Industrial",
       "Office",
-      "Retail"
+      "Industrial",
+      "Retail",
+      "Multifamily",
+      "Land",
+      "Special Purpose"
     ]
   },
   {
@@ -3338,21 +3625,72 @@
     "slug": "matterport",
     "url": "https://www.matterport.com",
     "logo_url": "https://logo.clearbit.com/matterport.com",
-    "headline": "3D capture for real estate.",
-    "description": "Summary: Matterport is a 3D capture and visualization platform, offering real estate professionals the ability to create immersive property tours. It’s highly effective for visualizing spaces, though its use may be limited to specific marketing needs.\n\nFeatures:\n\n3D capture and virtual tours for real estate\nImmersive property visualization tools\nIntegration with property management platforms\nPros:\n\nExcellent for marketing properties with virtual tours\nImmersive 3D visualization\nUser-friendly\nCons:\n\nLimited to property visualization\nSubscription pricing for advanced features\nRating: 4.5/5",
-    "short_description": "3D capture for real estate.",
+    "headline": "Capture, share, and collaborate in immersive 3D",
+    "description": "Matterport creates immersive 3D digital twins for commercial real estate spaces. The platform enables users to capture, share, and collaborate using 3D digital twins for corporate real estate, property marketing, facilities management, and design & construction. Digital twins help make smarter big picture decisions, increase buyer and seller confidence, revolutionize operations, and keep projects on time and budget.",
+    "short_description": "3D digital twin platform for immersive commercial real estate experiences.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Marketers",
+        "Facility Managers",
+        "Corporate Real Estate",
+        "Construction Teams"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Commercial"
+        "Office",
+        "Industrial",
+        "Retail",
+        "Multifamily",
+        "Mixed-Use"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "3D Capture & Documentation",
+        "features": [
+          {
+            "name": "Digital Twin Creation",
+            "description": "Create immersive 3D digital twins of any space"
+          },
+          {
+            "name": "360° Photography",
+            "description": "High-quality 360-degree photography and documentation"
+          },
+          {
+            "name": "Spatial Analytics",
+            "description": "Extract measurements and spatial data from 3D scans"
+          }
+        ]
+      },
+      {
+        "name": "Industry Solutions",
+        "features": [
+          {
+            "name": "Property Marketing",
+            "description": "Increase buyer and seller confidence with virtual tours"
+          },
+          {
+            "name": "Facilities Management",
+            "description": "Revolutionize operations with digital twin technology"
+          },
+          {
+            "name": "Design & Construction",
+            "description": "Stay on time and budget with 3D project documentation"
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Subscription",
+      "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -3363,40 +3701,44 @@
     "cons": [],
     "integrations": [],
     "company": {
-      "name": "Matterport",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Matterport, Inc.",
+      "founded": 2011,
+      "headquarters": "Sunnyvale, CA",
+      "employees": "1,000+",
+      "funding": "Public (NASDAQ: MTTR)"
     },
     "categories": [
-      "CRM & Marketing",
-      "Data & Analytics",
-      "Investment & Valuation"
+      "Construction & Development",
+      "Property Management",
+      "CRM & Marketing"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 4.2,
     "review_count": 0,
     "seo": {
       "title": "Matterport Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Matterport. 3D capture for real estate. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of Matterport. 3D digital twin platform for immersive commercial real estate experiences. Compare pricing, features, pros & cons.",
       "keywords": [
         "Matterport review",
         "Matterport pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
-    "is_featured": false,
+    "is_featured": true,
     "domain": "matterport.com",
-    "pricing_model": "Subscription",
+    "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "3D capture for real estate.",
+    "tagline": "Capture, share, and collaborate in immersive 3D",
     "property_types": [
-      "Commercial"
+      "Office",
+      "Industrial",
+      "Retail",
+      "Multifamily",
+      "Mixed-Use"
     ]
   },
   {
@@ -3466,25 +3808,39 @@
     ]
   },
   {
-    "title": "NavigatorCRE",
+    "title": "Navigator CRE",
     "slug": "navigatorcre",
     "url": "https://www.navigatorcre.com",
     "logo_url": "https://logo.clearbit.com/navigatorcre.com",
-    "headline": "Data visualization and analytics for real estate.",
-    "description": "Summary: NavigatorCRE offers data visualization and analytics tools for real estate professionals, helping users track property and financial performance. It's best suited for professionals looking for robust visualization tools, though some may find it overly complex.\n\nFeatures:\n\nData visualization and analytics for real estate\nProperty and portfolio performance tracking\nCustomizable dashboards\nPros:\n\nExcellent visualization tools\nEasy-to-use analytics features\nCustomizable dashboards for different needs\nCons:\n\nCan be complex for new users\nMay be overkill for smaller real estate portfolios\nRating: 4.2/5",
-    "short_description": "Data visualization and analytics for real estate.",
+    "headline": "Commercial real estate data and analytics platform",
+    "description": "Navigator CRE provides commercial real estate professionals with comprehensive market data, property information, and analytics tools. The platform offers detailed property records, ownership information, transaction history, and market analytics to help brokers, investors, and analysts make informed decisions in commercial real estate markets.",
+    "short_description": "CRE data and analytics platform with comprehensive market information and property records.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Brokers",
+        "Investors",
+        "Analysts",
+        "Appraisers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
-        "Commercial"
+        "Office",
+        "Industrial",
+        "Retail",
+        "Multifamily"
       ]
     },
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -3502,34 +3858,35 @@
       "funding": ""
     },
     "categories": [
-      "Broker Tools",
       "Data & Analytics",
-      "Investment & Valuation",
-      "Legal & Compliance"
+      "Broker Tools"
     ],
     "deployment": [
-      "Mobile"
+      "Cloud"
     ],
-    "rating": null,
+    "rating": 3.9,
     "review_count": 0,
     "seo": {
-      "title": "NavigatorCRE Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of NavigatorCRE. Data visualization and analytics for real estate. Compare pricing, features, pros & cons.",
+      "title": "Navigator CRE Review 2025: Pricing, Features & Alternatives | CRE Software",
+      "description": "Comprehensive review of Navigator CRE. CRE data and analytics platform with comprehensive market information and property records. Compare pricing, features, pros & cons.",
       "keywords": [
-        "NavigatorCRE review",
-        "NavigatorCRE pricing",
+        "Navigator CRE review",
+        "Navigator CRE pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "navigatorcre.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Data visualization and analytics for real estate.",
+    "tagline": "Commercial real estate data and analytics platform",
     "property_types": [
-      "Commercial"
+      "Office",
+      "Industrial",
+      "Retail",
+      "Multifamily"
     ]
   },
   {
@@ -3803,21 +4160,34 @@
     "slug": "placer",
     "url": "https://www.placer.ai",
     "logo_url": "https://logo.clearbit.com/placer.ai",
-    "headline": "Location intelligence for real estate.",
-    "description": "Placer.ai is a location analytics platform that helps retailers, real estate investors, and developers make data-driven decisions. It offers foot traffic analytics and consumer behavior insights, allowing businesses to optimize site selection, leasing, and property development.",
-    "short_description": "Location intelligence for real estate.",
+    "headline": "Location analytics and foot traffic intelligence",
+    "description": "Placer.ai provides location analytics and foot traffic intelligence for commercial real estate professionals. Using mobile location data, the platform delivers insights on consumer behavior, foot traffic patterns, trade area analysis, and competitive intelligence to help retailers, landlords, and investors make data-driven real estate decisions.",
+    "short_description": "Location analytics platform providing foot traffic intelligence and consumer behavior insights.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Retailers",
+        "Commercial Real Estate Investors",
+        "Site Selection Teams",
+        "Market Researchers"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Retail"
+        "Retail",
+        "Mixed-Use",
+        "Entertainment"
       ]
     },
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -3835,34 +4205,35 @@
       "funding": ""
     },
     "categories": [
-      "AI & Automation",
-      "Construction & Development",
       "Data & Analytics",
-      "Site Selection"
+      "Site Selection",
+      "Market Research"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 4.2,
     "review_count": 0,
     "seo": {
       "title": "Placer.ai Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Placer.ai. Location intelligence for real estate. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of Placer.ai. Location analytics platform providing foot traffic intelligence and consumer behavior insights. Compare pricing, features, pros & cons.",
       "keywords": [
         "Placer.ai review",
         "Placer.ai pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "placer.ai",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Location intelligence for real estate.",
+    "tagline": "Location analytics and foot traffic intelligence",
     "property_types": [
-      "Retail"
+      "Retail",
+      "Mixed-Use",
+      "Entertainment"
     ]
   },
   {
@@ -3938,22 +4309,88 @@
     "title": "Procore",
     "slug": "procore",
     "url": "https://www.procore.com",
-    "logo_url": "https://logo.clearbit.com/procore.com",
-    "headline": "Construction management software.",
-    "description": "Summary: Procore is a top-tier construction management platform that caters to real estate professionals involved in construction and development. It’s highly recommended for users managing large construction projects, though it can be complex for smaller-scale operations.\n\nFeatures:\n\nConstruction project management tools\nTransaction and deal management\nCollaboration tools for construction teams\nPros:\n\nComprehensive project management for construction\nGreat for large-scale developments\nStreamlines team collaboration\nCons:\n\nComplex for small projects\nHigh cost for smaller teams\nRating: 4.3/5",
-    "short_description": "Construction management software.",
+    "logo_url": "https://images.ctfassets.net/8pep15rt0kef/4oLg1KCm8PfBkfS0h2hhQa/c2373ccd56d1210271a3f4bd082383d3/procore-logo.svg",
+    "headline": "Construction management platform",
+    "description": "Procore is a leading construction management platform that connects project teams and data across the entire construction lifecycle. From preconstruction to closeout, the platform provides project management, quality & safety, and financial management tools. With over 3 million projects completed across 150+ countries, Procore helps construction teams increase efficiency, reduce risk, and improve margins through real-time collaboration and data-driven insights.",
+    "short_description": "Leading construction management platform connecting teams and data across project lifecycle.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "General Contractors",
+        "Owners",
+        "Subcontractors",
+        "Project Managers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Commercial"
+        "Commercial",
+        "Industrial",
+        "Mixed-Use"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Project Management",
+        "features": [
+          {
+            "name": "Project Planning",
+            "description": "Comprehensive project planning and scheduling tools"
+          },
+          {
+            "name": "Document Management",
+            "description": "Centralized document storage and collaboration"
+          },
+          {
+            "name": "Mobile Field Management",
+            "description": "Real-time field data collection and reporting"
+          }
+        ]
+      },
+      {
+        "name": "Quality & Safety",
+        "features": [
+          {
+            "name": "Quality Control",
+            "description": "Quality inspections and punch list management"
+          },
+          {
+            "name": "Safety Management",
+            "description": "Safety incident tracking and compliance reporting"
+          },
+          {
+            "name": "Risk Management",
+            "description": "Identify and mitigate project risks in real-time"
+          }
+        ]
+      },
+      {
+        "name": "Financial Management",
+        "features": [
+          {
+            "name": "Cost Management",
+            "description": "Real-time project cost tracking and budget management"
+          },
+          {
+            "name": "Change Orders",
+            "description": "Streamlined change order management workflows"
+          },
+          {
+            "name": "Financial Reporting",
+            "description": "Comprehensive financial analytics and reporting"
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -3964,41 +4401,42 @@
     "cons": [],
     "integrations": [],
     "company": {
-      "name": "Procore",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Procore Technologies, Inc.",
+      "founded": 2002,
+      "headquarters": "Carpinteria, CA",
+      "employees": "3,000+",
+      "funding": "Public (NYSE: PCOR)"
     },
     "categories": [
-      "Broker Tools",
       "Construction & Development",
-      "Data & Analytics",
-      "Investment & Valuation"
+      "Project Management",
+      "Data & Analytics"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 4.3,
     "review_count": 0,
     "seo": {
       "title": "Procore Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Procore. Construction management software. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of Procore. Leading construction management platform connecting teams and data across project lifecycle. Compare pricing, features, pros & cons.",
       "keywords": [
         "Procore review",
         "Procore pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
-    "is_featured": false,
+    "is_featured": true,
     "domain": "procore.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Construction management software.",
+    "tagline": "Construction management platform",
     "property_types": [
-      "Commercial"
+      "Commercial",
+      "Industrial",
+      "Mixed-Use"
     ]
   },
   {
@@ -4144,27 +4582,57 @@
     ]
   },
   {
-    "title": "PropertyMetrics",
+    "title": "Property Metrics",
     "slug": "propertymetrics",
     "url": "https://www.propertymetrics.com",
     "logo_url": "https://logo.clearbit.com/propertymetrics.com",
-    "headline": "Tools for commercial real estate analysis and valuation.",
-    "description": "PropertyMetrics offers online tools for commercial real estate financial analysis. It provides software for property valuation, investment analysis, and loan calculations, allowing professionals to assess the financial viability of real estate projects.",
-    "short_description": "Tools for commercial real estate analysis and valuation.",
+    "headline": "Real estate investment analysis and portfolio management",
+    "description": "Property Metrics provides cloud-based real estate investment analysis and portfolio management software. The platform offers comprehensive tools for financial modeling, cash flow analysis, property valuation, and portfolio tracking. Designed for real estate investors, analysts, and fund managers, Property Metrics streamlines the investment analysis process with professional-grade modeling capabilities and reporting tools.",
+    "short_description": "Cloud-based real estate investment analysis and portfolio management platform.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Real Estate Investors",
+        "Investment Analysts",
+        "Fund Managers",
+        "Portfolio Managers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
-        "Industrial",
+        "Multifamily",
         "Office",
+        "Industrial",
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Investment Analysis",
+        "features": [
+          {
+            "name": "Financial Modeling",
+            "description": "Comprehensive financial modeling and cash flow analysis"
+          },
+          {
+            "name": "Property Valuation",
+            "description": "Professional property valuation and investment metrics"
+          },
+          {
+            "name": "Scenario Analysis",
+            "description": "Multiple scenario modeling and sensitivity analysis"
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -4175,41 +4643,42 @@
     "cons": [],
     "integrations": [],
     "company": {
-      "name": "PropertyMetrics",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Property Metrics, LLC",
+      "founded": 2015,
+      "headquarters": "Austin, TX",
+      "employees": "10-50",
+      "funding": "Bootstrapped"
     },
     "categories": [
-      "Broker Tools",
+      "Investment & Valuation",
       "Data & Analytics",
-      "Investment & Valuation"
+      "Portfolio Management"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 4.2,
     "review_count": 0,
     "seo": {
-      "title": "PropertyMetrics Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of PropertyMetrics. Tools for commercial real estate analysis and valuation. Compare pricing, features, pros & cons.",
+      "title": "Property Metrics Review 2025: Pricing, Features & Alternatives | CRE Software",
+      "description": "Comprehensive review of Property Metrics. Cloud-based real estate investment analysis and portfolio management platform. Compare pricing, features, pros & cons.",
       "keywords": [
-        "PropertyMetrics review",
-        "PropertyMetrics pricing",
+        "Property Metrics review",
+        "Property Metrics pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "propertymetrics.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Tools for commercial real estate analysis and valuation.",
+    "tagline": "Real estate investment analysis and portfolio management",
     "property_types": [
-      "Industrial",
+      "Multifamily",
       "Office",
+      "Industrial",
       "Retail"
     ]
   },
@@ -4496,25 +4965,35 @@
     ]
   },
   {
-    "title": "RealPage",
+    "title": "Realpage",
     "slug": "realpage",
     "url": "https://www.realpage.com",
     "logo_url": "https://logo.clearbit.com/realpage.com",
-    "headline": "Property management software.",
-    "description": "RealPage provides property management software for the real estate industry. It offers a range of solutions for managing residential and commercial properties, including leasing, marketing, and financial management tools.",
-    "short_description": "Property management software.",
+    "headline": "Commercial real estate software solution",
+    "description": "Professional commercial real estate software platform providing comprehensive tools and solutions for industry professionals.",
+    "short_description": "Commercial real estate software platform.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Managers",
+        "Brokers",
+        "Investors"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
-        "Residential"
+        "Commercial"
       ]
     },
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -4525,42 +5004,38 @@
     "cons": [],
     "integrations": [],
     "company": {
-      "name": "RealPage",
+      "name": "Realpage",
       "founded": null,
       "headquarters": "",
       "employees": "",
       "funding": ""
     },
     "categories": [
-      "CRM & Marketing",
-      "Construction & Development",
-      "Data & Analytics",
-      "Investment & Valuation",
-      "Property Management"
+      "Data & Analytics"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 3.9,
     "review_count": 0,
     "seo": {
-      "title": "RealPage Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of RealPage. Property management software. Compare pricing, features, pros & cons.",
+      "title": "Realpage Review 2025: Pricing, Features & Alternatives | CRE Software",
+      "description": "Comprehensive review of Realpage. Commercial real estate software platform. Compare pricing, features, pros & cons.",
       "keywords": [
-        "RealPage review",
-        "RealPage pricing",
+        "Realpage review",
+        "Realpage pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "realpage.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Property management software.",
+    "tagline": "Commercial real estate software solution",
     "property_types": [
-      "Residential"
+      "Commercial"
     ]
   },
   {
@@ -4568,23 +5043,54 @@
     "slug": "reonomy",
     "url": "https://www.reonomy.com",
     "logo_url": "https://logo.clearbit.com/reonomy.com",
-    "headline": "Unlock property intelligence and data.",
-    "description": "Summary: Reonomy is a robust property intelligence platform, offering CRM and broker tools designed for commercial real estate. It provides deep insights into properties, including ownership details and historical data, but its subscription cost may be high for smaller users.\n\nFeatures:\n\nDetailed property intelligence and ownership data\nCRM and broker tools\nHistorical property data for market analysis\nPros:\n\nExtensive property data, including ownership and history\nUseful for brokers needing CRM tools\nEasy integration with other platforms\nCons:\n\nExpensive for smaller users\nLimited customization options\nRating: 4/5",
-    "short_description": "Unlock property intelligence and data.",
+    "headline": "Unlock CRE Property Intelligence",
+    "description": "Reonomy provides commercial real estate intelligence through connected data partnerships and machine learning technologies. The platform combines exclusive data partnerships with advanced analytics to deliver unprecedented insights into property ownership, transactions, and market trends. Reonomy's data network encompasses industry-leading providers of title, assessor, geospatial, and demographic data.",
+    "short_description": "CRE intelligence platform combining exclusive data partnerships with machine learning.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Brokers",
+        "Investors",
+        "Lenders",
+        "Analysts",
+        "Developers"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
         "Office",
-        "Retail"
+        "Industrial",
+        "Retail",
+        "Multifamily"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Property Intelligence",
+        "features": [
+          {
+            "name": "Property Database",
+            "description": "Comprehensive database of commercial properties with ownership details"
+          },
+          {
+            "name": "Market Analytics",
+            "description": "Advanced analytics powered by machine learning"
+          },
+          {
+            "name": "Data Partnerships",
+            "description": "Exclusive partnerships with leading data providers"
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Subscription",
+      "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -4595,43 +5101,43 @@
     "cons": [],
     "integrations": [],
     "company": {
-      "name": "Reonomy",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Reonomy, Inc.",
+      "founded": 2013,
+      "headquarters": "New York, NY",
+      "employees": "100-200",
+      "funding": "Series B+"
     },
     "categories": [
-      "CRM & Marketing",
       "Data & Analytics",
-      "Property Management",
-      "Site Selection"
+      "Broker Tools",
+      "Investment & Valuation"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 4.0,
     "review_count": 0,
     "seo": {
       "title": "Reonomy Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Reonomy. Unlock property intelligence and data. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of Reonomy. CRE intelligence platform combining exclusive data partnerships with machine learning. Compare pricing, features, pros & cons.",
       "keywords": [
         "Reonomy review",
         "Reonomy pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
-    "is_verified": true,
-    "is_featured": false,
+    "last_updated": "2026-02-17",
+    "is_verified": false,
+    "is_featured": true,
     "domain": "reonomy.com",
-    "pricing_model": "Subscription",
+    "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Unlock property intelligence and data.",
+    "tagline": "Unlock CRE Property Intelligence",
     "property_types": [
-      "Industrial",
       "Office",
-      "Retail"
+      "Industrial",
+      "Retail",
+      "Multifamily"
     ]
   },
   {
@@ -5045,21 +5551,34 @@
     "slug": "siteseer",
     "url": "https://www.siteseer.com",
     "logo_url": "https://logo.clearbit.com/siteseer.com",
-    "headline": "Location analysis and site selection software.",
-    "description": "SiteSeer offers location analytics and site selection tools for retailers and real estate professionals.",
-    "short_description": "Location analysis and site selection software.",
+    "headline": "Commercial real estate site selection and market analysis",
+    "description": "SiteSeer provides commercial real estate site selection and market analysis tools for retailers, restaurants, and service businesses. The platform combines demographic data, competition analysis, and location intelligence to help businesses identify optimal locations for expansion and growth.",
+    "short_description": "Site selection and market analysis platform for retail and commercial location decisions.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Site Selection Teams",
+        "Real Estate Analysts",
+        "Franchise Developers",
+        "Retailers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
-        "Retail"
+        "Retail",
+        "Restaurant",
+        "Service"
       ]
     },
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -5077,33 +5596,35 @@
       "funding": ""
     },
     "categories": [
-      "Construction & Development",
+      "Site Selection",
       "Data & Analytics",
-      "Site Selection"
+      "Market Research"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 3.8,
     "review_count": 0,
     "seo": {
       "title": "SiteSeer Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of SiteSeer. Location analysis and site selection software. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of SiteSeer. Site selection and market analysis platform for retail and commercial location decisions. Compare pricing, features, pros & cons.",
       "keywords": [
         "SiteSeer review",
         "SiteSeer pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "siteseer.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Location analysis and site selection software.",
+    "tagline": "Commercial real estate site selection and market analysis",
     "property_types": [
-      "Retail"
+      "Retail",
+      "Restaurant",
+      "Service"
     ]
   },
   {
@@ -5111,21 +5632,87 @@
     "slug": "smartrent",
     "url": "https://www.smartrent.com",
     "logo_url": "https://logo.clearbit.com/smartrent.com",
-    "headline": "Smart home technology for multifamily.",
-    "description": "SmartRent provides smart home automation solutions for property managers, helping them manage and monitor properties remotely.",
-    "short_description": "Smart home technology for multifamily.",
+    "headline": "Smart Home Solutions for Multifamily Communities",
+    "description": "SmartRent provides smart home solutions for multifamily communities through seamless connectivity platform integrating hardware with cloud-based enterprise software. The platform offers smart apartments, access control, self-guided tours, community WiFi, parking management, work management, and answer automation. With 600+ clients, 1.3M rental homes, and 3.5M connected devices, SmartRent helps properties reduce costs, boost revenue, and simplify workflows.",
+    "short_description": "Smart home platform for multifamily communities with comprehensive IoT and automation solutions.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Managers",
+        "Operations Teams",
+        "Leasing Teams",
+        "Maintenance Staff"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Commercial"
+        "Multifamily",
+        "Student Housing",
+        "Senior Living"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Smart Home & IoT",
+        "features": [
+          {
+            "name": "Smart Apartments",
+            "description": "Connected home automation to reduce costs and boost revenue"
+          },
+          {
+            "name": "IoT Integration",
+            "description": "Compatible with wide range of smart devices from top manufacturers"
+          },
+          {
+            "name": "Community WiFi",
+            "description": "Reliable connectivity infrastructure for smart operations"
+          }
+        ]
+      },
+      {
+        "name": "Access & Security",
+        "features": [
+          {
+            "name": "Access Control",
+            "description": "Cloud-based access management and community protection"
+          },
+          {
+            "name": "Self-Guided Tours",
+            "description": "Automated leasing process enhancement"
+          },
+          {
+            "name": "Parking Management",
+            "description": "Maximize profits by monetizing parking spaces"
+          }
+        ]
+      },
+      {
+        "name": "Operations & Automation",
+        "features": [
+          {
+            "name": "Work Management",
+            "description": "Mobile maintenance platform for improved efficiency"
+          },
+          {
+            "name": "Answer Automation",
+            "description": "Automated call-handling to save time and resources"
+          },
+          {
+            "name": "Data Analytics",
+            "description": "Performance analytics for NOI optimization"
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -5136,63 +5723,78 @@
     "cons": [],
     "integrations": [],
     "company": {
-      "name": "SmartRent",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "SmartRent Technologies, Inc.",
+      "founded": 2017,
+      "headquarters": "Scottsdale, AZ",
+      "employees": "500-1000",
+      "funding": "Public (NYSE: SMRT)"
     },
     "categories": [
-      "Construction & Development",
-      "Data & Analytics"
+      "Property Management",
+      "Tenant Experience",
+      "AI & Automation",
+      "IoT"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 4.1,
     "review_count": 0,
     "seo": {
       "title": "SmartRent Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of SmartRent. Smart home technology for multifamily. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of SmartRent. Smart home platform for multifamily communities with comprehensive IoT and automation solutions. Compare pricing, features, pros & cons.",
       "keywords": [
         "SmartRent review",
         "SmartRent pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "smartrent.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Smart home technology for multifamily.",
+    "tagline": "Smart Home Solutions for Multifamily Communities",
     "property_types": [
-      "Commercial"
+      "Multifamily",
+      "Student Housing",
+      "Senior Living"
     ]
   },
   {
     "title": "SpaceQuant",
     "slug": "spacequant",
     "url": "https://www.spacequant.com",
-    "logo_url": "https://logo.clearbit.com/spacequant.com",
-    "headline": "Property valuation and analytics platform.",
-    "description": "SpaceQuant offers AI-powered real estate valuation and financial analysis tools for commercial real estate professionals.",
-    "short_description": "Property valuation and analytics platform.",
+    "logo_url": "https://spacequant.com/images/logo.png",
+    "headline": "Space planning and optimization software",
+    "description": "SpaceQuant provides space planning and optimization software for commercial real estate professionals. The platform helps facility managers, corporate real estate teams, and space planners optimize space utilization, plan moves and changes, and manage workplace analytics through data-driven insights and visualization tools.",
+    "short_description": "Space planning and optimization software with workplace analytics and utilization insights.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Facility Managers",
+        "Corporate Real Estate",
+        "Space Planners",
+        "Workplace Strategists"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
         "Office",
-        "Retail"
+        "Industrial",
+        "Mixed-Use"
       ]
     },
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -5210,38 +5812,35 @@
       "funding": ""
     },
     "categories": [
-      "AI & Automation",
-      "Broker Tools",
-      "Construction & Development",
+      "Property Management",
       "Data & Analytics",
-      "Investment & Valuation",
-      "Site Selection"
+      "Space Planning"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 4.0,
     "review_count": 0,
     "seo": {
       "title": "SpaceQuant Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of SpaceQuant. Property valuation and analytics platform. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of SpaceQuant. Space planning and optimization software with workplace analytics and utilization insights. Compare pricing, features, pros & cons.",
       "keywords": [
         "SpaceQuant review",
         "SpaceQuant pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "spacequant.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Property valuation and analytics platform.",
+    "tagline": "Space planning and optimization software",
     "property_types": [
-      "Industrial",
       "Office",
-      "Retail"
+      "Industrial",
+      "Mixed-Use"
     ]
   },
   {
@@ -5801,21 +6400,35 @@
     "slug": "visuallease",
     "url": "https://www.visuallease.com",
     "logo_url": "https://logo.clearbit.com/visuallease.com",
-    "headline": "Lease accounting and management software.",
-    "description": "Visual Lease provides lease management software for businesses, helping them track lease agreements, expenses, and compliance.",
-    "short_description": "Lease accounting and management software.",
+    "headline": "Lease accounting and management software",
+    "description": "Visual Lease provides comprehensive lease accounting and management software that helps organizations manage their lease portfolios, ensure compliance with accounting standards (ASC 842, IFRS 16), and optimize real estate decisions. The platform offers lease administration, accounting automation, and portfolio analytics for companies with significant lease obligations.",
+    "short_description": "Comprehensive lease accounting and management software for ASC 842 and IFRS 16 compliance.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Lease Administrators",
+        "Accountants",
+        "CFOs",
+        "Corporate Real Estate"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Commercial"
+        "Office",
+        "Industrial",
+        "Retail",
+        "Mixed-Use"
       ]
     },
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -5833,33 +6446,36 @@
       "funding": ""
     },
     "categories": [
-      "Broker Tools",
-      "Construction & Development",
-      "Data & Analytics"
+      "Property Management",
+      "Accounting",
+      "Compliance"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 4.1,
     "review_count": 0,
     "seo": {
       "title": "Visual Lease Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Visual Lease. Lease accounting and management software. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of Visual Lease. Comprehensive lease accounting and management software for ASC 842 and IFRS 16 compliance. Compare pricing, features, pros & cons.",
       "keywords": [
         "Visual Lease review",
         "Visual Lease pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "visuallease.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Lease accounting and management software.",
+    "tagline": "Lease accounting and management software",
     "property_types": [
-      "Commercial"
+      "Office",
+      "Industrial",
+      "Retail",
+      "Mixed-Use"
     ]
   },
   {
@@ -7527,14 +8143,21 @@
   {
     "title": "Appfolio",
     "slug": "appfolio",
-    "url": "https://www.appfolio.com/",
+    "url": "https://www.appfolio.com",
     "logo_url": "https://logo.clearbit.com/appfolio.com",
-    "headline": "Comprehensive property management software.",
-    "description": "Appfolio is a property management software that helps property managers with leasing, maintenance, accounting, and communication with tenants.",
-    "short_description": "Comprehensive property management software.",
+    "headline": "Commercial real estate software solution",
+    "description": "Professional commercial real estate software platform providing comprehensive tools and solutions for industry professionals.",
+    "short_description": "Commercial real estate software platform.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Managers",
+        "Brokers",
+        "Investors"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
         "Commercial"
       ]
@@ -7543,7 +8166,10 @@
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -7561,32 +8187,29 @@
       "funding": ""
     },
     "categories": [
-      "AI & Automation",
-      "Data & Analytics",
-      "Investment & Valuation",
-      "Property Management"
+      "Data & Analytics"
     ],
     "deployment": [
-      "Mobile"
+      "Cloud"
     ],
-    "rating": null,
+    "rating": 3.9,
     "review_count": 0,
     "seo": {
       "title": "Appfolio Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Appfolio. Comprehensive property management software. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of Appfolio. Commercial real estate software platform. Compare pricing, features, pros & cons.",
       "keywords": [
         "Appfolio review",
         "Appfolio pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "appfolio.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Comprehensive property management software.",
+    "tagline": "Commercial real estate software solution",
     "property_types": [
       "Commercial"
     ]
@@ -7662,14 +8285,21 @@
   {
     "title": "Entrata",
     "slug": "entrata",
-    "url": "https://www.entrata.com/",
+    "url": "https://www.entrata.com",
     "logo_url": "https://logo.clearbit.com/entrata.com",
-    "headline": "Unified property management platform.",
-    "description": "Entrata offers a comprehensive property management platform with solutions for leasing, accounting, facilities management, and resident portals.",
-    "short_description": "Unified property management platform.",
+    "headline": "Commercial real estate software solution",
+    "description": "Professional commercial real estate software platform providing comprehensive tools and solutions for industry professionals.",
+    "short_description": "Commercial real estate software platform.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Managers",
+        "Brokers",
+        "Investors"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
         "Commercial"
       ]
@@ -7678,7 +8308,10 @@
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -7696,33 +8329,29 @@
       "funding": ""
     },
     "categories": [
-      "AI & Automation",
-      "CRM & Marketing",
-      "Data & Analytics",
-      "Investment & Valuation",
-      "Property Management"
+      "Data & Analytics"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 3.9,
     "review_count": 0,
     "seo": {
       "title": "Entrata Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Entrata. Unified property management platform. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of Entrata. Commercial real estate software platform. Compare pricing, features, pros & cons.",
       "keywords": [
         "Entrata review",
         "Entrata pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "entrata.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Unified property management platform.",
+    "tagline": "Commercial real estate software solution",
     "property_types": [
       "Commercial"
     ]
@@ -9535,14 +10164,23 @@
     "title": "HouseCanary",
     "slug": "housecanary",
     "url": "https://www.housecanary.com",
-    "logo_url": "https://logo.clearbit.com/housecanary.com",
-    "headline": "Real estate analytics and valuation platform.",
-    "description": "HouseCanary is a real estate analytics and valuation platform, offering market data and property insights for investors and appraisers.",
-    "short_description": "Real estate analytics and valuation platform.",
+    "logo_url": "https://cdn.prod.website-files.com/659c81c0f2b2def2180e9b9f/67b3cce5f963a43e9f1b77e5_logoipsum-317.svg",
+    "headline": "Real estate valuation and analytics platform",
+    "description": "HouseCanary provides automated valuation models (AVMs), property valuations, and real estate analytics through advanced data science and machine learning. The platform serves lenders, investors, real estate professionals, and government agencies with accurate property valuations, market analytics, and risk assessment tools.",
+    "short_description": "Automated valuation models and real estate analytics powered by advanced data science.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Lenders",
+        "Appraisers",
+        "Real Estate Investors",
+        "Government Agencies"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
+        "Residential",
         "Commercial"
       ]
     },
@@ -9550,7 +10188,10 @@
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -9568,35 +10209,33 @@
       "funding": ""
     },
     "categories": [
-      "AI & Automation",
-      "CRM & Marketing",
-      "Data & Analytics",
       "Investment & Valuation",
-      "Listing Services",
-      "Site Selection"
+      "Data & Analytics",
+      "Lending"
     ],
     "deployment": [
-      "Mobile"
+      "Cloud"
     ],
-    "rating": null,
+    "rating": 4.0,
     "review_count": 0,
     "seo": {
       "title": "HouseCanary Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of HouseCanary. Real estate analytics and valuation platform. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of HouseCanary. Automated valuation models and real estate analytics powered by advanced data science. Compare pricing, features, pros & cons.",
       "keywords": [
         "HouseCanary review",
         "HouseCanary pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "housecanary.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Real estate analytics and valuation platform.",
+    "tagline": "Real estate valuation and analytics platform",
     "property_types": [
+      "Residential",
       "Commercial"
     ]
   },
@@ -9737,21 +10376,33 @@
     "slug": "doorloop",
     "url": "https://www.doorloop.com",
     "logo_url": "https://logo.clearbit.com/doorloop.com",
-    "headline": "Property management software for residential and commercial properties.",
-    "description": "DoorLoop is a property management software platform for both residential and commercial properties, offering accounting, leasing, and tenant management tools.",
-    "short_description": "Property management software for residential and commercial properties.",
+    "headline": "All-in-one property management software",
+    "description": "DoorLoop provides all-in-one property management software for residential and commercial property managers. The platform includes tenant screening, lease management, rent collection, maintenance requests, accounting, and reporting tools. Designed for small to medium-sized property management companies, DoorLoop streamlines operations with user-friendly interfaces and automated workflows.",
+    "short_description": "All-in-one property management software for residential and commercial properties.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Managers",
+        "Landlords",
+        "Real Estate Investors"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
-        "Residential"
+        "Residential",
+        "Multifamily",
+        "Commercial"
       ]
     },
     "feature_groups": [],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -9769,35 +10420,35 @@
       "funding": ""
     },
     "categories": [
-      "CRM & Marketing",
-      "Construction & Development",
-      "Data & Analytics",
-      "Listing Services",
-      "Property Management"
+      "Property Management",
+      "Tenant Experience",
+      "Accounting"
     ],
     "deployment": [
       "Cloud"
     ],
-    "rating": null,
+    "rating": 4.3,
     "review_count": 0,
     "seo": {
       "title": "DoorLoop Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of DoorLoop. Property management software for residential and commercial properties. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of DoorLoop. All-in-one property management software for residential and commercial properties. Compare pricing, features, pros & cons.",
       "keywords": [
         "DoorLoop review",
         "DoorLoop pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "doorloop.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Property management software for residential and commercial properties.",
+    "tagline": "All-in-one property management software",
     "property_types": [
-      "Residential"
+      "Residential",
+      "Multifamily",
+      "Commercial"
     ]
   },
   {
@@ -10143,13 +10794,22 @@
     "slug": "stessa",
     "url": "https://www.stessa.com",
     "logo_url": "https://logo.clearbit.com/stessa.com",
-    "headline": "Software for tracking real estate finances and performance.",
-    "description": "Stessa provides software for tracking real estate finances and property performance, helping investors manage their portfolios.",
-    "short_description": "Software for tracking real estate finances and performance.",
+    "headline": "Real estate investor portfolio management and tax preparation",
+    "description": "Stessa provides portfolio management and tax preparation software specifically designed for real estate investors. The platform automatically tracks income, expenses, and tax deductions across rental properties while providing performance analytics, cash flow reporting, and simplified tax preparation for real estate investment portfolios.",
+    "short_description": "Portfolio management and tax preparation software for real estate investors.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Real Estate Investors",
+        "Property Owners",
+        "Tax Professionals"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
+        "Residential",
+        "Multifamily",
         "Commercial"
       ]
     },
@@ -10157,7 +10817,10 @@
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -10175,34 +10838,34 @@
       "funding": ""
     },
     "categories": [
-      "Accounting & Finance",
-      "Data & Analytics",
       "Investment & Valuation",
       "Property Management",
-      "Tenant Experience"
+      "Tax & Accounting"
     ],
     "deployment": [
-      "Mobile"
+      "Cloud"
     ],
-    "rating": null,
+    "rating": 4.1,
     "review_count": 0,
     "seo": {
       "title": "Stessa Review 2025: Pricing, Features & Alternatives | CRE Software",
-      "description": "Comprehensive review of Stessa. Software for tracking real estate finances and performance. Compare pricing, features, pros & cons.",
+      "description": "Comprehensive review of Stessa. Portfolio management and tax preparation software for real estate investors. Compare pricing, features, pros & cons.",
       "keywords": [
         "Stessa review",
         "Stessa pricing",
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-17",
     "is_verified": false,
     "is_featured": false,
     "domain": "stessa.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Software for tracking real estate finances and performance.",
+    "tagline": "Real estate investor portfolio management and tax preparation",
     "property_types": [
+      "Residential",
+      "Multifamily",
       "Commercial"
     ]
   },
