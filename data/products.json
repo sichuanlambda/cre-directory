@@ -2643,24 +2643,26 @@
     "url": "https://www.happy.co",
     "logo_url": "https://logo.clearbit.com/happy.co",
     "headline": "Real-time operations management for property managers.",
-    "description": "HappyCo is a property management software platform focusing on property inspections, maintenance, and operations. It helps real estate managers streamline their workflows, ensuring smooth operations across residential and commercial portfolios.",
+    "description": "HappyCo is a maintenance centralization platform designed for multifamily property management. The company provides tools for inspections, maintenance, unit turns, and property management workflows to boost efficiency and reduce operational costs. Their flagship Happy Force product offers on-call maintenance services with fast response times, while Happy Property provides comprehensive property management tools. HappyCo helps property managers prevent maintenance issues, reduce liability, and improve NOI through centralized operations.",
     "short_description": "Real-time operations management for property managers.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Managers",
+        "Asset Managers",
+        "Maintenance Teams",
+        "Portfolio Managers"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
+        "Multifamily",
         "Residential"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact for pricing",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -2703,7 +2705,19 @@
     "tagline": "Real-time operations management for property managers.",
     "property_types": [
       "Residential"
-    ]
+    ],
+    "features": [
+      "Maintenance Centralization",
+      "Property Inspections",
+      "Unit Turn Management",
+      "On-Call Maintenance Service (Happy Force)",
+      "Automated Daily Reporting",
+      "Portfolio Compliance Tracking",
+      "Preventive Maintenance Scheduling",
+      "Mobile Property Management Tools"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:28:57.367534Z"
   },
   {
     "title": "Hightower",
@@ -2846,23 +2860,24 @@
     "url": "https://www.hqo.com",
     "logo_url": "https://logo.clearbit.com/hqo.com",
     "headline": "Real Estate Experience Software - Elevating the Tenant & Real Estate Experience",
-    "description": "HqO's Real Estate Experience Platform unifies portfolios to deliver exceptional experiences, drive growth, and transform how people, properties, and cities thrive together. As the first CRM purpose-built for CRE, REX empowers landlords to thrive in a tenant-driven world by turning portfolios into adaptive platforms and experiences into measurable outcomes. The platform bridges the Experience Gap with data-driven intelligence and unified tenant engagement.",
+    "description": "HqO is a Real Estate Experience (REX) platform that serves as the first CRM purpose-built for commercial real estate. The platform helps landlords and property operators bridge the Experience Gap by transforming portfolios into adaptive platforms and turning experiences into measurable outcomes. HqO enables CRE leaders to manage assets and engage tenants through data-driven intelligence and unified tenant engagement, ultimately boosting financial performance and creating experiential real estate portfolios that continuously earn tenant business.",
     "short_description": "First CRM purpose-built for CRE, delivering exceptional tenant experiences and measurable outcomes.",
     "target_audience": {
       "roles": [
         "Property Managers",
-        "Tenant Experience Teams",
         "Asset Managers",
-        "Leasing Teams"
+        "Leasing Teams",
+        "Facility Managers",
+        "Portfolio Managers"
       ],
       "company_sizes": [
         "Mid-Market",
         "Enterprise"
       ],
       "property_types": [
+        "Commercial",
         "Office",
-        "Mixed-Use",
-        "Retail"
+        "Mixed-Use"
       ]
     },
     "feature_groups": [
@@ -2901,17 +2916,7 @@
         ]
       }
     ],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact for custom pricing",
     "screenshots": [],
     "video_url": null,
     "pros": [
@@ -2966,7 +2971,23 @@
       "Office",
       "Mixed-Use",
       "Retail"
-    ]
+    ],
+    "features": [
+      "Intelligence Suite - AI-powered analytics and insights",
+      "Experience Suite - Operational core for tenant engagement",
+      "Tenant Suite - Digital front door for portfolio spaces",
+      "Operations Suite - Cloud-native Building Management System",
+      "Leasing Suite - Visibility and acceleration tools",
+      "Vendor Suite - Connected ecosystem for CRE services",
+      "Cross-property portfolio management",
+      "Tenant lifecycle management",
+      "Real-time system integration",
+      "Customizable tenant experiences",
+      "Employee engagement analytics",
+      "Amenity booking and access control"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:29:35.120933Z"
   },
   {
     "title": "Investor Management Services",
@@ -2974,24 +2995,31 @@
     "url": "https://www.investormanagementservices.com",
     "logo_url": "https://logo.clearbit.com/investormanagementservices.com",
     "headline": "Investor reporting and communication software.",
-    "description": "Investor Management Services offers investment management software for real estate firms, focusing on helping investors and managers manage assets, portfolios, and investor relations with a comprehensive dashboard and reporting tools.",
+    "description": "Investor Management Services (IMS) by RealPage is the industry-leading investment management software platform designed specifically for private equity real estate firms, funds, and syndicators. The platform provides end-to-end investor management and reporting capabilities, helping firms streamline investor communications, accelerate capital raises, and gain market insights. With over 550+ customers managing 85,000 investors across 98 countries and over 0 billion in equity, IMS combines performance insights with CRM capabilities, document distribution, and centralized deal management to deliver a modern experience for real estate investment professionals.",
     "short_description": "Investor reporting and communication software.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Fund Managers",
+        "Portfolio Managers",
+        "Investment Managers",
+        "Syndicators",
+        "Asset Managers"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Commercial"
+        "Commercial",
+        "Office",
+        "Industrial",
+        "Retail",
+        "Multifamily",
+        "Residential"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact RealPage for pricing",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -3035,7 +3063,25 @@
     "tagline": "Investor reporting and communication software.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Centralized CRM for stakeholder relationship management",
+      "Automated waterfall calculations and distributions",
+      "Self-service investor dashboards and performance analytics",
+      "Pipeline tracking and fundraising automation",
+      "Digital deal room and document management",
+      "Electronic signature automation",
+      "Market Insights and Market Overviews for residential assets",
+      "Commitments and capital calls coordination",
+      "Real-time investor statements and K-1 distribution",
+      "Integration with RealPage Financial Suite",
+      "Banking-level security and encryption",
+      "Automated backup and data consistency",
+      "Key Property Insights across asset portfolios",
+      "Multi-property manager support"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:29:49.651030Z"
   },
   {
     "title": "iSqFt",
@@ -3043,26 +3089,34 @@
     "url": "https://www.isqft.com",
     "logo_url": "https://logo.clearbit.com/isqft.com",
     "headline": "Construction bidding platform.",
-    "description": "iSqFt is a construction bidding software that connects contractors and suppliers with commercial construction projects. It streamlines the preconstruction process by offering tools for project management, bid management, and collaboration across teams.",
+    "description": "iSqFt was acquired by ConstructConnect and is now part of their Project Intelligence platform. ConstructConnect provides comprehensive construction project leads, bidding opportunities, and project intelligence for contractors, subcontractors, and construction professionals. The platform offers access to over 500,000 commercial construction projects with detailed information including plans, specifications, bidding timelines, and key contacts. It serves as a marketplace connecting contractors with construction opportunities across various building types and trades.",
     "short_description": "Construction bidding platform.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "General Contractors",
+        "Subcontractors",
+        "Specialty Contractors",
+        "Suppliers",
+        "Architects",
+        "Engineers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
+        "Commercial",
         "Industrial",
         "Office",
-        "Retail"
+        "Retail",
+        "Hospitality",
+        "Healthcare",
+        "Educational"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Subscription-based - Starter: 29/month, Professional: 79/month+",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -3104,7 +3158,23 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "features": [
+      "Commercial construction project database (500,000+ projects)",
+      "Daily project updates (5,000+ projects updated daily)",
+      "Bidding timelines and key dates tracking",
+      "Plans and specifications access",
+      "Project leads and contact information",
+      "Planholders list coverage",
+      "Bid management and pipeline tracking",
+      "Advanced project filtering and search",
+      "Market intelligence and analytics",
+      "Digital takeoff and estimating tools integration",
+      "Saved searches with email alerts",
+      "Project scope and building use categorization"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:30:11.128947Z"
   },
   {
     "title": "JLL",
@@ -3112,26 +3182,34 @@
     "url": "https://www.us.jll.com",
     "logo_url": "https://logo.clearbit.com/us.jll.com",
     "headline": "Integrated global real estate services.",
-    "description": "JLL (Jones Lang LaSalle) is a global commercial real estate services firm offering a wide range of services, including property management, leasing, capital markets, and consulting. It focuses on commercial real estate, providing market insights, advisory, and transaction management.",
+    "description": "JLL (Jones Lang LaSalle) is a global commercial real estate services firm with over 200 years of history providing comprehensive real estate solutions. As one of the world largest commercial real estate services companies, JLL offers strategy, advisory, and operational support across the entire real estate lifecycle. The company has invested more in AI technology than any other real estate firm and focuses on transforming traditional spaces into flexible, future-ready environments for businesses and communities to thrive.",
     "short_description": "Integrated global real estate services.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Owners",
+        "Investors",
+        "Tenants",
+        "Developers",
+        "Corporate Occupiers",
+        "Fund Managers"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
         "Office",
-        "Retail"
+        "Industrial",
+        "Retail",
+        "Hospitality",
+        "Healthcare",
+        "Data Centers",
+        "Manufacturing",
+        "Mixed-Use"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Custom pricing based on services and scope",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -3176,7 +3254,25 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "features": [
+      "Capital Markets services and investment strategies",
+      "Property leasing and tenant representation",
+      "Strategy and design consulting",
+      "Facilities and property management",
+      "Construction and project management",
+      "Real estate investment advisory",
+      "Market research and insights",
+      "AI-powered real estate technology",
+      "Workplace strategy and design",
+      "Portfolio optimization",
+      "Transaction management",
+      "Valuation and appraisal services",
+      "Property listings and marketing",
+      "Sustainability and ESG consulting"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:30:34.367898Z"
   },
   {
     "title": "Juniper Square",
@@ -3184,14 +3280,15 @@
     "url": "https://www.junipersquare.com",
     "logo_url": "https://logo.clearbit.com/junipersquare.com",
     "headline": "Connected software and fund administration services for private markets",
-    "description": "Juniper Square delivers connected technology, data, and fund administration services private markets GPs need to scale their business at any stage. The platform centralizes data and connects LPs and GPs across every workflow including fundraising, investor onboarding, compliance, treasury, reporting, and more. With JunieAI built into the platform, it streamlines workflows, turns data into insight, elevates the investor experience, and makes fund administration more accurate, timely, and transparent.",
+    "description": "Juniper Square delivers the connected technology, data, and fund administration services private markets GPs need to scale their business at any stage. The platform centralizes data and connects LPs and GPs across every workflow including fundraising, investor onboarding, compliance, treasury, reporting, and more. With JunieAI built into the platform, it streamlines workflows, turns data into insight, elevates the investor experience, and makes fund administration more accurate, timely, and transparent. Serving over 2,000+ GPs managing 700,000+ investor accounts, 40,000+ investment entities, and $1 trillion in investor equity.",
     "short_description": "Connected technology and fund administration services for private markets GPs to scale their business.",
     "target_audience": {
       "roles": [
         "General Partners",
         "Limited Partners",
         "Fund Managers",
-        "Investment Professionals"
+        "Investment Professionals",
+        "Fund Administrators"
       ],
       "company_sizes": [
         "Mid-Market",
@@ -3201,7 +3298,9 @@
         "Commercial",
         "Office",
         "Industrial",
-        "Multifamily"
+        "Multifamily",
+        "Life Sciences",
+        "Rental Housing"
       ]
     },
     "feature_groups": [
@@ -3257,17 +3356,7 @@
         ]
       }
     ],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact for custom pricing based on AUM and requirements",
     "screenshots": [],
     "video_url": null,
     "pros": [
@@ -3322,7 +3411,25 @@
       "Office",
       "Industrial",
       "Multifamily"
-    ]
+    ],
+    "features": [
+      "Fundraising efficiency and automation",
+      "Investor onboarding and management",
+      "JunieAI - Built-in AI for workflow automation",
+      "Fund administration services",
+      "Complex fund structure administration",
+      "Compliance and treasury management",
+      "Unified investor portal and communications",
+      "Real-time reporting and analytics",
+      "Data centralization and single source of truth",
+      "LP/GP collaboration tools",
+      "Investment lifecycle management",
+      "Global investor experience platform",
+      "Regulatory compliance automation",
+      "Investment entity management"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:30:51.504876Z"
   },
   {
     "title": "Knotel",
@@ -3397,24 +3504,32 @@
     "url": "https://www.levcapital.com",
     "logo_url": "https://logo.clearbit.com/levcapital.com",
     "headline": "Real estate lending platform.",
-    "description": "Real estate lending platform.",
+    "description": "Lev is a commercial real estate financing platform that combines powerful tools with purpose-built AI to help CRE professionals close more deals faster. The platform enables lender matching, workflow automation, and provides comprehensive financing solutions for sponsors, financing brokers, investment sales professionals, and lenders. Lev streamlines the entire financing process by helping users manage lender relationships, discover new financing sources, and automate traditionally manual workflows in commercial real estate lending.",
     "short_description": "Real estate lending platform.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Sponsors",
+        "Financing Brokers",
+        "Investment Sales Professionals",
+        "Lenders",
+        "Commercial Real Estate Investors"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Commercial"
+        "Commercial",
+        "Office",
+        "Industrial",
+        "Retail",
+        "Multifamily",
+        "Mixed-Use"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact for custom pricing",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -3454,7 +3569,23 @@
     "tagline": "Real estate lending platform.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Lender matching and discovery",
+      "Pipeline tracking and management",
+      "Relationship management tools",
+      "Document creation and automation",
+      "File storage and sharing",
+      "Workflow automation",
+      "Purpose-built AI for financing",
+      "Deal management platform",
+      "Financing process optimization",
+      "Lender network access",
+      "Deal sourcing and origination",
+      "Comprehensive financing analytics"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:31:17.247398Z"
   },
   {
     "title": "LightBox",
@@ -3462,7 +3593,7 @@
     "url": "https://www.lightboxre.com",
     "logo_url": "https://logo.clearbit.com/lightboxre.com",
     "headline": "Connected data for commercial real estate",
-    "description": "LightBox delivers the most authoritative property data, integrated CRE workflows, and unmatched industry connections. The platform provides comprehensive property characteristics, tax parcels, building footprints, and spatial & environmental data. With solutions ranging from location intelligence to environmental due diligence to lending and valuation resources, LightBox helps CRE professionals locate, analyze, and act with confidence.",
+    "description": "LightBox delivers the most authoritative property data, integrated CRE workflows, and unmatched industry connections for commercial real estate professionals. The platform provides comprehensive property characteristics, tax parcels, building footprints, and spatial & environmental data through their flagship LightBox Vision platform. With solutions ranging from location intelligence to environmental due diligence to lending and valuation resources, LightBox helps CRE professionals locate, analyze, and act with confidence by providing connected data and integrated technology solutions.",
     "short_description": "Most authoritative CRE property data with integrated workflows and industry connections.",
     "target_audience": {
       "roles": [
@@ -3470,18 +3601,23 @@
         "Appraisers",
         "Lenders",
         "Environmental Professionals",
-        "Developers"
+        "Developers",
+        "Investors",
+        "Government Agencies"
       ],
       "company_sizes": [
+        "Small",
         "Mid-Market",
         "Enterprise"
       ],
       "property_types": [
+        "Commercial",
         "Office",
         "Industrial",
         "Retail",
         "Multifamily",
-        "Land"
+        "Land",
+        "Mixed-Use"
       ]
     },
     "feature_groups": [
@@ -3520,17 +3656,7 @@
         ]
       }
     ],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact for custom pricing based on solutions and usage",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -3576,7 +3702,27 @@
       "Retail",
       "Multifamily",
       "Land"
-    ]
+    ],
+    "features": [
+      "LightBox Vision - comprehensive property data platform",
+      "ClientLook CRM for commercial real estate",
+      "Real Capital Markets (RCM) investment platform",
+      "PARCEL environmental due diligence",
+      "Comprehensive property characteristics database",
+      "Tax parcel and building footprint data",
+      "Spatial and environmental data analysis",
+      "Location intelligence and analytics",
+      "Ownership information and transaction history",
+      "Zoning and regulatory data",
+      "Phase I Environmental Site Assessment tools",
+      "Market research and analysis",
+      "Property marketing and disposition services",
+      "LightBox Labs innovation platform",
+      "AI-powered city directory research",
+      "Major transaction tracking and analysis"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:31:36.726344Z"
   },
   {
     "title": "LoopNet",
@@ -3584,16 +3730,16 @@
     "url": "https://www.loopnet.com",
     "logo_url": "https://logo.clearbit.com/loopnet.com",
     "headline": "The most visited commercial real estate marketplace",
-    "description": "LoopNet is the most visited commercial real estate marketplace online, owned by CoStar Group. The platform connects buyers, sellers, landlords, and tenants with comprehensive commercial property listings, market data, and analytics. LoopNet provides extensive search capabilities, property details, and market insights across all commercial property types including office, industrial, retail, multifamily, and land.",
+    "description": "LoopNet is the most-visited commercial real estate marketplace online, owned by CoStar Group. The platform connects buyers, sellers, tenants, and landlords of commercial real estate through comprehensive property listings and market intelligence. LoopNet serves as the primary online marketplace for commercial properties, offering detailed property information, photos, maps, and contact details for millions of commercial real estate listings nationwide. The platform is integrated with CoStar analytics and data to provide market-leading commercial real estate search and discovery capabilities.",
     "short_description": "Most visited online commercial real estate marketplace for property listings and market data.",
     "target_audience": {
       "roles": [
-        "Brokers",
+        "Commercial Real Estate Brokers",
+        "Property Owners",
         "Investors",
-        "Buyers",
-        "Sellers",
         "Tenants",
-        "Landlords"
+        "Developers",
+        "Property Managers"
       ],
       "company_sizes": [
         "Small",
@@ -3606,6 +3752,7 @@
         "Retail",
         "Multifamily",
         "Land",
+        "Hospitality",
         "Special Purpose"
       ]
     },
@@ -3628,17 +3775,7 @@
         ]
       }
     ],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Freemium model - Basic listings free, Premium features subscription-based",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -3684,7 +3821,26 @@
       "Multifamily",
       "Land",
       "Special Purpose"
-    ]
+    ],
+    "features": [
+      "Comprehensive commercial property listings",
+      "Property search and filtering tools",
+      "High-quality property photos and virtual tours",
+      "Interactive maps and location data",
+      "Market analytics and comparables",
+      "Lead generation and contact management",
+      "Property alerts and saved searches",
+      "Mobile app for iOS and Android",
+      "Integration with CoStar data and analytics",
+      "Property marketing and listing syndication",
+      "Tenant and space requirements matching",
+      "Investment property showcase",
+      "Commercial real estate news and insights",
+      "Broker and agent profiles",
+      "Advanced property details and specifications"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:31:58.800815Z"
   },
   {
     "title": "Matterport",
@@ -3692,14 +3848,16 @@
     "url": "https://www.matterport.com",
     "logo_url": "https://logo.clearbit.com/matterport.com",
     "headline": "Capture, share, and collaborate in immersive 3D",
-    "description": "Matterport creates immersive 3D digital twins for commercial real estate spaces. The platform enables users to capture, share, and collaborate using 3D digital twins for corporate real estate, property marketing, facilities management, and design & construction. Digital twins help make smarter big picture decisions, increase buyer and seller confidence, revolutionize operations, and keep projects on time and budget.",
+    "description": "Matterport is the leading platform for creating immersive 3D digital twins that capture, share, and collaborate on physical spaces. The platform transforms any space into an accurate, immersive digital twin that can be used for virtual tours, remote inspections, and spatial analysis. Matterport serves multiple industries with specialized solutions for corporate real estate, property marketing, facilities management, and design & construction, helping professionals make smarter decisions through detailed 3D visualizations and spatial data.",
     "short_description": "3D digital twin platform for immersive commercial real estate experiences.",
     "target_audience": {
       "roles": [
-        "Property Marketers",
-        "Facility Managers",
-        "Corporate Real Estate",
-        "Construction Teams"
+        "Real Estate Agents",
+        "Property Managers",
+        "Facilities Managers",
+        "Architects",
+        "Contractors",
+        "Corporate Real Estate Teams"
       ],
       "company_sizes": [
         "Small",
@@ -3707,11 +3865,13 @@
         "Enterprise"
       ],
       "property_types": [
+        "Commercial",
         "Office",
         "Industrial",
         "Retail",
-        "Multifamily",
-        "Mixed-Use"
+        "Hospitality",
+        "Healthcare",
+        "Residential"
       ]
     },
     "feature_groups": [
@@ -3750,17 +3910,7 @@
         ]
       }
     ],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Freemium model - Free basic account available, Professional plans start around 0+/month",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -3805,7 +3955,26 @@
       "Retail",
       "Multifamily",
       "Mixed-Use"
-    ]
+    ],
+    "features": [
+      "3D digital twin creation and hosting",
+      "Immersive virtual tours and walkthroughs",
+      "Accurate spatial measurements and floor plans",
+      "High-resolution 3D photography",
+      "Cloud-based collaboration tools",
+      "VR and AR integration capabilities",
+      "Property marketing and listing enhancement",
+      "Facilities management and operations support",
+      "Construction progress tracking",
+      "Remote inspections and assessments",
+      "Interactive hotspots and annotations",
+      "Integration with CAD and BIM software",
+      "Mobile and web-based viewing",
+      "Analytics and engagement tracking",
+      "Multi-device compatibility"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:32:17.936970Z"
   },
   {
     "title": "MetaProp",
@@ -3813,24 +3982,30 @@
     "url": "https://www.metaprop.vc",
     "logo_url": "https://logo.clearbit.com/metaprop.vc",
     "headline": "Real estate technology accelerator.",
-    "description": "MetaProp is a venture capital firm focused on investing in PropTech startups. It supports innovation in real estate technology, backing companies that bring technological advancements to real estate markets, construction, and property management.",
+    "description": "MetaProp is the world most active venture capital and growth equity firm focused on the built world and PropTech innovation. The firm specializes in melding the physical and digital worlds through strategic investments and advisory services for PropTech startups. With a commitment to socially and environmentally responsible investing, MetaProp has created over $107 billion in enterprise value across 150+ investments. The firm manages 20+ billion square feet through their global investor group and has facilitated $1.9+ billion in funding across their portfolio companies.",
     "short_description": "Real estate technology accelerator.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "PropTech Entrepreneurs",
+        "Technology Founders",
+        "Real Estate Innovators",
+        "Startup Teams"
+      ],
+      "company_sizes": [
+        "Startups",
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
-        "Commercial"
+        "Commercial",
+        "Residential",
+        "Industrial",
+        "Mixed-Use",
+        "Built Environment"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Venture Capital Investment - Not applicable (invests in companies rather than offering services)",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -3871,7 +4046,25 @@
     "tagline": "Real estate technology accelerator.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "PropTech venture capital and growth equity investments",
+      "Strategic advisory services for startups",
+      "Industry network access and introductions",
+      "Go-to-market strategy acceleration",
+      "Built world expertise and insights",
+      "Portfolio company collaboration platform",
+      "Sustainable and responsible investing focus",
+      "Global investor group access (20B+ sq ft managed)",
+      "Multiple funding rounds support",
+      "Diversity-focused investing (40% portfolio founder diversity rate)",
+      "900+ annual industry introductions",
+      "Enterprise value creation expertise",
+      "Market intelligence and research",
+      "Strategic partnership facilitation"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:32:33.960353Z"
   },
   {
     "title": "Navigator CRE",
@@ -3879,38 +4072,33 @@
     "url": "https://www.navigatorcre.com",
     "logo_url": "https://logo.clearbit.com/navigatorcre.com",
     "headline": "Commercial real estate data and analytics platform",
-    "description": "Navigator CRE provides commercial real estate professionals with comprehensive market data, property information, and analytics tools. The platform offers detailed property records, ownership information, transaction history, and market analytics to help brokers, investors, and analysts make informed decisions in commercial real estate markets.",
+    "description": "NavigatorCRE is the leading commercial real estate data analytics platform that centralizes CRE data, accelerates reporting, and unlocks analytics with speed. The platform serves as a revolutionary data analytics, reporting, and commercial real estate operations engine that connects data across organizational systems including accounting, leasing, collections, debt, construction, and work orders into a centralized CRE intelligence experience. With the introduction of NAVI AI, NavigatorCRE offers the first AI-powered analytics engine designed specifically for commercial real estate and financial analysis.",
     "short_description": "CRE data and analytics platform with comprehensive market information and property records.",
     "target_audience": {
       "roles": [
+        "Asset Managers",
+        "Portfolio Managers",
         "Brokers",
-        "Investors",
-        "Analysts",
-        "Appraisers"
+        "Developers",
+        "Investment Professionals",
+        "Corporate Occupiers"
       ],
       "company_sizes": [
-        "Small",
-        "Mid-Market"
+        "Mid-Market",
+        "Enterprise"
       ],
       "property_types": [
         "Office",
         "Industrial",
+        "Multifamily",
         "Retail",
-        "Multifamily"
+        "Land",
+        "Hospitality",
+        "Mixed-Use"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact for demo and pricing",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -3953,7 +4141,29 @@
       "Industrial",
       "Retail",
       "Multifamily"
-    ]
+    ],
+    "features": [
+      "Centralized CRE data analytics platform",
+      "NAVI AI - AI-powered analytics engine",
+      "Portfolio management and tracking",
+      "Sales and lease comparables database",
+      "Leasing and touring management",
+      "Property and facilities management tools",
+      "Debt, credit, and lending analytics",
+      "Financial reporting (Income Statement/T-12)",
+      "Pipeline and deal tracking",
+      "Multi-asset class support (Office, Industrial, Multifamily, Retail)",
+      "Enterprise-grade security (SOC 2, ISO 27001)",
+      "Cloud-based platform with mobile access",
+      "Advanced mapping and location intelligence",
+      "Business intelligence and reporting modules",
+      "Data integration via API, ETL, SFTP",
+      "Navigator HELM - simplified self-service platform",
+      "Real-time dashboard and analytics",
+      "Custom reporting and visualization"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:32:55.663670Z"
   },
   {
     "title": "OpenCounter",
