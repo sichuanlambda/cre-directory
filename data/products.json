@@ -5963,24 +5963,29 @@
     "url": "https://www.saltmine.com",
     "logo_url": "https://logo.clearbit.com/saltmine.com",
     "headline": "Workplace design and management platform.",
-    "description": "Saltmine is a workplace design and optimization platform that helps companies plan, design, and manage office spaces.",
+    "description": "Saltmine is a modern platform for planning and designing workspaces, built by architects and real estate professionals specifically for corporate real estate teams. The platform combines space planning, test fitting, scenario planning, and visualization tools with built-in intelligence to help CRE teams create better spaces, speed up execution, and make data-driven decisions with confidence. Saltmine helps eliminate costly mistakes and reduces typical project turnaround times by 70-90% while optimizing space usage and reducing change orders.",
     "short_description": "Workplace design and management platform.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Corporate Real Estate Teams",
+        "Workplace Strategists",
+        "Facilities Managers",
+        "Project Managers",
+        "Space Planners"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Office"
+        "Office",
+        "Corporate Workspaces",
+        "Commercial",
+        "Mixed-Use"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Unlimited users included, contact for pricing and demo",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -6022,7 +6027,26 @@
     "tagline": "Workplace design and management platform.",
     "property_types": [
       "Office"
-    ]
+    ],
+    "features": [
+      "Space planning and test fitting tools",
+      "Scenario planning and comparison",
+      "Workspace visualization and design",
+      "Capital project management",
+      "Portfolio optimization analytics",
+      "Budget management and tracking",
+      "Built-in spatial data insights",
+      "Real-time collaboration tools",
+      "Data-driven decision making",
+      "Space program automation",
+      "Change order reduction tools",
+      "Footprint optimization",
+      "Design guidelines and space standards",
+      "SOC 2 compliant data security",
+      "Unlimited users with full training"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:38:54.369135Z"
   },
   {
     "title": "Sertifi",
@@ -6030,24 +6054,29 @@
     "url": "https://www.sertifi.com",
     "logo_url": "https://logo.clearbit.com/sertifi.com",
     "headline": "Electronic signature solutions.",
-    "description": "Sertifi provides secure eSignature and payment solutions for businesses, making it easier to collect digital signatures and payments.",
+    "description": "Sertifi by Flywire is a hospitality-focused platform that streamlines payments, agreements, and credit card authorizations for the hotel and entertainment industries. Trusted by over 20,000 hospitality locations across 150+ countries, Sertifi helps businesses accelerate the process from lead to revenue through digital workflows tailored for hospitality operations. While primarily focused on hotels and entertainment venues, the platform is relevant for commercial real estate companies that own or manage hospitality properties.",
     "short_description": "Electronic signature solutions.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Hotel Managers",
+        "Hospitality Operations Teams",
+        "Revenue Managers",
+        "Property Managers (Hospitality)"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Commercial"
+        "Hotels",
+        "Hospitality",
+        "Entertainment Venues",
+        "Resort Properties"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact for pricing and implementation",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -6088,7 +6117,25 @@
     "tagline": "Electronic signature solutions.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Digital credit card authorization forms",
+      "Electronic signatures for contracts",
+      "Hotel payment processing",
+      "Digital authorization workflows",
+      "PCI Level 1 compliance and security",
+      "Global payments infrastructure",
+      "Hospitality-tailored solutions",
+      "Lead to revenue acceleration",
+      "Chargeback reduction technology",
+      "Flexible processing optimization",
+      "Multi-property onboarding",
+      "Third-party integration capabilities",
+      "Contract and agreement management",
+      "Revenue optimization tools"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:39:08.424941Z"
   },
   {
     "title": "SiteSeer",
@@ -6096,37 +6143,32 @@
     "url": "https://www.siteseer.com",
     "logo_url": "https://logo.clearbit.com/siteseer.com",
     "headline": "Commercial real estate site selection and market analysis",
-    "description": "SiteSeer provides commercial real estate site selection and market analysis tools for retailers, restaurants, and service businesses. The platform combines demographic data, competition analysis, and location intelligence to help businesses identify optimal locations for expansion and growth.",
+    "description": "SiteSeer is a comprehensive site selection and market intelligence platform that empowers businesses with data-driven insights to fuel growth and profitability. Designed by retail analysts and built for real-world decisions, SiteSeer transforms complex analysis into clear, actionable insights for location-based business decisions. The platform serves businesses across industries including retail, restaurant, healthcare, hospitality, and real estate, providing tools to unlock growth, minimize risk, and make confident location decisions.",
     "short_description": "Site selection and market analysis platform for retail and commercial location decisions.",
     "target_audience": {
       "roles": [
         "Site Selection Teams",
         "Real Estate Analysts",
-        "Franchise Developers",
-        "Retailers"
+        "Market Researchers",
+        "Business Development Teams",
+        "Retail Strategists"
       ],
       "company_sizes": [
         "Small",
-        "Mid-Market"
+        "Mid-Market",
+        "Enterprise"
       ],
       "property_types": [
         "Retail",
         "Restaurant",
-        "Service"
+        "Shopping Centers",
+        "Healthcare",
+        "Hospitality",
+        "Commercial"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact for pricing and demo",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -6169,7 +6211,26 @@
       "Retail",
       "Restaurant",
       "Service"
-    ]
+    ],
+    "features": [
+      "SiteSeer Professional - Site selection and forecasting software",
+      "Consumer analysis and behavior tracking",
+      "Visitor foot traffic data analysis",
+      "Site selection and evaluation tools",
+      "Competitive intelligence and analysis",
+      "Sales forecasting and predictive modeling",
+      "Tenant prospecting for shopping centers",
+      "Market potential assessment",
+      "Void Analysis - Shopping center tenant prospecting",
+      "Demographics and market reporting",
+      "Heat maps and visualization tools",
+      "Territory planning and optimization",
+      "Custom analytics and workflows",
+      "Professional services and consulting",
+      "Cross-sector industry solutions"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:39:22.281466Z"
   },
   {
     "title": "SmartRent",
@@ -6177,24 +6238,25 @@
     "url": "https://www.smartrent.com",
     "logo_url": "https://logo.clearbit.com/smartrent.com",
     "headline": "Smart Home Solutions for Multifamily Communities",
-    "description": "SmartRent provides smart home solutions for multifamily communities through seamless connectivity platform integrating hardware with cloud-based enterprise software. The platform offers smart apartments, access control, self-guided tours, community WiFi, parking management, work management, and answer automation. With 600+ clients, 1.3M rental homes, and 3.5M connected devices, SmartRent helps properties reduce costs, boost revenue, and simplify workflows.",
+    "description": "SmartRent is a leading smart home solutions provider specifically designed for multifamily communities and rental properties. The platform offers a seamless connectivity solution that integrates smart home hardware with cloud-based enterprise software to enhance the resident living experience and simplify property operations. Serving 600+ clients with 1.3M rental homes and 3.5M connected devices, SmartRent provides tailored smart home automation that helps properties reduce costs, boost revenue, and streamline workflows.",
     "short_description": "Smart home platform for multifamily communities with comprehensive IoT and automation solutions.",
     "target_audience": {
       "roles": [
         "Property Managers",
-        "Operations Teams",
+        "Asset Managers",
+        "Multifamily Operators",
         "Leasing Teams",
-        "Maintenance Staff"
+        "Maintenance Teams"
       ],
       "company_sizes": [
-        "Small",
         "Mid-Market",
         "Enterprise"
       ],
       "property_types": [
         "Multifamily",
-        "Student Housing",
-        "Senior Living"
+        "Residential",
+        "Apartment Communities",
+        "Rental Properties"
       ]
     },
     "feature_groups": [
@@ -6233,17 +6295,7 @@
         ]
       }
     ],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact for custom pricing, estimated 0-0 added value per month per unit",
     "screenshots": [],
     "video_url": null,
     "pros": [
@@ -6298,7 +6350,26 @@
       "Multifamily",
       "Student Housing",
       "Senior Living"
-    ]
+    ],
+    "features": [
+      "Smart Apartments and home automation",
+      "Cloud-based access control systems",
+      "Self-guided tours automation",
+      "Community WiFi infrastructure",
+      "Smart parking management solutions",
+      "Work management and maintenance platform",
+      "Answer automation and call-handling",
+      "Hardware customization and integration",
+      "Property management system integrations",
+      "CRM tool compatibility",
+      "NOI optimization and analytics",
+      "Data views and performance analysis",
+      "Multi-device connectivity platform",
+      "Scalable smart property solutions",
+      "Mobile maintenance platform"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:39:38.470816Z"
   },
   {
     "title": "SpaceQuant",
@@ -6306,37 +6377,31 @@
     "url": "https://www.spacequant.com",
     "logo_url": "https://spacequant.com/images/logo.png",
     "headline": "Space planning and optimization software",
-    "description": "SpaceQuant provides space planning and optimization software for commercial real estate professionals. The platform helps facility managers, corporate real estate teams, and space planners optimize space utilization, plan moves and changes, and manage workplace analytics through data-driven insights and visualization tools.",
+    "description": "SpaceQuant is a fast and intelligent real estate financing platform that specializes in analyzing property financial documents using proprietary AI technology. The platform extracts and analyzes unstructured and semi-structured data from critical real estate documents including rent rolls, operating statements, budgets, offering memorandums, and appraisal reports. SpaceQuant delivers real-time analysis of property financial and operating performance through powerful dashboards and executive reporting tools.",
     "short_description": "Space planning and optimization software with workplace analytics and utilization insights.",
     "target_audience": {
       "roles": [
-        "Facility Managers",
-        "Corporate Real Estate",
-        "Space Planners",
-        "Workplace Strategists"
+        "Real Estate Lenders",
+        "Investment Analysts",
+        "Property Underwriters",
+        "Financial Analysts",
+        "Asset Managers"
       ],
       "company_sizes": [
         "Mid-Market",
         "Enterprise"
       ],
       "property_types": [
+        "Commercial",
         "Office",
         "Industrial",
+        "Retail",
+        "Multifamily",
         "Mixed-Use"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Quote-based - Contact for pricing and demo",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -6379,7 +6444,23 @@
       "Office",
       "Industrial",
       "Mixed-Use"
-    ]
+    ],
+    "features": [
+      "AI-powered financial document analysis",
+      "Rent roll analysis and financial spreading",
+      "Operating statement data extraction",
+      "Budget analysis and processing",
+      "Offering memorandum data parsing",
+      "Appraisal report analysis",
+      "Real-time property performance analysis",
+      "Financial dashboard and reporting",
+      "Executive reporting tools",
+      "Unstructured data extraction",
+      "Property financial performance metrics",
+      "Automated document processing"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:39:55.547603Z"
   },
   {
     "title": "SquareFoot",
@@ -6455,26 +6536,32 @@
     "url": "https://www.stacksource.com",
     "logo_url": "https://logo.clearbit.com/stacksource.com",
     "headline": "Commercial real estate financing platform.",
-    "description": "StackSource offers commercial real estate financing services, helping property owners secure funding for acquisitions and development.",
+    "description": "StackSource is a modern lending marketplace designed specifically for commercial real estate professionals that brings modern technology to capital markets. The platform combines powerful data, instant feedback loops, and AI-driven matching to transform complex financing into a fast, transparent digital experience. StackSource streamlines the capital sourcing process by combining real-time deal posting, smart lender matching, and transparent market data for brokers, lenders, and investors.",
     "short_description": "Commercial real estate financing platform.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Real Estate Developers",
+        "Commercial Brokers",
+        "Lenders",
+        "Investors",
+        "Capital Markets Teams"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
+        "Commercial",
+        "Development Projects",
         "Office",
-        "Retail"
+        "Industrial",
+        "Retail",
+        "Mixed-Use"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "100% free during early access - Contact for ongoing pricing",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -6516,7 +6603,25 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "features": [
+      "AI-driven lender matching algorithms",
+      "Real-time deal posting and visibility",
+      "Smart algorithmic matching system",
+      "Transparent lending data and market intelligence",
+      "Real-time feedback from verified lenders",
+      "Daily commercial rate updates and tracking",
+      "Market benchmark rates and performance metrics",
+      "Deal filtering and screening tools",
+      "Live market trends and analytics",
+      "Direct broker and lender connections",
+      "Quality deal filtering by geography and asset type",
+      "Loan size and criteria matching",
+      "Capital market activity tracking",
+      "Term sheet generation and management"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:40:14.964648Z"
   },
   {
     "title": "Storefront",
