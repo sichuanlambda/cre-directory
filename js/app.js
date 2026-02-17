@@ -290,14 +290,7 @@ async function initProduct() {
     <span class="rating-text">${product.rating}/5${product.review_count ? ` (${product.review_count} reviews)` : ''}</span>
   </div>` : '';
 
-  // Tab navigation
-  // Only show tabs for sections that have content
-  const tabs = ['Overview'];
-  if (fg.length) tabs.push('Features');
-  if (hasPricingInfo) tabs.push('Pricing');
-  if (hasScreenshots || hasVideo) tabs.push('Screenshots');
-  if (company.founded || company.headquarters || company.employees) tabs.push('Company');
-  tabs.push('Alternatives');
+  // Tab navigation — built later after content sections are determined
 
   // Quick stats
   const statsItems = [
@@ -404,6 +397,14 @@ async function initProduct() {
     </div>
     <a href="${product.url}" target="_blank" rel="noopener" class="company-link">Visit ${product.title} →</a>
   </div>` : '';
+
+  // Tab navigation — built after content sections are determined
+  const tabs = ['Overview'];
+  if (fg.length) tabs.push('Features');
+  if (hasPricingInfo) tabs.push('Pricing');
+  if (hasScreenshots || hasVideo) tabs.push('Screenshots');
+  if (company.founded || company.headquarters || company.employees) tabs.push('Company');
+  tabs.push('Alternatives');
 
   // Related tools carousels
   let relatedHTML = '';
