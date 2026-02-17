@@ -6629,24 +6629,32 @@
     "url": "https://www.thestorefront.com",
     "logo_url": "https://logo.clearbit.com/thestorefront.com",
     "headline": "Pop-up and short-term retail space marketplace.",
-    "description": "Storefront is a marketplace that connects brands with short-term retail spaces, enabling them to find temporary locations for pop-up stores.",
+    "description": "Storefront is a global marketplace platform that connects brands with over 10,000 pop-up shops, showrooms, and event venues available for rent worldwide. The platform enables businesses to book retail spaces by the day, week, month, or year for various events including pop-up stores, showrooms, art exhibits, conferences, corporate events, product launches, and more. Trusted by over 100,000 brands, Storefront operates across major cities worldwide and provides comprehensive guidance, resources, and support for short-term retail experiences.",
     "short_description": "Pop-up and short-term retail space marketplace.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Brand Managers",
+        "Retail Marketers",
+        "Event Planners",
+        "Pop-up Entrepreneurs",
+        "Fashion Brands"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Retail"
+        "Retail",
+        "Pop-up Spaces",
+        "Showrooms",
+        "Event Venues",
+        "Flexible Offices",
+        "Gallery Spaces"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Marketplace model - Pricing varies by venue and duration, Priority Pass available for premium access",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -6689,7 +6697,26 @@
     "tagline": "Pop-up and short-term retail space marketplace.",
     "property_types": [
       "Retail"
-    ]
+    ],
+    "features": [
+      "Global marketplace for pop-up retail spaces",
+      "10,000+ venues across major cities worldwide",
+      "Flexible rental periods (day, week, month, year)",
+      "Multiple venue types (shops, showrooms, galleries, event spaces)",
+      "Priority Pass for premium space access",
+      "Dedicated account management",
+      "Pop-up success guides and resources",
+      "Market reports and planning tools",
+      "Insurance and budgeting guidance",
+      "Fashion Week showroom bookings",
+      "International location coverage",
+      "Bespoke space propositions",
+      "KPI tracking and marketing support",
+      "Shop-share opportunities",
+      "Flexible office solutions"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:40:42.800173Z"
   },
   {
     "title": "Ten-X",
@@ -6697,26 +6724,32 @@
     "url": "https://www.ten-x.com",
     "logo_url": "https://logo.clearbit.com/ten-x.com",
     "headline": "Transact commercial real estate online.",
-    "description": "Ten-X is an online real estate marketplace that facilitates the buying and selling of commercial properties.",
+    "description": "Ten-X is a leading online commercial real estate auction platform that facilitates the buying and selling of commercial properties through transparent, digital auctions. The platform provides an efficient marketplace for distressed and performing commercial assets, enabling buyers and sellers to complete transactions with confidence. Ten-X combines technology with deep real estate expertise to streamline the commercial property transaction process, offering market insights, due diligence support, and comprehensive auction services.",
     "short_description": "Transact commercial real estate online.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Commercial Real Estate Investors",
+        "Asset Managers",
+        "Brokers",
+        "Lenders",
+        "Property Buyers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
+        "Commercial",
         "Office",
-        "Retail"
+        "Industrial",
+        "Retail",
+        "Mixed-Use",
+        "Distressed Assets"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Auction-based model - No upfront fees for buyers, seller fees based on final sale price",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -6759,7 +6792,25 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "features": [
+      "Online commercial real estate auctions",
+      "Digital property marketplace",
+      "Transparent auction process",
+      "Due diligence support and documentation",
+      "Market analytics and insights",
+      "Distressed and performing asset sales",
+      "Comprehensive property information",
+      "Bidding platform and registration",
+      "Transaction facilitation services",
+      "Property valuation tools",
+      "Auction timeline management",
+      "Buyer and seller verification",
+      "Real-time bidding interface",
+      "Post-auction closing support"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:40:58.935908Z"
   },
   {
     "title": "TenantCloud",
@@ -6767,24 +6818,29 @@
     "url": "https://www.tenantcloud.com",
     "logo_url": "https://logo.clearbit.com/tenantcloud.com",
     "headline": "Cloud-based property management software.",
-    "description": "TenantCloud is a property management platform that helps landlords manage rentals, screen tenants, and collect payments.",
+    "description": "TenantCloud is a comprehensive cloud-based property management software platform designed for landlords, property managers, and rental property businesses. The platform automates daily property management tasks including rent collection, tenant screening, accounting, maintenance management, and listing syndication. With a 4.7-star mobile app rating and integration with 10+ third-party services, TenantCloud helps property managers save an average of 20 hours per week compared to manual processes while reducing late payments by 90% through automated features.",
     "short_description": "Cloud-based property management software.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Landlords",
+        "Property Managers",
+        "Property Owners",
+        "Real Estate Investors"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
-        "Commercial"
+        "Residential",
+        "Single-Family",
+        "Multi-Family",
+        "Rental Properties",
+        "HOA Communities"
       ]
     },
     "feature_groups": [],
-    "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
-    },
+    "pricing": "Freemium model - Free tier available, paid plans for advanced features",
     "screenshots": [],
     "video_url": null,
     "pros": [],
@@ -6827,7 +6883,29 @@
     "tagline": "Cloud-based property management software.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "features": [
+      "Online rent collection (credit, debit, ACH, cash, checks)",
+      "Automated payment tracking and late fee management",
+      "Tenant screening with 99.9% accuracy (TransUnion powered)",
+      "Background and credit checks",
+      "Automated accounting and financial reporting",
+      "QuickBooks Online integration",
+      "Listing syndication (Rentler, Apartments.com, Realtor.com)",
+      "Custom rental website builder",
+      "Online rental applications and e-signatures",
+      "Maintenance request management",
+      "Team management and collaboration tools",
+      "Owner portal for property owners",
+      "4.7-star mobile apps for landlords and tenants",
+      "Real-time reporting and analytics",
+      "Calendar integration (Google Calendar)",
+      "Multiple bank account connections",
+      "Pre-screening questions and application fees",
+      "Vacancy marketing and advertising tools"
+    ],
+    "enriched": true,
+    "enrichedAt": "2026-02-17T22:41:18.753065Z"
   },
   {
     "title": "The Broker List",
