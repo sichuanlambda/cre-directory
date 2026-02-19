@@ -5,7 +5,7 @@
     "url": "https://www.alteryx.com",
     "logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5sRASteTF1CljG9iOw_VLWgelG8e9H6YAIA&s",
     "headline": "Data analytics and automation for real estate.",
-    "description": "Alteryx is an advanced data analytics platform that allows users to prepare, blend, and analyze data from multiple sources, with minimal coding required. It helps automate data-driven decisions and provides robust analytics tools, from predictive modeling to data visualization.",
+    "description": "Alteryx is an enterprise AI and analytics automation platform that enables organizations to connect, prepare, analyze, and act on data without extensive coding. While not CRE-specific, Alteryx is widely used in commercial real estate for market analysis, portfolio analytics, financial modeling, and location intelligence. The Alteryx One platform offers low-/no-code data preparation that reduces manual prep time by up to 90%, self-service analytics with AI assistance (Annie), and integration with major data platforms including Snowflake, Databricks, AWS, Google BigQuery, SAP, and Salesforce. Used by thousands of enterprises globally with 100+ prebuilt connectors.",
     "short_description": "Data analytics and automation for real estate.",
     "target_audience": {
       "roles": [],
@@ -14,26 +14,148 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Data Preparation",
+        "features": [
+          {
+            "name": "Data Blending",
+            "description": "Connect and blend data from ERPs, CRMs, databases, files, and cloud platforms."
+          },
+          {
+            "name": "Data Cleansing",
+            "description": "Automated data quality tools for cleaning, standardizing, and deduplicating data."
+          },
+          {
+            "name": "In-Database Processing",
+            "description": "Process data within Snowflake, BigQuery, and other databases without moving data."
+          },
+          {
+            "name": "100+ Connectors",
+            "description": "Prebuilt connectors for databases, cloud platforms, APIs, and enterprise applications."
+          }
+        ]
+      },
+      {
+        "name": "Analytics & AI",
+        "features": [
+          {
+            "name": "Self-Service Analytics",
+            "description": "Low-/no-code visual workflow builder for creating repeatable analytics processes."
+          },
+          {
+            "name": "Annie AI Agent",
+            "description": "AI-powered assistant for analytics questions, guidance, and problem-solving."
+          },
+          {
+            "name": "Predictive Analytics",
+            "description": "Built-in machine learning and statistical modeling tools."
+          },
+          {
+            "name": "Auto Insights",
+            "description": "Magic Reports that explain drivers, trends, and anomalies in plain language."
+          }
+        ]
+      },
+      {
+        "name": "Automation & Governance",
+        "features": [
+          {
+            "name": "Workflow Automation",
+            "description": "Schedule and automate analytics workflows for consistent, repeatable processes."
+          },
+          {
+            "name": "Analytic Apps",
+            "description": "Create interactive applications for business users to run governed analytics on demand."
+          },
+          {
+            "name": "Data Governance",
+            "description": "Lineage tracking, access controls, and audit trails for enterprise compliance."
+          }
+        ]
+      },
+      {
+        "name": "Spatial & Location",
+        "features": [
+          {
+            "name": "Spatial Analytics",
+            "description": "Location-based analysis for site selection, trade area analysis, and market mapping."
+          },
+          {
+            "name": "Drive Time Analysis",
+            "description": "Calculate drive-time and distance-based trade areas for location intelligence."
+          },
+          {
+            "name": "Geocoding",
+            "description": "Convert addresses to coordinates and enrich data with geographic context."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Designer Cloud",
+          "price": "Contact for pricing",
+          "period": "annual",
+          "features": [
+            "Cloud-based analytics",
+            "Data preparation",
+            "AI assistance",
+            "Basic connectors"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Contact for pricing",
+          "period": "annual",
+          "features": [
+            "Everything in Cloud",
+            "Server automation",
+            "Advanced governance",
+            "All connectors",
+            "Spatial analytics"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Reduces manual data preparation time by up to 90%",
+      "Low-/no-code interface accessible to non-technical users",
+      "Powerful spatial analytics for CRE site selection and market analysis",
+      "Integrates with 6 major platforms plus 100+ connectors",
+      "AI assistant Annie provides intelligent analytics guidance"
+    ],
+    "cons": [
+      "Enterprise pricing can be $5,000+/user/year",
+      "Not CRE-specific, requires configuration for real estate workflows",
+      "Steep learning curve despite low-code interface"
+    ],
+    "integrations": [
+      "Snowflake",
+      "Databricks",
+      "AWS",
+      "Google BigQuery",
+      "SAP",
+      "Salesforce",
+      "Microsoft SQL Server",
+      "Oracle",
+      "Tableau",
+      "Power BI"
+    ],
     "company": {
-      "name": "Alteryx",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Alteryx, Inc.",
+      "founded": 1997,
+      "headquarters": "Irvine, CA",
+      "employees": "2000+",
+      "funding": "Acquired by Clearlake Capital & Insight Partners in 2024 for $4.4B"
     },
     "categories": [
       "AI & Automation",
@@ -55,11 +177,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "alteryx.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Data analytics and automation for real estate.",
     "property_types": [
@@ -5454,7 +5576,7 @@
     "url": "https://www.openspace.ai",
     "logo_url": "https://logo.clearbit.com/openspace.ai",
     "headline": "Construction site monitoring with AI.",
-    "description": "OpenSpace is the Visual Intelligence Platform for builders that delivers real-time insights from construction sites using AI-powered image analysis. The platform automatically captures, maps, and analyzes jobsite imagery from smartphones, 360\u00b0 cameras, drones, and laser scanners to provide actionable intelligence for construction teams. With over 60 billion square feet captured across 129 countries, OpenSpace helps general contractors, trades, and owners make better decisions faster by turning visual data into automated workflows and progress tracking.",
+    "description": "OpenSpace is a visual intelligence platform for the construction industry that uses 360\u00b0 cameras, smartphones, drones, and laser scanners to capture and analyze jobsite conditions. The platform automatically maps imagery to floor plans and BIM models, creating a searchable, timestamped visual record of construction progress. OpenSpace has captured over 60 billion square feet across 129 countries and is trusted by major general contractors, trade contractors, and building owners. Key products include OpenSpace Capture for site documentation, OpenSpace Field for image-based task management with AI Autolocation, and OpenSpace Progress Tracking for monitoring construction milestones.",
     "short_description": "Construction site monitoring with AI.",
     "target_audience": {
       "roles": [
@@ -5477,19 +5599,120 @@
         "Mixed-Use"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Quote-based - Contact for pricing and demo",
+    "feature_groups": [
+      {
+        "name": "Site Capture",
+        "features": [
+          {
+            "name": "360\u00b0 Capture",
+            "description": "Walk through jobsites with 360\u00b0 cameras to automatically document conditions."
+          },
+          {
+            "name": "Smartphone Capture",
+            "description": "Use any smartphone to capture site photos and videos with AI mapping."
+          },
+          {
+            "name": "Drone Capture",
+            "description": "Integrate aerial drone imagery for exterior and large-area documentation."
+          },
+          {
+            "name": "Laser Scanning",
+            "description": "Import point cloud data from laser scanners for precise as-built records."
+          }
+        ]
+      },
+      {
+        "name": "Visual Intelligence",
+        "features": [
+          {
+            "name": "Auto-Mapping",
+            "description": "AI automatically maps captured imagery to floor plans and BIM with timestamps."
+          },
+          {
+            "name": "AI Autolocation",
+            "description": "Automatically identifies and tags photo locations within the building."
+          },
+          {
+            "name": "Progress Tracking",
+            "description": "Track construction progress against schedules with visual verification."
+          },
+          {
+            "name": "BIM+ Integration",
+            "description": "Overlay captured imagery onto BIM models for comparison and validation."
+          }
+        ]
+      },
+      {
+        "name": "Field Management",
+        "features": [
+          {
+            "name": "OpenSpace Field",
+            "description": "Image-based task management with AI-powered workflows for field teams."
+          },
+          {
+            "name": "Voice Notes",
+            "description": "Add voice annotations to captures for quick field documentation."
+          },
+          {
+            "name": "Issue Tracking",
+            "description": "Identify, tag, and track construction issues with visual context."
+          }
+        ]
+      },
+      {
+        "name": "Collaboration",
+        "features": [
+          {
+            "name": "Stakeholder Sharing",
+            "description": "Share visual progress reports with owners, architects, and stakeholders remotely."
+          },
+          {
+            "name": "Platform Integrations",
+            "description": "Connect with Procore, Autodesk, PlanGrid, and other construction management tools."
+          },
+          {
+            "name": "Timeline Views",
+            "description": "Compare site conditions across different dates with side-by-side views."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": []
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "60+ billion sq ft captured across 129 countries demonstrates massive scale",
+      "Works with multiple capture devices: 360\u00b0 cameras, phones, drones, scanners",
+      "AI auto-mapping eliminates manual photo organization",
+      "Strong construction platform integrations (Procore, Autodesk)",
+      "Saves 20-30% of superintendent time on documentation"
+    ],
+    "cons": [
+      "Enterprise pricing not publicly available",
+      "Requires consistent capture routine for maximum value",
+      "360\u00b0 camera hardware adds upfront cost"
+    ],
+    "integrations": [
+      "Procore",
+      "Autodesk BIM 360",
+      "PlanGrid",
+      "Revit",
+      "Navisworks",
+      "Bluebeam"
+    ],
     "company": {
       "name": "OpenSpace",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2017,
+      "headquarters": "San Francisco, CA",
+      "employees": "200-400",
+      "funding": "$117M+"
     },
     "categories": [
       "AI & Automation",
@@ -5511,7 +5734,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "openspace.ai",
@@ -11085,29 +11308,145 @@
     "url": "https://www.testfit.io",
     "logo_url": "https://logo.clearbit.com/testfit.io",
     "headline": "Site feasibility & planning. Understand if you can make a deal make sense.",
-    "description": "TestFit is a real estate feasibility platform that automates site planning and development analysis, enabling developers to plan sites in hours instead of days. The platform provides rapid iterations, financial validation, and optimization tools to maximize site potential with 3x more design iterations.",
+    "description": "TestFit is a real estate feasibility platform that enables developers, architects, and brokers to rapidly test-fit building configurations on sites. The platform automates site planning by allowing users to map parcels, configure road layouts, and generate 3D building massing in hours instead of days. TestFit provides real-time financial analysis, automatic takeoffs for parking, infrastructure, and earthwork costs, and the ability to compare multiple design schemes instantly. With 6,200+ users, TestFit helps teams produce 2-3x more design iterations, validate pro formas against actual layouts, and make confident investment decisions 30x faster than traditional methods.",
     "short_description": "Site feasibility & planning. Understand if you can make a deal make sense.",
     "target_audience": "Real estate developers, architects, planners, investment professionals, development managers, site acquisition teams",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Site Planning",
+        "features": [
+          {
+            "name": "Parcel Mapping",
+            "description": "Map parcels or draw custom boundaries for any building typology."
+          },
+          {
+            "name": "Road Layout Configuration",
+            "description": "Build site layouts with customizable roads, turning radius, and topography data."
+          },
+          {
+            "name": "3D Visualization",
+            "description": "Visualize site plans in 3D context for faster stakeholder approvals."
+          },
+          {
+            "name": "Multi-Typology Support",
+            "description": "Plan multifamily, office, retail, industrial, and mixed-use developments."
+          }
+        ]
+      },
+      {
+        "name": "Financial Analysis",
+        "features": [
+          {
+            "name": "Pro Forma Validation",
+            "description": "Validate financial pro formas against actual physical layouts before design begins."
+          },
+          {
+            "name": "Real-Time Deal Prototyping",
+            "description": "Compare design schemes instantly with live financial analysis."
+          },
+          {
+            "name": "Automatic Takeoffs",
+            "description": "Auto-generate cost takeoffs for parking, infrastructure, and earthwork."
+          },
+          {
+            "name": "Unit Mix Optimization",
+            "description": "Test different unit mixes and parking ratios to maximize site value."
+          }
+        ]
+      },
+      {
+        "name": "Design Optimization",
+        "features": [
+          {
+            "name": "AI-Optimized Solutions",
+            "description": "Generate optimized building configurations instantly, then refine to match design intent."
+          },
+          {
+            "name": "Zoning Compliance",
+            "description": "Test against zoning requirements including setbacks, height limits, and FAR."
+          },
+          {
+            "name": "Highest and Best Use Analysis",
+            "description": "Analyze maximum development potential for any parcel."
+          }
+        ]
+      },
+      {
+        "name": "Collaboration & Export",
+        "features": [
+          {
+            "name": "Revit Export",
+            "description": "Push approved layouts directly to Revit for detailed design and documentation."
+          },
+          {
+            "name": "Multi-Format Export",
+            "description": "Export to AutoCAD, SketchUp, Excel, or PDF for consultant collaboration."
+          },
+          {
+            "name": "Live Feasibility Reports",
+            "description": "Share interactive feasibility reports and markups with stakeholders."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "annual",
+          "features": [
+            "Site planning",
+            "Financial analysis",
+            "3D visualization",
+            "Basic exports"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Contact for pricing",
+          "period": "annual",
+          "features": [
+            "Everything in Standard",
+            "API access",
+            "Custom integrations",
+            "Priority support"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "30x faster feasibility modeling compared to traditional methods",
+      "Produces 2-3x more design iterations on the same budget",
+      "Automatic cost takeoffs reduce estimation errors",
+      "Direct export to Revit, AutoCAD, and SketchUp streamlines workflows",
+      "6,200+ users including major developers and architecture firms"
+    ],
+    "cons": [
+      "Pricing not publicly listed, requires sales consultation",
+      "Focused on feasibility stage, not full architectural design",
+      "Learning curve for maximizing AI optimization features"
+    ],
+    "integrations": [
+      "Revit",
+      "AutoCAD",
+      "SketchUp",
+      "Excel",
+      "Procore"
+    ],
     "company": {
-      "name": "Testfit",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "TestFit, Inc.",
+      "founded": 2015,
+      "headquarters": "Dallas, TX",
+      "employees": "50-100",
+      "funding": "$20M+"
     },
     "categories": [
       "AI & Automation",
@@ -11129,7 +11468,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "testfit.io",
@@ -11639,28 +11978,113 @@
     "url": "https://innago.com/",
     "logo_url": "https://logo.clearbit.com/innago.com",
     "headline": "Free property management software for landlords.",
-    "description": "Innago is free online rental property management software designed for landlords and tenants with a focus on communication and relationship building. The platform provides comprehensive property management tools at no cost, making it accessible for landlords of all sizes to manage their rental properties efficiently.",
+    "description": "Innago is a free, cloud-based property management software designed for landlords and property managers of all sizes. The platform provides comprehensive tools for online rent collection, tenant screening, lease management, maintenance tracking, and accounting\u2014all at no cost. Innago emphasizes communication as the foundation of tenant-landlord relationships and was built from the ground up with both landlords and tenants in mind. The platform includes a mobile app for on-the-go management and has earned consistently high reviews on Google, G2, and Capterra for its ease of use, responsive customer support, and the fact that it's genuinely free.",
     "short_description": "Free property management software for landlords.",
     "target_audience": "Individual landlords, small property management companies, real estate investors, property managers seeking cost-effective solutions",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Rent Collection",
+        "features": [
+          {
+            "name": "Online Rent Payments",
+            "description": "Accept rent payments online via ACH, credit card, and debit card."
+          },
+          {
+            "name": "Autopay",
+            "description": "Tenants can set up automatic recurring rent payments."
+          },
+          {
+            "name": "Payment Tracking",
+            "description": "Track paid, pending, and overdue rent payments in real time."
+          },
+          {
+            "name": "Late Fee Automation",
+            "description": "Automatically apply late fees based on customizable rules."
+          }
+        ]
+      },
+      {
+        "name": "Tenant Management",
+        "features": [
+          {
+            "name": "Tenant Screening",
+            "description": "Run background checks, credit reports, and eviction history on applicants."
+          },
+          {
+            "name": "Online Applications",
+            "description": "Accept and manage rental applications digitally."
+          },
+          {
+            "name": "Lease Management",
+            "description": "Create, sign, and store lease agreements with e-signature support."
+          },
+          {
+            "name": "Tenant Communication",
+            "description": "Built-in messaging for direct landlord-tenant communication."
+          }
+        ]
+      },
+      {
+        "name": "Property Operations",
+        "features": [
+          {
+            "name": "Maintenance Requests",
+            "description": "Tenants submit work orders online; landlords assign and track completion."
+          },
+          {
+            "name": "Accounting & Reporting",
+            "description": "Track income, expenses, and generate financial reports for each property."
+          },
+          {
+            "name": "Document Storage",
+            "description": "Store and organize lease agreements, receipts, and property documents."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Free",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Unlimited properties",
+            "Online rent collection",
+            "Tenant screening",
+            "Lease management",
+            "Maintenance tracking",
+            "Accounting",
+            "Mobile app"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Completely free with no hidden fees or unit limits",
+      "Excellent customer support praised consistently in reviews",
+      "Easy to use with minimal learning curve",
+      "Mobile app for on-the-go property management",
+      "Trusted by thousands of landlords with high review ratings"
+    ],
+    "cons": [
+      "Feature set less comprehensive than paid competitors",
+      "Limited integrations with third-party tools",
+      "May lack advanced features for large property management companies"
+    ],
     "integrations": [],
     "company": {
       "name": "Innago",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "founded": 2017,
+      "headquarters": "Cincinnati, OH",
+      "employees": "20-50",
       "funding": ""
     },
     "categories": [
@@ -11685,12 +12109,12 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "innago.com",
     "pricing_model": "Free",
-    "is_free": false,
+    "is_free": true,
     "tagline": "Free property management software for landlords.",
     "property_types": [
       "Commercial"
@@ -11718,29 +12142,156 @@
     "url": "https://www.propertyware.com/",
     "logo_url": "https://logo.clearbit.com/propertyware.com",
     "headline": "Professional property management software for residential properties.",
-    "description": "Propertyware is an all-in-one property management platform specialized for single family rental properties, offering extensive customization and open API capabilities. The platform provides comprehensive tools for portfolio management with multi-location support and advanced reporting capabilities.",
+    "description": "Propertyware is a rental property management software platform specifically designed for single-family property managers and their unique operational needs. The platform stands out with its highly customizable interface, open API with two-way data exchange, multi-location management capabilities, and portfolio-level accounting and reporting. Propertyware offers tools for maintenance management, marketing and leasing, tenant screening, accounting, and reporting. The platform includes custom fields, dashboards, and reports that let property managers run their business their way. Part of the RealPage family, Propertyware serves property management companies managing single-family rental portfolios.",
     "short_description": "Professional property management software for residential properties.",
     "target_audience": "Single family rental property managers, real estate investors, property management companies focused on SFR portfolios",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Accounting & Reporting",
+        "features": [
+          {
+            "name": "Portfolio-Level Accounting",
+            "description": "Full accounting system with portfolio-level and property-level financial management."
+          },
+          {
+            "name": "Custom Reports",
+            "description": "Create custom dashboards and reports tailored to your business metrics."
+          },
+          {
+            "name": "Multi-Location Management",
+            "description": "Manage multiple property locations holistically and regionally from one platform."
+          },
+          {
+            "name": "Open API",
+            "description": "Two-way data exchange API for integration with other business systems."
+          }
+        ]
+      },
+      {
+        "name": "Leasing & Marketing",
+        "features": [
+          {
+            "name": "Vacancy Marketing",
+            "description": "List vacant properties across major rental listing sites."
+          },
+          {
+            "name": "Tenant Screening",
+            "description": "Background checks and credit screening for prospective tenants."
+          },
+          {
+            "name": "Online Applications",
+            "description": "Accept and process rental applications online."
+          },
+          {
+            "name": "Lease Management",
+            "description": "Digital lease creation, signing, and management."
+          }
+        ]
+      },
+      {
+        "name": "Operations",
+        "features": [
+          {
+            "name": "Maintenance Management",
+            "description": "Work order tracking, vendor management, and maintenance scheduling."
+          },
+          {
+            "name": "Custom Fields & Workflows",
+            "description": "Create custom fields and workflows to match your business processes."
+          },
+          {
+            "name": "Custom Dashboards",
+            "description": "Fully customizable dashboards showing the metrics that matter most."
+          }
+        ]
+      },
+      {
+        "name": "Owner & Tenant Portals",
+        "features": [
+          {
+            "name": "Owner Portal",
+            "description": "Self-service portal for property owners to view statements and reports."
+          },
+          {
+            "name": "Tenant Portal",
+            "description": "Online portal for tenants to pay rent and submit maintenance requests."
+          },
+          {
+            "name": "Online Payments",
+            "description": "Accept rent payments via multiple methods including ACH and credit card."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Per unit/month",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Basic",
+          "price": "$1/unit/month",
+          "period": "monthly (min $250)",
+          "features": [
+            "Accounting",
+            "Marketing",
+            "Online payments",
+            "Maintenance"
+          ]
+        },
+        {
+          "name": "Plus",
+          "price": "$1.50/unit/month",
+          "period": "monthly (min $350)",
+          "features": [
+            "Everything in Basic",
+            "Advanced reporting",
+            "Custom fields",
+            "API access"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$2/unit/month",
+          "period": "monthly (min $450)",
+          "features": [
+            "Everything in Plus",
+            "Custom dashboards",
+            "Priority support",
+            "Advanced integrations"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Highly customizable with custom fields, dashboards, and reports",
+      "Open API enables deep integration with other business systems",
+      "Purpose-built for single-family property management",
+      "Multi-location management for regional portfolios",
+      "Part of RealPage ecosystem with access to broader tools"
+    ],
+    "cons": [
+      "Monthly minimums of $250-$450 make it expensive for small portfolios",
+      "Interface can feel dated compared to newer competitors",
+      "Primarily focused on single-family, less suitable for multifamily"
+    ],
+    "integrations": [
+      "RealPage",
+      "Zillow",
+      "Apartments.com",
+      "HotPads",
+      "TransUnion"
+    ],
     "company": {
-      "name": "Propertyware",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Propertyware (RealPage)",
+      "founded": 2002,
+      "headquarters": "Richardson, TX",
+      "employees": "100-200",
+      "funding": "Part of RealPage (acquired by Thoma Bravo in 2021 for $10.2B)"
     },
     "categories": [
       "Broker Tools",
@@ -11762,11 +12313,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "propertyware.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Per unit/month",
     "is_free": false,
     "tagline": "Professional property management software for residential properties.",
     "property_types": [
@@ -11795,10 +12346,91 @@
     "url": "https://www.rentmanager.com/",
     "logo_url": "https://logo.clearbit.com/rentmanager.com",
     "headline": "Robust property management software.",
-    "description": "Rent Manager is comprehensive, customizable property management software built to scale with portfolios of every type and size. Enhanced by Orion AI technology, it provides smarter automation, deeper insights, and unified management across accounting, operations, leasing, and maintenance in one fully integrated platform.",
+    "description": "Rent Manager is a comprehensive, customizable property management software built to scale with portfolios of every type and size. The platform provides a complete accounting system functioning in both cash and accrual simultaneously, 450+ built-in reports, marketing and leasing tools, maintenance management, and extensive customization options. Rent Manager features Orion AI for smarter automation and deeper insights, an rmAppSuite Pro mobile app for field operations, and an open API for building integrations. The platform supports residential, commercial, HOA, self-storage, and mixed-portfolio management with tools for communication via SMS, email, web chat, and phone broadcasts.",
     "short_description": "Robust property management software.",
     "target_audience": "Property management companies of all sizes, residential property managers, multi-family operators, commercial property managers",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Accounting",
+        "features": [
+          {
+            "name": "Dual-Method Accounting",
+            "description": "Functions in cash and accrual accounting simultaneously for maximum flexibility."
+          },
+          {
+            "name": "Accounts Payable & Receivable",
+            "description": "Complete AP/AR with electronic bank reconciliation in a single program."
+          },
+          {
+            "name": "450+ Reports",
+            "description": "Comprehensive report library including Balance Sheet, P&L, Rent Rolls, and Vacancy Reports."
+          },
+          {
+            "name": "Owner Statements",
+            "description": "Generate and distribute owner statements with detailed financial breakdowns."
+          }
+        ]
+      },
+      {
+        "name": "Marketing & Leasing",
+        "features": [
+          {
+            "name": "ILS Syndication",
+            "description": "Push listings to major ILS platforms directly from your database."
+          },
+          {
+            "name": "Website Sync",
+            "description": "Keep property website and database in sync for accurate vacancy information."
+          },
+          {
+            "name": "Prospect Management",
+            "description": "Track leads, schedule showings, and manage the leasing pipeline."
+          }
+        ]
+      },
+      {
+        "name": "Operations & Maintenance",
+        "features": [
+          {
+            "name": "Work Order Management",
+            "description": "Create, track, and resolve service issues from desk or field."
+          },
+          {
+            "name": "rmAppSuite Pro",
+            "description": "Mobile app for maintenance techs to check in/out of jobs and track hours."
+          },
+          {
+            "name": "Make Ready Boards",
+            "description": "Streamline the unit turnover and make-ready process visually."
+          },
+          {
+            "name": "Orion AI",
+            "description": "AI-powered automation for smarter workflows, insights, and operational efficiency."
+          }
+        ]
+      },
+      {
+        "name": "Communication & Customization",
+        "features": [
+          {
+            "name": "Multi-Channel Communication",
+            "description": "Send texts, emails, web chats, and phone broadcasts directly from the platform."
+          },
+          {
+            "name": "Custom Workflows",
+            "description": "Create specialized workflows and processes tailored to your business."
+          },
+          {
+            "name": "Open API",
+            "description": "Build integrations with third-party technology providers through Rent Manager's API."
+          },
+          {
+            "name": "Letter Templates",
+            "description": "Built-in word processor with library of pre-crafted letter templates."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -11809,15 +12441,31 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "450+ built-in reports provide exceptional financial detail",
+      "Dual cash/accrual accounting is unique in the market",
+      "Supports all property types: residential, commercial, HOA, self-storage",
+      "Orion AI brings modern automation to a mature platform",
+      "Highly customizable with open API for building custom integrations"
+    ],
+    "cons": [
+      "Pricing not publicly available, requires consultation",
+      "Can be complex to set up due to extensive customization options",
+      "Interface may feel dated compared to newer cloud-native competitors"
+    ],
+    "integrations": [
+      "AvidXchange",
+      "Anequim",
+      "ResiDesk",
+      "Domos",
+      "Various via Open API"
+    ],
     "company": {
-      "name": "Rent Manager",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Rent Manager (London Computer Systems)",
+      "founded": 1986,
+      "headquarters": "Cincinnati, OH",
+      "employees": "200-400",
+      "funding": "Privately held"
     },
     "categories": [
       "Investment & Valuation",
@@ -11837,7 +12485,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "rentmanager.com",
@@ -14148,28 +14796,119 @@
     "url": "https://www.rentometer.com",
     "logo_url": "https://logo.clearbit.com/rentometer.com",
     "headline": "Rental pricing data and analysis for property owners and investors.",
-    "description": "Rentometer is a rental market analysis platform that provides hyperlocal rent estimates and comparables to help real estate professionals quickly evaluate rental properties. The platform offers detailed rent analysis reports, market comps, and data-driven insights for property investors, agents, and wholesalers to make informed rental market decisions.",
+    "description": "Rentometer is a rent comparison and analysis platform that provides hyperlocal rent estimates and comparable rental data for landlords, property managers, real estate agents, and investors. The platform offers QuickView rent estimates for instant market rent analysis, detailed Pro Reports with comprehensive rental comparables, and downloadable rent comp data. Rentometer also provides a Yield Tracker for investment analysis, a Batch Processor for analyzing multiple properties at once, an API for integration, and lead generation tools. The platform has been trusted by real estate professionals for years as the go-to source for accurate, location-specific rental market data.",
     "short_description": "Rental pricing data and analysis for property owners and investors.",
     "target_audience": "Real estate investors, real estate agents, wholesale real estate businesses, property managers, and anyone needing rental market analysis and comparable data for investment decisions.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Rent Analysis",
+        "features": [
+          {
+            "name": "QuickView Rent Estimates",
+            "description": "Instant rent estimates showing where a property falls within the local rental market."
+          },
+          {
+            "name": "Pro Reports",
+            "description": "Detailed rent analysis reports with comprehensive comparable rental data."
+          },
+          {
+            "name": "Rent Comp Downloads",
+            "description": "Download detailed comparable rental data for offline analysis and presentations."
+          },
+          {
+            "name": "Custom Report Branding",
+            "description": "Add your own branding to Rentometer reports for client-facing presentations."
+          }
+        ]
+      },
+      {
+        "name": "Investment Tools",
+        "features": [
+          {
+            "name": "Yield Tracker",
+            "description": "Track and analyze rental yield across your investment portfolio."
+          },
+          {
+            "name": "Batch Processor",
+            "description": "Analyze rent estimates for multiple properties simultaneously."
+          },
+          {
+            "name": "Market Comparisons",
+            "description": "Compare rental rates across different neighborhoods and markets."
+          }
+        ]
+      },
+      {
+        "name": "Business Tools",
+        "features": [
+          {
+            "name": "Rentometer API",
+            "description": "Integrate Rentometer data into your own applications and workflows."
+          },
+          {
+            "name": "Lead Generation",
+            "description": "Generate leads using rental market data and analysis tools."
+          },
+          {
+            "name": "Mobile App",
+            "description": "Access rent estimates and reports on the go via mobile app."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Essential",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "QuickView Rent Estimates",
+            "Pro Reports",
+            "Rent Comp Downloads",
+            "Custom Report Branding",
+            "Mobile App"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "Everything in Essential",
+            "Rentometer API",
+            "Yield Tracker",
+            "Batch Processor",
+            "Lead Generation"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Hyperlocal rent data with high accuracy validated by years of user trust",
+      "Quick and easy rent estimates for any address in seconds",
+      "Custom branding for professional client-facing reports",
+      "Batch processing saves time for portfolio analysis",
+      "API available for integration into other platforms"
+    ],
+    "cons": [
+      "Pricing not transparently listed on website",
+      "Limited to US rental markets",
+      "Free access is very limited; most features require subscription"
+    ],
     "integrations": [],
     "company": {
-      "name": "Rentometer",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "name": "Rentometer, Inc.",
+      "founded": 2008,
+      "headquarters": "Tampa, FL",
+      "employees": "10-20",
       "funding": ""
     },
     "categories": [
@@ -14191,11 +14930,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "rentometer.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Rental pricing data and analysis for property owners and investors.",
     "property_types": [
@@ -14911,28 +15650,153 @@
     "url": "https://www.mashvisor.com",
     "logo_url": "https://logo.clearbit.com/mashvisor.com",
     "headline": "Real estate investment property data and analysis platform.",
-    "description": "Mashvisor is a comprehensive real estate investment analysis platform that specializes in short-term and long-term rental property data. The platform provides data-driven solutions for real estate investors, Airbnb hosts, and property managers to identify lucrative investment opportunities, analyze rental property profitability, and optimize vacation rental performance through accurate market research and AI-powered analytics.",
+    "description": "Mashvisor is a real estate investment data analytics platform specializing in short-term rental (Airbnb) and long-term rental analysis. The platform helps investors find profitable investment properties by providing market data, rental revenue estimates, and property analytics across the United States. Key tools include the Market Finder for discovering top-performing markets, Property Finder for searching investment opportunities across multiple locations, Dynamic Pricing powered by AI for Airbnb hosts, and a comprehensive real estate data API. Mashvisor provides cap rates, cash-on-cash returns, occupancy rates, and rental comps to support data-driven investment decisions.",
     "short_description": "Real estate investment property data and analysis platform.",
     "target_audience": "Real estate investors seeking rental property opportunities, Airbnb hosts looking to optimize their short-term rental performance, property managers managing vacation rental portfolios, and API developers building real estate applications requiring reliable market data.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Market Analysis",
+        "features": [
+          {
+            "name": "Market Finder",
+            "description": "Discover top-performing rental markets nationwide using Mashmeter score, revenue, cap rate, and crime filters."
+          },
+          {
+            "name": "Neighborhood Analysis",
+            "description": "In-depth neighborhood data with rental revenue, occupancy rates, and market trends."
+          },
+          {
+            "name": "Migration Data",
+            "description": "Track population migration trends to identify emerging rental markets."
+          },
+          {
+            "name": "Short-Term Regulations",
+            "description": "Stay updated on current STR regulatory landscape by market."
+          }
+        ]
+      },
+      {
+        "name": "Property Analysis",
+        "features": [
+          {
+            "name": "Property Finder",
+            "description": "Search for investment properties across up to five locations simultaneously with customizable criteria."
+          },
+          {
+            "name": "Airbnb Calculator",
+            "description": "Estimate potential short-term and long-term rental income for any property."
+          },
+          {
+            "name": "Rental Comps",
+            "description": "Compare similar properties to validate revenue projections and pricing."
+          },
+          {
+            "name": "Mashmeter Score",
+            "description": "Proprietary scoring system evaluating investment potential based on multiple criteria."
+          }
+        ]
+      },
+      {
+        "name": "Host Tools",
+        "features": [
+          {
+            "name": "Dynamic Pricing",
+            "description": "AI-powered pricing optimization considering seasonality, demand, and booking trends."
+          },
+          {
+            "name": "Competition Analysis",
+            "description": "Analyze competing listings to position your rental strategically."
+          },
+          {
+            "name": "Revenue Forecasting",
+            "description": "Data-driven revenue projections for short-term rental properties."
+          }
+        ]
+      },
+      {
+        "name": "Data & Integration",
+        "features": [
+          {
+            "name": "Real Estate Data API",
+            "description": "Integrate Mashvisor's rental market data and analytics into your own website or app."
+          },
+          {
+            "name": "Investment Metrics",
+            "description": "Cap rates, cash-on-cash returns, occupancy rates, and ROI calculations."
+          },
+          {
+            "name": "Market Reports",
+            "description": "Downloadable market reports with trends and investment insights."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Basic",
+          "price": "$49.99",
+          "period": "monthly",
+          "features": [
+            "Market analysis",
+            "Property search",
+            "Basic analytics"
+          ]
+        },
+        {
+          "name": "Standard",
+          "price": "$99.99",
+          "period": "monthly",
+          "features": [
+            "Everything in Basic",
+            "Advanced analytics",
+            "Rental comps",
+            "Dynamic pricing"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$249.99",
+          "period": "monthly",
+          "features": [
+            "Everything in Standard",
+            "API access",
+            "Priority support",
+            "Custom reports"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Excellent for comparing STR vs LTR potential on any property",
+      "Market Finder helps discover profitable markets nationwide",
+      "Dynamic pricing tool helps Airbnb hosts optimize revenue",
+      "Data API available for developers and real estate platforms",
+      "User-friendly interface accessible to beginner investors"
+    ],
+    "cons": [
+      "Data accuracy can vary in smaller or rural markets",
+      "Premium features and API access require expensive plans",
+      "Focused primarily on US market"
+    ],
+    "integrations": [
+      "Airbnb",
+      "Zillow",
+      "Redfin",
+      "Realtor.com"
+    ],
     "company": {
       "name": "Mashvisor",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "founded": 2016,
+      "headquarters": "San Francisco, CA",
+      "employees": "20-50",
       "funding": ""
     },
     "categories": [
@@ -14955,11 +15819,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "mashvisor.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Real estate investment property data and analysis platform.",
     "property_types": [
@@ -15262,28 +16126,124 @@
     "url": "https://www.dealmachine.com",
     "logo_url": "https://logo.clearbit.com/dealmachine.com",
     "headline": "Real estate marketing and lead generation tool for property investors.",
-    "description": "DealMachine is a comprehensive real estate lead generation and marketing platform designed to help investors and wholesalers find and connect with property owners. The platform combines property data, owner contact information, and automated marketing tools to streamline the process of discovering off-market deals through driving for dollars, targeted marketing campaigns, and direct outreach to property owners.",
+    "description": "DealMachine is a real estate lead generation and marketing platform designed for investors, wholesalers, and agents to find off-market properties. The platform offers a database of 150 million+ US properties with 700 data points and 70+ filters for building targeted lead lists. Key features include driving for dollars with GPS route tracking, an AI-powered cold-calling dialer with instant transcriptions and automated follow-ups, and personalized direct mail campaigns with handwritten letters. DealMachine provides instant property owner contact information from multiple reliable sources, making it a go-to tool for real estate prospecting.",
     "short_description": "Real estate marketing and lead generation tool for property investors.",
     "target_audience": "Real estate investors, wholesalers, fix-and-flip investors, and real estate professionals looking to generate leads through driving for dollars, direct mail campaigns, and cold calling to find off-market property deals and connect with motivated sellers.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Lead Generation",
+        "features": [
+          {
+            "name": "List Builder",
+            "description": "Build tailored lead lists from 150M+ properties with 70+ filters and 700 data points, updated daily."
+          },
+          {
+            "name": "Driving for Dollars",
+            "description": "GPS-tracked route mapping to discover off-market properties while driving neighborhoods."
+          },
+          {
+            "name": "Virtual Driving",
+            "description": "Explore and tag properties remotely from your computer without physical driving."
+          },
+          {
+            "name": "Property Owner Info",
+            "description": "Instant access to property owner contact information from multiple reliable data sources."
+          }
+        ]
+      },
+      {
+        "name": "Marketing & Outreach",
+        "features": [
+          {
+            "name": "Direct Mail Campaigns",
+            "description": "Customizable direct mail with handwritten letters, property images, and automated follow-up sequences."
+          },
+          {
+            "name": "AI-Powered Dialer",
+            "description": "Cold-calling system with instant transcriptions, AI-assisted scripts, and automated follow-ups."
+          },
+          {
+            "name": "Mail Templates",
+            "description": "Stunning pre-designed templates or custom designs for direct mail marketing."
+          }
+        ]
+      },
+      {
+        "name": "Data & Analytics",
+        "features": [
+          {
+            "name": "Property Data",
+            "description": "Comprehensive property details including ownership, tax records, mortgage info, and equity estimates."
+          },
+          {
+            "name": "Custom Highlights",
+            "description": "Create custom tags and highlights to organize and prioritize leads."
+          },
+          {
+            "name": "Cross-Platform Access",
+            "description": "Seamless experience across mobile app and web platform for field and office use."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Starter",
+          "price": "$99",
+          "period": "monthly",
+          "features": [
+            "Lead lists",
+            "Driving for dollars",
+            "Property data",
+            "Contact info"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$249",
+          "period": "monthly",
+          "features": [
+            "Everything in Starter",
+            "AI Dialer",
+            "Direct mail",
+            "Automated follow-ups",
+            "Skip tracing"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "150M+ property database with 700 data points is comprehensive",
+      "Driving for dollars feature with GPS tracking is unique for finding off-market deals",
+      "AI-powered dialer with transcription saves significant time",
+      "Automated direct mail campaigns with personalized handwritten letters",
+      "Mobile app enables field work and instant property lookups"
+    ],
+    "cons": [
+      "Can be expensive for beginners at $99-249/month",
+      "Direct mail and skip tracing have additional per-use costs",
+      "Primarily focused on US market only"
+    ],
+    "integrations": [
+      "Zapier",
+      "Podio",
+      "REsimpli",
+      "InvestorFuse",
+      "Salesforce"
+    ],
     "company": {
       "name": "DealMachine",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "founded": 2017,
+      "headquarters": "Indianapolis, IN",
+      "employees": "50-100",
       "funding": ""
     },
     "categories": [
@@ -15306,11 +16266,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "dealmachine.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Real estate marketing and lead generation tool for property investors.",
     "property_types": [
@@ -16564,29 +17524,124 @@
     "url": "https://www.parkmobile.io",
     "logo_url": "https://logo.clearbit.com/parkmobile.io",
     "headline": "Parking management and booking app for real estate owners.",
-    "description": "ParkMobile is a comprehensive parking technology platform and mobile app that simplifies parking for both consumers and businesses. The platform allows users to easily find and pay for on-street and off-street parking, make advance reservations, and manage parking without the need to return to feed meters, while also providing business solutions for companies and parking providers to streamline operations and improve user experience.",
+    "description": "ParkMobile is the leading smart parking platform in North America, enabling users to find and pay for on-street and off-street parking through its mobile app. The platform serves both consumers who need convenient parking payment and businesses that want to manage employee/fleet parking expenses. ParkMobile also provides solutions for parking operators and municipalities to manage parking infrastructure, including garage management, event parking, and fleet management. With millions of users across 1,000+ cities, ParkMobile offers features like parking spot reservations, real-time availability, session extensions, and detailed expense reporting for businesses.",
     "short_description": "Parking management and booking app for real estate owners.",
     "target_audience": "Individual drivers seeking convenient parking solutions, businesses needing to manage employee parking and expenses, parking garage operators and providers, event organizers requiring parking management, fleet managers overseeing multiple vehicles, and municipalities looking to modernize parking infrastructure.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Consumer Features",
+        "features": [
+          {
+            "name": "Mobile Parking Payment",
+            "description": "Pay for on-street and garage parking directly from the ParkMobile app."
+          },
+          {
+            "name": "Parking Reservations",
+            "description": "Reserve parking spots in advance for events, airports, and popular locations."
+          },
+          {
+            "name": "Session Extensions",
+            "description": "Extend your parking time remotely without returning to the meter."
+          },
+          {
+            "name": "Real-Time Availability",
+            "description": "Find available parking spots near your destination in real time."
+          }
+        ]
+      },
+      {
+        "name": "Business Solutions",
+        "features": [
+          {
+            "name": "ParkMobile for Business",
+            "description": "Portal for managing company vehicles, users, tracking expenses, and generating reports."
+          },
+          {
+            "name": "Fleet Management",
+            "description": "Manage parking for company fleets with centralized billing and controls."
+          },
+          {
+            "name": "Expense Reporting",
+            "description": "Detailed monthly reports for parking expense tracking and reimbursement."
+          }
+        ]
+      },
+      {
+        "name": "Operator Solutions",
+        "features": [
+          {
+            "name": "Garage Solutions",
+            "description": "Digital payment and management tools for parking garage operators."
+          },
+          {
+            "name": "Event Parking",
+            "description": "Specialized solutions for managing high-volume event parking."
+          },
+          {
+            "name": "Municipal Partnerships",
+            "description": "Technology solutions for cities to modernize on-street parking management."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Transaction-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Consumer",
+          "price": "Free app + small transaction fee",
+          "period": "per transaction",
+          "features": [
+            "Find parking",
+            "Mobile payment",
+            "Reservations",
+            "Session extensions"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Fleet management",
+            "Expense reporting",
+            "Centralized billing"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Available in 1,000+ cities across North America",
+      "Free app with convenient mobile payment eliminates meter hassle",
+      "Parking reservation feature reduces stress for events and travel",
+      "Business portal simplifies fleet parking management",
+      "No contract required for consumer use"
+    ],
+    "cons": [
+      "Small transaction fees added to each parking session",
+      "Not available in all locations and cities",
+      "Requires smartphone and data connection to use"
+    ],
+    "integrations": [
+      "Apple Pay",
+      "Google Pay",
+      "Apple CarPlay",
+      "Android Auto",
+      "Google Maps",
+      "Waze"
+    ],
     "company": {
-      "name": "ParkMobile",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "ParkMobile, LLC (EasyPark Group)",
+      "founded": 2008,
+      "headquarters": "Atlanta, GA",
+      "employees": "200-500",
+      "funding": "Acquired by EasyPark Group in 2022"
     },
     "categories": [
       "Broker Tools",
@@ -16607,11 +17662,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "parkmobile.io",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Transaction-based",
     "is_free": false,
     "tagline": "Parking management and booking app for real estate owners.",
     "property_types": [
