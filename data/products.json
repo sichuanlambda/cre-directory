@@ -4098,7 +4098,7 @@
     "url": "https://www.fortressiq.com",
     "logo_url": "https://logo.clearbit.com/fortressiq.com",
     "headline": "Automate business processes with AI.",
-    "description": "FortressIQ offers process intelligence solutions that use AI to analyze business processes. While not specific to real estate, it helps large enterprises optimize operations, making it relevant for companies managing large portfolios or complex transactions.",
+    "description": "FortressIQ was a process intelligence platform using AI and computer vision to discover, map, and analyze business processes. The company has been acquired by Automation Anywhere and integrated into their intelligent automation platform. FortressIQ was not CRE-specific but was used by enterprises including real estate firms for process mining and optimization. The product is no longer available as a standalone offering.",
     "short_description": "Automate business processes with AI.",
     "target_audience": {
       "roles": [],
@@ -4107,9 +4107,23 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Process Intelligence (Acquired)",
+        "features": [
+          {
+            "name": "Process Discovery",
+            "description": "AI-powered discovery and mapping of business processes."
+          },
+          {
+            "name": "Process Analytics",
+            "description": "Analysis of process efficiency and optimization opportunities."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Acquired by Automation Anywhere",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -4118,15 +4132,23 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Pioneered AI-driven process intelligence",
+      "Now part of Automation Anywhere's enterprise platform"
+    ],
+    "cons": [
+      "No longer available as standalone product",
+      "Not CRE-specific"
+    ],
+    "integrations": [
+      "Automation Anywhere"
+    ],
     "company": {
-      "name": "FortressIQ",
-      "founded": null,
-      "headquarters": "",
+      "name": "FortressIQ (acquired by Automation Anywhere)",
+      "founded": 2016,
+      "headquarters": "San Francisco, CA",
       "employees": "",
-      "funding": ""
+      "funding": "$46M+"
     },
     "categories": [
       "AI & Automation"
@@ -4145,11 +4167,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "fortressiq.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Acquired by Automation Anywhere",
     "is_free": false,
     "tagline": "Automate business processes with AI.",
     "property_types": [
@@ -5735,7 +5757,7 @@
     "url": "https://www.knotel.com",
     "logo_url": "https://logo.clearbit.com/knotel.com",
     "headline": "Flexible office space solutions.",
-    "description": "Knotel provides flexible office space solutions for businesses. It helps companies find and design office spaces that suit their needs, offering flexible leasing options and workplace customization for growing teams.",
+    "description": "Knotel was a flexible workspace platform providing headquarters-as-a-service for companies. The company filed for bankruptcy in January 2021 and was subsequently acquired by Newmark Group. Knotel operated custom-designed flexible office spaces in major cities worldwide. The Knotel brand and platform are no longer independently operational. Companies seeking similar flexible office solutions should consider alternatives such as WeWork, Industrious, or traditional flexible workspace providers.",
     "short_description": "Flexible office space solutions.",
     "target_audience": {
       "roles": [],
@@ -5744,9 +5766,23 @@
         "Office"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Flexible Workspace (Defunct)",
+        "features": [
+          {
+            "name": "Custom Office Spaces",
+            "description": "Custom-designed flexible headquarters for companies."
+          },
+          {
+            "name": "Global Locations",
+            "description": "Flexible office spaces in major cities worldwide."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Defunct",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -5755,15 +5791,21 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Pioneered headquarters-as-a-service concept"
+    ],
+    "cons": [
+      "Filed for bankruptcy in 2021",
+      "No longer independently operational",
+      "Acquired by Newmark Group"
+    ],
     "integrations": [],
     "company": {
-      "name": "Knotel",
-      "founded": null,
-      "headquarters": "",
+      "name": "Knotel (bankrupt, acquired by Newmark)",
+      "founded": 2015,
+      "headquarters": "New York, NY",
       "employees": "",
-      "funding": ""
+      "funding": "$560M+ (before bankruptcy)"
     },
     "categories": [
       "Broker Tools",
@@ -5785,11 +5827,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "knotel.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Defunct",
     "is_free": false,
     "tagline": "Flexible office space solutions.",
     "property_types": [
@@ -10850,7 +10892,7 @@
     "url": "https://www.thestorefront.com",
     "logo_url": "https://logo.clearbit.com/thestorefront.com",
     "headline": "Pop-up and short-term retail space marketplace.",
-    "description": "Storefront is a global marketplace platform that connects brands with over 10,000 pop-up shops, showrooms, and event venues available for rent worldwide. The platform enables businesses to book retail spaces by the day, week, month, or year for various events including pop-up stores, showrooms, art exhibits, conferences, corporate events, product launches, and more. Trusted by over 100,000 brands, Storefront operates across major cities worldwide and provides comprehensive guidance, resources, and support for short-term retail experiences.",
+    "description": "Storefront is a marketplace for short-term retail space, offering 10,000+ pop-up shops, showrooms, event venues, and flexible retail spaces for rent in cities worldwide including New York, Los Angeles, San Francisco, Paris, London, Amsterdam, Milan, Hong Kong, and Dubai. The platform serves brands looking for temporary retail experiences by the day, week, month, or year. Storefront offers a Priority Pass premium service with bespoke space propositions, dedicated account managers, and access to exclusive offline spaces. The marketplace covers multiple use cases including retail/pop-up stores, showrooms, art exhibits, corporate events, product launches, sample sales, and photo shoots.",
     "short_description": "Pop-up and short-term retail space marketplace.",
     "target_audience": {
       "roles": [
@@ -10874,19 +10916,95 @@
         "Gallery Spaces"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Marketplace model - Pricing varies by venue and duration, Priority Pass available for premium access",
+    "feature_groups": [
+      {
+        "name": "Space Marketplace",
+        "features": [
+          {
+            "name": "10,000+ Spaces",
+            "description": "Browse pop-up shops, showrooms, and event venues in major cities worldwide."
+          },
+          {
+            "name": "Flexible Duration",
+            "description": "Rent by the day, week, month, or year for ultimate flexibility."
+          },
+          {
+            "name": "Global Coverage",
+            "description": "Spaces in NYC, LA, SF, Paris, London, Amsterdam, Milan, Hong Kong, Dubai."
+          },
+          {
+            "name": "Use Type Variety",
+            "description": "Pop-ups, showrooms, galleries, events, product launches, photo shoots."
+          }
+        ]
+      },
+      {
+        "name": "Premium Services",
+        "features": [
+          {
+            "name": "Priority Pass",
+            "description": "Bespoke space propositions, dedicated account manager, and exclusive spaces."
+          },
+          {
+            "name": "Space Matching",
+            "description": "Expert matching of brands with ideal retail spaces."
+          },
+          {
+            "name": "Booking Management",
+            "description": "Online booking and payment for seamless space rental."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Commission-based",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Varies by space",
+          "period": "per rental period",
+          "features": [
+            "Space search",
+            "Online booking",
+            "Payment processing"
+          ]
+        },
+        {
+          "name": "Priority Pass",
+          "price": "Premium pricing",
+          "period": "",
+          "features": [
+            "Dedicated account manager",
+            "Exclusive spaces",
+            "Bespoke propositions"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "10,000+ spaces across major global cities",
+      "Flexible rental periods from one day to one year",
+      "Wide variety of space types for different use cases",
+      "Priority Pass provides white-glove service"
+    ],
+    "cons": [
+      "Commission fees added to rental costs",
+      "Availability varies significantly by city",
+      "Quality of spaces can vary"
+    ],
     "integrations": [],
     "company": {
       "name": "Storefront",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2012,
+      "headquarters": "New York, NY",
+      "employees": "20-50",
+      "funding": "$10M+"
     },
     "categories": [
       "Broker Tools",
@@ -10909,11 +11027,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "thestorefront.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Commission-based",
     "is_free": false,
     "tagline": "Pop-up and short-term retail space marketplace.",
     "property_types": [
@@ -12296,7 +12414,7 @@
     "url": "https://www.xceligent.com",
     "logo_url": "https://logo.clearbit.com/xceligent.com",
     "headline": "Comprehensive commercial real estate data.",
-    "description": "Xceligent is a commercial real estate data provider, offering property data and market insights for professionals.",
+    "description": "Xceligent was a commercial real estate data and analytics company that aimed to compete with CoStar Group by providing comprehensive CRE listing and market data. The company shut down in December 2017 after losing a trade secrets lawsuit filed by CoStar. Xceligent is no longer operational and its data and platform are no longer available. The company's demise highlighted the challenges of competing in the CRE data space dominated by CoStar.",
     "short_description": "Comprehensive commercial real estate data.",
     "target_audience": {
       "roles": [],
@@ -12307,9 +12425,23 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "CRE Data (Defunct)",
+        "features": [
+          {
+            "name": "Commercial Listings",
+            "description": "CRE property listing data (no longer available)."
+          },
+          {
+            "name": "Market Analytics",
+            "description": "CRE market analytics and research (discontinued)."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Defunct",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -12318,15 +12450,21 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Attempted to provide competitive alternative to CoStar"
+    ],
+    "cons": [
+      "Shut down in December 2017",
+      "Lost trade secrets lawsuit to CoStar",
+      "All data and services discontinued"
+    ],
     "integrations": [],
     "company": {
-      "name": "Xceligent",
-      "founded": null,
-      "headquarters": "",
+      "name": "Xceligent (defunct)",
+      "founded": 2007,
+      "headquarters": "Kansas City, MO",
       "employees": "",
-      "funding": ""
+      "funding": "Shut down in 2017"
     },
     "categories": [
       "Data & Analytics"
@@ -12345,11 +12483,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "xceligent.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Defunct",
     "is_free": false,
     "tagline": "Comprehensive commercial real estate data.",
     "property_types": [
@@ -13430,10 +13568,20 @@
     "url": "https:///MapZot.ai",
     "logo_url": "https://logo.clearbit.com//MapZot.ai",
     "headline": "Monitor local and national chains in real time. Identify your top customers; expand your customer base; and respond in real-time to emerging visitation trends.",
-    "description": "MapZot.AI provides location analytics and AI-powered insights for site selection, audience research, and forecasting. The platform offers real-time data on retail chains and customer trends, helping businesses identify top customers, expand customer bases, and respond to emerging visitation trends with over 92% accuracy.",
+    "description": "MapZot.AI (duplicate listing) \u2014 see MapZot.AI entry for full details. Data and AI platform for site selection, audience research, and sales forecasting helping multi-unit brands with location intelligence and actionable insights.",
     "short_description": "Monitor local and national chains in real time. Identify your top customers; expand your customer base; and respond in real-time to emerging visitation trends.",
     "target_audience": "Commercial real estate professionals, franchise developers, retail chains, coffee shops, restaurant operators, site selection specialists",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "See MapZot.AI",
+        "features": [
+          {
+            "name": "Duplicate Entry",
+            "description": "This is a duplicate listing. See MapZot.AI for full product details."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -13444,12 +13592,16 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "See MapZot.AI entry"
+    ],
+    "cons": [
+      "Duplicate listing"
+    ],
     "integrations": [],
     "company": {
-      "name": "MapZot.ai",
-      "founded": null,
+      "name": "MapZot.AI",
+      "founded": 2022,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -13474,7 +13626,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "/MapZot.ai",
@@ -16877,7 +17029,7 @@
     "url": "https://cavelit.com/",
     "logo_url": "https://logo.clearbit.com/cavelit.com",
     "headline": "Social media videos for real estate agents",
-    "description": "Cavelit will 4x your engagement\nGet everything you need to grow your audience \u2013 from tailored video ideas to professional video editing.\n\nFind your next video idea\nBrowse our library of proven scripts that have already gone viral in other markets, and get it automatically tailored to yours.\n\nGet professional editing\nOnce you've shot your video, we'll edit the raw footage into a professional and authentic video ready to post on social media.\n\nGo viral in your local market\nPost and follow up with potential clients who engaged with your videos \u2013 you'll be shocked at the difference it makes to connect after they've already shown interest in your content!",
+    "description": "Cavelit appears to be under construction. The website currently shows only a 'Coming Soon' placeholder page hosted on Squarespace, with no product information available. The platform's purpose and features cannot be determined from the current website state.",
     "short_description": "Social media videos for real estate agents",
     "target_audience": {
       "roles": [],
@@ -16886,7 +17038,17 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Under Construction",
+        "features": [
+          {
+            "name": "Coming Soon",
+            "description": "Website shows coming soon page\u2014no product details available."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -16898,11 +17060,13 @@
     "screenshots": [],
     "video_url": null,
     "pros": [],
-    "cons": [],
+    "cons": [
+      "Website is under construction with no product information available"
+    ],
     "integrations": [],
     "company": {
       "name": "Cavelit",
-      "founded": null,
+      "founded": 0,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -16927,7 +17091,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "cavelit.com",
@@ -22178,7 +22342,7 @@
     "url": "https://www.cozy.co",
     "logo_url": "https://logo.clearbit.com/cozy.co",
     "headline": "Property management software for independent landlords.",
-    "description": "Cozy offers property management software designed for independent landlords, helping them manage rentals, collect payments, and screen tenants.",
+    "description": "Cozy was a free online property management platform for independent landlords that provided tools for rent collection, tenant screening, and rental applications. Cozy was acquired by Apartments.com (CoStar Group) and its features have been integrated into the Apartments.com landlord tools platform. Former Cozy users were migrated to Apartments.com's rental management tools. The Cozy brand is no longer independently operational.",
     "short_description": "Property management software for independent landlords.",
     "target_audience": {
       "roles": [],
@@ -22187,9 +22351,27 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Property Management (Acquired)",
+        "features": [
+          {
+            "name": "Rent Collection",
+            "description": "Online rent payment collection (now via Apartments.com)."
+          },
+          {
+            "name": "Tenant Screening",
+            "description": "Background and credit screening (now via Apartments.com)."
+          },
+          {
+            "name": "Rental Applications",
+            "description": "Online rental applications (now via Apartments.com)."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Acquired by CoStar/Apartments.com",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -22198,15 +22380,23 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Features live on through Apartments.com",
+      "Was a popular free platform for landlords"
+    ],
+    "cons": [
+      "No longer available as standalone product",
+      "Users migrated to Apartments.com platform"
+    ],
+    "integrations": [
+      "Apartments.com"
+    ],
     "company": {
-      "name": "Cozy",
-      "founded": null,
-      "headquarters": "",
+      "name": "Cozy (acquired by Apartments.com/CoStar)",
+      "founded": 2012,
+      "headquarters": "Portland, OR",
       "employees": "",
-      "funding": ""
+      "funding": "Acquired by CoStar Group"
     },
     "categories": [
       "Data & Analytics"
@@ -22225,11 +22415,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "cozy.co",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Acquired by CoStar/Apartments.com",
     "is_free": false,
     "tagline": "Property management software for independent landlords.",
     "property_types": [
@@ -22975,29 +23165,84 @@
     "url": "https://www.lendinghome.com",
     "logo_url": "https://logo.clearbit.com/lendinghome.com",
     "headline": "Real estate investment loans for residential properties.",
-    "description": "LendingHome (now rebranded as Kiavi) is a technology-driven real estate investment financing platform that provides faster, simpler access to financing for real estate investors. The platform specializes in financing for fix-and-flip projects, rental properties, and new construction investments, leveraging cutting-edge technology to streamline the lending process for non-owner-occupied investment properties.",
+    "description": "LendingHome, now rebranded as Kiavi, is a technology-powered lending platform providing financing for real estate investors. Kiavi leverages cutting-edge technology for faster, simpler access to fix-and-flip, rental, and new construction loans. With a 4.8/5 star rating, the platform serves non-owner-occupied investment properties across 40+ US states plus Washington D.C. Kiavi has funded billions in real estate investment loans, offering competitive rates and a streamlined digital process that eliminates traditional lending hassles.",
     "short_description": "Real estate investment loans for residential properties.",
     "target_audience": "Real estate investors, fix-and-flip investors, rental property investors, real estate developers, and anyone seeking financing for non-owner-occupied investment properties including single-family rentals, multi-family properties, and new construction projects.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Lending Products",
+        "features": [
+          {
+            "name": "Fix-and-Flip Loans",
+            "description": "Short-term bridge loans for property renovation and resale projects."
+          },
+          {
+            "name": "Rental Loans",
+            "description": "Long-term financing for investment rental properties."
+          },
+          {
+            "name": "New Construction",
+            "description": "Financing for ground-up residential construction projects."
+          }
+        ]
+      },
+      {
+        "name": "Technology",
+        "features": [
+          {
+            "name": "Digital Application",
+            "description": "Streamlined online loan application and processing."
+          },
+          {
+            "name": "Fast Funding",
+            "description": "Technology-enabled process for faster loan closing."
+          },
+          {
+            "name": "Portfolio Tools",
+            "description": "Tools for managing multiple investment property loans."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Interest rate-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Investment Loans",
+          "price": "Competitive rates (vary by loan type)",
+          "period": "per loan",
+          "features": [
+            "Fix-and-flip",
+            "Rental",
+            "New construction"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "4.8/5 star rating from borrowers",
+      "Available in 40+ states",
+      "Technology-driven fast funding",
+      "Billions in loans funded"
+    ],
+    "cons": [
+      "Non-owner-occupied properties only",
+      "Rates vary by borrower qualification and market",
+      "Rebranded from LendingHome to Kiavi"
+    ],
     "integrations": [],
     "company": {
-      "name": "LendingHome",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Kiavi (formerly LendingHome)",
+      "founded": 2013,
+      "headquarters": "San Francisco, CA",
+      "employees": "200-400",
+      "funding": "$300M+"
     },
     "categories": [
       "Broker Tools",
@@ -23019,11 +23264,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "lendinghome.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Interest rate-based",
     "is_free": false,
     "tagline": "Real estate investment loans for residential properties.",
     "property_types": [
@@ -23055,12 +23300,26 @@
     "url": "https://www.peerstreet.com",
     "logo_url": "https://logo.clearbit.com/peerstreet.com",
     "headline": "Real estate debt investment platform for accredited investors.",
-    "description": "PeerStreet is the first and largest online real estate debt investment platform that allows investors to invest in high-yield, short-term real estate loans without the hassle or expense of managing property. The platform operates as a two-sided marketplace, sourcing loans from a nationwide network of private lenders and brokers, then aggregating, servicing, and managing those loans for individual and institutional investors seeking fixed-income returns.",
+    "description": "PeerStreet was a real estate lending marketplace that connected investors with short-term real estate loans. The company filed for bankruptcy in 2023 after experiencing financial difficulties. PeerStreet allowed accredited investors to invest in real estate debt, providing an alternative to traditional fixed-income investments. The platform is no longer operational and investors should consult with the bankruptcy proceedings for information about existing investments.",
     "short_description": "Real estate debt investment platform for accredited investors.",
     "target_audience": "Individual investors and institutional investors seeking fixed-income returns through real estate debt investments, investors looking to diversify portfolios with real estate exposure without property management responsibilities, and accredited investors interested in short-term, high-yield real estate loans.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Real Estate Debt (Defunct)",
+        "features": [
+          {
+            "name": "Loan Marketplace",
+            "description": "Connected investors with short-term real estate loans (no longer available)."
+          },
+          {
+            "name": "Debt Investing",
+            "description": "Accredited investors could invest in real estate debt (discontinued)."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Defunct",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -23069,15 +23328,21 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Pioneered accessible real estate debt investing"
+    ],
+    "cons": [
+      "Filed for bankruptcy in 2023",
+      "Platform no longer operational",
+      "Existing investors face uncertainty"
+    ],
     "integrations": [],
     "company": {
-      "name": "PeerStreet",
-      "founded": null,
-      "headquarters": "",
+      "name": "PeerStreet (bankrupt)",
+      "founded": 2013,
+      "headquarters": "Los Angeles, CA",
       "employees": "",
-      "funding": ""
+      "funding": "$60M+ (before bankruptcy)"
     },
     "categories": [
       "Broker Tools",
@@ -23098,11 +23363,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "peerstreet.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Defunct",
     "is_free": false,
     "tagline": "Real estate debt investment platform for accredited investors.",
     "property_types": [
@@ -23888,12 +24153,30 @@
     "url": "https://www.rentpath.com",
     "logo_url": "https://logo.clearbit.com/rentpath.com",
     "headline": "Digital marketing solutions for multifamily and rental properties.",
-    "description": "RentPath (formerly operating Rent.com and ApartmentGuide.com) was a comprehensive rental listing and digital marketing platform that provided multifamily housing listing services and digital marketing solutions. As of June 15th, 2025, RentPath services have been discontinued and integrated into the Zillow Rentals Network, with Zillow becoming the sole provider of multifamily listings (25+ units) across the former RentPath network properties.",
+    "description": "RentPath was a digital marketing solutions provider for the rental housing industry, operating rental listing sites Rent.com, ApartmentGuide.com, and Rentals.com. RentPath was acquired by Redfin in 2021 out of bankruptcy. The platform connected renters with apartments and rental properties while providing landlords and property managers with marketing tools, lead generation, and online advertising solutions. RentPath's listing sites continue to operate under Redfin's ownership.",
     "short_description": "Digital marketing solutions for multifamily and rental properties.",
     "target_audience": "Formerly served multifamily property owners, property managers, and rental property operators. Current users must transition to Zillow for multifamily listings (25+ units) or use Redfin Rental Tools for single-family rentals and properties under 25 units.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Rental Marketing",
+        "features": [
+          {
+            "name": "Listing Sites",
+            "description": "Rent.com, ApartmentGuide.com, and Rentals.com listing platforms."
+          },
+          {
+            "name": "Lead Generation",
+            "description": "Marketing tools for landlords and property managers."
+          },
+          {
+            "name": "Online Advertising",
+            "description": "Digital advertising solutions for rental properties."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription (for landlords)",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -23902,15 +24185,25 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Multiple established listing sites with high traffic",
+      "Now part of Redfin ecosystem",
+      "Strong brand recognition among renters"
+    ],
+    "cons": [
+      "Went through bankruptcy before Redfin acquisition",
+      "Integration into Redfin ongoing",
+      "Market share challenged by Zillow and Apartments.com"
+    ],
+    "integrations": [
+      "Redfin"
+    ],
     "company": {
-      "name": "RentPath",
-      "founded": null,
-      "headquarters": "",
+      "name": "RentPath (Redfin)",
+      "founded": 1999,
+      "headquarters": "Atlanta, GA",
       "employees": "",
-      "funding": ""
+      "funding": "Acquired by Redfin in 2021"
     },
     "categories": [
       "Broker Tools",
@@ -23931,11 +24224,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "rentpath.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription (for landlords)",
     "is_free": false,
     "tagline": "Digital marketing solutions for multifamily and rental properties.",
     "property_types": [
@@ -24028,7 +24321,7 @@
     "url": "https://www.padmapper.com",
     "logo_url": "https://logo.clearbit.com/padmapper.com",
     "headline": "Rental listings and apartment search platform.",
-    "description": "PadMapper is a rental listings platform that helps users search for apartments and rental properties in various locations.",
+    "description": "PadMapper was a rental apartment and house search platform that aggregated listings from multiple sources into an interactive map-based search experience. PadMapper was acquired by Zumper and its functionality has been integrated into the Zumper platform. The PadMapper brand is no longer independently operational. Former PadMapper users are redirected to Zumper for apartment and rental search.",
     "short_description": "Rental listings and apartment search platform.",
     "target_audience": {
       "roles": [],
@@ -24037,9 +24330,23 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Rental Search (Acquired)",
+        "features": [
+          {
+            "name": "Map-Based Search",
+            "description": "Interactive map-based apartment search (now via Zumper)."
+          },
+          {
+            "name": "Listing Aggregation",
+            "description": "Aggregated listings from multiple sources (now via Zumper)."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Acquired by Zumper",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -24048,15 +24355,23 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Pioneered map-based rental search",
+      "Features live on through Zumper platform"
+    ],
+    "cons": [
+      "No longer independently operational",
+      "Users redirected to Zumper"
+    ],
+    "integrations": [
+      "Zumper"
+    ],
     "company": {
-      "name": "PadMapper",
-      "founded": null,
-      "headquarters": "",
+      "name": "PadMapper (acquired by Zumper)",
+      "founded": 2009,
+      "headquarters": "San Francisco, CA",
       "employees": "",
-      "funding": ""
+      "funding": "Acquired by Zumper"
     },
     "categories": [
       "Data & Analytics",
@@ -24078,11 +24393,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "padmapper.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Acquired by Zumper",
     "is_free": false,
     "tagline": "Rental listings and apartment search platform.",
     "property_types": [
@@ -24095,7 +24410,7 @@
     "url": "https://www.floored.com",
     "logo_url": "https://logo.clearbit.com/floored.com",
     "headline": "Virtual reality software for commercial real estate visualization.",
-    "description": "Floored provides virtual reality software for commercial real estate visualization, allowing users to explore properties in 3D.",
+    "description": "Floored was a 3D visualization and virtual tour technology company for commercial real estate. Floored was acquired by CBRE in 2017 and its technology has been integrated into CBRE's digital and technology offerings. The Floored platform created interactive 3D models of commercial spaces for leasing and marketing purposes. The technology continues to be used within CBRE's brokerage and property marketing services.",
     "short_description": "Virtual reality software for commercial real estate visualization.",
     "target_audience": {
       "roles": [],
@@ -24106,9 +24421,23 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "3D Visualization (Acquired)",
+        "features": [
+          {
+            "name": "3D Space Models",
+            "description": "Interactive 3D models of commercial spaces (now via CBRE)."
+          },
+          {
+            "name": "Virtual Tours",
+            "description": "Virtual property tours for leasing and marketing."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Acquired by CBRE",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -24117,15 +24446,23 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Pioneered 3D visualization for CRE",
+      "Technology integrated into CBRE's offerings"
+    ],
+    "cons": [
+      "No longer available as standalone product",
+      "Accessible only through CBRE services"
+    ],
+    "integrations": [
+      "CBRE"
+    ],
     "company": {
-      "name": "Floored",
-      "founded": null,
-      "headquarters": "",
+      "name": "Floored (acquired by CBRE)",
+      "founded": 2012,
+      "headquarters": "New York, NY",
       "employees": "",
-      "funding": ""
+      "funding": "Acquired by CBRE in 2017"
     },
     "categories": [
       "Construction & Development"
@@ -24144,11 +24481,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "floored.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Acquired by CBRE",
     "is_free": false,
     "tagline": "Virtual reality software for commercial real estate visualization.",
     "property_types": [
@@ -24163,28 +24500,63 @@
     "url": "https://credataextractor.com/",
     "logo_url": "https://logo.clearbit.com/credataextractor.com",
     "headline": "Stop manually extracting text from images of rent rolls, use CRE Data Extractor to get your rent roll into a csv format in minutes",
-    "description": "CRE Data Extractor is a specialized AI-powered tool designed for commercial real estate professionals to convert rent roll images into structured CSV data. The platform uses advanced AI models to automatically extract and digitize rent roll information from uploaded images, streamlining data entry and analysis processes for property managers and real estate analysts.",
+    "description": "CRE Data Extractor is a simple AI-powered tool that converts rent roll images into structured CSV data. Users upload an image of their rent roll (JPG, JPEG, PDF, or PNG), and the platform uses AI to extract and structure the data into a downloadable CSV file. Processing takes approximately 30 seconds to 2 minutes. The tool is designed for commercial real estate professionals who need to quickly digitize paper or image-based rent rolls for analysis in spreadsheets or financial models.",
     "short_description": "Stop manually extracting text from images of rent rolls, use CRE Data Extractor to get your rent roll into a csv format in minutes",
     "target_audience": "Commercial real estate professionals, property managers, real estate analysts, asset managers, and CRE professionals who regularly work with rent rolls and need to convert physical or image-based rent roll data into digital, analyzable formats.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Data Extraction",
+        "features": [
+          {
+            "name": "Rent Roll OCR",
+            "description": "Upload rent roll images and get structured CSV data in 30 seconds to 2 minutes."
+          },
+          {
+            "name": "Multiple Format Support",
+            "description": "Accepts JPG, JPEG, PNG, and PDF rent roll documents."
+          },
+          {
+            "name": "CSV Export",
+            "description": "Download clean, structured CSV for use in Excel or financial models."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Free/Freemium",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Rent roll image to CSV conversion"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Simple, focused tool that does one thing well",
+      "Free to use",
+      "Fast processing in under 2 minutes"
+    ],
+    "cons": [
+      "Limited to rent roll extraction only",
+      "AI may make mistakes\u2014requires manual verification",
+      "Basic tool with no additional CRE features"
+    ],
     "integrations": [],
     "company": {
       "name": "CRE Data Extractor",
-      "founded": null,
+      "founded": 2024,
       "headquarters": "",
-      "employees": "",
+      "employees": "1-5",
       "funding": ""
     },
     "categories": [
@@ -24207,11 +24579,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "credataextractor.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Free/Freemium",
     "is_free": false,
     "tagline": "Stop manually extracting text from images of rent rolls, use CRE Data Extractor to get your rent roll into a csv format in minutes",
     "property_types": [
@@ -24452,7 +24824,7 @@
     "url": "https://appraisalinbox.com",
     "logo_url": "https://logo.clearbit.com/appraisalinbox.com",
     "headline": "Appraisal Inbox combines appraisal order tracking, workflow automation, scheduling, contact management, and communication tools into one comprehensive real estate appraisal software package.",
-    "description": "Appraisal Inbox is an appraisal software designed for real estate appraisers. It combines order tracking, workflow automation, scheduling, contact management, and communication tools into one platform. This software helps appraisers streamline their appraisal business, from managing orders to delivering value to clients.\n\nThe software provides an appraisal assignment log that tracks orders through each step of the valuation process. This ensures appraisers are informed about the status of an order. Appraisal Inbox also includes a team calendar, scheduling features, and automated reminders to help appraisers meet client deadlines and deliver appraisals on time. Additionally, the software stores all order information and work files in a secure database with daily backups, providing search and filtering capabilities.\n\nAppraisal Inbox offers reporting tools that automatically calculate important business metrics. This helps appraisers make informed decisions by focusing on key trends. The software also makes collaboration simple, with configurable user roles and permissions, as well as automatic commission tracking.",
+    "description": "Appraisal Inbox is the operating system for real estate appraisers, providing an all-in-one platform for order tracking, scheduling, assignment, accounting, CRM, and team collaboration. Trusted by appraisal professionals since 2013, the platform replaces spreadsheets, disconnected tools, and outdated software with a comprehensive system. Features include smart order progress tracking through each valuation step, built-in team calendar with scheduling and automated reminders, team messaging for order-specific conversations, commission tracking, client CRM, secure workfile storage with daily backups, and activity feeds for audit trails.",
     "short_description": "Appraisal Inbox combines appraisal order tracking, workflow automation, scheduling, contact management, and communication tools into one comprehensive real estate appraisal software package.",
     "target_audience": {
       "roles": [],
@@ -24461,25 +24833,111 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Order Management",
+        "features": [
+          {
+            "name": "Order Tracking",
+            "description": "Track team's orders through each step of the valuation process."
+          },
+          {
+            "name": "Portal Push",
+            "description": "Push completed appraisals to AMC portals directly."
+          },
+          {
+            "name": "Order Forward",
+            "description": "Forward orders to team members with smart routing."
+          },
+          {
+            "name": "Smart Form",
+            "description": "Intake forms for capturing order details efficiently."
+          }
+        ]
+      },
+      {
+        "name": "Scheduling & Team",
+        "features": [
+          {
+            "name": "Team Calendar",
+            "description": "Built-in calendar with two-way sync to external calendars."
+          },
+          {
+            "name": "Commission Tracking",
+            "description": "Automatic commission split tracking for team members."
+          },
+          {
+            "name": "Team Messaging",
+            "description": "Order-specific conversations keeping everyone aligned."
+          },
+          {
+            "name": "Task Lists",
+            "description": "Customizable task lists for consistent appraisal workflows."
+          }
+        ]
+      },
+      {
+        "name": "CRM & Workfiles",
+        "features": [
+          {
+            "name": "Client CRM",
+            "description": "Organized, searchable client and contact management."
+          },
+          {
+            "name": "Secure Workfile Storage",
+            "description": "All order info and workfiles in secure database with daily backups."
+          },
+          {
+            "name": "Activity Feed",
+            "description": "Automatic tracking of important changes for audit trail."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "Order tracking",
+            "Team calendar",
+            "Commission tracking",
+            "CRM",
+            "Workfile storage"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Purpose-built for appraisers since 2013",
+      "All-in-one platform replaces multiple disconnected tools",
+      "Two-way calendar sync and team collaboration",
+      "Migration tool available for switching from Anow",
+      "Secure workfile storage with daily backups"
+    ],
+    "cons": [
+      "Pricing not publicly available",
+      "Niche tool for appraisers only",
+      "May lack advanced features of broader PM platforms"
+    ],
+    "integrations": [
+      "AMC portals",
+      "External calendars via two-way sync"
+    ],
     "company": {
       "name": "Appraisal Inbox",
-      "founded": null,
+      "founded": 2013,
       "headquarters": "",
-      "employees": "",
+      "employees": "5-15",
       "funding": ""
     },
     "categories": [
@@ -24503,11 +24961,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "appraisalinbox.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Appraisal Inbox combines appraisal order tracking, workflow automation, scheduling, contact management, and communication tools into one comprehensive real estate appraisal software package.",
     "property_types": [
@@ -24520,7 +24978,7 @@
     "url": "https://www.decobase.app/",
     "logo_url": "https://logo.clearbit.com/decobase.app",
     "headline": "Deco Base makes AI powered tools for Real Estate Developers. We help automate manual, document based workflows like Bank Draws and Plan Checks.",
-    "description": "Deco Base can ingest all of the documents that real estate developers are likely to come across - everything from investment documents, to invoices, to architectural plans, to loan docs, to insurance agreements. We automatically categorize and organize that data and use it to build a knowledge base of your project. You can model everything related to your project directly within Deco Base, or alternatively can download the extracted info to use in excel models. \n\nWith the knowledge base, Deco Base is able to automate and perfectly execute many of the document based tasks that developers have to do. Things like submitting bank draws, completing diligence requests, or responding to plan check comments. Additionally, Deco Base has an AI chat bot that has access to the full context of your projects.",
+    "description": "Deco Base was a platform for extracting structured data from messy CRE documents like OMs, loan docs, pro formas, and more. The platform used AI models from OpenAI, Gemini, and Anthropic to automatically detect document content and structure, extracting rent rolls, T-12s, budgets, schedules, and sources & uses with 99% accuracy. Note: Deco Base has been sunsetted and is no longer active. The platform featured side-by-side verification, Excel export, map view for organizing deal data geographically, and CRE-specific workflows. It positioned itself as a superior alternative to ChatGPT for CRE document processing.",
     "short_description": "Deco Base makes AI powered tools for Real Estate Developers. We help automate manual, document based workflows like Bank Draws and Plan Checks.",
     "target_audience": {
       "roles": [],
@@ -24529,9 +24987,27 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Document Extraction (Discontinued)",
+        "features": [
+          {
+            "name": "AI Document Parsing",
+            "description": "Automatically detected and extracted structured data from CRE documents."
+          },
+          {
+            "name": "99% Accuracy",
+            "description": "High accuracy with side-by-side verification against originals."
+          },
+          {
+            "name": "Excel Export",
+            "description": "Export standardized Excel files as starting points for custom models."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Discontinued",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -24540,12 +25016,19 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "99% accuracy for CRE document extraction",
+      "Supported multiple AI models (OpenAI, Gemini, Anthropic)",
+      "CRE-specific workflows and prebuilt prompts"
+    ],
+    "cons": [
+      "Product has been sunsetted and is no longer active",
+      "Users need alternative solutions for CRE document processing"
+    ],
     "integrations": [],
     "company": {
-      "name": "Deco Base",
-      "founded": null,
+      "name": "Deco Base (sunsetted)",
+      "founded": 2023,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -24573,11 +25056,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "decobase.app",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Discontinued",
     "is_free": false,
     "tagline": "Deco Base makes AI powered tools for Real Estate Developers. We help automate manual, document based workflows like Bank Draws and Plan Checks.",
     "property_types": [
@@ -24657,28 +25140,71 @@
     "url": "https://www.realie.ai/real-estate-data-api",
     "logo_url": "https://logo.clearbit.com/realie.ai",
     "headline": "details on 180 million property parcels",
-    "description": "Realie is an AI-powered real estate data API platform providing access to the most comprehensive property data available, with over 180 million properties directly sourced from local counties. The platform delivers blazingly fast, low-latency API access to comprehensive property insights with 100+ data fields, serving both enterprise users and individual developers with constantly updated, county-sourced real estate information.",
+    "description": "Realie Property Data API provides access to 180+ million US properties with 100+ comprehensive data fields, directly sourced from local counties with constant updates. The low-latency API delivers property insights for enterprise and individual users, including ownership data, tax records, property characteristics, and more. Realie offers custom enterprise solutions alongside standard API access, positioning itself as a developer-friendly real estate data provider for building applications and integrations.",
     "short_description": "details on 180 million property parcels",
     "target_audience": "Enterprise software developers building real estate applications, individual developers creating PropTech solutions, real estate technology companies requiring comprehensive property data, data analysts and researchers in real estate, and businesses needing reliable, fast access to property information for their platforms.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Property Data API",
+        "features": [
+          {
+            "name": "180M+ Properties",
+            "description": "Access property data for 180+ million US properties."
+          },
+          {
+            "name": "100+ Data Fields",
+            "description": "Comprehensive data including ownership, tax, and property characteristics."
+          },
+          {
+            "name": "County-Sourced",
+            "description": "Data directly sourced from local counties with constant updates."
+          },
+          {
+            "name": "Low-Latency API",
+            "description": "Lightning-fast API delivery for real-time integrations."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Free",
+      "model": "API usage-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "API Access",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "180M+ properties",
+            "100+ data fields",
+            "County-sourced data",
+            "Custom enterprise solutions"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "180M+ property database with 100+ fields",
+      "County-sourced for accuracy",
+      "Developer-friendly API documentation",
+      "Custom enterprise solutions available"
+    ],
+    "cons": [
+      "Pricing not publicly listed",
+      "Newer platform\u2014less established than competitors",
+      "API-only\u2014no user interface"
+    ],
     "integrations": [],
     "company": {
-      "name": "Realie Property Data API",
-      "founded": null,
+      "name": "Realie",
+      "founded": 2023,
       "headquarters": "",
-      "employees": "",
+      "employees": "5-15",
       "funding": ""
     },
     "categories": [
@@ -24704,11 +25230,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "realie.ai",
-    "pricing_model": "Free",
+    "pricing_model": "API usage-based",
     "is_free": false,
     "tagline": "details on 180 million property parcels",
     "property_types": [
@@ -24738,7 +25264,7 @@
     "url": "https://www.mapzot.ai/",
     "logo_url": "https://logo.clearbit.com/mapzot.ai",
     "headline": "MapZot.AI is an AI-powered platform that provides real-time insights into site selection, competitor analysis, and market trends to help businesses identify the most profitable locations.",
-    "description": "MapZot.AI is an advanced AI-powered platform designed to assist businesses in making data-driven site selection and market analysis decisions. By leveraging cutting-edge machine learning and geospatial analytics, MapZot.AI provides real-time insights into key factors such as competitor density, customer demographics, tourism trends, and economic conditions. This allows businesses\u2014especially in the hospitality, retail, and real estate industries\u2014to identify the most profitable locations for expansion or new development.\n\nWith its intuitive interface and powerful analytics, MapZot.AI simplifies complex data analysis, enabling users to assess market demand, understand consumer behavior, and optimize pricing strategies. Whether selecting a hotel site, opening a new store, or expanding a business, MapZot.AI delivers actionable intelligence to ensure strategic and profitable decision-making",
+    "description": "MapZot.AI is a data and AI platform for site selection, audience research, and sales forecasting. The platform helps multi-unit brands compare local and national chains with location data and actionable insights. MapZot.AI provides in-depth market analysis across industries, leveraging property-level precision data with over 92% accuracy, comprehensive categorization, and advanced data science capabilities. The platform serves coffee chains, franchise development companies, commercial real estate firms, and other multi-unit businesses seeking data-driven location decisions. MapZot.AI offers reliable privacy-safe data and deep insights into markets and trends.",
     "short_description": "MapZot.AI is an AI-powered platform that provides real-time insights into site selection, competitor analysis, and market trends to help businesses identify the most profitable locations.",
     "target_audience": {
       "roles": [],
@@ -24747,7 +25273,46 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Site Selection",
+        "features": [
+          {
+            "name": "Location Analytics",
+            "description": "Property-level precision data for evaluating potential sites."
+          },
+          {
+            "name": "Brand Comparison",
+            "description": "Compare local and national chains with detailed location data."
+          },
+          {
+            "name": "Market Analysis",
+            "description": "In-depth market analysis across multiple industries."
+          },
+          {
+            "name": "Sales Forecasting",
+            "description": "AI-powered revenue and performance forecasting for potential locations."
+          }
+        ]
+      },
+      {
+        "name": "Audience Research",
+        "features": [
+          {
+            "name": "Customer Insights",
+            "description": "Identify top customers and emerging visitation trends in real time."
+          },
+          {
+            "name": "Store Rankings",
+            "description": "Rank and compare store performance across your portfolio."
+          },
+          {
+            "name": "Privacy-Safe Data",
+            "description": "Accurate insights without compromising consumer privacy."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -24758,14 +25323,23 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "92%+ accuracy with advanced data science",
+      "Property-level precision for detailed analysis",
+      "Covers multiple industries for versatile use",
+      "AI-powered forecasting reduces expansion risk"
+    ],
+    "cons": [
+      "Pricing not publicly available",
+      "Newer platform with less track record",
+      "Best suited for multi-unit brands"
+    ],
     "integrations": [],
     "company": {
       "name": "MapZot.AI",
-      "founded": null,
+      "founded": 2022,
       "headquarters": "",
-      "employees": "",
+      "employees": "10-20",
       "funding": ""
     },
     "categories": [
@@ -24788,7 +25362,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "mapzot.ai",
@@ -24805,7 +25379,7 @@
     "url": "https://www.terraprime.estate/",
     "logo_url": "https://logo.clearbit.com/terraprime.estate",
     "headline": "TerraPrime is a SaaS platform that connects commercial real estate developers with investors, streamlining transactions and enabling cities to access global investment for sustainable local growth.",
-    "description": "TerraPrime is a groundbreaking, broker-free platform poised to transform the global commercial real estate industry. By directly connecting visionary developers with forward-thinking investors, TerraPrime eliminates traditional intermediaries, fostering seamless and efficient transactions. Its innovative TerraPublic initiative empowers cities, municipalities, and regional authorities to access global investment resources, driving sustainable local growth and urban development. With a user-centric, mobile-first design, TerraPrime offers an intuitive interface that streamlines high-value real estate partnerships, breaking down conventional networking barriers in the industry. By leveraging advanced technology and a commitment to transparency, TerraPrime is redefining how commercial real estate deals are conducted, making the process more accessible and efficient for all stakeholders involved.",
+    "description": "TerraPrime is a global platform connecting premium off-market real estate opportunities with institutional investors, buyers, and family offices. With a total deal volume of $10+ billion, TerraPrime serves as a private network for principals raising and deploying capital globally. The platform offers precision-driven property discovery using cutting-edge technology to match investors with premium properties aligned to their investment strategy\u2014whether commercial space in New York, industrial assets in Europe, or residential projects in Dubai. TerraPrime emphasizes trust, confidentiality, and opportunity, providing customizable filters, AI tools, and data-backed insights.",
     "short_description": "TerraPrime is a SaaS platform that connects commercial real estate developers with investors, streamlining transactions and enabling cities to access global investment for sustainable local growth.",
     "target_audience": {
       "roles": [],
@@ -24816,9 +25390,48 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Investment Marketplace",
+        "features": [
+          {
+            "name": "Off-Market Opportunities",
+            "description": "Premium off-market assets across global markets."
+          },
+          {
+            "name": "Smart Matching",
+            "description": "Technology matches investors with properties aligned to their strategy."
+          },
+          {
+            "name": "Custom Filters",
+            "description": "Dynamic filters by asset type, details, investment scale, and preferences."
+          },
+          {
+            "name": "Global Coverage",
+            "description": "Properties in New York, Europe, Dubai, and other major markets."
+          }
+        ]
+      },
+      {
+        "name": "Investor Tools",
+        "features": [
+          {
+            "name": "AI-Powered Insights",
+            "description": "Data-backed insights and AI tools for premium CRE analysis."
+          },
+          {
+            "name": "Capital Raising",
+            "description": "Platform for principals raising capital from institutional sources."
+          },
+          {
+            "name": "Confidential Network",
+            "description": "Private, trust-based network for discreet transactions."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Free",
+      "model": "Membership/Commission",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -24827,14 +25440,23 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "$10B+ deal volume demonstrates significant scale",
+      "Global off-market opportunities",
+      "AI-powered matching for investor-property alignment",
+      "Trust-based private network"
+    ],
+    "cons": [
+      "Institutional focus\u2014not for individual investors",
+      "Limited public information on pricing",
+      "Requires membership for access"
+    ],
     "integrations": [],
     "company": {
       "name": "TerraPrime",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "founded": 2020,
+      "headquarters": "Global",
+      "employees": "10-30",
       "funding": ""
     },
     "categories": [
@@ -24861,11 +25483,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "terraprime.estate",
-    "pricing_model": "Free",
+    "pricing_model": "Membership/Commission",
     "is_free": false,
     "tagline": "TerraPrime is a SaaS platform that connects commercial real estate developers with investors, streamlining transactions and enabling cities to access global investment for sustainable local growth.",
     "property_types": [
@@ -24880,7 +25502,7 @@
     "url": "https://latapult.com/",
     "logo_url": "https://logo.clearbit.com/latapult.com",
     "headline": "Latapult is a premier Geographic Information System (GIS) platform for anyone who needs to understand land.",
-    "description": "Latapult is a premier Geographic Information System (GIS) platform for anyone who needs to understand land. We arm our commercial and residential real estate clients with the most comprehensive, up-to-date data spanning the entire United States. From data layers detailing land ownership and zoning to points of interest, developers can search, manage, and evaluate land data 50x faster in Latapult based on exact specifications.\n\nBacked by GIS experts with roots in geospatial data analysis, Latapult is a trusted partner, helping land, commercial, and residential development professionals complete successful projects through collaborative tools and deep insights.",
+    "description": "Latapult is a GIS mapping software platform built on Esri and Cotality (CoreLogic) data, providing environmental, demographic, geospatial, and topographic insights through easy-to-use mapping tools. The platform simplifies complex GIS data for confident problem-solving and business decisions, offering seamless stakeholder collaboration with dynamic mapping, project tracking, and information sharing. Latapult serves land development, CRE, infrastructure, and environmental professionals with access to millions of dollars worth of regularly updated GIS data. The platform includes in-house geospatial experts for personalized support and can integrate with CRM or project management systems.",
     "short_description": "Latapult is a premier Geographic Information System (GIS) platform for anyone who needs to understand land.",
     "target_audience": {
       "roles": [],
@@ -24889,25 +25511,89 @@
         "Residential"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "GIS Mapping",
+        "features": [
+          {
+            "name": "Interactive Maps",
+            "description": "Cloud-based GIS mapping accessible anytime, anywhere with internet."
+          },
+          {
+            "name": "Environmental Data",
+            "description": "Environmental overlays including wetlands, flood zones, and soil types."
+          },
+          {
+            "name": "Demographic Data",
+            "description": "Population, income, and market demographic layers."
+          },
+          {
+            "name": "Topographic Data",
+            "description": "Elevation, terrain, and topographic information for site analysis."
+          }
+        ]
+      },
+      {
+        "name": "Collaboration",
+        "features": [
+          {
+            "name": "Project Tracking",
+            "description": "Track projects and site status with dynamic mapping tools."
+          },
+          {
+            "name": "Stakeholder Sharing",
+            "description": "Share plans and information with stakeholders easily."
+          },
+          {
+            "name": "CRM Integration",
+            "description": "Integrate GIS mapping with CRM or project management systems."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "annual",
+          "features": [
+            "GIS mapping",
+            "Data layers",
+            "Collaboration tools",
+            "Expert support"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Built on Esri and Cotality for reliable data",
+      "Simplifies complex GIS for non-technical users",
+      "In-house geospatial experts available",
+      "CRM integration capability"
+    ],
+    "cons": [
+      "Pricing not publicly available",
+      "Less well-known than major GIS platforms",
+      "May require onboarding for full utilization"
+    ],
+    "integrations": [
+      "Esri",
+      "Cotality",
+      "Various CRM systems"
+    ],
     "company": {
-      "name": "Latapult GIS",
-      "founded": null,
+      "name": "Latapult",
+      "founded": 2018,
       "headquarters": "",
-      "employees": "",
+      "employees": "20-50",
       "funding": ""
     },
     "categories": [
@@ -24929,11 +25615,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "latapult.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Latapult is a premier Geographic Information System (GIS) platform for anyone who needs to understand land.",
     "property_types": [
