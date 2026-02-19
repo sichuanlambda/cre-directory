@@ -564,7 +564,7 @@
     "url": "https://www.architecturehelper.com",
     "logo_url": "https://logo.clearbit.com/architecturehelper.com",
     "headline": "Architecture generation & analyzation software",
-    "description": "Summary: ArchitectureHelper.com is an innovative tool designed for architects, real estate developers, and urban planners to analyze architectural styles and building features. It provides AI-driven insights and visualizations to help users better understand historical and modern architectural trends. While incredibly powerful, its vast range of features may feel overwhelming for first-time users.\n\nFeatures:\n\nAI-powered architectural style analysis\nMap-based building visualizations\nDetailed reports on building design elements\nCustom data integrations\nPros:\n\nAdvanced AI-driven analysis of architectural styles\nProvides detailed and visual insights for building design\nIdeal for professionals in architecture and real estate development\nCons:\n\nCan be complex for new users to navigate initially\nSome features may be overkill for casual users or smaller projects\nRating: 4.6/5",
+    "description": "Architecture Helper is a resource platform for architecture students and professionals, offering educational content, tools, and guides related to architecture and design. The platform provides information on architectural software, design principles, and career guidance. While not a traditional CRE software product, Architecture Helper serves the broader real estate ecosystem by educating the next generation of architects and designers who create the built environment.",
     "short_description": "Architecture generation & analyzation software",
     "target_audience": {
       "roles": [],
@@ -573,25 +573,61 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Educational Resources",
+        "features": [
+          {
+            "name": "Software Guides",
+            "description": "Reviews and tutorials for architecture and design software tools."
+          },
+          {
+            "name": "Design Resources",
+            "description": "Educational content on architectural design principles and best practices."
+          },
+          {
+            "name": "Career Guidance",
+            "description": "Information and advice for architecture students and emerging professionals."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Free content",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Educational content",
+            "Software guides",
+            "Career resources"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Free educational resource for architecture students and professionals",
+      "Covers variety of architecture software and tools"
+    ],
+    "cons": [
+      "Not a CRE software product\u2014educational resource only",
+      "Limited to general architecture topics",
+      "No interactive tools or platform features"
+    ],
     "integrations": [],
     "company": {
       "name": "Architecture Helper",
-      "founded": null,
+      "founded": 2018,
       "headquarters": "",
-      "employees": "",
+      "employees": "1-5",
       "funding": ""
     },
     "categories": [
@@ -616,11 +652,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": true,
     "is_featured": false,
     "domain": "architecturehelper.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Free content",
     "is_free": false,
     "tagline": "Architecture generation & analyzation software",
     "property_types": [
@@ -786,7 +822,7 @@
     "url": "https://www.avisonyoung.com",
     "logo_url": "https://logo.clearbit.com/avisonyoung.com",
     "headline": "Global commercial real estate services.",
-    "description": "Avison Young is a global commercial real estate firm providing services such as brokerage, property management, investment, and advisory solutions. It helps clients with market research, site selection, and property management for various commercial assets.",
+    "description": "Avison Young is a global commercial real estate advisory firm powered by people, creating real economic, social, and environmental value. The company provides a full range of CRE services including property sales and leasing, investment management, project management, and strategic consulting. Avison Young's commercial real estate listings include office, industrial, retail, multi-family, and hospitality properties, as well as specialized spaces for healthcare, automotive, and self-storage. The firm emphasizes thought leadership through market reports, industry insights via Avison Young Sightlines, and a collaborative culture focused on long-term client success.",
     "short_description": "Global commercial real estate services.",
     "target_audience": {
       "roles": [],
@@ -797,9 +833,65 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Brokerage Services",
+        "features": [
+          {
+            "name": "Property Sales",
+            "description": "Investment sales advisory for commercial properties across all asset classes."
+          },
+          {
+            "name": "Leasing Services",
+            "description": "Tenant and landlord representation for office, industrial, retail, and specialty spaces."
+          },
+          {
+            "name": "Property Search",
+            "description": "Comprehensive listings database for commercial properties for sale or lease."
+          },
+          {
+            "name": "Specialized Properties",
+            "description": "Healthcare, automotive, self-storage, and hospitality property expertise."
+          }
+        ]
+      },
+      {
+        "name": "Advisory Services",
+        "features": [
+          {
+            "name": "Investment Management",
+            "description": "Real estate investment advisory and portfolio management."
+          },
+          {
+            "name": "Project Management",
+            "description": "Construction and development project management services."
+          },
+          {
+            "name": "Valuation & Appraisal",
+            "description": "Property valuation and appraisal services for informed decisions."
+          }
+        ]
+      },
+      {
+        "name": "Insights & Technology",
+        "features": [
+          {
+            "name": "Avison Young Sightlines",
+            "description": "Expert insights and analysis on CRE market trends and dynamics."
+          },
+          {
+            "name": "Market Reports",
+            "description": "Comprehensive market research and reports across sectors and geographies."
+          },
+          {
+            "name": "Thought Leadership",
+            "description": "Industry blog and research for data-driven decision making."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Service-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -808,15 +900,25 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Global presence with deep local market expertise",
+      "Full-service platform covering all CRE needs",
+      "Avison Young Sightlines provides valuable market intelligence",
+      "Collaborative culture focused on client outcomes",
+      "Covers all asset classes including specialty properties"
+    ],
+    "cons": [
+      "Services are relationship-based, not self-service technology",
+      "Primarily serves enterprise and institutional clients",
+      "Less technology-focused than pure proptech platforms"
+    ],
     "integrations": [],
     "company": {
       "name": "Avison Young",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2008,
+      "headquarters": "Toronto, Canada",
+      "employees": "5000+",
+      "funding": "Privately held (principal-led)"
     },
     "categories": [
       "Construction & Development",
@@ -838,11 +940,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "avisonyoung.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Service-based",
     "is_free": false,
     "tagline": "Global commercial real estate services.",
     "property_types": [
@@ -2061,7 +2163,7 @@
     "url": "https://www.citybldr.com",
     "logo_url": "https://logo.clearbit.com/citybldr.com",
     "headline": "Find and value off-market properties.",
-    "description": "Summary: CityBldr helps real estate professionals find and evaluate off-market properties, making it an excellent choice for developers and investors. Its valuation tools are particularly useful, though the platform\u2019s features may be overkill for casual users.\n\nFeatures:\n\nOff-market property search\nValuation tools for real estate development\nMarket analysis and property evaluation\nPros:\n\nGreat for developers and investors seeking off-market deals\nReliable valuation tools\nEasy property analysis\nCons:\n\nFeatures may be too advanced for casual users\nLimited to specific markets\nRating: 4.3/5",
+    "description": "CityBldr is an AI-powered site selection and development analysis platform for multifamily and commercial real estate developers. The platform identifies development sites 1,000x faster, provides 50x faster workflows at half the price of traditional methods. CityBldr automatically calculates buildable units for any site, shows market rents for every location, includes a built-in CRM for lead management, and offers comprehensive zoning information, environmental indicators, parking requirements, and cost analysis. The platform also features Assemblage AI for identifying land assembly opportunities, competitor analysis, and neighborhood analysis. Used by major developers including Essex Property Trust.",
     "short_description": "Find and value off-market properties.",
     "target_audience": {
       "roles": [],
@@ -2070,26 +2172,108 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Site Selection",
+        "features": [
+          {
+            "name": "Buildable Units Calculator",
+            "description": "Automatically determine how many units can be built on any site."
+          },
+          {
+            "name": "Zoning Information",
+            "description": "Comprehensive zoning data with permitted uses and development constraints."
+          },
+          {
+            "name": "Environmental Indicators",
+            "description": "Environmental risk and constraint data for potential development sites."
+          },
+          {
+            "name": "Assemblage AI",
+            "description": "AI identifies land assembly opportunities by combining adjacent parcels."
+          }
+        ]
+      },
+      {
+        "name": "Market Analysis",
+        "features": [
+          {
+            "name": "Rent Insights",
+            "description": "Market rent data for every site to support revenue projections."
+          },
+          {
+            "name": "Cost Analysis",
+            "description": "Development cost estimation for feasibility evaluation."
+          },
+          {
+            "name": "Competitor Analysis",
+            "description": "Analyze competing developments in the area."
+          },
+          {
+            "name": "Neighborhood Analysis",
+            "description": "Detailed neighborhood data for site evaluation."
+          }
+        ]
+      },
+      {
+        "name": "Workflow",
+        "features": [
+          {
+            "name": "Built-In CRM",
+            "description": "Unlimited CRM for managing leads without copy-paste between tools."
+          },
+          {
+            "name": "Owner Portfolio Data",
+            "description": "Property owner portfolio information for outreach."
+          },
+          {
+            "name": "Custom Filters",
+            "description": "Customizable data and filter options for targeted site searches."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "All features",
+            "Unlimited CRM",
+            "Buildable units",
+            "Rent insights"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "1,000x faster site identification than traditional methods",
+      "Automatic buildable unit calculations save development analysis time",
+      "Assemblage AI finds unique land assembly opportunities",
+      "Used by major developers like Essex Property Trust",
+      "Built-in CRM eliminates the need for separate tools"
+    ],
+    "cons": [
+      "Pricing not publicly available",
+      "Focused on development sites\u2014not general CRE analytics",
+      "Coverage may vary by market"
+    ],
     "integrations": [],
     "company": {
       "name": "CityBldr",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2017,
+      "headquarters": "Seattle, WA",
+      "employees": "10-30",
+      "funding": "$5M+"
     },
     "categories": [
       "Broker Tools",
@@ -2112,11 +2296,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "citybldr.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Find and value off-market properties.",
     "property_types": [
@@ -2705,7 +2889,7 @@
     "url": "https://www.cremodels.com",
     "logo_url": "https://logo.clearbit.com/cremodels.com",
     "headline": "Commercial real estate financial modeling.",
-    "description": "CREModels offers financial modeling, due diligence, and advisory services for commercial real estate. Their tools and services help developers, investors, and brokers assess the financial viability of real estate projects and transactions.",
+    "description": "CRE Models provides commercial real estate due diligence services, managed services, and enterprise software solutions for real estate acquisitions, development, and asset management teams. Their flagship product, the CRE Suite, is a SaaS platform for real estate financial modeling and underwriting with a familiar, intuitive interface. The platform features built-in mapping and demographics, export to PowerPoint and Word, unlimited version storage, simple secure sharing for distributed teams, standardized models with flexibility, portfolio roll-ups, and lightning-fast scenario analysis. CRE Models has extensive experience working with thousands of clients in the CRE industry.",
     "short_description": "Commercial real estate financial modeling.",
     "target_audience": {
       "roles": [],
@@ -2716,25 +2900,106 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Financial Modeling",
+        "features": [
+          {
+            "name": "CRE Suite",
+            "description": "SaaS platform for real estate financial modeling with familiar spreadsheet-like interface."
+          },
+          {
+            "name": "Scenario Analysis",
+            "description": "Lightning-fast scenario analysis for evaluating multiple investment outcomes."
+          },
+          {
+            "name": "Portfolio Roll-Ups",
+            "description": "Aggregate multiple property models into portfolio-level views."
+          },
+          {
+            "name": "Standardized Models",
+            "description": "Standardize underwriting models across teams while maintaining flexibility."
+          }
+        ]
+      },
+      {
+        "name": "Collaboration",
+        "features": [
+          {
+            "name": "Secure Sharing",
+            "description": "Simple, secure sharing for distributed teams working remotely."
+          },
+          {
+            "name": "Version Storage",
+            "description": "Unlimited version storage with complete model history."
+          },
+          {
+            "name": "Export Capabilities",
+            "description": "Export to PowerPoint and Word for presentations and reports."
+          }
+        ]
+      },
+      {
+        "name": "Data & Services",
+        "features": [
+          {
+            "name": "Built-In Mapping",
+            "description": "Integrated mapping and demographics for market analysis."
+          },
+          {
+            "name": "Due Diligence Services",
+            "description": "Managed due diligence and underwriting services."
+          },
+          {
+            "name": "Enterprise Solutions",
+            "description": "Custom enterprise solutions for large CRE organizations."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription + services",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "CRE Suite",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Financial modeling",
+            "Scenario analysis",
+            "Portfolio roll-ups",
+            "Collaboration tools"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Familiar interface reduces learning curve for finance teams",
+      "Standardizes underwriting across distributed teams",
+      "Lightning-fast scenario analysis speeds up decision making",
+      "Combined software + services offering for flexibility",
+      "Built-in mapping and demographics integration"
+    ],
+    "cons": [
+      "Pricing not publicly available",
+      "Less well-known than Argus or other enterprise CRE software",
+      "Website provides limited detail on capabilities"
+    ],
+    "integrations": [
+      "Microsoft PowerPoint",
+      "Microsoft Word"
+    ],
     "company": {
-      "name": "CREModels",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "name": "CRE Models",
+      "founded": 2013,
+      "headquarters": "Austin, TX",
+      "employees": "20-50",
       "funding": ""
     },
     "categories": [
@@ -2757,11 +3022,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "cremodels.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription + services",
     "is_free": false,
     "tagline": "Commercial real estate financial modeling.",
     "property_types": [
@@ -3390,7 +3655,7 @@
     "url": "https://www.enertiv.com",
     "logo_url": "https://logo.clearbit.com/enertiv.com",
     "headline": "Energy management for real estate.",
-    "description": "Summary: Enertiv offers an energy management platform specifically tailored to real estate professionals. It helps property managers reduce energy costs, though its niche focus may not appeal to those not prioritizing energy efficiency.\n\nFeatures:\n\nEnergy management tools for real estate\nMonitoring and analytics to reduce energy costs\nReal-time reporting on energy consumption\nPros:\n\nExcellent for energy efficiency in large properties\nReal-time analytics and insights\nHelps reduce operating costs\nCons:\n\nNiche focus on energy may not appeal to all users\nSetup can be complex for smaller properties\nRating: 4.1/5",
+    "description": "Enertiv is a portfolio-scale sustainability reporting and decarbonization platform for commercial real estate. The platform provides investor-grade ESG reporting, enabling CRE firms to capture utility data, monitor progress, and disclose environmental impact. Enertiv automates utility bill ingestion with quality assurance, provides on-demand greenhouse gas calculations, and seamlessly submits data to Energy Star, GRESB, SFDR, CSRD, and TCFD frameworks. The platform offers 100% utility data coverage through a combination of tenant portals, shadow metering hardware, and mobile apps for manual reads. Enertiv also provides asset-level decarbonization pathways, demand response, energy procurement, smart irrigation, and solar deployment solutions.",
     "short_description": "Energy management for real estate.",
     "target_audience": {
       "roles": [],
@@ -3399,7 +3664,84 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "ESG Reporting",
+        "features": [
+          {
+            "name": "Automated Utility Ingestion",
+            "description": "AI-powered utility bill data collection with robust quality assurance."
+          },
+          {
+            "name": "GHG Calculations",
+            "description": "On-demand greenhouse gas calculations without waiting months for consultants."
+          },
+          {
+            "name": "Framework Submissions",
+            "description": "Seamless data submission to Energy Star, GRESB, SFDR, CSRD, and TCFD."
+          },
+          {
+            "name": "Data Quality Dashboard",
+            "description": "AI-powered dashboard measuring data quality across consistency, completeness, and timeliness."
+          }
+        ]
+      },
+      {
+        "name": "Data Coverage",
+        "features": [
+          {
+            "name": "Tenant Portal",
+            "description": "Exclusive portal for tenants to upload bills, sign LOAs, and connect utility accounts."
+          },
+          {
+            "name": "Shadow Metering",
+            "description": "Non-proprietary devices for electric, water, and gas to fully automate data capture."
+          },
+          {
+            "name": "Mobile App",
+            "description": "QR code-based mobile app for rapid manual meter reads."
+          }
+        ]
+      },
+      {
+        "name": "Decarbonization",
+        "features": [
+          {
+            "name": "Carbon Planning",
+            "description": "Actionable decarbonization pathways grounded in asset-level on-site survey data."
+          },
+          {
+            "name": "Demand Response",
+            "description": "Earn cash from utilities through demand response programs."
+          },
+          {
+            "name": "Energy Procurement",
+            "description": "Use real consumption data to secure better energy rates."
+          },
+          {
+            "name": "Solar Deployments",
+            "description": "Pinpoint solar opportunities that maximize ROI at scale."
+          }
+        ]
+      },
+      {
+        "name": "Certifications",
+        "features": [
+          {
+            "name": "Building Certifications",
+            "description": "Support for Energy Star, LEED, BREEAM, IREM, and GreenGlobes certifications."
+          },
+          {
+            "name": "Portfolio Analytics",
+            "description": "Cross-portfolio sustainability analytics and benchmarking."
+          },
+          {
+            "name": "Investor Reporting",
+            "description": "Investor-grade sustainability reports meeting regulatory requirements."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -3410,15 +3752,29 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "100% utility data coverage through multi-strategy approach",
+      "AI-powered data quality dashboard ensures accuracy",
+      "Supports all major ESG frameworks: GRESB, SFDR, CSRD, TCFD",
+      "Asset-level decarbonization grounded in on-site reality",
+      "Replaces Measurabl for clients seeking more accurate data"
+    ],
+    "cons": [
+      "Enterprise pricing not publicly available",
+      "Shadow metering requires hardware installation",
+      "Focused on sustainability\u2014not a general CRE platform"
+    ],
+    "integrations": [
+      "Energy Star",
+      "GRESB",
+      "Various BMS systems"
+    ],
     "company": {
       "name": "Enertiv",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2013,
+      "headquarters": "New York, NY",
+      "employees": "50-100",
+      "funding": "$15M+"
     },
     "categories": [
       "Data & Analytics",
@@ -3438,7 +3794,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "enertiv.com",
@@ -3455,7 +3811,7 @@
     "url": "https://www.envoythere.com",
     "logo_url": "https://logo.clearbit.com/envoythere.com",
     "headline": "Automated vehicle-sharing platform.",
-    "description": "Envoy Technologies is a platform offering electric vehicle sharing for real estate properties, providing on-demand EV rentals to tenants and employees. It promotes sustainability and convenience in mobility solutions for properties.",
+    "description": "Envoy Technologies provides electric car sharing as a service for properties, offering on-demand electric vehicle mobility as a premium amenity for multifamily, commercial, and hospitality properties. The platform positions properties as hubs of sustainable, on-demand mobility, providing residents, guests, and employees with convenient access to electric vehicles. Envoy handles all details of the car sharing program, helping properties increase occupancy, reduce parking headaches, and differentiate with a forward-thinking amenity. The service transforms everyday convenience into an eco-luxury experience while supporting sustainability goals.",
     "short_description": "Automated vehicle-sharing platform.",
     "target_audience": {
       "roles": [],
@@ -3464,26 +3820,87 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Car Sharing Service",
+        "features": [
+          {
+            "name": "Electric Vehicle Fleet",
+            "description": "Dedicated electric vehicles stationed at properties for on-demand use."
+          },
+          {
+            "name": "On-Demand Booking",
+            "description": "Residents and guests book vehicles through mobile app."
+          },
+          {
+            "name": "Full-Service Management",
+            "description": "Envoy handles vehicle maintenance, charging, cleaning, and insurance."
+          },
+          {
+            "name": "Sustainability Tracking",
+            "description": "Track environmental impact including carbon emissions reduced."
+          }
+        ]
+      },
+      {
+        "name": "Property Benefits",
+        "features": [
+          {
+            "name": "Premium Amenity",
+            "description": "Differentiate your property with a forward-thinking mobility amenity."
+          },
+          {
+            "name": "Parking Optimization",
+            "description": "Reduce parking demand by providing shared mobility alternatives."
+          },
+          {
+            "name": "Occupancy Boost",
+            "description": "Attract residents who value sustainable and convenient amenities."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Service-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Property Partnership",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "EV fleet placement",
+            "Full-service management",
+            "Mobile app access",
+            "Usage reporting"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Turnkey service\u2014Envoy handles everything from vehicles to maintenance",
+      "Electric vehicles align with sustainability and ESG goals",
+      "Premium amenity differentiates properties in competitive markets",
+      "Reduces parking pressure at properties",
+      "Mobile app provides convenient on-demand access"
+    ],
+    "cons": [
+      "Requires dedicated parking spaces for vehicles and chargers",
+      "Limited to markets where Envoy operates",
+      "Usage-based revenue model requires sufficient resident adoption"
+    ],
     "integrations": [],
     "company": {
       "name": "Envoy Technologies",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2017,
+      "headquarters": "Los Angeles, CA",
+      "employees": "50-100",
+      "funding": "$40M+"
     },
     "categories": [
       "Broker Tools",
@@ -3503,11 +3920,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "envoythere.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Service-based",
     "is_free": false,
     "tagline": "Automated vehicle-sharing platform.",
     "property_types": [
@@ -3520,7 +3937,7 @@
     "url": "https://www.fifthwall.vc",
     "logo_url": "https://logo.clearbit.com/fifthwall.vc",
     "headline": "Real estate technology venture capital firm.",
-    "description": "Fifth Wall is a venture capital firm that invests in startups disrupting the real estate industry. It focuses on technology-driven innovations that modernize real estate operations, including PropTech, sustainability, and infrastructure.",
+    "description": "Fifth Wall is the largest venture capital firm focused on real estate technology (proptech), with over $3 billion in assets under management. The firm invests in technology companies that are transforming the global real estate industry, partnering with major real estate owners and operators as limited partners. Fifth Wall's LP base includes many of the world's largest real estate companies, creating a unique distribution advantage for portfolio companies. The firm invests across all stages from seed to growth and covers multiple themes including sustainability, construction tech, and building operations. Fifth Wall has backed notable companies like Opendoor, Blend, and Hippo.",
     "short_description": "Real estate technology venture capital firm.",
     "target_audience": {
       "roles": [],
@@ -3529,9 +3946,48 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Investment Focus",
+        "features": [
+          {
+            "name": "Proptech Venture Capital",
+            "description": "Invest in technology companies transforming the $280T global real estate industry."
+          },
+          {
+            "name": "Multi-Stage Investing",
+            "description": "Investment across seed, Series A, B, and growth stages."
+          },
+          {
+            "name": "Climate Technology",
+            "description": "Dedicated climate fund investing in sustainability and decarbonization tech."
+          },
+          {
+            "name": "Global Coverage",
+            "description": "Investments in proptech companies across North America, Europe, and Asia."
+          }
+        ]
+      },
+      {
+        "name": "Strategic Partnerships",
+        "features": [
+          {
+            "name": "Industry LP Base",
+            "description": "World's largest real estate companies as limited partners and strategic partners."
+          },
+          {
+            "name": "Portfolio Distribution",
+            "description": "Connect portfolio companies with LP network for customer acquisition."
+          },
+          {
+            "name": "Corporate Innovation",
+            "description": "Help real estate companies adopt and integrate new technologies."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "VC fund (not a product)",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -3540,15 +3996,25 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Largest proptech-focused VC with $3B+ in AUM",
+      "Strategic LP base creates unique distribution advantage",
+      "Notable portfolio includes Opendoor, Blend, and Hippo",
+      "Dedicated climate technology fund for sustainability",
+      "Deep real estate industry expertise and connections"
+    ],
+    "cons": [
+      "Not a product or service\u2014venture capital firm",
+      "Investments are for institutional and accredited investors only",
+      "Portfolio companies are separate entities with their own challenges"
+    ],
     "integrations": [],
     "company": {
       "name": "Fifth Wall",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2016,
+      "headquarters": "Los Angeles, CA",
+      "employees": "50-100",
+      "funding": "$3B+ AUM"
     },
     "categories": [
       "Broker Tools",
@@ -3570,11 +4036,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "fifthwall.vc",
-    "pricing_model": "Quote-based",
+    "pricing_model": "VC fund (not a product)",
     "is_free": false,
     "tagline": "Real estate technology venture capital firm.",
     "property_types": [
@@ -3651,7 +4117,7 @@
     "url": "https://www.fuelcre.com",
     "logo_url": "https://logo.clearbit.com/fuelcre.com",
     "headline": "Marketing platform for real estate.",
-    "description": "FUEL is a commercial real estate platform offering data-driven tools for brokers, investors, and developers. It helps users with deal analysis, market insights, and transaction management to optimize real estate investments.",
+    "description": "Fuel CRE has been acquired by RealPage and is now part of the RealPage Investment Management solutions suite. The platform provides AI-powered, data-driven solutions for real estate investment management including asset investment management (AIM), data management services, financial modeling, business intelligence, investor management, and investment accounting. The combined platform offers a single source of truth across financial, operational, valuation, loan, and metric data with automated data collection and AI/ML-driven ingestion. RealPage Investment Management helps firms make confident decisions with portfolio-wide visibility and enhanced investor interactions.",
     "short_description": "Marketing platform for real estate.",
     "target_audience": {
       "roles": [],
@@ -3662,7 +4128,63 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Investment Management",
+        "features": [
+          {
+            "name": "Asset Investment Management",
+            "description": "Comprehensive asset and portfolio management with multi-asset class support."
+          },
+          {
+            "name": "Financial Modeling",
+            "description": "SaaS-based discounted cash flow valuation and budget analysis tools."
+          },
+          {
+            "name": "Investment Accounting",
+            "description": "Streamlined approach to investment-level accounting."
+          },
+          {
+            "name": "Investor Management",
+            "description": "Tools to engage potential and current investors with secure portals."
+          }
+        ]
+      },
+      {
+        "name": "Data & Analytics",
+        "features": [
+          {
+            "name": "Data Management Services",
+            "description": "AI-powered data ingestion, validation, and quality assurance."
+          },
+          {
+            "name": "Data Quality Dashboard",
+            "description": "AI-powered dashboard measuring consistency, completeness, and timeliness."
+          },
+          {
+            "name": "Business Intelligence",
+            "description": "Dynamic visualizations, dashboards, KPIs, and benchmarking."
+          }
+        ]
+      },
+      {
+        "name": "Reporting",
+        "features": [
+          {
+            "name": "Investor Reporting",
+            "description": "Streamlined reporting and communication for investor transparency."
+          },
+          {
+            "name": "Portfolio Analytics",
+            "description": "Cross-portfolio analytics across all asset types and strategies."
+          },
+          {
+            "name": "Market Data",
+            "description": "Market data integration for benchmarking and investment optimization."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -3673,15 +4195,28 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Part of RealPage ecosystem with comprehensive CRE data",
+      "AI-powered data management ensures data quality",
+      "Multi-asset class support for diversified portfolios",
+      "End-to-end investment lifecycle coverage",
+      "Standard integrations with 3rd party property management systems"
+    ],
+    "cons": [
+      "Enterprise pricing\u2014not suitable for individual investors",
+      "Acquired by RealPage\u2014brand transition may cause confusion",
+      "Complex implementation for full platform deployment"
+    ],
+    "integrations": [
+      "Various property management systems",
+      "RealPage ecosystem"
+    ],
     "company": {
-      "name": "FUEL",
-      "founded": null,
-      "headquarters": "",
+      "name": "Fuel CRE (now RealPage Investment Management)",
+      "founded": 2014,
+      "headquarters": "Richardson, TX (RealPage)",
       "employees": "",
-      "funding": ""
+      "funding": "Acquired by RealPage (Thoma Bravo)"
     },
     "categories": [
       "Broker Tools",
@@ -3704,7 +4239,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "fuelcre.com",
@@ -3884,7 +4419,7 @@
     "url": "https://www.gobyinc.com",
     "logo_url": "https://logo.clearbit.com/gobyinc.com",
     "headline": "Sustainability management software.",
-    "description": "Goby offers sustainability and ESG management software tailored to real estate. Its platform helps companies track, report, and improve their environmental and energy performance across large property portfolios.",
+    "description": "Goby, now rebranded as Conservice ESG, is an ESG (Environmental, Social, Governance) reporting and sustainability platform for commercial real estate. The platform helps CRE firms capture data, monitor progress, and disclose positive impact across their portfolios. Conservice ESG features AI-powered software to digitize portfolios, a hybrid platform combining SaaS with strategic expertise for end-to-end sustainable growth, and an intuitive interface making ESG simpler and accessible. The platform provides guidance through ESG reporting frameworks, strategies, and actionable insights for systematic creation of scalable, cohesive ESG programs.",
     "short_description": "Sustainability management software.",
     "target_audience": {
       "roles": [],
@@ -3893,7 +4428,59 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Data Capture",
+        "features": [
+          {
+            "name": "AI-Powered Digitization",
+            "description": "AI software to digitize portfolio ESG data from various sources."
+          },
+          {
+            "name": "Utility Data Collection",
+            "description": "Automated collection and tracking of energy, water, and waste data."
+          },
+          {
+            "name": "Progress Monitoring",
+            "description": "Track sustainability metrics and progress toward ESG goals."
+          }
+        ]
+      },
+      {
+        "name": "Reporting & Disclosure",
+        "features": [
+          {
+            "name": "ESG Reporting",
+            "description": "Generate reports for major ESG disclosure frameworks."
+          },
+          {
+            "name": "Benchmarking",
+            "description": "Compare sustainability performance against industry standards."
+          },
+          {
+            "name": "Impact Disclosure",
+            "description": "Transparent disclosure of environmental and social impact."
+          }
+        ]
+      },
+      {
+        "name": "Strategic Services",
+        "features": [
+          {
+            "name": "ESG Strategy",
+            "description": "Expert guidance on developing scalable ESG programs."
+          },
+          {
+            "name": "Framework Navigation",
+            "description": "Help navigating the complex landscape of ESG reporting frameworks."
+          },
+          {
+            "name": "Continuous Improvement",
+            "description": "Data-driven recommendations for improving sustainability performance."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -3904,15 +4491,27 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "AI-powered software automates ESG data collection and analysis",
+      "Hybrid platform combines software with expert strategic guidance",
+      "Intuitive interface makes ESG accessible to non-specialists",
+      "Part of Conservice ecosystem with utility management expertise"
+    ],
+    "cons": [
+      "Rebranded from Goby to Conservice ESG\u2014potential confusion",
+      "Enterprise pricing not publicly available",
+      "Focused specifically on ESG\u2014not a general CRE platform"
+    ],
+    "integrations": [
+      "Conservice utility management",
+      "Various ESG frameworks"
+    ],
     "company": {
-      "name": "Goby",
-      "founded": null,
-      "headquarters": "",
+      "name": "Conservice ESG (formerly Goby)",
+      "founded": 2009,
+      "headquarters": "Logan, UT (Conservice)",
       "employees": "",
-      "funding": ""
+      "funding": "Acquired by Conservice"
     },
     "categories": [
       "AI & Automation",
@@ -3935,7 +4534,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "gobyinc.com",
@@ -4112,7 +4711,7 @@
     "url": "https://www.gethightower.com",
     "logo_url": "https://logo.clearbit.com/gethightower.com",
     "headline": "Commercial real estate management platform.",
-    "description": "Summary: Hightower is a commercial real estate management platform designed to streamline property management processes. Its intuitive interface and robust tools make it ideal for property managers overseeing large portfolios, though it may be excessive for smaller properties.\n\nFeatures:\n\nCommercial real estate property management\nLease tracking and management\nReporting tools for portfolio performance\nPros:\n\nStreamlines property management tasks\nEasy-to-use interface\nGreat reporting features for large portfolios\nCons:\n\nCan be too robust for smaller property managers\nSubscription cost may be high for individual users\nRating: 4.3/5",
+    "description": "Hightower was a commercial real estate leasing and asset management platform that has been acquired by VTS. The platform provided CRE landlords and brokers with tools for leasing pipeline management, deal tracking, stacking plans, and portfolio analytics. Note: The Hightower website is no longer accessible as the product has been fully integrated into VTS. Former Hightower users should contact VTS for continued service. The VTS platform continues to provide comprehensive leasing and asset management capabilities that incorporate Hightower's original functionality.",
     "short_description": "Commercial real estate management platform.",
     "target_audience": {
       "roles": [],
@@ -4123,9 +4722,44 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Leasing Management",
+        "features": [
+          {
+            "name": "Deal Tracking",
+            "description": "Track leasing deals from initial inquiry through executed lease."
+          },
+          {
+            "name": "Pipeline Management",
+            "description": "Visual leasing pipeline with deal stage tracking and analytics."
+          },
+          {
+            "name": "Stacking Plans",
+            "description": "Visual floor-by-floor view of tenant occupancy and availability."
+          }
+        ]
+      },
+      {
+        "name": "Portfolio Analytics",
+        "features": [
+          {
+            "name": "Portfolio Dashboard",
+            "description": "Overview of portfolio performance, occupancy, and revenue."
+          },
+          {
+            "name": "Reporting",
+            "description": "Customizable reports on leasing activity and portfolio metrics."
+          },
+          {
+            "name": "Market Comparisons",
+            "description": "Compare property performance against market benchmarks."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Subscription",
+      "model": "Acquired by VTS",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -4134,15 +4768,25 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Pioneer in CRE leasing technology",
+      "Now part of VTS\u2014the leading CRE leasing platform",
+      "Original functionality expanded within VTS ecosystem"
+    ],
+    "cons": [
+      "No longer available as standalone product\u2014merged into VTS",
+      "Website is no longer accessible",
+      "Users must transition to VTS platform"
+    ],
+    "integrations": [
+      "VTS"
+    ],
     "company": {
-      "name": "Hightower",
-      "founded": null,
-      "headquarters": "",
+      "name": "Hightower (acquired by VTS)",
+      "founded": 2013,
+      "headquarters": "New York, NY",
       "employees": "",
-      "funding": ""
+      "funding": "Acquired by VTS in 2016"
     },
     "categories": [
       "Data & Analytics"
@@ -4161,11 +4805,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "gethightower.com",
-    "pricing_model": "Subscription",
+    "pricing_model": "Acquired by VTS",
     "is_free": false,
     "tagline": "Commercial real estate management platform.",
     "property_types": [
