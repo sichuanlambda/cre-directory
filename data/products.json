@@ -9372,7 +9372,7 @@
     "url": "https://www.rethinkcrm.com",
     "logo_url": "https://logo.clearbit.com/rethinkcrm.com",
     "headline": "Commercial real estate CRM.",
-    "description": "Rethink CRM is a commercial real estate CRM platform that helps brokers manage client relationships, listings, and transactions.",
+    "description": "REthink CRM was a commercial real estate CRM platform built on the Salesforce platform, providing deal tracking, contact management, and property analytics for CRE brokers and firms. Note: The REthink CRM website domain has been taken over by an unrelated entity (gambling site), indicating the product has been discontinued. REthink CRM was known for being one of the early CRE-specific CRMs built on Salesforce, offering brokerage-focused features including commission tracking, comp management, and pipeline reporting.",
     "short_description": "Commercial real estate CRM.",
     "target_audience": {
       "roles": [],
@@ -9383,9 +9383,27 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "CRM (Discontinued)",
+        "features": [
+          {
+            "name": "Deal Tracking",
+            "description": "CRE-specific deal pipeline management on Salesforce."
+          },
+          {
+            "name": "Contact Management",
+            "description": "Relationship management for CRE brokers."
+          },
+          {
+            "name": "Commission Tracking",
+            "description": "Broker commission calculation and tracking."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Discontinued",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -9394,13 +9412,21 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Was an early CRE-specific CRM on Salesforce platform"
+    ],
+    "cons": [
+      "Product appears to be discontinued",
+      "Website domain taken over by unrelated entity",
+      "Users should seek alternative CRE CRM solutions"
+    ],
+    "integrations": [
+      "Salesforce (historical)"
+    ],
     "company": {
-      "name": "Rethink CRM",
-      "founded": null,
-      "headquarters": "",
+      "name": "REthink CRM (discontinued)",
+      "founded": 2009,
+      "headquarters": "Chicago, IL",
       "employees": "",
       "funding": ""
     },
@@ -9424,11 +9450,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "rethinkcrm.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Discontinued",
     "is_free": false,
     "tagline": "Commercial real estate CRM.",
     "property_types": [
@@ -9446,7 +9472,7 @@
     "url": "https://www.roam.com",
     "logo_url": "https://logo.clearbit.com/roam.com",
     "headline": "Global coworking and office space network.",
-    "description": "Roam offers co-living spaces across various locations, providing flexible living arrangements for remote workers and travelers.",
+    "description": "Note: The Roam website (roam.com) now appears to be a mobile phone company called Roam Mobile, unrelated to real estate. The original Roam real estate product may have been discontinued, pivoted, or acquired. If this was intended to reference a different Roam product in the real estate space, the URL may need to be updated. The website shows content about mobile phone connectivity services rather than commercial real estate.",
     "short_description": "Global coworking and office space network.",
     "target_audience": {
       "roles": [],
@@ -9455,9 +9481,19 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Note",
+        "features": [
+          {
+            "name": "Product Status Unknown",
+            "description": "The original Roam CRE product appears to no longer be available at this URL."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Unknown",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -9467,11 +9503,14 @@
     "screenshots": [],
     "video_url": null,
     "pros": [],
-    "cons": [],
+    "cons": [
+      "Product appears to be discontinued or URL has changed",
+      "Website now shows unrelated mobile phone company"
+    ],
     "integrations": [],
     "company": {
-      "name": "Roam",
-      "founded": null,
+      "name": "Roam (status unknown)",
+      "founded": 0,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -9493,11 +9532,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "roam.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Unknown",
     "is_free": false,
     "tagline": "Global coworking and office space network.",
     "property_types": [
@@ -10906,7 +10945,7 @@
     "url": "https://www.ten-x.com",
     "logo_url": "https://logo.clearbit.com/ten-x.com",
     "headline": "Transact commercial real estate online.",
-    "description": "Ten-X is a leading online commercial real estate auction platform that facilitates the buying and selling of commercial properties through transparent, digital auctions. The platform provides an efficient marketplace for distressed and performing commercial assets, enabling buyers and sellers to complete transactions with confidence. Ten-X combines technology with deep real estate expertise to streamline the commercial property transaction process, offering market insights, due diligence support, and comprehensive auction services.",
+    "description": "Ten-X is a leading online commercial real estate transaction platform that facilitates the buying and selling of CRE assets through technology-enabled auctions and negotiations. The platform streamlines the entire CRE sales process from marketing through closing, providing sellers with access to a large buyer network and buyers with transparent deal information. Ten-X has facilitated billions in CRE transactions across all asset types. Note: The Ten-X website blocked automated access (403 error) during research. The platform continues to be a prominent force in CRE sales technology.",
     "short_description": "Transact commercial real estate online.",
     "target_audience": {
       "roles": [
@@ -10930,19 +10969,95 @@
         "Distressed Assets"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Auction-based model - No upfront fees for buyers, seller fees based on final sale price",
+    "feature_groups": [
+      {
+        "name": "Transaction Platform",
+        "features": [
+          {
+            "name": "Online Auctions",
+            "description": "Technology-enabled auctions for CRE property sales with broad buyer access."
+          },
+          {
+            "name": "Negotiated Sales",
+            "description": "Online negotiation tools for direct buyer-seller transactions."
+          },
+          {
+            "name": "Deal Room",
+            "description": "Virtual deal room for due diligence document sharing and review."
+          },
+          {
+            "name": "Marketing",
+            "description": "Comprehensive property marketing to qualified buyer network."
+          }
+        ]
+      },
+      {
+        "name": "Buyer Tools",
+        "features": [
+          {
+            "name": "Property Search",
+            "description": "Browse available CRE properties across asset types."
+          },
+          {
+            "name": "Due Diligence",
+            "description": "Access property documents, financials, and inspection reports."
+          },
+          {
+            "name": "Bid Management",
+            "description": "Online bidding tools for auction participation."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Transaction-based",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Seller",
+          "price": "Commission on sale",
+          "period": "per transaction",
+          "features": [
+            "Property marketing",
+            "Buyer network access",
+            "Deal management"
+          ]
+        },
+        {
+          "name": "Buyer",
+          "price": "Buyer premium",
+          "period": "per transaction",
+          "features": [
+            "Property search",
+            "Due diligence access",
+            "Online bidding"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Billions in CRE transactions facilitated",
+      "Broad buyer network increases competition for sellers",
+      "Transparent online process reduces transaction friction",
+      "Supports all CRE asset types"
+    ],
+    "cons": [
+      "Website blocked access (403 error) during research",
+      "Auction format may not suit all sellers",
+      "Commission and buyer premium fees"
+    ],
     "integrations": [],
     "company": {
       "name": "Ten-X",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2009,
+      "headquarters": "Irvine, CA",
+      "employees": "100-200",
+      "funding": "Part of CoStar Group"
     },
     "categories": [
       "Construction & Development",
@@ -10963,11 +11078,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "ten-x.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Transaction-based",
     "is_free": false,
     "tagline": "Transact commercial real estate online.",
     "property_types": [
@@ -11272,7 +11387,7 @@
     "url": "https://www.thebrokerlist.com",
     "logo_url": "https://logo.clearbit.com/thebrokerlist.com",
     "headline": "Commercial real estate broker directory.",
-    "description": "The Broker List is the first online commercial real estate broker directory specifically designed for the CRE industry. The platform enables commercial real estate brokers to build SEO-optimized profiles, showcase their expertise, and connect with potential clients and referrals. Beyond directory services, the platform offers content marketing opportunities through blogging, vlogging, and podcasting, as well as property listing syndication to reach qualified prospects.",
+    "description": "TheBrokerList is the first online CRE broker directory designed to help commercial real estate brokers get found, build their network, and promote their expertise. The platform allows brokers to create SEO-optimized profiles that attract clients and referrals, share expertise through blogging, vlogging, or podcasting, syndicate property listings to reach real prospects, boost visibility through backlinks, connect with other brokers through search and filtering, and highlight professional affiliations. TheBrokerList serves as a networking and marketing hub for CRE professionals.",
     "short_description": "Commercial real estate broker directory.",
     "target_audience": {
       "roles": [
@@ -11295,19 +11410,105 @@
         "Investment Properties"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Freemium model - Basic profiles free, premium features available",
+    "feature_groups": [
+      {
+        "name": "Profile & Visibility",
+        "features": [
+          {
+            "name": "SEO-Optimized Profiles",
+            "description": "Build standout profiles that attract clients and referrals online."
+          },
+          {
+            "name": "Content Sharing",
+            "description": "Blog, vlog, or podcast on the platform to share expertise."
+          },
+          {
+            "name": "Backlink Building",
+            "description": "Boost online visibility through quality backlinks from the platform."
+          }
+        ]
+      },
+      {
+        "name": "Networking",
+        "features": [
+          {
+            "name": "Broker Search",
+            "description": "Search, filter, and discover CRE brokers by market, specialty, and more."
+          },
+          {
+            "name": "Affiliation Highlights",
+            "description": "Showcase professional organizations and industry affiliations."
+          },
+          {
+            "name": "Referral Network",
+            "description": "Connect with brokers for referrals across markets."
+          }
+        ]
+      },
+      {
+        "name": "Listings",
+        "features": [
+          {
+            "name": "Listing Syndication",
+            "description": "Promote CRE listings to reach qualified prospects."
+          },
+          {
+            "name": "Property Marketing",
+            "description": "Market commercial properties through the platform's network."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Basic profile",
+            "Broker search"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Enhanced profile",
+            "Listing syndication",
+            "Content sharing",
+            "Advanced features"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "First and largest online CRE broker directory",
+      "SEO-optimized profiles improve online discoverability",
+      "Free tier available for basic networking",
+      "Content sharing platform for thought leadership",
+      "Referral network connects brokers across markets"
+    ],
+    "cons": [
+      "Limited to broker networking\u2014not a transaction platform",
+      "Premium features require paid membership",
+      "Smaller user base compared to LinkedIn for professional networking"
+    ],
     "integrations": [],
     "company": {
-      "name": "The Broker List",
-      "founded": null,
+      "name": "theBrokerList",
+      "founded": 2012,
       "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "employees": "1-5",
+      "funding": "Self-funded"
     },
     "categories": [
       "Broker Tools",
@@ -11328,11 +11529,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "thebrokerlist.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Freemium",
     "is_free": false,
     "tagline": "Commercial real estate broker directory.",
     "property_types": [
@@ -13307,29 +13508,114 @@
     "url": "https://www.lightboxre.com/product/landvision/",
     "logo_url": "https://logo.clearbit.com/lightboxre.com",
     "headline": "Comprehensive location mapping software; analysis; & management for CRE. Source new deals; rule in & out parcels; do market & owner research.",
-    "description": "LightBox Vision (formerly LandVision) is a comprehensive nationwide property data and mapping platform that provides turnkey data analytics for commercial real estate professionals. The platform combines proprietary datasets including parcel boundaries, building footprints, ownership data, and zoning information in an easy-to-use mapping interface for site selection, investment analysis, and market research.",
+    "description": "LandVision, now rebranded as LightBox Vision, is a nationwide property data mapping platform from LightBox (formerly Digital Map Products). The platform provides real estate professionals with access to parcel boundaries, building footprints, ownership data, zoning information, and more through an interactive map-based interface. LightBox Vision is built on proprietary datasets including the industry-leading LightBox ID for connecting datasets, a proprietary geocoder using ML/AI, and zoning data with enhanced report ordering. The platform supports use cases including investment property search, market analysis, site selection, and comprehensive ownership research.",
     "short_description": "Comprehensive location mapping software; analysis; & management for CRE. Source new deals; rule in & out parcels; do market & owner research.",
     "target_audience": "Real estate professionals, builders and developers, site selection specialists, investors, commercial real estate analysts, non-profit organizations",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Property Data",
+        "features": [
+          {
+            "name": "Parcel Boundaries",
+            "description": "Nationwide parcel boundary maps with property details."
+          },
+          {
+            "name": "Building Footprints",
+            "description": "Building footprint data for commercial and residential structures."
+          },
+          {
+            "name": "Ownership Data",
+            "description": "Comprehensive property ownership information and history."
+          },
+          {
+            "name": "LightBox ID",
+            "description": "Industry-leading unique identifier connecting datasets across the platform."
+          }
+        ]
+      },
+      {
+        "name": "Mapping & Analytics",
+        "features": [
+          {
+            "name": "Interactive Map Platform",
+            "description": "User-friendly mapping application for property research and analysis."
+          },
+          {
+            "name": "Zoning Data",
+            "description": "Zoning codes, types, and enhanced zoning reports available in-platform."
+          },
+          {
+            "name": "AI Geocoder",
+            "description": "Proprietary geocoder using ML/AI for precise address matching."
+          },
+          {
+            "name": "Property Reports",
+            "description": "Detailed property reports with ownership, tax, and zoning data."
+          }
+        ]
+      },
+      {
+        "name": "Research Tools",
+        "features": [
+          {
+            "name": "Data Filtering",
+            "description": "Filter through property data by multiple criteria for targeted research."
+          },
+          {
+            "name": "Data Export",
+            "description": "Export data for further analysis in external tools."
+          },
+          {
+            "name": "Training Resources",
+            "description": "In-platform help resources, videos, and webinars."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "annual",
+          "features": [
+            "Parcel boundaries",
+            "Ownership data",
+            "Zoning data",
+            "Interactive maps"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Nationwide coverage with comprehensive property data",
+      "LightBox ID provides unique property linking across datasets",
+      "AI-powered geocoder for precise address matching",
+      "Part of LightBox ecosystem with extensive CRE data",
+      "Zoning data and report ordering available in-platform"
+    ],
+    "cons": [
+      "Pricing not publicly available",
+      "Rebranded from LandVision to LightBox Vision\u2014may cause confusion",
+      "Enterprise-oriented with complex feature set"
+    ],
+    "integrations": [
+      "LightBox ecosystem",
+      "Various CRE platforms"
+    ],
     "company": {
-      "name": "Landvision",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "LightBox (formerly Digital Map Products)",
+      "founded": 2000,
+      "headquarters": "Irvine, CA",
+      "employees": "500+",
+      "funding": "PE-backed"
     },
     "categories": [
       "Broker Tools",
@@ -13352,11 +13638,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "lightboxre.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Comprehensive location mapping software; analysis; & management for CRE. Source new deals; rule in & out parcels; do market & owner research.",
     "property_types": [
@@ -13724,29 +14010,91 @@
     "url": "https://www.mapwise.com/",
     "logo_url": "https://logo.clearbit.com/mapwise.com",
     "headline": "Map boundaries; property info. Basic research.",
-    "description": "MapWise is a specialized parcel mapping and research platform designed exclusively for Florida real estate professionals. With over 20 years of service since 2001, the platform provides comprehensive access to statewide tax roll data, parcel maps, and property information sourced from county Property Appraisers.",
+    "description": "MapWise is a Florida-focused parcel data and GIS mapping platform trusted by 2,000+ real estate professionals for over 20 years. The platform provides brokers, realtors, developers, appraisers, investors, bankers, surveyors, and engineers with interactive maps, statewide tax roll data, parcel maps sourced from county property appraisers, and multiple data overlays. Features include high-resolution aerials, flood zones, wetlands, soils, future land use, zoning, and more. MapWise offers two products: the GIS Map Viewer for desktop research and MapWise Explorer for mobile-friendly parcel search, with the ability to export data and create quality map graphics.",
     "short_description": "Map boundaries; property info. Basic research.",
     "target_audience": "Florida real estate brokers and realtors, property developers, appraisers, investors, bankers, surveyors, engineers, environmental scientists",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Mapping & Data",
+        "features": [
+          {
+            "name": "GIS Map Viewer",
+            "description": "Desktop mapping platform with parcel boundaries, ownership, and multiple data layers."
+          },
+          {
+            "name": "Statewide Tax Roll Data",
+            "description": "Florida tax roll data sourced directly from county property appraisers."
+          },
+          {
+            "name": "Parcel Search",
+            "description": "Search by owner name, PIN, address, and multiple other criteria."
+          },
+          {
+            "name": "Data Overlays",
+            "description": "High-res aerials, flood zones, wetlands, soils, zoning, and future land use."
+          }
+        ]
+      },
+      {
+        "name": "Mobile & Export",
+        "features": [
+          {
+            "name": "MapWise Explorer",
+            "description": "Mobile-friendly web app for parcel search and property info on the go."
+          },
+          {
+            "name": "Map Graphics",
+            "description": "Create quality map graphics for presentations and reports."
+          },
+          {
+            "name": "Data Export",
+            "description": "Export data for further analysis in external tools."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "annual",
+          "features": [
+            "GIS Map Viewer",
+            "Tax roll data",
+            "Parcel search",
+            "Data overlays",
+            "Export"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "20+ years serving Florida real estate professionals",
+      "2,000+ trusted users across diverse real estate disciplines",
+      "Comprehensive data overlays: flood zones, wetlands, soils, zoning",
+      "Data sourced directly from county property appraisers for accuracy",
+      "Both desktop and mobile platforms available"
+    ],
+    "cons": [
+      "Limited to Florida only\u2014no coverage outside the state",
+      "Pricing not publicly available",
+      "Legacy interface being gradually updated"
+    ],
     "integrations": [],
     "company": {
-      "name": "Mapwise",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "MapWise",
+      "founded": 2001,
+      "headquarters": "Florida",
+      "employees": "5-15",
+      "funding": "Self-funded"
     },
     "categories": [
       "AI & Automation",
@@ -13767,11 +14115,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "mapwise.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Map boundaries; property info. Basic research.",
     "property_types": [
@@ -14337,29 +14685,120 @@
     "url": "https://www.birdi.io/",
     "logo_url": "https://logo.clearbit.com/birdi.io",
     "headline": "Geospatial software for planning & assessments",
-    "description": "Birdi is a collaborative geospatial platform designed for technical and non-technical teams to work from shared maps and spatial data. While serving multiple industries including construction and mining, it provides geospatial tools relevant to real estate development and site analysis.",
+    "description": "Birdi is a collaborative geospatial platform that helps teams work from the same map by uploading, processing, and sharing geospatial insights from one centralized platform. The platform bridges the gap between GIS experts, operations teams, and decision-makers with real-time map collaboration, commenting directly on maps, activity feeds, role-based permissions, and view-only sharing links. Birdi offers AI-powered feature detection for inspection photos and aerial imagery, automated reporting, and digital twin capabilities. While not CRE-specific, Birdi is used in construction, infrastructure, agriculture, and real estate for site documentation, progress tracking, and property analysis.",
     "short_description": "Geospatial software for planning & assessments",
     "target_audience": "GIS specialists, construction teams, mining companies, infrastructure managers, real estate developers (as secondary market)",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Collaboration",
+        "features": [
+          {
+            "name": "Real-Time Map Collaboration",
+            "description": "Multiple team members work on the same map simultaneously."
+          },
+          {
+            "name": "Map Commenting",
+            "description": "Add comments and annotations directly on map locations."
+          },
+          {
+            "name": "Role-Based Access",
+            "description": "Roles and permissions for secure, appropriate data access."
+          },
+          {
+            "name": "View-Only Sharing",
+            "description": "Share maps via links without requiring recipients to sign up."
+          }
+        ]
+      },
+      {
+        "name": "AI & Analytics",
+        "features": [
+          {
+            "name": "AI Feature Detection",
+            "description": "AI-powered detection and labeling of features in aerial imagery."
+          },
+          {
+            "name": "Automated Reporting",
+            "description": "Generate reports from map data with AI-assisted summaries."
+          },
+          {
+            "name": "Image Segmentation",
+            "description": "Segment and analyze inspection photos and orthomosaics."
+          }
+        ]
+      },
+      {
+        "name": "Data Management",
+        "features": [
+          {
+            "name": "Orthomosaic Processing",
+            "description": "Upload and process drone imagery into maps and 3D models."
+          },
+          {
+            "name": "Elevation Models",
+            "description": "Digital elevation models for terrain analysis."
+          },
+          {
+            "name": "Centralized Storage",
+            "description": "All geospatial data, annotations, and reports in one place."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Basic mapping",
+            "Limited storage",
+            "Collaboration"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "AI features",
+            "Advanced analytics",
+            "Unlimited storage",
+            "Priority support"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Bridges gap between GIS experts and non-technical stakeholders",
+      "AI-powered feature detection reduces manual analysis time",
+      "Real-time collaboration keeps entire team aligned",
+      "No-signup sharing links make external collaboration easy",
+      "Free tier available for basic usage"
+    ],
+    "cons": [
+      "Not CRE-specific\u2014general geospatial platform",
+      "Advanced AI features require paid plans",
+      "Smaller platform compared to established GIS tools"
+    ],
+    "integrations": [
+      "DroneDeploy",
+      "Various drone hardware"
+    ],
     "company": {
       "name": "Birdi",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2018,
+      "headquarters": "Melbourne, Australia",
+      "employees": "10-30",
+      "funding": "$5M+"
     },
     "categories": [
       "AI & Automation",
@@ -14381,11 +14820,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "birdi.io",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Geospatial software for planning & assessments",
     "property_types": [
@@ -24573,7 +25012,7 @@
     "url": "https://proptracer.com",
     "logo_url": "https://logo.clearbit.com/proptracer.com",
     "headline": "PropTracer is the top U.S. skip-tracing platform that provides commercial and residential real estate professionals with accurate owner phone and email data in seconds.",
-    "description": "PropTracer is the best skip tracing platform in the United States. It allows commercial real estate agents, investors, and wholesalers to pull property owners' contact information (phone numbers and emails) with 95% accuracy. Our software works in real time, in seconds, and pierces through corporate structures like LLCs and LPs to identify the ultimate decision maker behind any commercial or residential property.\n\nPropTracer is affordable and unmatched in accuracy and data quality, making it a powerful tool for closing off-market deals, finding leads, and generating more opportunities for commercial and residential real estate professionals.",
+    "description": "PropTracer is an AI-powered property intelligence platform that delivers accurate owner contact information for commercial and residential properties. Trusted by industry leaders including CBRE, JLL, Cushman & Wakefield, Newmark, and Marcus & Millichap, the platform offers map-based search with bulk export, parcel boundary overlays, interactive parcel selection, and advanced filtering by ownership type, purchase date, equity, and more. PropTracer specializes in identifying true ownership behind LLCs and corporate entities, providing verified phone numbers, emails, and mailing addresses for property owners. Features include dynamic list building, viewport property discovery, and clean CSV exports ready for CRMs and direct mail.",
     "short_description": "PropTracer is the top U.S. skip-tracing platform that provides commercial and residential real estate professionals with accurate owner phone and email data in seconds.",
     "target_audience": {
       "roles": [],
@@ -24582,25 +25021,110 @@
         "Residential"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Property Search",
+        "features": [
+          {
+            "name": "Map Search",
+            "description": "Draw, filter, and segment properties in real-time on an interactive map."
+          },
+          {
+            "name": "Advanced Filters",
+            "description": "Filter by ownership type, purchase date, equity, occupancy, corporate vs individual, and more."
+          },
+          {
+            "name": "Parcel Boundaries",
+            "description": "Toggle parcel boundary overlays to see lot shapes and sizes."
+          },
+          {
+            "name": "Viewport Discovery",
+            "description": "See all properties in your current map view and refine with filters."
+          }
+        ]
+      },
+      {
+        "name": "Owner Intelligence",
+        "features": [
+          {
+            "name": "True Ownership Data",
+            "description": "AI-powered platform identifies real owners behind LLCs and corporate entities."
+          },
+          {
+            "name": "Corporate Entity Breakdown",
+            "description": "Go beyond the LLC to find the individuals behind commercial properties."
+          },
+          {
+            "name": "Verified Contact Info",
+            "description": "Phone numbers, emails, and mailing addresses verified for accuracy."
+          },
+          {
+            "name": "Ownership History",
+            "description": "Track ownership length and history for targeting long-term holders."
+          }
+        ]
+      },
+      {
+        "name": "List Building & Export",
+        "features": [
+          {
+            "name": "Dynamic Lists",
+            "description": "Save and reuse lists that stay current as data updates automatically."
+          },
+          {
+            "name": "Bulk Export",
+            "description": "Clean CSV exports with verified owners, phones, emails, and addresses."
+          },
+          {
+            "name": "Interactive Selection",
+            "description": "Click, draw shapes, or multi-select parcels for granular list building."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "Map search",
+            "Owner data",
+            "Contact info",
+            "List building",
+            "Export"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Trusted by top CRE firms: CBRE, JLL, Cushman & Wakefield",
+      "AI-powered true ownership identification behind LLCs",
+      "Dynamic lists that auto-update as data changes",
+      "Clean bulk exports ready for CRM and direct mail",
+      "Advanced filtering for highly targeted prospecting"
+    ],
+    "cons": [
+      "Pricing not publicly available",
+      "Data accuracy can vary for very recently transferred properties",
+      "Coverage may vary by market"
+    ],
+    "integrations": [
+      "Various CRM platforms via CSV export"
+    ],
     "company": {
       "name": "PropTracer",
-      "founded": null,
+      "founded": 2020,
       "headquarters": "",
-      "employees": "",
+      "employees": "10-30",
       "funding": ""
     },
     "categories": [
@@ -24624,11 +25148,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "proptracer.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "PropTracer is the top U.S. skip-tracing platform that provides commercial and residential real estate professionals with accurate owner phone and email data in seconds.",
     "property_types": [
