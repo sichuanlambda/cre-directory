@@ -782,7 +782,7 @@
     "url": "https://www.bisnow.com",
     "logo_url": "https://logo.clearbit.com/bisnow.com",
     "headline": "Commercial real estate news and events.",
-    "description": "Bisnow is a media platform focusing on commercial real estate news, events, and education. It provides insights, market trends, and networking opportunities for professionals in the real estate industry, primarily through its digital publications and live events.",
+    "description": "Bisnow is the largest commercial real estate media company, providing news, events, and career services to CRE professionals across major US and international markets. The platform covers 20+ markets including New York, Los Angeles, Chicago, London, and Dublin with daily newsletters, breaking news, and in-depth reporting on deals, development, investment, and market trends. Bisnow hosts hundreds of networking events annually including conferences, educational workshops, First Draft Live events, and premium experiences (Elevate, Ascent, Escape). The company also operates SelectLeaders, a CRE-focused job platform, and Top Talent career services. Bisnow's newsletters reach hundreds of thousands of CRE professionals.",
     "short_description": "Commercial real estate news and events.",
     "target_audience": {
       "roles": [],
@@ -793,26 +793,127 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "News & Media",
+        "features": [
+          {
+            "name": "Market-Specific News",
+            "description": "Daily CRE news coverage across 20+ US and international markets."
+          },
+          {
+            "name": "Daily Newsletters",
+            "description": "Free email newsletters with breaking news and market updates."
+          },
+          {
+            "name": "Insider Access",
+            "description": "Premium newsletter subscriptions with deeper analysis and insights."
+          },
+          {
+            "name": "Press Releases",
+            "description": "BisWire platform for distributing CRE press releases."
+          }
+        ]
+      },
+      {
+        "name": "Events & Networking",
+        "features": [
+          {
+            "name": "Industry Conferences",
+            "description": "Hundreds of annual networking events across major CRE markets."
+          },
+          {
+            "name": "Educational Workshops",
+            "description": "Focused learning sessions on CRE topics and skills."
+          },
+          {
+            "name": "Premium Experiences",
+            "description": "Exclusive Elevate, Ascent, and Escape events for senior professionals."
+          },
+          {
+            "name": "Speaking Opportunities",
+            "description": "Apply to speak at Bisnow events and share industry expertise."
+          }
+        ]
+      },
+      {
+        "name": "Careers",
+        "features": [
+          {
+            "name": "Top Talent",
+            "description": "Career services platform connecting CRE professionals with opportunities."
+          },
+          {
+            "name": "SelectLeaders",
+            "description": "CRE-focused job board for hiring and recruiting."
+          },
+          {
+            "name": "Employer Portal",
+            "description": "Tools for companies to post jobs and recruit CRE talent."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Freemium + sponsorship",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Daily newsletters",
+            "News access",
+            "Event calendar"
+          ]
+        },
+        {
+          "name": "Insider Access",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Premium newsletters",
+            "Deeper analysis",
+            "Exclusive content"
+          ]
+        },
+        {
+          "name": "Event Tickets",
+          "price": "Varies by event",
+          "period": "per event",
+          "features": [
+            "Networking",
+            "Panel discussions",
+            "Industry connections"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Largest CRE media company with unmatched market coverage",
+      "Free daily newsletters keep professionals informed",
+      "Hundreds of annual networking events across major markets",
+      "SelectLeaders is the leading CRE job platform",
+      "Covers 20+ markets including international (London, Dublin)"
+    ],
+    "cons": [
+      "Premium content requires paid subscription",
+      "Event ticket prices can be high",
+      "Sponsored content may blend with editorial coverage"
+    ],
     "integrations": [],
     "company": {
-      "name": "Bisnow",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Bisnow Media",
+      "founded": 2005,
+      "headquarters": "Washington, D.C.",
+      "employees": "200-400",
+      "funding": "Acquired by private equity"
     },
     "categories": [
       "CRM & Marketing",
@@ -833,11 +934,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "bisnow.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Freemium + sponsorship",
     "is_free": false,
     "tagline": "Commercial real estate news and events.",
     "property_types": [
@@ -3689,7 +3790,7 @@
     "url": "https://www.happy.co",
     "logo_url": "https://logo.clearbit.com/happy.co",
     "headline": "Real-time operations management for property managers.",
-    "description": "HappyCo is a maintenance centralization platform designed for multifamily property management. The company provides tools for inspections, maintenance, unit turns, and property management workflows to boost efficiency and reduce operational costs. Their flagship Happy Force product offers on-call maintenance services with fast response times, while Happy Property provides comprehensive property management tools. HappyCo helps property managers prevent maintenance issues, reduce liability, and improve NOI through centralized operations.",
+    "description": "HappyCo is a multifamily technology platform focused on maintenance centralization and property inspections. The platform helps property managers and owners reduce operational inefficiencies, improve resident satisfaction, and boost NOI through AI-powered maintenance coordination. HappyCo's Happy Force product provides 24/7 maintenance response with 3-minute response times and 12-minute issue resolution. The Insights product provides automated daily reports on portfolio inspections and top issues. HappyCo has helped clients raise NOI by 1.2% ($1.5M for one client) by preventing neglected items from deteriorating, reducing liability, and driving down replacement costs. The platform supports make-ready processes achieving 2.7-day average turns.",
     "short_description": "Real-time operations management for property managers.",
     "target_audience": {
       "roles": [
@@ -3707,19 +3808,97 @@
         "Residential"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Quote-based - Contact for pricing",
+    "feature_groups": [
+      {
+        "name": "Maintenance Centralization",
+        "features": [
+          {
+            "name": "Happy Force",
+            "description": "24/7 centralized maintenance coordination with 3-minute response times."
+          },
+          {
+            "name": "AI-Powered Triage",
+            "description": "Automated issue classification and routing for faster resolution."
+          },
+          {
+            "name": "Make-Ready Management",
+            "description": "Streamlined unit turn process achieving as fast as 2.7-day average turns."
+          },
+          {
+            "name": "Vendor Management",
+            "description": "Coordinate with service providers and track repair completion."
+          }
+        ]
+      },
+      {
+        "name": "Inspections",
+        "features": [
+          {
+            "name": "Mobile Inspections",
+            "description": "Conduct property inspections from mobile devices with photo documentation."
+          },
+          {
+            "name": "Inspection Templates",
+            "description": "Customizable inspection checklists for different property and unit types."
+          },
+          {
+            "name": "Compliance Tracking",
+            "description": "Track inspection completion against company compliance goals."
+          }
+        ]
+      },
+      {
+        "name": "Analytics & Insights",
+        "features": [
+          {
+            "name": "Insights Dashboard",
+            "description": "Automated daily reports on portfolio inspections and top issues for executives."
+          },
+          {
+            "name": "NOI Impact Tracking",
+            "description": "Measure the financial impact of maintenance and inspection programs."
+          },
+          {
+            "name": "Portfolio Analytics",
+            "description": "Cross-property analytics for identifying trends and budget decisions."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": []
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "3-minute response time and 12-minute resolution dramatically improves resident satisfaction",
+      "Proven to raise NOI by 1.2% through preventive maintenance",
+      "Make-ready turns as fast as 2.7 days reduces vacancy loss",
+      "Automated daily executive reports keep leadership informed",
+      "SOC 2 compliant with enterprise-grade security"
+    ],
+    "cons": [
+      "Enterprise pricing not publicly available",
+      "Primarily focused on multifamily\u2014limited applicability for other property types",
+      "Requires cultural shift toward centralized maintenance operations"
+    ],
+    "integrations": [
+      "Yardi",
+      "RealPage",
+      "Entrata",
+      "MRI Software"
+    ],
     "company": {
       "name": "HappyCo",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2011,
+      "headquarters": "Palo Alto, CA",
+      "employees": "100-200",
+      "funding": "$60M+"
     },
     "categories": [
       "Broker Tools",
@@ -3742,7 +3921,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "happy.co",
@@ -7891,7 +8070,7 @@
     "url": "https://www.saltmine.com",
     "logo_url": "https://logo.clearbit.com/saltmine.com",
     "headline": "Workplace design and management platform.",
-    "description": "Saltmine is a modern platform for planning and designing workspaces, built by architects and real estate professionals specifically for corporate real estate teams. The platform combines space planning, test fitting, scenario planning, and visualization tools with built-in intelligence to help CRE teams create better spaces, speed up execution, and make data-driven decisions with confidence. Saltmine helps eliminate costly mistakes and reduces typical project turnaround times by 70-90% while optimizing space usage and reducing change orders.",
+    "description": "Saltmine is a modern workplace planning and design platform built by architects and real estate professionals for corporate real estate (CRE) teams. The platform enables space programming, test fitting, visualization, and project delivery with intelligence woven throughout. Saltmine helps CRE teams plan workspaces 70-90% faster, reduce change orders by 5-10%, and optimize space use by 3-5%. A global financial services firm used Saltmine to test-fit 10 sites in a single week, and a global insurance firm avoided a planned expansion by identifying 4% latent capacity\u2014saving over $6M in rent. The platform offers unlimited users with no special skills required and is SOC 2 compliant.",
     "short_description": "Workplace design and management platform.",
     "target_audience": {
       "roles": [
@@ -7912,19 +8091,112 @@
         "Mixed-Use"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Quote-based - Unlimited users included, contact for pricing and demo",
+    "feature_groups": [
+      {
+        "name": "Space Planning",
+        "features": [
+          {
+            "name": "Space Programming",
+            "description": "Define workspace requirements and generate space programs 70-90% faster."
+          },
+          {
+            "name": "Test Fitting",
+            "description": "Rapidly test-fit multiple sites with automated layout generation."
+          },
+          {
+            "name": "Scenario Comparisons",
+            "description": "Compare multiple workspace scenarios side-by-side for confident decisions."
+          },
+          {
+            "name": "Portfolio Optimization",
+            "description": "Identify latent capacity and optimize real estate footprint across portfolio."
+          }
+        ]
+      },
+      {
+        "name": "Design & Visualization",
+        "features": [
+          {
+            "name": "Workspace Visualization",
+            "description": "Visualize workspace designs with realistic renderings and layouts."
+          },
+          {
+            "name": "Design Guidelines",
+            "description": "Encode your workplace standards and design guidelines into the platform."
+          },
+          {
+            "name": "Space Calculators",
+            "description": "Data-driven space calculators based on your standards and occupancy data."
+          }
+        ]
+      },
+      {
+        "name": "Data & Analytics",
+        "features": [
+          {
+            "name": "Spatial Data Insights",
+            "description": "Built-in analytics to spot inefficiencies and plan with precision."
+          },
+          {
+            "name": "Cost Analysis",
+            "description": "Real-time cost implications of design decisions for budget management."
+          },
+          {
+            "name": "Utilization Tracking",
+            "description": "Track space utilization to inform future planning decisions."
+          }
+        ]
+      },
+      {
+        "name": "Collaboration",
+        "features": [
+          {
+            "name": "Team Collaboration",
+            "description": "One platform where all stakeholders stay aligned with real-time updates."
+          },
+          {
+            "name": "Unlimited Users",
+            "description": "Every customer gets unlimited users with no special skills required."
+          },
+          {
+            "name": "Dedicated Customer Success",
+            "description": "Training and dedicated customer success managers for ongoing support."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": []
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "70-90% faster space programming eliminates weeks of waiting",
+      "5-10% reduction in change orders saves significant project costs",
+      "3-5% smarter space use translates to real rent savings",
+      "Unlimited users with no special skills required",
+      "SOC 2 compliant with enterprise-grade AWS security"
+    ],
+    "cons": [
+      "Enterprise pricing not publicly available",
+      "4-8 week implementation timeline",
+      "Requires quality data inputs for optimal results"
+    ],
+    "integrations": [
+      "Revit",
+      "AutoCAD"
+    ],
     "company": {
       "name": "Saltmine",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2018,
+      "headquarters": "New York, NY",
+      "employees": "50-100",
+      "funding": "$20M+"
     },
     "categories": [
       "Construction & Development",
@@ -7946,7 +8218,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "saltmine.com",
@@ -13881,7 +14153,7 @@
     "url": "https://www.redfin.com",
     "logo_url": "https://logo.clearbit.com/redfin.com",
     "headline": "Real estate brokerage offering homes for sale, pricing insights, and services.",
-    "description": "Redfin is a real estate brokerage offering homes for sale, pricing insights, and services to help buyers and sellers navigate the real estate market.",
+    "description": "Redfin is a technology-powered real estate brokerage operating across the United States and Canada. The company combines its own real estate agents with proprietary technology to provide home buying and selling services at lower commission rates than traditional brokerages. Redfin's website and mobile app offer comprehensive home search with MLS data, 3D walkthroughs, and neighborhood insights. The platform provides tools for buyers including scheduling tours and making offers online, and for sellers including the Redfin Estimate home valuation tool. Note: Redfin's website blocked automated access during research. Redfin is publicly traded (NASDAQ: RDFN) and has facilitated billions in real estate transactions.",
     "short_description": "Real estate brokerage offering homes for sale, pricing insights, and services.",
     "target_audience": {
       "roles": [],
@@ -13890,26 +14162,136 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Home Search",
+        "features": [
+          {
+            "name": "MLS Home Search",
+            "description": "Comprehensive home search with real-time MLS data, photos, and 3D walkthroughs."
+          },
+          {
+            "name": "Redfin Estimate",
+            "description": "Proprietary home valuation tool providing estimated market values for properties."
+          },
+          {
+            "name": "Neighborhood Insights",
+            "description": "Data on schools, walkability, transit, and local amenities for every listing."
+          },
+          {
+            "name": "Saved Searches & Alerts",
+            "description": "Save search criteria and receive instant notifications for new listings."
+          }
+        ]
+      },
+      {
+        "name": "Buying",
+        "features": [
+          {
+            "name": "Redfin Agents",
+            "description": "In-house agents with local expertise and lower buyer commission rates."
+          },
+          {
+            "name": "Online Tour Scheduling",
+            "description": "Schedule home tours directly through the app or website."
+          },
+          {
+            "name": "Offer Management",
+            "description": "Submit and manage offers online with Redfin agent support."
+          },
+          {
+            "name": "Redfin Mortgage",
+            "description": "Integrated mortgage services for a streamlined buying experience."
+          }
+        ]
+      },
+      {
+        "name": "Selling",
+        "features": [
+          {
+            "name": "Low Listing Fees",
+            "description": "Sell your home with lower listing fees compared to traditional 6% commissions."
+          },
+          {
+            "name": "Professional Photography",
+            "description": "Professional photos and 3D virtual tours included with listing services."
+          },
+          {
+            "name": "Comparative Market Analysis",
+            "description": "Data-driven pricing strategy based on comparable sales and market trends."
+          }
+        ]
+      },
+      {
+        "name": "Market Data",
+        "features": [
+          {
+            "name": "Market Trends",
+            "description": "Detailed local and national housing market data and trend reports."
+          },
+          {
+            "name": "Housing Market Reports",
+            "description": "Monthly and weekly reports on prices, inventory, and market conditions."
+          },
+          {
+            "name": "Recently Sold Data",
+            "description": "Access to recently sold properties with sale prices and details."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Commission-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Buyer",
+          "price": "Varies by market",
+          "period": "per transaction",
+          "features": [
+            "Redfin agent",
+            "Home search",
+            "Tour scheduling",
+            "Offer support"
+          ]
+        },
+        {
+          "name": "Seller",
+          "price": "1-1.5% listing fee",
+          "period": "per transaction",
+          "features": [
+            "Professional photography",
+            "MLS listing",
+            "Agent support",
+            "Marketing"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Lower commission rates than traditional brokerages save sellers money",
+      "Excellent home search technology with real-time MLS data",
+      "Redfin Estimate provides instant property valuations",
+      "Integrated mortgage and title services streamline transactions",
+      "Publicly traded company with strong brand recognition"
+    ],
+    "cons": [
+      "Website blocks automated access\u2014aggressive bot protection",
+      "Agent availability varies by market",
+      "Lower commissions may mean less personalized service in some cases"
+    ],
     "integrations": [],
     "company": {
-      "name": "Redfin",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Redfin Corporation",
+      "founded": 2004,
+      "headquarters": "Seattle, WA",
+      "employees": "4000+",
+      "funding": "Public company (NASDAQ: RDFN)"
     },
     "categories": [
       "CRM & Marketing",
@@ -13932,11 +14314,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "redfin.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Commission-based",
     "is_free": false,
     "tagline": "Real estate brokerage offering homes for sale, pricing insights, and services.",
     "property_types": [
@@ -14844,7 +15226,7 @@
     "url": "https://www.sierrainteractive.com",
     "logo_url": "https://logo.clearbit.com/sierrainteractive.com",
     "headline": "Real estate lead generation and CRM software.",
-    "description": "Sierra Interactive offers lead generation and CRM software specifically for real estate professionals.",
+    "description": "Sierra Interactive is a real estate platform focused on IDX websites, CRM, and marketing automation that helps agents and teams differentiate their brand and personalize lead nurture. The platform stands out with proprietary IDX website integration that boosts SEO rankings, a campaign builder for personalized messaging sequences triggered by lead behavior, and easy integration with favorite tools. Sierra Interactive has helped teams generate 2,500 monthly leads, cut cost per conversion by 37%, and increase leads by 1,000%. The platform includes an embedded dialer, lead ponds and router, action plans with reporting, agent accountability dashboards, and digital ad management for Google and Facebook.",
     "short_description": "Real estate lead generation and CRM software.",
     "target_audience": {
       "roles": [],
@@ -14853,25 +15235,153 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "IDX Website",
+        "features": [
+          {
+            "name": "Proprietary IDX Integration",
+            "description": "Out-of-the-box IDX that boosts SEO rankings higher and faster than competitors."
+          },
+          {
+            "name": "Community Pages",
+            "description": "Custom pages for sub-communities and neighborhoods for local market authority."
+          },
+          {
+            "name": "Brand Personalization",
+            "description": "Full customization to differentiate your brand instead of looking like everyone else."
+          },
+          {
+            "name": "Mobile Optimization",
+            "description": "Fully responsive websites optimized for all devices."
+          }
+        ]
+      },
+      {
+        "name": "CRM & Lead Management",
+        "features": [
+          {
+            "name": "Lead Ponds & Router",
+            "description": "Distribute leads by price, location, property type, round-robin, and more."
+          },
+          {
+            "name": "Embedded Dialer",
+            "description": "Built-in calling system to connect agents with promising leads fast."
+          },
+          {
+            "name": "Agent Accountability",
+            "description": "Performance dashboards and dialer metrics for team management."
+          },
+          {
+            "name": "Lead Source Reporting",
+            "description": "Track and analyze performance by lead source for ROI optimization."
+          }
+        ]
+      },
+      {
+        "name": "Marketing Automation",
+        "features": [
+          {
+            "name": "Campaign Builder",
+            "description": "Custom messaging sequences of emails, calls, texts, and ringless voicemails."
+          },
+          {
+            "name": "Behavioral Triggers",
+            "description": "Automated actions triggered by specific lead behaviors and data changes."
+          },
+          {
+            "name": "Action Plans",
+            "description": "Automated follow-up sequences with performance reporting."
+          }
+        ]
+      },
+      {
+        "name": "Advertising",
+        "features": [
+          {
+            "name": "Google Ad Management",
+            "description": "Managed Google advertising campaigns optimized for real estate leads."
+          },
+          {
+            "name": "Facebook Ad Management",
+            "description": "Social media ad campaigns targeting potential buyers and sellers."
+          },
+          {
+            "name": "ROI Optimization",
+            "description": "Google and Facebook campaigns work together to maximize marketing ROI."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Agent",
+          "price": "$399+",
+          "period": "monthly",
+          "features": [
+            "IDX website",
+            "CRM",
+            "Marketing automation",
+            "Embedded dialer"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": "$699+",
+          "period": "monthly",
+          "features": [
+            "Everything in Agent",
+            "Lead routing",
+            "Agent accountability",
+            "Team management"
+          ]
+        },
+        {
+          "name": "Brokerage",
+          "price": "Custom",
+          "period": "",
+          "features": [
+            "Everything in Team",
+            "Multiple offices",
+            "Custom integrations"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Proprietary IDX integration provides superior SEO out of the box",
+      "Behavioral-triggered messaging sequences improve conversion rates",
+      "Easy integration with third-party tools in minutes",
+      "Proven results: 37% lower cost per conversion, 1,000% lead increase",
+      "Embedded dialer and agent accountability improve team productivity"
+    ],
+    "cons": [
+      "Starting at $399+/month is expensive for solo agents",
+      "Requires commitment to the Sierra ecosystem for maximum benefit",
+      "Ad management services add to monthly costs"
+    ],
+    "integrations": [
+      "Follow Up Boss",
+      "Zillow",
+      "Realtor.com",
+      "BombBomb",
+      "Zapier",
+      "Google",
+      "Facebook"
+    ],
     "company": {
       "name": "Sierra Interactive",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "founded": 2007,
+      "headquarters": "Louisville, KY",
+      "employees": "50-100",
       "funding": ""
     },
     "categories": [
@@ -14893,11 +15403,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "sierrainteractive.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Real estate lead generation and CRM software.",
     "property_types": [
@@ -14912,29 +15422,121 @@
     "url": "https://www.showingtime.com",
     "logo_url": "https://logo.clearbit.com/showingtime.com",
     "headline": "Real estate showing management software and tools.",
-    "description": "ShowingTime is real estate software that provides scheduling and management tools for property showings, helping real estate professionals coordinate and manage property visits and appointments efficiently.",
+    "description": "ShowingTime, a Zillow Group company, is the leading showing management and market analytics platform for the residential real estate industry. The platform serves MLSs, brokerages, and agents with tools for scheduling and managing property showings, collecting feedback, and generating market analytics. ShowingTime+ integrates with Zillow's ecosystem to provide listing agents with tools like Zillow Showcase for enhanced listing presentation and AI-powered market insights. The platform processes millions of showing requests annually and integrates with hundreds of MLSs across North America, making it the de facto standard for showing management in the industry.",
     "short_description": "Real estate showing management software and tools.",
     "target_audience": "Real estate agents, brokers, property managers, buyers and sellers",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Showing Management",
+        "features": [
+          {
+            "name": "Online Scheduling",
+            "description": "Agents and buyers schedule showings online with automated confirmation workflows."
+          },
+          {
+            "name": "Showing Feedback",
+            "description": "Automated feedback collection from showing agents with analytics."
+          },
+          {
+            "name": "Lockbox Integration",
+            "description": "Digital lockbox access management for secure property showings."
+          },
+          {
+            "name": "Appointment Center",
+            "description": "Live operators available to handle showing requests by phone."
+          }
+        ]
+      },
+      {
+        "name": "Listing Tools",
+        "features": [
+          {
+            "name": "Zillow Showcase",
+            "description": "Enhanced listing presentations with immersive media on Zillow."
+          },
+          {
+            "name": "Interactive Floor Plans",
+            "description": "Room-by-room photo tours with floor plan mapping."
+          },
+          {
+            "name": "3D Tours",
+            "description": "Virtual 3D home tours for remote buyers."
+          }
+        ]
+      },
+      {
+        "name": "Market Analytics",
+        "features": [
+          {
+            "name": "Market Activity Reports",
+            "description": "Real-time showing activity data and market trend analysis."
+          },
+          {
+            "name": "Demand Indicators",
+            "description": "Leading indicators based on showing volume and buyer activity."
+          },
+          {
+            "name": "Performance Benchmarking",
+            "description": "Compare listing performance against market averages."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription (via MLS/brokerage)",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Agent",
+          "price": "Varies by MLS",
+          "period": "monthly",
+          "features": [
+            "Showing scheduling",
+            "Feedback collection",
+            "Mobile app"
+          ]
+        },
+        {
+          "name": "Zillow Showcase",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "Enhanced listing presentation",
+            "Interactive floor plans",
+            "3D tours"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Industry standard showing management platform used by hundreds of MLSs",
+      "Part of Zillow Group ecosystem with massive distribution",
+      "Automated feedback collection saves agents hours of follow-up",
+      "Live appointment center provides phone support",
+      "Market analytics provide leading indicators of buyer demand"
+    ],
+    "cons": [
+      "Pricing dependent on MLS participation\u2014no direct agent purchase",
+      "Zillow Showcase features require additional subscription",
+      "Recent Zillow integration may concern agents worried about platform dependency"
+    ],
+    "integrations": [
+      "Zillow",
+      "Trulia",
+      "Dotloop",
+      "Multiple MLSs"
+    ],
     "company": {
-      "name": "ShowingTime",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "ShowingTime (Zillow Group)",
+      "founded": 1999,
+      "headquarters": "Chicago, IL",
+      "employees": "200-400",
+      "funding": "Acquired by Zillow Group in 2021 for $500M"
     },
     "categories": [
       "Broker Tools",
@@ -14956,11 +15558,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "showingtime.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription (via MLS/brokerage)",
     "is_free": false,
     "tagline": "Real estate showing management software and tools.",
     "property_types": [
@@ -14982,7 +15584,7 @@
     "url": "https://www.realtymogul.com",
     "logo_url": "https://logo.clearbit.com/realtymogul.com",
     "headline": "Real estate crowdfunding and investment platform.",
-    "description": "RealtyMogul is a real estate crowdfunding and investment platform that allows users to invest in commercial and residential properties.",
+    "description": "RealtyMogul is a real estate crowdfunding and investment platform that has been empowering investors for over 10 years. The platform provides access to private market offerings including private placements, 1031 Exchange properties, and Real Estate Investment Trusts (REITs). RealtyMogul simplifies commercial real estate investing through cutting-edge technology, giving members access to professionally managed properties with potential to generate income. The platform has a formalized due diligence process reviewing sponsors, business plans, properties, and documentation for every investment opportunity. Members gain exposure to deals with detailed, transparent information to make personal investment decisions.",
     "short_description": "Real estate crowdfunding and investment platform.",
     "target_audience": {
       "roles": [],
@@ -14991,26 +15593,117 @@
         "Residential"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Investment Products",
+        "features": [
+          {
+            "name": "Private Placements",
+            "description": "Direct investments in individual commercial real estate properties."
+          },
+          {
+            "name": "REITs",
+            "description": "Real Estate Investment Trusts providing diversified real estate exposure."
+          },
+          {
+            "name": "1031 Exchange",
+            "description": "Tax-deferred exchange properties for qualified investors."
+          },
+          {
+            "name": "Income-Focused Offerings",
+            "description": "Investments structured to generate regular income distributions."
+          }
+        ]
+      },
+      {
+        "name": "Due Diligence",
+        "features": [
+          {
+            "name": "Sponsor Review",
+            "description": "Thorough review of investment sponsors including track record and capabilities."
+          },
+          {
+            "name": "Business Plan Analysis",
+            "description": "Detailed evaluation of each investment's business plan and projections."
+          },
+          {
+            "name": "Property Underwriting",
+            "description": "Comprehensive property analysis including market conditions and financials."
+          },
+          {
+            "name": "Documentation Review",
+            "description": "Full documentation and due diligence review for every listed investment."
+          }
+        ]
+      },
+      {
+        "name": "Investor Tools",
+        "features": [
+          {
+            "name": "Investment Dashboard",
+            "description": "Track portfolio performance, distributions, and investment details."
+          },
+          {
+            "name": "Transparent Reporting",
+            "description": "Detailed, transparent information on each investment opportunity."
+          },
+          {
+            "name": "Customer Service",
+            "description": "Dedicated customer service and asset management teams available."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Investment minimums + fees",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "REIT",
+          "price": "$5,000 minimum",
+          "period": "",
+          "features": [
+            "Diversified real estate",
+            "Regular distributions",
+            "Lower minimum"
+          ]
+        },
+        {
+          "name": "Private Placements",
+          "price": "$25,000+ minimum",
+          "period": "",
+          "features": [
+            "Individual property access",
+            "Higher return potential",
+            "Accredited investors"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "10+ years of track record in real estate crowdfunding",
+      "Rigorous due diligence process for every investment",
+      "Multiple investment types: REITs, private placements, 1031 exchanges",
+      "Transparent reporting and dedicated support teams",
+      "Access to institutional-quality commercial real estate"
+    ],
+    "cons": [
+      "Investments are illiquid with long hold periods",
+      "Higher minimums ($5K-$25K+) may exclude smaller investors",
+      "Past performance not indicative of future results\u2014substantial risk of capital loss"
+    ],
     "integrations": [],
     "company": {
-      "name": "RealtyMogul",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Realty Mogul, Co.",
+      "founded": 2012,
+      "headquarters": "Los Angeles, CA",
+      "employees": "50-100",
+      "funding": "$45M+"
     },
     "categories": [
       "Crowdfunding & Investing",
@@ -15030,11 +15723,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "realtymogul.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Investment minimums + fees",
     "is_free": false,
     "tagline": "Real estate crowdfunding and investment platform.",
     "property_types": [
@@ -15049,7 +15742,7 @@
     "url": "https://www.placester.com",
     "logo_url": "https://logo.clearbit.com/placester.com",
     "headline": "Real estate marketing software for agents and brokers.",
-    "description": "Placester offers real estate marketing software designed to help agents and brokers build websites and generate leads.",
+    "description": "Placester is the #1 AI-powered website builder for real estate agents, teams, and brokerages. The platform provides codeless website creation with 5,000+ customization options, IDX integration with 600+ MLSs, built-in CRM and email nurturing, lead capture tools (landing pages, forms, pop-ups, banners), and agent management capabilities. Placester's AI website builder creates custom sites in minutes that are personalized to the agent's brand and market. With 4.9/5 ratings from 1,600+ reviews, the platform offers straightforward pricing starting at $59/month for agents with no hidden fees. The platform also includes a mobile app, live chat, and native integrations with popular real estate tools.",
     "short_description": "Real estate marketing software for agents and brokers.",
     "target_audience": {
       "roles": [],
@@ -15058,26 +15751,143 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Website Builder",
+        "features": [
+          {
+            "name": "AI Website Builder",
+            "description": "Create custom real estate websites in minutes using AI that knows your business."
+          },
+          {
+            "name": "Codeless Customization",
+            "description": "5,000+ customization options with no coding or developer required."
+          },
+          {
+            "name": "IDX Integration",
+            "description": "Showcase listings from 600+ MLSs with integrated IDX search."
+          },
+          {
+            "name": "Responsive Templates",
+            "description": "Professional templates optimized for all devices."
+          }
+        ]
+      },
+      {
+        "name": "Lead Generation",
+        "features": [
+          {
+            "name": "Lead Capture Tools",
+            "description": "Landing pages, forms, pop-ups, and banners for maximum lead capture."
+          },
+          {
+            "name": "Live Chat",
+            "description": "Built-in live chat to engage website visitors in real time."
+          },
+          {
+            "name": "SEO Tools",
+            "description": "Built-in SEO optimization for better search engine rankings."
+          },
+          {
+            "name": "Community Pages",
+            "description": "Custom neighborhood and community pages for local SEO."
+          }
+        ]
+      },
+      {
+        "name": "CRM & Marketing",
+        "features": [
+          {
+            "name": "Built-In CRM",
+            "description": "Manage and nurture all leads and contacts in one place."
+          },
+          {
+            "name": "Email Marketing",
+            "description": "Email campaigns for lead nurturing and client communication."
+          },
+          {
+            "name": "Mobile App",
+            "description": "Manage your Placester website and leads on the go."
+          }
+        ]
+      },
+      {
+        "name": "Team & Brokerage",
+        "features": [
+          {
+            "name": "Agent Management",
+            "description": "Manage agents, admins, and their websites from one platform."
+          },
+          {
+            "name": "Broker Tools",
+            "description": "Brokerage-level management with agent websites and lead routing."
+          },
+          {
+            "name": "Native Integrations",
+            "description": "Connect with favorite real estate tools and platforms."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
-      "free_trial": false,
+      "free_trial": true,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Agent",
+          "price": "$59",
+          "period": "monthly (or $566/year with 20% discount)",
+          "features": [
+            "AI website builder",
+            "IDX integration",
+            "Lead capture",
+            "CRM",
+            "SEO tools"
+          ]
+        },
+        {
+          "name": "Teams & Brokers",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Everything in Agent",
+            "Agent management",
+            "Multiple websites",
+            "Advanced routing"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "AI builds custom website in minutes\u2014no tech skills needed",
+      "4.9/5 rating from 1,600+ reviews demonstrates high satisfaction",
+      "600+ MLS integrations provide broad listing coverage",
+      "Straightforward pricing with no hidden fees",
+      "Full control with codeless customization and no developer dependency"
+    ],
+    "cons": [
+      "Starting at $59/month may be pricey for new agents",
+      "Less suitable for commercial real estate use cases",
+      "Advanced features like team management require higher plans"
+    ],
+    "integrations": [
+      "Multiple MLSs",
+      "Zillow",
+      "Realtor.com",
+      "Google Analytics",
+      "Facebook Pixel"
+    ],
     "company": {
-      "name": "Placester",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Placester Inc.",
+      "founded": 2011,
+      "headquarters": "Boston, MA",
+      "employees": "50-100",
+      "funding": "$30M+"
     },
     "categories": [
       "CRM & Marketing",
@@ -15098,11 +15908,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "placester.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Real estate marketing software for agents and brokers.",
     "property_types": [
@@ -17938,29 +18748,117 @@
     "url": "https://www.wealthfront.com",
     "logo_url": "https://logo.clearbit.com/wealthfront.com",
     "headline": "Robo-advisor platform with real estate investment options.",
-    "description": "Wealthfront is a comprehensive financial technology platform offering automated investment management services, high-yield cash accounts, and robo-advisor portfolio management. While primarily focused on general wealth management, the platform provides investment tools and services that can be utilized by real estate professionals and investors for portfolio diversification and cash management alongside their real estate investments.",
+    "description": "Wealthfront is a leading automated investment platform (robo-advisor) managing over $90 billion in client funds for 1.3+ million clients. While not CRE-specific, Wealthfront provides exposure to real estate through diversified portfolios that include REITs and real estate ETFs. The platform offers automated investing with portfolios built to each client's risk profile, a high-yield Cash Account with up to $8M in FDIC insurance, and both managed and self-directed investment options. Named the 'best overall robo-advisor' by Investopedia in 2025, Wealthfront has been simplifying personal finance since 2011 with low-cost, tax-optimized portfolio management.",
     "short_description": "Robo-advisor platform with real estate investment options.",
     "target_audience": "General investors, high-net-worth individuals, real estate professionals seeking diversified investment options, and anyone looking for automated wealth management services to complement their real estate investment portfolios.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Automated Investing",
+        "features": [
+          {
+            "name": "Managed Portfolios",
+            "description": "Professionally built and managed portfolios tailored to your risk tolerance."
+          },
+          {
+            "name": "Self-Directed Investing",
+            "description": "Build your own portfolio with individual stocks, ETFs, and crypto."
+          },
+          {
+            "name": "Tax-Loss Harvesting",
+            "description": "Automated daily tax-loss harvesting to minimize tax burden."
+          },
+          {
+            "name": "Smart Beta",
+            "description": "Factor-based investing strategy to potentially enhance returns."
+          }
+        ]
+      },
+      {
+        "name": "Cash Management",
+        "features": [
+          {
+            "name": "Cash Account",
+            "description": "High-yield cash account with 3.30% base APY and up to $8M FDIC insurance."
+          },
+          {
+            "name": "Free Instant Withdrawals",
+            "description": "24/7 instant withdrawals with no fees."
+          },
+          {
+            "name": "Direct Deposit",
+            "description": "Set up direct deposit and get paid up to 2 days early."
+          }
+        ]
+      },
+      {
+        "name": "Planning & Tools",
+        "features": [
+          {
+            "name": "Financial Planning",
+            "description": "Free financial planning tools for retirement, home buying, and education."
+          },
+          {
+            "name": "Portfolio Review",
+            "description": "Analysis of external accounts to optimize your overall financial picture."
+          },
+          {
+            "name": "Automatic Rebalancing",
+            "description": "Continuous portfolio rebalancing to maintain target asset allocation."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Fee-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Automated Investing",
+          "price": "0.25% annual advisory fee",
+          "period": "annual",
+          "features": [
+            "Managed portfolios",
+            "Tax-loss harvesting",
+            "Automatic rebalancing",
+            "$500 minimum"
+          ]
+        },
+        {
+          "name": "Cash Account",
+          "price": "Free (no account fees)",
+          "period": "",
+          "features": [
+            "3.30% APY",
+            "Up to $8M FDIC insurance",
+            "Instant withdrawals"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Best overall robo-advisor rated by Investopedia 2025",
+      "$90B+ in assets under management with 1.3M+ clients",
+      "Industry-leading tax-loss harvesting saves clients money",
+      "High-yield cash account with $8M FDIC insurance",
+      "Low 0.25% annual advisory fee"
+    ],
+    "cons": [
+      "Not purpose-built for real estate investing",
+      "Limited direct real estate investment options (REITs/ETFs only)",
+      "No human financial advisor access on basic plan"
+    ],
     "integrations": [],
     "company": {
-      "name": "Wealthfront",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Wealthfront Inc.",
+      "founded": 2011,
+      "headquarters": "Palo Alto, CA",
+      "employees": "500-1000",
+      "funding": "$200M+"
     },
     "categories": [
       "AI & Automation",
@@ -17983,11 +18881,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "wealthfront.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Fee-based",
     "is_free": false,
     "tagline": "Robo-advisor platform with real estate investment options.",
     "property_types": [
@@ -18406,29 +19304,119 @@
     "url": "https://www.justpark.com",
     "logo_url": "https://logo.clearbit.com/justpark.com",
     "headline": "Parking space rental and management platform.",
-    "description": "JustPark is the UK's leading parking platform and mobile app that connects drivers with available parking spaces while enabling property owners to monetize unused parking areas. With over 100,000 reservable spaces and 13+ million trusted drivers, the platform provides stress-free, cheaper parking solutions and allows property owners to earn tax-free income by renting out their parking spaces and EV charging facilities.",
+    "description": "JustPark is the UK's favourite parking platform, trusted by 13 million+ drivers with over 100,000 reservable parking spaces. The platform connects drivers seeking parking with space owners looking to monetize their driveways, garages, and unused parking spaces. JustPark offers pre-bookable parking near popular destinations including airports, train stations, sports stadiums, and city centres. The platform also provides car park management solutions for businesses to maximize yield from underused car parks and vacant land. With a 96% average satisfaction rating and 5-star app reviews, JustPark covers EV charging space rentals alongside traditional parking.",
     "short_description": "Parking space rental and management platform.",
     "target_audience": "UK drivers seeking convenient and affordable parking spaces, property owners with unused parking areas or driveways looking to generate rental income, business operators with car parks seeking yield optimization, EV charging station operators, and commercial property managers seeking parking revenue streams.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Driver Features",
+        "features": [
+          {
+            "name": "Parking Search & Booking",
+            "description": "Find and reserve parking spaces near your destination from 100K+ options."
+          },
+          {
+            "name": "Best Price Guarantee",
+            "description": "Competitive pricing with a best price guarantee on reservations."
+          },
+          {
+            "name": "Mobile App",
+            "description": "5-star rated iOS and Android app for finding and paying for parking."
+          },
+          {
+            "name": "EV Charging",
+            "description": "Find and book parking spaces with EV charging capabilities."
+          }
+        ]
+      },
+      {
+        "name": "Space Owner Features",
+        "features": [
+          {
+            "name": "Driveway Rental",
+            "description": "Earn tax-free money by renting out your driveway or parking space."
+          },
+          {
+            "name": "EV Charger Rental",
+            "description": "Monetize your EV charging point when you're not using it."
+          },
+          {
+            "name": "Easy Listing",
+            "description": "Free to list with setup taking only a few minutes."
+          }
+        ]
+      },
+      {
+        "name": "Business Solutions",
+        "features": [
+          {
+            "name": "Car Park Management",
+            "description": "Maximize yield from underused car parks with digital payment technology."
+          },
+          {
+            "name": "Vacant Land Solutions",
+            "description": "Transform unused land into revenue-generating parking."
+          },
+          {
+            "name": "Payment Transformation",
+            "description": "Modernize parking payments with the UK's favourite parking app."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Transaction-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Drivers",
+          "price": "Varies by location",
+          "period": "per booking",
+          "features": [
+            "Parking search",
+            "Online booking",
+            "Best price guarantee"
+          ]
+        },
+        {
+          "name": "Space Owners",
+          "price": "Free to list (commission on bookings)",
+          "period": "",
+          "features": [
+            "Listing creation",
+            "Booking management",
+            "Payment processing"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "13M+ drivers trust the platform with 96% satisfaction rating",
+      "100,000+ reservable spaces across the UK",
+      "Space owners earn tax-free income from unused parking",
+      "Includes EV charging space rental for future-proofing",
+      "5-star rated mobile app on iOS and Android"
+    ],
+    "cons": [
+      "Primarily UK-focused with limited international coverage",
+      "Commission fees reduce space owner earnings",
+      "Availability varies significantly by location"
+    ],
+    "integrations": [
+      "Apple Maps",
+      "Google Maps"
+    ],
     "company": {
       "name": "JustPark",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2006,
+      "headquarters": "London, UK",
+      "employees": "50-100",
+      "funding": "$40M+"
     },
     "categories": [
       "Investment & Valuation",
@@ -18449,11 +19437,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "justpark.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Transaction-based",
     "is_free": false,
     "tagline": "Parking space rental and management platform.",
     "property_types": [
