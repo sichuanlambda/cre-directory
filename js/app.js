@@ -50,11 +50,35 @@ function compactProductCard(p) {
   </a>`;
 }
 
+function getComparisonBadges(p) {
+  const badges = [];
+  if (p._badge_popular) badges.push('<span class="comparison-badge badge-popular">🔥 Most Popular</span>');
+  if (p._badge_value) badges.push('<span class="comparison-badge badge-value">💰 Best Value</span>');
+  if (p._badge_small) badges.push('<span class="comparison-badge badge-small-teams">👥 Best for Small Teams</span>');
+  return badges.join('');
+}
+
+function assignComparisonBadges() {
+  // Most Popular: featured + highest rating
+  const rated = PRODUCTS.filter(p => p.rating && p.is_featured).sort((a, b) => b.rating - a.rating);
+  rated.slice(0, 5).forEach(p => p._badge_popular = true);
+  // Best Value: has free tier or free trial + good rating
+  const valuePicks = PRODUCTS.filter(p => (p.pricing && (p.pricing.free_tier || p.pricing.free_trial)) && (p.rating || 0) >= 4).sort((a, b) => (b.rating || 0) - (a.rating || 0));
+  valuePicks.slice(0, 5).forEach(p => p._badge_value = true);
+  // Best for Small Teams
+  const smallTeam = PRODUCTS.filter(p => {
+    const sizes = (p.target_audience || {}).company_sizes || [];
+    return sizes.some(s => /small|startup|1-|individual/i.test(s));
+  }).sort((a, b) => (b.rating || 0) - (a.rating || 0));
+  smallTeam.slice(0, 5).forEach(p => p._badge_small = true);
+}
+
 function productCard(p) {
   const cats = (p.categories || []).slice(0, 2).map(c => `<span class="badge badge-accent">${c}</span>`).join('');
   const rating = p.rating ? `<div class="card-rating">${starsHTML(p.rating, 13)} <span class="rating-num">${p.rating}</span></div>` : '';
   const priceText = pricingLabel(p, true);
   const price = priceText ? `<span class="card-price">${priceText}</span>` : '';
+  const compBadges = getComparisonBadges(p);
   const badges = [];
   if (p.pricing && p.pricing.free_trial) badges.push('<span class="badge badge-green">Free Trial</span>');
   if (p.pricing && p.pricing.free_tier) badges.push('<span class="badge badge-green">Free</span>');
@@ -73,6 +97,7 @@ function productCard(p) {
         ${rating}
       </div>
     </div>
+    ${compBadges ? `<div class="card-badges-row">${compBadges}</div>` : ''}
     ${featHTML}
     <div class="card-bottom">
       <div class="card-meta">${price} ${badges.join('')}</div>
@@ -154,9 +179,41 @@ function recentCard(p) {
 }
 
 // ====== HOMEPAGE ======
+function initBackToTop() {
+  const btn = document.getElementById('back-to-top');
+  if (!btn) return;
+  window.addEventListener('scroll', () => {
+    btn.classList.toggle('visible', window.scrollY > 400);
+  });
+  btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+}
+
+function animateCounters() {
+  const counters = document.querySelectorAll('.counter-num');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const el = entry.target;
+      const target = parseInt(el.getAttribute('data-target'));
+      if (!target) return;
+      let current = 0;
+      const step = Math.max(1, Math.ceil(target / 60));
+      const timer = setInterval(() => {
+        current += step;
+        if (current >= target) { current = target; clearInterval(timer); }
+        el.textContent = current;
+      }, 20);
+      observer.unobserve(el);
+    });
+  }, { threshold: 0.5 });
+  counters.forEach(c => observer.observe(c));
+}
+
 async function initHome() {
   await loadData();
   initNav();
+  initBackToTop();
+  assignComparisonBadges();
   
   const catCount = Object.keys(CATEGORIES).length;
   
@@ -210,30 +267,98 @@ async function initHome() {
     footerCats.innerHTML = topCats.map(c => `<a href="category.html#${c.slug}">${c.name}</a>`).join('');
   }
   
-  // Search — only show results when query exists
+  // Stats counters
+  const enrichedCount = PRODUCTS.filter(p => p.feature_groups && p.feature_groups.length > 0).length;
+  const counterProducts = document.getElementById('counter-products');
+  const counterCats = document.getElementById('counter-categories');
+  const counterEnriched = document.getElementById('counter-enriched');
+  if (counterProducts) counterProducts.setAttribute('data-target', PRODUCTS.length);
+  if (counterCats) counterCats.setAttribute('data-target', catCount);
+  if (counterEnriched) counterEnriched.setAttribute('data-target', enrichedCount);
+  animateCounters();
+
+  // Quick filters
+  const quickFiltersEl = document.getElementById('quick-filters');
+  if (quickFiltersEl) {
+    const propTypes = [...new Set(PRODUCTS.flatMap(p => (p.target_audience || {}).property_types || p.property_types || []))].sort().slice(0, 5);
+    const filterDefs = [
+      { label: 'Free Trial', key: 'free_trial' },
+      { label: 'Free Tier', key: 'free_tier' },
+      { label: 'Has Pricing', key: 'has_pricing' },
+      ...propTypes.map(t => ({ label: t, key: 'pt:' + t }))
+    ];
+    quickFiltersEl.innerHTML = filterDefs.map(f => `<span class="filter-pill" data-filter="${f.key}">${f.label}</span>`).join('');
+    quickFiltersEl.addEventListener('click', (e) => {
+      const pill = e.target.closest('.filter-pill');
+      if (!pill) return;
+      pill.classList.toggle('active');
+      runHomeSearch();
+    });
+  }
+
+  // Search — enhanced with features, description matching + quick filters
   const search = document.getElementById('search-input');
   const allGrid = document.getElementById('all-products');
   const searchSection = document.getElementById('search-results-section');
-  if (search) {
-    search.addEventListener('input', (e) => {
-      const q = e.target.value.toLowerCase().trim();
-      if (q) {
-        const filtered = PRODUCTS.filter(p =>
-          p.title.toLowerCase().includes(q) ||
-          (p.short_description || p.tagline || '').toLowerCase().includes(q) ||
-          (p.categories || []).some(c => c.toLowerCase().includes(q))
-        );
-        if (allGrid) allGrid.innerHTML = filtered.map(productCard).join('');
-        const allTitle = document.getElementById('all-title');
-        if (allTitle) allTitle.textContent = `Results (${filtered.length})`;
-        if (searchSection) searchSection.style.display = '';
-        document.querySelectorAll('.hide-on-search').forEach(el => el.style.display = 'none');
-      } else {
-        if (searchSection) searchSection.style.display = 'none';
-        document.querySelectorAll('.hide-on-search').forEach(el => el.style.display = '');
-      }
-    });
+
+  function getActiveFilters() {
+    return [...document.querySelectorAll('.filter-pill.active')].map(p => p.getAttribute('data-filter'));
   }
+
+  window.runHomeSearch = function() {
+    const q = (search ? search.value : '').toLowerCase().trim();
+    const activeFilters = getActiveFilters();
+    const hasQuery = q.length > 0;
+    const hasFilters = activeFilters.length > 0;
+
+    if (hasQuery || hasFilters) {
+      let filtered = PRODUCTS;
+      if (hasQuery) {
+        filtered = filtered.filter(p => {
+          const featureText = (p.feature_groups || []).flatMap(g => (g.features || []).map(f => f.name + ' ' + (f.description || ''))).join(' ').toLowerCase();
+          return p.title.toLowerCase().includes(q) ||
+            (p.short_description || p.tagline || '').toLowerCase().includes(q) ||
+            (p.description || '').toLowerCase().includes(q) ||
+            featureText.includes(q) ||
+            (p.categories || []).some(c => c.toLowerCase().includes(q));
+        });
+      }
+      activeFilters.forEach(f => {
+        if (f === 'free_trial') filtered = filtered.filter(p => p.pricing && p.pricing.free_trial);
+        else if (f === 'free_tier') filtered = filtered.filter(p => p.pricing && p.pricing.free_tier);
+        else if (f === 'has_pricing') filtered = filtered.filter(p => p.pricing && p.pricing.starting_price);
+        else if (f.startsWith('pt:')) {
+          const pt = f.slice(3);
+          filtered = filtered.filter(p => ((p.target_audience || {}).property_types || p.property_types || []).includes(pt));
+        }
+      });
+      const allTitle = document.getElementById('all-title');
+      if (filtered.length === 0) {
+        if (allGrid) allGrid.innerHTML = `<div class="search-no-results"><div class="no-results-icon">🔍</div><h3>No results found</h3><p>Try different keywords or remove some filters</p></div>`;
+        if (allTitle) allTitle.textContent = 'Results (0)';
+      } else {
+        if (allGrid) allGrid.innerHTML = filtered.map(productCard).join('');
+        if (allTitle) allTitle.textContent = `Results (${filtered.length})`;
+      }
+      if (searchSection) searchSection.style.display = '';
+      document.querySelectorAll('.hide-on-search').forEach(el => el.style.display = 'none');
+    } else {
+      if (searchSection) searchSection.style.display = 'none';
+      document.querySelectorAll('.hide-on-search').forEach(el => el.style.display = '');
+    }
+  };
+
+  if (search) {
+    search.addEventListener('input', runHomeSearch);
+  }
+
+  // Keyboard shortcut: "/" to focus search
+  document.addEventListener('keydown', (e) => {
+    if (e.key === '/' && !['INPUT', 'TEXTAREA', 'SELECT'].includes(document.activeElement.tagName)) {
+      e.preventDefault();
+      if (search) search.focus();
+    }
+  });
   
   // JSON-LD
   addJsonLd({
@@ -254,6 +379,7 @@ async function initHome() {
 async function initProduct() {
   await loadData();
   initNav();
+  initBackToTop();
   
   const slug = location.hash.slice(1);
   const product = PRODUCTS.find(p => p.slug === slug);
@@ -265,7 +391,7 @@ async function initProduct() {
   }
   
   const seo = product.seo || {};
-  document.title = seo.title || `${product.title} Review 2025 | CRE Software Directory`;
+  document.title = seo.title || `${product.title} Review 2026 | CRE Software Directory`;
   setMeta('description', seo.description || `${product.title}: ${product.headline}. Compare pricing, features & alternatives.`);
   setMeta('og:title', document.title);
   setMeta('og:description', seo.description || product.headline);
@@ -469,11 +595,25 @@ async function initProduct() {
     </div>
     
     ${relatedHTML ? `<div class="related-section" id="sec-alternatives"><h2>Alternatives & Related Tools</h2>${relatedHTML}</div>` : ''}
+    <div class="similar-section" id="sec-similar"></div>
   `;
 
   // Auto-open first feature group
   const firstFg = el.querySelector('.feature-group');
   if (firstFg) firstFg.classList.add('open');
+
+  // Similar Products (from same categories, not already in related)
+  const similarEl = document.getElementById('sec-similar');
+  if (similarEl) {
+    const primaryCat = (product.categories || [])[0];
+    if (primaryCat) {
+      const similar = PRODUCTS.filter(p => p.slug !== slug && !usedSlugs.has(p.slug) && (p.categories || []).includes(primaryCat))
+        .sort((a, b) => (b.rating || 0) - (a.rating || 0)).slice(0, 4);
+      if (similar.length) {
+        similarEl.innerHTML = `<h2>Similar Products</h2><div class="similar-grid">${similar.map(compactProductCard).join('')}</div>`;
+      }
+    }
+  }
 
   // JSON-LD
   const ld = {

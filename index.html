@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CRE Software Directory - Find & Compare 174+ Commercial Real Estate Tools</title>
-  <meta name="description" content="The most comprehensive directory of commercial real estate software. Find, compare, and evaluate 174+ CRE tools for property management, investment analysis, brokerage, and more.">
+  <title>CRE Software Directory - Find & Compare 208+ Commercial Real Estate Tools</title>
+  <meta name="description" content="The most comprehensive directory of commercial real estate software. Find, compare, and evaluate 208+ CRE tools for property management, investment analysis, brokerage, and more.">
   <meta property="og:title" content="CRE Software Directory - Find the Right CRE Software">
-  <meta property="og:description" content="Find and compare 174+ software tools for CRE professionals.">
+  <meta property="og:description" content="Find and compare 208+ software tools for CRE professionals.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://cresoftware.tech/">
   <link rel="canonical" href="https://cresoftware.tech/">
@@ -17,7 +17,7 @@
 <body>
   <nav>
     <div class="container nav-inner">
-      <a href="index.html" class="logo">CRE<span>Software</span></a>
+      <a href="index.html" class="logo"><svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4"/><rect x="9" y="9" width="2" height="2" fill="currentColor" stroke="none"/><rect x="13" y="9" width="2" height="2" fill="currentColor" stroke="none"/><rect x="9" y="13" width="2" height="2" fill="currentColor" stroke="none"/><rect x="13" y="13" width="2" height="2" fill="currentColor" stroke="none"/></svg>CRE<span>Software</span></a>
       <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
       <div class="nav-links">
         <a href="index.html" class="active">Directory</a>
@@ -30,18 +30,28 @@
   <section class="hero">
     <div class="container">
       <h1>Find the Right Software for Commercial Real Estate</h1>
-      <p>The independent directory for CRE professionals. Compare <strong id="hero-count">174+</strong> tools across <strong id="hero-cats">14</strong> categories.</p>
+      <p>The independent directory for CRE professionals. Compare <strong id="hero-count">208+</strong> tools across <strong id="hero-cats">14</strong> categories.</p>
       <div class="search-box">
         <svg class="search-icon-svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         <input type="text" id="search-input" placeholder="Search tools, categories, or features..." aria-label="Search software tools">
       </div>
+      <div class="search-hint">Press <kbd>/</kbd> to search</div>
+      <div id="quick-filters" class="quick-filters"></div>
       <div class="hero-pills" id="hero-pills"></div>
+    </div>
+  </section>
+
+  <section class="stats-counter-bar hide-on-search">
+    <div class="container stats-counter-inner">
+      <div class="stat-counter"><span class="counter-num" data-target="0" id="counter-products">0</span><span class="counter-label">Products</span></div>
+      <div class="stat-counter"><span class="counter-num" data-target="0" id="counter-categories">0</span><span class="counter-label">Categories</span></div>
+      <div class="stat-counter"><span class="counter-num" data-target="0" id="counter-enriched">0</span><span class="counter-label">Enriched Profiles</span></div>
     </div>
   </section>
 
   <div class="social-proof-bar hide-on-search">
     <div class="container social-proof-inner">
-      <span id="proof-tools">174 tools reviewed</span>
+      <span id="proof-tools">208 tools reviewed</span>
       <span class="proof-dot">·</span>
       <span id="proof-cats">14 categories</span>
       <span class="proof-dot">·</span>
@@ -120,7 +130,7 @@
 
   <footer>
     <div class="container footer-inner">
-      <span>&copy; 2025 CRE Software Directory</span>
+      <span>&copy; 2026 CRE Software Directory</span>
       <div class="footer-links">
         <div class="footer-cat-links" id="footer-cat-links"></div>
         <div class="footer-main-links">
@@ -132,6 +142,7 @@
     </div>
   </footer>
 
+  <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
   <script src="js/app.js"></script>
   <script>initHome();</script>
 </body>

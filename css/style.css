@@ -53,8 +53,9 @@ nav {
   box-shadow: var(--shadow-md);
 }
 .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 56px; }
-nav .logo { color: var(--white); font-size: 18px; font-weight: 700; letter-spacing: -0.3px; }
+nav .logo { color: var(--white); font-size: 18px; font-weight: 700; letter-spacing: -0.3px; display: flex; align-items: center; gap: 8px; }
 nav .logo span { color: var(--accent); }
+.logo-icon { color: var(--accent); flex-shrink: 0; }
 nav .nav-links { display: flex; gap: 8px; align-items: center; }
 nav .nav-links a {
   color: var(--gray-400);
@@ -565,6 +566,58 @@ footer span { font-size: 14px; }
 
 /* ===== LOADING ===== */
 .loading-spinner { text-align: center; padding: 60px; color: var(--gray-500); font-size: 15px; }
+
+/* ===== SEARCH HINT ===== */
+.search-hint { margin-top: 10px; font-size: 12px; color: var(--gray-500); }
+.search-hint kbd { padding: 2px 6px; background: rgba(255,255,255,0.15); border-radius: 4px; font-family: inherit; font-size: 11px; border: 1px solid rgba(255,255,255,0.2); }
+
+/* ===== QUICK FILTERS ===== */
+.quick-filters { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.filter-pill {
+  padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: 500;
+  background: rgba(255,255,255,0.08); color: var(--gray-300); border: 1px solid rgba(255,255,255,0.15);
+  cursor: pointer; transition: all 0.2s; user-select: none;
+}
+.filter-pill:hover { background: rgba(255,255,255,0.15); color: var(--white); }
+.filter-pill.active { background: var(--accent); color: var(--white); border-color: var(--accent); }
+
+/* ===== STATS COUNTER BAR ===== */
+.stats-counter-bar { background: var(--white); border-bottom: 1px solid var(--gray-200); padding: 28px 0; }
+.stats-counter-inner { display: flex; justify-content: center; gap: 64px; }
+.stat-counter { text-align: center; }
+.counter-num { display: block; font-size: 36px; font-weight: 800; color: var(--accent); line-height: 1.1; }
+.counter-label { font-size: 13px; font-weight: 500; color: var(--gray-600); text-transform: uppercase; letter-spacing: 0.5px; }
+
+/* ===== COMPARISON BADGES ===== */
+.comparison-badge {
+  display: inline-flex; align-items: center; gap: 4px; padding: 3px 10px;
+  border-radius: 20px; font-size: 11px; font-weight: 600; margin-right: 4px;
+}
+.badge-popular { background: rgba(67,97,238,0.12); color: var(--accent); }
+.badge-value { background: rgba(46,204,113,0.12); color: #27ae60; }
+.badge-small-teams { background: rgba(243,156,18,0.12); color: #b45309; }
+
+/* ===== BACK TO TOP ===== */
+.back-to-top {
+  position: fixed; bottom: 32px; right: 32px; width: 44px; height: 44px;
+  border-radius: 50%; background: var(--accent); color: var(--white);
+  border: none; font-size: 20px; cursor: pointer; z-index: 99;
+  box-shadow: var(--shadow-lg); transition: all 0.3s; opacity: 0; pointer-events: none;
+  display: flex; align-items: center; justify-content: center;
+}
+.back-to-top.visible { opacity: 1; pointer-events: auto; }
+.back-to-top:hover { background: var(--accent-hover); transform: translateY(-2px); }
+
+/* ===== SIMILAR PRODUCTS ===== */
+.similar-section { margin-top: 32px; margin-bottom: 28px; }
+.similar-section h2 { font-size: 20px; font-weight: 700; color: var(--navy); margin-bottom: 16px; }
+.similar-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+
+/* ===== NO RESULTS ===== */
+.search-no-results { text-align: center; padding: 60px 20px; color: var(--gray-500); }
+.search-no-results .no-results-icon { font-size: 48px; margin-bottom: 12px; }
+.search-no-results h3 { font-size: 18px; color: var(--gray-700); margin-bottom: 8px; }
+.search-no-results p { font-size: 14px; }
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
