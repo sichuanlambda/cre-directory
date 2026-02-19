@@ -4827,7 +4827,7 @@
     "url": "https://www.honestbuildings.com",
     "logo_url": "https://logo.clearbit.com/honestbuildings.com",
     "headline": "Project management platform for real estate owners.",
-    "description": "Honest Buildings is a project management platform designed for real estate owners and operators. It provides tools for managing construction projects, tracking budgets, and ensuring timelines are met, improving transparency and collaboration in the building process.",
+    "description": "Honest Buildings was a real estate project management platform for owners and operators that has been acquired by Procore Technologies. The platform helped real estate owners manage capital projects, renovations, and tenant improvements with procurement, project management, and cost tracking tools. Honest Buildings has been fully integrated into Procore's construction management platform, which now serves real estate owners with solutions for project execution, cost management, resource management, and project lifecycle management. The website redirects to Procore's owners solution page.",
     "short_description": "Project management platform for real estate owners.",
     "target_audience": {
       "roles": [],
@@ -4836,9 +4836,48 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Project Management (via Procore)",
+        "features": [
+          {
+            "name": "Project Execution",
+            "description": "Build with confidence from start to finish with Procore's project management."
+          },
+          {
+            "name": "Cost Management",
+            "description": "Take control of project financials with budget and invoice management."
+          },
+          {
+            "name": "Quality & Safety",
+            "description": "Ensure quality and safety compliance across construction projects."
+          },
+          {
+            "name": "BIM Integration",
+            "description": "Integrate building information models into project workflows."
+          }
+        ]
+      },
+      {
+        "name": "Owner Solutions",
+        "features": [
+          {
+            "name": "Capital Project Management",
+            "description": "Manage capital improvement projects and tenant improvements."
+          },
+          {
+            "name": "Vendor Management",
+            "description": "Track and manage construction vendors and contractors."
+          },
+          {
+            "name": "Project Analytics",
+            "description": "Analytics and reporting across project portfolio."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Acquired by Procore",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -4847,15 +4886,25 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Now part of Procore\u2014industry-leading construction management platform",
+      "Expanded capabilities beyond original Honest Buildings offering",
+      "Access to Procore's full platform including Helix AI"
+    ],
+    "cons": [
+      "No longer available as standalone product",
+      "Users must transition to Procore platform and pricing",
+      "Procore pricing may be higher than original Honest Buildings"
+    ],
+    "integrations": [
+      "Procore ecosystem"
+    ],
     "company": {
-      "name": "Honest Buildings",
-      "founded": null,
-      "headquarters": "",
+      "name": "Honest Buildings (acquired by Procore)",
+      "founded": 2012,
+      "headquarters": "New York, NY",
       "employees": "",
-      "funding": ""
+      "funding": "Acquired by Procore in 2019"
     },
     "categories": [
       "Broker Tools",
@@ -4877,11 +4926,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "honestbuildings.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Acquired by Procore",
     "is_free": false,
     "tagline": "Project management platform for real estate owners.",
     "property_types": [
@@ -5032,7 +5081,7 @@
     "url": "https://www.investormanagementservices.com",
     "logo_url": "https://logo.clearbit.com/investormanagementservices.com",
     "headline": "Investor reporting and communication software.",
-    "description": "Investor Management Services (IMS) by RealPage is the industry-leading investment management software platform designed specifically for private equity real estate firms, funds, and syndicators. The platform provides end-to-end investor management and reporting capabilities, helping firms streamline investor communications, accelerate capital raises, and gain market insights. With over 550+ customers managing 85,000 investors across 98 countries and over 0 billion in equity, IMS combines performance insights with CRM capabilities, document distribution, and centralized deal management to deliver a modern experience for real estate investment professionals.",
+    "description": "Investor Management Services (IMS), now part of RealPage Investment Management, is the leader in investment management software for commercial real estate firms and funds. The platform serves 550+ customers, 85,000 investors in 98 countries, and manages over $50 billion in equity. IMS helps firms elevate investor engagement through streamlined communications, faster capital raises, and market insights. Features include efficient targeted communication tools, self-service performance dashboards with KPIs and analytics, pipeline tracking and fundraising automation, automated waterfall calculations, custom statement generation, and a modernized investor experience portal.",
     "short_description": "Investor reporting and communication software.",
     "target_audience": {
       "roles": [
@@ -5055,19 +5104,99 @@
         "Residential"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Quote-based - Contact RealPage for pricing",
+    "feature_groups": [
+      {
+        "name": "Investor Communications",
+        "features": [
+          {
+            "name": "Targeted Communication",
+            "description": "Efficient tools to engage current and prospective investors."
+          },
+          {
+            "name": "Document Distribution",
+            "description": "Distribute deal documents, K-1s, and statements to investors."
+          },
+          {
+            "name": "Investor Portal",
+            "description": "Self-service portal for investors to access performance data and documents 24/7."
+          },
+          {
+            "name": "Electronic Signatures",
+            "description": "Digital signature capabilities for subscription agreements and deal documents."
+          }
+        ]
+      },
+      {
+        "name": "Performance & Analytics",
+        "features": [
+          {
+            "name": "Performance Dashboards",
+            "description": "Self-service dashboards with KPIs, returns calculations, and analytics."
+          },
+          {
+            "name": "Waterfall Calculations",
+            "description": "Automated waterfall distribution calculations with customizable structures."
+          },
+          {
+            "name": "Custom Statements",
+            "description": "Generate custom investor statements with detailed financial breakdowns."
+          },
+          {
+            "name": "Market Overviews",
+            "description": "Embedded market data for residential assets to understand market trends."
+          }
+        ]
+      },
+      {
+        "name": "Capital Raising",
+        "features": [
+          {
+            "name": "Pipeline Tracking",
+            "description": "Track investor interest and commitments through the capital raise process."
+          },
+          {
+            "name": "Fundraising Automation",
+            "description": "Streamline the equity raise process from marketing to closing."
+          },
+          {
+            "name": "Investor CRM",
+            "description": "Manage investor relationships with integrated CRM capabilities."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": []
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "550+ customers and 85,000 investors in 98 countries",
+      "Manages over $50 billion in equity on the platform",
+      "Automated waterfall calculations save hours of manual work",
+      "Part of RealPage ecosystem with expanded data capabilities",
+      "Industry's first complete technology solution for investor management"
+    ],
+    "cons": [
+      "Enterprise pricing not publicly available",
+      "Integration into RealPage may require platform transition",
+      "Best suited for institutional firms, not individual investors"
+    ],
+    "integrations": [
+      "RealPage Financial Suite",
+      "Various CRE platforms"
+    ],
     "company": {
-      "name": "Investor Management Services",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "IMS (RealPage Investment Management)",
+      "founded": 2013,
+      "headquarters": "Salt Lake City, UT",
+      "employees": "50-100",
+      "funding": "Acquired by RealPage"
     },
     "categories": [
       "Broker Tools",
@@ -5091,7 +5220,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "investormanagementservices.com",
@@ -5631,7 +5760,7 @@
     "url": "https://www.levcapital.com",
     "logo_url": "https://logo.clearbit.com/levcapital.com",
     "headline": "Real estate lending platform.",
-    "description": "Lev is a commercial real estate financing platform that combines powerful tools with purpose-built AI to help CRE professionals close more deals faster. The platform enables lender matching, workflow automation, and provides comprehensive financing solutions for sponsors, financing brokers, investment sales professionals, and lenders. Lev streamlines the entire financing process by helping users manage lender relationships, discover new financing sources, and automate traditionally manual workflows in commercial real estate lending.",
+    "description": "Lev is a commercial real estate financing platform that combines powerful tools with purpose-built AI to help CRE professionals close more deals faster. The platform provides lender matching, workflow automation, and AI-powered deal management. Leading commercial real estate brands including Time Equities and Alturas Capital Partners use Lev to streamline the financing process, manage lender relationships, and connect with new lenders. Lev has integrated AI into real estate mortgage lending to provide clarity and purpose for deal teams, enabling them to run more holistic financing processes with reduced headaches.",
     "short_description": "Real estate lending platform.",
     "target_audience": {
       "roles": [
@@ -5655,19 +5784,100 @@
         "Mixed-Use"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Quote-based - Contact for custom pricing",
+    "feature_groups": [
+      {
+        "name": "Lender Matching",
+        "features": [
+          {
+            "name": "Lender Database",
+            "description": "Comprehensive database of commercial real estate lenders matched to your deals."
+          },
+          {
+            "name": "Smart Matching",
+            "description": "AI-powered matching of deals to the most suitable lenders."
+          },
+          {
+            "name": "Relationship Management",
+            "description": "Manage and track lender relationships across your organization."
+          }
+        ]
+      },
+      {
+        "name": "Deal Management",
+        "features": [
+          {
+            "name": "Workflow Automation",
+            "description": "Automate repetitive tasks in the CRE financing process."
+          },
+          {
+            "name": "Deal Pipeline",
+            "description": "Track and manage deals from origination through closing."
+          },
+          {
+            "name": "AI-Powered Insights",
+            "description": "Purpose-built AI provides insights and recommendations for deal execution."
+          }
+        ]
+      },
+      {
+        "name": "Team Capabilities",
+        "features": [
+          {
+            "name": "Team Collaboration",
+            "description": "Shared tools and data for cross-functional deal teams."
+          },
+          {
+            "name": "Document Management",
+            "description": "Organize and share deal documents with lenders securely."
+          },
+          {
+            "name": "Performance Analytics",
+            "description": "Track team and deal performance metrics."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Lender matching",
+            "Workflow automation",
+            "Deal pipeline",
+            "AI insights"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Purpose-built AI for commercial real estate financing",
+      "Streamlines lender matching and relationship management",
+      "Workflow automation reduces manual tasks in financing",
+      "Used by leading CRE brands and capital markets teams",
+      "Helps teams connect with new lenders efficiently"
+    ],
+    "cons": [
+      "Pricing not publicly available",
+      "Focused on financing\u2014not a general CRE platform",
+      "Value depends on deal volume and lender network"
+    ],
     "integrations": [],
     "company": {
       "name": "Lev",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2019,
+      "headquarters": "New York, NY",
+      "employees": "50-100",
+      "funding": "$30M+"
     },
     "categories": [
       "Broker Tools",
@@ -5687,11 +5897,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "levcapital.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Real estate lending platform.",
     "property_types": [
@@ -6282,7 +6492,7 @@
     "url": "https://www.metaprop.vc",
     "logo_url": "https://logo.clearbit.com/metaprop.vc",
     "headline": "Real estate technology accelerator.",
-    "description": "MetaProp is the world most active venture capital and growth equity firm focused on the built world and PropTech innovation. The firm specializes in melding the physical and digital worlds through strategic investments and advisory services for PropTech startups. With a commitment to socially and environmentally responsible investing, MetaProp has created over $107 billion in enterprise value across 150+ investments. The firm manages 20+ billion square feet through their global investor group and has facilitated $1.9+ billion in funding across their portfolio companies.",
+    "description": "MetaProp is the world's most active venture capital and growth equity firm focused on the built world. The firm has made 150+ investments, created $107B+ in enterprise value, facilitated $1.9B+ raised across its portfolio, and manages real estate totaling over 20B square feet through its global investor group. MetaProp invests in technology companies transforming real estate, construction, and the built environment, with a 40% diversity rate among portfolio founders. The firm provides 900+ industry introductions annually for portfolio companies, combining capital with deep industry connections to accelerate proptech innovation.",
     "short_description": "Real estate technology accelerator.",
     "target_audience": {
       "roles": [
@@ -6304,19 +6514,75 @@
         "Built Environment"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Venture Capital Investment - Not applicable (invests in companies rather than offering services)",
+    "feature_groups": [
+      {
+        "name": "Investment",
+        "features": [
+          {
+            "name": "Venture Capital",
+            "description": "Early-stage venture capital for proptech and built world technology companies."
+          },
+          {
+            "name": "Growth Equity",
+            "description": "Growth-stage investments for scaling proptech companies."
+          },
+          {
+            "name": "Climate Tech",
+            "description": "Investments in sustainable and environmentally responsible built world technology."
+          },
+          {
+            "name": "Global Portfolio",
+            "description": "150+ investments across the proptech ecosystem worldwide."
+          }
+        ]
+      },
+      {
+        "name": "Portfolio Support",
+        "features": [
+          {
+            "name": "Industry Introductions",
+            "description": "900+ industry introductions annually connecting portfolio companies with customers."
+          },
+          {
+            "name": "Strategic LP Network",
+            "description": "Global investor group managing 20B+ sq ft of real estate."
+          },
+          {
+            "name": "Advisory Services",
+            "description": "Strategic advice and guidance for portfolio company growth."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "VC fund (not a product)",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": []
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "150+ investments with $107B+ in enterprise value created",
+      "900+ industry introductions annually for portfolio companies",
+      "40% diversity rate among portfolio founders",
+      "Deep real estate industry connections through LP network",
+      "Track record with companies like BuildOps and Attentive"
+    ],
+    "cons": [
+      "Not a product\u2014venture capital firm",
+      "Investments are for institutional/accredited investors only",
+      "Portfolio companies are independent entities"
+    ],
     "integrations": [],
     "company": {
       "name": "MetaProp",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2015,
+      "headquarters": "New York, NY",
+      "employees": "20-50",
+      "funding": "Multiple funds"
     },
     "categories": [
       "Data & Analytics",
@@ -6337,11 +6603,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "metaprop.vc",
-    "pricing_model": "Quote-based",
+    "pricing_model": "VC fund (not a product)",
     "is_free": false,
     "tagline": "Real estate technology accelerator.",
     "property_types": [
@@ -6372,7 +6638,7 @@
     "url": "https://www.navigatorcre.com",
     "logo_url": "https://logo.clearbit.com/navigatorcre.com",
     "headline": "Commercial real estate data and analytics platform",
-    "description": "NavigatorCRE is the leading commercial real estate data analytics platform that centralizes CRE data, accelerates reporting, and unlocks analytics with speed. The platform serves as a revolutionary data analytics, reporting, and commercial real estate operations engine that connects data across organizational systems including accounting, leasing, collections, debt, construction, and work orders into a centralized CRE intelligence experience. With the introduction of NAVI AI, NavigatorCRE offers the first AI-powered analytics engine designed specifically for commercial real estate and financial analysis.",
+    "description": "NavigatorCRE is the #1 CRE data analytics platform that centralizes commercial real estate data, accelerates reporting, and unlocks analytics with speed. The cloud-based platform connects data across organizational systems from accounting, leasing, collections, debt, construction, work orders, and more into a centralized CRE intelligence experience. NavigatorCRE serves asset management, development, brokerage, investments, and occupiers across all asset classes including multifamily, office, industrial, retail, land, and hospitality. The platform includes NAVI AI for intelligent insights and the HELM product for strategic portfolio management.",
     "short_description": "CRE data and analytics platform with comprehensive market information and property records.",
     "target_audience": {
       "roles": [
@@ -6397,18 +6663,99 @@
         "Mixed-Use"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Quote-based - Contact for demo and pricing",
+    "feature_groups": [
+      {
+        "name": "Data Analytics",
+        "features": [
+          {
+            "name": "Centralized Data Platform",
+            "description": "Connect data from accounting, leasing, collections, debt, and construction into one system."
+          },
+          {
+            "name": "NAVI AI",
+            "description": "AI-powered insights and analytics for smarter CRE decision making."
+          },
+          {
+            "name": "Custom Dashboards",
+            "description": "Visual dashboards for portfolio performance, leasing, and financial metrics."
+          },
+          {
+            "name": "Automated Reporting",
+            "description": "Accelerate reporting with automated data aggregation and visualization."
+          }
+        ]
+      },
+      {
+        "name": "Operations",
+        "features": [
+          {
+            "name": "Sales & Lease Comparables",
+            "description": "Compare sales and lease data for market analysis and pricing."
+          },
+          {
+            "name": "Pipeline & Deal Tracking",
+            "description": "Track leasing and investment pipelines across the portfolio."
+          },
+          {
+            "name": "Debt & Credit Management",
+            "description": "Manage loan maturities, credit facilities, and lending data."
+          },
+          {
+            "name": "Financial Analytics",
+            "description": "Income statement, T-12, and financial analysis across properties."
+          }
+        ]
+      },
+      {
+        "name": "Portfolio Management",
+        "features": [
+          {
+            "name": "HELM",
+            "description": "Strategic portfolio management and decision support tool."
+          },
+          {
+            "name": "Multi-Asset Class Support",
+            "description": "Supports multifamily, office, industrial, retail, land, and hospitality."
+          },
+          {
+            "name": "Cloud-Based Access",
+            "description": "100% cloud platform accessible from anywhere on any device."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": []
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Centralizes all CRE data sources into one intelligence platform",
+      "NAVI AI provides intelligent insights across portfolio data",
+      "Supports all asset classes and operational functions",
+      "100% cloud-based with low IT lift deployment",
+      "Subject matter experts from the CRE industry"
+    ],
+    "cons": [
+      "Enterprise pricing not publicly available",
+      "Requires data integration setup across multiple systems",
+      "Smaller market presence than major platforms like Yardi or MRI"
+    ],
+    "integrations": [
+      "Various accounting systems",
+      "PMS platforms",
+      "ERP systems"
+    ],
     "company": {
       "name": "NavigatorCRE",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "founded": 2016,
+      "headquarters": "Dallas, TX",
+      "employees": "20-50",
       "funding": ""
     },
     "categories": [
@@ -6429,7 +6776,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "navigatorcre.com",
@@ -6471,7 +6818,7 @@
     "url": "https://www.opencounter.com",
     "logo_url": "https://logo.clearbit.com/opencounter.com",
     "headline": "Streamline permitting and licensing processes.",
-    "description": "OpenCounter is a modern permitting and licensing software platform designed to streamline the permitting process for citizens and save staff time at local government offices. Founded in 2013, the company addresses the growing complexity of land use regulations and permitting by providing an advanced engine that calculates detailed land use codes, permit and license requirements, and application fees. OpenCounter helps citizens get comprehensive project overviews and enables government staff to collaborate more effectively with their communities.",
+    "description": "OpenCounter is a modern permitting and licensing platform that helps cities and municipalities streamline the development approval process. The platform provides online zoning verification, permit applications, and licensing services for businesses and developers, reducing processing times and improving transparency. OpenCounter is deployed in 40+ cities across the United States including Colorado Springs, Indianapolis, Orlando, Atlanta, Salt Lake City, and Miami. The platform digitizes and simplifies the traditionally complex and opaque process of understanding zoning requirements, applying for permits, and obtaining business licenses.",
     "short_description": "Streamline permitting and licensing processes.",
     "target_audience": {
       "roles": [
@@ -6493,19 +6840,107 @@
         "Land Development"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Quote-based - Contact for government pricing and implementation",
+    "feature_groups": [
+      {
+        "name": "Permitting",
+        "features": [
+          {
+            "name": "Online Permit Applications",
+            "description": "Submit and track permit applications digitally through municipal portals."
+          },
+          {
+            "name": "Zoning Verification",
+            "description": "Instantly check zoning and permitted uses for any address."
+          },
+          {
+            "name": "Requirement Checklists",
+            "description": "Auto-generated checklists of requirements for specific project types."
+          },
+          {
+            "name": "Application Tracking",
+            "description": "Track permit status and review progress online."
+          }
+        ]
+      },
+      {
+        "name": "Business Licensing",
+        "features": [
+          {
+            "name": "Business License Applications",
+            "description": "Streamlined online business license applications."
+          },
+          {
+            "name": "Use Type Verification",
+            "description": "Verify that proposed business uses are permitted at a given location."
+          },
+          {
+            "name": "Fee Transparency",
+            "description": "Clear display of applicable fees and requirements upfront."
+          }
+        ]
+      },
+      {
+        "name": "Municipal Tools",
+        "features": [
+          {
+            "name": "GIS Integration",
+            "description": "Integration with municipal GIS data for accurate zoning and parcel information."
+          },
+          {
+            "name": "Code Digitization",
+            "description": "Digital representation of municipal codes and regulations."
+          },
+          {
+            "name": "Analytics Dashboard",
+            "description": "Data on application volumes, processing times, and user engagement."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Municipal contract",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Municipal License",
+          "price": "Contact for pricing",
+          "period": "annual",
+          "features": [
+            "Online permitting",
+            "Zoning verification",
+            "Business licensing",
+            "Analytics"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Deployed in 40+ cities across the US",
+      "Dramatically reduces permitting processing times",
+      "Transparent zoning and fee information for developers",
+      "Reduces municipal staff workload with self-service tools",
+      "GIS-integrated for accurate property and zoning data"
+    ],
+    "cons": [
+      "Only available where municipalities have adopted the platform",
+      "B2G model means individual users can't subscribe directly",
+      "Coverage limited to participating cities"
+    ],
+    "integrations": [
+      "Municipal GIS systems",
+      "Various city platforms"
+    ],
     "company": {
       "name": "OpenCounter",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2012,
+      "headquarters": "San Francisco, CA",
+      "employees": "20-50",
+      "funding": "$5M+"
     },
     "categories": [
       "Construction & Development",
@@ -6526,11 +6961,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "opencounter.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Municipal contract",
     "is_free": false,
     "tagline": "Streamline permitting and licensing processes.",
     "property_types": [
@@ -7159,7 +7594,7 @@
     "url": "https://plotzy.ai",
     "logo_url": "https://i.postimg.cc/jdg7ZfSB/Plotzy-1-Concpt-modi-1-04.png",
     "headline": "Find & Research Parcels with AI",
-    "description": "Plotzy is an AI-powered parcel and zoning search and research platform designed to help real estate professionals make more deals. The platform enables users to quickly find property data, owner contact information, and zoning attributes to identify the perfect parcels for their needs. Plotzy serves brokers, land acquisition teams, developers, and individuals who need efficient tools for property research, parcel analysis, and deal sourcing with AI-enhanced search capabilities.",
+    "description": "Plotzy is an AI-powered parcel and zoning search and research platform designed to help real estate professionals make more deals. The platform provides property data, owner contact information, list management, and zoning attribute search capabilities. Plotzy's Basic plan is aimed at brokers and individuals who want to quickly find property data and owner contacts, while the Pro plan serves land acquisition teams, developers, and brokers who need to find parcels based on specific property and zoning attributes. The platform is currently in beta release with expanding municipal coverage.",
     "short_description": "Find & Research Parcels with AI",
     "target_audience": {
       "roles": [
@@ -7181,18 +7616,94 @@
         "Mixed-Use"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Subscription-based - Basic: 5 beta price per user, Pro: 00/month (annual pricing available)",
+    "feature_groups": [
+      {
+        "name": "Property Search",
+        "features": [
+          {
+            "name": "Parcel Search",
+            "description": "AI-powered search for parcels and properties with detailed data."
+          },
+          {
+            "name": "Owner Contact Info",
+            "description": "Find property owner contact information for outreach."
+          },
+          {
+            "name": "Zoning Search",
+            "description": "Search and filter properties by zoning attributes and permitted uses."
+          },
+          {
+            "name": "List Management",
+            "description": "Create and manage lists of properties for deal tracking."
+          }
+        ]
+      },
+      {
+        "name": "Pro Tools",
+        "features": [
+          {
+            "name": "Advanced Zoning Filters",
+            "description": "Filter parcels by specific zoning attributes for development opportunities."
+          },
+          {
+            "name": "Property Attributes",
+            "description": "Detailed property data including lot size, zoning, and development potential."
+          },
+          {
+            "name": "AI-Powered Research",
+            "description": "AI assists in finding the perfect parcel based on your criteria."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Basic",
+          "price": "$65",
+          "period": "monthly (beta price)",
+          "features": [
+            "Property data search",
+            "Owner contact info",
+            "List management"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$200",
+          "period": "monthly",
+          "features": [
+            "Everything in Basic",
+            "Advanced zoning filters",
+            "Zoning attribute search"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "AI-powered property and zoning search saves research time",
+      "Beta pricing offers early adopter value",
+      "Combines parcel data with zoning attributes in one tool",
+      "Useful for land acquisition teams and developers"
+    ],
+    "cons": [
+      "Still in beta\u2014features and coverage expanding",
+      "Zoning data available in select municipalities only",
+      "Smaller platform compared to established competitors"
+    ],
     "integrations": [],
     "company": {
       "name": "Plotzy",
-      "founded": null,
+      "founded": 2022,
       "headquarters": "",
-      "employees": "",
+      "employees": "5-15",
       "funding": ""
     },
     "categories": [
@@ -7217,11 +7728,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": true,
     "is_featured": true,
     "domain": "plotzy.ai",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Find & Research Parcels with AI",
     "property_types": [
@@ -7549,7 +8060,7 @@
     "url": "https://www.propertycapsule.com",
     "logo_url": "https://logo.clearbit.com/propertycapsule.com",
     "headline": "Digital asset management for real estate.",
-    "description": "Property Capsule is an iPad-based leasing and marketing application designed specifically for retail and commercial real estate professionals. The platform provides mobile tools for on-site property presentations, automated marketing flyer generation, site plans, and client engagement during property showings. Property Capsule enables real estate agents and brokers to deliver professional presentations directly from their iPad, streamlining the leasing process and enhancing client interactions with interactive property information and marketing materials.",
+    "description": "Property Capsule is a retail and commercial real estate marketing platform providing iPad leasing apps, automated marketing flyers, site plans, and more. The platform helps CRE brokers and landlords create professional property marketing materials, manage listings, and streamline the leasing process. Property Capsule offers subscription-based access with Lite and Pro tiers, including a free 30-day trial. The platform focuses on retail and commercial leasing, providing tools for creating branded marketing materials, interactive site plans, and digital presentations for property tours.",
     "short_description": "Digital asset management for real estate.",
     "target_audience": {
       "roles": [
@@ -7569,18 +8080,91 @@
         "Industrial"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Subscription-based - Monthly recurring fees, 30-day free trial available",
+    "feature_groups": [
+      {
+        "name": "Marketing Materials",
+        "features": [
+          {
+            "name": "Automated Flyers",
+            "description": "Generate professional property marketing flyers automatically from listing data."
+          },
+          {
+            "name": "Site Plans",
+            "description": "Create and update interactive site plans for retail and commercial properties."
+          },
+          {
+            "name": "Branded Documents",
+            "description": "Customizable marketing materials with company branding."
+          }
+        ]
+      },
+      {
+        "name": "Leasing Tools",
+        "features": [
+          {
+            "name": "iPad Leasing App",
+            "description": "Mobile app for property tours and presentations on iPad."
+          },
+          {
+            "name": "Listing Management",
+            "description": "Manage property listings and availability data."
+          },
+          {
+            "name": "Lead Tracking",
+            "description": "Track prospective tenant inquiries and leasing activity."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Lite",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "Basic marketing tools",
+            "Flyer generation",
+            "Listing management"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "Everything in Lite",
+            "iPad app",
+            "Site plans",
+            "Advanced features"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Automated flyer generation saves hours of design work",
+      "iPad app enables professional property tours",
+      "Interactive site plans for retail leasing",
+      "Free 30-day trial to evaluate the platform"
+    ],
+    "cons": [
+      "Focused primarily on retail CRE leasing",
+      "Pricing not clearly displayed on website",
+      "Niche tool\u2014may not justify subscription for small portfolios"
+    ],
     "integrations": [],
     "company": {
-      "name": "Property Capsule",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "name": "Property Capsule Inc.",
+      "founded": 2013,
+      "headquarters": "Houston, TX",
+      "employees": "10-30",
       "funding": ""
     },
     "categories": [
@@ -7606,11 +8190,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "propertycapsule.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Digital asset management for real estate.",
     "property_types": [
@@ -7755,7 +8339,7 @@
     "url": "https://www.rcm1.com",
     "logo_url": "https://logo.clearbit.com/rcm1.com",
     "headline": "Global marketplace for buying and selling commercial real estate.",
-    "description": "Real Capital Markets (RCM) is a leading commercial real estate marketing and transaction platform that has facilitated over .4 trillion in CRE transactions through 76,000+ deals. Over 50% of all U.S. commercial real estate sales are brought to market using RCM, serving over 300,000 industry professionals worldwide. The platform increases the speed, exposure, and security of CRE sales through a streamlined online system that connects qualified principals, brokers, mortgage bankers, and equity sources from Wall Street to Main Street.",
+    "description": "Real Capital Markets (RCM), now part of LightBox, is the dominant commercial real estate sales and marketing platform, with over 50% of all US CRE sales brought to market using RCM. The platform has facilitated 76,652+ deals totaling $2.5+ trillion in transactions, serving 81,000+ qualified principals and hosting 9,804+ active listings. RCM increases the speed, exposure, and security of CRE sales through a streamlined online platform. The client base ranges from prominent multinational corporations to entrepreneurial local businesses, including principals, brokers, mortgage bankers, and equity sources.",
     "short_description": "Global marketplace for buying and selling commercial real estate.",
     "target_audience": {
       "roles": [
@@ -7780,19 +8364,107 @@
         "Investment Properties"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Quote-based - Contact for custom pricing and platform access",
+    "feature_groups": [
+      {
+        "name": "Deal Marketing",
+        "features": [
+          {
+            "name": "Online Offering Memorandums",
+            "description": "Create professional digital offering memorandums for property marketing."
+          },
+          {
+            "name": "Buyer Database",
+            "description": "Access 81,000+ qualified principals for maximum deal exposure."
+          },
+          {
+            "name": "Deal Teasers",
+            "description": "Best-in-class property teasers for initial marketing outreach."
+          },
+          {
+            "name": "Document Library",
+            "description": "Comprehensive document library for due diligence materials."
+          }
+        ]
+      },
+      {
+        "name": "Transaction Management",
+        "features": [
+          {
+            "name": "Listing Management",
+            "description": "Create and manage property listings with professional marketing materials."
+          },
+          {
+            "name": "Buyer Tracking",
+            "description": "Track interested buyers, offers, and deal progress."
+          },
+          {
+            "name": "Data Export & Reports",
+            "description": "Export data and generate reports for deal analysis."
+          }
+        ]
+      },
+      {
+        "name": "Business Intelligence",
+        "features": [
+          {
+            "name": "Market Analytics",
+            "description": "CRE market data and analytics through LightBox integration."
+          },
+          {
+            "name": "Deal Benchmarking",
+            "description": "Compare deal metrics against market standards."
+          },
+          {
+            "name": "Performance Reports",
+            "description": "Track marketing effectiveness and deal pipeline performance."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Listing creation",
+            "Buyer database",
+            "Document library",
+            "Deal teasers"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "50%+ of all US CRE sales use RCM\u2014dominant market position",
+      "$2.5 trillion in transactions demonstrates scale and trust",
+      "81,000+ qualified principals provide maximum deal exposure",
+      "Part of LightBox ecosystem with expanded data capabilities",
+      "Used by Wall Street firms and local businesses alike"
+    ],
+    "cons": [
+      "Pricing not publicly available",
+      "Recent integration into LightBox may cause transition issues",
+      "Focused on investment sales\u2014not leasing or property management"
+    ],
+    "integrations": [
+      "LightBox",
+      "Various CRE data providers"
+    ],
     "company": {
-      "name": "Real Capital Markets",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Real Capital Markets (LightBox)",
+      "founded": 2001,
+      "headquarters": "Los Angeles, CA",
+      "employees": "50-100",
+      "funding": "Part of LightBox"
     },
     "categories": [
       "Broker Tools",
@@ -7817,11 +8489,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "rcm1.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Global marketplace for buying and selling commercial real estate.",
     "property_types": [
@@ -7854,7 +8526,7 @@
     "url": "https://www.realdata.com",
     "logo_url": "https://logo.clearbit.com/realdata.com",
     "headline": "Comprehensive real estate data and analysis.",
-    "description": "Real Data offers software solutions for real estate investors to analyze properties, including tools for cash flow projections, investment analysis, and valuation. Its tools are designed to assist in the decision-making process for property investments.",
+    "description": "RealData provides Excel-based real estate investment evaluation software and educational resources for investors and developers. The platform helps users analyze properties with speed and confidence by automating complex financial calculations, comparing properties, modeling scenarios, and generating professional reports. RealData offers separate products for multifamily properties, income properties (office, retail, industrial), commercial development, and residential development. Each software product is a one-time purchase with no recurring fees, working in a familiar spreadsheet environment with pre-programmed functions, PDF printing, cell notes, user guides, and training videos.",
     "short_description": "Comprehensive real estate data and analysis.",
     "target_audience": {
       "roles": [],
@@ -7863,26 +8535,106 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Investment Analysis",
+        "features": [
+          {
+            "name": "Multifamily Analysis",
+            "description": "Evaluate ROI for existing, value-add, redevelopment, and new construction multifamily properties."
+          },
+          {
+            "name": "Income Property Analysis",
+            "description": "Analyze multifamily, office, retail, industrial, and mixed-use investments."
+          },
+          {
+            "name": "Commercial Development",
+            "description": "Evaluate project cost, feasibility, and financing for ground-up development."
+          },
+          {
+            "name": "Residential Development",
+            "description": "Plan cash flow and absorption for subdivisions, condos, and land development."
+          }
+        ]
+      },
+      {
+        "name": "Financial Modeling",
+        "features": [
+          {
+            "name": "Cash Flow Projections",
+            "description": "Detailed multi-year cash flow projections with customizable assumptions."
+          },
+          {
+            "name": "Scenario Analysis",
+            "description": "Stress test assumptions with multiple income, expense, and financing scenarios."
+          },
+          {
+            "name": "Professional Reports",
+            "description": "Generate polished PDF reports for investors, lenders, and partners."
+          }
+        ]
+      },
+      {
+        "name": "Platform Features",
+        "features": [
+          {
+            "name": "Excel-Based",
+            "description": "Work in familiar spreadsheet environment with automated financial formulas."
+          },
+          {
+            "name": "One-Time Purchase",
+            "description": "No recurring monthly or annual charges\u2014buy once, use forever."
+          },
+          {
+            "name": "Training Resources",
+            "description": "Comprehensive documentation including user guides, knowledgebase, and videos."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "One-time purchase",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Individual Products",
+          "price": "$99-$399",
+          "period": "one-time",
+          "features": [
+            "Excel-based analysis",
+            "Financial projections",
+            "PDF reports",
+            "Training resources"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "One-time purchase with no recurring fees\u2014excellent value",
+      "Excel-based means familiar interface with no learning curve",
+      "Separate products optimized for different property types",
+      "Professional reports impress investors and lenders",
+      "Extensive educational resources and documentation"
+    ],
+    "cons": [
+      "Excel-based means no cloud collaboration or real-time sharing",
+      "Less modern than SaaS-based financial modeling platforms",
+      "Updates may require purchasing new versions"
+    ],
+    "integrations": [
+      "Microsoft Excel"
+    ],
     "company": {
-      "name": "Real Data",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "RealData Inc.",
+      "founded": 1982,
+      "headquarters": "Southport, CT",
+      "employees": "5-10",
+      "funding": "Self-funded"
     },
     "categories": [
       "Data & Analytics",
@@ -7902,11 +8654,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "realdata.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "One-time purchase",
     "is_free": false,
     "tagline": "Comprehensive real estate data and analysis.",
     "property_types": [
