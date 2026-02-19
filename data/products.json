@@ -8254,7 +8254,7 @@
     "url": "https://www.sertifi.com",
     "logo_url": "https://logo.clearbit.com/sertifi.com",
     "headline": "Electronic signature solutions.",
-    "description": "Sertifi by Flywire is a hospitality-focused platform that streamlines payments, agreements, and credit card authorizations for the hotel and entertainment industries. Trusted by over 20,000 hospitality locations across 150+ countries, Sertifi helps businesses accelerate the process from lead to revenue through digital workflows tailored for hospitality operations. While primarily focused on hotels and entertainment venues, the platform is relevant for commercial real estate companies that own or manage hospitality properties.",
+    "description": "Sertifi, now part of Flywire, is the leading digital agreements and payment platform for the hospitality industry. While not exclusively CRE-focused, Sertifi powers electronic signatures, payment processing, and credit card authorizations for over 20,000 unique hospitality locations across 150+ countries. The platform is the digital authorizations provider for all Marriott properties worldwide and brand standard for Hilton, Hyatt, Accor, Sonesta, and Red Roof Inn. Sertifi is also a strategic partner to major hospitality management companies including Aimbridge, Highgate, and Hersha, and exclusive provider for Topgolf, Dave & Busters, and Main Event.",
     "short_description": "Electronic signature solutions.",
     "target_audience": {
       "roles": [
@@ -8275,19 +8275,93 @@
         "Resort Properties"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Quote-based - Contact for pricing and implementation",
+    "feature_groups": [
+      {
+        "name": "Agreements",
+        "features": [
+          {
+            "name": "Electronic Signatures",
+            "description": "Digital contract signing for hospitality agreements and event contracts."
+          },
+          {
+            "name": "Credit Card Authorizations",
+            "description": "PCI Level 1 compliant digital credit card authorization forms."
+          },
+          {
+            "name": "Contract Management",
+            "description": "Create, send, and manage hospitality contracts digitally."
+          }
+        ]
+      },
+      {
+        "name": "Payments",
+        "features": [
+          {
+            "name": "Payment Processing",
+            "description": "Integrated payment collection with flexible processing options."
+          },
+          {
+            "name": "Chargeback Reduction",
+            "description": "Best-in-breed technology and expert advice to reduce chargebacks."
+          },
+          {
+            "name": "PCI Compliance",
+            "description": "PCI Level 1 compliance to protect client and business data."
+          }
+        ]
+      },
+      {
+        "name": "Operations",
+        "features": [
+          {
+            "name": "Quick Onboarding",
+            "description": "Rapidly onboard new properties with consistent configuration."
+          },
+          {
+            "name": "Integrations",
+            "description": "Connect with existing PMS, CRM, and sales tools."
+          },
+          {
+            "name": "Global Coverage",
+            "description": "Serve hospitality locations across 150+ countries."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": []
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Powers 20,000+ hospitality locations across 150+ countries",
+      "Brand standard for Marriott, Hilton, Hyatt, Accor, and more",
+      "PCI Level 1 compliance ensures top-tier security",
+      "Reduces chargebacks with expert technology",
+      "Part of Flywire with global payments expertise"
+    ],
+    "cons": [
+      "Primarily hospitality-focused, not general CRE",
+      "Enterprise pricing not publicly available",
+      "May be overkill for smaller operations"
+    ],
+    "integrations": [
+      "Marriott systems",
+      "Hilton systems",
+      "Salesforce",
+      "Various PMS platforms"
+    ],
     "company": {
-      "name": "Sertifi",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Sertifi (Flywire)",
+      "founded": 2006,
+      "headquarters": "Chicago, IL",
+      "employees": "100-200",
+      "funding": "Acquired by Flywire (NASDAQ: FLYW)"
     },
     "categories": [
       "CRM & Marketing",
@@ -8308,7 +8382,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "sertifi.com",
@@ -15159,7 +15233,7 @@
     "url": "https://www.rently.com",
     "logo_url": "https://logo.clearbit.com/rently.com",
     "headline": "Self-touring technology and smart home solutions for rentals.",
-    "description": "Rently provides self-touring technology and smart home solutions for rental properties, helping tenants tour properties remotely.",
+    "description": "Rently is a resident lifecycle management platform providing smart home solutions and self-guided touring technology for property managers and owners. The platform combines IoT smart home devices with leasing automation tools to create a complete proptech solution. Rently's self-guided tours allow prospective renters to tour properties safely and securely without staff present, expanding showing hours and accelerating leasing velocity. Smart home solutions include energy management, damage prevention, activity monitoring, and access control. The platform also offers vacancy advertising through its own Internet Listing Site (ILS), increasing property traffic by 25%. Rently powers organizations like RangeWater, Fundrise, and American Residential Group.",
     "short_description": "Self-touring technology and smart home solutions for rentals.",
     "target_audience": {
       "roles": [],
@@ -15168,7 +15242,67 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Self-Guided Tours",
+        "features": [
+          {
+            "name": "Self-Showing Technology",
+            "description": "Prospective renters tour properties independently with secure smart access."
+          },
+          {
+            "name": "Extended Showing Hours",
+            "description": "Properties available for touring 12+ hours a day, 7 days a week."
+          },
+          {
+            "name": "Tour Scheduling",
+            "description": "Online scheduling system for self-guided and agent-led tours."
+          },
+          {
+            "name": "ID Verification",
+            "description": "Secure identity verification before granting property access."
+          }
+        ]
+      },
+      {
+        "name": "Smart Home",
+        "features": [
+          {
+            "name": "Energy Management",
+            "description": "Smart thermostat and energy monitoring to reduce utility costs."
+          },
+          {
+            "name": "Damage Prevention",
+            "description": "Water leak sensors and smart monitoring to prevent property damage."
+          },
+          {
+            "name": "Activity Monitoring",
+            "description": "Track property access and activity for security and compliance."
+          },
+          {
+            "name": "Smart Access Control",
+            "description": "Smart locks and keyless entry for properties and common areas."
+          }
+        ]
+      },
+      {
+        "name": "Leasing Automation",
+        "features": [
+          {
+            "name": "Vacancy Advertising",
+            "description": "Rently ILS increases property traffic by 25% with targeted lead matching."
+          },
+          {
+            "name": "Lead Management",
+            "description": "Track and manage prospective tenant leads through the leasing funnel."
+          },
+          {
+            "name": "Move-In/Move-Out Management",
+            "description": "Streamline the move-in and move-out process digitally."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -15179,15 +15313,30 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Self-guided tours expand showing hours without additional staff costs",
+      "Smart home technology prevents damage and reduces energy costs",
+      "ILS increases property traffic by 25%",
+      "Powers major operators like Fundrise and RangeWater",
+      "Complete resident lifecycle platform from tour to move-out"
+    ],
+    "cons": [
+      "Enterprise pricing not publicly available",
+      "Smart home hardware installation required",
+      "Self-guided tours may not suit all property types or markets"
+    ],
+    "integrations": [
+      "Yardi",
+      "RealPage",
+      "Entrata",
+      "AppFolio"
+    ],
     "company": {
       "name": "Rently",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2011,
+      "headquarters": "Camarillo, CA",
+      "employees": "100-200",
+      "funding": "$30M+"
     },
     "categories": [
       "Data & Analytics",
@@ -15207,7 +15356,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "rently.com",
@@ -15927,29 +16076,128 @@
     "url": "https://www.mysmartmove.com",
     "logo_url": "https://logo.clearbit.com/mysmartmove.com",
     "headline": "Tenant screening services for landlords and property managers.",
-    "description": "TransUnion SmartMove is a tenant screening service that provides comprehensive background checks, credit reports, and rental history verification for landlords and property managers to make informed rental decisions.",
+    "description": "TransUnion SmartMove is a tenant screening service powered by TransUnion, one of the three major credit bureaus. The platform provides landlords with comprehensive tenant background checks including credit reports, criminal history, eviction records, and income verification. SmartMove is designed for independent landlords who want quick, reliable screening without needing a business account or subscription. Reports are available within minutes and can be paid for by either the landlord or the applicant. The service leverages TransUnion's massive consumer database for accurate, up-to-date screening data and is widely integrated with property management platforms.",
     "short_description": "Tenant screening services for landlords and property managers.",
     "target_audience": "Landlords, property managers, rental property owners",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Screening Reports",
+        "features": [
+          {
+            "name": "Credit Reports",
+            "description": "Full TransUnion credit report with credit score and payment history."
+          },
+          {
+            "name": "Criminal Background Check",
+            "description": "National criminal database search covering all 50 states."
+          },
+          {
+            "name": "Eviction History",
+            "description": "Nationwide eviction records from court databases."
+          },
+          {
+            "name": "Income Insights",
+            "description": "Income verification using TransUnion data to validate applicant earnings."
+          }
+        ]
+      },
+      {
+        "name": "Risk Assessment",
+        "features": [
+          {
+            "name": "ResidentScore",
+            "description": "Proprietary scoring model designed specifically for rental risk assessment."
+          },
+          {
+            "name": "OFAC Check",
+            "description": "Screening against the Office of Foreign Assets Control terrorism watchlist."
+          },
+          {
+            "name": "Recommendation Engine",
+            "description": "Accept/review/deny recommendations based on screening results."
+          }
+        ]
+      },
+      {
+        "name": "Platform Features",
+        "features": [
+          {
+            "name": "Instant Results",
+            "description": "Reports available within minutes of applicant completion."
+          },
+          {
+            "name": "Applicant-Pays Option",
+            "description": "Applicants can pay for their own screening to save landlords money."
+          },
+          {
+            "name": "No Subscription Required",
+            "description": "Pay-per-use model with no monthly fees or long-term commitments."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Per screening",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "SmartCheck Basic",
+          "price": "$25",
+          "period": "per screening",
+          "features": [
+            "Credit report",
+            "Criminal background"
+          ]
+        },
+        {
+          "name": "SmartCheck Plus",
+          "price": "$35",
+          "period": "per screening",
+          "features": [
+            "Credit report",
+            "Criminal background",
+            "Eviction history"
+          ]
+        },
+        {
+          "name": "SmartCheck Premium",
+          "price": "$40",
+          "period": "per screening",
+          "features": [
+            "Credit report",
+            "Criminal background",
+            "Eviction history",
+            "Income Insights"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Backed by TransUnion\u2014one of the three major credit bureaus",
+      "No subscription required\u2014pay per screening",
+      "Reports available within minutes",
+      "Applicant-pays option saves landlords money",
+      "ResidentScore specifically designed for rental risk"
+    ],
+    "cons": [
+      "Per-screening costs add up for high-volume landlords",
+      "Limited to US market",
+      "No ongoing monitoring\u2014point-in-time screening only"
+    ],
+    "integrations": [
+      "Multiple PM platforms via TransUnion partnerships"
+    ],
     "company": {
-      "name": "TransUnion SmartMove",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "TransUnion LLC",
+      "founded": 1968,
+      "headquarters": "Chicago, IL",
+      "employees": "10000+",
+      "funding": "Public company (NYSE: TRU)"
     },
     "categories": [
       "Broker Tools",
@@ -15972,11 +16220,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "mysmartmove.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Per screening",
     "is_free": false,
     "tagline": "Tenant screening services for landlords and property managers.",
     "property_types": [
@@ -16066,7 +16314,7 @@
     "url": "https://www.mynd.co",
     "logo_url": "https://logo.clearbit.com/mynd.co",
     "headline": "Property management services and tools for single-family rentals.",
-    "description": "Mynd offers property management services and tools for single-family rental properties, providing technology to streamline operations.",
+    "description": "Mynd, a Roofstock company, is a tech-enabled property management platform managing 20,000+ single-family rental homes across 40+ US markets. The platform provides full-service property management including tenant placement, maintenance coordination, lease management, and financial reporting through a technology-powered Investor Portal. Mynd's expert turn service ensures homes are leased quickly without compromising on rental rates or resident quality, achieving a less than 2% delinquency rate. The platform offers institutional-grade management services for portfolios of 100+ homes as well as individual investors, with features like the Mynd Eviction Protection Plan, 24/7 emergency coverage, and integration with Stessa for portfolio tracking.",
     "short_description": "Property management services and tools for single-family rentals.",
     "target_audience": {
       "roles": [],
@@ -16075,26 +16323,135 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Property Management",
+        "features": [
+          {
+            "name": "Full-Service Management",
+            "description": "Dedicated team handles everything from tenant placement to maintenance coordination."
+          },
+          {
+            "name": "Tenant Screening & Placement",
+            "description": "Data-driven screening with proven marketing to find reliable, long-term residents."
+          },
+          {
+            "name": "Maintenance Coordination",
+            "description": "In-house specialists and trusted vendor network resolve issues quickly."
+          },
+          {
+            "name": "Lease Management",
+            "description": "Handle lease signing, renewals, and compliance across your portfolio."
+          }
+        ]
+      },
+      {
+        "name": "Technology & Reporting",
+        "features": [
+          {
+            "name": "Investor Portal",
+            "description": "Real-time insights and complete visibility into day-to-day operations."
+          },
+          {
+            "name": "Stessa Integration",
+            "description": "Integration with top-rated platform for managing and optimizing rental portfolios."
+          },
+          {
+            "name": "Financial Reporting",
+            "description": "Detailed financial reports and owner statements for each property."
+          }
+        ]
+      },
+      {
+        "name": "Protection & Support",
+        "features": [
+          {
+            "name": "Eviction Protection Plan",
+            "description": "Coverage to mitigate risk from tenant evictions."
+          },
+          {
+            "name": "24/7 Emergency Coverage",
+            "description": "Round-the-clock emergency maintenance response."
+          },
+          {
+            "name": "Quick Response Times",
+            "description": "Fast communication and issue resolution for investors and residents."
+          }
+        ]
+      },
+      {
+        "name": "Institutional Services",
+        "features": [
+          {
+            "name": "Portfolio Management",
+            "description": "Institutional-grade services for portfolios of 100+ homes."
+          },
+          {
+            "name": "Scale Advantages",
+            "description": "Volume discounts on maintenance and services from managing 20K+ homes."
+          },
+          {
+            "name": "Data-Driven Operations",
+            "description": "Market data and industry insights from Roofstock ecosystem."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Percentage of rent",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Individual",
+          "price": "8-10% of monthly rent",
+          "period": "monthly",
+          "features": [
+            "Full-service management",
+            "Investor portal",
+            "Tenant placement",
+            "Maintenance"
+          ]
+        },
+        {
+          "name": "Institutional",
+          "price": "Custom",
+          "period": "",
+          "features": [
+            "Everything in Individual",
+            "Dedicated team",
+            "Custom reporting",
+            "Portfolio optimization"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "20,000+ homes under management across 40+ markets provides scale",
+      "Less than 2% delinquency rate demonstrates screening quality",
+      "Part of Roofstock ecosystem with institutional-grade data",
+      "Eviction Protection Plan mitigates investor risk",
+      "Tech-enabled with real-time Investor Portal"
+    ],
+    "cons": [
+      "8-10% management fee can reduce returns for investors",
+      "Service quality may vary across 40+ markets",
+      "Best suited for single-family rentals, not multifamily or commercial"
+    ],
+    "integrations": [
+      "Stessa",
+      "Roofstock"
+    ],
     "company": {
-      "name": "Mynd",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Mynd (Roofstock)",
+      "founded": 2016,
+      "headquarters": "Oakland, CA",
+      "employees": "200-500",
+      "funding": "Acquired by Roofstock"
     },
     "categories": [
       "Data & Analytics",
@@ -16115,11 +16472,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "mynd.co",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Percentage of rent",
     "is_free": false,
     "tagline": "Property management services and tools for single-family rentals.",
     "property_types": [
@@ -16934,12 +17291,47 @@
     "url": "https://www.realcrowd.com",
     "logo_url": "https://logo.clearbit.com/realcrowd.com",
     "headline": "Commercial real estate investment platform for accredited investors.",
-    "description": "RealCrowd was a real estate crowdfunding and investment marketplace that provided accredited investors access to private equity real estate investments. The platform has been acquired by Trinity Investors, which continues to offer similar private equity investment opportunities with enhanced access, transparency, and control. RealCrowd historically connected investors with vetted real estate sponsors and investment opportunities they would not otherwise be able to participate in.",
+    "description": "RealCrowd was a commercial real estate crowdfunding marketplace that connected accredited investors with institutional-quality real estate investment opportunities through a direct investment model. The platform has been transitioned to Trinity Investors, which continues to provide access to private equity real estate and operating company investments. Historical investments made through the RealCrowd Marketplace remain unchanged, a benefit of the direct investment model. Trinity works with a close network of investment managers to provide deal flow mirroring what investors experienced on RealCrowd. The platform emphasized access, transparency, and control for investors in private real estate.",
     "short_description": "Commercial real estate investment platform for accredited investors.",
     "target_audience": "Accredited investors seeking access to private equity real estate investments, individual investors looking for commercial real estate opportunities, and investors interested in crowdfunding real estate deals with vetted sponsors.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Investment Access",
+        "features": [
+          {
+            "name": "Direct Investment Model",
+            "description": "Invest directly into real estate deals without intermediary fund structures."
+          },
+          {
+            "name": "Private Placements",
+            "description": "Access to institutional-quality private equity real estate investments."
+          },
+          {
+            "name": "Operating Companies",
+            "description": "Investment in operating companies alongside traditional real estate."
+          }
+        ]
+      },
+      {
+        "name": "Investor Experience",
+        "features": [
+          {
+            "name": "Transparency",
+            "description": "Robust reporting standards with real-time performance insights."
+          },
+          {
+            "name": "Sponsor Network",
+            "description": "Close network of stellar investment managers providing deal flow."
+          },
+          {
+            "name": "Portfolio Tracking",
+            "description": "Track investment performance and distributions online."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Investment minimums",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -16948,15 +17340,24 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Direct investment model gives investors control over specific deals",
+      "Historical investments remain unchanged during transition",
+      "Access to institutional-quality real estate investments",
+      "Transparent reporting with real-time performance data"
+    ],
+    "cons": [
+      "Platform has been transitioned to Trinity Investors",
+      "Investments are illiquid with long hold periods",
+      "Accredited investor requirements limit access"
+    ],
     "integrations": [],
     "company": {
-      "name": "RealCrowd",
-      "founded": null,
-      "headquarters": "",
+      "name": "RealCrowd (now Trinity Investors)",
+      "founded": 2013,
+      "headquarters": "San Francisco, CA",
       "employees": "",
-      "funding": ""
+      "funding": "Transitioned to Trinity Investors"
     },
     "categories": [
       "Broker Tools",
@@ -16978,11 +17379,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "realcrowd.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Investment minimums",
     "is_free": false,
     "tagline": "Commercial real estate investment platform for accredited investors.",
     "property_types": [
@@ -18305,28 +18706,117 @@
     "url": "https://www.roofsnap.com",
     "logo_url": "https://logo.clearbit.com/roofsnap.com",
     "headline": "Roofing software with property measurement and estimation tools.",
-    "description": "RoofSnap is specialized roofing software designed for small crews and solo roofers to streamline the entire sales process from measurement to payment collection. The platform provides remote roof measurements, instant estimate generation, and payment processing capabilities, helping roofing contractors quote smarter, close faster, and win more jobs without the complexity of larger software platforms.",
+    "description": "RoofSnap is the #1 roofing software platform designed for small crews and solo roofers, providing everything needed to measure, estimate, and get paid fast. The platform delivers accurate roof, gutter, and lighting measurements with detailed reports in as little as 30 minutes, an estimation suite for creating professional Good/Better/Best quotes, and integrated payment processing powered by Stripe. RoofSnap's measurement reports include detailed diagrams and waste calculations for asphalt roofs, gutter material bins with downspout placement, and lighting-specific reports for eaves and rakes. Rated 4.5/5 stars, the platform also includes a Draw-It-Yourself sketch tool, contract creation, and professional business documents.",
     "short_description": "Roofing software with property measurement and estimation tools.",
     "target_audience": "Small roofing crews, solo roofers, gutter contractors, lighting installation contractors, and roofing companies seeking streamlined measurement, estimation, and payment collection processes without the complexity of enterprise-level software platforms.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Measurement",
+        "features": [
+          {
+            "name": "Standard Measurement Reports",
+            "description": "Detailed roof measurements with diagrams and waste calculations, delivered in under 4 hours."
+          },
+          {
+            "name": "Gutter Measurements",
+            "description": "Reports with material bins for end caps, miters, and downspout placement suggestions."
+          },
+          {
+            "name": "Lighting Reports",
+            "description": "Focused reports for eaves and rakes for lighting layout planning."
+          },
+          {
+            "name": "Rush Orders",
+            "description": "Receive measurement reports in less than 30 minutes with rush delivery."
+          }
+        ]
+      },
+      {
+        "name": "Estimation",
+        "features": [
+          {
+            "name": "Instant Estimates",
+            "description": "Generate Good/Better/Best pricing based on materials and measurements instantly."
+          },
+          {
+            "name": "Detailed Estimate Builder",
+            "description": "Customize line items, apply markups or discounts, and control margins."
+          },
+          {
+            "name": "Professional Documents",
+            "description": "Branded estimates and contracts with company logo, photos, and notes."
+          }
+        ]
+      },
+      {
+        "name": "Sales & Payment",
+        "features": [
+          {
+            "name": "Contract Creation",
+            "description": "Create professional roofing contracts ready for client signing."
+          },
+          {
+            "name": "Payment Processing",
+            "description": "Collect credit card (2.9% + $0.30) or ACH (1%) payments via Stripe."
+          },
+          {
+            "name": "Draw-It-Yourself Tool",
+            "description": "In-app sketch tool for unlimited DIY measurements without site visits."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription or pay-per-use",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Pay-As-You-Go",
+          "price": "Varies per report",
+          "period": "per order",
+          "features": [
+            "Measurement reports",
+            "Estimation tools",
+            "Payment processing"
+          ]
+        },
+        {
+          "name": "Subscription",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "Discounted reports",
+            "All features",
+            "Unlimited DIY measurements"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Reports delivered in under 4 hours (30 min rush available)",
+      "Good/Better/Best estimation simplifies quoting for customers",
+      "Integrated Stripe payments eliminate separate payment processing",
+      "DIY sketch tool enables remote measurements without site visits",
+      "4.5/5 star rating from roofing professionals"
+    ],
+    "cons": [
+      "Focused exclusively on roofing\u2014not a general construction tool",
+      "Per-report pricing can add up for high-volume businesses",
+      "Subscription pricing not transparently listed"
+    ],
+    "integrations": [
+      "Stripe"
+    ],
     "company": {
       "name": "RoofSnap",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "founded": 2012,
+      "headquarters": "Durham, NC",
+      "employees": "20-50",
       "funding": ""
     },
     "categories": [
@@ -18348,11 +18838,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "roofsnap.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription or pay-per-use",
     "is_free": false,
     "tagline": "Roofing software with property measurement and estimation tools.",
     "property_types": [
@@ -18385,10 +18875,66 @@
     "url": "https://www.propertymeld.com",
     "logo_url": "https://logo.clearbit.com/propertymeld.com",
     "headline": "Maintenance management software for rental properties.",
-    "description": "Property Meld is a specialized property maintenance software platform designed to streamline maintenance operations for property management companies. The platform eliminates maintenance backlogs and provides comprehensive tools for communication, scheduling, vendor management, and data analytics, helping property managers focus on growth while delivering efficient maintenance coordination across their portfolios.",
+    "description": "Property Meld is a property maintenance management software platform purpose-built to transform how property managers handle maintenance operations. The platform combines maintenance communication, scheduling, data analytics, and AI (Max Intelligence) to eliminate the 'middleman' role from property managers and create efficient, automated maintenance workflows. Property Meld integrates with major property management software including AppFolio, Buildium, and Rent Manager. The platform serves single-family, multifamily, HOA, and student housing markets. Vendor Nexus helps source reliable vendors, while the Ladder of Maintenance Excellence framework guides companies to operational best practices.",
     "short_description": "Maintenance management software for rental properties.",
     "target_audience": "Property management companies operating single-family rental properties, multifamily housing complexes, HOA communities, and student housing facilities seeking to optimize maintenance operations, eliminate backlogs, and improve resident satisfaction through better maintenance coordination.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Maintenance Operations",
+        "features": [
+          {
+            "name": "Work Order Management",
+            "description": "Create, assign, and track maintenance requests from submission to resolution."
+          },
+          {
+            "name": "Automated Scheduling",
+            "description": "Remove the middleman with direct tenant-vendor scheduling coordination."
+          },
+          {
+            "name": "Communication Hub",
+            "description": "Centralized communication between tenants, vendors, and property managers."
+          },
+          {
+            "name": "Vendor Nexus",
+            "description": "Source and manage reliable maintenance vendors through the platform."
+          }
+        ]
+      },
+      {
+        "name": "AI & Analytics",
+        "features": [
+          {
+            "name": "Max Intelligence",
+            "description": "The only AI in the industry powered by world-class maintenance data."
+          },
+          {
+            "name": "Maintenance Data Analytics",
+            "description": "Data-driven insights for business decisions instead of gut feelings."
+          },
+          {
+            "name": "Performance Metrics",
+            "description": "Track resolution times, costs, and vendor performance."
+          }
+        ]
+      },
+      {
+        "name": "Oversight & Efficiency",
+        "features": [
+          {
+            "name": "Maintenance Oversight",
+            "description": "Full visibility into all maintenance operations across your portfolio."
+          },
+          {
+            "name": "Workflow Automation",
+            "description": "Automate repetitive maintenance tasks and escalations."
+          },
+          {
+            "name": "Reputation & Retention",
+            "description": "Improve resident and investor satisfaction through better maintenance."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -18399,15 +18945,31 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Purpose-built for maintenance operations unlike general PM software",
+      "Max Intelligence AI is unique in the maintenance space",
+      "Integrates with major PM platforms (AppFolio, Buildium, Rent Manager)",
+      "Automated scheduling removes property managers as middlemen",
+      "Serves multiple markets: SFR, multifamily, HOA, student housing"
+    ],
+    "cons": [
+      "Pricing not publicly available",
+      "Adds another tool to the property management tech stack",
+      "Requires adoption by vendors and tenants for full effectiveness"
+    ],
+    "integrations": [
+      "AppFolio",
+      "Buildium",
+      "Rent Manager",
+      "Propertyware",
+      "RealPage"
+    ],
     "company": {
       "name": "Property Meld",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2014,
+      "headquarters": "Rapid City, SD",
+      "employees": "50-100",
+      "funding": "$10M+"
     },
     "categories": [
       "Construction & Development",
@@ -18429,7 +18991,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "propertymeld.com",
@@ -18466,7 +19028,7 @@
     "url": "https://www.clearcapital.com",
     "logo_url": "https://logo.clearbit.com/clearcapital.com",
     "headline": "Real estate valuation and appraisal technology for professionals.",
-    "description": "Clear Capital provides real estate valuation and appraisal technology, offering property data and analytics for professionals.",
+    "description": "Clear Capital is a real estate valuation technology company providing automated and hybrid valuation solutions for lenders, servicers, investors, and government agencies. The company combines data analytics, artificial intelligence, and a nationwide network of local real estate professionals to deliver property valuations, appraisals, and inspection services. Clear Capital's platform supports the mortgage lifecycle from origination through servicing with products including desktop appraisals, hybrid appraisals, broker price opinions (BPOs), and automated valuation models (AVMs). The company is known for its fast turnaround times and accuracy in property valuation.",
     "short_description": "Real estate valuation and appraisal technology for professionals.",
     "target_audience": {
       "roles": [],
@@ -18475,9 +19037,65 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Valuation Products",
+        "features": [
+          {
+            "name": "Desktop Appraisals",
+            "description": "Remote property appraisals leveraging data and technology."
+          },
+          {
+            "name": "Hybrid Appraisals",
+            "description": "Combining remote analysis with local property inspections."
+          },
+          {
+            "name": "Broker Price Opinions",
+            "description": "Market-based property valuations from local real estate professionals."
+          },
+          {
+            "name": "Automated Valuation Models",
+            "description": "Data-driven property value estimates using machine learning."
+          }
+        ]
+      },
+      {
+        "name": "Technology",
+        "features": [
+          {
+            "name": "AI-Powered Analytics",
+            "description": "Artificial intelligence for property analysis and valuation accuracy."
+          },
+          {
+            "name": "Data Integration",
+            "description": "Comprehensive property data from multiple sources for informed valuations."
+          },
+          {
+            "name": "Quality Assurance",
+            "description": "Automated quality checks and compliance verification for every valuation."
+          }
+        ]
+      },
+      {
+        "name": "Services",
+        "features": [
+          {
+            "name": "Property Inspections",
+            "description": "Nationwide network of professionals for on-site property inspections."
+          },
+          {
+            "name": "Portfolio Valuations",
+            "description": "Bulk valuation services for large portfolios and institutional clients."
+          },
+          {
+            "name": "Compliance Solutions",
+            "description": "GSE-compliant valuations meeting regulatory requirements."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Per valuation",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -18486,15 +19104,29 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Combines AI technology with local human expertise",
+      "Fast turnaround times for property valuations",
+      "Nationwide coverage through local professional network",
+      "GSE-compliant products meet regulatory standards",
+      "Multiple valuation products for different use cases"
+    ],
+    "cons": [
+      "Enterprise pricing not publicly listed",
+      "Primarily B2B\u2014not directly accessible to individual investors",
+      "Valuation accuracy can vary by market and property type"
+    ],
+    "integrations": [
+      "Various LOS systems",
+      "Fannie Mae",
+      "Freddie Mac"
+    ],
     "company": {
       "name": "Clear Capital",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2001,
+      "headquarters": "Reno, NV",
+      "employees": "200-500",
+      "funding": "$50M+"
     },
     "categories": [
       "Data & Analytics",
@@ -18515,11 +19147,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "clearcapital.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Per valuation",
     "is_free": false,
     "tagline": "Real estate valuation and appraisal technology for professionals.",
     "property_types": [
@@ -18602,29 +19234,111 @@
     "url": "https://www.obierisk.com",
     "logo_url": "https://logo.clearbit.com/obierisk.com",
     "headline": "Insurance solutions for real estate investors and landlords.",
-    "description": "Obie is a specialized insurance technology platform designed exclusively for landlords and real estate investors, providing comprehensive landlord insurance coverage for investment properties. The platform combines technology-driven solutions with expert guidance to deliver faster quotes, customizable coverage, and streamlined policy management for various property types from single-family homes to large apartment buildings.",
+    "description": "Obie is a technology-driven insurance platform designed specifically for landlords and real estate investors. The platform uses data-driven insights to provide faster, more accurate insurance quotes with a streamlined online experience. Obie offers customizable insurance solutions tailored to unique investment properties and goals, with expert guidance available at every step. The platform is trusted by thousands of property owners and investors, with customers reporting getting landlord insurance policies online in as little as 15 minutes. Obie handles various property types and investment strategies from fix-and-flip to long-term rentals, meeting lender insurance requirements for all loan types.",
     "short_description": "Insurance solutions for real estate investors and landlords.",
     "target_audience": "Real estate investors, landlords, property owners with rental portfolios, fix-and-flip investors, and anyone seeking specialized insurance coverage for investment properties ranging from single-family homes to large multifamily apartment buildings.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Insurance Products",
+        "features": [
+          {
+            "name": "Landlord Insurance",
+            "description": "Property insurance specifically designed for rental investment properties."
+          },
+          {
+            "name": "Fix-and-Flip Coverage",
+            "description": "Insurance for properties being renovated and resold."
+          },
+          {
+            "name": "Portfolio Coverage",
+            "description": "Scalable insurance solutions for multiple investment properties."
+          },
+          {
+            "name": "Lender Compliance",
+            "description": "Policies that meet insurance requirements for all loan types."
+          }
+        ]
+      },
+      {
+        "name": "Platform Features",
+        "features": [
+          {
+            "name": "Instant Online Quotes",
+            "description": "Get accurate insurance quotes in minutes through the online platform."
+          },
+          {
+            "name": "Data-Driven Pricing",
+            "description": "Technology and data analytics for faster, more accurate risk assessment."
+          },
+          {
+            "name": "Online Policy Management",
+            "description": "Manage all insurance policies from a single online dashboard."
+          }
+        ]
+      },
+      {
+        "name": "Expert Support",
+        "features": [
+          {
+            "name": "Personalized Guidance",
+            "description": "Industry-leading expertise with personalized support at every step."
+          },
+          {
+            "name": "Transparent Options",
+            "description": "Clear policy options with no hidden fees or confusing terms."
+          },
+          {
+            "name": "Quick Binding",
+            "description": "Fast policy binding to meet closing deadlines."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Per policy",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Landlord Insurance",
+          "price": "Varies by property",
+          "period": "annual",
+          "features": [
+            "Property coverage",
+            "Liability protection",
+            "Loss of income",
+            "Lender compliance"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Purpose-built for landlords and real estate investors",
+      "Get quotes and bind policies online in as little as 15 minutes",
+      "Data-driven pricing ensures competitive rates",
+      "Meets lender insurance requirements for all loan types",
+      "Trusted by thousands of property owners with excellent reviews"
+    ],
+    "cons": [
+      "Primarily focused on US market",
+      "May not cover all specialty property types",
+      "Online-first approach may not suit those preferring traditional agents"
+    ],
+    "integrations": [
+      "Roofstock",
+      "BiggerPockets",
+      "Stessa"
+    ],
     "company": {
-      "name": "Obie",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Obie (Millennial Specialty Insurance)",
+      "founded": 2017,
+      "headquarters": "Chicago, IL",
+      "employees": "50-100",
+      "funding": "$13.5M+"
     },
     "categories": [
       "Broker Tools",
@@ -18644,11 +19358,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "obierisk.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Per policy",
     "is_free": false,
     "tagline": "Insurance solutions for real estate investors and landlords.",
     "property_types": [
@@ -18917,10 +19631,66 @@
     "url": "https://www.simplenexus.com",
     "logo_url": "https://logo.clearbit.com/simplenexus.com",
     "headline": "Mortgage origination software for real estate professionals.",
-    "description": "SimpleNexus (now nCino Mortgage Suite) is a comprehensive digital mortgage lending platform that automates loan processing and closing to increase mortgage profitability for financial institutions. The platform has been acquired by nCino and delivers modern customer convenience, data insights, and simplified incentive compensation management throughout the entire mortgage lifecycle from origination to closing.",
+    "description": "SimpleNexus, now part of the nCino Mortgage Suite, is a digital mortgage platform that increases financial institutions' mortgage profitability by automating loan processing and closing, delivering modern customer convenience, and surfacing data insights. The platform has achieved a 29% increase in application pull-through rates, 80% decrease in loan closing time, and 49% improvement to average cycle time for its users. Trusted by leading lenders including credit unions and banks, the nCino Mortgage Suite includes mortgage origination, incentive compensation management, and mortgage analytics. The platform is used by over 2,700 financial institutions for end-to-end mortgage simplicity.",
     "short_description": "Mortgage origination software for real estate professionals.",
     "target_audience": "Financial institutions, mortgage lenders, credit unions, and banking organizations seeking to modernize their mortgage lending operations and increase profitability through digital transformation and process automation.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Mortgage Origination",
+        "features": [
+          {
+            "name": "Lead Capture",
+            "description": "Capture more mortgage leads through digital channels."
+          },
+          {
+            "name": "Customer Journey",
+            "description": "Streamlined digital experience from application to closing."
+          },
+          {
+            "name": "Stakeholder Collaboration",
+            "description": "Enhanced collaboration between borrowers, loan officers, and processors."
+          },
+          {
+            "name": "Loan Processing Automation",
+            "description": "Automated processing and closing workflows for efficiency."
+          }
+        ]
+      },
+      {
+        "name": "Analytics & Compensation",
+        "features": [
+          {
+            "name": "Mortgage Analytics",
+            "description": "Turnkey insights with dashboards, pipeline views, and loan-level drilldowns."
+          },
+          {
+            "name": "Incentive Compensation",
+            "description": "Automated compensation management replacing spreadsheets and emails."
+          },
+          {
+            "name": "Performance Scorecards",
+            "description": "Individual and team performance tracking with benchmarking."
+          }
+        ]
+      },
+      {
+        "name": "Mobile & Digital",
+        "features": [
+          {
+            "name": "Mobile App",
+            "description": "Mobile-first experience for borrowers and loan officers."
+          },
+          {
+            "name": "Document Upload",
+            "description": "Easy document collection and management from mobile devices."
+          },
+          {
+            "name": "eClose",
+            "description": "Digital closing capabilities for faster, paperless closings."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -18931,15 +19701,29 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "29% increase in application pull-through rate",
+      "80% decrease in loan closing time",
+      "Part of nCino ecosystem trusted by 2,700+ financial institutions",
+      "Comprehensive analytics with real-time pipeline visibility",
+      "Automated incentive compensation saves hours per payroll"
+    ],
+    "cons": [
+      "Enterprise pricing not publicly available",
+      "Primarily for financial institutions, not independent mortgage brokers",
+      "May require significant implementation effort"
+    ],
+    "integrations": [
+      "nCino Platform",
+      "Salesforce",
+      "Various LOS systems"
+    ],
     "company": {
-      "name": "SimpleNexus",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "nCino (formerly SimpleNexus)",
+      "founded": 2012,
+      "headquarters": "Lehi, UT (nCino: Wilmington, NC)",
+      "employees": "1000+ (nCino)",
+      "funding": "Acquired by nCino (NASDAQ: NCNO) in 2022 for $1.2B"
     },
     "categories": [
       "Broker Tools",
@@ -18960,7 +19744,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "simplenexus.com",
