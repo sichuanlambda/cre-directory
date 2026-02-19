@@ -271,10 +271,8 @@ async function initHome() {
   const enrichedCount = PRODUCTS.filter(p => p.feature_groups && p.feature_groups.length > 0).length;
   const counterProducts = document.getElementById('counter-products');
   const counterCats = document.getElementById('counter-categories');
-  const counterEnriched = document.getElementById('counter-enriched');
   if (counterProducts) counterProducts.setAttribute('data-target', PRODUCTS.length);
   if (counterCats) counterCats.setAttribute('data-target', catCount);
-  if (counterEnriched) counterEnriched.setAttribute('data-target', enrichedCount);
   animateCounters();
 
   // Quick filters
@@ -340,7 +338,7 @@ async function initHome() {
         if (allGrid) allGrid.innerHTML = filtered.map(productCard).join('');
         if (allTitle) allTitle.textContent = `Results (${filtered.length})`;
       }
-      if (searchSection) searchSection.style.display = '';
+      if (searchSection) searchSection.style.display = 'block';
       document.querySelectorAll('.hide-on-search').forEach(el => el.style.display = 'none');
     } else {
       if (searchSection) searchSection.style.display = 'none';
