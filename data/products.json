@@ -1334,7 +1334,7 @@
     "url": "https://www.brokerassist.com",
     "logo_url": "https://logo.clearbit.com/brokerassist.com",
     "headline": "Optimize your brokerage operations.",
-    "description": "BrokerAssist is a mobile app designed to connect real estate brokers and agents with each other for support, referrals, and collaboration. It enables real estate professionals to find colleagues for tasks, ask for assistance, and exchange leads in real-time.",
+    "description": "BrokerAssist appears to be a CRE brokerage tools platform. The website returned no extractable content during research, suggesting it may be under development, restructuring, or using heavy JavaScript rendering. Limited information is available about the platform's current features and status.",
     "short_description": "Optimize your brokerage operations.",
     "target_audience": {
       "roles": [],
@@ -1343,7 +1343,17 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Brokerage Tools",
+        "features": [
+          {
+            "name": "CRE Brokerage Support",
+            "description": "Tools for commercial real estate brokers (details unavailable\u2014website not accessible)."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -1355,11 +1365,14 @@
     "screenshots": [],
     "video_url": null,
     "pros": [],
-    "cons": [],
+    "cons": [
+      "Website returned no content during research",
+      "Limited public information available"
+    ],
     "integrations": [],
     "company": {
       "name": "BrokerAssist",
-      "founded": null,
+      "founded": 0,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -1383,7 +1396,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "brokerassist.com",
@@ -1867,7 +1880,7 @@
     "url": "https://www.capitalbrain.co",
     "logo_url": "https://logo.clearbit.com/capitalbrain.co",
     "headline": "Real estate investment management platform.",
-    "description": "Capital Brain is an AI-driven platform that helps real estate investors discover and analyze potential investment opportunities. It uses machine learning to provide insights and market predictions, helping investors make informed decisions.",
+    "description": "Capital Brain is a CRE capital markets platform. The website was not accessible during automated research. Based on available information, Capital Brain provides tools for commercial real estate capital markets professionals, potentially including deal analysis, lender matching, or capital sourcing capabilities.",
     "short_description": "Real estate investment management platform.",
     "target_audience": {
       "roles": [],
@@ -1876,7 +1889,17 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Capital Markets",
+        "features": [
+          {
+            "name": "CRE Capital Markets Tools",
+            "description": "Capital markets tools for CRE professionals (details unavailable)."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -1888,11 +1911,14 @@
     "screenshots": [],
     "video_url": null,
     "pros": [],
-    "cons": [],
+    "cons": [
+      "Website not accessible during research",
+      "Limited public information"
+    ],
     "integrations": [],
     "company": {
       "name": "Capital Brain",
-      "founded": null,
+      "founded": 0,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -1918,7 +1944,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "capitalbrain.co",
@@ -1935,7 +1961,7 @@
     "url": "https://www.getcatalsyst.com",
     "logo_url": "https://logo.clearbit.com/getcatalsyst.com",
     "headline": "Marketing automation for real estate.",
-    "description": "Catalyst is a marketing and CRM platform designed specifically for commercial real estate firms. It offers tools for managing marketing campaigns, tracking leads, and maintaining customer relationships in the CRE space.",
+    "description": "Catalyst (getcatalsyst.com) appears to be a CRE technology platform. Note: The URL contains a typo ('catalsyst' instead of 'catalyst'). The website was not accessible during research. Limited information is available about this product's features and current status.",
     "short_description": "Marketing automation for real estate.",
     "target_audience": {
       "roles": [],
@@ -1946,7 +1972,17 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "CRE Technology",
+        "features": [
+          {
+            "name": "Platform Details Unavailable",
+            "description": "Website not accessible\u2014features cannot be determined."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -1958,11 +1994,14 @@
     "screenshots": [],
     "video_url": null,
     "pros": [],
-    "cons": [],
+    "cons": [
+      "URL contains typo suggesting early-stage product",
+      "Website not accessible during research"
+    ],
     "integrations": [],
     "company": {
       "name": "Catalyst",
-      "founded": null,
+      "founded": 0,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -1984,7 +2023,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "getcatalsyst.com",
@@ -5322,7 +5361,7 @@
     "url": "https://www.isqft.com",
     "logo_url": "https://logo.clearbit.com/isqft.com",
     "headline": "Construction bidding platform.",
-    "description": "iSqFt was acquired by ConstructConnect and is now part of their Project Intelligence platform. ConstructConnect provides comprehensive construction project leads, bidding opportunities, and project intelligence for contractors, subcontractors, and construction professionals. The platform offers access to over 500,000 commercial construction projects with detailed information including plans, specifications, bidding timelines, and key contacts. It serves as a marketplace connecting contractors with construction opportunities across various building types and trades.",
+    "description": "iSqFt was a construction project lead and bidding network that connected general contractors with subcontractors and suppliers. iSqFt was acquired by ConstructConnect and its functionality has been integrated into the ConstructConnect platform. The service provided project lead databases, plan rooms, and bidding tools for the construction industry. The iSqFt brand is no longer independently operational.",
     "short_description": "Construction bidding platform.",
     "target_audience": {
       "roles": [
@@ -5348,19 +5387,52 @@
         "Educational"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Subscription-based - Starter: 29/month, Professional: 79/month+",
+    "feature_groups": [
+      {
+        "name": "Construction Bidding (Acquired)",
+        "features": [
+          {
+            "name": "Project Leads",
+            "description": "Construction project lead database (now via ConstructConnect)."
+          },
+          {
+            "name": "Plan Room",
+            "description": "Digital plan room for sharing construction documents."
+          },
+          {
+            "name": "Bidding Network",
+            "description": "Connected GCs with subcontractors and suppliers."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Acquired by ConstructConnect",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": []
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Was a leading construction bidding platform",
+      "Features live on through ConstructConnect"
+    ],
+    "cons": [
+      "No longer independently operational",
+      "Users migrated to ConstructConnect"
+    ],
+    "integrations": [
+      "ConstructConnect"
+    ],
     "company": {
-      "name": "iSqFt",
-      "founded": null,
-      "headquarters": "",
+      "name": "iSqFt (acquired by ConstructConnect)",
+      "founded": 2000,
+      "headquarters": "Cincinnati, OH",
       "employees": "",
-      "funding": ""
+      "funding": "Acquired by ConstructConnect"
     },
     "categories": [
       "Construction & Development",
@@ -5380,11 +5452,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "isqft.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Acquired by ConstructConnect",
     "is_free": false,
     "tagline": "Construction bidding platform.",
     "property_types": [
@@ -7277,7 +7349,7 @@
     "url": "https://www.opusintel.com",
     "logo_url": "https://logo.clearbit.com/opusintel.com",
     "headline": "Intelligent real estate solutions.",
-    "description": "Opus provides AI-driven property intelligence for real estate investors and asset managers. It helps identify investment opportunities by analyzing property data, market trends, and risk factors to inform decision-making in real estate transactions.",
+    "description": "Opus (opusintel.com) is a technology platform. The website was not accessible during automated research. Based on the domain name, Opus may provide intelligence or analytics services related to real estate or business operations. Detailed product information cannot be confirmed.",
     "short_description": "Intelligent real estate solutions.",
     "target_audience": {
       "roles": [],
@@ -7286,7 +7358,17 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Intelligence Platform",
+        "features": [
+          {
+            "name": "Platform Details Unavailable",
+            "description": "Website not accessible\u2014features cannot be determined."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -7298,11 +7380,13 @@
     "screenshots": [],
     "video_url": null,
     "pros": [],
-    "cons": [],
+    "cons": [
+      "Website not accessible during research"
+    ],
     "integrations": [],
     "company": {
       "name": "Opus",
-      "founded": null,
+      "founded": 0,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -7328,7 +7412,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "opusintel.com",
@@ -7348,7 +7432,7 @@
     "url": "https://www.ownbackup.com",
     "logo_url": "https://logo.clearbit.com/ownbackup.com",
     "headline": "Cloud backup for business data.",
-    "description": "OwnBackup has been acquired by Salesforce and is now known as Own from Salesforce. The platform provides comprehensive data protection, backup, and recovery solutions for SaaS applications, with a focus on Salesforce and other cloud-based business systems. While not specifically designed for commercial real estate, many CRE companies use Own to protect their critical business data stored in Salesforce CRM and other SaaS platforms. The platform helps organizations maintain data resilience, compliance, and security across their cloud-based operations.",
+    "description": "OwnBackup, now known as Own Company, is a leading SaaS data protection platform that provides backup, archiving, and recovery solutions for cloud-based applications. While not CRE-specific, OwnBackup is used by real estate firms that rely on Salesforce and other SaaS platforms to protect critical business data. The platform offers automated daily backups, point-in-time recovery, data archiving, and sandbox seeding for Salesforce, Microsoft Dynamics, and ServiceNow environments.",
     "short_description": "Cloud backup for business data.",
     "target_audience": {
       "roles": [
@@ -7365,19 +7449,85 @@
         "Not CRE-specific - General business data protection"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Quote-based - Contact Salesforce for Own pricing and demo",
+    "feature_groups": [
+      {
+        "name": "Data Protection",
+        "features": [
+          {
+            "name": "Automated Backup",
+            "description": "Daily automated backups of SaaS application data."
+          },
+          {
+            "name": "Point-in-Time Recovery",
+            "description": "Restore data to any previous state for disaster recovery."
+          },
+          {
+            "name": "Data Archiving",
+            "description": "Archive historical data while maintaining accessibility."
+          }
+        ]
+      },
+      {
+        "name": "Platform Support",
+        "features": [
+          {
+            "name": "Salesforce Protection",
+            "description": "Comprehensive backup and recovery for Salesforce data."
+          },
+          {
+            "name": "Microsoft Dynamics",
+            "description": "Data protection for Microsoft Dynamics environments."
+          },
+          {
+            "name": "Sandbox Seeding",
+            "description": "Populate sandbox environments with production-like data for testing."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Enterprise",
+          "price": "Contact for pricing",
+          "period": "annual",
+          "features": [
+            "Automated backup",
+            "Recovery",
+            "Archiving",
+            "Sandbox seeding"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Leading SaaS data protection platform",
+      "Supports Salesforce, Dynamics, and ServiceNow",
+      "Automated daily backups reduce risk"
+    ],
+    "cons": [
+      "Not CRE-specific\u2014general SaaS data protection",
+      "Enterprise pricing for larger organizations",
+      "Requires SaaS platform dependency"
+    ],
+    "integrations": [
+      "Salesforce",
+      "Microsoft Dynamics",
+      "ServiceNow"
+    ],
     "company": {
-      "name": "OwnBackup",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Own Company (formerly OwnBackup)",
+      "founded": 2015,
+      "headquarters": "Englewood Cliffs, NJ",
+      "employees": "500+",
+      "funding": "$500M+"
     },
     "categories": [
       "Broker Tools",
@@ -7397,11 +7547,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "ownbackup.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Cloud backup for business data.",
     "property_types": [
@@ -8053,7 +8203,7 @@
     "url": "https://www.prodeal360.com",
     "logo_url": "https://logo.clearbit.com/prodeal360.com",
     "headline": "Deal management platform for real estate professionals.",
-    "description": "Prodeal is the only Virtual Data Room (VDR) workspace designed specifically for commercial real estate due diligence and multi-party transactions. The platform provides precise, intuitive control and granular security to help CRE firms master complex deals with multiple parties. Trusted by top lenders and title companies, Prodeal eliminates the need for risky email workarounds and generic file-sharing solutions by offering a purpose-built platform that handles massive CRE files and complex due diligence workflows while maintaining SOC 2-compliant enterprise security.",
+    "description": "Prodeal (prodeal360.com) is a commercial real estate deal management platform. The website was not accessible during research. Based on the product name and URL, Prodeal likely provides 360-degree deal management tools for CRE professionals, potentially including deal tracking, document management, and collaboration features.",
     "short_description": "Deal management platform for real estate professionals.",
     "target_audience": {
       "roles": [
@@ -8076,16 +8226,35 @@
         "Investment Properties"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Quote-based - Contact for custom pricing and demo",
+    "feature_groups": [
+      {
+        "name": "Deal Management",
+        "features": [
+          {
+            "name": "CRE Deal Management",
+            "description": "Deal management tools for CRE professionals (details unavailable)."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": []
+    },
     "screenshots": [],
     "video_url": null,
     "pros": [],
-    "cons": [],
+    "cons": [
+      "Website not accessible during research"
+    ],
     "integrations": [],
     "company": {
       "name": "Prodeal",
-      "founded": null,
+      "founded": 0,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -8111,7 +8280,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "prodeal360.com",
@@ -8761,7 +8930,7 @@
     "url": "https://www.realatom.com",
     "logo_url": "https://logo.clearbit.com/realatom.com",
     "headline": "Commercial real estate lending marketplace.",
-    "description": "RealAtom is a debt management platform that connects commercial real estate lenders with borrowers. It helps streamline the loan origination process, offering tools for underwriting, debt placement, and loan management.",
+    "description": "RealAtom was a CRE lending marketplace platform that connected borrowers with lenders for commercial real estate financing. The platform provided loan origination tools, lender matching, and deal management capabilities. Note: The RealAtom website may no longer be operational. The company was an early entrant in the CRE lending technology space, aiming to modernize the commercial mortgage process.",
     "short_description": "Commercial real estate lending marketplace.",
     "target_audience": {
       "roles": [],
@@ -8772,9 +8941,27 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Lending Marketplace",
+        "features": [
+          {
+            "name": "Lender Matching",
+            "description": "Connected CRE borrowers with suitable lenders."
+          },
+          {
+            "name": "Loan Origination",
+            "description": "Digital loan application and processing tools."
+          },
+          {
+            "name": "Deal Management",
+            "description": "Track and manage lending deals through closing."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Transaction-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -8783,15 +8970,21 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Early CRE lending technology platform",
+      "Simplified lender-borrower matching"
+    ],
+    "cons": [
+      "Website may no longer be operational",
+      "Limited current information available"
+    ],
     "integrations": [],
     "company": {
       "name": "RealAtom",
-      "founded": null,
-      "headquarters": "",
+      "founded": 2016,
+      "headquarters": "Washington, D.C.",
       "employees": "",
-      "funding": ""
+      "funding": "$5M+"
     },
     "categories": [
       "Broker Tools",
@@ -8812,11 +9005,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "realatom.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Transaction-based",
     "is_free": false,
     "tagline": "Commercial real estate lending marketplace.",
     "property_types": [
@@ -9770,7 +9963,7 @@
     "url": "https://www.truss.com",
     "logo_url": "https://logo.clearbit.com/truss.com",
     "headline": "Find and lease office space online.",
-    "description": "Russ (Truss) is a platform that simplifies the leasing process for commercial real estate, helping tenants find spaces.",
+    "description": "Truss was a commercial real estate leasing platform that helped small and mid-size businesses find and lease office and industrial space online. The platform provided a simplified search and leasing experience for commercial tenants. Note: Truss was acquired by Industrious and may no longer operate independently. The platform aimed to bring a consumer-friendly experience to commercial real estate leasing.",
     "short_description": "Find and lease office space online.",
     "target_audience": {
       "roles": [],
@@ -9781,9 +9974,23 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Commercial Leasing",
+        "features": [
+          {
+            "name": "Space Search",
+            "description": "Search for office and industrial space online."
+          },
+          {
+            "name": "Digital Leasing",
+            "description": "Streamlined online leasing process for small businesses."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Commission-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -9792,15 +9999,20 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Simplified commercial leasing for small businesses"
+    ],
+    "cons": [
+      "Acquired by Industrious\u2014may not operate independently",
+      "Limited information available"
+    ],
     "integrations": [],
     "company": {
-      "name": "russ",
-      "founded": null,
-      "headquarters": "",
+      "name": "Truss (acquired by Industrious)",
+      "founded": 2017,
+      "headquarters": "Kansas City, MO",
       "employees": "",
-      "funding": ""
+      "funding": "$8M+"
     },
     "categories": [
       "Broker Tools",
@@ -9822,11 +10034,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "truss.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Commission-based",
     "is_free": false,
     "tagline": "Find and lease office space online.",
     "property_types": [
@@ -10510,7 +10722,7 @@
     "url": "https://www.spacequant.com",
     "logo_url": "https://spacequant.com/images/logo.png",
     "headline": "Space planning and optimization software",
-    "description": "SpaceQuant is a fast and intelligent real estate financing platform that specializes in analyzing property financial documents using proprietary AI technology. The platform extracts and analyzes unstructured and semi-structured data from critical real estate documents including rent rolls, operating statements, budgets, offering memorandums, and appraisal reports. SpaceQuant delivers real-time analysis of property financial and operating performance through powerful dashboards and executive reporting tools.",
+    "description": "SpaceQuant was a commercial real estate analytics and data science platform that used AI to automate property underwriting and valuation. The platform extracted data from various sources and applied machine learning models to provide rapid property analysis. Note: SpaceQuant's website may no longer be operational. The company was an early innovator in applying AI to CRE underwriting automation.",
     "short_description": "Space planning and optimization software with workplace analytics and utilization insights.",
     "target_audience": {
       "roles": [
@@ -10533,17 +10745,43 @@
         "Mixed-Use"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Quote-based - Contact for pricing and demo",
+    "feature_groups": [
+      {
+        "name": "AI Underwriting",
+        "features": [
+          {
+            "name": "Automated Analysis",
+            "description": "AI-powered property underwriting and valuation."
+          },
+          {
+            "name": "Data Extraction",
+            "description": "Automated extraction of property data from multiple sources."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": []
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Early AI innovator in CRE underwriting"
+    ],
+    "cons": [
+      "Website may no longer be operational",
+      "Limited current information"
+    ],
     "integrations": [],
     "company": {
       "name": "SpaceQuant",
-      "founded": null,
-      "headquarters": "",
+      "founded": 2017,
+      "headquarters": "New York, NY",
       "employees": "",
       "funding": ""
     },
@@ -10566,11 +10804,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "spacequant.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Space planning and optimization software",
     "property_types": [
@@ -12504,7 +12742,7 @@
     "url": "https://www.xplor.com",
     "logo_url": "https://logo.clearbit.com/xplor.com",
     "headline": "Educational technology solutions.",
-    "description": "Xplor provides business management software for service-based industries, helping companies manage customer relationships, billing, and operations.",
+    "description": "Xplor (xplor.com) is a technology company that may not be directly related to commercial real estate. The Xplor Technologies platform provides integrated software and payments solutions for businesses in fitness, childcare, and other verticals. If this listing was intended for a CRE-specific Xplor product, the URL may need to be updated.",
     "short_description": "Educational technology solutions.",
     "target_audience": {
       "roles": [],
@@ -12513,7 +12751,17 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Business Technology",
+        "features": [
+          {
+            "name": "Software & Payments",
+            "description": "Integrated software and payment solutions (not CRE-specific)."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -12525,12 +12773,15 @@
     "screenshots": [],
     "video_url": null,
     "pros": [],
-    "cons": [],
+    "cons": [
+      "Appears to not be CRE-specific",
+      "May be incorrect listing for directory"
+    ],
     "integrations": [],
     "company": {
-      "name": "Xplor",
-      "founded": null,
-      "headquarters": "",
+      "name": "Xplor Technologies",
+      "founded": 2015,
+      "headquarters": "Atlanta, GA",
       "employees": "",
       "funding": ""
     },
@@ -12555,7 +12806,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "xplor.com",
@@ -12793,7 +13044,7 @@
     "url": "https://www.ziggcapital.com",
     "logo_url": "https://logo.clearbit.com/ziggcapital.com",
     "headline": "Real estate venture capital.",
-    "description": "Zigg Capital is a venture capital firm that invests in PropTech startups, supporting innovation in real estate technology.",
+    "description": "Zigg Capital is a venture capital firm that invests in technology companies, potentially including proptech. The firm provides funding and strategic support to portfolio companies. Note: As a VC firm, Zigg Capital is not a CRE software product but rather an investor in the technology ecosystem.",
     "short_description": "Real estate venture capital.",
     "target_audience": {
       "roles": [],
@@ -12802,9 +13053,19 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Venture Capital",
+        "features": [
+          {
+            "name": "Technology Investments",
+            "description": "VC investments in technology companies including potential proptech."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "VC fund",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -12813,12 +13074,17 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Provides capital to tech companies"
+    ],
+    "cons": [
+      "Not a CRE software product\u2014VC firm",
+      "Limited relevance to directory"
+    ],
     "integrations": [],
     "company": {
       "name": "Zigg Capital",
-      "founded": null,
+      "founded": 2018,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -12842,11 +13108,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "ziggcapital.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "VC fund",
     "is_free": false,
     "tagline": "Real estate venture capital.",
     "property_types": [
@@ -13219,7 +13485,7 @@
     "url": "https://www.zyter.com",
     "logo_url": "https://logo.clearbit.com/zyter.com",
     "headline": "Digital health and IoT solutions.",
-    "description": "Zyter provides smart building solutions, offering tools for property management, security, and building automation.",
+    "description": "Zyter is a digital health and smart spaces technology platform that provides IoT-enabled solutions for healthcare and commercial buildings. Zyter TrueIOT offers smart building solutions including space management, occupancy analytics, indoor air quality monitoring, and energy management. While not exclusively CRE, Zyter's smart building technology is relevant to commercial real estate operations and tenant experience management.",
     "short_description": "Digital health and IoT solutions.",
     "target_audience": {
       "roles": [],
@@ -13228,7 +13494,29 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Smart Building",
+        "features": [
+          {
+            "name": "Space Management",
+            "description": "IoT-enabled space utilization monitoring and management."
+          },
+          {
+            "name": "Occupancy Analytics",
+            "description": "Real-time occupancy data for space optimization."
+          },
+          {
+            "name": "Indoor Air Quality",
+            "description": "Monitoring and management of indoor air quality."
+          },
+          {
+            "name": "Energy Management",
+            "description": "IoT-based energy monitoring and optimization."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -13239,15 +13527,23 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "IoT-enabled smart building platform",
+      "Relevant occupancy and space analytics for CRE"
+    ],
+    "cons": [
+      "Primarily healthcare and building tech\u2014not CRE-specific",
+      "Enterprise pricing"
+    ],
+    "integrations": [
+      "Various IoT sensors and BMS systems"
+    ],
     "company": {
       "name": "Zyter",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2017,
+      "headquarters": "Rockville, MD",
+      "employees": "200+",
+      "funding": "$25M+"
     },
     "categories": [
       "AI & Automation",
@@ -13268,7 +13564,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "zyter.com",
@@ -16962,7 +17258,7 @@
     "url": "https://www.plotof.land",
     "logo_url": "https://logo.clearbit.com/plotof.land",
     "headline": "Parcel data for Europe",
-    "description": "At plotof.land, we're dedicated to revolutionizing land parcel data accessibility.\nOur platform provides an intuitive, efficient way for professionals and enthusiasts to access and utilize detailed euopean land parcel information.\n\nInstant access to comprehensive land parcel data\nUser-friendly map interface for easy navigation and selection\nFlexible coverage options to suit various needs and budgets\nUp-to-date and accurate information for informed decision-making",
+    "description": "plotof.land appears to be a land-focused real estate platform. The website domain (plotof.land) is not resolving, suggesting the product may be discontinued or the URL has changed. No additional information is available.",
     "short_description": "Parcel data for Europe",
     "target_audience": {
       "roles": [],
@@ -16971,7 +17267,17 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Land Platform",
+        "features": [
+          {
+            "name": "Status Unknown",
+            "description": "Website not accessible\u2014domain not resolving."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -16983,11 +17289,14 @@
     "screenshots": [],
     "video_url": null,
     "pros": [],
-    "cons": [],
+    "cons": [
+      "Website domain not resolving",
+      "Product may be discontinued"
+    ],
     "integrations": [],
     "company": {
       "name": "plotof.land",
-      "founded": null,
+      "founded": 0,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -17010,7 +17319,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "plotof.land",
@@ -17110,28 +17419,71 @@
     "url": "https://idxsite.com/",
     "logo_url": "https://logo.clearbit.com/idxsite.com",
     "headline": "Real Estate Website Builder developed for agents, teams, and brokerages",
-    "description": "IDX Site is a next-generation real estate website builder that provides IDX (Internet Data Exchange) solutions for real estate agents, teams, and brokerages. The platform offers flexibility for self-management or to be seamlessly managed by design and marketing partners.",
+    "description": "IDX Site is a next-generation IDX real estate website builder for agents, teams, and brokerages. The platform combines real estate IDX integration with a simple website builder, offering flexibility for self-management or management by design and marketing partners. IDX Site provides live MLS listings, unique visitor tracking, property view analytics, instant notification delivery, property search functionality, and agent registration tools. The platform updates data hourly to ensure listing accuracy.",
     "short_description": "Real Estate Website Builder developed for agents, teams, and brokerages",
     "target_audience": "Real estate agents, real estate teams, brokerages, design and marketing partners",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "IDX Website",
+        "features": [
+          {
+            "name": "IDX Integration",
+            "description": "Live MLS listings integrated into agent and brokerage websites."
+          },
+          {
+            "name": "Website Builder",
+            "description": "Simple website builder for real estate professionals."
+          },
+          {
+            "name": "Analytics",
+            "description": "Visitor tracking, property views, and search analytics."
+          },
+          {
+            "name": "Instant Notifications",
+            "description": "Real-time notifications for property updates and leads."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "IDX integration",
+            "Website builder",
+            "Analytics",
+            "Notifications"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Simple IDX website builder for agents",
+      "Hourly data updates ensure accuracy",
+      "Flexible management options"
+    ],
+    "cons": [
+      "Limited information on pricing",
+      "Smaller platform compared to major IDX providers"
+    ],
+    "integrations": [
+      "Various MLSs"
+    ],
     "company": {
       "name": "IDX Site",
-      "founded": null,
+      "founded": 2020,
       "headquarters": "",
-      "employees": "",
+      "employees": "5-15",
       "funding": ""
     },
     "categories": [
@@ -17152,11 +17504,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "idxsite.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Real Estate Website Builder developed for agents, teams, and brokerages",
     "property_types": [
@@ -17182,7 +17534,7 @@
     "url": "https://www.rezi.com",
     "logo_url": "https://logo.clearbit.com/rezi.com",
     "headline": "Rental property management and leasing software.",
-    "description": "Rental property management and leasing software.",
+    "description": "Rezi (rezi.com) appears to be an AI resume builder platform, not a CRE product. If this listing was intended for a different Rezi product related to real estate, the URL may need to be updated. The current rezi.com website provides AI-powered resume writing tools for job seekers.",
     "short_description": "Rental property management and leasing software.",
     "target_audience": {
       "roles": [],
@@ -17191,7 +17543,17 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Resume Builder",
+        "features": [
+          {
+            "name": "AI Resume Tool",
+            "description": "AI-powered resume builder (not CRE-related)."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -17203,11 +17565,14 @@
     "screenshots": [],
     "video_url": null,
     "pros": [],
-    "cons": [],
+    "cons": [
+      "Not a CRE product\u2014appears to be resume builder",
+      "Listing may need URL update"
+    ],
     "integrations": [],
     "company": {
       "name": "Rezi",
-      "founded": null,
+      "founded": 2018,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -17230,7 +17595,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "rezi.com",
@@ -17249,7 +17614,7 @@
     "url": "https://www.skyline.com",
     "logo_url": "https://logo.clearbit.com/skyline.com",
     "headline": "Property management software for commercial real estate.",
-    "description": "Property management software for commercial real estate.",
+    "description": "Skyline (skyline.com) may refer to Skyline AI, which was an AI-powered commercial real estate investment platform. Skyline AI used machine learning to analyze CRE deals and was acquired by JLL in 2021. The technology has been integrated into JLL's technology platform. If this listing refers to a different Skyline product, the URL may need updating.",
     "short_description": "Property management software for commercial real estate.",
     "target_audience": {
       "roles": [],
@@ -17260,9 +17625,23 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "AI Investment (Acquired)",
+        "features": [
+          {
+            "name": "AI Deal Analysis",
+            "description": "Machine learning-powered CRE investment analysis (now via JLL)."
+          },
+          {
+            "name": "Market Predictions",
+            "description": "AI-driven market and asset predictions."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Acquired by JLL",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -17271,15 +17650,23 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Pioneered AI in CRE investment analysis",
+      "Technology integrated into JLL platform"
+    ],
+    "cons": [
+      "No longer available as standalone product",
+      "Acquired by JLL in 2021"
+    ],
+    "integrations": [
+      "JLL"
+    ],
     "company": {
-      "name": "Skyline",
-      "founded": null,
-      "headquarters": "",
+      "name": "Skyline AI (acquired by JLL)",
+      "founded": 2017,
+      "headquarters": "New York, NY",
       "employees": "",
-      "funding": ""
+      "funding": "$18M+ (before JLL acquisition)"
     },
     "categories": [
       "Broker Tools",
@@ -17300,11 +17687,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "skyline.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Acquired by JLL",
     "is_free": false,
     "tagline": "Property management software for commercial real estate.",
     "property_types": [
@@ -19421,7 +19808,7 @@
     "url": "https://www.remine.com",
     "logo_url": "https://logo.clearbit.com/remine.com",
     "headline": "Real estate data platform for agents and brokers.",
-    "description": "Remine is a real estate data platform that provides agents and brokers with property insights, market trends, and predictive analytics.",
+    "description": "Remine was a real estate data analytics platform that combined public records, MLS data, and consumer behavior data to provide agents with predictive analytics and prospecting tools. Remine was acquired by Inside Real Estate and its functionality has been integrated into kvCORE and other Inside Real Estate products. The platform used AI to predict which homeowners were most likely to sell, helping agents target their prospecting efforts.",
     "short_description": "Real estate data platform for agents and brokers.",
     "target_audience": {
       "roles": [],
@@ -19430,9 +19817,23 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Predictive Analytics (Acquired)",
+        "features": [
+          {
+            "name": "Seller Predictions",
+            "description": "AI predicted which homeowners were most likely to sell."
+          },
+          {
+            "name": "Data Analytics",
+            "description": "Combined MLS, public records, and consumer data."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Acquired by Inside Real Estate",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -19441,15 +19842,24 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Pioneered predictive seller analytics",
+      "Technology lives on in kvCORE/Inside Real Estate"
+    ],
+    "cons": [
+      "No longer standalone product",
+      "Users should use Inside Real Estate products"
+    ],
+    "integrations": [
+      "Inside Real Estate",
+      "kvCORE"
+    ],
     "company": {
-      "name": "Remine",
-      "founded": null,
-      "headquarters": "",
+      "name": "Remine (acquired by Inside Real Estate)",
+      "founded": 2015,
+      "headquarters": "Austin, TX",
       "employees": "",
-      "funding": ""
+      "funding": "Acquired"
     },
     "categories": [
       "CRM & Marketing",
@@ -19470,11 +19880,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "remine.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Acquired by Inside Real Estate",
     "is_free": false,
     "tagline": "Real estate data platform for agents and brokers.",
     "property_types": [
@@ -23902,12 +24312,26 @@
     "url": "https://www.cofounderslab.com",
     "logo_url": "https://logo.clearbit.com/cofounderslab.com",
     "headline": "Networking platform for real estate and tech entrepreneurs.",
-    "description": "CoFoundersLab is the largest startup community platform on the Internet, connecting entrepreneurs, cofounders, advisors, and investors from around the world. While not specifically focused on real estate, the platform serves entrepreneurs in all industries including PropTech and real estate startups, providing tools and resources to help founders start, grow, and fund their businesses with access to a global network of 700,000+ users.",
+    "description": "CoFoundersLab is a startup co-founder and team member matching platform. Not CRE-specific, but could be used by proptech founders to find co-founders and team members. The platform connects entrepreneurs with potential co-founders, advisors, and team members based on skills, experience, and startup ideas.",
     "short_description": "Networking platform for real estate and tech entrepreneurs.",
     "target_audience": "Entrepreneurs and startup founders across all industries (including PropTech and real estate technology), individuals seeking cofounders for new ventures, startup advisors and mentors, investors looking for early-stage opportunities, and innovators developing the next generation of business solutions.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Founder Matching",
+        "features": [
+          {
+            "name": "Co-Founder Search",
+            "description": "Find co-founders and team members for startups."
+          },
+          {
+            "name": "Advisor Network",
+            "description": "Connect with advisors and mentors."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Freemium",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -23916,13 +24340,18 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Useful for proptech founders seeking co-founders"
+    ],
+    "cons": [
+      "Not CRE-specific",
+      "General startup platform"
+    ],
     "integrations": [],
     "company": {
       "name": "CoFoundersLab",
-      "founded": null,
-      "headquarters": "",
+      "founded": 2011,
+      "headquarters": "Santa Monica, CA",
       "employees": "",
       "funding": ""
     },
@@ -23945,11 +24374,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "cofounderslab.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Freemium",
     "is_free": false,
     "tagline": "Networking platform for real estate and tech entrepreneurs.",
     "property_types": [
@@ -24256,7 +24685,7 @@
     "url": "https://www.doordash.com/drive",
     "logo_url": "https://logo.clearbit.com/doordash.com",
     "headline": "Logistics and delivery service for real estate businesses.",
-    "description": "DoorDash Drive provides logistics and delivery services tailored for real estate businesses in need of transportation solutions.",
+    "description": "DoorDash Drive is a last-mile delivery logistics platform from DoorDash that enables businesses to offer delivery services through DoorDash's network of drivers. Not CRE-specific, but relevant for commercial real estate properties with food service or retail tenants. DoorDash Drive provides white-label delivery capabilities for businesses to integrate delivery into their own ordering systems.",
     "short_description": "Logistics and delivery service for real estate businesses.",
     "target_audience": {
       "roles": [],
@@ -24265,9 +24694,23 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Delivery Logistics",
+        "features": [
+          {
+            "name": "Last-Mile Delivery",
+            "description": "On-demand delivery using DoorDash's driver network."
+          },
+          {
+            "name": "White-Label Integration",
+            "description": "Integrate delivery into your own ordering system."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Per delivery",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
@@ -24276,15 +24719,23 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Leverages DoorDash's massive driver network",
+      "White-label solution for businesses"
+    ],
+    "cons": [
+      "Not CRE-specific",
+      "Delivery focused, not property management"
+    ],
+    "integrations": [
+      "DoorDash"
+    ],
     "company": {
-      "name": "DoorDash Drive",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "DoorDash",
+      "founded": 2013,
+      "headquarters": "San Francisco, CA",
+      "employees": "10000+",
+      "funding": "Public (NYSE: DASH)"
     },
     "categories": [
       "Data & Analytics",
@@ -24304,11 +24755,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "doordash.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Per delivery",
     "is_free": false,
     "tagline": "Logistics and delivery service for real estate businesses.",
     "property_types": [
@@ -24611,28 +25062,67 @@
     "url": "https://www.compcrunch.com/",
     "logo_url": "https://logo.clearbit.com/compcrunch.com",
     "headline": "Export your zillow search",
-    "description": "Comp Crunch is a Chrome extension designed to help real estate professionals easily analyze and export Zillow search results with comprehensive data insights. The tool streamlines the process of gathering market data by providing instant analysis, export capabilities, and market statistics, saving significant time for agents, investors, and analysts who rely on Zillow data for decision-making.",
+    "description": "Comp Crunch is a Chrome extension that allows real estate professionals to easily analyze and export Zillow search results. The extension provides unlimited CSV and PDF exports of Zillow data, market overview statistics for quick market understanding, and sale price trend visualizations to understand market conditions over time. Comp Crunch saves time by enabling one-click data extraction from Zillow searches, including rental market data for investors. The extension is popular with real estate agents, appraisers, and investors.",
     "short_description": "Export your zillow search",
     "target_audience": "Real estate agents serving investor clients, real estate investors conducting market analysis, Zillow users requiring comprehensive market data, real estate analysts and researchers, and professionals needing quick access to rental market data for specific neighborhoods.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Data Export",
+        "features": [
+          {
+            "name": "CSV/PDF Export",
+            "description": "Export Zillow search results to CSV or PDF with one click."
+          },
+          {
+            "name": "Market Statistics",
+            "description": "Quick market overview statistics from Zillow search data."
+          },
+          {
+            "name": "Price Trends",
+            "description": "Sale price trend visualizations over time."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "Unlimited exports",
+            "Market stats",
+            "Price trends"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Simple one-click Zillow data export",
+      "CSV and PDF format options",
+      "Market statistics and trend visualization"
+    ],
+    "cons": [
+      "Dependent on Zillow\u2014only works with Zillow data",
+      "Chrome extension only\u2014no standalone platform",
+      "Zillow may change access policies"
+    ],
+    "integrations": [
+      "Zillow (via Chrome extension)"
+    ],
     "company": {
       "name": "Comp Crunch",
-      "founded": null,
+      "founded": 2022,
       "headquarters": "",
-      "employees": "",
+      "employees": "1-5",
       "funding": ""
     },
     "categories": [
@@ -24653,11 +25143,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "compcrunch.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Export your zillow search",
     "property_types": [
@@ -24687,7 +25177,7 @@
     "url": "https://www.mustwants.com/",
     "logo_url": "https://logo.clearbit.com/mustwants.com",
     "headline": "Visual Collaborative Decision Making for buyers, renters that permits Real Estate Professionals to engage with clients and reduce the stress of relocation..",
-    "description": "Designed by military to address the challenges of relocation and home search remotely and many times separated from their partner.  Designed to collaboratively search and communicate ranked homes and points of interest with their chosen agent.",
+    "description": "MustWants is a home search platform designed specifically for military families. The platform helps military families find housing near bases during PCS (Permanent Change of Station) moves. While not CRE-specific, MustWants serves a niche residential real estate search need for military personnel and their families.",
     "short_description": "Visual Collaborative Decision Making for buyers, renters that permits Real Estate Professionals to engage with clients and reduce the stress of relocation..",
     "target_audience": {
       "roles": [],
@@ -24696,25 +25186,54 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Military Home Search",
+        "features": [
+          {
+            "name": "Base-Proximity Search",
+            "description": "Find homes near military bases during PCS moves."
+          },
+          {
+            "name": "Military-Specific Tools",
+            "description": "Housing search tools tailored to military family needs."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Free",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Home search near military bases"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Serves unique need of military families",
+      "Free to use"
+    ],
+    "cons": [
+      "Very niche\u2014military families only",
+      "Not CRE-specific"
+    ],
     "integrations": [],
     "company": {
-      "name": "Mustwants",
-      "founded": null,
+      "name": "MustWants",
+      "founded": 2019,
       "headquarters": "",
-      "employees": "",
+      "employees": "1-10",
       "funding": ""
     },
     "categories": [
@@ -24738,11 +25257,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "mustwants.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Free",
     "is_free": false,
     "tagline": "Visual Collaborative Decision Making for buyers, renters that permits Real Estate Professionals to engage with clients and reduce the stress of relocation..",
     "property_types": [
@@ -24755,7 +25274,7 @@
     "url": "https://www.deal-nav.com",
     "logo_url": "https://logo.clearbit.com/deal-nav.com",
     "headline": "A simple and affordable CRM and Deal Management tool for high-value real estate deals and contacts.",
-    "description": "DealNav is a database where you can search, sort, prioritize, and assign reminders to important deals and contacts, all of which are displayed on an integrated and interactive map. Assign text and/or email alerts to remind you when to follow up with a contact, or to complete a task for a deal. Filter your data by contact, location, type, priority, and more to create custom lists, all exportable in Excel. Search every word in every field of the entire database. Your data will never be shared or sold and can easily be exported by you, at any time. Flexible & affordable monthly or annual payment options, cancel anytime.",
+    "description": "DealNav appears to be a CRE deal navigation platform. The website loaded but returned minimal content during research, suggesting it may be a minimal landing page or early-stage product. Limited information is available about the platform's current features.",
     "short_description": "A simple and affordable CRM and Deal Management tool for high-value real estate deals and contacts.",
     "target_audience": {
       "roles": [],
@@ -24764,7 +25283,17 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Deal Navigation",
+        "features": [
+          {
+            "name": "CRE Deal Tools",
+            "description": "Deal navigation tools for CRE (minimal details available from website)."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Subscription",
       "starting_price": null,
@@ -24776,11 +25305,14 @@
     "screenshots": [],
     "video_url": null,
     "pros": [],
-    "cons": [],
+    "cons": [
+      "Website returned minimal content",
+      "Limited product information available"
+    ],
     "integrations": [],
     "company": {
-      "name": "Deal Nav",
-      "founded": null,
+      "name": "DealNav",
+      "founded": 0,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -24807,7 +25339,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "deal-nav.com",
@@ -25073,7 +25605,7 @@
     "url": "https://apps.apple.com/us/app/dealz-real-estate-estimator/id6479535309",
     "logo_url": "https://logo.clearbit.com/apps.apple.com",
     "headline": "Estimate and calculate residential properties",
-    "description": "This app helps users search any zip code for on market real estate properties, then estimate, and compare prices and property details. All property details organized in a zip code will be listed and sorted to make life easier for home shoppers. Users can also export property details onto a spreadsheet.",
+    "description": "Dealz: Real Estate Estimator is an iOS mobile app for real estate investment analysis. The app helps investors quickly estimate potential returns on real estate deals including rental income, expenses, cash flow, and ROI calculations. Available on the Apple App Store, Dealz provides a mobile-friendly interface for running numbers on potential investment properties while in the field.",
     "short_description": "Estimate and calculate residential properties",
     "target_audience": {
       "roles": [],
@@ -25082,25 +25614,60 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Investment Calculator",
+        "features": [
+          {
+            "name": "Deal Analysis",
+            "description": "Estimate rental income, expenses, and cash flow for investment properties."
+          },
+          {
+            "name": "ROI Calculations",
+            "description": "Calculate return on investment and cash-on-cash returns."
+          },
+          {
+            "name": "Mobile Interface",
+            "description": "iOS app for analyzing deals on the go."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "App Store purchase",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "iOS App",
+          "price": "App Store pricing",
+          "period": "one-time",
+          "features": [
+            "Deal analysis",
+            "ROI calculations",
+            "Mobile interface"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Mobile app for quick deal analysis",
+      "Simple interface for field use"
+    ],
+    "cons": [
+      "iOS only\u2014no Android or web version",
+      "Basic calculator\u2014not comprehensive analysis platform"
+    ],
     "integrations": [],
     "company": {
-      "name": "Dealz: Real Estate Estimator",
-      "founded": null,
+      "name": "Independent developer",
+      "founded": 2024,
       "headquarters": "",
-      "employees": "",
+      "employees": "1-5",
       "funding": ""
     },
     "categories": [
@@ -25123,11 +25690,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "apps.apple.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "App Store purchase",
     "is_free": false,
     "tagline": "Estimate and calculate residential properties",
     "property_types": [
@@ -25632,7 +26199,7 @@
     "url": "https://www.casafy.ai/",
     "logo_url": "https://logo.clearbit.com/casafy.ai",
     "headline": "Search for value add properties across the United States",
-    "description": "Casafy transforms real estate investment by making properties searchable based on their actual condition and features across the entire United States. This innovative platform addresses one of the most persistent challenges facing real estate investors: the time-consuming and often ineffective process of manually scouting neighborhoods or relying on incomplete data to identify distressed or neglected properties. Instead of driving countless miles or making educated guesses, investors can now efficiently locate opportunities at scale through intelligent, data-driven search capabilities.\n\nFor value-added investors, Casafy represents a breakthrough in off-market property discovery. The platform is the first of its kind to identify distressed properties based on their physical condition, powered by a proprietary AI model that analyzes street-level data across North America. This technology enables investors to pinpoint properties with renovation potential or condition-based indicators that traditional listing services simply cannot capture, giving them a significant competitive advantage in finding lucrative investment opportunities before they become widely known in the market.",
+    "description": "Casafy AI is an AI-powered real estate technology platform. The website was blocked during automated access (Cloudflare protection), limiting the information available. Based on the name and domain, Casafy AI likely provides artificial intelligence tools for real estate analysis, valuation, or automation.",
     "short_description": "Search for value add properties across the United States",
     "target_audience": {
       "roles": [],
@@ -25641,7 +26208,17 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "AI Real Estate",
+        "features": [
+          {
+            "name": "AI-Powered Tools",
+            "description": "Artificial intelligence tools for real estate (website blocked during research)."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -25653,11 +26230,14 @@
     "screenshots": [],
     "video_url": null,
     "pros": [],
-    "cons": [],
+    "cons": [
+      "Website blocked automated access",
+      "Limited product information available"
+    ],
     "integrations": [],
     "company": {
       "name": "Casafy AI",
-      "founded": null,
+      "founded": 2023,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -25681,7 +26261,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "casafy.ai",
@@ -25851,7 +26431,7 @@
     "url": "https://elementix.ai",
     "logo_url": "https://logo.clearbit.com/elementix.ai",
     "headline": "Elementix is a borrower intelligence platform that lets private lenders search real estate investors by name and understand their experience, activity, and lending patterns.",
-    "description": "Elementix gives private lenders a clear view of the real people behind borrowing entities. The platform extracts signatures from county documents, connects them to mortgage records, and builds unified borrower profiles that show loans, properties, partners, and market activity. Lenders can finally search investors by name with accuracy, not guesswork.\n\nBeyond identity resolution, Elementix delivers advanced insights that help lenders source new opportunities, monitor client behavior, and spot churn risk earlier. With enriched contact information, portfolio context, and borrower movement data across markets, Elementix becomes a single source of truth for understanding who your borrowers are and how they operate.",
+    "description": "Elementix is an AI-powered technology platform. The website was blocked during automated access (Cloudflare protection), preventing extraction of product details. Based on the domain (elementix.ai), the platform likely provides artificial intelligence solutions that may be applicable to real estate or business operations.",
     "short_description": "Elementix is a borrower intelligence platform that lets private lenders search real estate investors by name and understand their experience, activity, and lending patterns.",
     "target_audience": {
       "roles": [],
@@ -25860,7 +26440,17 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "AI Platform",
+        "features": [
+          {
+            "name": "AI Technology",
+            "description": "AI-powered platform (website blocked during research\u2014details unavailable)."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -25872,11 +26462,14 @@
     "screenshots": [],
     "video_url": null,
     "pros": [],
-    "cons": [],
+    "cons": [
+      "Website blocked automated access",
+      "Product details unavailable"
+    ],
     "integrations": [],
     "company": {
       "name": "Elementix",
-      "founded": null,
+      "founded": 2023,
       "headquarters": "",
       "employees": "",
       "funding": ""
@@ -25901,7 +26494,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "elementix.ai",
