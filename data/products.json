@@ -1970,7 +1970,7 @@
     "url": "https://www.corelogic.com",
     "logo_url": "https://logo.clearbit.com/corelogic.com",
     "headline": "Property information and analytics.",
-    "description": "CoreLogic provides comprehensive data and analytics services for the real estate industry. Its solutions help real estate professionals, financial institutions, and insurance companies with property data, risk management, and market insights.",
+    "description": "CoreLogic, now rebranded as Cotality, is a leading global property data and analytics company providing intelligence for real estate, mortgage, insurance, and government sectors. The platform offers 98%+ property coverage in major markets, processes over 1 million data points refreshed monthly, and maintains 30 years of historical data. Cotality provides property valuations, climate and environmental risk analysis with 30-year forecasts, market analytics, automated valuation models (AVMs), and AI-powered insights through its CoreAI intelligence platform. The company serves real estate agents, lenders, insurers, investors, and government agencies worldwide.",
     "short_description": "Property information and analytics.",
     "target_audience": {
       "roles": [],
@@ -1979,7 +1979,84 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Property Data",
+        "features": [
+          {
+            "name": "Property Records",
+            "description": "Comprehensive property data with 98%+ coverage in major markets."
+          },
+          {
+            "name": "Historical Data",
+            "description": "30 years of historical property and market trend data."
+          },
+          {
+            "name": "Monthly Data Refresh",
+            "description": "Over 1 million data points refreshed monthly for accuracy."
+          },
+          {
+            "name": "Address Verification",
+            "description": "Unique address verification technology for accurate property identification."
+          }
+        ]
+      },
+      {
+        "name": "Analytics & AI",
+        "features": [
+          {
+            "name": "CoreAI Intelligence",
+            "description": "AI-powered analytics platform for property insights and decision support."
+          },
+          {
+            "name": "Automated Valuation Models",
+            "description": "Machine learning-based property valuation estimates at scale."
+          },
+          {
+            "name": "Market Analytics",
+            "description": "Comprehensive market data covering transactions, valuations, and trends."
+          },
+          {
+            "name": "Predictive Modeling",
+            "description": "Hundreds of analytical models built for forecasting and risk assessment."
+          }
+        ]
+      },
+      {
+        "name": "Climate & Risk",
+        "features": [
+          {
+            "name": "Environmental Risk Data",
+            "description": "Climate and natural hazard risk analysis for properties and portfolios."
+          },
+          {
+            "name": "30-Year Risk Forecasts",
+            "description": "Long-term environmental risk projections for future planning."
+          },
+          {
+            "name": "Insurance Analytics",
+            "description": "Risk scoring and analytics for property and casualty insurance."
+          }
+        ]
+      },
+      {
+        "name": "Mortgage Solutions",
+        "features": [
+          {
+            "name": "Loan Origination Data",
+            "description": "Comprehensive mortgage data for underwriting and compliance."
+          },
+          {
+            "name": "Fraud Detection",
+            "description": "Analytics to identify and prevent mortgage fraud."
+          },
+          {
+            "name": "Property Tax Data",
+            "description": "Tax assessment data and analytics for portfolio management."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -1990,15 +2067,25 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Industry-leading 98%+ property coverage in major markets",
+      "30 years of historical data provides unmatched depth",
+      "AI-powered analytics through CoreAI platform",
+      "Comprehensive climate and environmental risk data with 30-year forecasts",
+      "Serves multiple industries: real estate, mortgage, insurance, government"
+    ],
+    "cons": [
+      "Enterprise pricing not publicly available",
+      "Recently rebranded from CoreLogic to Cotality, causing market confusion",
+      "Complex product suite may overwhelm smaller organizations"
+    ],
     "integrations": [],
     "company": {
-      "name": "CoreLogic",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Cotality (formerly CoreLogic)",
+      "founded": 2010,
+      "headquarters": "Irvine, CA",
+      "employees": "5000+",
+      "funding": "Public company (acquired by Stone Point Capital & Insight Partners in 2022 for $6B)"
     },
     "categories": [
       "AI & Automation",
@@ -2021,7 +2108,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "corelogic.com",
@@ -3251,7 +3338,7 @@
     "url": "https://www.fundrise.com",
     "logo_url": "https://logo.clearbit.com/fundrise.com",
     "headline": "Real estate investment platform.",
-    "description": "Fundrise is a crowdfunding platform that allows individuals to invest in real estate projects. It provides a simple way for people to diversify their investment portfolio with real estate, offering various investment types, from residential to commercial properties.",
+    "description": "Fundrise is a leading real estate investment platform that allows individuals to invest in private real estate through an online, low-cost model. The platform offers diversified portfolios of commercial and residential real estate projects including multifamily apartments, industrial properties, and single-family rentals. Fundrise uses technology to provide access to institutional-quality real estate investments with low minimums starting at $10. The platform manages billions in assets and has served over 2 million investors, offering features like auto-invest, dividend reinvestment, and detailed portfolio tracking through web and mobile apps.",
     "short_description": "Real estate investment platform.",
     "target_audience": {
       "roles": [],
@@ -3260,26 +3347,119 @@
         "Residential"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Investment Products",
+        "features": [
+          {
+            "name": "eREITs",
+            "description": "Diversified real estate investment trusts focused on income-generating commercial properties."
+          },
+          {
+            "name": "eFunds",
+            "description": "Growth-oriented funds investing in residential real estate development and acquisitions."
+          },
+          {
+            "name": "Innovation Fund",
+            "description": "Access to pre-IPO technology companies alongside real estate investments."
+          },
+          {
+            "name": "Income Fund",
+            "description": "Fixed-income focused fund providing quarterly dividend distributions."
+          }
+        ]
+      },
+      {
+        "name": "Investment Tools",
+        "features": [
+          {
+            "name": "Auto-Invest",
+            "description": "Automatically invest recurring amounts on a set schedule."
+          },
+          {
+            "name": "Dividend Reinvestment",
+            "description": "Automatically reinvest dividend earnings to compound returns."
+          },
+          {
+            "name": "Goal-Based Planning",
+            "description": "Set investment goals and track progress toward financial targets."
+          },
+          {
+            "name": "Portfolio Tracker",
+            "description": "Real-time dashboard showing portfolio performance, returns, and asset allocation."
+          }
+        ]
+      },
+      {
+        "name": "Platform Features",
+        "features": [
+          {
+            "name": "Low Minimums",
+            "description": "Start investing with as little as $10 for basic accounts."
+          },
+          {
+            "name": "Mobile App",
+            "description": "Full-featured iOS and Android apps for portfolio management on the go."
+          },
+          {
+            "name": "Investor Dashboard",
+            "description": "Detailed reporting on individual investments, distributions, and tax documents."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Fee-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "0.15% advisory fee + ~0.85% management fee",
+          "period": "annual",
+          "features": [
+            "$10 minimum",
+            "Auto-invest",
+            "Dividend reinvestment",
+            "Basic portfolio access"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "0.15% advisory fee + ~0.85% management fee",
+          "period": "annual",
+          "features": [
+            "$100,000+ invested",
+            "Priority support",
+            "Access to all fund strategies",
+            "Advanced analytics"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Very low $10 minimum investment makes real estate accessible to everyone",
+      "Diversified exposure to commercial and residential real estate",
+      "Strong historical returns averaging 8-12% annually",
+      "User-friendly platform with excellent mobile app",
+      "SEC-registered offerings with regulatory transparency"
+    ],
+    "cons": [
+      "Investments are illiquid with early redemption penalties",
+      "Limited control over specific property selection",
+      "Returns not guaranteed and subject to real estate market conditions"
+    ],
     "integrations": [],
     "company": {
-      "name": "Fundrise",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Fundrise, LLC",
+      "founded": 2010,
+      "headquarters": "Washington, D.C.",
+      "employees": "200-500",
+      "funding": "$300M+"
     },
     "categories": [
       "Construction & Development",
@@ -3302,11 +3482,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "fundrise.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Fee-based",
     "is_free": false,
     "tagline": "Real estate investment platform.",
     "property_types": [
@@ -8346,7 +8526,7 @@
     "url": "https://www.tenantcloud.com",
     "logo_url": "https://logo.clearbit.com/tenantcloud.com",
     "headline": "Cloud-based property management software.",
-    "description": "TenantCloud is a comprehensive cloud-based property management software platform designed for landlords, property managers, and rental property businesses. The platform automates daily property management tasks including rent collection, tenant screening, accounting, maintenance management, and listing syndication. With a 4.7-star mobile app rating and integration with 10+ third-party services, TenantCloud helps property managers save an average of 20 hours per week compared to manual processes while reducing late payments by 90% through automated features.",
+    "description": "TenantCloud is a cloud-based property management software for landlords, property managers, and tenants. It provides online rent collection (credit, debit, ACH, cash, checks), tenant screening with 99.9% accuracy, listing syndication to Apartments.com, Realtor.com, and Rentler, full accounting with QuickBooks integration, maintenance request management, and e-signatures. The platform includes separate mobile apps for landlords, tenants, service providers, and owners. TenantCloud reduces late payments by 90% with autopay and saves landlords an average of 20 hours per week compared to manual management.",
     "short_description": "Cloud-based property management software.",
     "target_audience": {
       "roles": [
@@ -8367,18 +8547,195 @@
         "HOA Communities"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Freemium model - Free tier available, paid plans for advanced features",
+    "feature_groups": [
+      {
+        "name": "Rent Collection",
+        "features": [
+          {
+            "name": "Online Payments",
+            "description": "Accept credit, debit, ACH, cash, or check payments with automatic tracking."
+          },
+          {
+            "name": "Autopay",
+            "description": "Tenants set up automatic payments, reducing late payments by 90%."
+          },
+          {
+            "name": "Late Fee Automation",
+            "description": "Set automatic late fees, grace periods, and payment notifications."
+          },
+          {
+            "name": "Deposit Management",
+            "description": "Manage security deposits, pet deposits, and other deposit types."
+          }
+        ]
+      },
+      {
+        "name": "Tenant Screening & Leasing",
+        "features": [
+          {
+            "name": "Background Checks",
+            "description": "Full tenant screenings including credit, criminal, eviction reports with 99.9% accuracy."
+          },
+          {
+            "name": "Income Verification",
+            "description": "Detect fraudulently altered income documentation."
+          },
+          {
+            "name": "E-Signatures",
+            "description": "Request electronic signatures for lease agreements and applications."
+          },
+          {
+            "name": "Lease Builder",
+            "description": "Design leases with built-in document creator or upload PDF templates."
+          }
+        ]
+      },
+      {
+        "name": "Marketing & Listings",
+        "features": [
+          {
+            "name": "Listing Syndication",
+            "description": "Advertise on Rentler, Apartments.com, Realtor.com and more with one click."
+          },
+          {
+            "name": "Custom Listing Website",
+            "description": "Free personalized listing website with business logo."
+          },
+          {
+            "name": "Lead Tracking",
+            "description": "Track potential tenant engagements with notes, call details, and activity timeline."
+          },
+          {
+            "name": "Lead Text Messaging",
+            "description": "Send text responses to potential renters directly from the platform."
+          }
+        ]
+      },
+      {
+        "name": "Accounting & Reporting",
+        "features": [
+          {
+            "name": "Real-Time Reporting",
+            "description": "Generate custom financial reports with real-time data."
+          },
+          {
+            "name": "QuickBooks Integration",
+            "description": "Sync with QuickBooks Online for streamlined accounting."
+          },
+          {
+            "name": "Data Export & Import",
+            "description": "Export account data and upload property data directly into TenantCloud."
+          }
+        ]
+      },
+      {
+        "name": "Communication & Maintenance",
+        "features": [
+          {
+            "name": "Maintenance Requests",
+            "description": "Tenants submit requests online; landlords assign and track work orders."
+          },
+          {
+            "name": "Tenant Portal",
+            "description": "Separate tenant accounts for payments, documents, maintenance, and communication."
+          },
+          {
+            "name": "Owner Portal",
+            "description": "Separate owner portal with access to relevant property information."
+          },
+          {
+            "name": "Mobile Apps",
+            "description": "Dedicated apps for landlords, tenants, service providers, and owners."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Per unit/month",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Starter",
+          "price": "Free",
+          "period": "monthly",
+          "features": [
+            "Unlimited properties",
+            "10 leases",
+            "1 GB storage",
+            "Listing syndication",
+            "Tenant screening",
+            "Online payments",
+            "Mobile apps"
+          ]
+        },
+        {
+          "name": "Growth",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "30 leases",
+            "10 GB storage",
+            "Lead text messaging",
+            "Custom listing website",
+            "Tenant message board"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "60 leases",
+            "25 GB storage",
+            "Lease builder",
+            "Move in/out inspections",
+            "State-specific forms"
+          ]
+        },
+        {
+          "name": "Business",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "Unlimited leases",
+            "Custom storage",
+            "All features",
+            "Priority support"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Free starter plan with core features for small landlords",
+      "Reduces late payments by 90% with autopay feature",
+      "Separate mobile apps for landlords, tenants, owners, and service providers",
+      "Comprehensive tenant screening with 99.9% accuracy",
+      "Integrates with 10+ third-party apps including QuickBooks and Google Calendar"
+    ],
+    "cons": [
+      "Free plan limited to 10 leases and 1 GB storage",
+      "Pricing for paid plans not transparently listed on website",
+      "Advanced features like lease builder and inspections only on higher tiers"
+    ],
+    "integrations": [
+      "QuickBooks Online",
+      "Google Calendar",
+      "Stripe",
+      "RentRange",
+      "Apartments.com",
+      "Realtor.com",
+      "Rentler"
+    ],
     "company": {
       "name": "TenantCloud",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "founded": 2014,
+      "headquarters": "Beverly Hills, CA",
+      "employees": "50-100",
       "funding": ""
     },
     "categories": [
@@ -8402,11 +8759,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "tenantcloud.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Per unit/month",
     "is_free": false,
     "tagline": "Cloud-based property management software.",
     "property_types": [
@@ -9699,29 +10056,122 @@
     "url": "https://www.zumper.com",
     "logo_url": "https://logo.clearbit.com/zumper.com",
     "headline": "Find apartments for rent.",
-    "description": "Zumper is a comprehensive rental marketplace platform that helps renters discover and apply to over 1 million rental listings across the U.S. and Canada. The platform provides rental market insights, city guides, and tools to make informed rental decisions with verified listings and expert ratings.",
+    "description": "Zumper is a leading rental marketplace helping millions of renters find houses, condos, and apartments across the United States and Canada. The platform offers over 1 million rental listings with both long-term and short-term lease options. Zumper provides comprehensive tools including rent trend data, city guides, affordability calculators, and Zumper Expert Ratings to help renters make informed decisions. The platform emphasizes listing accuracy and verification, and offers a mobile app for on-the-go apartment hunting. Zumper also provides tools for landlords to list properties, screen tenants, and collect rent online.",
     "short_description": "Find apartments for rent.",
     "target_audience": "Renters, landlords, property managers, rental property owners",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Renter Tools",
+        "features": [
+          {
+            "name": "Rental Search",
+            "description": "Browse and filter over 1 million listings by location, price, bedrooms, and amenities."
+          },
+          {
+            "name": "Zumper Expert Ratings",
+            "description": "AI-powered ratings system helping renters evaluate listing quality and value."
+          },
+          {
+            "name": "Affordability Calculator",
+            "description": "Calculate how much rent you can afford based on income and expenses."
+          },
+          {
+            "name": "City Guides",
+            "description": "Detailed neighborhood guides with rent trends, lifestyle info, and local insights."
+          }
+        ]
+      },
+      {
+        "name": "Landlord Tools",
+        "features": [
+          {
+            "name": "Listing Management",
+            "description": "Create and manage rental listings with photos, descriptions, and availability."
+          },
+          {
+            "name": "Tenant Screening",
+            "description": "Run background and credit checks on prospective tenants."
+          },
+          {
+            "name": "Online Rent Collection",
+            "description": "Collect rent payments online through the Zumper platform."
+          },
+          {
+            "name": "Application Management",
+            "description": "Receive and review rental applications from qualified candidates."
+          }
+        ]
+      },
+      {
+        "name": "Market Intelligence",
+        "features": [
+          {
+            "name": "Rent Trends",
+            "description": "National and local rent trend reports updated monthly."
+          },
+          {
+            "name": "Verified Listings",
+            "description": "Commitment to accuracy with verified listing information."
+          },
+          {
+            "name": "Market Reports",
+            "description": "Zumper National Rent Report providing comprehensive market analysis."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Free for renters",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Renters",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Unlimited search",
+            "Saved searches",
+            "Alerts",
+            "Mobile app"
+          ]
+        },
+        {
+          "name": "Landlords",
+          "price": "Free basic listing",
+          "period": "",
+          "features": [
+            "Property listing",
+            "Application management",
+            "Tenant screening (paid add-on)",
+            "Rent collection"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Over 1 million listings across US and Canada",
+      "Free for renters with no account required for basic search",
+      "Excellent mobile app with real-time notifications",
+      "Verified listings reduce scam risk",
+      "Comprehensive market data and rent trend reports"
+    ],
+    "cons": [
+      "Primarily focused on residential, limited commercial listings",
+      "Landlord premium features require paid plans",
+      "Some listings may be duplicated from other platforms"
+    ],
     "integrations": [],
     "company": {
-      "name": "Zumper",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Zumper Inc.",
+      "founded": 2012,
+      "headquarters": "San Francisco, CA",
+      "employees": "100-250",
+      "funding": "$190M+"
     },
     "categories": [
       "CRM & Marketing",
@@ -9745,11 +10195,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "zumper.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Free for renters",
     "is_free": false,
     "tagline": "Find apartments for rent.",
     "property_types": [
@@ -10388,7 +10838,7 @@
     "url": "https://www.zoominfo.com",
     "logo_url": "https://logo.clearbit.com/zoominfo.com",
     "headline": "Contact info. Contact an owner.",
-    "description": "Zoominfo provides contact information and business insights, helping real estate professionals connect with property owners.",
+    "description": "ZoomInfo is a leading B2B data and intelligence platform providing comprehensive company and contact information for sales, marketing, and recruiting teams. While not CRE-specific, ZoomInfo is widely used in commercial real estate for prospecting, tenant research, and market analysis. The platform maintains a database of 100M+ business contacts and 14M+ companies with firmographic, technographic, and intent data. ZoomInfo offers AI-powered tools for sales automation, lead scoring, and account-based marketing, helping CRE professionals identify decision-makers at target companies for leasing, investment, and brokerage opportunities.",
     "short_description": "Contact info. Contact an owner.",
     "target_audience": {
       "roles": [],
@@ -10397,26 +10847,133 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Data & Intelligence",
+        "features": [
+          {
+            "name": "Contact Database",
+            "description": "Access 100M+ business professional profiles with verified emails and direct dials."
+          },
+          {
+            "name": "Company Profiles",
+            "description": "Detailed firmographic data on 14M+ companies including revenue, employee count, and technology stack."
+          },
+          {
+            "name": "Intent Data",
+            "description": "Identify companies actively researching topics related to your offerings."
+          },
+          {
+            "name": "Scoops & News",
+            "description": "Real-time company news, funding events, and executive changes."
+          }
+        ]
+      },
+      {
+        "name": "Sales Tools",
+        "features": [
+          {
+            "name": "Sales Automation",
+            "description": "Automated outreach sequences across email, phone, and social channels."
+          },
+          {
+            "name": "Lead Scoring",
+            "description": "AI-powered scoring to prioritize the most promising prospects."
+          },
+          {
+            "name": "Conversation Intelligence",
+            "description": "Analyze sales calls to identify winning patterns and coach teams."
+          }
+        ]
+      },
+      {
+        "name": "Marketing Tools",
+        "features": [
+          {
+            "name": "Account-Based Marketing",
+            "description": "Target specific companies with coordinated marketing campaigns."
+          },
+          {
+            "name": "Website Visitor Tracking",
+            "description": "Identify anonymous website visitors and their companies."
+          },
+          {
+            "name": "Audience Building",
+            "description": "Build targeted audiences for advertising based on firmographic and intent data."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Professional",
+          "price": "Custom",
+          "period": "annual",
+          "features": [
+            "Contact & company data",
+            "Basic intent data",
+            "Email and phone integrations"
+          ]
+        },
+        {
+          "name": "Advanced",
+          "price": "Custom",
+          "period": "annual",
+          "features": [
+            "Everything in Professional",
+            "Advanced intent data",
+            "Website visitor tracking",
+            "Automation"
+          ]
+        },
+        {
+          "name": "Elite",
+          "price": "Custom",
+          "period": "annual",
+          "features": [
+            "Everything in Advanced",
+            "Real-time intent signals",
+            "AI-powered recommendations",
+            "Advanced analytics"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Largest B2B contact database with 100M+ profiles",
+      "Excellent for CRE prospecting and tenant research",
+      "Intent data identifies companies actively looking for space",
+      "Strong integrations with major CRM platforms",
+      "AI-powered lead scoring and sales automation"
+    ],
+    "cons": [
+      "Expensive enterprise pricing starting at $15K+/year",
+      "Not purpose-built for CRE \u2014 requires adaptation for real estate workflows",
+      "Data accuracy can vary for smaller companies"
+    ],
+    "integrations": [
+      "Salesforce",
+      "HubSpot",
+      "Microsoft Dynamics",
+      "Slack",
+      "Marketo",
+      "Outreach",
+      "Salesloft"
+    ],
     "company": {
-      "name": "Zoominfo",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "ZoomInfo Technologies Inc.",
+      "founded": 2000,
+      "headquarters": "Vancouver, WA",
+      "employees": "3500+",
+      "funding": "Public company (NASDAQ: ZI)"
     },
     "categories": [
       "Data & Analytics",
@@ -10436,7 +10993,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "zoominfo.com",
@@ -12101,29 +12658,117 @@
     "url": "https://www.opendoor.com",
     "logo_url": "https://logo.clearbit.com/opendoor.com",
     "headline": "Online platform for buying and selling homes instantly.",
-    "description": "Opendoor is a real estate technology platform that provides instant cash offers for residential properties, allowing homeowners to sell their homes quickly and easily without traditional listing processes.",
+    "description": "Opendoor is a pioneering real estate technology company that simplifies the home buying and selling process through its iBuying platform. Sellers receive competitive cash offers on their homes without the traditional hassle of listings, showings, and negotiations. Opendoor buys homes directly, handles repairs and improvements, then relists them. The platform operates in 50+ metropolitan markets across the United States and has facilitated over $60 billion in transactions. Opendoor also offers mortgage services, title and escrow, and a home buying experience with self-guided tours available on demand.",
     "short_description": "Online platform for buying and selling homes instantly.",
     "target_audience": "Homeowners looking to sell quickly, residential real estate market participants",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Selling",
+        "features": [
+          {
+            "name": "Cash Offers",
+            "description": "Receive a competitive cash offer on your home within minutes online."
+          },
+          {
+            "name": "Flexible Closing",
+            "description": "Choose your closing date with flexibility from 14 days to 60 days."
+          },
+          {
+            "name": "No Showings Required",
+            "description": "Sell without the hassle of staging, open houses, or buyer walkthroughs."
+          },
+          {
+            "name": "Home Assessment",
+            "description": "Professional assessment of home condition with transparent repair costs."
+          }
+        ]
+      },
+      {
+        "name": "Buying",
+        "features": [
+          {
+            "name": "Self-Guided Tours",
+            "description": "Tour Opendoor-owned homes on your schedule using the app to unlock doors."
+          },
+          {
+            "name": "Buy Before You Sell",
+            "description": "Purchase your new home before selling your current one with Opendoor's backing."
+          },
+          {
+            "name": "Home Search",
+            "description": "Browse available Opendoor homes with detailed photos, 3D tours, and pricing."
+          }
+        ]
+      },
+      {
+        "name": "Financial Services",
+        "features": [
+          {
+            "name": "Opendoor Mortgage",
+            "description": "Integrated mortgage services for a streamlined home buying experience."
+          },
+          {
+            "name": "Title & Escrow",
+            "description": "In-house title and escrow services to simplify closing."
+          },
+          {
+            "name": "Price Transparency",
+            "description": "Detailed breakdown of all costs, fees, and net proceeds upfront."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Service fee",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Seller",
+          "price": "~5% service fee",
+          "period": "per transaction",
+          "features": [
+            "Cash offer",
+            "Flexible closing",
+            "No showings",
+            "Repair handling"
+          ]
+        },
+        {
+          "name": "Buyer",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Home search",
+            "Self-guided tours",
+            "Mortgage services"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast cash offers with closing in as few as 14 days",
+      "Eliminates traditional selling hassles like showings and staging",
+      "Operates in 50+ major US metro markets",
+      "Integrated mortgage, title, and escrow services",
+      "Self-guided tour technology for buyers"
+    ],
+    "cons": [
+      "Service fee of ~5% can be higher than traditional agent commissions",
+      "Cash offers may be below full market value",
+      "Limited to markets where Opendoor operates"
+    ],
     "integrations": [],
     "company": {
-      "name": "Opendoor",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Opendoor Technologies Inc.",
+      "founded": 2014,
+      "headquarters": "San Francisco, CA (now Tempe, AZ)",
+      "employees": "1000-3000",
+      "funding": "$1.9B+ (public: OPEN on NASDAQ)"
     },
     "categories": [
       "Broker Tools",
@@ -12147,11 +12792,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "opendoor.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Service fee",
     "is_free": false,
     "tagline": "Online platform for buying and selling homes instantly.",
     "property_types": [
@@ -12173,29 +12818,146 @@
     "url": "https://www.airdna.co",
     "logo_url": "https://logo.clearbit.com/airdna.co",
     "headline": "Short-term rental data and analytics for investment insights.",
-    "description": "AirDNA provides comprehensive short-term rental data analytics and market intelligence for Airbnb and Vrbo properties, helping investors and property managers make data-driven decisions in the vacation rental market.",
+    "description": "AirDNA is the leading short-term rental data and analytics platform, providing comprehensive market intelligence for Airbnb and Vrbo properties worldwide. The platform offers tools for market research, revenue estimation, competitor analysis, and performance benchmarking. AirDNA's Rentalizer tool estimates potential rental income for any address, while Market Insights provides historical and forward-looking data on occupancy rates, daily rates, and revenue. Used by individual hosts, property managers, real estate investors, and hospitality companies, AirDNA covers millions of short-term rental listings globally.",
     "short_description": "Short-term rental data and analytics for investment insights.",
     "target_audience": "Short-term rental investors, vacation rental property managers, real estate analysts",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Market Research",
+        "features": [
+          {
+            "name": "Market Insights",
+            "description": "Historical and current market data on occupancy, daily rates, revenue, and supply for any market."
+          },
+          {
+            "name": "Top Markets",
+            "description": "Discover and compare the best-performing short-term rental markets globally."
+          },
+          {
+            "name": "Future Demand Data",
+            "description": "Forward-looking demand projections based on booking trends and seasonality."
+          },
+          {
+            "name": "For Sale Properties",
+            "description": "Browse properties for sale with integrated STR revenue potential data."
+          }
+        ]
+      },
+      {
+        "name": "Revenue Tools",
+        "features": [
+          {
+            "name": "Rentalizer",
+            "description": "Estimate potential short-term rental revenue for any property address worldwide."
+          },
+          {
+            "name": "Comparable Sets",
+            "description": "Build custom comp sets to analyze similar properties in your market."
+          },
+          {
+            "name": "Competitor Rate Calendar",
+            "description": "View competitor pricing day-by-day to optimize your rate strategy."
+          }
+        ]
+      },
+      {
+        "name": "Performance Analytics",
+        "features": [
+          {
+            "name": "Performance Benchmarking",
+            "description": "Compare your property performance against market averages and competitors."
+          },
+          {
+            "name": "Property Performance",
+            "description": "Track individual listing metrics including occupancy, revenue, and reviews."
+          },
+          {
+            "name": "Professional Revenue Forecasts",
+            "description": "Detailed revenue forecasting for property managers and investors."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Limited Rentalizer",
+            "Limited Market Insights",
+            "Browse For Sale properties"
+          ]
+        },
+        {
+          "name": "Research",
+          "price": "$34/month (billed annually) or $125/month",
+          "period": "monthly",
+          "features": [
+            "Customizable Rentalizer",
+            "Historical Market Insights",
+            "Comparable Sets",
+            "Future Demand Data",
+            "Top Markets and Properties"
+          ]
+        },
+        {
+          "name": "Host",
+          "price": "$50/month (billed annually) or $150/month",
+          "period": "monthly",
+          "features": [
+            "Everything in Research",
+            "Performance Benchmarking",
+            "Custom Comp Sets",
+            "Competitor Rate Calendar",
+            "Property Management Software (3 listings)"
+          ]
+        },
+        {
+          "name": "Property Manager",
+          "price": "Custom",
+          "period": "",
+          "features": [
+            "Everything in Host",
+            "Identify New Leads",
+            "Benchmark Against Competitors",
+            "Expand to New Markets",
+            "Track Reviews & Policies"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Industry-leading short-term rental data covering millions of listings worldwide",
+      "Rentalizer provides instant revenue estimates for any address",
+      "Free tier available for basic market exploration",
+      "Forward-looking demand data helps with pricing strategy",
+      "Integrates with Uplisting property management software"
+    ],
+    "cons": [
+      "Annual billing required for best pricing (3-4x more expensive monthly)",
+      "Data accuracy can vary in smaller or emerging markets",
+      "Property Manager plan requires custom pricing with no transparency"
+    ],
+    "integrations": [
+      "Uplisting",
+      "Airbnb",
+      "Vrbo"
+    ],
     "company": {
       "name": "AirDNA",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2015,
+      "headquarters": "Denver, CO",
+      "employees": "50-150",
+      "funding": "$20M+"
     },
     "categories": [
       "AI & Automation",
@@ -12218,11 +12980,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "airdna.co",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Short-term rental data and analytics for investment insights.",
     "property_types": [
@@ -12380,7 +13142,7 @@
     "url": "https://www.dotloop.com",
     "logo_url": "https://logo.clearbit.com/dotloop.com",
     "headline": "Transaction management software for real estate professionals.",
-    "description": "Dotloop offers transaction management software designed for real estate professionals to simplify paperwork and workflows.",
+    "description": "Dotloop, a Zillow Group company, is a leading transaction management platform for real estate professionals. It provides an all-in-one solution for managing real estate transactions from offer to close, including document editing, legally-binding eSignatures, compliance tracking, and collaboration tools. Dotloop has partnered with 190+ local and state MLS associations for comprehensive forms coverage and integrates with 75+ real estate platforms. Used by hundreds of thousands of agents, teams, and brokerages, dotloop streamlines paperwork with features like document scanning, SMS signing, clause management, and automated audit trails.",
     "short_description": "Transaction management software for real estate professionals.",
     "target_audience": {
       "roles": [],
@@ -12389,26 +13151,164 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Document Management",
+        "features": [
+          {
+            "name": "Robust Document Editor",
+            "description": "Fill out, edit, and annotate PDFs with a full-featured document editor."
+          },
+          {
+            "name": "Document Templates",
+            "description": "Create reusable document templates and save common contract clauses."
+          },
+          {
+            "name": "Document Scanner",
+            "description": "Mobile app turns your phone into a scanner, converting photos to editable PDFs."
+          },
+          {
+            "name": "Split and Rotate PDFs",
+            "description": "Upload multi-page files and split them into separate documents."
+          }
+        ]
+      },
+      {
+        "name": "eSignature & Compliance",
+        "features": [
+          {
+            "name": "Legal eSignatures",
+            "description": "Secure, legally-binding electronic signatures trusted by banks and brokerages."
+          },
+          {
+            "name": "SMS Signing",
+            "description": "Send documents for signature via text with full activity tracking."
+          },
+          {
+            "name": "Audit Trail",
+            "description": "Complete compliance record of every action taken during a transaction."
+          },
+          {
+            "name": "In-Person Signing",
+            "description": "Have clients eSign directly from your mobile device or computer."
+          }
+        ]
+      },
+      {
+        "name": "Collaboration & Integration",
+        "features": [
+          {
+            "name": "MLS & Association Feeds",
+            "description": "Partnered with 190+ associations for comprehensive forms coverage and MLS feeds."
+          },
+          {
+            "name": "75+ Integrations",
+            "description": "Connect with real estate CRMs, MLSs, and platforms through seamless integrations."
+          },
+          {
+            "name": "Easy-Offer Links",
+            "description": "Share secure public links to offer documents for listings."
+          },
+          {
+            "name": "Real-Time Notifications",
+            "description": "Instant email and push notifications customizable for each transaction."
+          }
+        ]
+      },
+      {
+        "name": "Team & Brokerage Tools",
+        "features": [
+          {
+            "name": "Brokerage Dashboard",
+            "description": "Overview and compliance management for all agent transactions."
+          },
+          {
+            "name": "Clause Manager",
+            "description": "Store and reuse commonly used real estate contract clauses."
+          },
+          {
+            "name": "Task Templates",
+            "description": "Set up reusable task lists for consistent transaction workflows."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Agent",
+          "price": "$31.99",
+          "period": "monthly",
+          "features": [
+            "Unlimited Transactions",
+            "Document Editor",
+            "eSignatures",
+            "MLS Feeds",
+            "Audit Trail",
+            "Mobile App",
+            "Integrations"
+          ]
+        },
+        {
+          "name": "Teams",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Everything in Agent",
+            "Team management",
+            "SMS signing",
+            "Unlimited participants",
+            "Task templates"
+          ]
+        },
+        {
+          "name": "Broker",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Everything in Teams",
+            "Compliance dashboard",
+            "Agent management",
+            "Custom branding"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Industry-standard transaction management trusted by hundreds of thousands of agents",
+      "190+ MLS and association partnerships for forms coverage",
+      "Legally-binding eSignatures with comprehensive audit trail",
+      "75+ integrations with major real estate platforms",
+      "Backed by Zillow Group with strong support infrastructure"
+    ],
+    "cons": [
+      "Premium features like SMS signing and task templates require paid upgrades",
+      "Team and brokerage pricing not publicly listed",
+      "Interface can feel dated compared to newer competitors"
+    ],
+    "integrations": [
+      "Zillow",
+      "Salesforce",
+      "Follow Up Boss",
+      "BoomTown",
+      "kvCORE",
+      "LionDesk",
+      "Contactually",
+      "Propertybase"
+    ],
     "company": {
-      "name": "Dotloop",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Dotloop (Zillow Group)",
+      "founded": 2011,
+      "headquarters": "Cincinnati, OH",
+      "employees": "100-200",
+      "funding": "Acquired by Zillow Group in 2015"
     },
     "categories": [
       "Broker Tools",
@@ -12428,11 +13328,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "dotloop.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Transaction management software for real estate professionals.",
     "property_types": [
@@ -13324,31 +14224,194 @@
     "url": "https://www.doorloop.com",
     "logo_url": "https://logo.clearbit.com/doorloop.com",
     "headline": "All-in-one property management software",
-    "description": "DoorLoop is an all-in-one cloud-based property management software built for landlords, property managers, and real estate investors of any size. The platform streamlines rental property operations from tenant screening and e-leases to rent collection, maintenance management, and full accounting, replacing multiple tools and spreadsheets with one comprehensive system designed for rental growth.",
+    "description": "DoorLoop is a cloud-based property management software designed for landlords, property managers, and real estate investors. It offers end-to-end rental management including online rent collection via credit card, debit card, ACH, and cash, tenant screening through TransUnion, lease management with eSignatures, maintenance request tracking, and full accounting with QuickBooks sync. DoorLoop features an AI Assistant for task automation, AI-powered property inspections, customizable workflows, and listing syndication to Zillow, Trulia, and HotPads. Trusted by tens of thousands of customers with a 98.6% satisfaction rating.",
     "short_description": "All-in-one property management software for residential and commercial properties.",
     "target_audience": "Landlords, property managers, and real estate investors of any size managing single-family homes, multi-family properties, mixed-use commercial properties, HOAs, mobile home parks, student housing, and affordable housing portfolios.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Rent Collection & Payments",
+        "features": [
+          {
+            "name": "Online Rent Collection",
+            "description": "Accept payments via credit card, debit card, ACH, Google Pay, Apple Pay, or cash."
+          },
+          {
+            "name": "Automated Payment Reminders",
+            "description": "Send automated reminders for upcoming and overdue rent payments."
+          },
+          {
+            "name": "Cash Payments via Western Union",
+            "description": "Collect and track cash rent payments at Western Union Quick Collect locations."
+          },
+          {
+            "name": "Outgoing Payments",
+            "description": "Send payments to vendors, owners, and tenants with 1099 support."
+          }
+        ]
+      },
+      {
+        "name": "Tenant Management",
+        "features": [
+          {
+            "name": "Tenant Screening",
+            "description": "Run criminal, credit, and eviction background checks through TransUnion."
+          },
+          {
+            "name": "Tenant Portal",
+            "description": "Dedicated portal for tenants to make payments, submit work orders, and manage insurance."
+          },
+          {
+            "name": "Lease Management",
+            "description": "Track payments and requests with automated reminders, tasks, and eSignatures."
+          },
+          {
+            "name": "Listing Syndication",
+            "description": "Market properties on Zillow, Trulia, HotPads, Dwellsy, and more."
+          }
+        ]
+      },
+      {
+        "name": "Accounting & Reporting",
+        "features": [
+          {
+            "name": "Full Accounting Suite",
+            "description": "Chart of accounts, statements, and reports for each property with AP/AR management."
+          },
+          {
+            "name": "QuickBooks Online Sync",
+            "description": "Sync income and expense transactions directly to QuickBooks Online."
+          },
+          {
+            "name": "Live Bank Connect",
+            "description": "Securely sync and reconcile bank accounts with automatic transaction matching."
+          },
+          {
+            "name": "Budgeting",
+            "description": "Create customizable budgets on properties and portfolios to manage cash flow."
+          }
+        ]
+      },
+      {
+        "name": "AI & Automation",
+        "features": [
+          {
+            "name": "AI Assistant",
+            "description": "24/7 AI assistant that resolves tenant issues, automates tasks, and provides instant insights."
+          },
+          {
+            "name": "AI Inspections",
+            "description": "Complete hours of manual inspection work in minutes with AI-powered reports."
+          },
+          {
+            "name": "Workflows",
+            "description": "Automate repetitive tasks with customizable templates and triggers."
+          }
+        ]
+      },
+      {
+        "name": "Maintenance & Communication",
+        "features": [
+          {
+            "name": "Maintenance Management",
+            "description": "Receive, assign, and track work orders with vendor management and payments."
+          },
+          {
+            "name": "Two-Way SMS Communication",
+            "description": "Send and receive text messages from a dedicated phone number."
+          },
+          {
+            "name": "Tenant Announcements",
+            "description": "Send bulk announcements to tenants by email or text."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Per unit/month",
       "starting_price": null,
       "billing_options": [
         "Monthly",
         "Annual"
       ],
-      "free_trial": false,
+      "free_trial": true,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Starter",
+          "price": "$69",
+          "period": "monthly (billed annually)",
+          "features": [
+            "Online rent & fee payments",
+            "Tenant portal",
+            "Maintenance management",
+            "Two-way SMS",
+            "Accounting & reporting",
+            "Tenant screening",
+            "Lease management",
+            "eSignature"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$139",
+          "period": "monthly (billed annually)",
+          "features": [
+            "Everything in Starter",
+            "AI Assistant & AI Inspections",
+            "Workflows",
+            "Advanced accounting",
+            "QuickBooks sync",
+            "Live bank connect",
+            "Listings syndication",
+            "CAM charges",
+            "Budgeting"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$199",
+          "period": "monthly (billed annually)",
+          "features": [
+            "Everything in Pro",
+            "VIP Priority Support",
+            "Free incoming ACH payments",
+            "Free personalized website",
+            "Custom dashboards"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Comprehensive all-in-one property management with AI features",
+      "Easy setup with data migration in days, not months",
+      "98.6% customer satisfaction rating with world-class support",
+      "Integrates with thousands of apps via Zapier and Open API",
+      "Mobile-friendly with full functionality on any device"
+    ],
+    "cons": [
+      "Starting price of $69/month may be high for very small landlords",
+      "Advanced features like AI and workflows require Pro plan or higher",
+      "Per-unit pricing can add up for large portfolios"
+    ],
+    "integrations": [
+      "QuickBooks Online",
+      "Zapier",
+      "Zillow",
+      "Trulia",
+      "HotPads",
+      "Dwellsy",
+      "TransUnion",
+      "Western Union",
+      "Google Pay",
+      "Apple Pay"
+    ],
     "company": {
       "name": "DoorLoop",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "founded": 2019,
+      "headquarters": "Miami, FL",
+      "employees": "50-200",
       "funding": ""
     },
     "categories": [
@@ -13370,11 +14433,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "doorloop.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Per unit/month",
     "is_free": false,
     "tagline": "All-in-one property management software",
     "property_types": [
@@ -13682,29 +14745,116 @@
     "url": "https://www.roofstock.com",
     "logo_url": "https://logo.clearbit.com/roofstock.com",
     "headline": "Online marketplace for buying and selling rental properties.",
-    "description": "Roofstock is a comprehensive residential real estate investment platform that combines decades of property management expertise, purpose-built technology, and proprietary data to help investors make smarter decisions in single-family rental (SFR) properties. With over 400,000 users and 20,000 homes under management, Roofstock enables modern residential investing at scale with a mission to accelerate housing supply through high-quality rental homes.",
+    "description": "Roofstock is a real estate investment platform specializing in single-family rental (SFR) properties. The platform enables investors to buy, sell, and manage investment properties remotely with data-driven tools. Roofstock has facilitated over $10 billion in transactions, manages 20,000+ homes, and serves 400,000+ users. The platform combines decades of property management expertise with purpose-built technology and proprietary data analytics. Roofstock offers both individual property purchases and institutional-scale portfolio management, making residential real estate investing accessible regardless of investor location.",
     "short_description": "Online marketplace for buying and selling rental properties.",
     "target_audience": "Residential real estate investors including individuals, partners, and institutions seeking to invest in single-family rental properties at scale. Serves both new and experienced investors looking for data-driven property management and investment solutions.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Investment Marketplace",
+        "features": [
+          {
+            "name": "Property Marketplace",
+            "description": "Browse and purchase tenant-occupied single-family rental homes across US markets."
+          },
+          {
+            "name": "Neighborhood Ratings",
+            "description": "Proprietary ratings system scoring neighborhoods on multiple investment factors."
+          },
+          {
+            "name": "Financial Projections",
+            "description": "Detailed pro forma analysis including cap rates, cash-on-cash returns, and appreciation."
+          },
+          {
+            "name": "Roofstock Guarantee",
+            "description": "Money-back guarantee if a property doesn't meet certified standards."
+          }
+        ]
+      },
+      {
+        "name": "Property Management",
+        "features": [
+          {
+            "name": "Full-Service Management",
+            "description": "Professional property management for single-family rentals with 20K+ homes managed."
+          },
+          {
+            "name": "Tenant Placement",
+            "description": "Find and screen quality tenants for investment properties."
+          },
+          {
+            "name": "Maintenance Coordination",
+            "description": "Handle all maintenance requests and vendor management."
+          }
+        ]
+      },
+      {
+        "name": "Data & Analytics",
+        "features": [
+          {
+            "name": "Market Analytics",
+            "description": "Proprietary data on rental yields, appreciation trends, and market fundamentals."
+          },
+          {
+            "name": "Portfolio Tracking",
+            "description": "Dashboard to monitor investment performance across multiple properties."
+          },
+          {
+            "name": "Rent Estimates",
+            "description": "Data-driven rental income estimates for properties in the marketplace."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Transaction-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Buyer",
+          "price": "0.5% marketplace fee",
+          "period": "per transaction",
+          "features": [
+            "Full marketplace access",
+            "Financial projections",
+            "Roofstock Guarantee"
+          ]
+        },
+        {
+          "name": "Seller",
+          "price": "3% listing fee",
+          "period": "per transaction",
+          "features": [
+            "National buyer network",
+            "Professional listing",
+            "Transaction support"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Buy tenant-occupied properties for immediate rental income",
+      "Strong data analytics with neighborhood ratings and financial projections",
+      "Over $10 billion in transactions processed",
+      "Full-service property management available",
+      "Roofstock Guarantee provides buyer protection"
+    ],
+    "cons": [
+      "Focused exclusively on single-family rentals, no multifamily or commercial",
+      "Properties may require significant due diligence despite platform vetting",
+      "Management fees add to ongoing costs"
+    ],
     "integrations": [],
     "company": {
-      "name": "Roofstock",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Roofstock, Inc.",
+      "founded": 2015,
+      "headquarters": "Oakland, CA",
+      "employees": "200-500",
+      "funding": "$400M+"
     },
     "categories": [
       "Construction & Development",
@@ -13727,11 +14877,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "roofstock.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Transaction-based",
     "is_free": false,
     "tagline": "Online marketplace for buying and selling rental properties.",
     "property_types": [
