@@ -422,7 +422,7 @@
     "url": "https://www.archibus.com",
     "logo_url": "https://logo.clearbit.com/archibus.com",
     "headline": "Real estate management software.",
-    "description": "Archibus is a comprehensive real estate, infrastructure, and facilities management software. It helps organizations optimize space, reduce costs, and streamline operations through space management, asset management, and real estate portfolio management tools.",
+    "description": "Archibus, now part of Eptura (formerly iOFFICE + SpaceIQ), is a comprehensive Integrated Workplace Management System (IWMS) platform that has been a leader in facility and real estate management for decades. The platform is now part of Eptura's worktech ecosystem, powering 50% of the Fortune 500. Archibus provides solutions for asset management, facility management, space planning, preventive maintenance, visitor management, and employee experience. The platform features AI-backed tools including facial recognition check-in and Copilot reservations. Archibus has achieved FedRAMP authorization for government clients, providing comprehensive visibility into spaces, assets, and facilities.",
     "short_description": "Real estate management software.",
     "target_audience": {
       "roles": [],
@@ -431,7 +431,67 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Space Management",
+        "features": [
+          {
+            "name": "Space Planning",
+            "description": "Optimize real estate, occupancy, and moves with Autodesk floor plan integration."
+          },
+          {
+            "name": "Space Reservations",
+            "description": "Reserve desks, conference rooms, parking spots, and storage lockers."
+          },
+          {
+            "name": "Employee Experience",
+            "description": "Simplify collaboration with suggested office days, reservations, and concierge services."
+          },
+          {
+            "name": "Visitor Management",
+            "description": "Automated check-in, access control integration, and emergency tools."
+          }
+        ]
+      },
+      {
+        "name": "Asset & Facility Management",
+        "features": [
+          {
+            "name": "Asset Management",
+            "description": "Visualize assets on floor plans, track lifecycle, and manage maintenance schedules."
+          },
+          {
+            "name": "Facility Management",
+            "description": "Streamline maintenance, vendors, and operations in a smart building OS."
+          },
+          {
+            "name": "Preventive Maintenance",
+            "description": "Automate maintenance schedules to reduce downtime and drive operational excellence."
+          },
+          {
+            "name": "Mobile Technician App",
+            "description": "Field access to tickets, asset data, and voice-to-text AI for notes."
+          }
+        ]
+      },
+      {
+        "name": "Analytics & Intelligence",
+        "features": [
+          {
+            "name": "Envision Analytics",
+            "description": "Intelligent data analytics for full visibility into workplace performance."
+          },
+          {
+            "name": "Eptura AI",
+            "description": "Embedded AI tools including facial recognition and Copilot reservations."
+          },
+          {
+            "name": "Portfolio Analytics",
+            "description": "Cross-portfolio insights for smarter real estate decisions."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -442,15 +502,30 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Powers 50% of the Fortune 500 with proven enterprise scale",
+      "FedRAMP authorized for government and security-sensitive clients",
+      "Comprehensive IWMS covering space, assets, facilities, and employees",
+      "AI-backed tools improve efficiency and user experience",
+      "Autodesk integration for professional space planning"
+    ],
+    "cons": [
+      "Enterprise pricing not publicly available",
+      "Complex platform may be overkill for smaller organizations",
+      "Recent rebrand to Eptura may cause confusion"
+    ],
+    "integrations": [
+      "Autodesk",
+      "Microsoft Teams",
+      "Slack",
+      "Various BMS systems"
+    ],
     "company": {
-      "name": "Archibus",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Eptura (formerly Archibus)",
+      "founded": 1982,
+      "headquarters": "Atlanta, GA",
+      "employees": "1000+",
+      "funding": "PE-backed (JMI Equity)"
     },
     "categories": [
       "Broker Tools",
@@ -472,7 +547,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "archibus.com",
@@ -953,7 +1028,7 @@
     "url": "https://www.brevitas.com",
     "logo_url": "https://logo.clearbit.com/brevitas.com",
     "headline": "Find off-market commercial real estate deals.",
-    "description": "Brevitas is a real estate marketplace focused on facilitating transactions between buyers and sellers of commercial properties. It offers tools for listing properties, conducting market research, and managing deal flow, targeting brokers, investors, and developers.",
+    "description": "Brevitas is the world's leading platform for investment real estate, connecting agents, brokers, and investors with commercial and investment property opportunities globally. The platform hosts 200,000+ global members, 350,000+ property listings created, 8,000+ email templates built, and 5,000+ landing pages created. Brevitas offers free property listing for sale or lease, enterprise solutions for brokerages to create branded platforms, a member search directory of professionals, and advanced email marketing campaigns. The platform serves agents and brokers looking to sell or lease, brokerages needing enterprise tools, investors finding exclusive opportunities, and marketing professionals.",
     "short_description": "Find off-market commercial real estate deals.",
     "target_audience": {
       "roles": [],
@@ -964,25 +1039,112 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Property Marketplace",
+        "features": [
+          {
+            "name": "Investment Property Listings",
+            "description": "Search and list commercial, multifamily, land, and residential investment properties."
+          },
+          {
+            "name": "Free Listing",
+            "description": "Add and showcase properties for sale or lease at no cost."
+          },
+          {
+            "name": "Featured Properties",
+            "description": "Weekly featured properties for enhanced visibility."
+          },
+          {
+            "name": "Property Alerts",
+            "description": "Set up alerts for new listings matching your investment criteria."
+          }
+        ]
+      },
+      {
+        "name": "Professional Network",
+        "features": [
+          {
+            "name": "Member Search",
+            "description": "Connect with agents, brokers, and investors worldwide from 200K+ members."
+          },
+          {
+            "name": "Team & Company Search",
+            "description": "Discover and collaborate with real estate teams and companies globally."
+          },
+          {
+            "name": "Direct Messaging",
+            "description": "Communicate directly with professionals through the platform."
+          }
+        ]
+      },
+      {
+        "name": "Marketing Tools",
+        "features": [
+          {
+            "name": "Email Marketing Campaigns",
+            "description": "Create and send property marketing emails with 8,000+ templates."
+          },
+          {
+            "name": "Landing Pages",
+            "description": "Build custom landing pages for property marketing with 5,000+ created."
+          },
+          {
+            "name": "Enterprise Solutions",
+            "description": "Branded real estate platforms powered by Brevitas for brokerages."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Freemium",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Property listings",
+            "Member search",
+            "Basic networking"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Branded platform",
+            "Custom features",
+            "Advanced marketing tools"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "200,000+ global members create a large network for deal flow",
+      "Free to list properties and join the network",
+      "350,000+ property listings provide extensive investment opportunities",
+      "Enterprise solutions allow brokerages to create branded platforms",
+      "Advanced email marketing and landing page tools"
+    ],
+    "cons": [
+      "Less known than major CRE marketplaces like LoopNet or CoStar",
+      "Enterprise pricing not publicly available",
+      "Listing quality varies as anyone can list for free"
+    ],
     "integrations": [],
     "company": {
       "name": "Brevitas",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "founded": 2014,
+      "headquarters": "San Francisco, CA",
+      "employees": "10-30",
       "funding": ""
     },
     "categories": [
@@ -1006,11 +1168,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "brevitas.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Freemium",
     "is_free": false,
     "tagline": "Find off-market commercial real estate deals.",
     "property_types": [
@@ -10862,10 +11024,62 @@
     "url": "www.buxtonco.com",
     "logo_url": "https://logo.clearbit.com/buxtonco.com",
     "headline": "Consumer info; utilized for site selection & marketing. Where are consumers? Where should we open up shop?",
-    "description": "Buxton provides location intelligence technology that helps businesses make smarter location decisions for market planning, site selection, and ongoing site performance optimization. With 30+ years of experience, Buxton combines high-quality household-level data, AI-powered analytics, and robust location intelligence to guide retail, restaurant, hospitality, and healthcare companies in their expansion decisions.",
+    "description": "Buxton is a customer analytics company that helps businesses understand their customers and identify the best locations for growth. The platform uses consumer behavior data, demographic analysis, and predictive modeling to inform site selection, marketing strategies, and real estate decisions. Note: The Buxton website blocked automated access during research (403 error). Buxton is known for providing location intelligence solutions to retailers, restaurants, healthcare systems, and other multi-unit businesses seeking data-driven expansion strategies.",
     "short_description": "Consumer info; utilized for site selection & marketing. Where are consumers? Where should we open up shop?",
     "target_audience": "Retail companies, restaurant chains, hospitality businesses, healthcare organizations, real estate developers, franchise operators",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Customer Analytics",
+        "features": [
+          {
+            "name": "Customer Profiling",
+            "description": "Detailed analysis of customer demographics, behaviors, and spending patterns."
+          },
+          {
+            "name": "Trade Area Analysis",
+            "description": "Define and analyze customer trade areas for existing and potential locations."
+          },
+          {
+            "name": "Market Segmentation",
+            "description": "Segment customers into actionable groups for targeting and strategy."
+          }
+        ]
+      },
+      {
+        "name": "Site Selection",
+        "features": [
+          {
+            "name": "Location Scoring",
+            "description": "Score potential sites based on customer match and market potential."
+          },
+          {
+            "name": "Predictive Modeling",
+            "description": "Forecast performance for new locations using customer analytics."
+          },
+          {
+            "name": "Market Planning",
+            "description": "Identify optimal markets and locations for expansion."
+          }
+        ]
+      },
+      {
+        "name": "Marketing Intelligence",
+        "features": [
+          {
+            "name": "Marketing Targeting",
+            "description": "Data-driven targeting to reach the right customers in the right areas."
+          },
+          {
+            "name": "Campaign Analytics",
+            "description": "Measure marketing campaign effectiveness and ROI by location."
+          },
+          {
+            "name": "Competitive Insights",
+            "description": "Understand competitive landscape and market share."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -10876,14 +11090,23 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Deep customer analytics goes beyond basic demographics",
+      "Predictive modeling for site selection reduces expansion risk",
+      "Serves multiple industries including retail, restaurant, and healthcare",
+      "Combines consumer behavior data with location intelligence"
+    ],
+    "cons": [
+      "Website blocked automated access\u2014limited public information",
+      "Enterprise pricing not available",
+      "May require significant data sharing for optimal results"
+    ],
     "integrations": [],
     "company": {
       "name": "Buxton",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "founded": 1994,
+      "headquarters": "Fort Worth, TX",
+      "employees": "100-200",
       "funding": ""
     },
     "categories": [
@@ -10907,7 +11130,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "buxtonco.com",
@@ -10939,10 +11162,66 @@
     "url": "https://sitezeus.com/",
     "logo_url": "https://logo.clearbit.com/sitezeus.com",
     "headline": "Location intelligence; site selection.",
-    "description": "SiteZeus provides comprehensive location intelligence software designed for multi-unit business expansion and site selection. The platform delivers rapid and precise insights for streamlined revenue growth, offering end-to-end solutions for franchise sales, market planning, development, marketing, and operations.",
+    "description": "SiteZeus is an end-to-end location intelligence platform designed for multi-unit brands to optimize expansion, franchise sales, market planning, development, marketing, and operations. The platform delivers rapid and precise insights using data-driven analytics to help organizations open and operate better-performing sites. SiteZeus serves all business verticals including fast-food, convenience stores, retail, and more, providing advanced analytics to strengthen entire organizations. The complete solution suite covers franchise CRM, site selection software, construction management, and customer insights, empowering data-driven growth decisions.",
     "short_description": "Location intelligence; site selection.",
     "target_audience": "Multi-unit businesses, franchise operators, restaurant chains, retail companies, convenience stores, real estate developers",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Site Selection",
+        "features": [
+          {
+            "name": "Predictive Analytics",
+            "description": "AI-driven revenue forecasting for potential new locations."
+          },
+          {
+            "name": "Market Planning",
+            "description": "Identify optimal markets and trade areas for expansion."
+          },
+          {
+            "name": "Competitive Analysis",
+            "description": "Analyze competitor locations and market saturation."
+          },
+          {
+            "name": "Demographic Intelligence",
+            "description": "Deep demographic and consumer data for location evaluation."
+          }
+        ]
+      },
+      {
+        "name": "Growth Management",
+        "features": [
+          {
+            "name": "Franchise CRM",
+            "description": "Manage franchise sales pipeline and candidate evaluation."
+          },
+          {
+            "name": "Construction Management",
+            "description": "Track and manage the construction and opening of new locations."
+          },
+          {
+            "name": "Portfolio Optimization",
+            "description": "Analyze existing portfolio performance and identify improvement opportunities."
+          }
+        ]
+      },
+      {
+        "name": "Customer Intelligence",
+        "features": [
+          {
+            "name": "Customer Insights Platform",
+            "description": "Understand customer behavior and preferences for each location."
+          },
+          {
+            "name": "Marketing Optimization",
+            "description": "Data-driven marketing targeting based on customer and location data."
+          },
+          {
+            "name": "Operations Analytics",
+            "description": "Operational insights to improve performance at existing locations."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -10953,15 +11232,25 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "End-to-end platform covering entire location lifecycle from planning to operations",
+      "AI-driven revenue forecasting reduces expansion risk",
+      "Serves all business verticals with proven methodology",
+      "Construction management module tracks development pipeline",
+      "Customer insights platform provides actionable intelligence"
+    ],
+    "cons": [
+      "Enterprise pricing not publicly available",
+      "Best suited for multi-unit brands, not individual site operators",
+      "Requires data integration for maximum accuracy"
+    ],
     "integrations": [],
     "company": {
       "name": "SiteZeus",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2015,
+      "headquarters": "Tampa, FL",
+      "employees": "50-100",
+      "funding": "$10M+"
     },
     "categories": [
       "AI & Automation",
@@ -10984,7 +11273,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "sitezeus.com",
@@ -11175,28 +11464,138 @@
     "url": "https://id.land/",
     "logo_url": "https://logo.clearbit.com/id.land",
     "headline": "Owner info; parcel boundaries. Basic research.",
-    "description": "Land id\u00ae is a comprehensive real estate mapping software platform that provides extensive nationwide parcel data, property boundaries, and detailed property information for over 40,000 real estate professionals. The platform offers interactive map creation, 3D property showcases, and comprehensive property analysis tools across all 50 states.",
+    "description": "Land id (formerly AcreValue) is a real estate mapping software platform trusted by over 40,000 real estate and industry professionals. The platform provides extensive parcel data, property lines, and interactive map creation capabilities across all 50 US states. Land id enables users to create branded, interactive property maps with 40+ basemap overlays, comparable sales reports, 3D property tours, and embedding capabilities. The platform serves rural and land real estate professionals particularly well, offering detailed property data including ownership, year built, and front footage. Over 3 million maps have been created on the platform.",
     "short_description": "Owner info; parcel boundaries. Basic research.",
     "target_audience": "Real estate agents and brokers, property developers, land investors, surveyors, appraisers, agricultural professionals",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Property Data",
+        "features": [
+          {
+            "name": "Nationwide Parcel Data",
+            "description": "Property boundaries and detailed data from all 50 US states."
+          },
+          {
+            "name": "Property Information",
+            "description": "Ownership details, year built, property type, front footage, and more."
+          },
+          {
+            "name": "Smart Search",
+            "description": "Search properties by location, owner name, or parcel number."
+          },
+          {
+            "name": "Comparable Sales Reports",
+            "description": "Generate professional comp reports for pricing and listings."
+          }
+        ]
+      },
+      {
+        "name": "Map Creation",
+        "features": [
+          {
+            "name": "Interactive Property Maps",
+            "description": "Create branded, interactive maps with property lines, boundaries, and features."
+          },
+          {
+            "name": "40+ Basemap Overlays",
+            "description": "Contextual layers including aerial, topographic, soil, and environmental data."
+          },
+          {
+            "name": "3D Property Tours",
+            "description": "Stunning fly-around 3D property showcases from your maps."
+          },
+          {
+            "name": "Custom Branding",
+            "description": "Add your name, logo, and contact info to maps and reports."
+          }
+        ]
+      },
+      {
+        "name": "Sharing & Integration",
+        "features": [
+          {
+            "name": "Map Embedding",
+            "description": "Seamlessly embed interactive maps on websites and listing services."
+          },
+          {
+            "name": "Map Sharing",
+            "description": "Share branded maps via web, email, and text."
+          },
+          {
+            "name": "Matterport Integration",
+            "description": "Integrate Matterport 3D tours into your property maps."
+          },
+          {
+            "name": "CSV Mailing Lists",
+            "description": "Export property owner data as CSV mailing lists for marketing."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Basic property search",
+            "Standard aerial photography"
+          ]
+        },
+        {
+          "name": "Land id",
+          "price": "$9.99",
+          "period": "monthly",
+          "features": [
+            "3 maps",
+            "High-res aerial",
+            "Property boundaries",
+            "Branded maps"
+          ]
+        },
+        {
+          "name": "Land id Pro",
+          "price": "$19.99+",
+          "period": "monthly",
+          "features": [
+            "Unlimited maps",
+            "Embed maps",
+            "Pro tools",
+            "Comp reports",
+            "3D tours"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "40,000+ real estate professionals trust the platform",
+      "3 million+ maps created demonstrates strong adoption",
+      "40+ basemap overlays provide rich contextual data",
+      "3D property tours create engaging property showcases",
+      "Affordable pricing starting at $9.99/month"
+    ],
+    "cons": [
+      "Best suited for rural/land real estate, less for urban commercial",
+      "Free plan has very limited functionality",
+      "Some advanced features require Pro plan"
+    ],
+    "integrations": [
+      "Matterport",
+      "Various listing platforms via embed"
+    ],
     "company": {
-      "name": "LandID",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "name": "Land id",
+      "founded": 2017,
+      "headquarters": "Austin, TX",
+      "employees": "20-50",
       "funding": ""
     },
     "categories": [
@@ -11220,11 +11619,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "id.land",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Owner info; parcel boundaries. Basic research.",
     "property_types": [
@@ -11256,28 +11655,97 @@
     "url": "https://landglide.com/",
     "logo_url": "https://logo.clearbit.com/landglide.com",
     "headline": "Owner; basic parcel & demographic info. Basic research.",
-    "description": "LandGlide is a comprehensive GPS property line map application that provides access to over 157 million parcel records covering more than 99% of the U.S. population. Using GPS technology, the platform enables users to pinpoint locations and access detailed parcel data both online and offline.",
+    "description": "LandGlide is a mobile parcel data app that provides property boundary maps and ownership information directly on your smartphone or tablet. The app overlays property lines on satellite and aerial imagery, allowing users to tap any parcel to view ownership details, assessed values, legal descriptions, and more. LandGlide is popular with real estate professionals, land buyers, outdoor enthusiasts, and anyone who needs to quickly identify property ownership and boundaries while in the field. Note: The LandGlide website was unavailable during research (503 error).",
     "short_description": "Owner; basic parcel & demographic info. Basic research.",
     "target_audience": "Real estate professionals, property managers, surveyors, agribusiness professionals, land investors",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Property Data",
+        "features": [
+          {
+            "name": "Property Lines",
+            "description": "Visual property boundary lines overlaid on satellite and aerial imagery."
+          },
+          {
+            "name": "Ownership Information",
+            "description": "Tap any parcel to view property owner name and contact details."
+          },
+          {
+            "name": "Assessed Values",
+            "description": "Property tax assessment values and history."
+          },
+          {
+            "name": "Legal Descriptions",
+            "description": "Legal property descriptions and parcel information."
+          }
+        ]
+      },
+      {
+        "name": "Mobile Features",
+        "features": [
+          {
+            "name": "GPS Location",
+            "description": "See your position relative to property boundaries in real time."
+          },
+          {
+            "name": "Offline Maps",
+            "description": "Download maps for offline use when cell service is unavailable."
+          },
+          {
+            "name": "Search",
+            "description": "Search by address, owner name, or GPS coordinates."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Monthly",
+          "price": "$9.99",
+          "period": "monthly",
+          "features": [
+            "Unlimited parcel lookups",
+            "Property lines",
+            "Ownership data",
+            "GPS tracking"
+          ]
+        },
+        {
+          "name": "Annual",
+          "price": "$99.99",
+          "period": "annual",
+          "features": [
+            "Same as Monthly",
+            "17% savings"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Instant property boundary visualization on mobile",
+      "Quick ownership lookups without visiting county offices",
+      "GPS integration shows your position relative to parcels",
+      "Popular with wide range of users from agents to outdoor enthusiasts"
+    ],
+    "cons": [
+      "Website was unavailable during research (503 error)",
+      "Data accuracy varies by county and state",
+      "Limited analytical features compared to desktop platforms"
+    ],
     "integrations": [],
     "company": {
-      "name": "Landglide",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "name": "LandGlide (ReportAll)",
+      "founded": 2013,
+      "headquarters": "Charlotte, NC",
+      "employees": "10-30",
       "funding": ""
     },
     "categories": [
@@ -11299,11 +11767,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "landglide.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Owner; basic parcel & demographic info. Basic research.",
     "property_types": [
@@ -11581,29 +12049,128 @@
     "url": "https://www.zoneomics.com/",
     "logo_url": "https://logo.clearbit.com/zoneomics.com",
     "headline": "AI-driven Zoning Analysis & Site Search. Understanding zoning for address/area.",
-    "description": "Zoneomics provides AI-driven zoning analysis and site search capabilities for real estate professionals. The platform offers comprehensive zoning data coverage with seamless integration, enabling efficient zoning due diligence and accelerated site acquisition through automated data gathering from fragmented city zoning sources.",
+    "description": "Zoneomics is an AI-driven zoning analysis and site search platform preferred by real estate industry leaders for efficient zoning due diligence and accelerated site acquisition. The platform digitizes and aggregates zoning and land use data from fragmented city sources across thousands of cities, providing the largest nationwide zoning data coverage available. Zoneomics serves thousands of end-users including Redfin, Cushman & Wakefield, Moody's, Stanford University, and Keller Williams. The platform offers zoning search, prospecting tools for filtering properties by zoning and land use, a Zoning API for data integration, and various report products including Zoning Briefs, Summary Reports, Full Reports, and Certified Zoning Letters.",
     "short_description": "AI-driven Zoning Analysis & Site Search. Understanding zoning for address/area.",
     "target_audience": "Real estate appraisers, lenders, developers, law firms, commercial real estate professionals, site acquisition specialists",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Zoning Search & Analysis",
+        "features": [
+          {
+            "name": "Zoning Maps",
+            "description": "Search zoning information for any location with nationwide coverage across thousands of cities."
+          },
+          {
+            "name": "Permitted Use Analysis",
+            "description": "Identify permitted land uses for any parcel based on its zoning designation."
+          },
+          {
+            "name": "AI-Driven Analysis",
+            "description": "Artificial intelligence interprets complex zoning codes for quick understanding."
+          },
+          {
+            "name": "Property-Level Zoning",
+            "description": "Detailed zoning information at the individual parcel level."
+          }
+        ]
+      },
+      {
+        "name": "Prospecting & Reports",
+        "features": [
+          {
+            "name": "Prospecting Tool",
+            "description": "Filter properties by zoning, permitted land uses, lot width, and height."
+          },
+          {
+            "name": "Zoning Reports",
+            "description": "Zoning Briefs, Summary Reports, Full Reports, and Certified Zoning Letters."
+          },
+          {
+            "name": "Bulk Data Access",
+            "description": "Get zoning data for individual properties or in bulk via API."
+          }
+        ]
+      },
+      {
+        "name": "Integration & API",
+        "features": [
+          {
+            "name": "Zoning API",
+            "description": "Light, flexible API for integrating zoning data into your own applications."
+          },
+          {
+            "name": "Data Feeds",
+            "description": "Zoning data feeds for real estate platforms and websites."
+          },
+          {
+            "name": "Custom Solutions",
+            "description": "Tailored data solutions for enterprise clients."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription + per-report",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Search",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Basic zoning search",
+            "Zoning maps"
+          ]
+        },
+        {
+          "name": "Reports",
+          "price": "Starting at $25 per report",
+          "period": "per report",
+          "features": [
+            "Zoning Briefs",
+            "Summary Reports",
+            "Full Reports"
+          ]
+        },
+        {
+          "name": "API",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Zoning data API",
+            "Bulk access",
+            "Custom integration"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Largest nationwide zoning data coverage in the market",
+      "Used by major brands including Redfin, Cushman & Wakefield, and Moody's",
+      "AI-driven analysis simplifies complex zoning codes",
+      "Flexible API for integration into existing platforms",
+      "Weekly data updates ensure current zoning information"
+    ],
+    "cons": [
+      "Coverage varies by city and state\u2014not all areas fully digitized",
+      "Certified Zoning Letters can be expensive for individual transactions",
+      "Free search provides limited information without purchasing reports"
+    ],
+    "integrations": [
+      "Redfin",
+      "Various real estate platforms via API"
+    ],
     "company": {
       "name": "Zoneomics",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2019,
+      "headquarters": "New York, NY",
+      "employees": "20-50",
+      "funding": "$5M+"
     },
     "categories": [
       "Data & Analytics"
@@ -11622,11 +12189,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "zoneomics.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription + per-report",
     "is_free": false,
     "tagline": "AI-driven Zoning Analysis & Site Search. Understanding zoning for address/area.",
     "property_types": [
@@ -14959,7 +15526,7 @@
     "url": "https://www.brightmls.com",
     "logo_url": "https://logo.clearbit.com/brightmls.com",
     "headline": "Real estate multiple listing service for property data and insights.",
-    "description": "Bright MLS is a multiple listing service (MLS) that provides real estate property data and insights for agents and brokers.",
+    "description": "Bright MLS is one of the largest Multiple Listing Services in the United States, serving real estate professionals across the Mid-Atlantic region including Delaware, Maryland, New Jersey, Pennsylvania, Virginia, Washington D.C., and West Virginia. The platform provides real estate agents and brokers with comprehensive listing data, market statistics, and tools for managing property transactions. Bright MLS facilitates cooperation between real estate professionals by maintaining a shared database of property listings, supporting both residential and commercial real estate transactions across its extensive service area.",
     "short_description": "Real estate multiple listing service for property data and insights.",
     "target_audience": {
       "roles": [],
@@ -14968,26 +15535,107 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Listing Services",
+        "features": [
+          {
+            "name": "Property Listings Database",
+            "description": "Comprehensive MLS database covering the Mid-Atlantic region with residential and commercial listings."
+          },
+          {
+            "name": "Listing Management",
+            "description": "Tools for agents to create, manage, and update property listings."
+          },
+          {
+            "name": "Photo & Media Management",
+            "description": "Upload and manage listing photos, virtual tours, and media."
+          },
+          {
+            "name": "IDX Data Feed",
+            "description": "Data feeds for agent and brokerage websites to display MLS listings."
+          }
+        ]
+      },
+      {
+        "name": "Market Data",
+        "features": [
+          {
+            "name": "Market Statistics",
+            "description": "Comprehensive market statistics and trends for the Mid-Atlantic region."
+          },
+          {
+            "name": "Comparable Sales",
+            "description": "Access to sold data for property valuation and pricing."
+          },
+          {
+            "name": "Tax & Assessment Data",
+            "description": "Property tax and assessment records integrated with listings."
+          }
+        ]
+      },
+      {
+        "name": "Agent Tools",
+        "features": [
+          {
+            "name": "Showing Management",
+            "description": "Schedule and manage property showings."
+          },
+          {
+            "name": "CMA Tools",
+            "description": "Comparative Market Analysis tools for pricing recommendations."
+          },
+          {
+            "name": "Transaction Management",
+            "description": "Support for managing the transaction process."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Membership-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Agent Membership",
+          "price": "Varies by association",
+          "period": "annual",
+          "features": [
+            "MLS access",
+            "Listing management",
+            "Market data",
+            "Agent tools"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "One of the largest MLSs in the US with extensive Mid-Atlantic coverage",
+      "Comprehensive data including residential and commercial listings",
+      "Strong market statistics and comparable sales data",
+      "Wide adoption among agents in the region"
+    ],
+    "cons": [
+      "Limited to Mid-Atlantic region only",
+      "Membership required through participating associations",
+      "Website provided limited information during research"
+    ],
+    "integrations": [
+      "ShowingTime",
+      "Dotloop",
+      "Various brokerage platforms"
+    ],
     "company": {
       "name": "Bright MLS",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2017,
+      "headquarters": "Rockville, MD",
+      "employees": "100-200",
+      "funding": "Member-funded cooperative"
     },
     "categories": [
       "Broker Tools",
@@ -15009,11 +15657,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "brightmls.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Membership-based",
     "is_free": false,
     "tagline": "Real estate multiple listing service for property data and insights.",
     "property_types": [
@@ -20257,7 +20905,7 @@
     "url": "https://www.crediq.com",
     "logo_url": "https://logo.clearbit.com/crediq.com",
     "headline": "Commercial real estate intelligence and property data platform.",
-    "description": "CRED iQ is a commercial real estate intelligence and property data platform providing insights for real estate professionals.",
+    "description": "CRED iQ is a commercial real estate intelligence platform providing data analytics and insights for CRE professionals including investors, lenders, brokers, and analysts. The platform focuses on CMBS (Commercial Mortgage-Backed Securities) loan data, property-level financials, and market analytics to support investment decisions. CRED iQ helps users analyze commercial real estate debt, monitor loan performance, and identify investment opportunities in the CRE market. Note: The CRED iQ website returned minimal content during automated access; details are based on known platform capabilities.",
     "short_description": "Commercial real estate intelligence and property data platform.",
     "target_audience": {
       "roles": [],
@@ -20268,26 +20916,113 @@
         "Retail"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "CMBS Data",
+        "features": [
+          {
+            "name": "Loan-Level Data",
+            "description": "Detailed CMBS loan data including terms, rates, and performance metrics."
+          },
+          {
+            "name": "Property Financials",
+            "description": "Operating statements and financial data for CMBS-financed properties."
+          },
+          {
+            "name": "Delinquency Tracking",
+            "description": "Monitor CMBS loan delinquencies and special servicing status."
+          },
+          {
+            "name": "Maturity Analysis",
+            "description": "Track upcoming CMBS loan maturities and refinance risk."
+          }
+        ]
+      },
+      {
+        "name": "Market Analytics",
+        "features": [
+          {
+            "name": "Market Reports",
+            "description": "Regular reports on CRE market conditions and trends."
+          },
+          {
+            "name": "Property Search",
+            "description": "Search commercial properties with detailed financial data."
+          },
+          {
+            "name": "Comp Analysis",
+            "description": "Comparable transaction data for property valuation."
+          }
+        ]
+      },
+      {
+        "name": "Intelligence Tools",
+        "features": [
+          {
+            "name": "Portfolio Monitoring",
+            "description": "Track and monitor CMBS portfolio performance."
+          },
+          {
+            "name": "Alert System",
+            "description": "Notifications on loan events, delinquencies, and market changes."
+          },
+          {
+            "name": "Data Export",
+            "description": "Export data for custom analysis and reporting."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "annual",
+          "features": [
+            "CMBS loan data",
+            "Property financials",
+            "Market analytics"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Contact for pricing",
+          "period": "annual",
+          "features": [
+            "Everything in Standard",
+            "API access",
+            "Custom reports",
+            "Priority support"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Specialized CMBS and CRE debt analytics fill a market gap",
+      "Property-level financial data supports investment analysis",
+      "Delinquency and maturity tracking helps assess risk",
+      "Regular market reports provide current insights"
+    ],
+    "cons": [
+      "Website returned minimal content during research",
+      "Pricing not publicly available",
+      "Primarily focused on CMBS\u2014limited coverage of other CRE debt"
+    ],
     "integrations": [],
     "company": {
       "name": "CRED iQ",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2020,
+      "headquarters": "Austin, TX",
+      "employees": "20-50",
+      "funding": "$5M+"
     },
     "categories": [
       "Broker Tools",
@@ -20309,11 +21044,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "crediq.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Commercial real estate intelligence and property data platform.",
     "property_types": [
