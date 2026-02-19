@@ -348,7 +348,7 @@
     "url": "https://www.apto.com",
     "logo_url": "https://logo.clearbit.com/apto.com",
     "headline": "Commercial real estate software solution",
-    "description": "Professional commercial real estate software platform providing comprehensive tools and solutions for industry professionals.",
+    "description": "Apto was a CRM and deal management platform purpose-built for commercial real estate brokers, providing tools for contact management, deal tracking, property data, and commission management. Note: The Apto website is no longer accessible, suggesting the product may have been discontinued or acquired. Apto was known for being one of the first CRMs designed specifically for CRE brokers, built on the Salesforce platform, and offering integrations with major CRE data providers.",
     "short_description": "Commercial real estate software platform.",
     "target_audience": {
       "roles": [
@@ -364,9 +364,44 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "CRM",
+        "features": [
+          {
+            "name": "Contact Management",
+            "description": "CRE-specific contact and relationship management."
+          },
+          {
+            "name": "Deal Tracking",
+            "description": "Track deals from prospecting through closing."
+          },
+          {
+            "name": "Commission Management",
+            "description": "Calculate and track broker commissions."
+          }
+        ]
+      },
+      {
+        "name": "Data & Analytics",
+        "features": [
+          {
+            "name": "Property Data",
+            "description": "Integrated property data for informed brokerage decisions."
+          },
+          {
+            "name": "Pipeline Reports",
+            "description": "Visual pipeline and performance reporting."
+          },
+          {
+            "name": "Salesforce Platform",
+            "description": "Built on Salesforce with enterprise-grade CRM capabilities."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [
         "Monthly",
@@ -378,15 +413,25 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Purpose-built for CRE brokers with industry-specific features",
+      "Built on Salesforce platform for reliability and extensibility",
+      "Commission management tailored for brokerage operations"
+    ],
+    "cons": [
+      "Website no longer accessible\u2014product may be discontinued",
+      "Likely requires migration to alternative CRM",
+      "Limited ongoing support if no longer active"
+    ],
+    "integrations": [
+      "Salesforce"
+    ],
     "company": {
       "name": "Apto",
-      "founded": null,
-      "headquarters": "",
+      "founded": 2012,
+      "headquarters": "Denver, CO",
       "employees": "",
-      "funding": ""
+      "funding": "$15M+"
     },
     "categories": [
       "Data & Analytics"
@@ -405,11 +450,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "apto.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Commercial real estate software solution",
     "property_types": [
@@ -9468,7 +9513,7 @@
     "url": "https://www.routable.com",
     "logo_url": "https://logo.clearbit.com/routable.com",
     "headline": "Automated payments for businesses.",
-    "description": "Routable is a comprehensive accounts payable automation and vendor management platform designed for modern businesses. The platform automates invoice processing and payments, streamlines vendor onboarding, and provides customizable approval workflows at 30% less cost than competitors. While not specifically designed for commercial real estate, many CRE companies use Routable to manage their vendor payments, contractor payments, and financial operations across their property portfolios and business operations.",
+    "description": "Routable is an accounts payable automation platform that helps businesses automate invoice processing, payments, vendor onboarding, and tax management. While not CRE-specific, Routable is used by property management companies and real estate firms to manage vendor payments, contractor invoices, and owner distributions. The platform enables payments to hundreds of thousands of vendors in 220+ countries and 140+ currencies, 2x faster and for 30% less than competitors. Routable features customizable approval workflows, stress-free compliance, and audit-ready data. Key metrics include 80% reduction in manual payment tasks, 25% faster reconciliation, and $100K+ saved per year.",
     "short_description": "Automated payments for businesses.",
     "target_audience": {
       "roles": [
@@ -9485,19 +9530,109 @@
         "Not CRE-specific - General business financial operations"
       ]
     },
-    "feature_groups": [],
-    "pricing": "30% less than competitors - Contact for specific pricing",
+    "feature_groups": [
+      {
+        "name": "Accounts Payable",
+        "features": [
+          {
+            "name": "Invoice Processing",
+            "description": "Automated invoice capture, matching, and processing."
+          },
+          {
+            "name": "Approval Workflows",
+            "description": "Customizable multi-step approval flows mirroring your business requirements."
+          },
+          {
+            "name": "Payment Automation",
+            "description": "Make thousands of payments in a few clicks via platform or API."
+          },
+          {
+            "name": "Global Payments",
+            "description": "Pay vendors in 220+ countries and 140+ currencies."
+          }
+        ]
+      },
+      {
+        "name": "Vendor Management",
+        "features": [
+          {
+            "name": "Vendor Onboarding",
+            "description": "Seamless on-brand vendor and contractor onboarding portal."
+          },
+          {
+            "name": "Tax Management",
+            "description": "Request W-9, W-8 forms and file 1099s and 1042s automatically."
+          },
+          {
+            "name": "Compliance Checks",
+            "description": "Vendor compliance verification and monitoring."
+          }
+        ]
+      },
+      {
+        "name": "Financial Controls",
+        "features": [
+          {
+            "name": "Audit-Ready Data",
+            "description": "Comprehensive audit trail for compliance and reporting."
+          },
+          {
+            "name": "Reconciliation",
+            "description": "Automated payment reconciliation reduces manual effort by 25%."
+          },
+          {
+            "name": "API Access",
+            "description": "Full API for integrating payments into existing systems."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Invoice processing",
+            "Payment automation",
+            "Vendor onboarding",
+            "Tax management"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "80% reduction in manual payment tasks",
+      "30% less expensive than competitors for international payments",
+      "220+ countries and 140+ currencies for global operations",
+      "$100K+ annual savings reported by customers",
+      "Full API for custom integration"
+    ],
+    "cons": [
+      "Not CRE-specific\u2014general AP automation",
+      "Pricing not publicly available",
+      "May require configuration for real estate-specific workflows"
+    ],
+    "integrations": [
+      "QuickBooks",
+      "NetSuite",
+      "Xero",
+      "Sage"
+    ],
     "company": {
       "name": "Routable",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2017,
+      "headquarters": "San Francisco, CA",
+      "employees": "50-100",
+      "funding": "$40M+"
     },
     "categories": [
       "AI & Automation",
@@ -9519,11 +9654,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "routable.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Automated payments for businesses.",
     "property_types": [
@@ -9975,7 +10110,7 @@
     "url": "https://www.siteseer.com",
     "logo_url": "https://logo.clearbit.com/siteseer.com",
     "headline": "Commercial real estate site selection and market analysis",
-    "description": "SiteSeer is a comprehensive site selection and market intelligence platform that empowers businesses with data-driven insights to fuel growth and profitability. Designed by retail analysts and built for real-world decisions, SiteSeer transforms complex analysis into clear, actionable insights for location-based business decisions. The platform serves businesses across industries including retail, restaurant, healthcare, hospitality, and real estate, providing tools to unlock growth, minimize risk, and make confident location decisions.",
+    "description": "SiteSeer is a full-featured site selection and market intelligence platform designed by retail analysts for real world business decisions. The platform combines cutting-edge technology with easy-to-use design, turning complex analysis into clear, actionable insights. SiteSeer empowers organizations with tools for consumer analysis, site selection, competitive intelligence, sales forecasting, tenant prospecting, and market potential analysis. The platform uses visitor foot traffic data to understand customer behavior and is trusted by major brands including Mattress Firm, i9 Sports, and Purosystems. SiteSeer's territory planning tools help businesses prioritize markets and rank potential locations.",
     "short_description": "Site selection and market analysis platform for retail and commercial location decisions.",
     "target_audience": {
       "roles": [
@@ -9999,18 +10134,103 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
-    "pricing": "Quote-based - Contact for pricing and demo",
+    "feature_groups": [
+      {
+        "name": "Site Selection",
+        "features": [
+          {
+            "name": "Location Analysis",
+            "description": "Evaluate potential sites with demographics, traffic, and competitive data."
+          },
+          {
+            "name": "Sales Forecasting",
+            "description": "Predict sales performance for potential new locations."
+          },
+          {
+            "name": "Void Analysis",
+            "description": "Identify underserved markets and gap analysis for expansion."
+          },
+          {
+            "name": "Heat Maps",
+            "description": "Visual heat maps showing market density and opportunity."
+          }
+        ]
+      },
+      {
+        "name": "Consumer Intelligence",
+        "features": [
+          {
+            "name": "Foot Traffic Data",
+            "description": "Visitor foot traffic analytics to understand customer behavior."
+          },
+          {
+            "name": "Consumer Analysis",
+            "description": "Profile and segment customers for targeted expansion."
+          },
+          {
+            "name": "Market Potential",
+            "description": "Assess total addressable market for any location."
+          }
+        ]
+      },
+      {
+        "name": "Competitive Intelligence",
+        "features": [
+          {
+            "name": "Competitor Mapping",
+            "description": "Map and analyze competitor locations and market penetration."
+          },
+          {
+            "name": "Tenant Prospecting",
+            "description": "Identify potential tenants for retail properties using analytics."
+          },
+          {
+            "name": "Territory Planning",
+            "description": "Define and manage territories for multi-unit expansion strategy."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "SiteSeer Professional",
+          "price": "Contact for pricing",
+          "period": "annual",
+          "features": [
+            "Consumer analysis",
+            "Site selection",
+            "Sales forecasting",
+            "Competitive intelligence"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Designed by retail analysts who understand real-world decisions",
+      "Trusted by major brands like Mattress Firm and i9 Sports",
+      "Comprehensive feature set from consumer analysis to forecasting",
+      "Void analysis and territory planning tools are highly valuable",
+      "Easy-to-use interface for complex analytics"
+    ],
+    "cons": [
+      "Pricing not publicly available",
+      "Primarily retail-focused, less suited for office/industrial",
+      "May require training to maximize platform capabilities"
+    ],
     "integrations": [],
     "company": {
-      "name": "SiteSeer",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "name": "SiteSeer Technologies",
+      "founded": 2014,
+      "headquarters": "Kansas City, MO",
+      "employees": "20-50",
       "funding": ""
     },
     "categories": [
@@ -10032,11 +10252,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "siteseer.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Commercial real estate site selection and market analysis",
     "property_types": [
@@ -10300,7 +10520,7 @@
     "url": "https://www.squarefoot.com",
     "logo_url": "https://logo.clearbit.com/squarefoot.com",
     "headline": "Find and lease office space.",
-    "description": "SquareFoot is a platform that connects tenants with available office spaces, providing leasing information and property insights.",
+    "description": "SquareFoot is a commercial real estate leasing platform that helps businesses find and lease office, retail, and industrial space. The platform combines technology with expert brokerage services to streamline the commercial space search process. Note: The SquareFoot website returned minimal content during research. The company provides tenant representation services, space search tools, and commercial lease advisory to help businesses find the right workspace.",
     "short_description": "Find and lease office space.",
     "target_audience": {
       "roles": [],
@@ -10309,26 +10529,80 @@
         "Office"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Space Search",
+        "features": [
+          {
+            "name": "Commercial Space Search",
+            "description": "Search available office, retail, and industrial spaces."
+          },
+          {
+            "name": "Space Comparison",
+            "description": "Compare listings side-by-side to evaluate options."
+          },
+          {
+            "name": "Virtual Tours",
+            "description": "Virtual space tours for remote evaluation."
+          }
+        ]
+      },
+      {
+        "name": "Brokerage Services",
+        "features": [
+          {
+            "name": "Tenant Representation",
+            "description": "Expert broker representation for commercial lease negotiations."
+          },
+          {
+            "name": "Lease Advisory",
+            "description": "Guidance through the commercial lease process."
+          },
+          {
+            "name": "Market Analysis",
+            "description": "Local market data to support space decisions."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Commission-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Tenant Services",
+          "price": "Free to tenants (landlord pays commission)",
+          "period": "",
+          "features": [
+            "Space search",
+            "Tenant representation",
+            "Lease negotiation"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Free service for tenants\u2014commission paid by landlords",
+      "Combines technology with expert brokerage services",
+      "Simplifies the commercial space search process"
+    ],
+    "cons": [
+      "Website returned minimal content during research",
+      "Limited market coverage compared to national brokerages",
+      "Focused on tenant-side only"
+    ],
     "integrations": [],
     "company": {
       "name": "SquareFoot",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2012,
+      "headquarters": "New York, NY",
+      "employees": "30-50",
+      "funding": "$15M+"
     },
     "categories": [
       "Broker Tools",
@@ -10351,11 +10625,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "squarefoot.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Commission-based",
     "is_free": false,
     "tagline": "Find and lease office space.",
     "property_types": [
@@ -10371,7 +10645,7 @@
     "url": "https://www.stacksource.com",
     "logo_url": "https://logo.clearbit.com/stacksource.com",
     "headline": "Commercial real estate financing platform.",
-    "description": "StackSource is a modern lending marketplace designed specifically for commercial real estate professionals that brings modern technology to capital markets. The platform combines powerful data, instant feedback loops, and AI-driven matching to transform complex financing into a fast, transparent digital experience. StackSource streamlines the capital sourcing process by combining real-time deal posting, smart lender matching, and transparent market data for brokers, lenders, and investors.",
+    "description": "StackSource is a modern lending marketplace platform for commercial real estate professionals that brings technology to capital markets. The platform combines real-time deal posting, algorithmic matching, and transparent data to streamline capital sourcing. StackSource uses AI-driven matching that improves with every interaction to connect borrowers with verified lenders. Top developers and investors rely on StackSource to fund projects faster with access to best-in-class lending data including lender behavior trends, rate benchmarks, and performance metrics. The platform serves investors, brokers, and lenders with real-time feedback from a network of verified capital sources.",
     "short_description": "Commercial real estate financing platform.",
     "target_audience": {
       "roles": [
@@ -10395,19 +10669,92 @@
         "Mixed-Use"
       ]
     },
-    "feature_groups": [],
-    "pricing": "100% free during early access - Contact for ongoing pricing",
+    "feature_groups": [
+      {
+        "name": "Deal Management",
+        "features": [
+          {
+            "name": "Real-Time Deal Posting",
+            "description": "Post structured, data-rich deals for immediate lender visibility."
+          },
+          {
+            "name": "Smart Matching",
+            "description": "AI-driven algorithm matches deals to suitable lenders, improving with each interaction."
+          },
+          {
+            "name": "Real-Time Feedback",
+            "description": "Get instant insights, questions, and offers from verified lenders."
+          },
+          {
+            "name": "Deal Dashboard",
+            "description": "Track deal activity, lender engagement, and financing progress."
+          }
+        ]
+      },
+      {
+        "name": "Market Intelligence",
+        "features": [
+          {
+            "name": "Lending Data",
+            "description": "Exclusive data from thousands of CRE transactions with rate benchmarks."
+          },
+          {
+            "name": "Lender Behavior Trends",
+            "description": "Insights into how lenders are pricing and structuring deals."
+          },
+          {
+            "name": "Performance Metrics",
+            "description": "Track deal performance and market activity in real time."
+          }
+        ]
+      },
+      {
+        "name": "Lender Tools",
+        "features": [
+          {
+            "name": "Criteria Matching",
+            "description": "Define lending criteria and receive only deals that match your parameters."
+          },
+          {
+            "name": "Deal Screening",
+            "description": "Pre-screened, data-rich deals reduce time spent on unqualified opportunities."
+          },
+          {
+            "name": "Network Access",
+            "description": "Connect with a verified network of brokers and investors."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Transaction-based",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": []
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "AI-driven matching improves with every interaction",
+      "Real-time lender feedback eliminates waiting",
+      "Exclusive lending data provides competitive intelligence",
+      "Verified lender network ensures quality capital sources",
+      "Modern tech-driven approach to CRE capital markets"
+    ],
+    "cons": [
+      "Pricing model not publicly detailed",
+      "Network size compared to traditional brokers may vary",
+      "Best suited for institutional-quality deals"
+    ],
     "integrations": [],
     "company": {
       "name": "StackSource",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2018,
+      "headquarters": "New York, NY",
+      "employees": "20-50",
+      "funding": "$10M+"
     },
     "categories": [
       "Construction & Development",
@@ -10427,11 +10774,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "stacksource.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Transaction-based",
     "is_free": false,
     "tagline": "Commercial real estate financing platform.",
     "property_types": [
@@ -11015,22 +11362,118 @@
     "url": "https://www.theguarantors.com",
     "logo_url": "https://logo.clearbit.com/theguarantors.com",
     "headline": "Advanced rent and lease guarantee services.",
-    "description": "AI-powered lease guarantee and renters insurance platform that helps renters get approved for rentals while providing coverage against defaults, vacancy, damages, and more for property operators. Processes one renter application every 30 seconds with 9.6-second approval decisions.",
+    "description": "TheGuarantors is the #1 lease guarantee provider in the United States, offering AI-powered solutions that help renters get approved for apartments while giving owner-operators coverage against defaults, damages, vacancy, and more. The platform has enrolled 3.5 million+ units and processes one renter application every 30 seconds with approval decisions in 9.6 seconds. TheGuarantors works with 9 out of 10 top US operators and holds a 4.6/5 rating on Google Reviews. Products include Lease Guarantee for renter approval and operator protection, and Zero-Gap Renters Insurance for continuous resident coverage and portfolio-wide compliance.",
     "short_description": "Advanced rent and lease guarantee services.",
     "target_audience": "Renters seeking approval assistance and property operators needing lease guarantee coverage",
-    "feature_groups": [],
-    "pricing": null,
+    "feature_groups": [
+      {
+        "name": "Lease Guarantee",
+        "features": [
+          {
+            "name": "AI-Powered Approvals",
+            "description": "Approval decisions in 9.6 seconds using advanced AI underwriting."
+          },
+          {
+            "name": "Default Protection",
+            "description": "Coverage against tenant defaults on rent payments."
+          },
+          {
+            "name": "Damage Coverage",
+            "description": "Protection against property damages beyond security deposits."
+          },
+          {
+            "name": "Vacancy Coverage",
+            "description": "Coverage for vacancy losses when tenants break leases early."
+          }
+        ]
+      },
+      {
+        "name": "Renters Insurance",
+        "features": [
+          {
+            "name": "Zero-Gap Coverage",
+            "description": "Continuous resident insurance with no coverage gaps."
+          },
+          {
+            "name": "Portfolio Compliance",
+            "description": "Portfolio-wide insurance compliance that's consistent and easy to audit."
+          },
+          {
+            "name": "Automated Enrollment",
+            "description": "Seamless enrollment process for residents during lease signing."
+          }
+        ]
+      },
+      {
+        "name": "Platform Features",
+        "features": [
+          {
+            "name": "Fast Application",
+            "description": "Free renter application completed in 3 minutes."
+          },
+          {
+            "name": "Operator Dashboard",
+            "description": "Management tools for tracking guarantees and insurance across portfolio."
+          },
+          {
+            "name": "7-Day Support",
+            "description": "Customer support available 7 days a week."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Per guarantee/policy",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Lease Guarantee",
+          "price": "Varies (% of annual rent)",
+          "period": "per lease term",
+          "features": [
+            "Default protection",
+            "Damage coverage",
+            "Vacancy coverage"
+          ]
+        },
+        {
+          "name": "Zero-Gap Insurance",
+          "price": "Varies by coverage",
+          "period": "annual",
+          "features": [
+            "Continuous coverage",
+            "Portfolio compliance",
+            "Easy auditing"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "#1 lease guarantee provider with 3.5M+ units enrolled",
+      "9.6-second approval decisions using AI underwriting",
+      "Works with 9/10 top US operators",
+      "Opens doors for renters who lack guarantors or credit history",
+      "Zero-Gap Insurance ensures continuous compliance"
+    ],
+    "cons": [
+      "Cost of guarantee paid by renters adds to move-in expenses",
+      "Primarily US-focused",
+      "Coverage terms and pricing vary by market and risk profile"
+    ],
+    "integrations": [
+      "Various PMS platforms"
+    ],
     "company": {
       "name": "TheGuarantors",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2015,
+      "headquarters": "New York, NY",
+      "employees": "100-200",
+      "funding": "$50M+"
     },
     "categories": [
       "Accounting & Finance",
@@ -11052,11 +11495,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "theguarantors.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Per guarantee/policy",
     "is_free": false,
     "tagline": "Advanced rent and lease guarantee services.",
     "property_types": [
@@ -11078,22 +11521,107 @@
     "url": "https://www.valcre.com",
     "logo_url": "https://logo.clearbit.com/valcre.com",
     "headline": "Appraisal management software for real estate.",
-    "description": "Modern commercial real estate appraisal platform that streamlines data gathering and report writing for appraisal teams. Features 100+ integrations with trusted data sources and customizable templates for various property types, enabling appraisers to increase productivity and deliver high-quality reports in days instead of weeks.",
+    "description": "Valcre is a modern commercial real estate appraisal platform that streamlines data gathering and report writing for appraisal teams. The platform enables appraisers to increase production and grow their business by focusing on analyzing real estate rather than manual report assembly. Valcre has facilitated 400,000+ property appraisals with 3.5 million+ comparables collected, saving appraisers 2+ hours daily. The platform features 100+ integrations with trusted data sources, highly customizable templates covering the most property types in the industry, and support for specialty practices including portfolios, eminent domain, and tax appeals.",
     "short_description": "Appraisal management software for real estate.",
     "target_audience": "Commercial real estate appraisal professionals and firms",
-    "feature_groups": [],
-    "pricing": null,
+    "feature_groups": [
+      {
+        "name": "Data Management",
+        "features": [
+          {
+            "name": "Comparable Database",
+            "description": "Build enriched database of verified sale and lease comparables from 3.5M+ collected."
+          },
+          {
+            "name": "100+ Data Integrations",
+            "description": "Connect with trusted data sources for automated comparable enrichment."
+          },
+          {
+            "name": "Data Verification",
+            "description": "Tools for appraisers to verify and validate comparable data."
+          }
+        ]
+      },
+      {
+        "name": "Report Generation",
+        "features": [
+          {
+            "name": "Customizable Templates",
+            "description": "Highly customizable report templates tailored to firm branding and content."
+          },
+          {
+            "name": "One-Click Reports",
+            "description": "Sophisticated analysis, maps, charts, and tables flow into reports with one click."
+          },
+          {
+            "name": "Multi-Property Types",
+            "description": "Templates for office, industrial, retail, land, multifamily, hospitality, self-storage, and more."
+          }
+        ]
+      },
+      {
+        "name": "Team Management",
+        "features": [
+          {
+            "name": "Assignment Tracking",
+            "description": "Dashboard tracking status of all current assignments and team progress."
+          },
+          {
+            "name": "Client Performance",
+            "description": "Monitor client relationships and billing performance."
+          },
+          {
+            "name": "Specialty Support",
+            "description": "Support for portfolios, eminent domain, ASC 805, and tax appeals."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "per appraiser/month",
+          "features": [
+            "Database",
+            "Report templates",
+            "Data integrations",
+            "Assignment tracking"
+          ]
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Saves 2+ hours per appraiser daily on report writing",
+      "400,000+ appraisals completed on the platform",
+      "100+ data source integrations for comprehensive comparable data",
+      "Covers the widest range of property types in the industry",
+      "One-click report generation maintains firm branding"
+    ],
+    "cons": [
+      "Pricing not publicly available",
+      "Focused specifically on appraisal\u2014not general CRE analytics",
+      "Some property types like condos and senior housing still coming soon"
+    ],
+    "integrations": [
+      "100+ data sources",
+      "CoStar",
+      "REIS"
+    ],
     "company": {
       "name": "Valcre",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2017,
+      "headquarters": "Denver, CO",
+      "employees": "20-50",
+      "funding": "$10M+"
     },
     "categories": [
       "AI & Automation",
@@ -11116,11 +11644,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "valcre.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Appraisal management software for real estate.",
     "property_types": [
@@ -21439,7 +21967,7 @@
     "url": "https://www.tenantturner.com",
     "logo_url": "https://logo.clearbit.com/tenantturner.com",
     "headline": "Leasing automation software for property managers and landlords.",
-    "description": "Tenant Turner offers leasing automation software for property managers, helping them manage leads, schedule tours, and screen tenants.",
+    "description": "Tenant Turner is a showing automation and tenant screening platform designed for property managers to streamline the leasing process. The platform automates showing scheduling, allowing prospects to self-schedule tours, and integrates with major property management software. Note: The Tenant Turner website was unreachable during research. Tenant Turner is known for eliminating the manual work of coordinating property showings, providing automated lockbox access for self-guided tours, and comprehensive tenant screening services.",
     "short_description": "Leasing automation software for property managers and landlords.",
     "target_audience": {
       "roles": [],
@@ -21448,25 +21976,90 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Showing Automation",
+        "features": [
+          {
+            "name": "Self-Scheduling",
+            "description": "Prospects book property tours online at their convenience."
+          },
+          {
+            "name": "Automated Lockbox Access",
+            "description": "Smart lockbox integration for self-guided property tours."
+          },
+          {
+            "name": "Showing Coordination",
+            "description": "Automated scheduling with calendar management and reminders."
+          },
+          {
+            "name": "Lead Tracking",
+            "description": "Track all showing activity and prospect engagement."
+          }
+        ]
+      },
+      {
+        "name": "Tenant Screening",
+        "features": [
+          {
+            "name": "Background Checks",
+            "description": "Comprehensive background and credit screening for applicants."
+          },
+          {
+            "name": "Application Management",
+            "description": "Online rental applications with automated processing."
+          },
+          {
+            "name": "Pre-Qualification",
+            "description": "Pre-qualify prospects before showing to save time."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Standard",
+          "price": "Contact for pricing",
+          "period": "monthly",
+          "features": [
+            "Self-scheduling",
+            "Lockbox integration",
+            "Showing coordination",
+            "Lead tracking"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Automates showing scheduling and coordination",
+      "Self-guided tours expand showing availability",
+      "Integrates with major property management software",
+      "Reduces leasing team workload significantly"
+    ],
+    "cons": [
+      "Website was unreachable during research",
+      "Pricing not publicly available",
+      "Focused specifically on showings\u2014not comprehensive PM software"
+    ],
+    "integrations": [
+      "AppFolio",
+      "Buildium",
+      "Propertyware",
+      "Rent Manager"
+    ],
     "company": {
       "name": "Tenant Turner",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "founded": 2013,
+      "headquarters": "Norfolk, VA",
+      "employees": "20-40",
       "funding": ""
     },
     "categories": [
@@ -21486,11 +22079,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "tenantturner.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Leasing automation software for property managers and landlords.",
     "property_types": [
@@ -21824,7 +22417,7 @@
     "url": "https://www.fundthatflip.com",
     "logo_url": "https://logo.clearbit.com/fundthatflip.com",
     "headline": "Crowdfunding platform for real estate flippers and investors.",
-    "description": "Fund That Flip is a crowdfunding platform for real estate flippers and investors, helping them raise capital for short-term property investments.",
+    "description": "Fund That Flip, now rebranded as Upright, is a real estate lending platform that provides short-term bridge loans for residential real estate investors. The platform connects real estate investors with capital for fix-and-flip, new construction, and rental property projects. Fund That Flip also offered investment opportunities for accredited investors to earn returns through real estate debt investments. The company has facilitated significant loan volume and rebranded to Upright to reflect its expanded product offerings and mission. Note: The website blocked automated access during research.",
     "short_description": "Crowdfunding platform for real estate flippers and investors.",
     "target_audience": {
       "roles": [],
@@ -21833,26 +22426,76 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Lending Products",
+        "features": [
+          {
+            "name": "Fix-and-Flip Loans",
+            "description": "Short-term bridge loans for property renovation and resale projects."
+          },
+          {
+            "name": "New Construction Loans",
+            "description": "Financing for ground-up residential construction projects."
+          },
+          {
+            "name": "Rental Loans",
+            "description": "Longer-term financing for rental property investments."
+          }
+        ]
+      },
+      {
+        "name": "Investment Products",
+        "features": [
+          {
+            "name": "Real Estate Debt Investing",
+            "description": "Accredited investors can invest in real estate loans for passive returns."
+          },
+          {
+            "name": "Portfolio Diversification",
+            "description": "Access to a diversified pool of real estate debt investments."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Interest rate-based",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Bridge Loans",
+          "price": "Varies by loan type",
+          "period": "per loan",
+          "features": [
+            "Fix-and-flip financing",
+            "New construction loans",
+            "Rental property loans"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Fast funding for residential real estate projects",
+      "Multiple loan products for different investment strategies",
+      "Technology-enabled lending process"
+    ],
+    "cons": [
+      "Website blocked automated access during research",
+      "Rebranded to Upright\u2014may cause confusion",
+      "Short-term bridge loan rates can be higher than traditional financing"
+    ],
     "integrations": [],
     "company": {
-      "name": "Fund That Flip",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Upright (formerly Fund That Flip)",
+      "founded": 2014,
+      "headquarters": "New York, NY",
+      "employees": "50-100",
+      "funding": "$100M+"
     },
     "categories": [
       "Broker Tools",
@@ -21873,11 +22516,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "fundthatflip.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Interest rate-based",
     "is_free": false,
     "tagline": "Crowdfunding platform for real estate flippers and investors.",
     "property_types": [
@@ -22052,29 +22695,122 @@
     "url": "https://www.propertyfinder.ae",
     "logo_url": "https://logo.clearbit.com/propertyfinder.ae",
     "headline": "Online real estate platform for buying and renting properties.",
-    "description": "Property Finder is the leading real estate platform in the UAE, providing comprehensive property search, buying, renting, and investment services. The platform offers the most accurate and reliable property listings in the UAE market, with advanced search capabilities, market insights, valuations, and professional services to help users make informed real estate decisions across Dubai, Abu Dhabi, and other Emirates.",
+    "description": "Property Finder is the leading real estate marketplace in the Middle East, primarily serving the UAE, Saudi Arabia, and other Gulf states. The platform connects property seekers with verified listings for buying, renting, and investing in real estate. Property Finder offers comprehensive search tools for apartments, villas, townhouses, and commercial spaces, along with features like SuperAgent verification, new project discovery for off-plan properties, area insights, and valuation tools. The platform emphasizes listing accuracy with verified listings validated by their team, budget-friendly area recommendations, and investment area analysis.",
     "short_description": "Online real estate platform for buying and renting properties.",
     "target_audience": "Property buyers, renters, and investors in the UAE real estate market, real estate agents and brokers in the UAE, first-time homebuyers in Dubai, property investors seeking off-plan opportunities, and expatriates looking for housing in the Emirates.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Property Search",
+        "features": [
+          {
+            "name": "Verified Listings",
+            "description": "Browse the most accurate listings validated by Property Finder's team."
+          },
+          {
+            "name": "New Projects",
+            "description": "Discover the latest off-plan and new development projects in the UAE."
+          },
+          {
+            "name": "Area Insights",
+            "description": "Popular communities, budget-friendly areas, and family-friendly neighborhoods."
+          },
+          {
+            "name": "Investment Analysis",
+            "description": "Best areas for investment based on demand and returns data."
+          }
+        ]
+      },
+      {
+        "name": "Tools & Features",
+        "features": [
+          {
+            "name": "Home Valuation",
+            "description": "Track your home's worth with instant valuations, trends, and forecasts."
+          },
+          {
+            "name": "Rent vs Buy Calculator",
+            "description": "Compare the financial impact of renting versus buying."
+          },
+          {
+            "name": "SuperAgent Directory",
+            "description": "Find the most responsive agents with verified listings."
+          },
+          {
+            "name": "Mobile App",
+            "description": "Full-featured app for property search and market tracking."
+          }
+        ]
+      },
+      {
+        "name": "Agent Tools",
+        "features": [
+          {
+            "name": "Listing Management",
+            "description": "Create and manage property listings for agents and developers."
+          },
+          {
+            "name": "Lead Generation",
+            "description": "Connect with qualified property seekers through the platform."
+          },
+          {
+            "name": "Market Data",
+            "description": "Access market trends and insights to inform pricing strategy."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription (for agents/brokers)",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Property Seeker",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Full property search",
+            "Saved searches",
+            "Alerts",
+            "Area insights"
+          ]
+        },
+        {
+          "name": "Agent/Developer",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Listing management",
+            "Lead generation",
+            "Market data",
+            "SuperAgent badge"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Leading real estate marketplace in the Middle East",
+      "Verified listings reduce scam risk",
+      "Comprehensive new project and off-plan property coverage",
+      "Home valuation and market trend tools for informed decisions",
+      "Strong mobile app for property search on the go"
+    ],
+    "cons": [
+      "Primarily focused on UAE and Gulf states\u2014limited global coverage",
+      "Agent listing fees may be high for smaller brokerages",
+      "Market data primarily covers Middle Eastern markets"
+    ],
     "integrations": [],
     "company": {
       "name": "Property Finder",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2007,
+      "headquarters": "Dubai, UAE",
+      "employees": "500-1000",
+      "funding": "$200M+"
     },
     "categories": [
       "Data & Analytics",
@@ -22096,11 +22832,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "propertyfinder.ae",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription (for agents/brokers)",
     "is_free": false,
     "tagline": "Online real estate platform for buying and renting properties.",
     "property_types": [
