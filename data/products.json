@@ -11727,7 +11727,7 @@
     "url": "https://www.avail.co/",
     "logo_url": "https://logo.clearbit.com/avail.co",
     "headline": "Simplified property management for landlords.",
-    "description": "Avail provides tools for independent landlords to manage rental properties, offering tenant screening, rent collection, and lease agreements.",
+    "description": "Avail (now part of Realtor.com) is a property management platform designed for DIY landlords to manage their rental properties independently. The platform provides tools for listing vacancies, screening tenants, signing leases, collecting rent, and tracking maintenance\u2014all designed for landlords who prefer hands-on management without hiring a property manager. Note: The Avail website blocked automated access during our research. Avail is known for its user-friendly interface, free tier for basic features, and integration with Realtor.com's ecosystem since its acquisition by Move, Inc.",
     "short_description": "Simplified property management for landlords.",
     "target_audience": {
       "roles": [],
@@ -11736,26 +11736,137 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Marketing & Screening",
+        "features": [
+          {
+            "name": "Rental Listings",
+            "description": "Create and syndicate listings to Avail's rental network and partner sites."
+          },
+          {
+            "name": "Tenant Screening",
+            "description": "TransUnion credit, criminal, and eviction background checks."
+          },
+          {
+            "name": "Online Applications",
+            "description": "Customizable rental applications for prospective tenants."
+          },
+          {
+            "name": "Realtor.com Integration",
+            "description": "Listings syndicated to Realtor.com's rental marketplace."
+          }
+        ]
+      },
+      {
+        "name": "Leasing",
+        "features": [
+          {
+            "name": "State-Specific Leases",
+            "description": "Lawyer-reviewed lease templates customized by state."
+          },
+          {
+            "name": "E-Signatures",
+            "description": "Sign leases electronically with legally-binding signatures."
+          },
+          {
+            "name": "Custom Clauses",
+            "description": "Add custom clauses and addendums to lease agreements."
+          }
+        ]
+      },
+      {
+        "name": "Rent Collection",
+        "features": [
+          {
+            "name": "Online Payments",
+            "description": "Collect rent online via ACH and credit card."
+          },
+          {
+            "name": "Autopay",
+            "description": "Tenants set up automatic recurring payments."
+          },
+          {
+            "name": "Payment Tracking",
+            "description": "Track payment status and history for each tenant."
+          }
+        ]
+      },
+      {
+        "name": "Property Management",
+        "features": [
+          {
+            "name": "Maintenance Tracking",
+            "description": "Track and manage maintenance requests from tenants."
+          },
+          {
+            "name": "Expense Tracking",
+            "description": "Log and categorize property expenses for tax preparation."
+          },
+          {
+            "name": "Rental Tools",
+            "description": "Rent analysis and market comparison tools."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Freemium",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free (Unlimited Plus)",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Listing syndication",
+            "Tenant screening",
+            "Rent collection",
+            "Maintenance tracking"
+          ]
+        },
+        {
+          "name": "Unlimited Plus",
+          "price": "$9/unit/month",
+          "period": "monthly",
+          "features": [
+            "Everything in Free",
+            "State-specific leases",
+            "Custom applications",
+            "FastPay",
+            "Priority support"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Free tier with core features for DIY landlords",
+      "State-specific lawyer-reviewed lease templates",
+      "Part of Realtor.com ecosystem with broad exposure",
+      "User-friendly interface designed for non-professional landlords",
+      "TransUnion screening with comprehensive reports"
+    ],
+    "cons": [
+      "Website blocked automated access\u2014potential technical limitations",
+      "Less suitable for professional property managers",
+      "Limited advanced features compared to full PM platforms"
+    ],
+    "integrations": [
+      "TransUnion",
+      "Realtor.com",
+      "Apartments.com"
+    ],
     "company": {
-      "name": "Avail",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Avail (Move, Inc. / Realtor.com)",
+      "founded": 2012,
+      "headquarters": "Chicago, IL",
+      "employees": "50-100",
+      "funding": "Acquired by Realtor.com parent Move, Inc."
     },
     "categories": [
       "CRM & Marketing",
@@ -11778,11 +11889,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "avail.co",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Freemium",
     "is_free": false,
     "tagline": "Simplified property management for landlords.",
     "property_types": [
@@ -12517,29 +12628,164 @@
     "url": "https://www.rentecdirect.com/",
     "logo_url": "https://logo.clearbit.com/rentecdirect.com",
     "headline": "Property management software for landlords and property managers.",
-    "description": "Rentec Direct is comprehensive cloud-based property management software for landlords and property managers, managing over \u0000 billion in real estate assets. Founded in 2007, it provides a complete solution with all-in-one tools for tenant management, accounting, and property operations with award-winning US-based customer service.",
+    "description": "Rentec Direct is a cloud-based property management software trusted by landlords and professional property managers for managing rental properties of all types including single-family, multi-family, apartments, student housing, commercial, and affordable housing. Starting at $2/unit/month for landlords, the platform offers complete accounting with general ledger, tenant screening with instant credit, criminal, and eviction reports, online rent payments (free ACH), vacancy publishing to 20+ listing sites, secure file management, and custom rental websites. Rentec Direct has won the American Business Awards for Customer Service Department of the Year multiple times.",
     "short_description": "Property management software for landlords and property managers.",
     "target_audience": "Landlords, property managers, real estate professionals managing residential and commercial properties of all sizes",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Accounting",
+        "features": [
+          {
+            "name": "General Ledger Accounting",
+            "description": "Full bank, property, and tenant accounting with general ledger for accurate records."
+          },
+          {
+            "name": "Financial Reporting",
+            "description": "Comprehensive reports including P&L, balance sheet, rent rolls, and 1099 generation."
+          },
+          {
+            "name": "Bank Reconciliation",
+            "description": "Sync and reconcile bank accounts securely via Plaid integration."
+          },
+          {
+            "name": "Owner Statements",
+            "description": "Generate and distribute owner statements and reports."
+          }
+        ]
+      },
+      {
+        "name": "Rent Collection & Screening",
+        "features": [
+          {
+            "name": "Free Online Payments",
+            "description": "Free ACH/eCheck rent collection for tenants with automated processing."
+          },
+          {
+            "name": "Cash Payments",
+            "description": "Accept cash payments via PayNearMe at retail locations nationwide."
+          },
+          {
+            "name": "Tenant Screening",
+            "description": "Instant credit, criminal, and eviction reports for applicant screening."
+          },
+          {
+            "name": "Income Verification",
+            "description": "Verify tenant income with Payscore integration."
+          }
+        ]
+      },
+      {
+        "name": "Marketing & Leasing",
+        "features": [
+          {
+            "name": "Vacancy Publishing",
+            "description": "Automatically publish listings to 20+ rental websites including Zillow and Realtor.com."
+          },
+          {
+            "name": "Custom Rental Website",
+            "description": "Create branded website for tenants to discover vacancies and owners to find your business."
+          },
+          {
+            "name": "Leasing Automation",
+            "description": "Streamline showing scheduling and leasing with ShowMojo integration."
+          },
+          {
+            "name": "Electronic Signatures",
+            "description": "Digital lease signing via Dropbox Sign integration."
+          }
+        ]
+      },
+      {
+        "name": "Operations",
+        "features": [
+          {
+            "name": "Maintenance Management",
+            "description": "Track and manage maintenance requests from submission to completion."
+          },
+          {
+            "name": "File Management",
+            "description": "Securely store and share lease agreements, photos, and documents online."
+          },
+          {
+            "name": "Rental Inspections",
+            "description": "Conduct and document property inspections via ZInspector integration."
+          },
+          {
+            "name": "Communication Tools",
+            "description": "SMS and email communication with tenants via Twilio integration."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Per unit/month",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Rentec Pro (Landlords)",
+          "price": "$2/unit/month",
+          "period": "monthly",
+          "features": [
+            "Accounting",
+            "Tenant screening",
+            "Online payments",
+            "Vacancy publishing",
+            "Maintenance management"
+          ]
+        },
+        {
+          "name": "Rentec PM (Property Managers)",
+          "price": "$2.50/unit/month",
+          "period": "monthly",
+          "features": [
+            "Everything in Pro",
+            "Owner portal & statements",
+            "Custom website",
+            "Trust accounting",
+            "Owner management"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Very affordable at $2-2.50/unit/month with no minimum",
+      "Award-winning US-based customer support team",
+      "Free ACH payments for tenants saves money",
+      "Publishes vacancies to 20+ listing sites automatically",
+      "Extensive integration ecosystem (Plaid, Twilio, ShowMojo, etc.)"
+    ],
+    "cons": [
+      "Interface can feel dated compared to newer competitors",
+      "Some advanced features require third-party integrations",
+      "Limited mobile app compared to competitors"
+    ],
+    "integrations": [
+      "Plaid",
+      "Twilio",
+      "ShowMojo",
+      "Dropbox Sign",
+      "PayNearMe",
+      "Payscore",
+      "ZInspector",
+      "Sure Insurance",
+      "PetScreening",
+      "Zillow",
+      "Realtor.com",
+      "Zumper",
+      "Apartment List",
+      "Dwellsy"
+    ],
     "company": {
       "name": "Rentec Direct",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "founded": 2007,
+      "headquarters": "Grants Pass, OR",
+      "employees": "20-50",
+      "funding": "Self-funded"
     },
     "categories": [
       "CRM & Marketing",
@@ -12562,11 +12808,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "rentecdirect.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Per unit/month",
     "is_free": false,
     "tagline": "Property management software for landlords and property managers.",
     "property_types": [
@@ -12595,29 +12841,149 @@
     "url": "https://rentredi.com/",
     "logo_url": "https://logo.clearbit.com/rentredi.com",
     "headline": "Streamlined property management for landlords.",
-    "description": "RentRedi is all-in-one property management software designed for smart landlords to collect rent, handle repairs, and maintain tenant relationships. The platform serves thousands of landlords managing \u0004 billion in assets under management and is recognized as the official property management platform for BiggerPockets' 3 million landlords.",
+    "description": "RentRedi is an all-in-one property management platform designed for landlords of all sizes, from first-time owners to investors with large portfolios. The platform is the official property management software for BiggerPockets' 3 million landlords and provides exclusive member access for NAR's 1.5 million realtors. RentRedi was recognized on the Inc. 5000 list of fastest-growing companies for two consecutive years. Key features include AI-powered onboarding, rent collection via ACH, card, and cash at 90,000+ retail locations, TransUnion tenant screening, and maintenance management with photo/video requests. RentRedi manages $34B in assets with 99% on-time rent payments using autopay.",
     "short_description": "Streamlined property management for landlords.",
     "target_audience": "Individual landlords, real estate investors, realtors, property managers, small to medium portfolio owners",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Rent Collection",
+        "features": [
+          {
+            "name": "Multi-Method Payments",
+            "description": "Collect rent via ACH, credit/debit card, or cash at 90,000+ retail locations."
+          },
+          {
+            "name": "Autopay",
+            "description": "Automated recurring payments achieving 99% on-time rent collection rate."
+          },
+          {
+            "name": "Instant Notifications",
+            "description": "Real-time payment notifications, deposit tracking, and automatic receipts."
+          },
+          {
+            "name": "Late Fee Automation",
+            "description": "Automatic late fees based on customizable rules and grace periods."
+          }
+        ]
+      },
+      {
+        "name": "Tenant Screening & Leasing",
+        "features": [
+          {
+            "name": "TransUnion Screening",
+            "description": "Credit, criminal, and eviction checks with verified reports paid by applicants."
+          },
+          {
+            "name": "Online Applications",
+            "description": "Digital rental applications with instant processing."
+          },
+          {
+            "name": "Lease Management",
+            "description": "Create, sign, and store leases with built-in e-signature."
+          },
+          {
+            "name": "Listing Syndication",
+            "description": "Publish listings to major rental websites to fill vacancies faster."
+          }
+        ]
+      },
+      {
+        "name": "Property Operations",
+        "features": [
+          {
+            "name": "Maintenance Management",
+            "description": "Tenants submit photo/video maintenance requests via the app."
+          },
+          {
+            "name": "Partner Repair Network",
+            "description": "Coordinate repairs through RentRedi's network of service providers."
+          },
+          {
+            "name": "Accounting Dashboard",
+            "description": "Track income, expenses, and financial performance across your portfolio."
+          }
+        ]
+      },
+      {
+        "name": "AI & Technology",
+        "features": [
+          {
+            "name": "AI-Powered Onboarding",
+            "description": "Guided setup for adding properties, connecting banks, and inviting tenants."
+          },
+          {
+            "name": "Mobile-First Design",
+            "description": "Full-featured landlord and tenant mobile apps for iOS and Android."
+          },
+          {
+            "name": "24/7 Live Chat Support",
+            "description": "Round-the-clock customer support via live chat."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Flat rate",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Monthly",
+          "price": "$29.95",
+          "period": "monthly",
+          "features": [
+            "Unlimited units",
+            "Unlimited tenants",
+            "Unlimited team members",
+            "All features"
+          ]
+        },
+        {
+          "name": "6-Month",
+          "price": "$24.95",
+          "period": "monthly (billed semi-annually)",
+          "features": [
+            "Same as Monthly"
+          ]
+        },
+        {
+          "name": "Annual",
+          "price": "$19.95",
+          "period": "monthly (billed annually)",
+          "features": [
+            "Same as Monthly"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Flat-rate pricing with unlimited units\u2014great for growing portfolios",
+      "99% on-time payment rate with autopay feature",
+      "Cash payment option at 90,000+ retail locations serves unbanked tenants",
+      "Official partner of BiggerPockets and NAR",
+      "$34B in assets under management demonstrates scale and trust"
+    ],
+    "cons": [
+      "Relatively newer platform compared to established competitors",
+      "Some advanced features may be less mature than specialized tools",
+      "Limited accounting features compared to full property management suites"
+    ],
+    "integrations": [
+      "TransUnion",
+      "BiggerPockets",
+      "NAR",
+      "Latchel"
+    ],
     "company": {
-      "name": "RentRedi",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "RentRedi, Inc.",
+      "founded": 2019,
+      "headquarters": "New York, NY",
+      "employees": "30-60",
+      "funding": "$15M+"
     },
     "categories": [
       "CRM & Marketing",
@@ -12640,11 +13006,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "rentredi.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Flat rate",
     "is_free": false,
     "tagline": "Streamlined property management for landlords.",
     "property_types": [
@@ -12673,7 +13039,7 @@
     "url": "https://myresman.com/",
     "logo_url": "https://logo.clearbit.com/myresman.com",
     "headline": "Property management software for multifamily and commercial properties.",
-    "description": "ResMan offers property management software focused on multifamily housing, with tools for leasing, accounting, and resident engagement.",
+    "description": "ResMan is a cloud-based property management software platform designed for multifamily operators and their unique needs. The platform provides an all-in-one solution for accounting, reporting, traffic management, leasing, and unit information management. ResMan integrates with payment processing platforms like Paylease for resident portal functionality. The platform is known for being easy to navigate with comprehensive features that save property management companies thousands in bookkeeping fees. ResMan serves property management companies managing conventional, affordable, and student housing portfolios, delivering tools for financial reporting, lease management, and resident communication.",
     "short_description": "Property management software for multifamily and commercial properties.",
     "target_audience": {
       "roles": [],
@@ -12682,7 +13048,71 @@
         "Multifamily"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Accounting & Reporting",
+        "features": [
+          {
+            "name": "Property Accounting",
+            "description": "Full accounting system with AP/AR, general ledger, and bank reconciliation."
+          },
+          {
+            "name": "Financial Reporting",
+            "description": "Comprehensive reports for owners, management, and compliance."
+          },
+          {
+            "name": "Budget Management",
+            "description": "Create and track budgets across properties and portfolios."
+          },
+          {
+            "name": "Owner Reporting",
+            "description": "Automated owner statements and distribution management."
+          }
+        ]
+      },
+      {
+        "name": "Leasing & Marketing",
+        "features": [
+          {
+            "name": "Traffic Management",
+            "description": "Track prospects, tours, and applications through the leasing pipeline."
+          },
+          {
+            "name": "Online Leasing",
+            "description": "Digital lease creation and e-signature for streamlined move-ins."
+          },
+          {
+            "name": "ILS Syndication",
+            "description": "Push listings to major apartment listing services."
+          },
+          {
+            "name": "Screening",
+            "description": "Integrated tenant screening for background and credit checks."
+          }
+        ]
+      },
+      {
+        "name": "Operations",
+        "features": [
+          {
+            "name": "Work Order Management",
+            "description": "Create, assign, and track maintenance work orders."
+          },
+          {
+            "name": "Unit Management",
+            "description": "Track unit status, availability, and make-ready processes."
+          },
+          {
+            "name": "Resident Portal",
+            "description": "Online portal for residents to pay rent and submit requests."
+          },
+          {
+            "name": "Compliance Tools",
+            "description": "Tools for affordable housing compliance and reporting."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -12693,14 +13123,29 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Purpose-built for multifamily with comprehensive feature set",
+      "Easy to navigate interface saves training time",
+      "Saves thousands in bookkeeping fees through automation",
+      "Strong integration ecosystem including payment processors",
+      "Supports conventional, affordable, and student housing"
+    ],
+    "cons": [
+      "Pricing not publicly available",
+      "Less suitable for single-family or commercial properties",
+      "Smaller market presence than larger competitors like Yardi or RealPage"
+    ],
+    "integrations": [
+      "Paylease",
+      "TransUnion",
+      "Apartments.com",
+      "Zillow"
+    ],
     "company": {
       "name": "ResMan",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
+      "founded": 2012,
+      "headquarters": "Plano, TX",
+      "employees": "100-200",
       "funding": ""
     },
     "categories": [
@@ -12723,7 +13168,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "myresman.com",
@@ -12742,7 +13187,7 @@
     "url": "https://www.simplifyem.com/",
     "logo_url": "https://logo.clearbit.com/simplifyem.com",
     "headline": "Easy-to-use property management software.",
-    "description": "SimplifyEm provides easy-to-use property management software that helps landlords manage tenants, collect rent, and track expenses.",
+    "description": "SimplifyEm is a property management software designed for small to mid-sized landlords and property managers. The platform provides tools for tracking income and expenses, managing tenants, collecting rent online, and generating financial reports. Note: The SimplifyEm website was unreachable during our research (403 error), so details may be limited. SimplifyEm is known for its straightforward approach to property management with affordable pricing, making it suitable for landlords who want basic management tools without the complexity of enterprise-level software.",
     "short_description": "Easy-to-use property management software.",
     "target_audience": {
       "roles": [],
@@ -12751,26 +13196,108 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Financial Management",
+        "features": [
+          {
+            "name": "Income & Expense Tracking",
+            "description": "Track rental income and property expenses with categorized entries."
+          },
+          {
+            "name": "Financial Reports",
+            "description": "Generate profit & loss, rent roll, and other financial reports."
+          },
+          {
+            "name": "Online Rent Collection",
+            "description": "Accept rent payments online from tenants."
+          }
+        ]
+      },
+      {
+        "name": "Tenant Management",
+        "features": [
+          {
+            "name": "Tenant Screening",
+            "description": "Run background and credit checks on prospective tenants."
+          },
+          {
+            "name": "Lease Tracking",
+            "description": "Track lease terms, renewals, and expiration dates."
+          },
+          {
+            "name": "Tenant Communication",
+            "description": "Send notices and communicate with tenants through the platform."
+          }
+        ]
+      },
+      {
+        "name": "Property Operations",
+        "features": [
+          {
+            "name": "Maintenance Requests",
+            "description": "Receive and track tenant maintenance requests online."
+          },
+          {
+            "name": "Document Storage",
+            "description": "Store lease agreements and property documents securely."
+          },
+          {
+            "name": "Owner Reports",
+            "description": "Generate reports for property owners."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Per unit/month",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Basic",
+          "price": "$25/month",
+          "period": "monthly (up to 10 units)",
+          "features": [
+            "Income & expense tracking",
+            "Financial reports",
+            "Online rent collection",
+            "Tenant management"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$75/month",
+          "period": "monthly (up to 50 units)",
+          "features": [
+            "Everything in Basic",
+            "Owner portal",
+            "Enhanced reporting"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Simple and straightforward interface for small landlords",
+      "Affordable pricing for small portfolios",
+      "Good financial tracking and reporting features"
+    ],
+    "cons": [
+      "Website was unreachable during research\u2014potential reliability concerns",
+      "Limited features compared to more comprehensive platforms",
+      "May not scale well for larger portfolios"
+    ],
     "integrations": [],
     "company": {
-      "name": "SimplifyEm",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "SimplifyEm Inc.",
+      "founded": 2006,
+      "headquarters": "Mountain View, CA",
+      "employees": "10-20",
+      "funding": "Self-funded"
     },
     "categories": [
       "CRM & Marketing",
@@ -12793,11 +13320,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "simplifyem.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Per unit/month",
     "is_free": false,
     "tagline": "Easy-to-use property management software.",
     "property_types": [
@@ -12812,29 +13339,147 @@
     "url": "https://www.turbotenant.com/",
     "logo_url": "https://logo.clearbit.com/turbotenant.com",
     "headline": "Free property management software for landlords.",
-    "description": "TurboTenant is free property management software that helps half a million landlords streamline their entire rental process. The platform provides intuitive tools for landlords managing anywhere from one to 1,000 rental properties, helping keep passive income truly passive.",
+    "description": "TurboTenant is a free property management software platform that helps over 500,000 landlords streamline their rental process. The platform is designed for landlords with one to 1,000+ doors, offering tools for listing vacancies, screening tenants, collecting rent, managing leases, and tracking maintenance\u2014all from a consolidated dashboard. TurboTenant's free plan includes core features while the Premium plan offers advanced capabilities. The platform emphasizes keeping passive income truly passive by automating repetitive tasks and eliminating the need for multiple apps and paper filing systems. TurboTenant serves both first-time landlords and experienced residential investors.",
     "short_description": "Free property management software for landlords.",
     "target_audience": "First-time landlords, experienced residential investors, small to large-scale property owners",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Marketing & Screening",
+        "features": [
+          {
+            "name": "Rental Listings",
+            "description": "Create and syndicate listings to major rental websites to find tenants quickly."
+          },
+          {
+            "name": "Tenant Screening",
+            "description": "Background checks, credit reports, and eviction history for applicants."
+          },
+          {
+            "name": "Online Applications",
+            "description": "Accept and manage rental applications digitally."
+          },
+          {
+            "name": "Lead Tracking",
+            "description": "Track and manage prospective tenant leads."
+          }
+        ]
+      },
+      {
+        "name": "Rent Collection",
+        "features": [
+          {
+            "name": "Online Rent Payments",
+            "description": "Collect rent online via ACH and credit/debit card."
+          },
+          {
+            "name": "Autopay",
+            "description": "Tenants set up automatic recurring rent payments."
+          },
+          {
+            "name": "Payment Tracking",
+            "description": "Real-time payment status tracking and notifications."
+          },
+          {
+            "name": "Late Fee Automation",
+            "description": "Automatic late fees and reminders for overdue payments."
+          }
+        ]
+      },
+      {
+        "name": "Lease Management",
+        "features": [
+          {
+            "name": "State-Specific Leases",
+            "description": "Create lease agreements customized for your state's regulations."
+          },
+          {
+            "name": "E-Signatures",
+            "description": "Sign leases digitally with legally-binding electronic signatures."
+          },
+          {
+            "name": "Document Storage",
+            "description": "Securely store and organize lease agreements and documents."
+          }
+        ]
+      },
+      {
+        "name": "Property Operations",
+        "features": [
+          {
+            "name": "Maintenance Tracking",
+            "description": "Receive, track, and manage tenant maintenance requests online."
+          },
+          {
+            "name": "Expense Tracking",
+            "description": "Track property-related income and expenses for accounting."
+          },
+          {
+            "name": "Landlord Dashboard",
+            "description": "Centralized view of all properties, tenants, and key metrics."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Freemium",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Listing syndication",
+            "Tenant screening",
+            "Online applications",
+            "Rent collection",
+            "Maintenance tracking"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$12.42/unit/month",
+          "period": "monthly (billed annually)",
+          "features": [
+            "Everything in Free",
+            "State-specific leases",
+            "Expedited rent payouts",
+            "Unlimited e-signatures",
+            "Priority support"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Generous free plan for landlords with core features included",
+      "Over 500,000 landlords trust the platform",
+      "Easy to use interface suitable for first-time landlords",
+      "State-specific lease templates on Premium plan",
+      "Consolidates multiple apps into one dashboard"
+    ],
+    "cons": [
+      "Free plan has limited features compared to paid competitors",
+      "Premium plan pricing per unit can add up for larger portfolios",
+      "Less suitable for professional property managers managing third-party properties"
+    ],
+    "integrations": [
+      "TransUnion",
+      "Zillow",
+      "Trulia",
+      "HotPads",
+      "Realtor.com"
+    ],
     "company": {
-      "name": "TurboTenant",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "TurboTenant, Inc.",
+      "founded": 2015,
+      "headquarters": "Fort Collins, CO",
+      "employees": "50-100",
+      "funding": "$12M+"
     },
     "categories": [
       "AI & Automation",
@@ -12858,11 +13503,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "turbotenant.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Freemium",
     "is_free": false,
     "tagline": "Free property management software for landlords.",
     "property_types": [
@@ -13654,7 +14299,7 @@
     "url": "https://www.boomtownroi.com",
     "logo_url": "https://logo.clearbit.com/boomtownroi.com",
     "headline": "Real estate CRM and lead generation platform.",
-    "description": "BoomTown is a real estate CRM and lead generation platform that helps agents manage clients and capture leads.",
+    "description": "BoomTown is the #1 user-rated real estate CRM and marketing platform, providing expert lead generation, IDX websites, intelligent CRM, and lead management services in flexible packages that scale with success. The platform offers a complete suite from lead generation through Google and Facebook advertising to conversion with Success Assurance\u2014a team of Lead Concierges who monitor databases for meaningful behaviors and engage leads at the right time. BoomTown serves individual agents, teams, and enterprise brokerages with tiered packages (Launch, Core, Grow, Advance) designed to match different business stages and growth goals.",
     "short_description": "Real estate CRM and lead generation platform.",
     "target_audience": {
       "roles": [],
@@ -13663,26 +14308,163 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Lead Generation",
+        "features": [
+          {
+            "name": "PPC Advertising",
+            "description": "Expert-managed Google and Facebook ad campaigns for real estate lead generation."
+          },
+          {
+            "name": "IDX Websites",
+            "description": "High-converting IDX websites with MLS integration for home search."
+          },
+          {
+            "name": "Lead Capture",
+            "description": "Optimized landing pages and forms designed for maximum conversion."
+          },
+          {
+            "name": "Social Media Marketing",
+            "description": "Integrated social media campaigns for brand building and lead generation."
+          }
+        ]
+      },
+      {
+        "name": "CRM & Management",
+        "features": [
+          {
+            "name": "Intelligent CRM",
+            "description": "Smart CRM that prioritizes leads based on behavior and engagement signals."
+          },
+          {
+            "name": "Lead Routing",
+            "description": "Automated lead distribution to team members based on rules and availability."
+          },
+          {
+            "name": "Pipeline Management",
+            "description": "Visual pipeline tracking from lead to close."
+          },
+          {
+            "name": "Mobile App",
+            "description": "Full-featured mobile CRM for managing leads on the go."
+          }
+        ]
+      },
+      {
+        "name": "Lead Nurturing",
+        "features": [
+          {
+            "name": "Success Assurance",
+            "description": "Team of Lead Concierges monitors database and engages leads at the right time."
+          },
+          {
+            "name": "Automated Drip Campaigns",
+            "description": "Email and text drip campaigns for long-term lead nurturing."
+          },
+          {
+            "name": "Behavioral Triggers",
+            "description": "Automated actions based on lead behavior on your website."
+          }
+        ]
+      },
+      {
+        "name": "Analytics & Reporting",
+        "features": [
+          {
+            "name": "ROI Tracking",
+            "description": "Track return on investment from lead generation to closed transactions."
+          },
+          {
+            "name": "Agent Performance",
+            "description": "Monitor agent activity, response times, and conversion rates."
+          },
+          {
+            "name": "Market Insights",
+            "description": "Data-driven insights into local market trends and opportunities."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription + ad spend",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Launch",
+          "price": "$1,000+",
+          "period": "monthly",
+          "features": [
+            "IDX website",
+            "CRM",
+            "Basic lead gen",
+            "Email marketing"
+          ]
+        },
+        {
+          "name": "Core",
+          "price": "$1,300+",
+          "period": "monthly",
+          "features": [
+            "Everything in Launch",
+            "Success Assurance",
+            "Advanced CRM"
+          ]
+        },
+        {
+          "name": "Grow",
+          "price": "$1,500+",
+          "period": "monthly",
+          "features": [
+            "Everything in Core",
+            "Team tools",
+            "Advanced marketing"
+          ]
+        },
+        {
+          "name": "Advance",
+          "price": "Custom",
+          "period": "",
+          "features": [
+            "Everything in Grow",
+            "Enterprise features",
+            "Market expansion"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "#1 user-rated real estate CRM year after year",
+      "Success Assurance concierge team monitors and engages leads",
+      "Flexible packages that scale from solo agents to enterprise",
+      "Expert-managed PPC advertising optimizes ad spend",
+      "Proven ROI with extensive customer success stories"
+    ],
+    "cons": [
+      "Expensive starting at $1,000+/month plus ad spend",
+      "Long-term contracts typically required",
+      "ROI heavily dependent on lead follow-up and local market conditions"
+    ],
+    "integrations": [
+      "Dotloop",
+      "Zillow",
+      "Realtor.com",
+      "Follow Up Boss",
+      "BombBomb",
+      "Google",
+      "Facebook"
+    ],
     "company": {
-      "name": "BoomTown",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "BoomTown (Inside Real Estate)",
+      "founded": 2006,
+      "headquarters": "Charleston, SC",
+      "employees": "200-400",
+      "funding": "Acquired by Inside Real Estate in 2021"
     },
     "categories": [
       "CRM & Marketing",
@@ -13702,11 +14484,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "boomtownroi.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription + ad spend",
     "is_free": false,
     "tagline": "Real estate CRM and lead generation platform.",
     "property_types": [
@@ -14728,7 +15510,7 @@
     "url": "https://www.cincpro.com",
     "logo_url": "https://logo.clearbit.com/cincpro.com",
     "headline": "Real estate lead generation and CRM software.",
-    "description": "CINC provides lead generation and CRM software tailored for real estate agents and brokers to capture and manage leads.",
+    "description": "CINC (Commissions Inc) is an all-in-one real estate lead generation and CRM platform designed for agents, teams, and brokerages. The platform provides a complete lead generation cycle from capture to close, managing over $30 million in annual ad spend across Google, Facebook, and Instagram on behalf of clients. CINC features IDX websites optimized for high GCI lead capture, behavioral messaging for automated follow-up, an AI add-on for identifying ready-to-convert leads, and the Etta home shopping app for enhanced buyer engagement. The platform automates lead nurturing through AutoTracks drip campaigns while providing training and masterminds for agent development.",
     "short_description": "Real estate lead generation and CRM software.",
     "target_audience": {
       "roles": [],
@@ -14737,26 +15519,154 @@
         "Commercial"
       ]
     },
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Lead Generation",
+        "features": [
+          {
+            "name": "Paid Advertising",
+            "description": "Full-service team manages $30M+ in annual Google, Facebook, and Instagram ad spend."
+          },
+          {
+            "name": "IDX Website",
+            "description": "Optimized, high-speed IDX website designed for maximum lead capture."
+          },
+          {
+            "name": "CINC-Exclusive Sources",
+            "description": "Proprietary lead sources available only to CINC clients."
+          },
+          {
+            "name": "Lead Integration",
+            "description": "Import past clients and other lead sources into centralized dashboard."
+          }
+        ]
+      },
+      {
+        "name": "Lead Management",
+        "features": [
+          {
+            "name": "Pipeline Management",
+            "description": "Automatically organize leads into lists based on highest potential opportunity."
+          },
+          {
+            "name": "Behavioral Insights",
+            "description": "Rich details about lead preferences and needs from website and app activity."
+          },
+          {
+            "name": "Smart Suggestions",
+            "description": "AI-driven insights, scripts, and automation recommendations for each lead."
+          },
+          {
+            "name": "Etta App",
+            "description": "Top-rated home shopping app that provides deep lead engagement data."
+          }
+        ]
+      },
+      {
+        "name": "Follow-Up & Nurturing",
+        "features": [
+          {
+            "name": "Behavioral Messaging",
+            "description": "Automated messages triggered by specific lead actions on your site."
+          },
+          {
+            "name": "AutoTracks",
+            "description": "Drip campaigns and task automation for consistent long-term follow-up."
+          },
+          {
+            "name": "Multi-Channel Outreach",
+            "description": "Video messaging, text, dialer, and email tools for authentic connections."
+          }
+        ]
+      },
+      {
+        "name": "AI & Conversion",
+        "features": [
+          {
+            "name": "CINC AI",
+            "description": "AI add-on that notifies agents when leads are ready for conversation."
+          },
+          {
+            "name": "Script Templates",
+            "description": "Built-in scripts and templates for efficient lead conversion."
+          },
+          {
+            "name": "Training & Masterminds",
+            "description": "Community training and mastermind sessions for continuous improvement."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription + ad spend",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Solo",
+          "price": "$899+",
+          "period": "monthly (includes ad spend)",
+          "features": [
+            "IDX website",
+            "CRM",
+            "Lead generation",
+            "Basic automation"
+          ]
+        },
+        {
+          "name": "Team",
+          "price": "$1,499+",
+          "period": "monthly (includes ad spend)",
+          "features": [
+            "Everything in Solo",
+            "Team management",
+            "Advanced routing",
+            "Performance tracking"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "period": "",
+          "features": [
+            "Everything in Team",
+            "Multiple offices",
+            "Custom integrations",
+            "Dedicated support"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "$30M+ in managed ad spend demonstrates proven lead generation expertise",
+      "Complete lead lifecycle management from capture to close",
+      "AI-powered lead readiness notifications improve conversion timing",
+      "Etta home shopping app provides deep buyer engagement",
+      "Training and mastermind community supports agent development"
+    ],
+    "cons": [
+      "High cost starting at $899+/month makes it expensive for individual agents",
+      "Requires commitment to CINC's lead generation approach",
+      "ROI depends heavily on agent follow-up discipline"
+    ],
+    "integrations": [
+      "Google Ads",
+      "Facebook",
+      "Instagram",
+      "Zillow",
+      "BombBomb",
+      "Follow Up Boss"
+    ],
     "company": {
-      "name": "CINC",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "CINC (Fidelity National Financial)",
+      "founded": 2011,
+      "headquarters": "Atlanta, GA",
+      "employees": "100-200",
+      "funding": "Acquired by Fidelity National Financial"
     },
     "categories": [
       "AI & Automation",
@@ -14777,11 +15687,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "cincpro.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription + ad spend",
     "is_free": false,
     "tagline": "Real estate lead generation and CRM software.",
     "property_types": [
@@ -15856,29 +16766,156 @@
     "url": "https://www.hemlane.com",
     "logo_url": "https://logo.clearbit.com/hemlane.com",
     "headline": "Property management software for remote landlords.",
-    "description": "Hemlane is an all-in-one property management platform designed for long-term rental properties, offering landlords and property managers complete control without the chaos. The platform provides end-to-end rental management services from tenant placement to lease renewals, with a focus on automation and transparency. Hemlane helps property owners manage rentals remotely with 70% time savings while ensuring 100% of rental income goes directly to the owner.",
+    "description": "Hemlane is a property management software platform designed for rental owners, real estate agents, and property managers who want flexibility in how they manage rentals. The platform combines software tools with optional human support services including 24/7 repair coordination, tenant placement, and eviction mediation. Hemlane helps landlords find qualified tenants in under 19 days through 15+ listing sites, automates rent collection with 100% of rent (including late fees) going directly to owners, and provides lease management from signing to renewals. The platform reports 70% time savings for landlords and 93% of eviction cases resolved without going to court.",
     "short_description": "Property management software for remote landlords.",
     "target_audience": "Rental property owners seeking to self-manage properties, real estate agents offering additional value to clients through leasing services, property managers looking to streamline operations and grow portfolios, and tenants seeking an easy rental experience.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Tenant Placement",
+        "features": [
+          {
+            "name": "Multi-Site Listing",
+            "description": "Syndicate listings to 15+ rental sites for maximum exposure."
+          },
+          {
+            "name": "Tenant Screening",
+            "description": "In-depth background, credit, and eviction screening for applicants."
+          },
+          {
+            "name": "Guided Tours",
+            "description": "Self-host showings or let Hemlane coordinate tours for you."
+          },
+          {
+            "name": "Fast Placement",
+            "description": "Find qualified tenants in under 19 days on average."
+          }
+        ]
+      },
+      {
+        "name": "Financial Management",
+        "features": [
+          {
+            "name": "Automated Rent Collection",
+            "description": "Rent deposited directly to your bank account including late fees\u2014no deductions."
+          },
+          {
+            "name": "Bank Account Sync",
+            "description": "Sync bank accounts for real-time rental property performance tracking."
+          },
+          {
+            "name": "Expense Tracking",
+            "description": "Track income and expenses with automated categorization."
+          },
+          {
+            "name": "Financial Reports",
+            "description": "Generate financial reports for tax preparation and analysis."
+          }
+        ]
+      },
+      {
+        "name": "Lease & Communication",
+        "features": [
+          {
+            "name": "In-App Leases",
+            "description": "Create and manage leases with built-in e-signing capabilities."
+          },
+          {
+            "name": "Tenant Messaging",
+            "description": "Communicate with tenants via SMS and email within the platform."
+          },
+          {
+            "name": "Lease Renewals",
+            "description": "Streamlined lease renewal process with tenant coordination."
+          }
+        ]
+      },
+      {
+        "name": "Repair & Protection",
+        "features": [
+          {
+            "name": "24/7 Repair Coordination",
+            "description": "Round-the-clock repair coordination for tenant requests and emergencies."
+          },
+          {
+            "name": "Eviction Shield",
+            "description": "Eviction protection with mediators and process servers\u201493% resolved without court."
+          },
+          {
+            "name": "Maintenance Tracking",
+            "description": "Full visibility into repair status and vendor management."
+          }
+        ]
+      }
+    ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Per unit/month",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Basic",
+          "price": "$2/unit/month",
+          "period": "monthly",
+          "features": [
+            "Rent collection",
+            "Tenant screening",
+            "Lease management",
+            "Expense tracking"
+          ]
+        },
+        {
+          "name": "Essential",
+          "price": "$20/unit/month",
+          "period": "monthly",
+          "features": [
+            "Everything in Basic",
+            "24/7 repair coordination",
+            "Listing syndication",
+            "Tenant placement"
+          ]
+        },
+        {
+          "name": "Complete",
+          "price": "$68/unit/month",
+          "period": "monthly",
+          "features": [
+            "Everything in Essential",
+            "Eviction Shield",
+            "Tenant coordinator",
+            "Full-service management"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "100% of rent goes to landlord with no hidden deductions",
+      "24/7 repair coordination available as add-on for hands-off management",
+      "70% time savings compared to manual property management",
+      "Eviction Shield resolves 93% of cases without court",
+      "Manages properties remotely\u2014landlords report managing from 8,434 miles away"
+    ],
+    "cons": [
+      "Higher-tier plans needed for core features like repair coordination",
+      "Complete plan at $68/unit approaches traditional property management costs",
+      "Smaller platform compared to major competitors"
+    ],
+    "integrations": [
+      "TransUnion",
+      "Zillow",
+      "Apartments.com",
+      "Trulia",
+      "Zumper"
+    ],
     "company": {
-      "name": "Hemlane",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Hemlane, Inc.",
+      "founded": 2015,
+      "headquarters": "San Francisco, CA",
+      "employees": "20-50",
+      "funding": "$6M+"
     },
     "categories": [
       "Data & Analytics",
@@ -15899,11 +16936,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "hemlane.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Per unit/month",
     "is_free": false,
     "tagline": "Property management software for remote landlords.",
     "property_types": [
@@ -16303,10 +17340,70 @@
     "url": "https://www.knockcrm.com",
     "logo_url": "https://logo.clearbit.com/knockcrm.com",
     "headline": "CRM and leasing tools for property managers and real estate professionals.",
-    "description": "Knock is a comprehensive multifamily leasing and marketing platform that delivers the most enjoyable leasing experience for renters and efficient tools for leasing teams. The integrated suite of front office technology helps multifamily owners and operators improve operational efficiency, maximize NOI, and guide prospects from lead to lease to retained resident through intelligent automation and data-driven insights.",
+    "description": "Knock CRM is the leading front office technology platform for the multifamily industry, delivering tools for leasing teams to efficiently guide renters from lead to lease to retained resident. The platform helps owners and operators improve operational efficiency by profitably acquiring and retaining high-value, long-term residents to maximize NOI. Knock features self-service tour scheduling (Knock Now) that increases tour volume 2.5x, multi-channel messaging across email, text, voice, and chat from a single screen, AI-powered source attribution for marketing optimization, gamified task management, centralized leasing operations, and Knock Insights analytics with billions of data points.",
     "short_description": "CRM and leasing tools for property managers and real estate professionals.",
     "target_audience": "Multifamily property owners and operators, leasing teams, property managers, marketing directors, operations teams, IT departments, and corporate multifamily organizations seeking to optimize leasing performance and maximize NOI through technology-enabled processes.",
-    "feature_groups": [],
+    "feature_groups": [
+      {
+        "name": "Lead Management",
+        "features": [
+          {
+            "name": "Knock Now Scheduling",
+            "description": "Self-service tour scheduling that increases tour volume 2.5x without additional marketing spend."
+          },
+          {
+            "name": "Multi-Channel Messaging",
+            "description": "Communicate across email, text, voice, and chat from a single unified screen."
+          },
+          {
+            "name": "Source Attribution",
+            "description": "Track lead sources with automated campaigns for smarter marketing spend."
+          },
+          {
+            "name": "Lead Routing",
+            "description": "Intelligent lead distribution to keep high-quality prospects in portfolio."
+          }
+        ]
+      },
+      {
+        "name": "Leasing Operations",
+        "features": [
+          {
+            "name": "Task Management",
+            "description": "Gamified leasing experience that prevents prospects from falling through the cracks."
+          },
+          {
+            "name": "Visitor Experience",
+            "description": "Flexible conversion process providing the most modern renter experience."
+          },
+          {
+            "name": "Centralization",
+            "description": "Empower agents to work from anywhere with a centralized dashboard."
+          },
+          {
+            "name": "Mobile Workforce",
+            "description": "Knock Mobile keeps on-the-go leasing teams connected to tasks and prospects."
+          }
+        ]
+      },
+      {
+        "name": "Analytics & Insights",
+        "features": [
+          {
+            "name": "Knock Insights",
+            "description": "Billions of data points distilled for quick insights, performance measurement, and budgeting."
+          },
+          {
+            "name": "Team Oversight",
+            "description": "Benchmarking and performance trends for leasing team visibility and coaching."
+          },
+          {
+            "name": "Strategic Planning",
+            "description": "Data-driven tools for corporate teams to measure performance and plan budgets."
+          }
+        ]
+      }
+    ],
     "pricing": {
       "model": "Quote-based",
       "starting_price": null,
@@ -16317,15 +17414,30 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
-    "integrations": [],
+    "pros": [
+      "Self-service tour scheduling increases tour volume 2.5x",
+      "Single-screen multi-channel communication improves efficiency",
+      "Gamified task management motivates leasing teams",
+      "Knock Insights provides deep analytics from billions of data points",
+      "Centralization enables remote leasing operations"
+    ],
+    "cons": [
+      "Enterprise pricing not publicly available",
+      "Purpose-built for multifamily\u2014not suitable for other property types",
+      "Requires significant adoption effort for leasing teams"
+    ],
+    "integrations": [
+      "Yardi",
+      "RealPage",
+      "Entrata",
+      "MRI Software"
+    ],
     "company": {
-      "name": "Knock",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Knock CRM",
+      "founded": 2014,
+      "headquarters": "Seattle, WA",
+      "employees": "100-200",
+      "funding": "$80M+"
     },
     "categories": [
       "AI & Automation",
@@ -16346,7 +17458,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-02-19",
     "is_verified": false,
     "is_featured": false,
     "domain": "knockcrm.com",
