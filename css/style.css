@@ -279,9 +279,9 @@ a.product-card-link:hover {
 }
 .cta-btn:hover { background: var(--accent-hover); color: white; text-decoration: none; }
 .cta-btn-outline {
-  background: transparent; border: 1.5px solid rgba(255,255,255,0.3); color: var(--white);
+  background: transparent; border: 1.5px solid var(--accent); color: var(--accent);
 }
-.cta-btn-outline:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.5); color: white; }
+.cta-btn-outline:hover { background: var(--accent); color: white; }
 .cta-btn-sm { padding: 8px 16px; font-size: 13px; }
 .claim-link { display: block; margin-top: 12px; font-size: 13px; color: var(--gray-500); }
 
