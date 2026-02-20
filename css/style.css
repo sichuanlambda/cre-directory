@@ -136,34 +136,41 @@ nav .nav-links a.active { color: var(--white); background: rgba(255,255,255,0.12
 
 /* Category Carousel */
 .cat-carousel-wrapper { overflow: hidden; position: relative; }
-.cat-carousel { display: flex; gap: 16px; transition: transform 0.4s ease; }
+.cat-carousel { display: flex; gap: 20px; transition: transform 0.4s ease; }
 .cat-carousel-card {
-  flex: 0 0 calc(33.333% - 11px);
+  flex: 0 0 calc(50% - 10px);
   background: var(--white);
   border: 1px solid var(--gray-200);
   border-radius: var(--radius-lg);
-  padding: 24px;
-  transition: all 0.2s;
+  padding: 28px 32px;
+  transition: all 0.25s;
   cursor: pointer;
   text-decoration: none;
   color: inherit;
   display: flex;
   flex-direction: column;
-  min-height: 160px;
+  min-height: 220px;
 }
-.cat-carousel-card:hover { border-color: var(--accent); box-shadow: var(--shadow-md); transform: translateY(-2px); text-decoration: none; }
-.cat-carousel-card .cat-card-header { display: flex; align-items: center; gap: 12px; margin-bottom: 12px; }
-.cat-carousel-card .cat-card-header h3 { font-size: 16px; font-weight: 700; color: var(--navy); margin: 0; }
-.cat-carousel-card .cat-card-desc { font-size: 13px; color: var(--gray-600); line-height: 1.5; flex: 1; margin-bottom: 12px; }
-.cat-carousel-card .cat-card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: auto; }
-.cat-carousel-card .cat-card-count { font-size: 13px; font-weight: 600; color: var(--accent); }
-.cat-carousel-card .cat-card-arrow { font-size: 14px; color: var(--gray-400); transition: color 0.2s; }
-.cat-carousel-card:hover .cat-card-arrow { color: var(--accent); }
+.cat-carousel-card:hover { border-color: var(--accent); box-shadow: var(--shadow-md); transform: translateY(-3px); text-decoration: none; }
+.cat-carousel-card .cat-card-header { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+.cat-carousel-card .cat-card-icon { width: 48px; height: 48px; border-radius: 12px; background: var(--accent-bg, #eef2ff); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.cat-carousel-card .cat-card-icon svg { width: 26px; height: 26px; stroke: var(--accent); }
+.cat-carousel-card .cat-card-header h3 { font-size: 19px; font-weight: 700; color: var(--navy); margin: 0; }
+.cat-carousel-card .cat-card-desc { font-size: 14px; color: var(--gray-600); line-height: 1.6; margin-bottom: 16px; }
+.cat-carousel-card .cat-card-products { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; flex: 1; align-content: flex-start; }
+.cat-carousel-card .cat-card-products .cat-product-pill {
+  font-size: 12px; font-weight: 500; color: var(--gray-700); background: var(--gray-100);
+  padding: 4px 10px; border-radius: 20px; white-space: nowrap;
+}
+.cat-carousel-card .cat-card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 14px; border-top: 1px solid var(--gray-100); }
+.cat-carousel-card .cat-card-count { font-size: 14px; font-weight: 600; color: var(--accent); }
+.cat-carousel-card .cat-card-arrow { font-size: 14px; font-weight: 500; color: var(--accent); display: flex; align-items: center; gap: 4px; transition: gap 0.2s; }
+.cat-carousel-card:hover .cat-card-arrow { gap: 8px; }
 
 .carousel-nav { display: flex; gap: 8px; }
 .carousel-btn {
-  width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--gray-300);
-  background: var(--white); color: var(--navy); font-size: 20px; cursor: pointer;
+  width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--gray-300);
+  background: var(--white); color: var(--navy); font-size: 22px; cursor: pointer;
   display: flex; align-items: center; justify-content: center; transition: all 0.2s;
   line-height: 1;
 }
@@ -171,7 +178,15 @@ nav .nav-links a.active { color: var(--white); background: rgba(255,255,255,0.12
 .carousel-btn:disabled { opacity: 0.3; cursor: default; }
 .carousel-btn:disabled:hover { background: var(--white); color: var(--navy); border-color: var(--gray-300); }
 
-.cat-carousel-dots { display: flex; justify-content: center; gap: 6px; margin-top: 16px; }
+.cat-carousel-pager { display: flex; justify-content: center; align-items: center; gap: 4px; margin-top: 20px; }
+.cat-carousel-pager .cat-page-btn {
+  width: 34px; height: 34px; border-radius: 8px; border: 1px solid var(--gray-200);
+  background: var(--white); color: var(--gray-600); font-size: 13px; font-weight: 600;
+  cursor: pointer; display: flex; align-items: center; justify-content: center; transition: all 0.2s;
+}
+.cat-carousel-pager .cat-page-btn:hover { border-color: var(--accent); color: var(--accent); }
+.cat-carousel-pager .cat-page-btn.active { background: var(--accent); color: white; border-color: var(--accent); }
+.cat-carousel-dots { display: none; }
 .cat-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--gray-300); border: none; cursor: pointer; transition: all 0.2s; padding: 0; }
 .cat-dot.active { background: var(--accent); width: 20px; border-radius: 4px; }
 

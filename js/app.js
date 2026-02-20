@@ -135,15 +135,24 @@ function categoryCard(cat) {
 function categoryCarouselCard(cat) {
   const icon = CATEGORY_ICONS[cat.slug] || '';
   const desc = cat.description || '';
+  // Show top products as pills
+  const topProducts = (cat.products || []).slice(0, 5).map(slug => {
+    const p = PRODUCTS.find(pr => pr.slug === slug);
+    return p ? p.name : slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  });
+  const pills = topProducts.map(n => `<span class="cat-product-pill">${n}</span>`).join('');
+  const moreCount = Math.max(0, cat.product_count - 5);
+  const moreTag = moreCount > 0 ? `<span class="cat-product-pill">+${moreCount} more</span>` : '';
   return `<a class="cat-carousel-card" href="category.html#${cat.slug}">
     <div class="cat-card-header">
-      <span class="cat-icon">${icon}</span>
+      <div class="cat-card-icon">${icon}</div>
       <h3>${cat.name}</h3>
     </div>
     <div class="cat-card-desc">${desc}</div>
+    <div class="cat-card-products">${pills}${moreTag}</div>
     <div class="cat-card-footer">
       <span class="cat-card-count">${cat.product_count} tools</span>
-      <span class="cat-card-arrow">→</span>
+      <span class="cat-card-arrow">Browse category →</span>
     </div>
   </a>`;
 }
@@ -158,24 +167,26 @@ function initCategoryCarousel() {
   const cats = Object.values(CATEGORIES).sort((a, b) => b.product_count - a.product_count);
   carousel.innerHTML = cats.map(categoryCarouselCard).join('');
 
+  const pagerEl = document.getElementById('cat-pager') || document.querySelector('.cat-carousel-pager');
+
   let page = 0;
-  const getPerPage = () => window.innerWidth <= 600 ? 1 : window.innerWidth <= 991 ? 2 : 3;
+  const getPerPage = () => window.innerWidth <= 600 ? 1 : window.innerWidth <= 991 ? 2 : 2;
   const getMaxPage = () => Math.ceil(cats.length / getPerPage()) - 1;
 
   function updateCarousel() {
     const perPage = getPerPage();
-    const cardWidth = carousel.children[0] ? carousel.children[0].offsetWidth + 16 : 300;
+    const cardWidth = carousel.children[0] ? carousel.children[0].offsetWidth + 20 : 300;
     carousel.style.transform = `translateX(-${page * perPage * cardWidth}px)`;
     if (prevBtn) prevBtn.disabled = page <= 0;
     if (nextBtn) nextBtn.disabled = page >= getMaxPage();
-    // Dots
-    if (dotsEl) {
+    // Numbered page buttons
+    if (pagerEl) {
       const maxPage = getMaxPage();
-      dotsEl.innerHTML = Array.from({length: maxPage + 1}, (_, i) =>
-        `<button class="cat-dot${i === page ? ' active' : ''}" data-page="${i}"></button>`
+      pagerEl.innerHTML = Array.from({length: maxPage + 1}, (_, i) =>
+        `<button class="cat-page-btn${i === page ? ' active' : ''}" data-page="${i}">${i + 1}</button>`
       ).join('');
-      dotsEl.querySelectorAll('.cat-dot').forEach(dot => {
-        dot.addEventListener('click', () => { page = parseInt(dot.dataset.page); updateCarousel(); });
+      pagerEl.querySelectorAll('.cat-page-btn').forEach(btn => {
+        btn.addEventListener('click', () => { page = parseInt(btn.dataset.page); updateCarousel(); });
       });
     }
   }
