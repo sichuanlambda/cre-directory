@@ -2,7 +2,7 @@
   "property-management": {
     "name": "Property Management",
     "slug": "property-management",
-    "description": "Tools for managing commercial and residential properties, tenants, and maintenance.",
+    "description": "End-to-end platforms for managing commercial properties, from lease administration and rent collection to maintenance coordination and tenant communications. Compare tools built for portfolios of every size.",
     "product_count": 53,
     "products": [
       "alteryx",
@@ -105,7 +105,7 @@
   "crm-marketing": {
     "name": "CRM & Marketing",
     "slug": "crm-marketing",
-    "description": "Customer relationship management and marketing tools for real estate professionals.",
+    "description": "CRM systems and marketing platforms purpose-built for commercial real estate. Manage broker relationships, automate outreach, track deal pipelines, and nurture tenant and investor leads.",
     "product_count": 67,
     "products": [
       "apto",
@@ -222,7 +222,7 @@
   "investment-valuation": {
     "name": "Investment & Valuation",
     "slug": "investment-valuation",
-    "description": "Software for real estate investment analysis, valuation, and portfolio management.",
+    "description": "Underwriting, financial modeling, and deal analysis tools for acquisitions, dispositions, and fund management. Build pro formas, stress-test assumptions, and present to investors with confidence.",
     "product_count": 107,
     "products": [
       "alteryx",
@@ -379,7 +379,7 @@
   "construction-development": {
     "name": "Construction & Development",
     "slug": "construction-development",
-    "description": "Tools for construction management, project development, and planning.",
+    "description": "Project management, budgeting, and coordination tools for ground-up development and major renovations. Track timelines, manage contractors, and keep builds on budget.",
     "product_count": 72,
     "products": [
       "altus-group",
@@ -501,7 +501,7 @@
   "data-analytics": {
     "name": "Data & Analytics",
     "slug": "data-analytics",
-    "description": "Data platforms, analytics, and business intelligence for real estate.",
+    "description": "Market research, benchmarking, and portfolio analytics platforms that turn raw property data into actionable insights. Track comps, forecast trends, and make smarter investment decisions.",
     "product_count": 148,
     "products": [
       "alteryx",
@@ -699,7 +699,7 @@
   "broker-tools": {
     "name": "Broker Tools",
     "slug": "broker-tools",
-    "description": "Software designed specifically for commercial real estate brokers.",
+    "description": "Deal management, commission tracking, and workflow tools designed for commercial brokers and brokerage firms. Streamline listings, proposals, and transaction coordination.",
     "product_count": 67,
     "products": [
       "altus-group",
@@ -816,7 +816,7 @@
   "site-selection": {
     "name": "Site Selection",
     "slug": "site-selection",
-    "description": "Tools for location analysis, site selection, and market research.",
+    "description": "Location intelligence and site analysis platforms for retailers, restaurants, and corporate occupiers. Evaluate demographics, traffic patterns, and competitive landscapes before signing a lease.",
     "product_count": 51,
     "products": [
       "architecture-helper",
@@ -917,7 +917,7 @@
   "tenant-experience": {
     "name": "Tenant Experience",
     "slug": "tenant-experience",
-    "description": "Platforms enhancing tenant engagement, communication, and building experience.",
+    "description": "Platforms that improve the tenant journey, from building access and amenity booking to community engagement and service requests. Increase retention and justify premium rents.",
     "product_count": 12,
     "products": [
       "buildium",
@@ -979,7 +979,7 @@
   "accounting-finance": {
     "name": "Accounting & Finance",
     "slug": "accounting-finance",
-    "description": "Financial management, accounting, and budgeting for real estate.",
+    "description": "Accounting, budgeting, and financial reporting platforms tailored for commercial real estate. Handle complex fund structures, property-level P&L, and investor distributions.",
     "product_count": 5,
     "products": [
       "routable",
@@ -1034,7 +1034,7 @@
   "ai-automation": {
     "name": "AI & Automation",
     "slug": "ai-automation",
-    "description": "Artificial intelligence and automation tools for real estate workflows.",
+    "description": "AI-powered tools transforming CRE workflows, from automated document extraction and lease abstraction to predictive analytics and intelligent property matching.",
     "product_count": 37,
     "products": [
       "alteryx",
@@ -1121,7 +1121,7 @@
   "listing-services": {
     "name": "Listing Services",
     "slug": "listing-services",
-    "description": "Property listing platforms and marketing for available spaces.",
+    "description": "Commercial listing platforms and marketing tools for advertising available spaces. Syndicate listings, generate lead traffic, and connect landlords with prospective tenants.",
     "product_count": 20,
     "products": [
       "bisnow",
@@ -1191,7 +1191,7 @@
   "crowdfunding-investing": {
     "name": "Crowdfunding & Investing",
     "slug": "crowdfunding-investing",
-    "description": "Real estate crowdfunding and investment platforms.",
+    "description": "Platforms connecting real estate sponsors with investors. Manage fundraising, investor relations, distributions, and regulatory compliance for syndications and funds.",
     "product_count": 3,
     "products": [
       "realtymogul",
@@ -1244,7 +1244,7 @@
   "legal-compliance": {
     "name": "Legal & Compliance",
     "slug": "legal-compliance",
-    "description": "Legal, regulatory, and compliance tools for real estate.",
+    "description": "Lease review, contract management, and regulatory compliance tools for commercial real estate. Automate abstraction, track obligations, and reduce legal risk across your portfolio.",
     "product_count": 7,
     "products": [
       "navigatorcre",

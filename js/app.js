@@ -135,21 +135,12 @@ function categoryCard(cat) {
 function categoryCarouselCard(cat) {
   const icon = CATEGORY_ICONS[cat.slug] || '';
   const desc = cat.description || '';
-  // Show top products as pills
-  const topProducts = (cat.products || []).slice(0, 5).map(slug => {
-    const p = PRODUCTS.find(pr => pr.slug === slug);
-    return p ? p.name : slug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-  });
-  const pills = topProducts.map(n => `<span class="cat-product-pill">${n}</span>`).join('');
-  const moreCount = Math.max(0, cat.product_count - 5);
-  const moreTag = moreCount > 0 ? `<span class="cat-product-pill">+${moreCount} more</span>` : '';
   return `<a class="cat-carousel-card" href="category.html#${cat.slug}">
     <div class="cat-card-header">
       <div class="cat-card-icon">${icon}</div>
       <h3>${cat.name}</h3>
     </div>
     <div class="cat-card-desc">${desc}</div>
-    <div class="cat-card-products">${pills}${moreTag}</div>
     <div class="cat-card-footer">
       <span class="cat-card-count">${cat.product_count} tools</span>
       <span class="cat-card-arrow">Browse category →</span>

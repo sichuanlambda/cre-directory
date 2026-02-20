@@ -135,7 +135,7 @@ nav .nav-links a.active { color: var(--white); background: rgba(255,255,255,0.12
 .cat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
 
 /* Category Carousel */
-.cat-carousel-wrapper { overflow: hidden; position: relative; }
+.cat-carousel-wrapper { overflow: visible; position: relative; clip-path: inset(-10px -0px -10px -0px); }
 .cat-carousel { display: flex; gap: 20px; transition: transform 0.4s ease; }
 .cat-carousel-card {
   flex: 0 0 calc(50% - 10px);
@@ -156,12 +156,7 @@ nav .nav-links a.active { color: var(--white); background: rgba(255,255,255,0.12
 .cat-carousel-card .cat-card-icon { width: 48px; height: 48px; border-radius: 12px; background: var(--accent-bg, #eef2ff); display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
 .cat-carousel-card .cat-card-icon svg { width: 26px; height: 26px; stroke: var(--accent); }
 .cat-carousel-card .cat-card-header h3 { font-size: 19px; font-weight: 700; color: var(--navy); margin: 0; }
-.cat-carousel-card .cat-card-desc { font-size: 14px; color: var(--gray-600); line-height: 1.6; margin-bottom: 16px; }
-.cat-carousel-card .cat-card-products { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 16px; flex: 1; align-content: flex-start; }
-.cat-carousel-card .cat-card-products .cat-product-pill {
-  font-size: 12px; font-weight: 500; color: var(--gray-700); background: var(--gray-100);
-  padding: 4px 10px; border-radius: 20px; white-space: nowrap;
-}
+.cat-carousel-card .cat-card-desc { font-size: 14px; color: var(--gray-600); line-height: 1.7; margin-bottom: 16px; flex: 1; }
 .cat-carousel-card .cat-card-footer { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding-top: 14px; border-top: 1px solid var(--gray-100); }
 .cat-carousel-card .cat-card-count { font-size: 14px; font-weight: 600; color: var(--accent); }
 .cat-carousel-card .cat-card-arrow { font-size: 14px; font-weight: 500; color: var(--accent); display: flex; align-items: center; gap: 4px; transition: gap 0.2s; }
