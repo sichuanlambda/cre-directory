@@ -132,6 +132,60 @@ function categoryCard(cat) {
   </a>`;
 }
 
+function categoryCarouselCard(cat) {
+  const icon = CATEGORY_ICONS[cat.slug] || '';
+  const desc = cat.description || '';
+  return `<a class="cat-carousel-card" href="category.html#${cat.slug}">
+    <div class="cat-card-header">
+      <span class="cat-icon">${icon}</span>
+      <h3>${cat.name}</h3>
+    </div>
+    <div class="cat-card-desc">${desc}</div>
+    <div class="cat-card-footer">
+      <span class="cat-card-count">${cat.product_count} tools</span>
+      <span class="cat-card-arrow">→</span>
+    </div>
+  </a>`;
+}
+
+function initCategoryCarousel() {
+  const carousel = document.getElementById('cat-carousel');
+  const dotsEl = document.getElementById('cat-dots');
+  const prevBtn = document.getElementById('cat-prev');
+  const nextBtn = document.getElementById('cat-next');
+  if (!carousel) return;
+
+  const cats = Object.values(CATEGORIES).sort((a, b) => b.product_count - a.product_count);
+  carousel.innerHTML = cats.map(categoryCarouselCard).join('');
+
+  let page = 0;
+  const getPerPage = () => window.innerWidth <= 600 ? 1 : window.innerWidth <= 991 ? 2 : 3;
+  const getMaxPage = () => Math.ceil(cats.length / getPerPage()) - 1;
+
+  function updateCarousel() {
+    const perPage = getPerPage();
+    const cardWidth = carousel.children[0] ? carousel.children[0].offsetWidth + 16 : 300;
+    carousel.style.transform = `translateX(-${page * perPage * cardWidth}px)`;
+    if (prevBtn) prevBtn.disabled = page <= 0;
+    if (nextBtn) nextBtn.disabled = page >= getMaxPage();
+    // Dots
+    if (dotsEl) {
+      const maxPage = getMaxPage();
+      dotsEl.innerHTML = Array.from({length: maxPage + 1}, (_, i) =>
+        `<button class="cat-dot${i === page ? ' active' : ''}" data-page="${i}"></button>`
+      ).join('');
+      dotsEl.querySelectorAll('.cat-dot').forEach(dot => {
+        dot.addEventListener('click', () => { page = parseInt(dot.dataset.page); updateCarousel(); });
+      });
+    }
+  }
+
+  if (prevBtn) prevBtn.addEventListener('click', () => { if (page > 0) { page--; updateCarousel(); } });
+  if (nextBtn) nextBtn.addEventListener('click', () => { if (page < getMaxPage()) { page++; updateCarousel(); } });
+  window.addEventListener('resize', () => { page = Math.min(page, getMaxPage()); updateCarousel(); });
+  updateCarousel();
+}
+
 async function loadData() {
   const [pRes, cRes] = await Promise.all([
     fetch('data/products.json'),
@@ -236,7 +290,10 @@ async function initHome() {
     pillsEl.innerHTML = topCats.map(c => `<a href="category.html#${c.slug}" class="hero-pill">${c.name}</a>`).join('');
   }
 
-  // Categories
+  // Categories - carousel on homepage
+  initCategoryCarousel();
+  
+  // Legacy grid fallback
   const catGrid = document.getElementById('cat-grid');
   if (catGrid) {
     catGrid.innerHTML = Object.values(CATEGORIES)

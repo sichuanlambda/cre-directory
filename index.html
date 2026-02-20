@@ -54,8 +54,6 @@
       <span id="proof-cats">14 categories</span>
       <span class="proof-dot">·</span>
       <span>Updated February 2026</span>
-      <span class="proof-dot">·</span>
-      <span>Independent & unbiased</span>
     </div>
   </div>
 
@@ -66,10 +64,19 @@
     </div>
   </section>
 
-  <section class="section section-alt hide-on-search">
+  <section class="section section-alt hide-on-search" id="category-carousel-section">
     <div class="container">
-      <h2 class="section-title">Browse by Category</h2>
-      <div class="cat-grid" id="cat-grid"></div>
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:24px;">
+        <h2 class="section-title" style="margin-bottom:0;">Browse by Category</h2>
+        <div class="carousel-nav">
+          <button id="cat-prev" class="carousel-btn" aria-label="Previous">‹</button>
+          <button id="cat-next" class="carousel-btn" aria-label="Next">›</button>
+        </div>
+      </div>
+      <div class="cat-carousel-wrapper">
+        <div class="cat-carousel" id="cat-carousel"></div>
+      </div>
+      <div class="cat-carousel-dots" id="cat-dots"></div>
     </div>
   </section>
 
@@ -84,13 +91,6 @@
     <div class="container">
       <h2 class="section-title" style="text-align:center">What Makes This Directory Different</h2>
       <div class="trust-grid">
-        <div class="trust-card">
-          <div class="trust-icon">
-            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-          </div>
-          <h3>Independent Reviews</h3>
-          <p>We're not pay-to-play. Every tool is evaluated on its merits.</p>
-        </div>
         <div class="trust-card">
           <div class="trust-icon">
             <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4"/></svg>
