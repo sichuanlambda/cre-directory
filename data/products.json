@@ -186,7 +186,8 @@
     "tagline": "Data analytics and automation for real estate.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "data-analytics"
   },
   {
     "title": "Altus Group",
@@ -340,7 +341,8 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "primary_category": "data-analytics"
   },
   {
     "title": "Apto",
@@ -459,7 +461,8 @@
     "tagline": "Commercial real estate software solution",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "broker-tools"
   },
   {
     "title": "Archibus",
@@ -601,7 +604,8 @@
     "tagline": "Real estate management software.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Architecture Helper",
@@ -706,7 +710,8 @@
     "tagline": "Architecture generation & analyzation software",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "data-analytics"
   },
   {
     "title": "Argus by Altus Group",
@@ -859,7 +864,8 @@
       "Retail",
       "Multifamily",
       "Mixed-Use"
-    ]
+    ],
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Avison Young",
@@ -996,7 +1002,8 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "primary_category": "construction-development"
   },
   {
     "title": "Bisnow",
@@ -1167,7 +1174,8 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "primary_category": "crm-marketing"
   },
   {
     "title": "Brevitas",
@@ -1326,7 +1334,8 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "primary_category": "crm-marketing"
   },
   {
     "title": "BrokerAssist",
@@ -1405,7 +1414,8 @@
     "tagline": "Optimize your brokerage operations.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "data-analytics"
   },
   {
     "title": "Buildium",
@@ -1668,7 +1678,8 @@
       "Community association management features"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:47:37.114032Z"
+    "enrichedAt": "2026-02-17T22:47:37.114032Z",
+    "primary_category": "property-management"
   },
   {
     "title": "Buildout",
@@ -1872,7 +1883,8 @@
       "Intelligent owner targeting capabilities"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:46:09.250689Z"
+    "enrichedAt": "2026-02-17T22:46:09.250689Z",
+    "primary_category": "broker-tools"
   },
   {
     "title": "Capital Brain",
@@ -1953,7 +1965,8 @@
     "tagline": "Real estate investment management platform.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "ai-automation"
   },
   {
     "title": "Catalyst",
@@ -2034,7 +2047,8 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "primary_category": "crm-marketing"
   },
   {
     "title": "Cherre",
@@ -2239,7 +2253,8 @@
       "Data quality assurance and governance"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:47:23.057975Z"
+    "enrichedAt": "2026-02-17T22:47:23.057975Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "CityBldr",
@@ -2389,7 +2404,8 @@
     "tagline": "Find and value off-market properties.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "crm-marketing"
   },
   {
     "title": "Compstak",
@@ -2615,7 +2631,8 @@
       "API and data integration capabilities"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:46:24.925146Z"
+    "enrichedAt": "2026-02-17T22:46:24.925146Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "CoreLogic",
@@ -2770,7 +2787,8 @@
     "tagline": "Property information and analytics.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "data-analytics"
   },
   {
     "title": "CoStar",
@@ -2965,7 +2983,8 @@
       "Professional market research services"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:46:38.908946Z"
+    "enrichedAt": "2026-02-17T22:46:38.908946Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "CREModels",
@@ -3117,7 +3136,8 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Crexi",
@@ -3320,7 +3340,8 @@
       "Multi-channel marketing syndication"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:46:50.422590Z"
+    "enrichedAt": "2026-02-17T22:46:50.422590Z",
+    "primary_category": "listing-services"
   },
   {
     "title": "DealCloud",
@@ -3500,7 +3521,8 @@
     "tagline": "Investment management software for real estate.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Dealpath",
@@ -3731,7 +3753,8 @@
       "Integration capabilities with existing tech stack"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:47:07.452071Z"
+    "enrichedAt": "2026-02-17T22:47:07.452071Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Enertiv",
@@ -3887,7 +3910,8 @@
     "tagline": "Energy management for real estate.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "data-analytics"
   },
   {
     "title": "Envoy Technologies",
@@ -4013,7 +4037,8 @@
     "tagline": "Automated vehicle-sharing platform.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "property-management"
   },
   {
     "title": "Fifth Wall",
@@ -4129,7 +4154,8 @@
     "tagline": "Real estate technology venture capital firm.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "investment-valuation"
   },
   {
     "title": "FortressIQ",
@@ -4215,7 +4241,8 @@
     "tagline": "Automate business processes with AI.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "ai-automation"
   },
   {
     "title": "FUEL",
@@ -4356,7 +4383,8 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Fundrise",
@@ -4517,7 +4545,8 @@
     "tagline": "Real estate investment platform.",
     "property_types": [
       "Residential"
-    ]
+    ],
+    "primary_category": "crowdfunding-investing"
   },
   {
     "title": "Goby",
@@ -4649,7 +4678,8 @@
     "tagline": "Sustainability management software.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "data-analytics"
   },
   {
     "title": "HappyCo",
@@ -4809,7 +4839,8 @@
       "Mobile Property Management Tools"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:28:57.367534Z"
+    "enrichedAt": "2026-02-17T22:28:57.367534Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Hightower",
@@ -4925,7 +4956,8 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:42:42.832747Z",
-    "enrichmentFailed": true
+    "enrichmentFailed": true,
+    "primary_category": "data-analytics"
   },
   {
     "title": "Honest Buildings",
@@ -5044,7 +5076,8 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:42:56.495535+00:00",
-    "enrichmentFailed": true
+    "enrichmentFailed": true,
+    "primary_category": "construction-development"
   },
   {
     "title": "HqO",
@@ -5179,7 +5212,8 @@
       "Amenity booking and access control"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:29:35.120933Z"
+    "enrichedAt": "2026-02-17T22:29:35.120933Z",
+    "primary_category": "tenant-experience"
   },
   {
     "title": "Investor Management Services",
@@ -5353,7 +5387,8 @@
       "Multi-property manager support"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:29:49.651030Z"
+    "enrichedAt": "2026-02-17T22:29:49.651030Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "iSqFt",
@@ -5479,7 +5514,8 @@
       "Project scope and building use categorization"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:30:11.128947Z"
+    "enrichedAt": "2026-02-17T22:30:11.128947Z",
+    "primary_category": "construction-development"
   },
   {
     "title": "JLL",
@@ -5664,7 +5700,8 @@
       "Sustainability and ESG consulting"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:30:34.367898Z"
+    "enrichedAt": "2026-02-17T22:30:34.367898Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Juniper Square",
@@ -5821,7 +5858,8 @@
       "Investment entity management"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:30:51.504876Z"
+    "enrichedAt": "2026-02-17T22:30:51.504876Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Knotel",
@@ -5911,7 +5949,8 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:43:09.313931+00:00",
-    "enrichmentFailed": true
+    "enrichmentFailed": true,
+    "primary_category": "broker-tools"
   },
   {
     "title": "Lev",
@@ -6081,7 +6120,8 @@
       "Comprehensive financing analytics"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:31:17.247398Z"
+    "enrichedAt": "2026-02-17T22:31:17.247398Z",
+    "primary_category": "broker-tools"
   },
   {
     "title": "LightBox",
@@ -6218,7 +6258,8 @@
       "Major transaction tracking and analysis"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:31:36.726344Z"
+    "enrichedAt": "2026-02-17T22:31:36.726344Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "LoopNet",
@@ -6412,7 +6453,8 @@
       "Advanced property details and specifications"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:31:58.800815Z"
+    "enrichedAt": "2026-02-17T22:31:58.800815Z",
+    "primary_category": "listing-services"
   },
   {
     "title": "Matterport",
@@ -6643,7 +6685,8 @@
       "Multi-device compatibility"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:32:17.936970Z"
+    "enrichedAt": "2026-02-17T22:32:17.936970Z",
+    "primary_category": "crm-marketing"
   },
   {
     "title": "MetaProp",
@@ -6789,7 +6832,8 @@
       "Strategic partnership facilitation"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:32:33.960353Z"
+    "enrichedAt": "2026-02-17T22:32:33.960353Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Navigator CRE",
@@ -6969,7 +7013,8 @@
       "Custom reporting and visualization"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:32:55.663670Z"
+    "enrichedAt": "2026-02-17T22:32:55.663670Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "OpenCounter",
@@ -7147,7 +7192,8 @@
       "Fee transparency and calculation"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:33:30.875222Z"
+    "enrichedAt": "2026-02-17T22:33:30.875222Z",
+    "primary_category": "construction-development"
   },
   {
     "title": "OpenSpace",
@@ -7341,7 +7387,8 @@
       "Cloud-based collaboration platform"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:33:44.796299Z"
+    "enrichedAt": "2026-02-17T22:33:44.796299Z",
+    "primary_category": "construction-development"
   },
   {
     "title": "Opus",
@@ -7424,7 +7471,8 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:43:29.693217+00:00",
-    "enrichmentFailed": true
+    "enrichmentFailed": true,
+    "primary_category": "data-analytics"
   },
   {
     "title": "OwnBackup",
@@ -7574,7 +7622,8 @@
       "Data governance tools"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:34:14.326139Z"
+    "enrichedAt": "2026-02-17T22:34:14.326139Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Placer.ai",
@@ -7823,7 +7872,8 @@
       "Psychographic and demographic insights"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:34:34.536355Z"
+    "enrichedAt": "2026-02-17T22:34:34.536355Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Plotzy",
@@ -7990,7 +8040,8 @@
       "Geographic property search"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:35:03.365212Z"
+    "enrichedAt": "2026-02-17T22:35:03.365212Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Procore",
@@ -8195,7 +8246,8 @@
       "Punch list and inspection tools"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:35:19.871546Z"
+    "enrichedAt": "2026-02-17T22:35:19.871546Z",
+    "primary_category": "construction-development"
   },
   {
     "title": "Prodeal",
@@ -8308,7 +8360,8 @@
       "Multi-party collaboration tools"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:35:38.289135Z"
+    "enrichedAt": "2026-02-17T22:35:38.289135Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Property Capsule",
@@ -8473,7 +8526,8 @@
       "Mobile-optimized user interface"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:35:56.586765Z"
+    "enrichedAt": "2026-02-17T22:35:56.586765Z",
+    "primary_category": "broker-tools"
   },
   {
     "title": "Property Metrics",
@@ -8587,7 +8641,8 @@
       "No Excel or Argus dependencies"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:36:14.440475Z"
+    "enrichedAt": "2026-02-17T22:36:14.440475Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Real Capital Markets",
@@ -8774,7 +8829,8 @@
       "Multi-party transaction coordination"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:36:29.387091Z"
+    "enrichedAt": "2026-02-17T22:36:29.387091Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Real Data",
@@ -8922,7 +8978,8 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:43:50.108248+00:00",
-    "enrichmentFailed": true
+    "enrichmentFailed": true,
+    "primary_category": "data-analytics"
   },
   {
     "title": "RealAtom",
@@ -9019,7 +9076,8 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:44:16.969851+00:00",
-    "enrichmentFailed": true
+    "enrichmentFailed": true,
+    "primary_category": "broker-tools"
   },
   {
     "title": "RealNex",
@@ -9232,7 +9290,8 @@
       "7 levels of security access control"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:37:27.798594Z"
+    "enrichedAt": "2026-02-17T22:37:27.798594Z",
+    "primary_category": "broker-tools"
   },
   {
     "title": "Realpage",
@@ -9452,7 +9511,8 @@
       "Market intelligence and analytics"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:37:42.744229Z"
+    "enrichedAt": "2026-02-17T22:37:42.744229Z",
+    "primary_category": "property-management"
   },
   {
     "title": "Reonomy",
@@ -9599,7 +9659,8 @@
       "Real estate market data access"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:37:56.623107Z"
+    "enrichedAt": "2026-02-17T22:37:56.623107Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Rethink CRM",
@@ -9699,7 +9760,8 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:44:28.521110+00:00",
-    "enrichmentFailed": true
+    "enrichmentFailed": true,
+    "primary_category": "crm-marketing"
   },
   {
     "title": "Roam",
@@ -9779,7 +9841,8 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:44:39.156439+00:00",
-    "enrichmentFailed": true
+    "enrichmentFailed": true,
+    "primary_category": "data-analytics"
   },
   {
     "title": "Routable",
@@ -9955,7 +10018,8 @@
       "Enterprise-grade security"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:38:24.658674Z"
+    "enrichedAt": "2026-02-17T22:38:24.658674Z",
+    "primary_category": "ai-automation"
   },
   {
     "title": "russ",
@@ -10048,7 +10112,8 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:44:48.820147+00:00",
-    "enrichmentFailed": true
+    "enrichmentFailed": true,
+    "primary_category": "broker-tools"
   },
   {
     "title": "Saltmine",
@@ -10232,7 +10297,8 @@
       "Unlimited users with full training"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:38:54.369135Z"
+    "enrichedAt": "2026-02-17T22:38:54.369135Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Sertifi",
@@ -10395,7 +10461,8 @@
       "Revenue optimization tools"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:39:08.424941Z"
+    "enrichedAt": "2026-02-17T22:39:08.424941Z",
+    "primary_category": "crm-marketing"
   },
   {
     "title": "SiteSeer",
@@ -10575,7 +10642,8 @@
       "Cross-sector industry solutions"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:39:22.281466Z"
+    "enrichedAt": "2026-02-17T22:39:22.281466Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "SmartRent",
@@ -10714,7 +10782,8 @@
       "Mobile maintenance platform"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:39:38.470816Z"
+    "enrichedAt": "2026-02-17T22:39:38.470816Z",
+    "primary_category": "property-management"
   },
   {
     "title": "SpaceQuant",
@@ -10831,7 +10900,8 @@
       "Automated document processing"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:39:55.547603Z"
+    "enrichedAt": "2026-02-17T22:39:55.547603Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "SquareFoot",
@@ -10956,7 +11026,8 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:45:00.351322+00:00",
-    "enrichmentFailed": true
+    "enrichmentFailed": true,
+    "primary_category": "broker-tools"
   },
   {
     "title": "StackSource",
@@ -11122,7 +11193,8 @@
       "Term sheet generation and management"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:40:14.964648Z"
+    "enrichedAt": "2026-02-17T22:40:14.964648Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Storefront",
@@ -11293,7 +11365,8 @@
       "Flexible office solutions"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:40:42.800173Z"
+    "enrichedAt": "2026-02-17T22:40:42.800173Z",
+    "primary_category": "listing-services"
   },
   {
     "title": "Ten-X",
@@ -11463,7 +11536,8 @@
       "Post-auction closing support"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:40:58.935908Z"
+    "enrichedAt": "2026-02-17T22:40:58.935908Z",
+    "primary_category": "listing-services"
   },
   {
     "title": "TenantCloud",
@@ -11735,7 +11809,8 @@
       "Vacancy marketing and advertising tools"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:41:18.753065Z"
+    "enrichedAt": "2026-02-17T22:41:18.753065Z",
+    "primary_category": "property-management"
   },
   {
     "title": "The Broker List",
@@ -11911,7 +11986,8 @@
       "Link building and SEO benefits"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:42:06.065884Z"
+    "enrichedAt": "2026-02-17T22:42:06.065884Z",
+    "primary_category": "broker-tools"
   },
   {
     "title": "TheGuarantors",
@@ -12070,7 +12146,8 @@
       "Coverage against defaults and damages"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:45:15.536610+00:00"
+    "enrichedAt": "2026-02-17T22:45:15.536610+00:00",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Valcre",
@@ -12222,7 +12299,8 @@
       "Comparable data collection and analysis"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:45:29.616644+00:00"
+    "enrichedAt": "2026-02-17T22:45:29.616644+00:00",
+    "primary_category": "ai-automation"
   },
   {
     "title": "Visual Lease",
@@ -12411,7 +12489,8 @@
       "Strategic decision-making analytics"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:45:43.717812+00:00"
+    "enrichedAt": "2026-02-17T22:45:43.717812+00:00",
+    "primary_category": "property-management"
   },
   {
     "title": "VTS",
@@ -12644,7 +12723,8 @@
       "Comprehensive integrations with CRE technologies"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-17T22:46:02.000785+00:00"
+    "enrichedAt": "2026-02-17T22:46:02.000785+00:00",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Xceligent",
@@ -12734,7 +12814,8 @@
       "Retail"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Website unreachable - no extractable content"
+    "enrichment_reason": "Website unreachable - no extractable content",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Xplor",
@@ -12817,7 +12898,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Not CRE-related - vertical SaaS for education, field services, fitness, personal services"
+    "enrichment_reason": "Not CRE-related - vertical SaaS for education, field services, fitness, personal services",
+    "primary_category": "broker-tools"
   },
   {
     "title": "Yardi",
@@ -13036,7 +13118,8 @@
       "Maintenance management and work orders",
       "Leasing and marketing automation"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Zigg Capital",
@@ -13119,7 +13202,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Insufficient information - minimal website content, unclear if CRE software or investment firm"
+    "enrichment_reason": "Insufficient information - minimal website content, unclear if CRE software or investment firm",
+    "primary_category": "construction-development"
   },
   {
     "title": "Zillow",
@@ -13308,7 +13392,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Access denied - website blocking automated requests"
+    "enrichment_reason": "Access denied - website blocking automated requests",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Zumper",
@@ -13477,7 +13562,8 @@
       "Comprehensive search filters",
       "Mobile app for rental search"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "listing-services"
   },
   {
     "title": "Zyter",
@@ -13575,7 +13661,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Not CRE-related - healthcare AI and workflow automation platform"
+    "enrichment_reason": "Not CRE-related - healthcare AI and workflow automation platform",
+    "primary_category": "ai-automation"
   },
   {
     "title": "Buxton",
@@ -13713,7 +13800,8 @@
       "Pre-built analytics for quick deployment",
       "Industry-specific location solutions"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "data-analytics"
   },
   {
     "title": "SiteZeus",
@@ -13856,7 +13944,8 @@
       "Development and operations support",
       "Marketing and sales enablement tools"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "data-analytics"
   },
   {
     "title": "MapZot.ai",
@@ -13948,7 +14037,8 @@
       "Automated data feeds",
       "Market analysis and competitive intelligence"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "data-analytics"
   },
   {
     "title": "Landvision",
@@ -14114,7 +14204,8 @@
       "Third-party data integration",
       "Property research and analysis tools"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "site-selection"
   },
   {
     "title": "LandID",
@@ -14305,7 +14396,8 @@
       "Direct marketing mailing list generation"
     ],
     "pricing_info": "Multiple tiers available including free maps and premium subscription plans",
-    "enriched": true
+    "enriched": true,
+    "primary_category": "data-analytics"
   },
   {
     "title": "Landglide",
@@ -14450,7 +14542,8 @@
       "Real-time GPS tracking and navigation"
     ],
     "pricing_info": "Free 7-day trial, then \\.99/month or \\9.99/year",
-    "enriched": true
+    "enriched": true,
+    "primary_category": "data-analytics"
   },
   {
     "title": "Mapwise",
@@ -14587,7 +14680,8 @@
       "Data export for further analysis",
       "Multi-criteria property search capabilities"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "data-analytics"
   },
   {
     "title": "Zoominfo",
@@ -14761,7 +14855,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Access denied - website blocking automated requests. Also not primarily CRE-focused (general B2B contact database)"
+    "enrichment_reason": "Access denied - website blocking automated requests. Also not primarily CRE-focused (general B2B contact database)",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Zoneomics",
@@ -14933,7 +15028,8 @@
       "Weekly data updates and coverage expansion",
       "Professional platform for accurate zoning information"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "data-analytics"
   },
   {
     "title": "Testfit",
@@ -15125,7 +15221,8 @@
       "Live feasibility reports and markup sharing",
       "Cost analysis and earthwork assessments"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "ai-automation"
   },
   {
     "title": "Birdi",
@@ -15292,7 +15389,8 @@
       "Integration with existing GIS workflows",
       "Cross-team collaboration tools"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "ai-automation"
   },
   {
     "title": "AppFolio",
@@ -15443,7 +15541,8 @@
       "Revenue stream optimization",
       "Resident and investor experience tools"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "property-management"
   },
   {
     "title": "Avail",
@@ -15624,7 +15723,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Website blocking access with Cloudflare security protection"
+    "enrichment_reason": "Website blocking access with Cloudflare security protection",
+    "primary_category": "property-management"
   },
   {
     "title": "Entrata",
@@ -15805,7 +15905,8 @@
       "Multi-property type support (multifamily, student, affordable, military, commercial)",
       "Comprehensive accounting and reporting tools"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "property-management"
   },
   {
     "title": "Innago",
@@ -15969,7 +16070,8 @@
       "Multi-property portfolio management"
     ],
     "pricing_info": "Completely free with no hidden costs",
-    "enriched": true
+    "enriched": true,
+    "primary_category": "property-management"
   },
   {
     "title": "Propertyware",
@@ -16173,7 +16275,8 @@
       "Financial management and reporting"
     ],
     "pricing_info": "Clear pricing with no hidden fees (specific rates not disclosed)",
-    "enriched": true
+    "enriched": true,
+    "primary_category": "property-management"
   },
   {
     "title": "Rent Manager",
@@ -16344,7 +16447,8 @@
       "Electronic bank reconciliation",
       "Extensive training and support resources"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "property-management"
   },
   {
     "title": "Rentec Direct",
@@ -16557,7 +16661,8 @@
       "Award-winning US-based customer support"
     ],
     "pricing_info": "\\ per unit for landlords, \\.50 per unit for professional property managers",
-    "enriched": true
+    "enriched": true,
+    "primary_category": "property-management"
   },
   {
     "title": "RentRedi",
@@ -16755,7 +16860,8 @@
       "Tenant retention and cash flow optimization tools"
     ],
     "pricing_info": "Simple flat-rate pricing with no hidden fees, unlimited units and tenants included",
-    "enriched": true
+    "enriched": true,
+    "primary_category": "property-management"
   },
   {
     "title": "ResMan",
@@ -16903,7 +17009,8 @@
       "Multifamily"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Insufficient website content - only brief user review available, not enough information for proper enrichment"
+    "enrichment_reason": "Insufficient website content - only brief user review available, not enough information for proper enrichment",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "SimplifyEm",
@@ -17055,7 +17162,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Website access blocked by CloudFront - request could not be satisfied"
+    "enrichment_reason": "Website access blocked by CloudFront - request could not be satisfied",
+    "primary_category": "property-management"
   },
   {
     "title": "TurboTenant",
@@ -17250,7 +17358,8 @@
       "Mobile and web accessibility"
     ],
     "pricing_info": "Free basic plan with premium upgrade options available",
-    "enriched": true
+    "enriched": true,
+    "primary_category": "property-management"
   },
   {
     "title": "plotof.land",
@@ -17330,7 +17439,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Website not found - domain does not resolve"
+    "enrichment_reason": "Website not found - domain does not resolve",
+    "primary_category": "construction-development"
   },
   {
     "title": "Cavelit",
@@ -17411,7 +17521,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Website under construction - no product information available"
+    "enrichment_reason": "Website under construction - no product information available",
+    "primary_category": "ai-automation"
   },
   {
     "title": "IDX Site",
@@ -17526,7 +17637,8 @@
       "Analytics and visitor tracking",
       "Mobile-responsive design"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "data-analytics"
   },
   {
     "title": "Rezi",
@@ -17606,7 +17718,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Will attempt to fetch later to save time"
+    "enrichment_reason": "Will attempt to fetch later to save time",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Skyline",
@@ -17700,7 +17813,8 @@
       "Retail"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Will attempt to fetch later to save time"
+    "enrichment_reason": "Will attempt to fetch later to save time",
+    "primary_category": "broker-tools"
   },
   {
     "title": "Redfin",
@@ -17880,7 +17994,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Website blocking access with human verification requirement"
+    "enrichment_reason": "Website blocking access with human verification requirement",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Opendoor",
@@ -18040,7 +18155,8 @@
       "Online home evaluation tools",
       "Streamlined selling experience"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "broker-tools"
   },
   {
     "title": "AirDNA",
@@ -18228,7 +18344,8 @@
       "Revenue optimization tools",
       "Location-based investment recommendations"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "data-analytics"
   },
   {
     "title": "BoomTown",
@@ -18432,7 +18549,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Skipped for time efficiency - batch processing"
+    "enrichment_reason": "Skipped for time efficiency - batch processing",
+    "primary_category": "crm-marketing"
   },
   {
     "title": "Bright MLS",
@@ -18582,7 +18700,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Skipped for time efficiency - batch processing"
+    "enrichment_reason": "Skipped for time efficiency - batch processing",
+    "primary_category": "broker-tools"
   },
   {
     "title": "Dotloop",
@@ -18787,7 +18906,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Skipped for time efficiency - batch processing"
+    "enrichment_reason": "Skipped for time efficiency - batch processing",
+    "primary_category": "broker-tools"
   },
   {
     "title": "Rently",
@@ -18929,7 +19049,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Skipped for time efficiency - batch processing"
+    "enrichment_reason": "Skipped for time efficiency - batch processing",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Sierra Interactive",
@@ -19125,7 +19246,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Skipped for time efficiency - batch processing"
+    "enrichment_reason": "Skipped for time efficiency - batch processing",
+    "primary_category": "crm-marketing"
   },
   {
     "title": "ShowingTime",
@@ -19287,7 +19409,8 @@
       "Calendar integration",
       "Client communication tools"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "broker-tools"
   },
   {
     "title": "RealtyMogul",
@@ -19445,7 +19568,8 @@
       "Residential"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Skipped for time efficiency - batch processing"
+    "enrichment_reason": "Skipped for time efficiency - batch processing",
+    "primary_category": "crowdfunding-investing"
   },
   {
     "title": "Placester",
@@ -19630,7 +19754,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Skipped for time efficiency - batch processing"
+    "enrichment_reason": "Skipped for time efficiency - batch processing",
+    "primary_category": "crm-marketing"
   },
   {
     "title": "TransUnion SmartMove",
@@ -19800,7 +19925,8 @@
       "Online screening platform",
       "Identity verification services"
     ],
-    "enriched": true
+    "enriched": true,
+    "primary_category": "property-management"
   },
   {
     "title": "Remine",
@@ -19891,7 +20017,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Skipped for time efficiency - batch processing"
+    "enrichment_reason": "Skipped for time efficiency - batch processing",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Mynd",
@@ -20068,7 +20195,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Skipped for time efficiency - batch processing"
+    "enrichment_reason": "Skipped for time efficiency - batch processing",
+    "primary_category": "property-management"
   },
   {
     "title": "HouseCanary",
@@ -20254,7 +20382,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Skipped for time efficiency - batch processing"
+    "enrichment_reason": "Skipped for time efficiency - batch processing",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "CINC",
@@ -20450,7 +20579,8 @@
       "Commercial"
     ],
     "enrichment_failed": true,
-    "enrichment_reason": "Skipped for time efficiency - batch processing"
+    "enrichment_reason": "Skipped for time efficiency - batch processing",
+    "primary_category": "broker-tools"
   },
   {
     "title": "Rentometer",
@@ -20617,7 +20747,8 @@
     ],
     "pricing_info": "Subscription-based pricing with Essential and Pro tiers. Essential includes QuickView estimates, Pro Reports, rent comp downloads, custom branding, and mobile access. Pro tier adds API access, Yield Tracker, Batch Processor, and Lead Generation tools. Contact for specific pricing details.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:28:53.678390Z"
+    "enrichedAt": "2026-02-17T23:28:53.678390Z",
+    "primary_category": "property-management"
   },
   {
     "title": "DoorLoop",
@@ -20868,7 +20999,8 @@
     ],
     "pricing_info": "Subscription-based pricing starting at $69/month with plans that scale by unit count and feature needs. Higher tiers include advanced features like full accounting, maintenance management, and extensive integrations. Contact for specific pricing tiers and custom enterprise solutions.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:29:10.695824Z"
+    "enrichedAt": "2026-02-17T23:29:10.695824Z",
+    "primary_category": "property-management"
   },
   {
     "title": "RealCrowd",
@@ -20989,7 +21121,8 @@
     ],
     "pricing_info": "Platform has transitioned to Trinity Investors. Historical investments through RealCrowd remain unchanged. Pricing and investment minimums would be determined by individual investment opportunities and Trinity Investors terms. Contact Trinity Investors for current investment requirements and fee structure.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:29:24.585950Z"
+    "enrichedAt": "2026-02-17T23:29:24.585950Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "LeaseQuery",
@@ -21182,7 +21315,8 @@
     ],
     "pricing_info": "Multiple pricing tiers: LeaseGuru (free for first 2 leases), Essential (for portfolios of 25 leases and under), full LeaseQuery solution, and NetSuite-integrated version. Quote-based pricing for larger implementations with enterprise support and training included.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:29:57.672753Z"
+    "enrichedAt": "2026-02-17T23:29:57.672753Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Roofstock",
@@ -21348,7 +21482,8 @@
     ],
     "pricing_info": "Service-based pricing model with fees typically structured around property acquisitions, management services, and transaction volumes. Contact Roofstock directly for specific pricing on acquisitions, property management fees, and institutional investment solutions.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:30:20.696069Z"
+    "enrichedAt": "2026-02-17T23:30:20.696069Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Mashvisor",
@@ -21554,7 +21689,8 @@
     ],
     "pricing_info": "Subscription-based pricing with multiple tiers including Standard Quarterly plans. Offers different pricing levels based on features and data access needs. Contact for specific pricing on premium features, API access, and enterprise solutions.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:30:38.470824Z"
+    "enrichedAt": "2026-02-17T23:30:38.470824Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Hemlane",
@@ -21761,7 +21897,8 @@
     ],
     "pricing_info": "Transparent pricing model where 100% of rent goes to the property owner with no surprise deductions or hidden cuts. Service fees likely structured around tenant placement and ongoing management services rather than percentage-based cuts of rental income. Contact for specific pricing details.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:30:55.520359Z"
+    "enrichedAt": "2026-02-17T23:30:55.520359Z",
+    "primary_category": "property-management"
   },
   {
     "title": "Stessa",
@@ -21951,7 +22088,8 @@
     ],
     "pricing_info": "Freemium model with Essentials (free), Manage, and Pro (premium) subscription tiers. Free plan includes basic features, while Pro subscribers get 3.24% APY on banking services and 1.10% cash back on debit purchases. Premium plans offer enhanced reporting, banking benefits, and advanced features.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:31:12.940149Z"
+    "enrichedAt": "2026-02-17T23:31:12.940149Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "DealMachine",
@@ -22128,7 +22266,8 @@
     ],
     "pricing_info": "Subscription-based pricing model with unlimited access to property owner contact information included. Pricing tiers likely based on feature access including AI dialer, direct mail volume, and advanced list building capabilities. Contact for specific pricing details on premium features and enterprise solutions.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:31:31.719597Z"
+    "enrichedAt": "2026-02-17T23:31:31.719597Z",
+    "primary_category": "crm-marketing"
   },
   {
     "title": "Knock",
@@ -22283,7 +22422,8 @@
     ],
     "pricing_info": "Enterprise-focused pricing model with custom solutions based on property portfolio size and feature requirements. Demo-based sales process with pricing tailored to multifamily operations scale and specific technology needs. Contact for detailed pricing information and implementation packages.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:31:50.505369Z"
+    "enrichedAt": "2026-02-17T23:31:50.505369Z",
+    "primary_category": "crm-marketing"
   },
   {
     "title": "RoofSnap",
@@ -22452,7 +22592,8 @@
     ],
     "pricing_info": "Flexible pricing model with pay-as-you-go measurements and subscription options. Payment processing rates: Credit cards as low as 2.9% + $0.30 per transaction, ACH processing at 1% per successful charge. Rush measurement orders available for faster turnaround, subscription plans available for frequent users.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:32:12.151438Z"
+    "enrichedAt": "2026-02-17T23:32:12.151438Z",
+    "primary_category": "broker-tools"
   },
   {
     "title": "Property Meld",
@@ -22605,7 +22746,8 @@
     ],
     "pricing_info": "Contact-based pricing model tailored to property management portfolio size and specific maintenance operation needs. Pricing likely based on number of units managed and feature requirements. Integration partnerships with major property management platforms suggest enterprise-focused solutions.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:32:38.157924Z"
+    "enrichedAt": "2026-02-17T23:32:38.157924Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Clear Capital",
@@ -22744,7 +22886,8 @@
     ],
     "enrichment_failed": true,
     "failure_reason": "403 Forbidden - Website blocks automated requests",
-    "enrichedAt": "2026-02-17T23:32:48.642532Z"
+    "enrichedAt": "2026-02-17T23:32:48.642532Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Cozy",
@@ -22837,7 +22980,8 @@
     ],
     "enrichment_failed": true,
     "failure_reason": "Access Denied - Website blocks automated requests",
-    "enrichedAt": "2026-02-17T23:32:56.705728Z"
+    "enrichedAt": "2026-02-17T23:32:56.705728Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Obie",
@@ -22998,7 +23142,8 @@
     ],
     "pricing_info": "Competitive insurance premiums with quick online quotes available in 15 minutes. Pricing based on property type, location, coverage needs, and investment strategy (fix-and-flip vs long-term rental). Custom quotes tailored to specific property portfolios and lender requirements.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:33:14.736517Z"
+    "enrichedAt": "2026-02-17T23:33:14.736517Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Tenant Turner",
@@ -23130,7 +23275,8 @@
     ],
     "enrichment_failed": true,
     "failure_reason": "Web fetch failed - Unable to connect to website",
-    "enrichedAt": "2026-02-17T23:33:24.268200Z"
+    "enrichedAt": "2026-02-17T23:33:24.268200Z",
+    "primary_category": "crm-marketing"
   },
   {
     "title": "Wealthfront",
@@ -23299,7 +23445,8 @@
     ],
     "pricing_info": "Competitive fee-based pricing structure typical of robo-advisor platforms. High-yield Cash Account offers 3.30% base APY with promotional rates up to 3.95% for new accounts. No account fees, minimum balances, or withdrawal fees for cash accounts. Investment management fees likely based on assets under management percentage.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:33:42.924847Z"
+    "enrichedAt": "2026-02-17T23:33:42.924847Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "SimpleNexus",
@@ -23448,7 +23595,8 @@
     ],
     "pricing_info": "Enterprise-focused pricing model for financial institutions. Trusted by over 2,700 financial institutions. Custom pricing based on institution size, loan volume, and feature requirements. Contact nCino for detailed pricing and implementation packages.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:33:59.771579Z"
+    "enrichedAt": "2026-02-17T23:33:59.771579Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Fund That Flip",
@@ -23567,7 +23715,8 @@
     ],
     "enrichment_failed": true,
     "failure_reason": "403 Forbidden - Website blocks automated requests with access control",
-    "enrichedAt": "2026-02-17T23:34:08.499847Z"
+    "enrichedAt": "2026-02-17T23:34:08.499847Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "LendingHome",
@@ -23702,7 +23851,8 @@
     ],
     "pricing_info": "Competitive interest rates and terms based on loan terms, borrower qualifications, LTV ratios, and property factors. Rates are subject to change and vary by project type. Contact Kiavi (formerly LendingHome) for specific rate quotes and loan terms based on individual investment scenarios.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:34:27.169168Z"
+    "enrichedAt": "2026-02-17T23:34:27.169168Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "PeerStreet",
@@ -23801,7 +23951,8 @@
     ],
     "pricing_info": "Returns based on interest payments from underlying real estate loans, with rates varying by loan terms, LTV ratios, and borrower profiles. PeerStreet Pocket offers 4.00% interest on uninvested cash. No maintenance fees or minimum balances. Returns are investment-based rather than fee-based pricing model.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:34:45.341709Z"
+    "enrichedAt": "2026-02-17T23:34:45.341709Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Property Finder",
@@ -23974,7 +24125,8 @@
     ],
     "pricing_info": "Free property search and platform access for users. Revenue likely generated through agent commissions, developer partnerships, and premium listing services. Mortgage brokers and SuperAgents pay for platform access and lead generation. No direct fees to property seekers or investors using the platform.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:35:07.892651Z"
+    "enrichedAt": "2026-02-17T23:35:07.892651Z",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "JustPark",
@@ -24143,7 +24295,8 @@
     ],
     "pricing_info": "Free platform for drivers to find and book parking with competitive rates guaranteed. Free listing service for property owners renting out spaces. Revenue generated through booking commissions and business solutions. Property owners earn tax-free income with simple setup process taking just a few minutes.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:35:27.812633Z"
+    "enrichedAt": "2026-02-17T23:35:27.812633Z",
+    "primary_category": "property-management"
   },
   {
     "title": "CRED iQ",
@@ -24304,7 +24457,8 @@
     ],
     "enrichment_failed": true,
     "failure_reason": "Access Denied - Geographic location restrictions blocking access",
-    "enrichedAt": "2026-02-17T23:35:38.440435Z"
+    "enrichedAt": "2026-02-17T23:35:38.440435Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "CoFoundersLab",
@@ -24400,7 +24554,8 @@
     ],
     "pricing_info": "Community-based platform likely offering freemium model with premium memberships for enhanced features. Access to basic community features may be free, with paid tiers for advanced matching, direct advisor access, premium funding resources, and exclusive investor networks.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:35:56.867089Z"
+    "enrichedAt": "2026-02-17T23:35:56.867089Z",
+    "primary_category": "broker-tools"
   },
   {
     "title": "ParkMobile",
@@ -24574,7 +24729,8 @@
     ],
     "pricing_info": "Free mobile app for consumers with pay-per-use parking fees. Business solutions likely subscription or usage-based pricing for companies managing multiple users and vehicles. Parking providers and enterprise customers receive custom pricing based on scale and specific requirements.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:36:19.127662Z"
+    "enrichedAt": "2026-02-17T23:36:19.127662Z",
+    "primary_category": "broker-tools"
   },
   {
     "title": "RentPath",
@@ -24677,7 +24833,8 @@
     ],
     "pricing_info": "RentPath services have been discontinued as of June 15th, 2025. Multifamily properties (25+ units) must now contract directly with Zillow for listing services. Single-family rentals and smaller properties can use Redfin Rental Tools for free. Outstanding invoices can be paid through pay.rent.com portal.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:36:41.768533Z"
+    "enrichedAt": "2026-02-17T23:36:41.768533Z",
+    "primary_category": "crm-marketing"
   },
   {
     "title": "DoorDash Drive",
@@ -24764,7 +24921,8 @@
     "tagline": "Logistics and delivery service for real estate businesses.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "data-analytics"
   },
   {
     "title": "PadMapper",
@@ -24853,7 +25011,8 @@
     "tagline": "Rental listings and apartment search platform.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "listing-services"
   },
   {
     "title": "Floored",
@@ -24943,7 +25102,8 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "primary_category": "construction-development"
   },
   {
     "title": "CRE Data Extractor",
@@ -25054,7 +25214,8 @@
     ],
     "pricing_info": "Pricing model not explicitly stated on the website. Likely offers pay-per-use, subscription-based, or freemium pricing for rent roll processing services. Users agree to Terms of Service for usage, suggesting potential paid tiers or usage limitations.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:37:00.939626Z"
+    "enrichedAt": "2026-02-17T23:37:00.939626Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Comp Crunch",
@@ -25169,7 +25330,8 @@
     ],
     "pricing_info": "Chrome extension with pricing not explicitly stated on website. Likely offers free basic features with premium paid tiers for advanced functionality. Additional custom real estate technology consulting services available for advanced solutions, data integrations, and AI automation implementations.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:37:16.706506Z"
+    "enrichedAt": "2026-02-17T23:37:16.706506Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Mustwants",
@@ -25266,7 +25428,8 @@
     "tagline": "Visual Collaborative Decision Making for buyers, renters that permits Real Estate Professionals to engage with clients and reduce the stress of relocation..",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "site-selection"
   },
   {
     "title": "Deal Nav",
@@ -25348,7 +25511,8 @@
     "tagline": "A simple and affordable CRM and Deal Management tool for high-value real estate deals and contacts.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "broker-tools"
   },
   {
     "title": "Appraisal Inbox",
@@ -25502,7 +25666,8 @@
     "tagline": "Appraisal Inbox combines appraisal order tracking, workflow automation, scheduling, contact management, and communication tools into one comprehensive real estate appraisal software package.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "crm-marketing"
   },
   {
     "title": "Deco Base",
@@ -25597,7 +25762,8 @@
     "tagline": "Deco Base makes AI powered tools for Real Estate Developers. We help automate manual, document based workflows like Bank Draws and Plan Checks.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "ai-automation"
   },
   {
     "title": "Dealz: Real Estate Estimator",
@@ -25699,7 +25865,8 @@
     "tagline": "Estimate and calculate residential properties",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "ai-automation"
   },
   {
     "title": "Realie Property Data API",
@@ -25823,7 +25990,8 @@
     ],
     "pricing_info": "API-based pricing model likely offering tiered access based on usage volume and features. Enterprise custom solutions available for high-volume users. Pricing details available through API documentation and direct consultation for custom enterprise implementations.",
     "enriched": true,
-    "enrichedAt": "2026-02-17T23:37:34.305980Z"
+    "enrichedAt": "2026-02-17T23:37:34.305980Z",
+    "primary_category": "data-analytics"
   },
   {
     "title": "MapZot.AI",
@@ -25938,7 +26106,8 @@
     "tagline": "MapZot.AI is an AI-powered platform that provides real-time insights into site selection, competitor analysis, and market trends to help businesses identify the most profitable locations.",
     "property_types": [
       "Retail"
-    ]
+    ],
+    "primary_category": "ai-automation"
   },
   {
     "title": "TerraPrime",
@@ -26061,7 +26230,8 @@
       "Industrial",
       "Office",
       "Retail"
-    ]
+    ],
+    "primary_category": "data-analytics"
   },
   {
     "title": "Latapult GIS",
@@ -26191,7 +26361,8 @@
     "tagline": "Latapult is a premier Geographic Information System (GIS) platform for anyone who needs to understand land.",
     "property_types": [
       "Residential"
-    ]
+    ],
+    "primary_category": "site-selection"
   },
   {
     "title": "Casafy AI",
@@ -26270,7 +26441,8 @@
     "tagline": "Search for value add properties across the United States",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "ai-automation"
   },
   {
     "title": "PropTracer",
@@ -26423,7 +26595,8 @@
     "tagline": "PropTracer is the top U.S. skip-tracing platform that provides commercial and residential real estate professionals with accurate owner phone and email data in seconds.",
     "property_types": [
       "Residential"
-    ]
+    ],
+    "primary_category": "crm-marketing"
   },
   {
     "title": "Elementix",
@@ -26503,7 +26676,8 @@
     "tagline": "Elementix is a borrower intelligence platform that lets private lenders search real estate investors by name and understand their experience, activity, and lending patterns.",
     "property_types": [
       "Commercial"
-    ]
+    ],
+    "primary_category": "ai-automation"
   },
   {
     "title": "MRI Software",
@@ -26697,7 +26871,8 @@
       "Mixed-Use"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "property-management"
   },
   {
     "title": "Building Engines",
@@ -26859,7 +27034,8 @@
       "Office"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "property-management"
   },
   {
     "title": "Re-Leased",
@@ -27020,7 +27196,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "property-management"
   },
   {
     "title": "Blooma",
@@ -27194,7 +27371,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "ai-automation"
   },
   {
     "title": "Accruent",
@@ -27359,7 +27537,8 @@
       "Healthcare"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "workplace-space-management"
   },
   {
     "title": "Planon",
@@ -27536,7 +27715,8 @@
       "Campus"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "workplace-space-management"
   },
   {
     "title": "Prophia",
@@ -27726,7 +27906,8 @@
       "Industrial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "ai-automation"
   },
   {
     "title": "Dottid",
@@ -27896,7 +28077,8 @@
       "Retail"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "property-management"
   },
   {
     "title": "Tango",
@@ -28078,7 +28260,8 @@
       "Office"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "workplace-space-management"
   },
   {
     "title": "Nakisa",
@@ -28241,7 +28424,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "accounting-finance"
   },
   {
     "title": "InvestNext",
@@ -28411,7 +28595,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Agora Real Estate",
@@ -28564,7 +28749,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Covercy",
@@ -28748,7 +28934,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "Janover Connect",
@@ -28900,7 +29087,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "CrowdStreet",
@@ -29040,7 +29228,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "crowdfunding-investing"
   },
   {
     "title": "Noda (formerly Aquicore)",
@@ -29193,7 +29382,8 @@
       "Office"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "ai-automation"
   },
   {
     "title": "ClientLook (LightBox)",
@@ -29352,7 +29542,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "data-analytics"
   },
   {
     "title": "STRATAFOLIO",
@@ -29506,7 +29697,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "property-management"
   },
   {
     "title": "Brivo",
@@ -29695,7 +29887,8 @@
       "Industrial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "tenant-experience"
   },
   {
     "title": "Lessen",
@@ -29857,7 +30050,8 @@
       "Residential"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "property-management"
   },
   {
     "title": "MRI Angus",
@@ -30000,7 +30194,8 @@
       "Office"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "tenant-experience"
   },
   {
     "title": "Lobby CRE",
@@ -30121,7 +30316,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "ai-automation"
   },
   {
     "title": "CommissionTrac",
@@ -30251,7 +30447,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "broker-tools"
   },
   {
     "title": "SharpLaunch",
@@ -30392,7 +30589,8 @@
       "Retail"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "crm-marketing"
   },
   {
     "title": "Sage 300 Construction and Real Estate",
@@ -30544,7 +30742,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "property-management"
   },
   {
     "title": "PropertyShark",
@@ -30701,7 +30900,8 @@
       "Residential"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Occupier",
@@ -30861,7 +31061,8 @@
       "Retail"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "accounting-finance"
   },
   {
     "title": "IBM TRIRIGA",
@@ -31023,7 +31224,8 @@
       "Office"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "property-management"
   },
   {
     "title": "Corrigo",
@@ -31183,7 +31385,8 @@
       "Retail"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "property-management"
   },
   {
     "title": "Cadre",
@@ -31301,7 +31504,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "crowdfunding-investing"
   },
   {
     "title": "Quarem",
@@ -31428,7 +31632,8 @@
       "Office"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "property-management"
   },
   {
     "title": "TheAnalyst PRO",
@@ -31608,7 +31813,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "investment-valuation"
   },
   {
     "title": "MSCI Real Capital Analytics",
@@ -31759,7 +31965,8 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "data-analytics"
   },
   {
     "title": "Moody's REIS",
@@ -31911,6 +32118,7 @@
       "Commercial"
     ],
     "enriched": true,
-    "enrichedAt": "2026-02-19T09:15:00.000000+00:00"
+    "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
+    "primary_category": "data-analytics"
   }
 ]

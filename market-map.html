@@ -378,7 +378,7 @@
       PRODUCTS = await prodRes.json();
       CATEGORIES = await catRes.json();
 
-      document.getElementById('product-count').textContent = `Total: ${PRODUCTS.length} companies across ${Object.keys(CATEGORIES).length} categories`;
+      document.getElementById('product-count').textContent = `${PRODUCTS.length} companies across ${Object.keys(CATEGORIES).length} categories`;
 
       render();
 
@@ -404,13 +404,23 @@
       const productIndex = {};
       PRODUCTS.forEach(p => { productIndex[p.slug] = p; });
 
+      // Group products by primary_category (each company appears once)
+      const byPrimary = {};
+      PRODUCTS.forEach(p => {
+        const cat = p.primary_category;
+        if (!cat) return;
+        if (!byPrimary[cat]) byPrimary[cat] = [];
+        byPrimary[cat].push(p);
+      });
+      // Sort each group alphabetically
+      Object.values(byPrimary).forEach(arr => arr.sort((a, b) => a.title.localeCompare(b.title)));
+
       // Build layout
       let html = '';
       let gridBuffer = [];
 
       function flushGrid() {
         if (gridBuffer.length === 0) return;
-        // Pair up half-width categories
         html += '<div class="category-grid">';
         gridBuffer.forEach(h => { html += h; });
         html += '</div>';
@@ -421,14 +431,14 @@
         const cat = CATEGORIES[co.slug];
         if (!cat) return;
 
-        const catProducts = cat.products
-          .map(slug => productIndex[slug])
-          .filter(Boolean)
-          .sort((a, b) => a.title.localeCompare(b.title));
+        const catProducts = byPrimary[co.slug] || [];
+        if (catProducts.length === 0) return;
 
+        // Auto-size: full if 15+, half otherwise
+        const size = catProducts.length >= 15 ? 'full' : 'half';
         const boxHtml = renderCategory(cat, catProducts);
 
-        if (co.size === 'full') {
+        if (size === 'full') {
           flushGrid();
           html += boxHtml;
         } else {
@@ -441,10 +451,8 @@
       const usedSlugs = new Set(CATEGORY_ORDER.map(c => c.slug));
       Object.entries(CATEGORIES).forEach(([slug, cat]) => {
         if (usedSlugs.has(slug)) return;
-        const catProducts = cat.products
-          .map(s => productIndex[s])
-          .filter(Boolean)
-          .sort((a, b) => a.title.localeCompare(b.title));
+        const catProducts = byPrimary[slug] || [];
+        if (catProducts.length === 0) return;
         gridBuffer.push(renderCategory(cat, catProducts));
         if (gridBuffer.length === 2) flushGrid();
       });
