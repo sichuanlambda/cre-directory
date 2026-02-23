@@ -289,7 +289,7 @@ async function initHome() {
   const pillsEl = document.getElementById('hero-pills');
   if (pillsEl) {
     const topCats = Object.values(CATEGORIES).sort((a, b) => b.product_count - a.product_count).slice(0, 6);
-    pillsEl.innerHTML = `<span class="quick-filters-label">Browse</span>` + topCats.map(c => `<a href="category.html#${c.slug}" class="hero-pill">${c.name}</a>`).join('');
+    pillsEl.innerHTML = `<span class="quick-filters-label">Explore</span>` + topCats.map(c => `<a href="category.html#${c.slug}" class="hero-pill">${c.name}</a>`).join('');
   }
 
   // Categories - carousel on homepage
