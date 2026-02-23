@@ -97,14 +97,16 @@ nav .nav-links a.active { color: var(--white); background: rgba(255,255,255,0.12
 .search-icon-svg { position: absolute; left: 18px; top: 50%; transform: translateY(-50%); color: var(--gray-400); }
 .search-box .search-icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); font-size: 18px; }
 
-/* Hero pills */
+/* Hero pills — category navigation links */
 .hero-pills { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
 .hero-pill {
-  padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: 500;
-  background: rgba(255,255,255,0.1); color: var(--gray-300); border: 1px solid rgba(255,255,255,0.12);
-  transition: all 0.2s; text-decoration: none;
+  padding: 6px 14px 6px 12px; border-radius: 20px; font-size: 13px; font-weight: 500;
+  background: rgba(255,255,255,0.06); color: var(--gray-400); border: 1px solid rgba(255,255,255,0.1);
+  transition: all 0.2s; text-decoration: none; display: inline-flex; align-items: center; gap: 4px;
 }
-.hero-pill:hover { background: rgba(255,255,255,0.18); color: var(--white); text-decoration: none; border-color: rgba(255,255,255,0.25); }
+.hero-pill::after { content: '→'; font-size: 11px; opacity: 0.5; transition: opacity 0.2s, transform 0.2s; }
+.hero-pill:hover { background: rgba(255,255,255,0.14); color: var(--white); text-decoration: none; border-color: rgba(255,255,255,0.25); }
+.hero-pill:hover::after { opacity: 1; transform: translateX(2px); }
 
 /* Social proof bar */
 .social-proof-bar { background: var(--gray-50); border-bottom: 1px solid var(--gray-200); padding: 12px 0; }
@@ -633,11 +635,12 @@ footer span { font-size: 14px; }
 .search-hint kbd { padding: 2px 6px; background: rgba(255,255,255,0.15); border-radius: 4px; font-family: inherit; font-size: 11px; border: 1px solid rgba(255,255,255,0.2); }
 
 /* ===== QUICK FILTERS ===== */
-.quick-filters { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.quick-filters { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px; margin-top: 16px; align-items: center; }
+.quick-filters-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; color: rgba(255,255,255,0.35); margin-right: 4px; }
 .filter-pill {
-  padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: 500;
+  padding: 6px 14px; border-radius: 8px; font-size: 12px; font-weight: 600;
   background: rgba(255,255,255,0.08); color: var(--gray-300); border: 1px solid rgba(255,255,255,0.15);
-  cursor: pointer; transition: all 0.2s; user-select: none;
+  cursor: pointer; transition: all 0.2s; user-select: none; text-transform: uppercase; letter-spacing: 0.3px;
 }
 .filter-pill:hover { background: rgba(255,255,255,0.15); color: var(--white); }
 .filter-pill.active { background: var(--accent); color: var(--white); border-color: var(--accent); }

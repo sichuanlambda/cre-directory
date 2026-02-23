@@ -289,7 +289,7 @@ async function initHome() {
   const pillsEl = document.getElementById('hero-pills');
   if (pillsEl) {
     const topCats = Object.values(CATEGORIES).sort((a, b) => b.product_count - a.product_count).slice(0, 6);
-    pillsEl.innerHTML = topCats.map(c => `<a href="category.html#${c.slug}" class="hero-pill">${c.name}</a>`).join('');
+    pillsEl.innerHTML = `<span class="quick-filters-label">Browse</span>` + topCats.map(c => `<a href="category.html#${c.slug}" class="hero-pill">${c.name}</a>`).join('');
   }
 
   // Categories - carousel on homepage
@@ -344,7 +344,7 @@ async function initHome() {
       { label: 'Has Pricing', key: 'has_pricing' },
       ...propTypes.map(t => ({ label: t, key: 'pt:' + t }))
     ];
-    quickFiltersEl.innerHTML = filterDefs.map(f => `<span class="filter-pill" data-filter="${f.key}">${f.label}</span>`).join('');
+    quickFiltersEl.innerHTML = `<span class="quick-filters-label">Filter</span>` + filterDefs.map(f => `<span class="filter-pill" data-filter="${f.key}">${f.label}</span>`).join('');
     quickFiltersEl.addEventListener('click', (e) => {
       const pill = e.target.closest('.filter-pill');
       if (!pill) return;
