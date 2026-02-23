@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRE Software Market Map — Commercial Real Estate Technology Landscape</title>
+  <meta name="description" content="Visual market map of 200+ commercial real estate software companies organized by category. Explore the CRE tech landscape at a glance.">
+  <meta property="og:title" content="CRE Software Market Map">
+  <meta property="og:description" content="The complete commercial real estate technology landscape — 200+ tools across 14 categories.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cresoftware.tech/market-map.html">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #fff;
+      color: #1a1a1a;
+      min-height: 100vh;
+    }
+
+    /* Nav */
+    nav {
+      background: #fff;
+      border-bottom: 1px solid #e5e7eb;
+      padding: 0 24px;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+    .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 18px;
+      color: #1a1a1a;
+    }
+    .logo span { color: #6b7280; font-weight: 500; }
+    .logo-icon { width: 24px; height: 24px; }
+    .nav-links { display: flex; gap: 24px; }
+    .nav-links a {
+      text-decoration: none;
+      color: #6b7280;
+      font-size: 14px;
+      font-weight: 500;
+      transition: color 0.15s;
+    }
+    .nav-links a:hover { color: #1a1a1a; }
+    .nav-links a.active { color: #2563eb; }
+
+    /* Header */
+    .map-header {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 32px 24px 8px;
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .map-title {
+      font-size: 24px;
+      font-weight: 800;
+      color: #1a1a1a;
+      letter-spacing: -0.5px;
+    }
+    .map-subtitle {
+      font-size: 14px;
+      color: #6b7280;
+      font-weight: 500;
+    }
+    .map-controls {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+    }
+    .search-box {
+      padding: 6px 12px;
+      border: 1px solid #d1d5db;
+      border-radius: 8px;
+      font-size: 13px;
+      font-family: inherit;
+      width: 220px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .search-box:focus { border-color: #2563eb; }
+    .search-box::placeholder { color: #9ca3af; }
+
+    /* Map container */
+    .map-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 16px 24px 48px;
+    }
+
+    /* Category boxes */
+    .category-box {
+      border: 1.5px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 16px 20px 14px;
+      margin-bottom: 16px;
+      transition: border-color 0.2s;
+    }
+    .category-box:hover { border-color: #d1d5db; }
+    .category-label {
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: #6b7280;
+      text-align: center;
+      margin-bottom: 12px;
+    }
+    .category-count {
+      color: #9ca3af;
+      font-weight: 500;
+    }
+
+    /* Product chips */
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+    }
+    .chip {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 5px 12px 5px 6px;
+      border: 1px solid #e5e7eb;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 500;
+      color: #374151;
+      background: #fff;
+      cursor: pointer;
+      text-decoration: none;
+      transition: all 0.15s;
+      position: relative;
+      white-space: nowrap;
+    }
+    .chip:hover {
+      border-color: #2563eb;
+      background: #eff6ff;
+      color: #1d4ed8;
+      transform: translateY(-1px);
+      box-shadow: 0 2px 8px rgba(37, 99, 235, 0.12);
+    }
+    .chip.highlighted {
+      border-color: #2563eb;
+      background: #dbeafe;
+      color: #1d4ed8;
+    }
+    .chip.dimmed {
+      opacity: 0.25;
+    }
+    .chip-logo {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      object-fit: cover;
+      background: #f3f4f6;
+      flex-shrink: 0;
+    }
+    .chip-logo-placeholder {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background: #e5e7eb;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 700;
+      color: #6b7280;
+      flex-shrink: 0;
+    }
+
+    /* Tooltip */
+    .tooltip {
+      display: none;
+      position: fixed;
+      z-index: 1000;
+      background: #fff;
+      border: 1px solid #e5e7eb;
+      border-radius: 12px;
+      padding: 16px;
+      width: 320px;
+      box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+      pointer-events: none;
+    }
+    .tooltip.visible { display: block; }
+    .tooltip-header {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+    .tooltip-logo {
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      object-fit: cover;
+      background: #f3f4f6;
+    }
+    .tooltip-name {
+      font-size: 15px;
+      font-weight: 700;
+      color: #1a1a1a;
+    }
+    .tooltip-desc {
+      font-size: 13px;
+      line-height: 1.5;
+      color: #4b5563;
+      margin-bottom: 10px;
+      display: -webkit-box;
+      -webkit-line-clamp: 5;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .tooltip-url {
+      font-size: 12px;
+      color: #6b7280;
+    }
+    .tooltip-url strong { color: #374151; }
+    .tooltip-cats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin-top: 8px;
+    }
+    .tooltip-cat {
+      font-size: 10px;
+      padding: 2px 8px;
+      background: #f3f4f6;
+      border-radius: 4px;
+      color: #6b7280;
+      font-weight: 500;
+    }
+
+    /* Grid layout for smaller categories */
+    .category-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+    }
+    .category-grid .category-box { margin-bottom: 0; }
+
+    /* Full width categories */
+    .category-full { /* default, full width */ }
+
+    /* Footer */
+    .map-footer {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 24px 48px;
+      text-align: center;
+      font-size: 13px;
+      color: #9ca3af;
+    }
+    .map-footer a { color: #6b7280; text-decoration: none; }
+    .map-footer a:hover { color: #2563eb; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .category-grid { grid-template-columns: 1fr; }
+      .map-header { flex-direction: column; }
+      .search-box { width: 100%; }
+      .tooltip { width: 280px; }
+      .chip { font-size: 12px; padding: 4px 10px 4px 5px; }
+      .chip-logo, .chip-logo-placeholder { width: 18px; height: 18px; }
+    }
+
+    .mobile-toggle { display: none; }
+    @media (max-width: 640px) {
+      .mobile-toggle {
+        display: block;
+        background: none;
+        border: none;
+        font-size: 22px;
+        cursor: pointer;
+        color: #374151;
+      }
+      .nav-links { display: none; }
+      .nav-links.open {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 56px;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-bottom: 1px solid #e5e7eb;
+        padding: 16px 24px;
+        gap: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4"/><rect x="9" y="9" width="2" height="2" fill="currentColor" stroke="none"/><rect x="13" y="9" width="2" height="2" fill="currentColor" stroke="none"/><rect x="9" y="13" width="2" height="2" fill="currentColor" stroke="none"/><rect x="13" y="13" width="2" height="2" fill="currentColor" stroke="none"/></svg>
+        CRE<span>Software</span>
+      </a>
+      <button class="mobile-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Directory</a>
+        <a href="market-map.html" class="active">Market Map</a>
+        <a href="compare.html">Compare</a>
+        <a href="submit.html">Submit a Tool</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="map-header">
+    <div>
+      <div class="map-title">CRE Software Market Map</div>
+      <div class="map-subtitle" id="product-count">Loading...</div>
+    </div>
+    <div class="map-controls">
+      <input type="text" class="search-box" placeholder="Search companies..." id="search" autocomplete="off">
+    </div>
+  </div>
+
+  <div class="map-container" id="map"></div>
+
+  <div class="map-footer">
+    <p>Data compiled by <a href="index.html">CRESoftware.tech</a> · <a href="submit.html">Submit a tool</a> · Updated 2026</p>
+  </div>
+
+  <div class="tooltip" id="tooltip"></div>
+
+  <script>
+    let PRODUCTS = [];
+    let CATEGORIES = {};
+    const tooltip = document.getElementById('tooltip');
+    let tooltipTimeout = null;
+
+    // Category display order + layout hints
+    const CATEGORY_ORDER = [
+      { slug: 'data-analytics', size: 'full' },
+      { slug: 'investment-valuation', size: 'full' },
+      { slug: 'property-management', size: 'half' },
+      { slug: 'construction-development', size: 'half' },
+      { slug: 'crm-marketing', size: 'half' },
+      { slug: 'broker-tools', size: 'half' },
+      { slug: 'ai-automation', size: 'half' },
+      { slug: 'site-selection', size: 'half' },
+      { slug: 'listing-services', size: 'half' },
+      { slug: 'tenant-experience', size: 'half' },
+      { slug: 'accounting-finance', size: 'half' },
+      { slug: 'legal-compliance', size: 'half' },
+      { slug: 'workplace-space-management', size: 'half' },
+      { slug: 'crowdfunding-investing', size: 'half' },
+    ];
+
+    async function init() {
+      const [prodRes, catRes] = await Promise.all([
+        fetch('data/products.json'),
+        fetch('data/categories.json')
+      ]);
+      PRODUCTS = await prodRes.json();
+      CATEGORIES = await catRes.json();
+
+      document.getElementById('product-count').textContent = `Total: ${PRODUCTS.length} companies across ${Object.keys(CATEGORIES).length} categories`;
+
+      render();
+
+      document.getElementById('search').addEventListener('input', (e) => {
+        const q = e.target.value.toLowerCase().trim();
+        document.querySelectorAll('.chip').forEach(chip => {
+          const name = chip.dataset.name.toLowerCase();
+          if (!q) {
+            chip.classList.remove('highlighted', 'dimmed');
+          } else if (name.includes(q)) {
+            chip.classList.add('highlighted');
+            chip.classList.remove('dimmed');
+          } else {
+            chip.classList.add('dimmed');
+            chip.classList.remove('highlighted');
+          }
+        });
+      });
+    }
+
+    function render() {
+      const map = document.getElementById('map');
+      const productIndex = {};
+      PRODUCTS.forEach(p => { productIndex[p.slug] = p; });
+
+      // Build layout
+      let html = '';
+      let gridBuffer = [];
+
+      function flushGrid() {
+        if (gridBuffer.length === 0) return;
+        // Pair up half-width categories
+        html += '<div class="category-grid">';
+        gridBuffer.forEach(h => { html += h; });
+        html += '</div>';
+        gridBuffer = [];
+      }
+
+      CATEGORY_ORDER.forEach(co => {
+        const cat = CATEGORIES[co.slug];
+        if (!cat) return;
+
+        const catProducts = cat.products
+          .map(slug => productIndex[slug])
+          .filter(Boolean)
+          .sort((a, b) => a.title.localeCompare(b.title));
+
+        const boxHtml = renderCategory(cat, catProducts);
+
+        if (co.size === 'full') {
+          flushGrid();
+          html += boxHtml;
+        } else {
+          gridBuffer.push(boxHtml);
+          if (gridBuffer.length === 2) flushGrid();
+        }
+      });
+
+      // Any remaining categories not in our order
+      const usedSlugs = new Set(CATEGORY_ORDER.map(c => c.slug));
+      Object.entries(CATEGORIES).forEach(([slug, cat]) => {
+        if (usedSlugs.has(slug)) return;
+        const catProducts = cat.products
+          .map(s => productIndex[s])
+          .filter(Boolean)
+          .sort((a, b) => a.title.localeCompare(b.title));
+        gridBuffer.push(renderCategory(cat, catProducts));
+        if (gridBuffer.length === 2) flushGrid();
+      });
+      flushGrid();
+
+      map.innerHTML = html;
+
+      // Attach hover events
+      map.querySelectorAll('.chip').forEach(chip => {
+        chip.addEventListener('mouseenter', showTooltip);
+        chip.addEventListener('mousemove', moveTooltip);
+        chip.addEventListener('mouseleave', hideTooltip);
+      });
+    }
+
+    function renderCategory(cat, products) {
+      const chips = products.map(p => {
+        const logoHtml = p.logo_url
+          ? `<img class="chip-logo" src="${p.logo_url}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><span class="chip-logo-placeholder" style="display:none">${p.title.charAt(0)}</span>`
+          : `<span class="chip-logo-placeholder">${p.title.charAt(0)}</span>`;
+
+        return `<a class="chip" href="product.html#${p.slug}" data-slug="${p.slug}" data-name="${p.title}">${logoHtml}${p.title}</a>`;
+      }).join('');
+
+      return `<div class="category-box">
+        <div class="category-label">${cat.name} <span class="category-count">(${products.length})</span></div>
+        <div class="chips">${chips}</div>
+      </div>`;
+    }
+
+    function showTooltip(e) {
+      clearTimeout(tooltipTimeout);
+      const slug = e.currentTarget.dataset.slug;
+      const p = PRODUCTS.find(x => x.slug === slug);
+      if (!p) return;
+
+      const desc = p.description || p.short_description || '';
+      const truncDesc = desc.length > 280 ? desc.slice(0, 280).replace(/\s\S*$/, '') + '…' : desc;
+      const cats = (p.categories || []).map(c => `<span class="tooltip-cat">${c}</span>`).join('');
+
+      tooltip.innerHTML = `
+        <div class="tooltip-header">
+          ${p.logo_url ? `<img class="tooltip-logo" src="${p.logo_url}" alt="" onerror="this.style.display='none'">` : ''}
+          <span class="tooltip-name">${p.title}</span>
+        </div>
+        <div class="tooltip-desc">${truncDesc}</div>
+        ${p.url ? `<div class="tooltip-url"><strong>Website:</strong> ${p.url}</div>` : ''}
+        ${cats ? `<div class="tooltip-cats">${cats}</div>` : ''}
+      `;
+
+      positionTooltip(e);
+      tooltip.classList.add('visible');
+    }
+
+    function moveTooltip(e) {
+      positionTooltip(e);
+    }
+
+    function positionTooltip(e) {
+      const tw = 320;
+      const th = tooltip.offsetHeight || 200;
+      let x = e.clientX + 16;
+      let y = e.clientY + 12;
+
+      if (x + tw > window.innerWidth - 16) x = e.clientX - tw - 16;
+      if (y + th > window.innerHeight - 16) y = e.clientY - th - 12;
+      if (x < 8) x = 8;
+      if (y < 8) y = 8;
+
+      tooltip.style.left = x + 'px';
+      tooltip.style.top = y + 'px';
+    }
+
+    function hideTooltip() {
+      tooltipTimeout = setTimeout(() => {
+        tooltip.classList.remove('visible');
+      }, 50);
+    }
+
+    init();
+  </script>
+</body>
+</html>
