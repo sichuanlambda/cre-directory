@@ -3,11 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Category - CRE Software Directory</title>
-  <meta name="description" content="Browse commercial real estate software by category.">
+  <title id="page-title">Browse CRE Software by Category - CRE Software Directory</title>
+  <meta name="description" id="page-description" content="Browse commercial real estate software by category. Find the right tools for property management, analytics, brokerage, and more.">
+  <meta property="og:title" id="og-title" content="CRE Software Categories - Find the Right Tools">
+  <meta property="og:description" id="og-description" content="Browse commercial real estate software by category.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" id="og-url" content="https://cresoftware.tech/category.html">
+  <meta property="og:image" content="https://cresoftware.tech/css/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" id="twitter-title" content="CRE Software Categories">
+  <meta name="twitter:description" id="twitter-description" content="Browse commercial real estate software by category.">
+  <link rel="canonical" id="canonical-url" href="https://cresoftware.tech/category.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json" id="structured-data">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "CRE Software Categories",
+    "description": "Browse commercial real estate software by category",
+    "url": "https://cresoftware.tech/category.html",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "CRE Software Directory",
+      "url": "https://cresoftware.tech/"
+    }
+  }
+  </script>
 </head>
 <body>
   <nav>
@@ -22,7 +47,51 @@
       </div>
     </div>
   </nav>
-  <div class="category-header" id="category-header"></div>
+
+  <!-- Server-side content for crawlers -->
+  <section class="category-breadcrumb" id="category-breadcrumb">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <a href="index.html">Home</a> / <span id="category-breadcrumb-name">Categories</span>
+      </nav>
+    </div>
+  </section>
+
+  <div class="category-header" id="category-header">
+    <div class="container">
+      <h1 id="category-title">CRE Software Categories</h1>
+      <p id="category-description">Browse commercial real estate software tools organized by category.</p>
+    </div>
+  </div>
+
+  <!-- Static content for search engines -->
+  <section class="section" id="static-content">
+    <div class="container">
+      <div class="category-overview">
+        <h2>Commercial Real Estate Software Categories</h2>
+        <p>Explore our comprehensive collection of 208+ commercial real estate software tools organized across 14 specialized categories:</p>
+        <div class="category-grid">
+          <div class="category-card">
+            <h3><a href="#property-management">Property Management</a></h3>
+            <p>End-to-end platforms for managing commercial properties, lease administration, and tenant communications.</p>
+          </div>
+          <div class="category-card">
+            <h3><a href="#crm-marketing">CRM & Marketing</a></h3>
+            <p>Deal pipelines, broker CRMs, and marketing automation for CRE teams.</p>
+          </div>
+          <div class="category-card">
+            <h3><a href="#investment-valuation">Investment & Valuation</a></h3>
+            <p>DCF modeling, portfolio analytics, and underwriting tools for investors.</p>
+          </div>
+          <div class="category-card">
+            <h3><a href="#data-analytics">Data & Analytics</a></h3>
+            <p>Market intelligence, comps, property data, and foot traffic analytics.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section class="section" id="editorial-content" style="display:none"></section>
   <section class="section">
     <div class="container">
@@ -43,6 +112,72 @@
     </div>
   </footer>
   <script src="js/app.js"></script>
-  <script>initCategory();</script>
+  <script>
+    // Enhanced SEO initialization
+    function initCategorySEO() {
+      const hash = window.location.hash.slice(1);
+      
+      // Category data for SEO
+      const categories = {
+        'property-management': {
+          name: 'Property Management Software',
+          description: 'Compare 50+ property management platforms for commercial real estate. Find tools for lease administration, rent collection, maintenance coordination, and tenant communications.',
+          products: 53
+        },
+        'crm-marketing': {
+          name: 'CRM & Marketing Tools',
+          description: 'Discover CRM systems and marketing automation tools built for commercial real estate brokers, agents, and teams.',
+          products: 28
+        },
+        'investment-valuation': {
+          name: 'Investment & Valuation Software',
+          description: 'Professional DCF modeling, portfolio analytics, and underwriting tools for CRE investors and analysts.',
+          products: 35
+        },
+        'data-analytics': {
+          name: 'CRE Data & Analytics Platforms',
+          description: 'Market intelligence, comparable sales data, and property analytics platforms for commercial real estate.',
+          products: 42
+        }
+      };
+      
+      if (hash && categories[hash]) {
+        const cat = categories[hash];
+        document.getElementById('page-title').textContent = cat.name + ' - CRE Software Directory';
+        document.getElementById('page-description').content = cat.description;
+        document.getElementById('og-title').content = cat.name;
+        document.getElementById('og-description').content = cat.description;
+        document.getElementById('twitter-title').content = cat.name;
+        document.getElementById('twitter-description').content = cat.description;
+        document.getElementById('canonical-url').href = 'https://cresoftware.tech/category.html#' + hash;
+        document.getElementById('og-url').content = 'https://cresoftware.tech/category.html#' + hash;
+        document.getElementById('category-title').textContent = cat.name;
+        document.getElementById('category-description').textContent = cat.description;
+        document.getElementById('category-breadcrumb-name').textContent = cat.name;
+        
+        // Update structured data
+        const structuredData = {
+          "@context": "https://schema.org",
+          "@type": "CollectionPage",
+          "name": cat.name,
+          "description": cat.description,
+          "url": 'https://cresoftware.tech/category.html#' + hash,
+          "isPartOf": {
+            "@type": "WebSite",
+            "name": "CRE Software Directory",
+            "url": "https://cresoftware.tech/"
+          }
+        };
+        document.getElementById('structured-data').textContent = JSON.stringify(structuredData);
+      }
+    }
+    
+    // Run on load and hash change
+    initCategorySEO();
+    window.addEventListener('hashchange', initCategorySEO);
+    
+    // Then run the original category initialization
+    initCategory();
+  </script>
 </body>
 </html>

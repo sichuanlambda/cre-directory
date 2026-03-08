@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Category - CRE Software Directory</title>
+  <meta name="description" content="Browse commercial real estate software by category.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <div class="container nav-inner">
+      <a href="index.html" class="logo"><svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4"/><rect x="9" y="9" width="2" height="2" fill="currentColor" stroke="none"/><rect x="13" y="9" width="2" height="2" fill="currentColor" stroke="none"/><rect x="9" y="13" width="2" height="2" fill="currentColor" stroke="none"/><rect x="13" y="13" width="2" height="2" fill="currentColor" stroke="none"/></svg>CRE<span>Software</span></a>
+      <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
+      <div class="nav-links">
+        <a href="index.html">Directory</a>
+        <a href="market-map.html">Market Map</a>
+        <a href="compare.html">Compare</a>
+        <a href="submit.html">Submit a Tool</a>
+      </div>
+    </div>
+  </nav>
+  <div class="category-header" id="category-header"></div>
+  <section class="section" id="editorial-content" style="display:none"></section>
+  <section class="section">
+    <div class="container">
+      <div class="category-layout">
+        <aside class="filter-sidebar" id="filter-sidebar"></aside>
+        <div class="category-main">
+          <div class="sort-bar" id="sort-bar"></div>
+          <div class="product-grid" id="category-products"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="faq-section" style="display:none"></section>
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 CRE Software Directory</span>
+      <div><a href="submit.html">Submit a Tool</a> · <a href="mailto:hello@cresoftware.tech">Contact</a></div>
+    </div>
+  </footer>
+  <script src="js/app.js"></script>
+  <script>initCategory();</script>
+</body>
+</html>

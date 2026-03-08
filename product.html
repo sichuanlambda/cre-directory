@@ -3,11 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Product - CRE Software Directory</title>
-  <meta name="description" content="Compare commercial real estate software tools.">
+  <title id="page-title">CRE Software Product Details - CRE Software Directory</title>
+  <meta name="description" id="page-description" content="Compare features, pricing, and reviews for commercial real estate software.">
+  <meta property="og:title" id="og-title" content="CRE Software Product">
+  <meta property="og:description" id="og-description" content="Compare features, pricing, and reviews for commercial real estate software.">
+  <meta property="og:type" content="product">
+  <meta property="og:url" id="og-url" content="https://cresoftware.tech/product.html">
+  <meta property="og:image" id="og-image" content="https://cresoftware.tech/css/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" id="twitter-title" content="CRE Software Product">
+  <meta name="twitter:description" id="twitter-description" content="Commercial real estate software details.">
+  <link rel="canonical" id="canonical-url" href="https://cresoftware.tech/product.html">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json" id="structured-data">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "CRE Software Product",
+    "applicationCategory": "Commercial Real Estate Software",
+    "operatingSystem": "Web Browser",
+    "description": "Commercial real estate software product details and features.",
+    "url": "https://cresoftware.tech/product.html",
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "CRE Software Directory",
+      "url": "https://cresoftware.tech/"
+    }
+  }
+  </script>
 </head>
 <body>
   <nav>
@@ -22,11 +49,66 @@
       </div>
     </div>
   </nav>
-  <section class="product-detail">
-    <div class="container" id="product-content">
-      <div class="loading-spinner">Loading...</div>
+
+  <!-- Server-side content for crawlers -->
+  <section class="product-breadcrumb" id="product-breadcrumb">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <a href="index.html">Home</a> / <a href="#" id="product-category-link">Software</a> / <span id="product-breadcrumb-name">Product</span>
+      </nav>
     </div>
   </section>
+
+  <!-- Static content that will be enhanced by JavaScript -->
+  <section class="product-hero" id="product-hero">
+    <div class="container">
+      <div class="product-header">
+        <div class="product-logo" id="static-logo">
+          <img id="product-logo-img" src="" alt="" style="display: none;">
+        </div>
+        <div class="product-info">
+          <h1 id="product-title">Commercial Real Estate Software</h1>
+          <p id="product-headline">Professional software solutions for CRE professionals.</p>
+          <div class="product-meta">
+            <span id="product-category">CRE Software</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-overview" id="static-overview">
+    <div class="container">
+      <div class="product-content">
+        <h2>About This Software</h2>
+        <div id="product-description">
+          <p>This commercial real estate software provides professional tools and features for property management, investment analysis, brokerage operations, and more. Compare features, pricing, and user reviews to find the right solution for your CRE business.</p>
+        </div>
+        
+        <h3>Key Features</h3>
+        <div id="product-features">
+          <ul>
+            <li>Commercial real estate focused functionality</li>
+            <li>Professional-grade tools and analytics</li>
+            <li>Integration capabilities</li>
+            <li>User-friendly interface</li>
+          </ul>
+        </div>
+        
+        <h3>Target Audience</h3>
+        <div id="product-audience">
+          <p>Built for commercial real estate professionals including brokers, investors, property managers, and analysts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="product-detail">
+    <div class="container" id="product-content">
+      <div class="loading-spinner">Loading product details...</div>
+    </div>
+  </section>
+
   <footer>
     <div class="container footer-inner">
       <span>© 2026 CRE Software Directory</span>
@@ -35,6 +117,90 @@
   </footer>
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
   <script src="js/app.js"></script>
-  <script>initProduct();</script>
+  <script>
+    // Enhanced SEO initialization for products
+    async function initProductSEO() {
+      const hash = window.location.hash.slice(1);
+      
+      if (hash) {
+        try {
+          // Fetch product data
+          const response = await fetch('./data/products.json');
+          const products = await response.json();
+          const product = products.find(p => p.slug === hash);
+          
+          if (product) {
+            // Update page metadata
+            document.getElementById('page-title').textContent = product.title + ' - CRE Software Directory';
+            document.getElementById('page-description').content = product.short_description || product.description.substring(0, 160) + '...';
+            document.getElementById('og-title').content = product.title + ' - CRE Software';
+            document.getElementById('og-description').content = product.short_description || product.headline;
+            document.getElementById('twitter-title').content = product.title;
+            document.getElementById('twitter-description').content = product.short_description || product.headline;
+            document.getElementById('canonical-url').href = 'https://cresoftware.tech/product.html#' + hash;
+            document.getElementById('og-url').content = 'https://cresoftware.tech/product.html#' + hash;
+            
+            if (product.logo_url) {
+              document.getElementById('og-image').content = product.logo_url;
+              document.getElementById('product-logo-img').src = product.logo_url;
+              document.getElementById('product-logo-img').alt = product.title + ' logo';
+              document.getElementById('product-logo-img').style.display = 'block';
+            }
+            
+            // Update static content
+            document.getElementById('product-title').textContent = product.title;
+            document.getElementById('product-headline').textContent = product.headline || product.short_description;
+            document.getElementById('product-breadcrumb-name').textContent = product.title;
+            
+            // Update description
+            if (product.description) {
+              document.getElementById('product-description').innerHTML = '<p>' + product.description.substring(0, 500) + '...</p>';
+            }
+            
+            // Update structured data for SoftwareApplication
+            const structuredData = {
+              "@context": "https://schema.org",
+              "@type": "SoftwareApplication",
+              "name": product.title,
+              "applicationCategory": "Commercial Real Estate Software",
+              "operatingSystem": "Web Browser",
+              "description": product.description || product.headline,
+              "url": 'https://cresoftware.tech/product.html#' + hash,
+              "sameAs": product.url,
+              "logo": product.logo_url,
+              "isPartOf": {
+                "@type": "WebSite",
+                "name": "CRE Software Directory",
+                "url": "https://cresoftware.tech/"
+              }
+            };
+            
+            if (product.target_audience && product.target_audience.property_types) {
+              structuredData.audience = {
+                "@type": "Audience",
+                "audienceType": "Commercial Real Estate Professionals"
+              };
+            }
+            
+            document.getElementById('structured-data').textContent = JSON.stringify(structuredData);
+            
+            // Hide static overview once we have real content
+            setTimeout(() => {
+              document.getElementById('static-overview').style.display = 'none';
+            }, 1000);
+          }
+        } catch (error) {
+          console.error('Error loading product SEO data:', error);
+        }
+      }
+    }
+    
+    // Run on load and hash change
+    initProductSEO();
+    window.addEventListener('hashchange', initProductSEO);
+    
+    // Then run the original product initialization
+    initProduct();
+  </script>
 </body>
 </html>
