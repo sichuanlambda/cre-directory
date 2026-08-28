@@ -39,7 +39,7 @@ function pricingLabel(product, forCard = false) {
 }
 
 function compactProductCard(p) {
-  return `<a class="product-card product-card-compact product-card-link" href="product.html#${p.slug}">
+  return `<a class="product-card product-card-compact product-card-link" href="/products/${p.slug}/">
     <div class="card-top">
       <div class="product-logo" style="width:40px;height:40px">${logoHTML(p, 40)}</div>
       <div class="product-info">
@@ -88,7 +88,7 @@ function productCard(p) {
   const features = (p.feature_groups || []).flatMap(g => g.features || []).slice(0, 3);
   const featHTML = features.length ? `<div class="card-features">${features.map(f => `<span class="card-feature">✦ ${f.name}</span>`).join('')}</div>` : '';
   
-  return `<a class="product-card product-card-link" href="product.html#${p.slug}">
+  return `<a class="product-card product-card-link" href="/products/${p.slug}/">
     <div class="card-top">
       <div class="product-logo">${logoHTML(p)}</div>
       <div class="product-info">
@@ -125,7 +125,7 @@ const CATEGORY_ICONS = {
 
 function categoryCard(cat) {
   const icon = CATEGORY_ICONS[cat.slug] || '';
-  return `<a class="cat-card" href="category.html#${cat.slug}">
+  return `<a class="cat-card" href="/categories/${cat.slug}/">
     <span class="cat-icon">${icon}</span>
     <h3>${cat.name}</h3>
     <div class="count">${cat.product_count} tools</div>
@@ -135,7 +135,7 @@ function categoryCard(cat) {
 function categoryCarouselCard(cat) {
   const icon = CATEGORY_ICONS[cat.slug] || '';
   const desc = cat.description || '';
-  return `<a class="cat-carousel-card" href="category.html#${cat.slug}">
+  return `<a class="cat-carousel-card" href="/categories/${cat.slug}/">
     <div class="cat-card-header">
       <div class="cat-card-icon">${icon}</div>
       <h3>${cat.name}</h3>
@@ -208,7 +208,7 @@ function initNav() {
 function featuredCard(p) {
   const cat = (p.categories || [])[0];
   const catBadge = cat ? `<span class="badge badge-accent">${cat}</span>` : '';
-  return `<a class="product-card product-card-link featured-card" href="product.html#${p.slug}">
+  return `<a class="product-card product-card-link featured-card" href="/products/${p.slug}/">
     <div class="card-top">
       <div class="product-logo" style="width:56px;height:56px">${logoHTML(p, 56)}</div>
       <div class="product-info">
@@ -223,7 +223,7 @@ function featuredCard(p) {
 }
 
 function recentCard(p) {
-  return `<a class="product-card product-card-link product-card-compact" href="product.html#${p.slug}">
+  return `<a class="product-card product-card-link product-card-compact" href="/products/${p.slug}/">
     <div class="card-top">
       <div class="product-logo" style="width:40px;height:40px">${logoHTML(p, 40)}</div>
       <div class="product-info">
@@ -289,7 +289,7 @@ async function initHome() {
   const pillsEl = document.getElementById('hero-pills');
   if (pillsEl) {
     const topCats = Object.values(CATEGORIES).sort((a, b) => b.product_count - a.product_count).slice(0, 6);
-    pillsEl.innerHTML = `<span class="quick-filters-label">Explore</span>` + topCats.map(c => `<a href="category.html#${c.slug}" class="hero-pill">${c.name}</a>`).join('');
+    pillsEl.innerHTML = `<span class="quick-filters-label">Explore</span>` + topCats.map(c => `<a href="/categories/${c.slug}/" class="hero-pill">${c.name}</a>`).join('');
   }
 
   // Categories - carousel on homepage
@@ -323,7 +323,7 @@ async function initHome() {
   const footerCats = document.getElementById('footer-cat-links');
   if (footerCats) {
     const topCats = Object.values(CATEGORIES).sort((a, b) => b.product_count - a.product_count).slice(0, 8);
-    footerCats.innerHTML = topCats.map(c => `<a href="category.html#${c.slug}">${c.name}</a>`).join('');
+    footerCats.innerHTML = topCats.map(c => `<a href="/categories/${c.slug}/">${c.name}</a>`).join('');
   }
   
   // Stats counters
@@ -452,9 +452,9 @@ async function initProduct() {
   setMeta('description', seo.description || `${product.title}: ${product.headline}. Compare pricing, features & alternatives.`);
   setMeta('og:title', document.title);
   setMeta('og:description', seo.description || product.headline);
-  setMeta('og:url', `${BASE_URL}/product.html#${slug}`);
+  setMeta('og:url', `${BASE_URL}/products/${slug}/`);
   setMeta('og:type', 'website');
-  setCanonical(`${BASE_URL}/product.html#${slug}`);
+  setCanonical(`${BASE_URL}/products/${slug}/`);
 
   const pricing = product.pricing || {};
   const company = product.company || {};
@@ -487,7 +487,7 @@ async function initProduct() {
   // Categories with links
   const cats = (product.categories || []).map(c => {
     const cs = Object.values(CATEGORIES).find(cat => cat.name === c);
-    return cs ? `<a href="category.html#${cs.slug}" class="badge badge-accent">${c}</a>` : `<span class="badge badge-accent">${c}</span>`;
+    return cs ? `<a href="/categories/${cs.slug}/" class="badge badge-accent">${c}</a>` : `<span class="badge badge-accent">${c}</span>`;
   }).join(' ');
 
   // Overview - Pros & Cons
@@ -608,7 +608,7 @@ async function initProduct() {
   el.innerHTML = `
     <div class="breadcrumbs">
       <a href="index.html">Home</a> / 
-      ${product.categories && product.categories[0] ? `<a href="category.html#${slugify(product.categories[0])}">${product.categories[0]}</a> / ` : ''}
+      ${product.categories && product.categories[0] ? `<a href="/categories/${slugify(product.categories[0])}/">${product.categories[0]}</a> / ` : ''}
       ${product.title}
     </div>
     
@@ -698,7 +698,7 @@ async function initProduct() {
     "@type": "BreadcrumbList",
     "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": BASE_URL },
-      ...(product.categories && product.categories[0] ? [{ "@type": "ListItem", "position": 2, "name": product.categories[0], "item": `${BASE_URL}/category.html#${slugify(product.categories[0])}` }] : []),
+      ...(product.categories && product.categories[0] ? [{ "@type": "ListItem", "position": 2, "name": product.categories[0], "item": `${BASE_URL}/categories/${slugify(product.categories[0])}/` }] : []),
       { "@type": "ListItem", "position": product.categories && product.categories[0] ? 3 : 2, "name": product.title }
     ]
   });
@@ -747,9 +747,9 @@ async function initCategory() {
   setMeta('description', seoDesc);
   setMeta('og:title', seoTitle);
   setMeta('og:description', seoDesc);
-  setMeta('og:url', `${BASE_URL}/category.html#${slug}`);
+  setMeta('og:url', `${BASE_URL}/categories/${slug}/`);
   setMeta('og:type', 'website');
-  setCanonical(`${BASE_URL}/category.html#${slug}`);
+  setCanonical(`${BASE_URL}/categories/${slug}/`);
 
   const ed = cat.editorial || {};
   
@@ -876,7 +876,7 @@ async function initCategory() {
     "itemListElement": products.slice(0, 20).map((p, i) => ({
       "@type": "ListItem",
       "position": i + 1,
-      "url": `${BASE_URL}/product.html#${p.slug}`,
+      "url": `${BASE_URL}/products/${p.slug}/`,
       "name": p.title
     }))
   });
@@ -929,7 +929,7 @@ function renderCompare() {
         ${company.employees ? `<div class="meta-item"><label>Employees</label><span>${company.employees}</span></div>` : ''}
       </div>
       <div style="margin-top:16px;text-align:center">
-        <a href="product.html#${p.slug}" class="cta-btn cta-btn-sm">View Details</a>
+        <a href="/products/${p.slug}/" class="cta-btn cta-btn-sm">View Details</a>
         <a href="${p.url}" target="_blank" class="cta-btn cta-btn-outline cta-btn-sm">Visit Website →</a>
       </div>
     ` : '';
