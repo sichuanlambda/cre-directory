@@ -17,7 +17,10 @@ const BASE = 'https://cresoftware.tech';
 const YEAR = new Date().getFullYear();
 const TODAY = new Date().toISOString().slice(0, 10);
 
-const PRODUCTS = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/products.json'), 'utf8'));
+// Listings marked unverifiable (dead/parked domains, unconfirmable products)
+// stay in the data for later review but are never published.
+const ALL_PRODUCTS = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/products.json'), 'utf8'));
+const PRODUCTS = ALL_PRODUCTS.filter(p => p.status !== 'unverifiable');
 const CATEGORIES = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/categories.json'), 'utf8'));
 
 // ---------- helpers ----------
@@ -353,6 +356,7 @@ function renderProductPage(product) {
         <div class="hero-content">
           <h1>${esc(product.title)}</h1>
           <div class="headline">${esc(product.headline || product.short_description || '')}</div>
+          ${product.status_note ? `<div class="status-note" style="margin:10px 0;padding:8px 14px;border-radius:8px;background:rgba(243,156,18,.12);border:1px solid rgba(243,156,18,.35);font-size:14px;">ℹ️ ${esc(product.status_note)}</div>` : ''}
           ${ratingHTML}
           <div class="hero-badges">${badges.join('')} ${cats}</div>
           <div class="hero-actions">

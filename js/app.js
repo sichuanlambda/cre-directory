@@ -193,7 +193,7 @@ async function loadData() {
     fetch('data/products.json'),
     fetch('data/categories.json')
   ]);
-  PRODUCTS = await pRes.json();
+  PRODUCTS = (await pRes.json()).filter(p => p.status !== 'unverifiable');
   CATEGORIES = await cRes.json();
 }
 

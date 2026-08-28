@@ -1891,9 +1891,9 @@
     "slug": "capital-brain",
     "url": "https://www.capitalbrain.co",
     "logo_url": "https://logo.clearbit.com/capitalbrain.co",
-    "headline": "Real estate investment management platform.",
-    "description": "Capital Brain is a CRE capital markets platform. The website was not accessible during automated research. Based on available information, Capital Brain provides tools for commercial real estate capital markets professionals, potentially including deal analysis, lender matching, or capital sourcing capabilities.",
-    "short_description": "Real estate investment management platform.",
+    "headline": "AI and machine-learning intelligence for commercial real estate investing.",
+    "description": "Capital Brain applies artificial intelligence and machine learning to U.S. commercial real estate, training algorithms on structured and unstructured CRE data since 2013. Its products include custom real estate AI models for investment firms, the CB Databank (a prospecting and lead-generation database that monitors over 50,000 active real estate firms), and subscription AI-driven investment research notes. It targets asset managers, real estate operators, brokers, lenders, and institutional advisors. The company was founded by Olga Koroleva, is based in Burlingame, California, and is operated by Monetarex, Inc.",
+    "short_description": "AI and machine-learning intelligence, prospecting data, and research for commercial real estate investors.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -1956,7 +1956,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-28",
     "is_verified": false,
     "is_featured": false,
     "domain": "capitalbrain.co",
@@ -1966,7 +1966,8 @@
     "property_types": [
       "Commercial"
     ],
-    "primary_category": "ai-automation"
+    "primary_category": "ai-automation",
+    "status": "active"
   },
   {
     "title": "Catalyst",
@@ -1974,8 +1975,8 @@
     "url": "https://www.getcatalsyst.com",
     "logo_url": "https://logo.clearbit.com/getcatalsyst.com",
     "headline": "Marketing automation for real estate.",
-    "description": "Catalyst (getcatalsyst.com) appears to be a CRE technology platform. Note: The URL contains a typo ('catalsyst' instead of 'catalyst'). The website was not accessible during research. Limited information is available about this product's features and current status.",
-    "short_description": "Marketing automation for real estate.",
+    "description": "This listing is pending verification. The listed website does not resolve and the product could not be confirmed from any independent source.",
+    "short_description": "Listing pending verification.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -2036,7 +2037,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-28",
     "is_verified": false,
     "is_featured": false,
     "domain": "getcatalsyst.com",
@@ -2048,7 +2049,9 @@
       "Office",
       "Retail"
     ],
-    "primary_category": "crm-marketing"
+    "primary_category": "crm-marketing",
+    "status": "unverifiable",
+    "status_note": "Domain getcatalsyst.com does not resolve; no matching product found. Likely defunct or the URL was always incorrect."
   },
   {
     "title": "Cherre",
@@ -7396,8 +7399,8 @@
     "url": "https://www.opusintel.com",
     "logo_url": "https://logo.clearbit.com/opusintel.com",
     "headline": "Intelligent real estate solutions.",
-    "description": "Opus (opusintel.com) is a technology platform. The website was not accessible during automated research. Based on the domain name, Opus may provide intelligence or analytics services related to real estate or business operations. Detailed product information cannot be confirmed.",
-    "short_description": "Intelligent real estate solutions.",
+    "description": "This listing is pending verification. The listed website is a parked domain and no active product could be confirmed.",
+    "short_description": "Listing pending verification.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -7459,7 +7462,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-28",
     "is_verified": false,
     "is_featured": false,
     "domain": "opusintel.com",
@@ -7471,8 +7474,9 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:43:29.693217+00:00",
-    "enrichmentFailed": true,
-    "primary_category": "data-analytics"
+    "primary_category": "data-analytics",
+    "status": "unverifiable",
+    "status_note": "opusintel.com has shown a registrar parked page since at least 2024."
   },
   {
     "title": "OwnBackup",
@@ -8255,8 +8259,8 @@
     "url": "https://www.prodeal360.com",
     "logo_url": "https://logo.clearbit.com/prodeal360.com",
     "headline": "Deal management platform for real estate professionals.",
-    "description": "Prodeal (prodeal360.com) is a commercial real estate deal management platform. The website was not accessible during research. Based on the product name and URL, Prodeal likely provides 360-degree deal management tools for CRE professionals, potentially including deal tracking, document management, and collaboration features.",
-    "short_description": "Deal management platform for real estate professionals.",
+    "description": "Prodeal is a deal management and client experience platform for commercial real estate lending that centralizes the loan lifecycle from term sheet through funding in a shared deal room. Features include live color-coded closing checklists, borrower upload links that require no login, role-based access controls, document versioning and status tracking, activity logs, and due-date reminders. It integrates with Outlook, Word, Excel, Salesforce, and SharePoint, and supports AI assistants for querying deal information. Prodeal is used by lending operations, underwriting, loan administration, counsel, and debt capital markets teams at life insurance companies, HUD lenders, credit unions, and private credit funds; customers include Berkadia, Brookfield Asset Management, and MetLife.",
+    "short_description": "Deal room and closing checklist platform that manages the CRE loan lifecycle from term sheet to funding.",
     "target_audience": {
       "roles": [
         "Commercial Real Estate Lenders",
@@ -8332,7 +8336,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-28",
     "is_verified": false,
     "is_featured": false,
     "domain": "prodeal360.com",
@@ -8361,7 +8365,8 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:35:38.289135Z",
-    "primary_category": "data-analytics"
+    "primary_category": "data-analytics",
+    "status": "active"
   },
   {
     "title": "Property Capsule",
@@ -11374,8 +11379,8 @@
     "url": "https://www.ten-x.com",
     "logo_url": "https://logo.clearbit.com/ten-x.com",
     "headline": "Transact commercial real estate online.",
-    "description": "Ten-X is a leading online commercial real estate transaction platform that facilitates the buying and selling of CRE assets through technology-enabled auctions and negotiations. The platform streamlines the entire CRE sales process from marketing through closing, providing sellers with access to a large buyer network and buyers with transparent deal information. Ten-X has facilitated billions in CRE transactions across all asset types. Note: The Ten-X website blocked automated access (403 error) during research. The platform continues to be a prominent force in CRE sales technology.",
-    "short_description": "Transact commercial real estate online.",
+    "description": "Ten-X is an online transaction platform for buying and selling commercial real estate through digital auctions and negotiated bids. Sellers and brokers use it to market assets to a national buyer pool with standardized due-diligence packages, while buyers get transparent access to deal documents and defined bidding and closing timelines. CoStar Group acquired Ten-X in 2020 and integrated it with LoopNet and CoStar data, exposing its auctions to CoStar's large commercial real estate audience. The platform serves brokers, owners, and investors across all major CRE asset types.",
+    "short_description": "Online auction and transaction platform for commercial real estate, owned by CoStar Group.",
     "target_audience": {
       "roles": [
         "Commercial Real Estate Investors",
@@ -11507,7 +11512,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-28",
     "is_verified": false,
     "is_featured": false,
     "domain": "ten-x.com",
@@ -11537,7 +11542,9 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:40:58.935908Z",
-    "primary_category": "listing-services"
+    "primary_category": "listing-services",
+    "status": "acquired",
+    "status_note": "Acquired by CoStar Group in 2020; operates alongside LoopNet within CoStar's brand portfolio."
   },
   {
     "title": "TenantCloud",
@@ -13667,11 +13674,11 @@
   {
     "title": "Buxton",
     "slug": "buxton",
-    "url": "www.buxtonco.com",
+    "url": "https://www.buxtonco.com",
     "logo_url": "https://logo.clearbit.com/buxtonco.com",
-    "headline": "Consumer info; utilized for site selection & marketing. Where are consumers? Where should we open up shop?",
-    "description": "Buxton is a customer analytics company that helps businesses understand their customers and identify the best locations for growth. The platform uses consumer behavior data, demographic analysis, and predictive modeling to inform site selection, marketing strategies, and real estate decisions. Note: The Buxton website blocked automated access during research (403 error). Buxton is known for providing location intelligence solutions to retailers, restaurants, healthcare systems, and other multi-unit businesses seeking data-driven expansion strategies.",
-    "short_description": "Consumer info; utilized for site selection & marketing. Where are consumers? Where should we open up shop?",
+    "headline": "Customer analytics and site selection intelligence, now part of Audiense.",
+    "description": "Buxton is a customer analytics and location intelligence platform used for site selection, market planning, and location performance optimization. Drawing on household-level consumer intelligence and more than 50 data sources, it scores potential sites, defines trade areas, analyzes foot traffic, and supports whitespace and expansion planning through its web-based SCOUT analytics tool. Since 1994 it has served multi-unit operators in retail, restaurants, healthcare, and hospitality, along with the real estate teams planning their expansion. Buxton is now part of audience-intelligence company Audiense and is offered as Audiense In-Person.",
+    "short_description": "Customer analytics and site selection platform for multi-unit brands, now offered as Audiense In-Person.",
     "target_audience": "Retail companies, restaurant chains, hospitality businesses, healthcare organizations, real estate developers, franchise operators",
     "feature_groups": [
       {
@@ -13776,7 +13783,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-28",
     "is_verified": false,
     "is_featured": false,
     "domain": "buxtonco.com",
@@ -13801,7 +13808,9 @@
       "Industry-specific location solutions"
     ],
     "enriched": true,
-    "primary_category": "data-analytics"
+    "primary_category": "data-analytics",
+    "status": "acquired",
+    "status_note": "Now part of Audiense, sold as 'Audiense In-Person, powered by Buxton'."
   },
   {
     "title": "SiteZeus",
@@ -15550,8 +15559,8 @@
     "url": "https://www.avail.co/",
     "logo_url": "https://logo.clearbit.com/avail.co",
     "headline": "Simplified property management for landlords.",
-    "description": "Avail (now part of Realtor.com) is a property management platform designed for DIY landlords to manage their rental properties independently. The platform provides tools for listing vacancies, screening tenants, signing leases, collecting rent, and tracking maintenance—all designed for landlords who prefer hands-on management without hiring a property manager. Note: The Avail website blocked automated access during our research. Avail is known for its user-friendly interface, free tier for basic features, and integration with Realtor.com's ecosystem since its acquisition by Move, Inc.",
-    "short_description": "Simplified property management for landlords.",
+    "description": "Avail is landlord software from Realtor.com designed for DIY landlords with small rental portfolios. It covers the full rental cycle: listing syndication to major rental sites, rental applications with TransUnion-backed tenant screening (credit, background, and eviction reports), state-specific lawyer-reviewed lease templates with e-signing, online rent collection via ACH or card, and maintenance tracking. Core features are free for landlords, and over one million landlords have used the platform. Note that Avail is residential landlord software rather than a commercial real estate product.",
+    "short_description": "Free landlord software from Realtor.com for listings, tenant screening, leases, and online rent collection.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -15712,7 +15721,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-28",
     "is_verified": false,
     "is_featured": false,
     "domain": "avail.co",
@@ -15722,9 +15731,9 @@
     "property_types": [
       "Commercial"
     ],
-    "enrichment_failed": true,
-    "enrichment_reason": "Website blocking access with Cloudflare security protection",
-    "primary_category": "property-management"
+    "primary_category": "property-management",
+    "status": "acquired",
+    "status_note": "Acquired by Move, Inc. (Realtor.com) in 2020; operates as 'Avail by Realtor.com'. Residential landlord focus."
   },
   {
     "title": "Entrata",
@@ -17822,8 +17831,8 @@
     "url": "https://www.redfin.com",
     "logo_url": "https://logo.clearbit.com/redfin.com",
     "headline": "Real estate brokerage offering homes for sale, pricing insights, and services.",
-    "description": "Redfin is a technology-powered real estate brokerage operating across the United States and Canada. The company combines its own real estate agents with proprietary technology to provide home buying and selling services at lower commission rates than traditional brokerages. Redfin's website and mobile app offer comprehensive home search with MLS data, 3D walkthroughs, and neighborhood insights. The platform provides tools for buyers including scheduling tours and making offers online, and for sellers including the Redfin Estimate home valuation tool. Note: Redfin's website blocked automated access during research. Redfin is publicly traded (NASDAQ: RDFN) and has facilitated billions in real estate transactions.",
-    "short_description": "Real estate brokerage offering homes for sale, pricing insights, and services.",
+    "description": "Redfin is a technology-powered residential real estate brokerage and one of the most-visited U.S. home search platforms, offering MLS-based listings, map search, 3D walkthroughs, and its Redfin Estimate valuation tool. It pairs its own agents with online tools for scheduling tours, making offers, and selling at reduced listing fees, and also operates rental search and mortgage services. Rocket Companies acquired Redfin in 2025 and it now operates as a wholly owned Rocket subsidiary. Its focus is residential rather than commercial real estate.",
+    "short_description": "Tech-powered residential brokerage and home search platform, now part of Rocket Companies.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -17983,7 +17992,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-28",
     "is_verified": false,
     "is_featured": false,
     "domain": "redfin.com",
@@ -17993,9 +18002,9 @@
     "property_types": [
       "Commercial"
     ],
-    "enrichment_failed": true,
-    "enrichment_reason": "Website blocking access with human verification requirement",
-    "primary_category": "data-analytics"
+    "primary_category": "data-analytics",
+    "status": "acquired",
+    "status_note": "Acquired by Rocket Companies (closed July 2025); continues to operate under the Redfin brand. Residential focus."
   },
   {
     "title": "Opendoor",
@@ -23601,11 +23610,11 @@
   {
     "title": "Fund That Flip",
     "slug": "fund-that-flip",
-    "url": "https://www.fundthatflip.com",
+    "url": "https://www.upright.us",
     "logo_url": "https://logo.clearbit.com/fundthatflip.com",
-    "headline": "Crowdfunding platform for real estate flippers and investors.",
-    "description": "Fund That Flip, now rebranded as Upright, is a real estate lending platform that provides short-term bridge loans for residential real estate investors. The platform connects real estate investors with capital for fix-and-flip, new construction, and rental property projects. Fund That Flip also offered investment opportunities for accredited investors to earn returns through real estate debt investments. The company has facilitated significant loan volume and rebranded to Upright to reflect its expanded product offerings and mission. Note: The website blocked automated access during research.",
-    "short_description": "Crowdfunding platform for real estate flippers and investors.",
+    "headline": "Fix-and-flip lending and investing platform, now operating as Upright.",
+    "description": "Fund That Flip, rebranded as Upright in September 2023, is a lending and investment platform for residential real estate investors. It originates short-term bridge loans for fix-and-flip, new-construction, and rental projects, and lets accredited investors fund that loan portfolio to earn interest on real estate debt. Following its 2022 acquisition of FlipperForce, the platform also includes project and construction management software for rehabbers and builders.",
+    "short_description": "Bridge lending and investing platform for fix-and-flip and new-construction projects, now operating as Upright.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -23703,7 +23712,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-28",
     "is_verified": false,
     "is_featured": false,
     "domain": "fundthatflip.com",
@@ -23713,10 +23722,10 @@
     "property_types": [
       "Commercial"
     ],
-    "enrichment_failed": true,
-    "failure_reason": "403 Forbidden - Website blocks automated requests with access control",
     "enrichedAt": "2026-02-17T23:34:08.499847Z",
-    "primary_category": "investment-valuation"
+    "primary_category": "investment-valuation",
+    "status": "active",
+    "status_note": "Rebranded to Upright (upright.us) in September 2023; fundthatflip.com is the legacy domain."
   },
   {
     "title": "LendingHome",
@@ -24301,11 +24310,11 @@
   {
     "title": "CRED iQ",
     "slug": "cred-iq",
-    "url": "https://www.crediq.com",
+    "url": "https://cred-iq.com",
     "logo_url": "https://logo.clearbit.com/crediq.com",
     "headline": "Commercial real estate intelligence and property data platform.",
-    "description": "CRED iQ is a commercial real estate intelligence platform providing data analytics and insights for CRE professionals including investors, lenders, brokers, and analysts. The platform focuses on CMBS (Commercial Mortgage-Backed Securities) loan data, property-level financials, and market analytics to support investment decisions. CRED iQ helps users analyze commercial real estate debt, monitor loan performance, and identify investment opportunities in the CRE market. Note: The CRED iQ website returned minimal content during automated access; details are based on known platform capabilities.",
-    "short_description": "Commercial real estate intelligence and property data platform.",
+    "description": "CRED iQ is a commercial real estate data, analytics, and valuation platform built on the universe of securitized CRE debt, spanning CMBS, SASB, CRE CLO, and GSE/Agency multifamily loans. Founded in 2020, it covers roughly $2.3 trillion in loan data and over 150 million properties, including loan balances and maturity dates, borrower and ownership contact data, special-servicing status, and property-level operating statements. Investors, lenders, brokers, and analysts use it to monitor loan performance, track distress, model valuations, and source leads for lending, refinancing, and acquisition opportunities. Data is delivered via web application, API, and bulk feeds.",
+    "short_description": "CRE and CMBS loan data, analytics, and valuation platform for investors, lenders, and brokers.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -24443,7 +24452,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-28",
     "is_verified": false,
     "is_featured": false,
     "domain": "crediq.com",
@@ -24455,10 +24464,9 @@
       "Office",
       "Retail"
     ],
-    "enrichment_failed": true,
-    "failure_reason": "Access Denied - Geographic location restrictions blocking access",
     "enrichedAt": "2026-02-17T23:35:38.440435Z",
-    "primary_category": "data-analytics"
+    "primary_category": "data-analytics",
+    "status": "active"
   },
   {
     "title": "CoFoundersLab",
@@ -26370,8 +26378,8 @@
     "url": "https://www.casafy.ai/",
     "logo_url": "https://logo.clearbit.com/casafy.ai",
     "headline": "Search for value add properties across the United States",
-    "description": "Casafy AI is an AI-powered real estate technology platform. The website was blocked during automated access (Cloudflare protection), limiting the information available. Based on the name and domain, Casafy AI likely provides artificial intelligence tools for real estate analysis, valuation, or automation.",
-    "short_description": "Search for value add properties across the United States",
+    "description": "Casafy AI is a property intelligence platform that uses computer vision on street-level imagery to identify distressed and value-add properties before they reach the market. It maintains AI condition assessments on more than 2 million scanned properties and over 159 million parcel records nationwide, combined with live MLS data, customizable filters, comparable-property analysis, and built-in skip tracing for owner contact information. It targets real estate investors as well as trades contractors, direct mail marketers, and insurance users who need property-condition data.",
+    "short_description": "Computer-vision platform that scans street-level imagery to surface distressed, off-market properties for investors.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -26432,7 +26440,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-28",
     "is_verified": false,
     "is_featured": false,
     "domain": "casafy.ai",
@@ -26442,7 +26450,9 @@
     "property_types": [
       "Commercial"
     ],
-    "primary_category": "ai-automation"
+    "primary_category": "ai-automation",
+    "status": "active",
+    "status_note": "Focus is primarily residential/value-add investment property rather than commercial real estate."
   },
   {
     "title": "PropTracer",
@@ -26601,11 +26611,11 @@
   {
     "title": "Elementix",
     "slug": "elementix",
-    "url": "https://elementix.ai",
+    "url": "https://elementix.com",
     "logo_url": "https://logo.clearbit.com/elementix.ai",
-    "headline": "Elementix is a borrower intelligence platform that lets private lenders search real estate investors by name and understand their experience, activity, and lending patterns.",
-    "description": "Elementix is an AI-powered technology platform. The website was blocked during automated access (Cloudflare protection), preventing extraction of product details. Based on the domain (elementix.ai), the platform likely provides artificial intelligence solutions that may be applicable to real estate or business operations.",
-    "short_description": "Elementix is a borrower intelligence platform that lets private lenders search real estate investors by name and understand their experience, activity, and lending patterns.",
+    "headline": "Borrower and market intelligence for private real estate lenders.",
+    "description": "Elementix is a borrower intelligence platform for private and hard-money real estate lenders. It tracks roughly 5.6 million real estate investors and the 5.1 million operating entities they control, letting lenders search a borrower by name and see their full track record: property portfolio, acquisitions and dispositions, loan history, foreclosures, and open liabilities across all associated entities. Lenders use it for borrower prospecting with verified decision-maker contact information, underwriting and due diligence, and monitoring investor activity across single-family, multifamily, commercial, and mixed-use properties.",
+    "short_description": "Borrower intelligence for private lenders: search real estate investors and see their complete track record.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -26667,7 +26677,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-28",
     "is_verified": false,
     "is_featured": false,
     "domain": "elementix.ai",
@@ -26677,7 +26687,8 @@
     "property_types": [
       "Commercial"
     ],
-    "primary_category": "ai-automation"
+    "primary_category": "ai-automation",
+    "status": "active"
   },
   {
     "title": "MRI Software",
