@@ -375,7 +375,7 @@
         fetch('data/products.json'),
         fetch('data/categories.json')
       ]);
-      PRODUCTS = await prodRes.json();
+      PRODUCTS = (await prodRes.json()).filter(p => p.status !== 'unverifiable');
       CATEGORIES = await catRes.json();
 
       document.getElementById('product-count').textContent = `${PRODUCTS.length} companies across ${Object.keys(CATEGORIES).length} categories`;

@@ -46,10 +46,13 @@ function getColor(str) {
   return COLORS[Math.abs(h) % COLORS.length];
 }
 
-function logoHTML(product, size = 48) {
+function logoHTML(product, size = 48, lazy = true) {
   const letter = esc((product.title || '?')[0].toUpperCase());
   const color = getColor(product.title || '?');
-  return `<img src="${esc(product.logo_url)}" alt="${esc(product.title)} logo" loading="lazy"
+  if (!product.logo_url) {
+    return `<div class="fallback" style="display:flex;background:${color};width:${size}px;height:${size}px;font-size:${size * 0.45}px">${letter}</div>`;
+  }
+  return `<img src="${esc(product.logo_url)}" alt="${esc(product.title)} logo"${lazy ? ' loading="lazy"' : ''}
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
     style="width:${size}px;height:${size}px;object-fit:contain">
     <div class="fallback" style="display:none;background:${color};width:${size}px;height:${size}px;font-size:${size * 0.45}px">${letter}</div>`;
@@ -170,7 +173,10 @@ function renderProductPage(product) {
   const slug = product.slug;
   const canonical = `${BASE}${productPath(slug)}`;
   const seo = product.seo || {};
-  const title = seo.title || `${product.title} Review ${YEAR}: Pricing, Features & Alternatives | CRE Software Directory`;
+  const isDefunct = product.status === 'defunct';
+  const title = isDefunct
+    ? `What Happened to ${product.title}? History & Alternatives | CRE Software Directory`
+    : (seo.title || `${product.title} Review ${YEAR}: Pricing, Features & Alternatives | CRE Software Directory`);
   const description = stripTags(seo.description || product.short_description || `${product.title}: ${product.headline || ''} Compare pricing, features & alternatives.`).slice(0, 300);
 
   const pricing = product.pricing || {};
@@ -352,7 +358,7 @@ function renderProductPage(product) {
       </div>
 
       <div class="product-hero">
-        <div class="logo-large">${logoHTML(product, 64)}</div>
+        <div class="logo-large">${logoHTML(product, 64, false)}</div>
         <div class="hero-content">
           <h1>${esc(product.title)}</h1>
           <div class="headline">${esc(product.headline || product.short_description || '')}</div>
@@ -360,8 +366,10 @@ function renderProductPage(product) {
           ${ratingHTML}
           <div class="hero-badges">${badges.join('')} ${cats}</div>
           <div class="hero-actions">
-            <a href="${esc(siteUrl)}" target="_blank" rel="noopener" class="cta-btn">Visit Website →</a>
-            <a href="/compare.html" class="cta-btn cta-btn-outline">Compare</a>
+            ${isDefunct
+              ? `<a href="#sec-alternatives" class="cta-btn">See Alternatives →</a>`
+              : `<a href="${esc(siteUrl)}" target="_blank" rel="noopener" class="cta-btn">Visit Website →</a>
+            <a href="/compare.html" class="cta-btn cta-btn-outline">Compare</a>`}
           </div>
         </div>
       </div>
@@ -382,7 +390,7 @@ function renderProductPage(product) {
       ${companyHTML}
 
       <div class="bottom-cta">
-        <a href="${esc(siteUrl)}" target="_blank" rel="noopener" class="cta-btn">Visit ${esc(product.title)} →</a>
+        ${isDefunct ? '' : `<a href="${esc(siteUrl)}" target="_blank" rel="noopener" class="cta-btn">Visit ${esc(product.title)} →</a>`}
         <a href="/submit.html" class="claim-link">Submit a correction or claim this listing</a>
       </div>
 

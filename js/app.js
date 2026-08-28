@@ -14,7 +14,10 @@ function getColor(str) {
 function logoHTML(product, size = 48) {
   const letter = (product.title || '?')[0].toUpperCase();
   const color = getColor(product.title);
-  return `<img src="${product.logo_url}" alt="${product.title}" 
+  if (!product.logo_url) {
+    return `<div class="fallback" style="display:flex;background:${color};width:${size}px;height:${size}px;font-size:${size*0.45}px">${letter}</div>`;
+  }
+  return `<img src="${product.logo_url}" alt="${product.title}"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
     style="width:${size}px;height:${size}px;object-fit:contain">
     <div class="fallback" style="display:none;background:${color};width:${size}px;height:${size}px;font-size:${size*0.45}px">${letter}</div>`;
