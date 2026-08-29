@@ -310,7 +310,8 @@ async function initHome() {
   // Featured (no stars, no ratings)
   const featured = document.getElementById('featured-products');
   if (featured) {
-    const top = PRODUCTS.filter(p => p.is_featured);
+    const partners = PRODUCTS.filter(p => p.featured_partner);
+    const top = partners.concat(PRODUCTS.filter(p => p.is_featured && !p.featured_partner));
     const items = top.length >= 8 ? top.slice(0, 8) : PRODUCTS.slice(0, 8);
     featured.innerHTML = items.map(featuredCard).join('');
   }

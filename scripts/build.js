@@ -138,6 +138,7 @@ function navHTML(active) {
         ${link('/market-map.html', 'Market Map', 'map')}
         ${link('/compare.html', 'Compare', 'compare')}
         ${link('/submit.html', 'Submit a Tool', 'submit')}
+        ${link('/advertise.html', 'Advertise', 'advertise')}
       </div>
     </div>
   </nav>`;
@@ -215,6 +216,8 @@ function renderProductPage(product) {
   const company = product.company || {};
   const ta = product.target_audience || {};
   const siteUrl = externalUrl(product.url);
+  const outUrl = externalUrl(product.affiliate_url || product.url);
+  const outRel = product.affiliate_url ? 'sponsored noopener' : 'noopener';
 
   const badges = [];
   if (pricing.free_trial) badges.push('<span class="badge-hero badge-hero-free">Free Trial</span>');
@@ -312,7 +315,7 @@ function renderProductPage(product) {
       ${company.employees ? `<div class="company-info-item"><div class="ci-label">Employees</div><div class="ci-value">${esc(company.employees)}</div></div>` : ''}
       ${company.funding ? `<div class="company-info-item"><div class="ci-label">Funding</div><div class="ci-value">${esc(company.funding)}</div></div>` : ''}
     </div>
-    <a href="${esc(siteUrl)}" target="_blank" rel="noopener" class="company-link">Visit ${esc(product.title)} →</a>
+    <a href="${esc(outUrl)}" target="_blank" rel="${outRel}" class="company-link">Visit ${esc(product.title)} →</a>
   </div>` : '';
 
   // Related tools carousels + similar grid
@@ -398,7 +401,7 @@ function renderProductPage(product) {
           <div class="hero-actions">
             ${isDefunct
               ? `<a href="#sec-alternatives" class="cta-btn">See Alternatives →</a>`
-              : `<a href="${esc(siteUrl)}" target="_blank" rel="noopener" class="cta-btn">Visit Website →</a>
+              : `<a href="${esc(outUrl)}" target="_blank" rel="${outRel}" class="cta-btn">Visit Website →</a>
             <a href="/compare.html" class="cta-btn cta-btn-outline">Compare</a>`}
           </div>
         </div>
@@ -431,15 +434,17 @@ function renderProductPage(product) {
         </ul>
       </div>` : ''}
       <div class="bottom-cta">
-        ${isDefunct ? '' : `<a href="${esc(siteUrl)}" target="_blank" rel="noopener" class="cta-btn">Visit ${esc(product.title)} →</a>`}
+        ${isDefunct ? '' : `<a href="${esc(outUrl)}" target="_blank" rel="${outRel}" class="cta-btn">Visit ${esc(product.title)} →</a>`}
         <a href="/submit.html" class="claim-link">Submit a correction or claim this listing</a>
       </div>
+      ${product.affiliate_url ? `<p style="font-size:12.5px;opacity:.65;margin:8px 0 0;">Disclosure: outbound links for this product are partner links. Partner relationships never change how a product is described.</p>` : ''}
 
       ${isDefunct || isEcosystem || product.status === 'unverifiable' ? '' : `<div class="badge-embed" style="margin:32px 0 0;padding:18px 20px;border:1px dashed rgba(128,128,160,.4);border-radius:12px;">
         <h3 style="margin:0 0 6px;">Work at ${esc(product.title)}? Show you're listed</h3>
         <p style="margin:0 0 10px;font-size:14px;">Add this badge to your website — it links straight to your listing here.</p>
         <p style="margin:0 0 10px;"><img src="/img/badge.svg" alt="Listed on CRE Software Directory" height="36"></p>
         <pre style="overflow-x:auto;background:rgba(128,128,160,.12);padding:10px 12px;border-radius:8px;font-size:12px;white-space:pre-wrap;word-break:break-all;">${esc(`<a href="${BASE}${productPath(slug)}"><img src="${BASE}/img/badge.svg" alt="Listed on CRE Software Directory" height="36"></a>`)}</pre>
+        <p style="margin:10px 0 0;font-size:13px;"><a href="/advertise.html">Want more visibility? See Featured placement →</a></p>
       </div>`}
 
       ${relatedHTML ? `<div class="related-section" id="sec-alternatives"><h2>${esc(product.title)} Alternatives &amp; Related Tools</h2>${relatedHTML}</div>` : ''}
@@ -512,6 +517,21 @@ function renderCategoryPage(slug, cat) {
     </div>
   </section>
   ${editorialHTML}
+  ${(() => {
+    const partners = products.filter(p => p.featured_partner);
+    if (!partners.length) return '';
+    return `<section class="section" style="padding-bottom:0">
+    <div class="container">
+      <div style="display:flex;align-items:baseline;gap:10px;margin-bottom:12px;">
+        <h2 style="margin:0;font-size:18px;">Featured</h2>
+        <span style="font-size:12px;opacity:.6;">Paid placement</span>
+      </div>
+      <div class="product-grid">
+        ${partners.map(productCard).join('\n')}
+      </div>
+    </div>
+  </section>`;
+  })()}
   <section class="section">
     <div class="container">
       <div class="product-grid">
@@ -679,6 +699,7 @@ function renderSitemap() {
   add(`${BASE}/market-map.html`, '0.6', TODAY);
   add(`${BASE}/compare.html`, '0.5', TODAY);
   add(`${BASE}/submit.html`, '0.5', TODAY);
+  add(`${BASE}/advertise.html`, '0.5', TODAY);
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
