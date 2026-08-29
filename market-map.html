@@ -375,7 +375,7 @@
         fetch('data/products.json'),
         fetch('data/categories.json')
       ]);
-      PRODUCTS = await prodRes.json();
+      PRODUCTS = (await prodRes.json()).filter(p => p.status !== 'unverifiable');
       CATEGORIES = await catRes.json();
 
       document.getElementById('product-count').textContent = `${PRODUCTS.length} companies across ${Object.keys(CATEGORIES).length} categories`;
@@ -474,7 +474,7 @@
           ? `<img class="chip-logo" src="${p.logo_url}" alt="" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"><span class="chip-logo-placeholder" style="display:none">${p.title.charAt(0)}</span>`
           : `<span class="chip-logo-placeholder">${p.title.charAt(0)}</span>`;
 
-        return `<a class="chip" href="product.html#${p.slug}" data-slug="${p.slug}" data-name="${p.title}">${logoHtml}${p.title}</a>`;
+        return `<a class="chip" href="/products/${p.slug}/" data-slug="${p.slug}" data-name="${p.title}">${logoHtml}${p.title}</a>`;
       }).join('');
 
       return `<div class="category-box">
