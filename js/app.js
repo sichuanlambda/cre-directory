@@ -78,7 +78,7 @@ function assignComparisonBadges() {
 
 function productCard(p) {
   const cats = (p.categories || []).slice(0, 2).map(c => `<span class="badge badge-accent">${c}</span>`).join('');
-  const rating = p.rating ? `<div class="card-rating">${starsHTML(p.rating, 13)} <span class="rating-num">${p.rating}</span></div>` : '';
+  const rating = ''; // unverifiable enrichment ratings are not displayed
   const priceText = pricingLabel(p, true);
   const price = priceText ? `<span class="card-price">${priceText}</span>` : '';
   const compBadges = getComparisonBadges(p);

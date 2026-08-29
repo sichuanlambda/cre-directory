@@ -22,6 +22,10 @@ const TODAY = new Date().toISOString().slice(0, 10);
 const ALL_PRODUCTS = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/products.json'), 'utf8'));
 const PRODUCTS = ALL_PRODUCTS.filter(p => p.status !== 'unverifiable');
 const CATEGORIES = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/categories.json'), 'utf8'));
+const EDITORIAL = fs.existsSync(path.join(ROOT, 'data/editorial.json'))
+  ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data/editorial.json'), 'utf8'))
+  : { alternatives: {}, comparisons: [] };
+const productBySlug = {};
 
 // ---------- helpers ----------
 const esc = s => String(s == null ? '' : s)
@@ -76,6 +80,9 @@ function pricingLabel(product) {
 }
 
 const productPath = slug => `/products/${slug}/`;
+const alternativesPath = slug => `/alternatives/${slug}/`;
+const comparePath = (a, b) => `/compare/${a}-vs-${b}/`;
+const comparisonsFor = slug => (EDITORIAL.comparisons || []).filter(c => c.a === slug || c.b === slug);
 const categoryPath = slug => `/categories/${slug}/`;
 const categoryBySlug = slug => CATEGORIES[slug];
 const categoryByName = name => Object.values(CATEGORIES).find(c => c.name === name);
@@ -94,7 +101,7 @@ function compactProductCard(p) {
 
 function productCard(p) {
   const cats = (p.categories || []).slice(0, 2).map(c => `<span class="badge badge-accent">${esc(c)}</span>`).join('');
-  const rating = p.rating ? `<div class="card-rating">${starsHTML(p.rating, 13)} <span class="rating-num">${p.rating}</span></div>` : '';
+  const rating = '';
   const priceText = (p.pricing || {}).starting_price || ((p.pricing || {}).free_tier ? 'Free' : '');
   const price = priceText ? `<span class="card-price">${esc(priceText)}</span>` : '';
   const badges = [];
@@ -168,15 +175,26 @@ function headHTML({ title, description, canonical, ogType = 'website', ogImage =
   ${ld}`;
 }
 
+function faqHTMLBlock(faq, heading = 'Frequently Asked Questions') {
+  if (!faq || !faq.length) return '';
+  return `<div class="faq-section"><h2>${esc(heading)}</h2><div class="faq-list">${faq.map(f => `<details class="faq-item"><summary>${esc(f.question)}</summary><p>${esc(f.answer)}</p></details>`).join('')}</div></div>`;
+}
+function faqLd(faq) {
+  return { "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": faq.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) };
+}
+
 // ---------- product pages ----------
 function renderProductPage(product) {
   const slug = product.slug;
   const canonical = `${BASE}${productPath(slug)}`;
   const seo = product.seo || {};
   const isDefunct = product.status === 'defunct';
+  const isEcosystem = !!product.not_software;
   const title = isDefunct
     ? `What Happened to ${product.title}? History & Alternatives | CRE Software Directory`
-    : (seo.title || `${product.title} Review ${YEAR}: Pricing, Features & Alternatives | CRE Software Directory`);
+    : isEcosystem
+      ? `${product.title} Overview: What They Do & Related CRE Software | CRE Software Directory`
+      : (seo.title || `${product.title} Review ${YEAR}: Pricing, Features & Alternatives | CRE Software Directory`);
   const description = stripTags(seo.description || product.short_description || `${product.title}: ${product.headline || ''} Compare pricing, features & alternatives.`).slice(0, 300);
 
   const pricing = product.pricing || {};
@@ -190,10 +208,9 @@ function renderProductPage(product) {
   if (product.is_verified) badges.push('<span class="badge-hero badge-hero-verified">✓ Verified</span>');
   if (product.is_featured) badges.push('<span class="badge-hero badge-hero-top">⭐ Featured</span>');
 
-  const ratingHTML = product.rating ? `<div class="rating-display">
-    ${starsHTML(product.rating, 20)}
-    <span class="rating-text">${product.rating}/5${product.review_count ? ` (${product.review_count} reviews)` : ''}</span>
-  </div>` : '';
+  // Ratings from the old enrichment runs have no verifiable source; until the
+  // directory has a real review source, neither stars nor aggregateRating ship.
+  const ratingHTML = '';
 
   const statsItems = [
     { label: 'Starting Price', value: pricingLabel(product) },
@@ -328,9 +345,7 @@ function renderProductPage(product) {
   } else if (pricing.free_tier) {
     softwareLd.offers = { "@type": "Offer", "price": "0", "priceCurrency": "USD" };
   }
-  if (product.rating) {
-    softwareLd.aggregateRating = { "@type": "AggregateRating", "ratingValue": product.rating, "bestRating": 5, "reviewCount": product.review_count || 1 };
-  }
+
 
   const breadcrumbLd = {
     "@context": "https://schema.org",
@@ -363,6 +378,7 @@ function renderProductPage(product) {
           <h1>${esc(product.title)}</h1>
           <div class="headline">${esc(product.headline || product.short_description || '')}</div>
           ${product.status_note ? `<div class="status-note" style="margin:10px 0;padding:8px 14px;border-radius:8px;background:rgba(243,156,18,.12);border:1px solid rgba(243,156,18,.35);font-size:14px;">ℹ️ ${esc(product.status_note)}</div>` : ''}
+          ${isEcosystem ? `<div class="ecosystem-note" style="margin:10px 0;padding:8px 14px;border-radius:8px;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.35);font-size:14px;">🏛️ Ecosystem listing: ${esc(product.title)} is ${esc(product.entity_type || 'a company in the CRE ecosystem')}, not a software product.</div>` : ''}
           ${ratingHTML}
           <div class="hero-badges">${badges.join('')} ${cats}</div>
           <div class="hero-actions">
@@ -389,10 +405,28 @@ function renderProductPage(product) {
       ${integrationsHTML}
       ${companyHTML}
 
+      ${(EDITORIAL.alternatives && EDITORIAL.alternatives[slug]) || comparisonsFor(slug).length ? `<div class="editorial-links" style="margin:24px 0;padding:16px 20px;border-radius:10px;background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.25);">
+        <strong>Deciding on ${esc(product.title)}?</strong>
+        <ul style="margin:8px 0 0;padding-left:20px;">
+          ${EDITORIAL.alternatives && EDITORIAL.alternatives[slug] ? `<li><a href="${alternativesPath(slug)}">Best ${esc(product.title)} alternatives (${YEAR})</a></li>` : ''}
+          ${comparisonsFor(slug).map(c => {
+            const other = c.a === slug ? c.b : c.a;
+            const op = PRODUCTS.find(p => p.slug === other);
+            return op ? `<li><a href="${comparePath(c.a, c.b)}">${esc(product.title)} vs ${esc(op.title)}: which is better?</a></li>` : '';
+          }).join('')}
+        </ul>
+      </div>` : ''}
       <div class="bottom-cta">
         ${isDefunct ? '' : `<a href="${esc(siteUrl)}" target="_blank" rel="noopener" class="cta-btn">Visit ${esc(product.title)} →</a>`}
         <a href="/submit.html" class="claim-link">Submit a correction or claim this listing</a>
       </div>
+
+      ${isDefunct || isEcosystem || product.status === 'unverifiable' ? '' : `<div class="badge-embed" style="margin:32px 0 0;padding:18px 20px;border:1px dashed rgba(128,128,160,.4);border-radius:12px;">
+        <h3 style="margin:0 0 6px;">Work at ${esc(product.title)}? Show you're listed</h3>
+        <p style="margin:0 0 10px;font-size:14px;">Add this badge to your website — it links straight to your listing here.</p>
+        <p style="margin:0 0 10px;"><img src="/img/badge.svg" alt="Listed on CRE Software Directory" height="36"></p>
+        <pre style="overflow-x:auto;background:rgba(128,128,160,.12);padding:10px 12px;border-radius:8px;font-size:12px;white-space:pre-wrap;word-break:break-all;">${esc(`<a href="${BASE}${productPath(slug)}"><img src="${BASE}/img/badge.svg" alt="Listed on CRE Software Directory" height="36"></a>`)}</pre>
+      </div>`}
 
       ${relatedHTML ? `<div class="related-section" id="sec-alternatives"><h2>${esc(product.title)} Alternatives &amp; Related Tools</h2>${relatedHTML}</div>` : ''}
       ${similarHTML}
@@ -487,6 +521,126 @@ function renderCategoryPage(slug, cat) {
 </html>`;
 }
 
+// ---------- alternatives pages ----------
+function renderAlternativesPage(slug, alt) {
+  const product = PRODUCTS.find(p => p.slug === slug);
+  if (!product) return null;
+  const canonical = `${BASE}${alternativesPath(slug)}`;
+  const picks = (alt.picks || []).map(x => ({ ...x, product: PRODUCTS.find(p => p.slug === x.slug) })).filter(x => x.product);
+  const title = `Best ${product.title} Alternatives & Competitors (${YEAR}) | CRE Software Directory`;
+  const description = `Looking for an alternative to ${product.title}? We compare ${picks.length} competitors on pricing, features, and fit so you can pick the right replacement.`;
+  const jsonLd = [
+    { "@context": "https://schema.org", "@type": "ItemList",
+      "name": `Best ${product.title} Alternatives`, "numberOfItems": picks.length,
+      "itemListElement": picks.map((x, i) => ({ "@type": "ListItem", "position": i + 1, "url": BASE + productPath(x.slug), "name": x.product.title })) },
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": BASE + '/' },
+      { "@type": "ListItem", "position": 2, "name": product.title, "item": BASE + productPath(slug) },
+      { "@type": "ListItem", "position": 3, "name": `${product.title} Alternatives`, "item": canonical }] }
+  ];
+  if (alt.faq && alt.faq.length) jsonLd.push(faqLd(alt.faq));
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  ${headHTML({ title, description, canonical, jsonLd })}
+</head>
+<body>
+  ${navHTML('directory')}
+  <div class="product-detail">
+    <div class="container">
+      <div class="breadcrumbs"><a href="/">Home</a> / <a href="${productPath(slug)}">${esc(product.title)}</a> / Alternatives</div>
+      <h1>Best ${esc(product.title)} Alternatives (${YEAR})</h1>
+      <div class="description-section">${(alt.intro || '').split('\n\n').map(p => `<p>${esc(p)}</p>`).join('')}</div>
+      <div class="similar-section"><h2>Top ${esc(product.title)} Alternatives</h2>
+        ${picks.map((x, i) => `<div style="margin:0 0 18px;padding:18px 20px;border:1px solid rgba(128,128,160,.25);border-radius:12px;">
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
+            <span style="font-weight:700;opacity:.5;">${i + 1}.</span>
+            <div class="product-logo" style="width:40px;height:40px">${logoHTML(x.product, 40)}</div>
+            <h3 style="margin:0;"><a href="${productPath(x.slug)}">${esc(x.product.title)}</a></h3>
+          </div>
+          <p style="margin:0 0 8px;">${esc(x.product.short_description || x.product.headline || '')}</p>
+          <p style="margin:0;"><strong>Why pick it over ${esc(product.title)}:</strong> ${esc(x.reason)}</p>
+        </div>`).join('')}
+      </div>
+      ${faqHTMLBlock(alt.faq)}
+      <div class="bottom-cta">
+        <a href="${productPath(slug)}" class="cta-btn cta-btn-outline">Read our ${esc(product.title)} review</a>
+        <a href="/compare.html" class="claim-link">Compare any two tools side by side</a>
+      </div>
+    </div>
+  </div>
+  ${footerHTML()}
+  <script src="/js/app.js"></script>
+  <script>initNav();initBackToTop();</script>
+</body>
+</html>`;
+}
+
+// ---------- comparison pages ----------
+function renderComparisonPage(cmp) {
+  const A = PRODUCTS.find(p => p.slug === cmp.a);
+  const B = PRODUCTS.find(p => p.slug === cmp.b);
+  if (!A || !B) return null;
+  const canonical = `${BASE}${comparePath(cmp.a, cmp.b)}`;
+  const title = `${A.title} vs ${B.title} (${YEAR}): Which Is Better? | CRE Software Directory`;
+  const description = cmp.one_liner || `${A.title} vs ${B.title}: side-by-side comparison of pricing, features, and fit for commercial real estate teams.`;
+  const row = (label, va, vb) => (!va && !vb) ? '' : `<tr><th style="text-align:left;padding:10px 12px;">${esc(label)}</th><td style="padding:10px 12px;">${esc(va || '—')}</td><td style="padding:10px 12px;">${esc(vb || '—')}</td></tr>`;
+  const pm = p => (p.pricing || {});
+  const ta = p => (p.target_audience || {});
+  const prosCons = p => `<div class="proscons-col"><h3>${esc(p.title)}</h3>
+    ${(p.pros || []).slice(0, 4).map(x => `<div class="proscons-item"><span class="icon-pro">✓</span>${esc(x)}</div>`).join('')}
+    ${(p.cons || []).slice(0, 3).map(x => `<div class="proscons-item"><span class="icon-con">✗</span>${esc(x)}</div>`).join('')}</div>`;
+  const jsonLd = [
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": BASE + '/' },
+      { "@type": "ListItem", "position": 2, "name": `${A.title} vs ${B.title}`, "item": canonical }] }
+  ];
+  if (cmp.faq && cmp.faq.length) jsonLd.push(faqLd(cmp.faq));
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  ${headHTML({ title, description, canonical, jsonLd })}
+</head>
+<body>
+  ${navHTML('compare')}
+  <div class="product-detail">
+    <div class="container">
+      <div class="breadcrumbs"><a href="/">Home</a> / <a href="/compare.html">Compare</a> / ${esc(A.title)} vs ${esc(B.title)}</div>
+      <h1>${esc(A.title)} vs ${esc(B.title)}: Which Is Better in ${YEAR}?</h1>
+      <p style="font-size:18px;">${esc(cmp.one_liner || '')}</p>
+      <div style="display:flex;gap:24px;align-items:center;margin:20px 0;">
+        <div style="display:flex;align-items:center;gap:10px;"><div class="product-logo">${logoHTML(A)}</div><a href="${productPath(A.slug)}"><strong>${esc(A.title)}</strong></a></div>
+        <span style="opacity:.5;font-weight:700;">VS</span>
+        <div style="display:flex;align-items:center;gap:10px;"><div class="product-logo">${logoHTML(B)}</div><a href="${productPath(B.slug)}"><strong>${esc(B.title)}</strong></a></div>
+      </div>
+      <div style="overflow-x:auto;"><table style="width:100%;border-collapse:collapse;margin:16px 0;">
+        <thead><tr><th style="text-align:left;padding:10px 12px;"></th><th style="text-align:left;padding:10px 12px;">${esc(A.title)}</th><th style="text-align:left;padding:10px 12px;">${esc(B.title)}</th></tr></thead>
+        <tbody>
+          ${row('Starting price', pricingLabel(A), pricingLabel(B))}
+          ${row('Pricing model', pm(A).model, pm(B).model)}
+          ${row('Free trial', pm(A).free_trial ? 'Yes' : 'No', pm(B).free_trial ? 'Yes' : 'No')}
+          ${row('Best for', (ta(A).roles || []).slice(0, 3).join(', '), (ta(B).roles || []).slice(0, 3).join(', '))}
+          ${row('Company size', (ta(A).company_sizes || []).join(', '), (ta(B).company_sizes || []).join(', '))}
+          ${row('Deployment', (A.deployment || []).join(', '), (B.deployment || []).join(', '))}
+          ${row('Primary category', A.primary_category && categoryBySlug(A.primary_category) ? categoryBySlug(A.primary_category).name : '', B.primary_category && categoryBySlug(B.primary_category) ? categoryBySlug(B.primary_category).name : '')}
+        </tbody>
+      </table></div>
+      <div class="description-section"><h2>Our Verdict</h2>${(cmp.verdict || '').split('\n\n').map(p => `<p>${esc(p)}</p>`).join('')}</div>
+      <div class="proscons">${prosCons(A)}${prosCons(B)}</div>
+      ${faqHTMLBlock(cmp.faq)}
+      <div class="bottom-cta">
+        <a href="${productPath(A.slug)}" class="cta-btn cta-btn-outline">${esc(A.title)} review</a>
+        <a href="${productPath(B.slug)}" class="cta-btn cta-btn-outline">${esc(B.title)} review</a>
+      </div>
+    </div>
+  </div>
+  ${footerHTML()}
+  <script src="/js/app.js"></script>
+  <script>initNav();initBackToTop();</script>
+</body>
+</html>`;
+}
+
 // ---------- sitemap ----------
 function renderSitemap() {
   const urls = [];
@@ -497,6 +651,12 @@ function renderSitemap() {
   PRODUCTS.forEach(p => {
     const lastmod = (p.enrichedAt || p.last_updated || TODAY).slice(0, 10);
     add(`${BASE}${productPath(p.slug)}`, '0.8', lastmod);
+  });
+  Object.keys(EDITORIAL.alternatives || {}).forEach(slug => {
+    if (PRODUCTS.find(p => p.slug === slug)) add(`${BASE}${alternativesPath(slug)}`, '0.7', TODAY);
+  });
+  (EDITORIAL.comparisons || []).forEach(c => {
+    if (PRODUCTS.find(p => p.slug === c.a) && PRODUCTS.find(p => p.slug === c.b)) add(`${BASE}${comparePath(c.a, c.b)}`, '0.7', TODAY);
   });
   const guidesDir = path.join(ROOT, 'guides');
   if (fs.existsSync(guidesDir)) {
@@ -533,6 +693,24 @@ for (const [slug, cat] of Object.entries(CATEGORIES)) {
   categoryCount++;
 }
 
+let altCount = 0, cmpCount = 0;
+for (const [slug, alt] of Object.entries(EDITORIAL.alternatives || {})) {
+  const html = renderAlternativesPage(slug, alt);
+  if (!html) { console.warn(`SKIP alternatives (unknown slug): ${slug}`); continue; }
+  const dir = path.join(ROOT, 'alternatives', slug);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, 'index.html'), html);
+  altCount++;
+}
+for (const cmp of EDITORIAL.comparisons || []) {
+  const html = renderComparisonPage(cmp);
+  if (!html) { console.warn(`SKIP comparison (unknown slug): ${cmp.a} vs ${cmp.b}`); continue; }
+  const dir = path.join(ROOT, 'compare', `${cmp.a}-vs-${cmp.b}`);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, 'index.html'), html);
+  cmpCount++;
+}
+
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), renderSitemap());
 
-console.log(`Built ${productCount} product pages, ${categoryCount} category pages, sitemap.xml`);
+console.log(`Built ${productCount} product pages, ${categoryCount} category pages, ${altCount} alternatives pages, ${cmpCount} comparison pages, sitemap.xml`);

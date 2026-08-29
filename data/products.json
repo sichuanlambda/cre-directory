@@ -451,7 +451,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-29",
     "is_verified": false,
     "is_featured": false,
     "domain": "apto.com",
@@ -462,7 +462,8 @@
       "Commercial"
     ],
     "primary_category": "crm-marketing",
-    "logo_url_source": "https://logo.clearbit.com/apto.com"
+    "logo_url_source": "https://logo.clearbit.com/apto.com",
+    "status_note": "Apto's website is no longer reachable and the product appears discontinued or absorbed; verify availability before purchasing."
   },
   {
     "title": "Archibus",
@@ -706,8 +707,7 @@
       "Commercial"
     ],
     "primary_category": "construction-development",
-    "logo_url_source": "https://logo.clearbit.com/architecturehelper.com",
-    "not_software": true
+    "logo_url_source": "https://logo.clearbit.com/architecturehelper.com"
   },
   {
     "title": "Argus by Altus Group",
@@ -998,7 +998,8 @@
     ],
     "primary_category": "broker-tools",
     "logo_url_source": "https://logo.clearbit.com/avisonyoung.com",
-    "not_software": true
+    "not_software": true,
+    "entity_type": "a commercial real estate services firm"
   },
   {
     "title": "Bisnow",
@@ -1170,7 +1171,8 @@
     ],
     "primary_category": "data-analytics",
     "logo_url_source": "https://logo.clearbit.com/bisnow.com",
-    "not_software": true
+    "not_software": true,
+    "entity_type": "a media and events company"
   },
   {
     "title": "Brevitas",
@@ -4027,7 +4029,8 @@
     ],
     "primary_category": "tenant-experience",
     "logo_url_source": "https://logo.clearbit.com/envoythere.com",
-    "not_software": true
+    "not_software": true,
+    "entity_type": "an electric-vehicle amenity service for properties"
   },
   {
     "title": "Fifth Wall",
@@ -4143,7 +4146,8 @@
     ],
     "primary_category": "crowdfunding-investing",
     "logo_url_source": "https://logo.clearbit.com/fifthwall.vc",
-    "not_software": true
+    "not_software": true,
+    "entity_type": "a venture capital firm"
   },
   {
     "title": "FortressIQ",
@@ -5681,7 +5685,8 @@
     "enrichedAt": "2026-02-17T22:30:34.367898Z",
     "primary_category": "broker-tools",
     "logo_url_source": "https://logo.clearbit.com/us.jll.com",
-    "not_software": true
+    "not_software": true,
+    "entity_type": "a commercial real estate services firm"
   },
   {
     "title": "Juniper Square",
@@ -5930,7 +5935,8 @@
     "logo_url_source": "https://logo.clearbit.com/knotel.com",
     "not_software": true,
     "status": "acquired",
-    "status_note": "Filed for bankruptcy in January 2021 and was acquired by Newmark, which still operates Knotel as its flexible-workspace brand."
+    "status_note": "Filed for bankruptcy in January 2021 and was acquired by Newmark, which still operates Knotel as its flexible-workspace brand.",
+    "entity_type": "a flexible workspace provider"
   },
   {
     "title": "Lev",
@@ -6813,7 +6819,8 @@
     "enrichedAt": "2026-02-17T22:32:33.960353Z",
     "primary_category": "crowdfunding-investing",
     "logo_url_source": "https://logo.clearbit.com/metaprop.vc",
-    "not_software": true
+    "not_software": true,
+    "entity_type": "a venture capital firm"
   },
   {
     "title": "Navigator CRE",
@@ -13151,7 +13158,8 @@
     "enrichment_reason": "Insufficient information - minimal website content, unclear if CRE software or investment firm",
     "primary_category": "crowdfunding-investing",
     "logo_url_source": "https://logo.clearbit.com/ziggcapital.com",
-    "not_software": true
+    "not_software": true,
+    "entity_type": "a venture capital firm"
   },
   {
     "title": "Zillow",
@@ -17911,7 +17919,8 @@
     "status": "acquired",
     "status_note": "Acquired by Rocket Companies (closed July 2025); continues to operate under the Redfin brand. Residential focus.",
     "logo_url_source": "https://logo.clearbit.com/redfin.com",
-    "not_software": true
+    "not_software": true,
+    "entity_type": "a residential real estate brokerage"
   },
   {
     "title": "Opendoor",
@@ -18069,7 +18078,8 @@
     "enriched": true,
     "primary_category": "listing-services",
     "logo_url_source": "https://logo.clearbit.com/opendoor.com",
-    "not_software": true
+    "not_software": true,
+    "entity_type": "an iBuying platform and brokerage"
   },
   {
     "title": "AirDNA",
@@ -20105,7 +20115,8 @@
     "enrichment_reason": "Skipped for time efficiency - batch processing",
     "primary_category": "property-management",
     "logo_url_source": "https://logo.clearbit.com/mynd.co",
-    "not_software": true
+    "not_software": true,
+    "entity_type": "a tech-enabled property management service"
   },
   {
     "title": "HouseCanary",
@@ -21002,7 +21013,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-29",
     "is_verified": false,
     "is_featured": false,
     "domain": "realcrowd.com",
@@ -21029,7 +21040,8 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T23:29:24.585950Z",
     "primary_category": "crowdfunding-investing",
-    "logo_url_source": "https://logo.clearbit.com/realcrowd.com"
+    "logo_url_source": "https://logo.clearbit.com/realcrowd.com",
+    "status_note": "RealCrowd appears inactive with no new offerings; verify current status before relying on the platform."
   },
   {
     "title": "LeaseQuery",
@@ -23747,7 +23759,8 @@
     "enrichedAt": "2026-02-17T23:34:27.169168Z",
     "primary_category": "accounting-finance",
     "logo_url_source": "https://logo.clearbit.com/lendinghome.com",
-    "not_software": true
+    "not_software": true,
+    "entity_type": "a technology-powered lender (now Kiavi)"
   },
   {
     "title": "PeerStreet",
@@ -23816,7 +23829,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-29",
     "is_verified": false,
     "is_featured": false,
     "domain": "peerstreet.com",
@@ -23846,7 +23859,9 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T23:34:45.341709Z",
     "primary_category": "crowdfunding-investing",
-    "logo_url_source": "https://logo.clearbit.com/peerstreet.com"
+    "logo_url_source": "https://logo.clearbit.com/peerstreet.com",
+    "status": "defunct",
+    "status_note": "Filed for Chapter 11 bankruptcy in 2023 and wound down its investment marketplace."
   },
   {
     "title": "Property Finder",
@@ -24811,7 +24826,8 @@
     ],
     "primary_category": "tenant-experience",
     "logo_url_source": "https://logo.clearbit.com/doordash.com",
-    "not_software": true
+    "not_software": true,
+    "entity_type": "a delivery logistics service"
   },
   {
     "title": "PadMapper",
@@ -31373,7 +31389,7 @@
         "private market CRE"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-08-29",
     "is_verified": false,
     "is_featured": false,
     "domain": "cadre.com",
@@ -31386,7 +31402,9 @@
     "enriched": true,
     "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
     "primary_category": "crowdfunding-investing",
-    "logo_url_source": "https://logo.clearbit.com/cadre.com"
+    "logo_url_source": "https://logo.clearbit.com/cadre.com",
+    "status": "acquired",
+    "status_note": "Acquired by Yieldstreet in late 2023; Cadre's platform now operates under Yieldstreet."
   },
   {
     "title": "Quarem",
