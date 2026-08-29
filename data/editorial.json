@@ -1,0 +1,1071 @@
+{
+ "alternatives": {
+  "costar": {
+   "intro": "CoStar is the largest commercial real estate database in the US, but its premium pricing is cost-prohibitive for smaller firms and individual brokers, and annual contracts offer limited flexibility on plan adjustments. The platform's depth is also its drawback: there is a steep learning curve, and it can be overwhelming for users who only need basic property search. Teams outside major US markets may also find some international coverage less comprehensive than the domestic data.\n\nBefore switching, be clear about which slice of CoStar you actually use. If it is lease comps, a contributor-driven exchange can replace that at far lower cost. If it is prospecting and ownership research, dedicated property-intelligence tools cover it. If it is listings exposure, the marketplaces stand alone. Few alternatives replicate everything CoStar does in one contract, so most teams replace it with one or two focused tools rather than a single like-for-like substitute.",
+   "picks": [
+    {
+     "slug": "crexi",
+     "reason": "The most direct marketplace-plus-data alternative: free basic access, a modern interface, and Crexi Intelligence analytics in one platform. Data depth is still maturing versus CoStar, but for search, listings, and deal management it covers most day-to-day broker needs without an enterprise contract."
+    },
+    {
+     "slug": "compstak",
+     "reason": "Choose CompStak when lease comps are your main CoStar use case. Its crowdsourced exchange delivers granular effective-rent detail (TI, free rent, escalations) CoStar does not surface, and brokers and appraisers who contribute their own comps can access it for free."
+    },
+    {
+     "slug": "reonomy",
+     "reason": "Better than CoStar for prospecting-driven work: it uncovers true owners behind LLCs and trusts and tracks debt maturity to flag motivated sellers. A free trial lets you evaluate it before committing, though lease data is thinner than CoStar's."
+    },
+    {
+     "slug": "propertyshark",
+     "reason": "At $60/month with a free trial, it is far more accessible than CoStar for individual users who need owner lookup, list building, and foreclosure tracking. Coverage is strongest in NYC and major metros, so verify your market first."
+    },
+    {
+     "slug": "moodys-reis",
+     "reason": "Pick Moody's if what you value in CoStar is market-level analytics rather than property records: its econometric forecasting and deep historical series are gold-standard. It is still enterprise-priced and less useful for property-level decisions."
+    },
+    {
+     "slug": "placer",
+     "reason": "Placer.ai adds something CoStar does not have: foot traffic and visitor demographics for any US location, with a genuinely useful free dashboard. Best for retail-focused teams; less relevant for pure office or industrial work."
+    },
+    {
+     "slug": "cherre",
+     "reason": "For institutional teams, Cherre integrates 150+ data sources into a single data model rather than locking you into one vendor's database. It is enterprise-priced and requires data-infrastructure maturity, so it suits large investors more than small brokerages."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to CoStar?",
+     "answer": "There is no free equivalent to CoStar's full database, but two options cover meaningful pieces at no cost: Crexi offers free property search and basic listings, and CompStak's exchange gives brokers and appraisers free access to lease and sales comps in return for contributing their own deal data. Placer.ai's free dashboard adds basic foot-traffic lookups."
+    },
+    {
+     "question": "Is there a cheaper alternative to CoStar for small teams?",
+     "answer": "Yes. PropertyShark starts at $60/month and covers owner lookup, property research, and list building, though its data is strongest in NYC and major metros. Crexi's free tier plus a paid Pro subscription is another lower-cost route for search and listings. Neither matches CoStar's data depth, so weigh what your team actually uses against the premium price and annual contract."
+    }
+   ]
+  },
+  "yardi": {
+   "intro": "Yardi is one of the most comprehensive property management stacks available, but that breadth comes with real costs. Voyager has a steep learning curve, can be complex to configure, and implementations run months rather than weeks. Some modules still carry a dated legacy interface, support responsiveness varies for non-enterprise clients, and once you are embedded, migrating away is difficult because of deep integration and data lock-in.\n\nWhen evaluating a switch, match the tool to your portfolio rather than buying the biggest platform. Multifamily-focused operators, commercial landlords, and small residential managers all have purpose-built options that deploy faster than Voyager. Also plan the migration itself: data lock-in is one of Yardi's most cited drawbacks, so budget time for extracting historical accounting and lease data, and favor platforms with published pricing and shorter implementations if predictability matters to you.",
+   "picks": [
+    {
+     "slug": "appfolio",
+     "reason": "A cloud-native, AI-first alternative for residential managers from roughly 50 to 14,000+ units, with a single unified experience instead of Yardi's module sprawl. Expect change management for the AI-native workflows, but no months-long Voyager-style configuration."
+    },
+    {
+     "slug": "mri-software",
+     "reason": "The closest like-for-like enterprise alternative, covering commercial, residential, and investment management with an open platform and 200+ integration partners, which is a contrast to Yardi's more closed, lock-in-prone ecosystem. It shares enterprise pricing and a learning curve, so this is a lateral move, not a downsize."
+    },
+    {
+     "slug": "entrata",
+     "reason": "Pick Entrata for multifamily if single-login unification is the goal: everything is integrated without third-party dependencies, proven at 3.2M+ units, with strong AI leasing via ELI. Commercial features are less mature than Yardi's."
+    },
+    {
+     "slug": "realpage",
+     "reason": "For large multifamily operators, RealPage matches Yardi's breadth in that segment and leads on revenue management and analytics. It remains enterprise-priced and complex, so it suits portfolios that need the data horsepower rather than teams fleeing complexity."
+    },
+    {
+     "slug": "buildium",
+     "reason": "For residential portfolios, Buildium offers what Yardi does not: transparent published pricing from $62/month and a free trial. It is primarily residential with limited commercial features, so it fits managers who do not need Voyager's commercial depth."
+    },
+    {
+     "slug": "doorloop",
+     "reason": "Handles residential and commercial with published tiers from $69/month and data migration measured in days rather than months, a direct answer to Yardi's lengthy implementations. Per-unit pricing can add up on very large portfolios."
+    },
+    {
+     "slug": "rent-manager",
+     "reason": "Supports all property types including residential, commercial, HOA, and self-storage, with 450+ built-in reports, dual cash/accrual accounting, and an open API. Pricing still requires consultation and setup can be involved, but it is more customizable than Yardi Breeze for mixed portfolios."
+    },
+    {
+     "slug": "re-leased",
+     "reason": "A modern cloud-native option purpose-built for commercial landlords, with strong automated rent reviews and excellent Xero and QuickBooks integrations. Its US market presence is smaller than Yardi's, but the UX is notably fresher than legacy modules."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to Yardi?",
+     "answer": "Nothing free replicates Yardi Voyager. For small residential landlords, Innago is completely free with no unit limits, and TenantCloud has a free starter plan covering up to 10 leases. Neither handles the commercial accounting, investment management, or enterprise workflows Yardi covers, so free options only make sense for small, simple portfolios."
+    },
+    {
+     "question": "Is there a cheaper alternative to Yardi for small teams?",
+     "answer": "Yes, several with transparent pricing: Buildium starts at $62/month with a free trial, DoorLoop at $69/month, and Rentec Direct runs $2-2.50/unit/month with no minimums. Note that Yardi's own Breeze tier starts around $1/unit/month, so if you like Yardi but not Voyager's complexity, compare Breeze against these before leaving the ecosystem entirely."
+    }
+   ]
+  },
+  "appfolio": {
+   "intro": "AppFolio positions itself as an AI-native performance platform, and that is exactly why some teams look elsewhere. Its cons are the flip side of its ambitions: the platform can be complex for smaller property management companies, the AI-native approach requires real change management and training, and its enterprise-level AI capabilities carry premium pricing. Pricing is also quote-based with no published plans, which makes budgeting harder for small operators who just want to know the monthly cost.\n\nWhen comparing alternatives, decide whether you want less platform or just more predictable pricing. Small landlords can move to free or flat-rate tools and give up little they actually use. Mid-sized managers should weigh transparent per-unit or tiered pricing against AppFolio's automation depth, and confirm any replacement covers the accounting, screening, and maintenance workflows they rely on today.",
+   "picks": [
+    {
+     "slug": "buildium",
+     "reason": "The most direct alternative with transparent published pricing from $62/month and a free trial, versus AppFolio's quote-based model. It is purpose-built for residential management and scales to 15,000+ units, with Lumina AI covering communications and bill scanning."
+    },
+    {
+     "slug": "doorloop",
+     "reason": "Published tiers ($69/$139/$199), setup and data migration in days, and a 98.6% customer satisfaction rating make it a lower-friction switch than an AI-native replatforming. It covers both residential and commercial properties."
+    },
+    {
+     "slug": "yardi",
+     "reason": "Yardi Breeze starts around $1/unit/month, giving smaller operators a simpler, cheaper entry point than AppFolio's premium AI platform, with Voyager available if you later outgrow it. Be aware the enterprise tier brings its own complexity."
+    },
+    {
+     "slug": "rentec-direct",
+     "reason": "At $2-2.50/unit/month with no minimums, free ACH payments, and US-based support, it is one of the most affordable full property management options for cost-conscious managers. The interface is more dated than AppFolio's, which is the trade-off for the price."
+    },
+    {
+     "slug": "tenantcloud",
+     "reason": "A free starter plan (up to 10 leases) makes it the easy off-ramp for small landlords who find AppFolio complex or expensive, with autopay that the company says cuts late payments by 90%. Paid-tier pricing is less transparent."
+    },
+    {
+     "slug": "rent-manager",
+     "reason": "Choose Rent Manager for customization: 450+ built-in reports, dual cash/accrual accounting, an open API, and support for every property type including commercial, which AppFolio's residential focus does not emphasize. Pricing requires consultation."
+    },
+    {
+     "slug": "entrata",
+     "reason": "For larger multifamily operators, Entrata offers a true single-login platform proven at 3.2M+ units with strong AI leasing. Like AppFolio it is quote-based, so this is a move for capability fit rather than price transparency."
+    },
+    {
+     "slug": "turbo-tenant",
+     "reason": "Free for landlords on the core plan and trusted by over 500,000 of them, with a Premium tier at $12.42/unit/month. It suits DIY landlords, not professional managers running third-party portfolios."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to AppFolio?",
+     "answer": "For small landlords, Innago is completely free with no unit limits, TurboTenant's core plan is free for landlords, and TenantCloud's starter plan is free up to 10 leases. These cover rent collection, screening, and basic operations, but none approach AppFolio's automation, accounting depth, or investor reporting, so they fit self-managing landlords rather than professional management companies."
+    },
+    {
+     "question": "Is there a cheaper alternative to AppFolio for small teams?",
+     "answer": "Yes. AppFolio does not publish pricing, but several alternatives do: Buildium starts at $62/month with a free trial, DoorLoop at $69/month, and Rentec Direct at $2-2.50/unit/month with no minimums. For very small portfolios, RentRedi's flat rate (from $19.95/month billed annually) covers unlimited units."
+    }
+   ]
+  },
+  "buildium": {
+   "intro": "Buildium is a strong residential property management platform with transparent pricing, but its own trade-offs push some users to shop around. It is primarily residential with limited commercial property management features, pricing scales up significantly with portfolio size, and key capabilities are gated: several advanced features sit behind the $400/month Premium tier, and API access is only available on the highest plan. Small landlords paying $62/month for the Essential plan may find they use a fraction of it, while growing firms hit the tier walls.\n\nWhen switching, sort yourself into one of three groups. Very small landlords can get core rent collection and screening free elsewhere. Managers with commercial or mixed portfolios should prioritize platforms that treat commercial as first-class rather than an afterthought. And larger operations comparing Growth or Premium pricing should test whether per-unit or flat-rate models come out cheaper at their size.",
+   "picks": [
+    {
+     "slug": "appfolio",
+     "reason": "The step up for growing residential firms: an AI-native unified platform proven with customers managing 14,000+ units, with automation that goes beyond Buildium's Lumina features. Pricing is quote-based and premium, so it is a capability upgrade rather than a savings play."
+    },
+    {
+     "slug": "doorloop",
+     "reason": "Covers both residential and commercial properties, unlike residential-focused Buildium, with published tiers from $69/month and migration measured in days. Its Zapier and open API integrations are not locked to the top plan the way Buildium's API is."
+    },
+    {
+     "slug": "innago",
+     "reason": "Completely free with no hidden fees or unit limits, making it the obvious move for small landlords who find even Buildium's $62/month Essential plan more than they need. The feature set is lighter than paid competitors, which is the trade."
+    },
+    {
+     "slug": "tenantcloud",
+     "reason": "A free starter plan for up to 10 leases plus dedicated mobile apps for landlords, tenants, and owners. Good for small portfolios testing whether they need paid software at all; paid-tier pricing is less transparent than Buildium's."
+    },
+    {
+     "slug": "rentec-direct",
+     "reason": "At $2-2.50/unit/month with no minimum, a 100-unit portfolio costs far less than Buildium's Growth tier, and tenants get free ACH payments. The interface feels more dated, but US-based support is award-winning."
+    },
+    {
+     "slug": "rentredi",
+     "reason": "Flat-rate pricing from $19.95/month (annual) with unlimited units means costs do not scale with portfolio size, directly addressing Buildium's scaling-price complaint. Accounting is lighter than a full suite, so pair it with your bookkeeping tools."
+    },
+    {
+     "slug": "hemlane",
+     "reason": "Built for remote and hands-off landlords, with 24/7 repair coordination available and tiers from $2/unit/month. Choose it if what you really want from software is fewer landlord tasks, not more accounting features."
+    },
+    {
+     "slug": "rent-manager",
+     "reason": "Supports residential, commercial, HOA, and self-storage in one system with 450+ reports and an open API, solving Buildium's limited-commercial and top-tier-API constraints in one move. Pricing requires a consultation."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to Buildium?",
+     "answer": "Innago is the strongest free option: completely free with no unit limits and consistently praised support, covering rent collection, screening, and basic operations. TenantCloud's free starter plan (up to 10 leases) and TurboTenant's free landlord plan are also solid for very small portfolios. Expect a lighter feature set than Buildium, especially in accounting and owner reporting."
+    },
+    {
+     "question": "Is there a cheaper alternative to Buildium for small teams?",
+     "answer": "Yes. Rentec Direct at $2-2.50/unit/month with no minimums undercuts Buildium for most small portfolios, and RentRedi's flat rate from $19.95/month covers unlimited units. Both are cheaper than Buildium's $62/month entry plan for small landlords, though Buildium remains competitive if you need its deeper accounting and its published, predictable tiering."
+    }
+   ]
+  },
+  "procore": {
+   "intro": "Procore is the industry-leading construction management platform, but its model does not fit everyone. Pricing is based on annual construction volume, which can get expensive for large developers, and it can be overkill for small renovation or tenant improvement projects. It is also primarily construction-focused rather than a full CRE lifecycle platform, and teams new to project management software face a steep learning curve.\n\nThe key question when switching is what job you actually need done. If it is jobsite documentation, dedicated capture tools do that one thing well, and some even integrate with Procore if you keep it. If it is construction and property accounting, a finance-first system may fit better than a project-first one. If it is early-stage feasibility rather than execution, planning tools are faster and cheaper. Full replacements are rare; most alternatives narrow the scope to match a smaller project load or a specific workflow.",
+   "picks": [
+    {
+     "slug": "openspace",
+     "reason": "Choose OpenSpace when site documentation is your main need: AI auto-mapping of 360-degree captures saves superintendents 20-30% of documentation time, and it integrates with Procore and Autodesk if you keep either. It is a capture tool, not full project management."
+    },
+    {
+     "slug": "sage-300-cre",
+     "reason": "A finance-first alternative combining construction accounting, robust job costing, and property management, with decades of track record. Pick it when cost control and audit trail matter more than field collaboration; the desktop-first interface is dated compared to Procore."
+    },
+    {
+     "slug": "testfit",
+     "reason": "For developers upstream of construction, TestFit handles site feasibility 30x faster than traditional methods with automatic cost takeoffs and exports to Revit and AutoCAD. It covers the feasibility stage only, so it complements rather than replaces execution tools."
+    },
+    {
+     "slug": "matterport",
+     "reason": "A cheaper documentation route for smaller projects: 3D digital twins with a free tier, smartphone capture, and automatic floor plans, versus Procore's volume-based pricing. Best results need dedicated camera hardware, and it does no scheduling or cost management."
+    },
+    {
+     "slug": "birdi",
+     "reason": "A geospatial platform with a free tier, AI feature detection, and no-signup sharing links, useful for site planning and assessments where Procore would be overkill. It is not construction-specific, so treat it as a lightweight planning layer."
+    },
+    {
+     "slug": "roofsnap",
+     "reason": "For roofing contractors specifically, RoofSnap's measurement reports (delivered in under 4 hours) and Good/Better/Best estimation are a far better fit than a general construction platform. Pay-as-you-go pricing suits low volume; it does nothing outside roofing."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to Procore?",
+     "answer": "There is no good free replacement for Procore's project, cost, and quality management. The closest free entry points cover narrow slices: Matterport's free tier handles basic 3D site documentation for one active space, and Birdi's free tier covers basic geospatial collaboration. For actual construction project management, expect to pay; most platforms in this space use quote-based pricing."
+    },
+    {
+     "question": "Is there a cheaper alternative to Procore for small teams?",
+     "answer": "Procore's pricing scales with annual construction volume, so small teams doing occasional renovations or tenant improvements often find it overkill. Cheaper paths depend on the job: Matterport starts at $11.49/month for documentation, RoofSnap offers pay-per-report pricing for roofing work, and Sage 300 CRE (quote-based) can be right-sized for accounting-led firms. None replicates Procore's breadth, which is exactly why they cost less."
+    }
+   ]
+  },
+  "argus": {
+   "intro": "ARGUS is the industry standard for CRE valuation and DCF modeling, taught in 200+ universities, and that standardization is why leaving it is hard. But the complaints are consistent: a steep learning curve that requires significant training, enterprise pricing that is not accessible for small firms or individual brokers, legacy desktop roots with a cloud transition still evolving, and an interface that feels dated next to modern SaaS.\n\nBefore switching, be honest about who consumes your models. Institutional investors and lenders often expect ARGUS files, so a full replacement can create friction in deals even when the alternative is technically sufficient. Small firms and brokers doing acquisition underwriting, broker opinions of value, or appraisal work have the most to gain, since affordable tools cover those workflows without enterprise contracts. Teams that mainly need pipeline visibility rather than deep DCF mechanics should look at deal management platforms instead of modeling software.",
+   "picks": [
+    {
+     "slug": "theanalyst-pro",
+     "reason": "The affordability play: $699.99/year with transparent pricing and a 7-day free trial, combining investment analysis with marketing outputs for brokers. It is less powerful than ARGUS for complex institutional valuations, which is the honest trade-off."
+    },
+    {
+     "slug": "real-data",
+     "reason": "One-time purchases of $99-$399 with no recurring fees, built in Excel so finance teams face no learning curve, the direct opposite of ARGUS's training burden. No cloud collaboration, but for solo investors and small shops the value is excellent."
+    },
+    {
+     "slug": "cremodels",
+     "reason": "A familiar-interface modeling suite that standardizes underwriting across distributed teams with fast scenario analysis, plus optional services. It is less well-known than ARGUS, but the lower learning curve is precisely its pitch."
+    },
+    {
+     "slug": "valcre",
+     "reason": "For appraisers specifically, Valcre saves 2+ hours per appraiser daily on report writing, with 100+ data source integrations and 400,000+ appraisals completed. It targets the appraisal workflow rather than general investment modeling."
+    },
+    {
+     "slug": "dealpath",
+     "reason": "Choose Dealpath if your real problem is deal pipeline rather than DCF mechanics: AI ingestion pulls data from OMs automatically and it is trusted by institutional investors like Blackstone. It requires a 5-user minimum and is deal management, not valuation modeling."
+    },
+    {
+     "slug": "fuel",
+     "reason": "A RealPage-ecosystem investment management platform covering the end-to-end investment lifecycle across asset classes, suited to firms wanting portfolio-level management around their models. It is enterprise-priced, so it competes with ARGUS Enterprise rather than undercutting it."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to ARGUS?",
+     "answer": "There is no credible free alternative to ARGUS for institutional-grade DCF valuation. The cheapest legitimate routes are paid but modest: Real Data sells Excel-based analysis products as one-time purchases from $99, and TheAnalyst PRO offers a 7-day free trial before its $699.99/year subscription. If counterparties expect ARGUS files in your deals, budget for that reality rather than a free workaround."
+    },
+    {
+     "question": "Is there a cheaper alternative to ARGUS for small teams?",
+     "answer": "Yes, meaningfully cheaper. TheAnalyst PRO runs $699.99/year with transparent pricing and covers investment analysis plus marketing reports for brokers. Real Data's one-time-purchase Excel models ($99-$399) avoid subscriptions entirely. Both are far less powerful than ARGUS for complex institutional valuations, but for small firms priced out of enterprise contracts, they cover acquisition underwriting and investor-ready reporting."
+    }
+   ]
+  },
+  "loopnet": {
+   "intro": "LoopNet's 10M+ monthly visitors make it the default place to market commercial property, but the economics frustrate many brokers. Premium listing tiers run roughly $200 to $500 per listing per month, and those costs add up quickly across a multi-property portfolio, while free-tier listings get minimal visibility by comparison. Some brokers also resist the CoStar-owned ecosystem on principle, and LoopNet itself offers limited CRM or deal management features; it is primarily a listing platform.\n\nSwitching is lower-risk here than with most software because listings are not locked in; many brokers simply run alternatives alongside LoopNet and shift budget based on lead quality. Weigh raw audience size against cost per listing, check whether an alternative's buyer network actually covers your asset type and market, and consider platforms that bundle marketing tools or deal management so you get more than syndication for the spend.",
+   "picks": [
+    {
+     "slug": "crexi",
+     "reason": "The leading LoopNet alternative by the data's own description: free basic listings, 500,000+ active listings, a modern interface, and built-in deal management and analytics that LoopNet lacks. Inventory is still smaller than LoopNet's in some markets."
+    },
+    {
+     "slug": "brevitas",
+     "reason": "Free to list and join, with 200,000+ members, 350,000+ listings, and built-in email marketing and landing page tools. A strong zero-cost complement or replacement, though listing quality varies since anyone can post for free."
+    },
+    {
+     "slug": "real-capital-markets",
+     "reason": "For investment sales, RCM is where institutional deals happen: over half of US CRE sales touch the platform and 81,000+ qualified principals see deals. It is focused on sales, not leasing, and pricing is not public."
+    },
+    {
+     "slug": "ten-x",
+     "reason": "An auction-based route to certainty of execution, with billions in CRE transactions and a broad buyer network driving competition. Note it is also CoStar-owned, so it does not solve ecosystem concerns, and fees come as commissions and buyer premiums."
+    },
+    {
+     "slug": "buildout",
+     "reason": "Choose Buildout if your real spend is on marketing listings, not just hosting them: its Showcase marketing and CRM tools serve 50,000+ brokers and generate the materials LoopNet charges premium tiers to display. It is broker software, not a consumer marketplace."
+    },
+    {
+     "slug": "the-broker-list",
+     "reason": "A free-tier broker directory and networking platform with SEO-optimized profiles and listing sharing, useful for visibility without per-listing fees. It is a networking layer, not a transaction marketplace, so treat it as a supplement."
+    },
+    {
+     "slug": "storefront",
+     "reason": "For retail landlords with vacant space, Storefront monetizes it through pop-up and short-term rentals across 10,000+ spaces instead of waiting on a long-term listing. Commission-based fees apply and availability varies by city."
+    },
+    {
+     "slug": "squarefoot",
+     "reason": "On the tenant side, SquareFoot pairs search technology with brokerage service at no cost to tenants, since landlords pay the commission. It is tenant-rep only and coverage is thinner than national marketplaces."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to LoopNet?",
+     "answer": "Crexi is the strongest free option: basic listings and property search cost nothing, and it is the fastest-growing CRE marketplace with 500,000+ active listings. Brevitas is also free to list on, with a 200,000+ member network. Keep in mind LoopNet itself has a free tier; the catch, there and elsewhere, is that free listings get less visibility than paid placements."
+    },
+    {
+     "question": "Is there a cheaper alternative to LoopNet for marketing multiple properties?",
+     "answer": "Yes. LoopNet's premium tiers run roughly $200-$500 per listing per month, which multiplies fast across a portfolio. Crexi and Brevitas both offer free listings with paid upgrades, so brokers with many properties often syndicate broadly for free and pay to boost only priority listings. For investment sales specifically, Real Capital Markets reaches 81,000+ qualified principals, though its pricing is quote-based."
+    }
+   ]
+  },
+  "crexi": {
+   "intro": "Crexi has grown fast on the strength of free basic access and a modern interface, but its youth shows in places the data acknowledges: listing inventory is smaller than CoStar or LoopNet in some markets, data depth is still maturing compared to established providers, premium pricing is not publicly disclosed, and institutional players still default to CoStar and LoopNet, which can matter when your audience is institutional buyers.\n\nMost teams that leave Crexi are chasing one of two things: a bigger audience for listings, or deeper data than Crexi Intelligence currently offers. Those pull in different directions, marketplaces on one side and research platforms on the other, so decide which gap hurts before paying for a replacement. Also note that because Crexi's core tier is free, alternatives rarely save money; they either add reach, add data, or add broker workflow tools.",
+   "picks": [
+    {
+     "slug": "loopnet",
+     "reason": "The audience play: 10M+ monthly visitors and strong Google rankings give listings maximum exposure, especially where Crexi's inventory is thinner. Premium tiers (roughly $200-$500 per listing per month) add up quickly, which is what sends brokers the other way."
+    },
+    {
+     "slug": "costar",
+     "reason": "For data depth Crexi has not yet matched, CoStar's 1,000+ person research team and comprehensive comps and analytics remain the benchmark, and institutional counterparties recognize it by default. Expect premium pricing and annual contracts."
+    },
+    {
+     "slug": "brevitas",
+     "reason": "A free network of 200,000+ members with off-market deal flow and built-in email marketing tools, complementing or replacing Crexi at zero cost. Listing quality varies since anyone can post for free."
+    },
+    {
+     "slug": "real-capital-markets",
+     "reason": "When selling institutional-grade assets, RCM's reach of 81,000+ qualified principals and its role in over half of US CRE sales beat a general marketplace. It is investment-sales only, with no leasing side."
+    },
+    {
+     "slug": "ten-x",
+     "reason": "For sellers who value speed and certainty, Ten-X's auction format and broad buyer network create competitive, transparent transactions. Fees come as commissions and buyer premiums, and the auction format does not suit every asset."
+    },
+    {
+     "slug": "buildout",
+     "reason": "If you use Crexi mainly to market listings, Buildout goes deeper on the broker side: purpose-built CRM, marketing, and prospecting used by 50,000+ CRE brokers, with a 40M+ property database. It is quote-priced software, not a free marketplace."
+    },
+    {
+     "slug": "the-broker-list",
+     "reason": "A free way to add broker-to-broker visibility and referrals alongside any marketplace, with SEO-optimized profiles. It is networking rather than a transaction platform, so use it to extend reach, not replace listings."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to Crexi?",
+     "answer": "Since Crexi's own basic tier is free, the question is really about free reach elsewhere. LoopNet offers free basic listings backed by the largest CRE marketplace audience (10M+ monthly visitors), though free listings get minimal visibility next to paid tiers. Brevitas is free to list on with a 200,000+ member network. Many brokers simply post to all three free tiers simultaneously."
+    },
+    {
+     "question": "Is there an alternative to Crexi with better data for institutional deals?",
+     "answer": "Yes. Crexi's data depth is still maturing, and institutional players tend to default to CoStar, whose researcher-verified comps and analytics remain the industry benchmark, at a premium, quote-based price. For investment sales marketing specifically, Real Capital Markets is the institutional standard, reaching 81,000+ qualified principals. Both are quote-priced, so they trade Crexi's accessibility for depth and recognition."
+    }
+   ]
+  },
+  "vts": {
+   "intro": "VTS unifies leasing, marketing, tenant experience, and market data across 13B+ square feet, but it is built for large landlords, and the data says so: enterprise pricing is not accessible for small brokerages or individual brokers, quote-based pricing means no transparency until you talk to sales, teams coming from spreadsheets face a steep learning curve, and the platform is primarily office and commercial focused, with multifamily features that are newer.\n\nAlternatives to VTS are mostly unbundlings of it. Few products replicate the whole leasing-to-tenant-experience stack, so the practical move is to identify which module you actually use, leasing pipeline, lease data, building operations, or tenant experience, and buy that piece from a focused vendor. Smaller landlords should also weigh whether a full property management platform with leasing features covers enough, since those are often easier to buy and implement than an enterprise leasing suite.",
+   "picks": [
+    {
+     "slug": "dottid",
+     "reason": "A focused alternative to VTS Lease: purpose-built leasing workflow management with dynamic portfolio projections, ARGUS integration, and a modern UX that replaces email-and-spreadsheet processes. It is leasing-only, without VTS's marketing and tenant experience modules."
+    },
+    {
+     "slug": "prophia",
+     "reason": "If lease data accuracy is your VTS use case, Prophia's AI lease abstraction (with a free instant abstraction tool) and self-updating stacking plans attack the problem that 53% of rent rolls contain material errors. It is not a full leasing pipeline platform."
+    },
+    {
+     "slug": "hqo",
+     "reason": "Replaces the tenant experience side (VTS Activate): a CRM purpose-built for CRE tenant experience with AI-powered analytics across single buildings to global portfolios. It is enterprise-focused and does not cover leasing pipeline management."
+    },
+    {
+     "slug": "building-engines",
+     "reason": "For day-to-day building operations, Building Engines (backed by JLL) covers work orders, COI tracking, inspections, and tenant experience. Note the JLL ownership may not suit firms working with competing brokerages, and it lacks leasing pipeline tools."
+    },
+    {
+     "slug": "occupier",
+     "reason": "The tenant-side mirror of VTS: lease management and transaction workflows for corporate occupiers with ASC 842 compliance built in. Choose it if you sit on the occupier side of the table rather than the landlord side."
+    },
+    {
+     "slug": "re-leased",
+     "reason": "For smaller commercial landlords priced out of VTS, Re-Leased delivers cloud-native commercial property management with automated rent reviews and strong Xero and QuickBooks integrations. It is property management with lease tracking, not a leasing intelligence platform."
+    },
+    {
+     "slug": "mri-software",
+     "reason": "An enterprise alternative that bundles property management, lease intelligence, and investment management on an open platform with 200+ integration partners. It shares VTS's enterprise pricing and learning curve, so pick it for broader scope, not simplicity."
+    },
+    {
+     "slug": "yardi",
+     "reason": "For landlords wanting leasing inside a full management-and-accounting stack, Yardi covers the whole lifecycle, and Breeze gives smaller operators an entry point VTS does not offer. Voyager brings its own complexity and lock-in considerations."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to VTS?",
+     "answer": "There is no free equivalent to VTS's leasing and asset management platform. The only notable free entry point in this space is Prophia Abstract, a free instant lease abstraction tool that covers one slice of the workflow, understanding what is in your leases. Everything comparable to VTS's core modules is quote-priced enterprise software, so small teams should look at right-sized paid tools instead."
+    },
+    {
+     "question": "Is there a cheaper alternative to VTS for small landlords?",
+     "answer": "VTS is explicitly enterprise-priced, so smaller landlords have options that, while mostly quote-based themselves, target smaller portfolios: Dottid for leasing workflow, Re-Leased for commercial property management with strong accounting integrations, and Prophia for lease data (with a free abstraction tool to start). None publishes pricing, but all are scoped, and typically priced, for narrower needs than a 13B-square-foot enterprise platform."
+    }
+   ]
+  },
+  "reonomy": {
+   "intro": "Reonomy's ownership intelligence, piercing LLCs and trusts and tracking debt maturity, makes it a favorite prospecting tool, but the data flags real limitations. Pricing is not publicly available, data accuracy varies by market and is strongest in major metros, the research operation is smaller than CoStar's with some coverage gaps, and commercial lease data is limited compared to CoStar or CompStak. If your work leans on lease comps or secondary-market coverage, those gaps matter.\n\nChoosing a replacement depends on which Reonomy job you are hiring for. Pure prospecting and owner lookup can be had much cheaper. Lease and transaction comps need a comps-first platform. Institutional teams stitching multiple data sources together may want a data-integration layer rather than another standalone database. And map-driven parcel research is its own category. Test any alternative in your actual markets first, since coverage variability is the common weakness across property data tools.",
+   "picks": [
+    {
+     "slug": "propertyshark",
+     "reason": "The budget-friendly swap for prospecting: $60/month with a free trial, owner lookup, list building, and foreclosure tracking, versus Reonomy's undisclosed pricing. Its depth is best in NYC and major metros, so check your market."
+    },
+    {
+     "slug": "costar",
+     "reason": "Solves Reonomy's coverage and lease-data gaps in one move: the most comprehensive CRE database, maintained by a 1,000+ person research team. The trade is premium pricing, annual contracts, and a steep learning curve."
+    },
+    {
+     "slug": "compstak",
+     "reason": "Directly fills Reonomy's weakest area, lease data: crowdsourced comps with granular effective-rent detail from 35,000+ contributing members, free for brokers and appraisers who contribute. It is comps-focused rather than an ownership-intelligence tool."
+    },
+    {
+     "slug": "cherre",
+     "reason": "For institutional teams, Cherre connects 150+ data partnerships into a universal data model instead of one vendor's records, purpose-built for institutional investors. Enterprise-only pricing and real implementation work make it a bigger commitment than Reonomy."
+    },
+    {
+     "slug": "landvision",
+     "reason": "A map-first alternative for parcel research and deal sourcing with nationwide coverage, LightBox's cross-dataset property linking, and in-platform zoning data. Pricing is quote-based and the feature set is enterprise-oriented."
+    },
+    {
+     "slug": "corelogic",
+     "reason": "Brings 98%+ property coverage in major markets, 30 years of historical data, and climate risk analytics that Reonomy does not offer. It serves many industries beyond CRE, and the product suite can overwhelm smaller organizations."
+    },
+    {
+     "slug": "land-id",
+     "reason": "The lightweight, cheap option: parcel boundaries and owner info from $9.99/month with a free plan, trusted by 40,000+ professionals. It is best for rural and land work and far shallower than Reonomy for commercial ownership research."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to Reonomy?",
+     "answer": "There is no free tool that replicates Reonomy's LLC-piercing ownership intelligence. Land id offers a free plan for basic parcel and owner lookups, though it is limited and geared to rural and land work. Reonomy itself offers a free trial, which is worth using to benchmark any alternative. For most professionals, the realistic budget option is paid but cheap: PropertyShark at $60/month."
+    },
+    {
+     "question": "Is there a cheaper alternative to Reonomy for small teams?",
+     "answer": "Yes. Reonomy does not publish pricing, but PropertyShark starts at a transparent $60/month with a free trial and covers owner lookup, list building, and distressed-property tracking, strongest in NYC and major metros. Land id runs $9.99-$19.99/month for basic parcel and ownership research. Neither matches Reonomy's debt-maturity data or AI-connected ownership profiles, which remain its differentiators."
+    }
+   ]
+  },
+  "buildout": {
+   "intro": "Buildout is purpose-built for CRE brokerages, but shoppers hit a few consistent friction points in the data: quote-based pricing across all products with no published prices, a product best suited to brokerages rather than landlords or investors, newer AI features (Rethink+, Showcase AI) that are still maturing, and a deal-focused design less suited to enterprise portfolio management. For solo brokers and small shops, the inability to see a price before talking to sales is often the deciding annoyance.\n\nWhen comparing alternatives, separate the three jobs Buildout bundles: CRM, marketing production, and prospecting data. Some competitors bundle them differently, others do one job well at a visible price. Solo brokers should prioritize transparent, affordable pricing and quick setup; larger brokerages should compare AI maturity, data quality, and how well each platform's workflow matches how their teams actually win and market listings.",
+   "picks": [
+    {
+     "slug": "realnex",
+     "reason": "The closest all-in-one rival: CRM, financial analysis, marketing, and virtual deal rooms in one suite, positioned as affordable for individual brokers versus enterprise platforms. Its interface can feel dated compared to Buildout, which is the acknowledged trade-off."
+    },
+    {
+     "slug": "sharplaunch",
+     "reason": "Choose SharpLaunch if marketing is the only Buildout module you use: purpose-built CRE property websites, document tracking, and lead engagement analytics without buying a full CRM suite. It is marketing-only, with no CRM or deal management."
+    },
+    {
+     "slug": "clientlook",
+     "reason": "A simpler CRM for brokers who find Buildout's suite heavy: very quick setup with no elaborate configuration, plus LightBox data access, with endorsements from CBRE and Lee & Associates teams. It has fewer marketing and analytics features than Buildout by design."
+    },
+    {
+     "slug": "theanalyst-pro",
+     "reason": "Transparent pricing Buildout lacks: $699.99/year (7-day trial) for investment analysis plus marketing presentations. Good for solo brokers who need deal analysis and branded reports more than a full brokerage operating system."
+    },
+    {
+     "slug": "crexi",
+     "reason": "If listing exposure matters more than back-office software, Crexi's free marketplace tier plus paid promotion puts inventory in front of buyers directly, with deal management included. It does not replace a brokerage CRM or marketing production."
+    },
+    {
+     "slug": "property-capsule",
+     "reason": "For retail-focused teams, Property Capsule automates flyer generation and interactive site plans with an iPad tour app and a free 30-day trial. It is a retail-leasing niche tool rather than a full brokerage platform."
+    },
+    {
+     "slug": "brevitas",
+     "reason": "Adds a free marketplace and network of 200,000+ members with built-in email marketing and landing pages, useful marketing reach at zero cost alongside or instead of Showcase. Listing quality on the open network varies."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to Buildout?",
+     "answer": "No free product replaces Buildout's CRM-plus-marketing suite. For free marketing reach, Brevitas lets you list and network at no cost with 200,000+ members, and Crexi's free tier covers basic listings and search. For the CRM side there is no strong free option in this space; the budget route is an affordable paid tool like TheAnalyst PRO at $699.99/year for analysis and presentations."
+    },
+    {
+     "question": "Is there a cheaper alternative to Buildout for solo brokers?",
+     "answer": "Buildout does not publish prices, which makes comparison hard, but two alternatives are explicitly positioned for individual brokers: RealNex markets its all-in-one suite as affordable versus enterprise platforms, and TheAnalyst PRO publishes transparent pricing at $699.99/year with a 7-day free trial. ClientLook is another simpler, faster-to-set-up CRM option, though its pricing is also unpublished."
+    }
+   ]
+  },
+  "realpage": {
+   "intro": "RealPage offers the most comprehensive multifamily tech stack in the market, but four issues push operators to evaluate alternatives. Enterprise pricing makes it unsuitable for small landlords or single properties. The platform is complex, with a steep learning curve for new users. Its revenue management algorithms have drawn DOJ antitrust scrutiny, which some operators now treat as vendor risk. And it is primarily multifamily-focused, with limited commercial CRE features for mixed portfolios.\n\nWhen switching, size and asset mix should drive the shortlist. Large multifamily operators can move laterally to other enterprise suites and keep comparable breadth. Mid-market managers can trade some analytics horsepower for transparent pricing and simpler platforms. Operators concerned specifically about the revenue-management scrutiny should scrutinize how any replacement prices its pricing tools. And anyone with commercial assets in the mix should favor platforms that treat commercial as a first-class citizen.",
+   "picks": [
+    {
+     "slug": "yardi",
+     "reason": "The obvious lateral move: a comparable full-stack platform serving all property types, not just multifamily, with Breeze from about $1/unit/month giving smaller operators an entry point RealPage lacks. Voyager carries its own complexity and lock-in considerations."
+    },
+    {
+     "slug": "entrata",
+     "reason": "A true single-login multifamily platform, everything integrated without third-party dependencies, proven across 3.2M+ units, with ELI handling 1,000+ simultaneous AI conversations and a Forrester-verified 141% ROI. Like RealPage, pricing is quote-based."
+    },
+    {
+     "slug": "appfolio",
+     "reason": "For mid-market residential managers, AppFolio's AI-native platform automates leasing, accounting, and maintenance busywork with a unified experience that is less sprawling than an enterprise suite. It still carries premium, quote-based pricing."
+    },
+    {
+     "slug": "resman",
+     "reason": "Purpose-built for multifamily with an easy-to-navigate interface that cuts training time, supporting conventional, affordable, and student housing. It has a smaller market presence than RealPage or Yardi, but that simplicity is the point."
+    },
+    {
+     "slug": "mri-software",
+     "reason": "An open-platform enterprise alternative with 200+ integration partners covering commercial, residential, and investment management, better than RealPage for mixed portfolios. Expect a comparable learning curve and opaque enterprise pricing."
+    },
+    {
+     "slug": "buildium",
+     "reason": "For smaller residential portfolios that RealPage's enterprise pricing shuts out, Buildium publishes pricing from $62/month with a free trial and scales to 15,000+ units. It is residential-focused with lighter analytics than RealPage's revenue tools."
+    },
+    {
+     "slug": "rent-manager",
+     "reason": "Handles residential, commercial, HOA, and self-storage in one system with 450+ reports, dual accounting, and an open API, a fit for diversified operators RealPage's multifamily focus underserves. Pricing requires consultation."
+    },
+    {
+     "slug": "doorloop",
+     "reason": "Published tiers from $69/month, migration in days, and coverage of residential and commercial make it the low-friction option for operators leaving enterprise complexity behind. Per-unit costs add up at large scale, so it suits small to mid portfolios."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to RealPage?",
+     "answer": "Nothing free approaches RealPage's revenue management or analytics. For small landlords, who are outside RealPage's target market anyway, Innago is completely free with no unit limits and TenantCloud offers a free starter plan. Those cover rent collection and basic operations only. Operators who actually need multifamily revenue optimization should expect enterprise, quote-based pricing across the board."
+    },
+    {
+     "question": "Is there a cheaper alternative to RealPage for small operators?",
+     "answer": "Yes. RealPage is explicitly not suited to small landlords or single properties, and several alternatives publish accessible pricing: Buildium from $62/month, DoorLoop from $69/month, and Yardi Breeze from about $1/unit/month. You give up RealPage's cycle-tested revenue management and market analytics, but small portfolios rarely use that horsepower enough to justify enterprise contracts."
+    }
+   ]
+  },
+  "mri-software": {
+   "intro": "MRI Software's 50-year track record and open platform with 200+ integration partners make it a safe enterprise choice, but the data lists familiar enterprise pains: a complex platform with a steep learning curve, enterprise pricing that is neither transparent nor accessible to small firms, product sprawl from decades of acquisitions that can create inconsistent user experiences, and implementation timelines that can run long.\n\nIf you are switching, decide whether you want a different enterprise suite or a genuinely smaller footprint. Lateral moves to other full-stack platforms trade one learning curve for another and mostly make sense when a specific module, multifamily operations, investment management, or commercial accounting, is stronger elsewhere. The bigger wins for small and mid-sized firms usually come from stepping down to purpose-built tools with published pricing and faster implementations, accepting narrower scope in exchange for speed and cost certainty.",
+   "picks": [
+    {
+     "slug": "yardi",
+     "reason": "The most comparable full-stack alternative, covering property, accounting, and investment management for every property type, with Breeze (from about $1/unit/month) offering a low entry point MRI lacks. Voyager brings similar complexity and its own data lock-in concerns."
+    },
+    {
+     "slug": "realpage",
+     "reason": "For multifamily-heavy portfolios, RealPage exceeds MRI on that segment with industry-leading revenue management and analytics. It is equally enterprise-priced and complex, and its commercial CRE features are limited, so it fits a multifamily specialization, not a mixed book."
+    },
+    {
+     "slug": "appfolio",
+     "reason": "A modern, unified, AI-native platform for residential managers up to 14,000+ units, one product experience instead of MRI's acquisition-built sprawl. It is residential-focused, so commercial-heavy MRI customers will find it too narrow."
+    },
+    {
+     "slug": "entrata",
+     "reason": "Answers MRI's inconsistent-UX complaint directly: a single-login platform where everything is integrated without third-party dependencies, proven at 32,000+ properties. It is primarily multifamily, with less mature commercial features."
+    },
+    {
+     "slug": "re-leased",
+     "reason": "For commercial landlords wanting out of enterprise complexity, Re-Leased is cloud-native, purpose-built for commercial, and integrates tightly with Xero and QuickBooks. Its US presence is smaller than MRI's, and residential functionality is limited."
+    },
+    {
+     "slug": "buildium",
+     "reason": "The step-down option for residential portfolios: transparent pricing from $62/month, a free trial, and a deep residential feature set, against MRI's opaque enterprise contracts. Commercial capabilities are limited."
+    },
+    {
+     "slug": "stratafolio",
+     "reason": "For small commercial firms running QuickBooks, Stratafolio layers CRE-specific lease management and automated invoicing on top of the accounting system you already have, with a free trial. It is far less comprehensive than MRI and requires QuickBooks."
+    },
+    {
+     "slug": "rent-manager",
+     "reason": "A mid-market platform spanning residential, commercial, HOA, and self-storage with 450+ reports, dual cash/accrual accounting, and an open API for custom integrations. Pricing still requires consultation, but setup is lighter than an enterprise MRI implementation."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to MRI Software?",
+     "answer": "There is no free alternative that covers MRI's commercial property management, accounting, and investment management scope. Free tools like Innago or TenantCloud's starter plan serve small residential landlords only. The realistic budget path for MRI-style needs is transparent low-cost software: Buildium from $62/month for residential, or Stratafolio (free trial) for QuickBooks-based commercial operations."
+    },
+    {
+     "question": "Is there a cheaper alternative to MRI Software for small firms?",
+     "answer": "Yes. MRI's enterprise pricing is explicitly inaccessible to small firms, but Buildium publishes plans from $62/month for residential managers, DoorLoop starts at $69/month covering residential and commercial, and Stratafolio offers commercial lease management on top of QuickBooks with a free trial. Each trades MRI's breadth for published pricing and implementations measured in days or weeks rather than long enterprise timelines."
+    }
+   ]
+  },
+  "compstak": {
+   "intro": "CompStak's crowdsourced exchange produces lease comp detail, effective rents, TI, free rent, lease terms, that is hard to find anywhere else, and it is free for contributing brokers and appraisers. The reasons teams look elsewhere are in its own data: comp quality depends on member contributions and can be uneven in smaller markets, enterprise pricing is not public, there is limited property-level data beyond transaction comps (no building operations data), and the overall dataset is smaller than CoStar's, making it better for specific deals than broad market overviews.\n\nWhen switching, name the gap precisely. Thin coverage in your market points to researcher-driven or larger databases. Needing ownership, debt, or building-level context around comps points to property-intelligence platforms. Portfolio-level benchmarking and forecasting is a different product category again. Many firms keep CompStak for granular deal data and add a second source for breadth rather than replacing it outright.",
+   "picks": [
+    {
+     "slug": "costar",
+     "reason": "The coverage answer: a 1,000+ person research team maintains the most comprehensive CRE database, giving consistent data in markets where CompStak's member contributions run thin. CompStak's own data notes CoStar lacks its granular effective-rent detail, and the price is premium with annual contracts."
+    },
+    {
+     "slug": "moodys-reis",
+     "reason": "Choose Moody's for market-level analytics rather than deal-level comps: gold-standard forecasting with proprietary econometric models and deep historical series. It is expensive, enterprise-priced, and less useful for property-level decisions."
+    },
+    {
+     "slug": "reonomy",
+     "reason": "Complements or replaces CompStak when you need context around the deal: true ownership behind LLCs, debt maturity, and AI-connected property profiles, with a free trial. Its lease data is explicitly weaker than CompStak's, so this is a different lens, not a superset."
+    },
+    {
+     "slug": "propertyshark",
+     "reason": "At $60/month, a budget research option for owner lookup, sales records, and list building, versus CompStak's undisclosed enterprise pricing for non-contributors. Strongest in NYC and major metros, and it has nothing like CompStak's effective-rent granularity."
+    },
+    {
+     "slug": "msci-rca",
+     "reason": "For institutional investors benchmarking sales activity, MSCI Real Capital Analytics offers the most comprehensive global transaction database and 80+ indexes. It is institutional-only, very expensive, and backward-looking rather than deal-support data."
+    },
+    {
+     "slug": "cred-iq",
+     "reason": "Fills the debt-side gap: CMBS and CRE loan analytics with property-level financials, delinquency, and maturity tracking that CompStak's comps do not cover. It is focused primarily on CMBS, so coverage of other debt is limited."
+    },
+    {
+     "slug": "crexi",
+     "reason": "A free starting point for market awareness: marketplace search plus Crexi Intelligence analytics on 500,000+ active listings. Its data depth is still maturing, so treat it as breadth on a budget rather than an appraisal-grade comp source."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to CompStak?",
+     "answer": "CompStak is unusual in that it already has a strong free path: brokers, appraisers, and researchers who contribute their own comps get exchange access at no cost. No competitor offers comparable lease-comp data for free. Crexi's free tier provides basic market visibility, but if you qualify as a contributor, CompStak's own exchange is generally the best free lease-comp option available."
+    },
+    {
+     "question": "Is there a cheaper alternative to CompStak for small teams?",
+     "answer": "If your team includes deal-doing brokers or appraisers, contributing comps to CompStak's exchange is effectively cheaper than any subscription. For teams that cannot contribute, PropertyShark at $60/month is the most affordable adjacent research tool, covering ownership and sales records, though not effective-rent lease detail. Full lease-comp coverage without contributing generally means quote-based enterprise pricing at CompStak or CoStar."
+    }
+   ]
+  },
+  "placer": {
+   "intro": "Placer.ai leads location intelligence with foot traffic data traditional CRE providers cannot match, but its constraints are clear in the data: coverage is US-focused with limited international reach, premium pricing is not public and can be expensive, the mobile-panel methodology may underrepresent certain demographics, and the product is primarily useful for retail and hospitality, with less relevance for pure office or industrial work.\n\nAlternatives split into two camps. Multi-unit brands doing site selection can choose platforms that blend customer analytics, forecasting, and territory planning, sometimes trading Placer's raw foot-traffic panel for predictive modeling built on their own customer data. CRE professionals who used Placer as a general research layer may be better served by parcel, zoning, and market data tools that cover asset classes beyond retail. Price transparency is rare in this category, so use free tiers and trials, including Placer's own free dashboard, to benchmark before committing.",
+   "picks": [
+    {
+     "slug": "buxton",
+     "reason": "Trades Placer's device-panel foot traffic for deep customer analytics and predictive site selection modeling, serving retail, restaurant, and healthcare brands. It is enterprise-priced and works best when you can share your own customer data."
+    },
+    {
+     "slug": "sitezeus",
+     "reason": "An end-to-end location lifecycle platform, planning through operations, with AI revenue forecasting and even a construction-tracking module Placer does not attempt. Best for multi-unit brands rather than individual site operators."
+    },
+    {
+     "slug": "siteseer",
+     "reason": "Built by retail analysts, with void analysis and territory planning tools that go beyond traffic counts, and trusted by brands like Mattress Firm. It is retail-focused, so it inherits the same office/industrial limitation as Placer."
+    },
+    {
+     "slug": "mapzot-ai",
+     "reason": "A newer AI site-selection platform claiming the same 92%+ accuracy tier as Placer, with property-level precision and competitor analysis. Less track record and quote-based pricing, so pilot it before committing."
+    },
+    {
+     "slug": "zoneomics",
+     "reason": "Answers a different site question, what can be built where, with the largest nationwide zoning coverage, free search, and reports from $25. Use it alongside or instead of foot traffic when regulatory feasibility is the gating factor."
+    },
+    {
+     "slug": "Plotzy",
+     "reason": "For land acquisition and development teams, Plotzy combines AI parcel search with zoning attributes at accessible pricing ($65 Basic, $200 Pro). It is in beta with zoning coverage in select municipalities, so verify your target markets."
+    },
+    {
+     "slug": "citybldr",
+     "reason": "Choose CityBldr when the goal is finding and valuing off-market development sites rather than analyzing tenant performance: automatic buildable-unit calculations and assemblage AI, used by developers like Essex Property Trust. It is development-focused, not a retail analytics tool."
+    }
+   ],
+   "faq": [
+    {
+     "question": "What is the best free alternative to Placer.ai?",
+     "answer": "For foot traffic specifically, there is no free alternative, and Placer's own free dashboard is genuinely useful for quick lookups, so it sets a high bar. For adjacent site-selection questions, Zoneomics offers free nationwide zoning search (with paid reports from $25). If foot traffic is essential, expect quote-based pricing everywhere; the free move is to exhaust Placer's free tier first."
+    },
+    {
+     "question": "Is there a cheaper alternative to Placer.ai for small teams?",
+     "answer": "Placer's premium plans are quote-based and can be expensive, and most competitors (Buxton, SiteZeus, MapZot.AI) are also quote-priced enterprise tools. The transparently cheap options solve adjacent problems: Plotzy at $65/month for AI parcel and zoning research, and Zoneomics reports from $25 each. Small retail teams often combine Placer's free dashboard with one of these instead of paying for enterprise location intelligence."
+    }
+   ]
+  }
+ },
+ "comparisons": [
+  {
+   "a": "yardi",
+   "b": "appfolio",
+   "verdict": "Yardi and AppFolio both aim to run your entire property operation, but they come at it from opposite directions. Yardi is the 40-year incumbent with the broadest single-stack platform in the industry: Voyager for enterprise portfolios, Breeze (from $1/unit/month) for smaller operators, plus investment management, energy, and procurement suites that cover multifamily, commercial, affordable housing, senior living, and more across 80+ countries. AppFolio is the modern challenger: a cloud-only, AI-native platform built around agentic AI and its Realm-X workflow engine, serving residential managers from roughly 50 units up to 14,000+.\n\nYardi wins on breadth and property-type coverage. If you run commercial assets, affordable housing, or need fund accounting and an investor portal in the same stack, AppFolio simply does not go that deep. Yardi's trade-offs are real, though: Voyager has a steep learning curve, implementations can take months, and some modules feel dated. AppFolio wins on user experience and automation, with AI built into the core rather than bolted on, at the cost of quote-based pricing and a change-management lift for traditional teams.\n\nBottom line: diverse or institutional portfolios that need commercial and investment management pick Yardi; growing residential managers who value modern UX and AI automation pick AppFolio; very small landlords should compare Yardi Breeze against both.",
+   "one_liner": "Yardi wins on breadth across every property type; AppFolio wins on modern AI-native UX for growing residential managers.",
+   "faq": [
+    {
+     "question": "Is Yardi cheaper than AppFolio?",
+     "answer": "It depends on your size. Yardi Breeze publishes pricing from $1/unit/month ($2 for Breeze Premier), which is a genuinely affordable entry point, while Yardi Voyager and AppFolio are both quote-based, so you will need sales conversations to compare enterprise costs. AppFolio is generally positioned as premium pricing for its AI capabilities."
+    },
+    {
+     "question": "Can AppFolio handle commercial properties like Yardi does?",
+     "answer": "AppFolio lists commercial among its supported property types, but its platform is built primarily for residential property managers. Yardi is the stronger choice for commercial portfolios, with dedicated commercial leasing tools, plus coverage for affordable housing, senior living, and coworking that AppFolio does not match."
+    },
+    {
+     "question": "Which is easier to implement, Yardi or AppFolio?",
+     "answer": "AppFolio, generally. Yardi Voyager implementations are known to take months and the platform can be complex to configure, while AppFolio is a single cloud platform with a unified interface. That said, AppFolio's AI-native approach still requires training and change management for teams used to traditional software."
+    }
+   ]
+  },
+  {
+   "a": "yardi",
+   "b": "mri-software",
+   "verdict": "This is the classic enterprise real estate software matchup, and the honest answer is that philosophy matters more than features. Both platforms cover commercial and residential management, full accounting, and investment management for mid-market and enterprise portfolios. Yardi (founded 1984, self-funded, 9,000+ employees) is the closed single-stack approach: everything from property management to energy to procurement lives in one ecosystem. MRI (founded 1971, 50,000+ clients) is the open-platform approach, built to connect with 200+ integration partners so you can assemble best-of-breed tools around its core.\n\nYardi wins if you want one vendor for everything and a cheap on-ramp: Breeze starts at a published $1/unit/month, something MRI has no answer to, and the Voyager ecosystem is arguably the most comprehensive in real estate. The catch is lock-in; migrating off Yardi is notoriously difficult. MRI wins on flexibility, facilities management (MRI Angus is a standout), and AI-powered lease abstraction for commercial portfolios. Its weakness is product sprawl from acquisitions, which can mean inconsistent user experiences. Both have steep learning curves and lengthy implementations.\n\nBottom line: organizations that want a single accountable vendor and all-in-one depth pick Yardi; commercial-heavy portfolios that value integration freedom and strong facilities management pick MRI.",
+   "one_liner": "Yardi is the all-in-one closed ecosystem; MRI is the open platform with 200+ integrations. Pick by philosophy, not feature lists.",
+   "faq": [
+    {
+     "question": "Is MRI Software cheaper than Yardi?",
+     "answer": "Neither publishes enterprise pricing; both Voyager and MRI are quote-based, so costs depend on your portfolio and modules. Yardi does have a published low-cost entry point in Breeze (from $1/unit/month) for smaller portfolios, which MRI does not offer. For enterprise deals, get quotes from both."
+    },
+    {
+     "question": "Which is better for commercial real estate, Yardi or MRI?",
+     "answer": "Both are credible for commercial. MRI has particularly deep commercial roots, with full-stack commercial management, AI lease abstraction via Lease Intelligence, and the Angus facilities platform. Yardi counters with COMMERCIALCafe and broader coverage of specialized types like coworking and senior living. Commercial-only shops often lean MRI; mixed portfolios often lean Yardi."
+    },
+    {
+     "question": "Can I use third-party tools with Yardi and MRI?",
+     "answer": "MRI is explicitly built as an open platform with 200+ integration partners, including VTS and ARGUS, so best-of-breed stacks are a core selling point. Yardi favors its own ecosystem, and deep integration plus data lock-in makes leaving or mixing in outside tools harder. If integration flexibility matters, MRI has the edge."
+    }
+   ]
+  },
+  {
+   "a": "yardi",
+   "b": "realpage",
+   "verdict": "Yardi and RealPage are both enterprise heavyweights, but they are not really solving the same problem. Yardi is a general-purpose real estate platform: property management, accounting, and investment management across multifamily, commercial, affordable, senior living, and coworking, with Breeze (from $1/unit/month) giving smaller operators a way in. RealPage is a multifamily specialist: its OneSite platform, Knock CRM, DemandX demand forecasting, and industry-leading revenue management are all purpose-built for apartment operators, and it does not seriously compete outside rental housing.\n\nRealPage wins on multifamily depth. Its AI-driven revenue management, market analytics footprint, and Lumina AI workforce give large apartment operators optimization tools Yardi does not match, and the two even integrate, so some operators run RealPage tools on top of Yardi accounting. The caveats: RealPage is enterprise-priced with no small-portfolio option, has a steep learning curve, and its revenue management pricing algorithms have drawn DOJ antitrust scrutiny, which buyers should factor into diligence. Yardi wins on breadth, accounting depth, investment management, and having options at every portfolio size.\n\nBottom line: large multifamily operators focused on revenue optimization and leasing performance pick RealPage; anyone with mixed property types, investment management needs, or a smaller portfolio picks Yardi.",
+   "one_liner": "RealPage is the multifamily revenue-optimization specialist; Yardi is the broader platform for every property type and size.",
+   "faq": [
+    {
+     "question": "Is RealPage only for multifamily properties?",
+     "answer": "Effectively, yes. RealPage's entire suite, from OneSite to revenue management to DemandX, targets multifamily and rental housing, and it has limited commercial CRE features. Yardi covers multifamily plus commercial, affordable housing, senior living, and coworking, making it the clear choice for mixed portfolios."
+    },
+    {
+     "question": "Can small landlords use RealPage or Yardi?",
+     "answer": "RealPage is enterprise-priced and not suitable for small landlords or single properties. Yardi serves small operators through Yardi Breeze, which starts at a published $1/unit/month. If you have a small portfolio, Yardi Breeze is the realistic option between these two."
+    },
+    {
+     "question": "What is the concern with RealPage's revenue management?",
+     "answer": "RealPage's revenue management pricing algorithms have faced DOJ antitrust scrutiny. The product itself is considered industry-leading for optimizing multifamily rents, but buyers should weigh the legal and reputational risk as part of due diligence before adopting it."
+    }
+   ]
+  },
+  {
+   "a": "yardi",
+   "b": "buildium",
+   "verdict": "This comparison is really about how big and complicated your operation is. Buildium is purpose-built residential property management software with transparent pricing: published plans at $62, $192, and $400 per month, a free trial, and a deep feature set covering leasing, screening, accounting, maintenance, and community associations for portfolios from a handful of doors up to 15,000+ units. Yardi is a full real estate platform spanning every property type, with Breeze (from $1/unit/month) at the low end and enterprise-grade Voyager, investment management, and energy suites at the top.\n\nBuildium wins on simplicity and transparency. You can see the price, start a free trial, and be running without an implementation project; its Lumina AI handles bill scanning and communications, and it covers niches like community associations and student housing well. Its limits: it is primarily residential with thin commercial capability, and API access is locked to the $400/month Premium tier. Yardi wins the moment you need commercial management, fund accounting, investor portals, or a platform that scales into institutional territory, though Voyager brings a steep learning curve and lengthy implementations.\n\nBottom line: residential managers and landlords who want transparent pricing and fast setup pick Buildium; mixed or institutional portfolios that will grow into commercial and investment management pick Yardi.",
+   "one_liner": "Buildium for straightforward residential management with transparent pricing; Yardi when you need commercial, investment, or enterprise scale.",
+   "faq": [
+    {
+     "question": "Is Buildium cheaper than Yardi?",
+     "answer": "Buildium is the more transparent of the two, with published plans at $62, $192, and $400 per month and a free trial. Yardi Breeze starts at $1/unit/month, which can be cheaper for small unit counts, while Yardi Voyager is quote-based enterprise pricing. Actual cost depends on your portfolio size and the features you need."
+    },
+    {
+     "question": "Can Buildium handle commercial properties?",
+     "answer": "Only in a limited way. Buildium supports mixed portfolios and lists commercial among its property types, but it is purpose-built for residential management and its commercial features are thin. Yardi has dedicated commercial management capability and is the better choice if commercial assets are a meaningful part of your business."
+    },
+    {
+     "question": "Which is better for a small landlord, Buildium or Yardi?",
+     "answer": "Both are viable. Buildium's Essential plan at $62/month with a free trial is easy to evaluate, while Yardi Breeze's $1/unit/month can be very cheap for small portfolios. Buildium offers the deeper residential feature set; Breeze offers simplicity and a growth path into the larger Yardi ecosystem."
+    }
+   ]
+  },
+  {
+   "a": "appfolio",
+   "b": "buildium",
+   "verdict": "AppFolio and Buildium are the two most common shortlist rivals for residential property managers, and the split is fairly clean. Buildium is the accessible option: published pricing from $62/month up to $400/month for Premium, a free trial, and an all-in-one feature set spanning leasing, screening, accounting, maintenance, community associations, and student housing, serving everyone from individual landlords to 15,000+ unit portfolios. AppFolio positions itself upmarket as an AI-native 'Performance Platform' for managers from roughly 50 units to 14,000+, with agentic AI and its Realm-X Flows engine automating work across leasing, accounting, and maintenance.\n\nBuildium wins on transparency and low-end accessibility: you know the price, you can trial it, and small landlords are squarely in its target market. Its AI (Lumina) is solid for bill scanning and communications, though API access requires the Premium tier. AppFolio wins on automation ambition and unified workflow for growing professional operations, and it adds investment management tools Buildium lacks. The trade-offs are quote-based premium pricing, no published numbers, and a platform that may be more than small operators need.\n\nBottom line: individual landlords and small-to-mid residential managers pick Buildium; professional firms at 50+ units betting on AI-driven operations and investor reporting pick AppFolio.",
+   "one_liner": "Buildium wins for small landlords with transparent $62+/month pricing; AppFolio suits growth-minded firms wanting deeper AI automation.",
+   "faq": [
+    {
+     "question": "Is AppFolio more expensive than Buildium?",
+     "answer": "AppFolio does not publish pricing; it is quote-based and generally positioned as premium for its AI capabilities. Buildium publishes plans at $62, $192, and $400 per month with a free trial. For small portfolios Buildium is the more predictable spend; at larger scale you will need an AppFolio quote to compare."
+    },
+    {
+     "question": "Can I use AppFolio or Buildium as a small landlord with a few units?",
+     "answer": "Buildium is the better fit; it explicitly serves solo landlords and its Essential plan starts at $62/month with a free trial. AppFolio targets professional managers starting around 50 units, so very small portfolios are outside its sweet spot."
+    },
+    {
+     "question": "Which has better AI features, AppFolio or Buildium?",
+     "answer": "Both invest heavily in AI. AppFolio's differentiator is agentic AI built into the platform core with the Realm-X Flows automation engine, aimed at automating whole workflows. Buildium's Lumina AI covers communications, writing assistance, and bill scanning. AppFolio's automation is more ambitious; Buildium's is more accessible, though its full AI suite sits in higher tiers."
+    }
+   ]
+  },
+  {
+   "a": "appfolio",
+   "b": "mri-software",
+   "verdict": "These two rarely serve the same buyer, so the choice usually makes itself. AppFolio is a cloud-only, AI-native platform for residential property managers, from roughly 50 units to 14,000+, with agentic AI, the Realm-X Flows workflow engine, and a unified interface covering property and investment management. MRI Software is an enterprise real estate platform with 50+ years of history and 50,000+ clients, built for commercial and mixed-use portfolios: commercial lease administration, AI lease abstraction, fund and investment management, and the Angus facilities platform, all on an open architecture with 200+ integration partners.\n\nAppFolio wins for residential operators who want modern software that reduces busywork; its AI is native rather than retrofitted, and everything lives in one interface on any device. It has little to offer a commercial landlord, though. MRI wins for commercial and institutional buyers: lease intelligence, facilities management, and investor reporting at a depth AppFolio does not attempt, plus the freedom to plug in best-of-breed tools like VTS and ARGUS. The costs are complexity, quote-based enterprise pricing, lengthy implementations, and some inconsistency across acquired products.\n\nBottom line: residential property management firms pick AppFolio; commercial, mixed-use, and institutional portfolios pick MRI. If you genuinely straddle both, MRI covers residential too, but AppFolio cannot cover serious commercial.",
+   "one_liner": "AppFolio for AI-driven residential management; MRI for commercial, mixed-use, and institutional portfolios needing enterprise depth.",
+   "faq": [
+    {
+     "question": "Can AppFolio manage commercial real estate like MRI?",
+     "answer": "Not at MRI's level. AppFolio lists commercial among supported property types but is built for residential managers. MRI offers full-stack commercial management including lease administration, AI-powered lease abstraction, and facilities management via MRI Angus. Commercial-focused buyers should look to MRI."
+    },
+    {
+     "question": "How do AppFolio and MRI pricing compare?",
+     "answer": "Both are quote-based with no published prices, so you will need sales conversations either way. AppFolio is positioned as premium pricing for residential portfolios; MRI is enterprise pricing aimed at mid-market and large organizations. Neither offers a free trial or free tier."
+    },
+    {
+     "question": "Which is easier to adopt, AppFolio or MRI?",
+     "answer": "AppFolio, for its audience. It is a single cloud platform with a unified interface, though its AI-native approach still requires some change management. MRI is a broad enterprise platform with a steep learning curve, potentially lengthy implementations, and user experiences that vary across its acquired products."
+    }
+   ]
+  },
+  {
+   "a": "appfolio",
+   "b": "realpage",
+   "verdict": "Both of these platforms chase residential operators with heavy AI investment, but at different altitudes. AppFolio serves property management companies from about 50 units to 14,000+, wrapping property management, investment management, and agentic AI automation into one unified cloud experience. RealPage is aimed at mid-market and enterprise multifamily: OneSite property management, Knock CRM, G5 advertising, DemandX demand forecasting, utility and spend management, and its flagship AI-driven revenue management, used by some of the world's largest apartment operators.\n\nAppFolio wins on unified experience and accessibility for professional management firms; one platform, one login, with AI woven through leasing, accounting, and maintenance rather than assembled from acquisitions. RealPage wins on enterprise multifamily firepower: no one in this matchup matches its revenue optimization, market analytics footprint, and marketing stack. The trade-offs are steep on both sides. RealPage is enterprise-priced, complex to learn, and its revenue management algorithms carry active DOJ antitrust scrutiny. AppFolio is quote-based premium pricing and lacks RealPage's revenue management and market data depth.\n\nBottom line: property management companies in the tens-to-thousands of units pick AppFolio for its unified AI platform; large institutional multifamily operators who live and die by occupancy and rent optimization pick RealPage.",
+   "one_liner": "AppFolio for unified AI-native management at mid-scale; RealPage for enterprise multifamily revenue optimization and analytics.",
+   "faq": [
+    {
+     "question": "Is AppFolio or RealPage better for a mid-sized property management company?",
+     "answer": "AppFolio targets exactly that range, roughly 50 to 14,000+ units, with a single unified platform. RealPage is built for mid-market and enterprise multifamily operators and is not suitable for smaller portfolios. Most mid-sized third-party management firms will find AppFolio the more natural fit."
+    },
+    {
+     "question": "How much do AppFolio and RealPage cost?",
+     "answer": "Neither publishes pricing; both are quote-based with no free trial. AppFolio is positioned as premium pricing for its AI capabilities, and RealPage as enterprise pricing. Expect sales-led purchasing processes with both, and get quotes scoped to your unit count and modules."
+    },
+    {
+     "question": "Does AppFolio have revenue management like RealPage?",
+     "answer": "No. RealPage's AI-driven revenue management, which optimizes pricing against supply and demand, is its signature capability, alongside market analytics and the DemandX forecasting platform. AppFolio's AI focuses on automating operational busywork and performance insights rather than algorithmic rent pricing. Note that RealPage's pricing algorithms have drawn DOJ antitrust scrutiny."
+    }
+   ]
+  },
+  {
+   "a": "buildium",
+   "b": "realpage",
+   "verdict": "This is the widest gap of any pairing here; these products serve almost entirely different buyers. Buildium is residential property management software with published pricing from $62/month to $400/month, a free trial, and an all-in-one toolkit for landlords, property managers, and community association managers running anywhere from a few doors to 15,000+ units. RealPage is an enterprise multifamily platform, quote-based and sales-led, offering OneSite property management, Knock CRM, AI-driven revenue management, DemandX demand forecasting, and utility and spend management for some of the largest apartment operators in the world.\n\nBuildium wins on everything a small or mid-sized operator cares about: transparent pricing, fast self-serve setup, community association support, and features like Lumina AI bill scanning without an enterprise contract. RealPage wins on everything an institutional multifamily operator cares about: revenue optimization, market benchmarking data, fraud detection, and a marketing stack. RealPage is explicitly not suitable for small landlords, carries a steep learning curve, and its revenue management algorithms have drawn DOJ antitrust scrutiny. Buildium, for its part, cannot offer revenue management or enterprise analytics.\n\nBottom line: landlords, small-to-mid property managers, and HOA managers pick Buildium without hesitation; institutional multifamily portfolios optimizing thousands of units pick RealPage. Few buyers should genuinely be torn.",
+   "one_liner": "Buildium serves landlords and SMB managers with transparent pricing; RealPage serves institutional multifamily. Almost no overlap.",
+   "faq": [
+    {
+     "question": "Is Buildium cheaper than RealPage?",
+     "answer": "Almost certainly, for the buyers who could use either. Buildium publishes plans at $62, $192, and $400 per month with a free trial. RealPage is quote-based enterprise pricing with no published numbers and no trial, and it is explicitly not aimed at small landlords or single properties."
+    },
+    {
+     "question": "Can Buildium do revenue management like RealPage?",
+     "answer": "No. RealPage's AI-driven revenue management and market analytics are enterprise multifamily tools with no equivalent in Buildium. Buildium's automation focuses on operations: rent collection, late fees, communications, bill scanning, and workflow rules. If algorithmic rent optimization is the goal, RealPage is the only option of the two."
+    },
+    {
+     "question": "When should a growing property manager move from Buildium to RealPage?",
+     "answer": "Buildium supports portfolios up to 15,000+ units, so unit count alone rarely forces a move. The switch makes sense when you become an institutional multifamily operator needing revenue management, market benchmarking, and demand forecasting, and can absorb enterprise pricing and a complex implementation."
+    }
+   ]
+  },
+  {
+   "a": "realpage",
+   "b": "mri-software",
+   "verdict": "Both are enterprise platforms with quote-based pricing and real learning curves, so this decision comes down to what you own. RealPage is a multifamily specialist: OneSite property management, Knock CRM, G5 advertising, DemandX forecasting, and the industry's best-known AI revenue management, all built for apartment operators at mid-market and enterprise scale. MRI Software is a generalist with deep commercial roots: 50+ years in market, 50,000+ clients, commercial lease administration, AI lease abstraction, investment and fund management, and the Angus facilities platform, delivered on an open architecture with 200+ integration partners.\n\nRealPage wins for multifamily operators, full stop. Its revenue optimization, market data footprint, and Lumina AI workforce target apartment economics in a way MRI does not, though buyers should weigh the DOJ antitrust scrutiny around its pricing algorithms. MRI wins for commercial, mixed-use, and investment-driven organizations: lease intelligence, investor reporting with waterfall modeling, and facilities management are core strengths, and its open platform plays well with tools like VTS and ARGUS. MRI also covers residential, making it the safer pick for genuinely mixed portfolios, though product sprawl from acquisitions can mean uneven user experiences.\n\nBottom line: enterprise multifamily operators pick RealPage; commercial, mixed-use, and investment management organizations pick MRI.",
+   "one_liner": "RealPage for enterprise multifamily revenue optimization; MRI for commercial, mixed-use, and investment management depth.",
+   "faq": [
+    {
+     "question": "Does RealPage work for commercial real estate?",
+     "answer": "Not really. RealPage is focused on multifamily and rental housing, with limited commercial CRE features. MRI offers full-stack commercial management including lease administration, AI lease abstraction, and facilities management, and it handles residential too, making it the choice for commercial or mixed portfolios."
+    },
+    {
+     "question": "How do RealPage and MRI compare on price?",
+     "answer": "Both are quote-based enterprise platforms with no published pricing, free trials, or free tiers, so you will need scoped quotes from each. Neither is accessible to small firms; both target mid-market and enterprise organizations."
+    },
+    {
+     "question": "Which platform integrates better with other software?",
+     "answer": "MRI is explicitly built as an open platform with 200+ integration partners, including VTS, ARGUS, and DocuSign, so best-of-breed stacks are a design goal. RealPage's strength is the breadth of its own ecosystem (Knock, G5, DemandX) rather than openness, though it does integrate with partners like Plaid and even Yardi."
+    }
+   ]
+  },
+  {
+   "a": "vts",
+   "b": "mri-software",
+   "verdict": "This is less a rivalry than a question of layer; in fact, VTS lists MRI as an integration partner, and plenty of landlords run both. MRI is a system of record: commercial and residential property management, real estate accounting, lease administration, investment and fund management, and facilities via MRI Angus, serving 50,000+ clients on an open platform with 200+ integrations. VTS is a system of action for commercial leasing and asset management: deal pipeline tracking, AI proposal generation, tenant relationship intelligence, digital marketing, tenant experience via VTS Activate, and market intelligence powered by data on 13B+ square feet under management.\n\nVTS wins wherever leasing velocity and market insight matter: real-time deal visibility across a portfolio, proposals generated dramatically faster with Proposal AI, and predictive office demand data (VODI, VTS Analyst) that MRI does not offer. It does not do accounting or property-level financials, so it cannot replace MRI. MRI wins as the operational and financial backbone, with lease abstraction, investor reporting, and facilities management. Both carry enterprise, quote-based pricing and learning curves; VTS is also primarily office and commercial focused, with newer multifamily capability.\n\nBottom line: commercial landlords needing accounting and lease administration pick MRI; leasing and asset management teams chasing deal velocity pick VTS; large office portfolios frequently deploy VTS on top of MRI.",
+   "one_liner": "Not either/or: MRI is the accounting and lease-admin backbone; VTS is the leasing and market-intelligence layer, and they integrate.",
+   "faq": [
+    {
+     "question": "Can VTS replace MRI Software?",
+     "answer": "No. VTS covers leasing workflow, deal pipeline, marketing, tenant experience, and market data, but it is not an accounting or lease administration system of record. MRI provides the GL, AP/AR, lease admin, and investor reporting a landlord's back office runs on. Many firms use VTS for leasing on top of MRI."
+    },
+    {
+     "question": "Do VTS and MRI integrate with each other?",
+     "answer": "Yes. VTS lists MRI Software as an accounting integration partner, and MRI lists VTS as a leasing partner on its open platform of 200+ integrations. Running VTS as the leasing layer over MRI as the system of record is a common enterprise setup."
+    },
+    {
+     "question": "How much do VTS and MRI cost?",
+     "answer": "Both are quote-based with no published pricing, and both are enterprise products; VTS in particular is not priced for small brokerages or individual brokers. Expect sales-led processes and costs scoped to portfolio size and modules for either platform."
+    }
+   ]
+  },
+  {
+   "a": "vts",
+   "b": "yardi",
+   "verdict": "VTS and Yardi solve different problems that happen to overlap. VTS is a leasing and asset management platform: deal pipeline tracking, AI proposal generation, tenant relationship intelligence, digital marketing, and market data built on 13B+ square feet under management. Yardi is the operational and accounting backbone, covering property management, full general ledger accounting, investment management, and fund accounting across multifamily, commercial, affordable housing, and senior living. Tellingly, VTS lists Yardi as an accounting integration; many large landlords run both.\n\nVTS wins on leasing workflow and market intelligence. Its Proposal AI, lease roll management, and VTS Data products are built for landlords and brokers who live in the deal cycle, and nothing in Yardi's stack matches its office demand data. Yardi wins on breadth and operational depth: it is a single stack for operations, accounting, and investment management, serves every property type, and Yardi Breeze starts at $1/unit/month, giving smaller operators an entry point VTS's enterprise, quote-based pricing does not.\n\nBottom line: choose Yardi if you need core property management and accounting, especially across mixed portfolios. Choose VTS if your system of record is settled and you need to modernize leasing, asset management, and tenant experience. Large office landlords often justify both; small operators should start with Yardi Breeze, since VTS is not priced for them.",
+   "one_liner": "Yardi is the property management and accounting backbone; VTS is the leasing and asset management layer that often sits on top of it.",
+   "faq": [
+    {
+     "question": "Can VTS replace Yardi?",
+     "answer": "Generally no. VTS covers leasing, asset management, marketing, and tenant experience but is not a full accounting and property management system, while Yardi provides the general ledger, AP/AR, and operational core. VTS actually integrates with Yardi, and many large landlords run the two together."
+    },
+    {
+     "question": "Which is better for a small landlord or brokerage?",
+     "answer": "Yardi, through Yardi Breeze, which starts at $1/unit/month and is built for smaller portfolios. VTS is enterprise-focused with quote-based pricing and is not accessible for small brokerages or individual brokers."
+    },
+    {
+     "question": "How do VTS and Yardi pricing compare?",
+     "answer": "Yardi publishes entry pricing for Breeze ($1/unit/month, $2 for Premier) while its enterprise Voyager platform is quote-based. VTS does not publish pricing at all; expect a sales conversation and enterprise-level contracts for either flagship product."
+    }
+   ]
+  },
+  {
+   "a": "argus",
+   "b": "dealpath",
+   "verdict": "Argus and Dealpath sit at different points in the investment workflow. Argus, by Altus Group, is the industry-standard valuation engine: discounted cash flow modeling, cash flow projections, and investment analysis, taught in over 200 universities and recognized by investors, appraisers, and lenders globally. Dealpath is deal management: a pipeline and execution platform that centralizes every active deal, automates due diligence and IC approval workflows, and uses AI to extract data from OMs and flyers. Trusted by 300+ firms including top-tier institutional investors, it is the system of record for how deals move, not how they are valued.\n\nArgus wins wherever rigorous property-level valuation is the job, and its DCF depth is unmatched, though it carries a steep learning curve and a dated interface. Dealpath wins on team workflow: real-time pipeline visibility, side-by-side underwriting comparison, white-glove implementation, and a built-in CRM for brokers and JV partners. It requires a five-user minimum and a 6-8 week implementation, so it is not for solo practitioners.\n\nBottom line: these are complements more than competitors. Appraisers, underwriters, and analysts who need defensible valuations need Argus. Acquisitions teams drowning in spreadsheet pipelines and email-based deal tracking need Dealpath. Institutional investment shops typically end up with both, since both are quote-based enterprise purchases.",
+   "one_liner": "Argus is the industry-standard DCF valuation engine; Dealpath manages the deal pipeline around it — most institutional teams need both.",
+   "faq": [
+    {
+     "question": "Do Argus and Dealpath do the same thing?",
+     "answer": "No. Argus is valuation and cash flow forecasting software for analyzing individual properties, while Dealpath tracks and executes the deal pipeline itself, from sourcing through close. Many acquisitions teams model in Argus and manage the process in Dealpath."
+    },
+    {
+     "question": "Which is right for a small investment firm?",
+     "answer": "Neither is a natural fit for very small shops. Argus carries enterprise pricing and a steep learning curve, and Dealpath requires a minimum of five users with a 6-8 week implementation. Dealpath itself is best suited to institutional investors and can be over-engineered for smaller owner-operators."
+    },
+    {
+     "question": "How much do Argus and Dealpath cost?",
+     "answer": "Both are quote-based, and neither publishes pricing. Dealpath is subscription-based with multiple tiers and a five-user minimum; Argus is sold through Altus Group on custom terms. Budget for enterprise-level contracts and sales conversations with each."
+    }
+   ]
+  },
+  {
+   "a": "argus",
+   "b": "juniper-square",
+   "verdict": "Argus and Juniper Square serve adjacent but distinct layers of the institutional real estate stack. Argus is property-level analysis: the industry-standard DCF modeling, cash flow projection, and investment analysis tool used by analysts, appraisers, and asset managers to value assets and underwrite deals. Juniper Square is the investor-facing layer: fundraising, investor onboarding, an LP portal, compliance, treasury, and full fund administration services, serving over 2,000 GPs with $1 trillion in investor equity and 700,000+ investor accounts.\n\nArgus wins on valuation rigor. Its DCF depth is unmatched, it is taught in 200+ universities, and lenders and investors recognize its outputs. Its weaknesses are a steep learning curve and legacy desktop roots. Juniper Square wins on everything after capital is raised: complex fund structure administration, automated compliance and reporting, and its JunieAI layer for workflow automation. Its weaknesses are the mirror image, since it does no property-level valuation and is focused on private markets fund operations rather than asset analysis.\n\nBottom line: this is rarely an either/or choice. If you are valuing buildings and underwriting acquisitions, buy Argus. If you are raising funds, managing LPs, and running fund accounting, buy Juniper Square. A GP running commingled funds will likely need both. Both are quote-based enterprise products aimed at mid-market and enterprise firms.",
+   "one_liner": "Argus values the assets; Juniper Square manages the fund and its investors — GPs running institutional capital typically need both layers.",
+   "faq": [
+    {
+     "question": "Does Juniper Square do valuation or underwriting like Argus?",
+     "answer": "No. Juniper Square is built for fundraising, investor management, and fund administration, not property-level DCF modeling. Argus remains the industry standard for valuation and cash flow forecasting, and the two address different stages of the investment lifecycle."
+    },
+    {
+     "question": "Which should a new fund manager buy first?",
+     "answer": "It depends on the bottleneck. If you are underwriting deals, Argus (or an analyst who knows it) comes first. If you are raising outside capital and onboarding LPs, Juniper Square's fundraising, portal, and administration tools matter more, though its enterprise pricing may be high for smaller fund managers."
+    },
+    {
+     "question": "How is each product priced?",
+     "answer": "Both are quote-based with no published prices. Juniper Square pricing is customized based on AUM and requirements; Argus is sold by Altus Group on enterprise terms. Neither offers a free trial or free tier."
+    }
+   ]
+  },
+  {
+   "a": "dealpath",
+   "b": "juniper-square",
+   "verdict": "Dealpath and Juniper Square both serve institutional real estate investment firms, but on opposite sides of the house. Dealpath is for the acquisitions team: a deal management platform with real-time pipeline tracking, AI-powered extraction of OM and flyer data, due diligence and IC approval workflows, and side-by-side underwriting comparison, trusted by 300+ firms including Blackstone and CBRE IM. Juniper Square is for investor relations and fund operations: fundraising, LP onboarding, an investor portal, compliance, treasury, and full fund administration, serving 2,000+ GPs managing $1 trillion in investor equity.\n\nDealpath wins on deal execution, with a purpose-built workflow from sourcing to close, strong data integrations (CompStak, Esri, RCA), and white-glove implementation. Its limits are a five-user minimum and a scope that stops at deal management, since it is not an accounting or fund administration system. Juniper Square wins after the capital is raised, handling complex fund structures, automated compliance reporting, and LP communications, with JunieAI layered across workflows. Its limits are the mirror image: it does not manage your acquisitions pipeline.\n\nBottom line: buy Dealpath if your pain is deal flow chaos and your acquisitions team lives in spreadsheets. Buy Juniper Square if your pain is investor reporting, fundraising, and fund accounting. Vertically integrated GPs frequently need both, and both are quote-based enterprise purchases.",
+   "one_liner": "Dealpath runs the acquisitions pipeline; Juniper Square runs fundraising and fund administration — they cover opposite sides of a GP's business.",
+   "faq": [
+    {
+     "question": "Do Dealpath and Juniper Square overlap at all?",
+     "answer": "Very little. Dealpath manages deals from sourcing through close, including due diligence and IC approvals, while Juniper Square manages investors, fundraising, and fund administration. A firm that acquires assets and manages outside capital would use them for different teams."
+    },
+    {
+     "question": "Which is better for a small real estate investment team?",
+     "answer": "Both skew institutional. Dealpath requires a minimum of five users and is best suited to institutional investors, and Juniper Square's enterprise-level pricing may be high for smaller fund managers. Very small teams should weigh whether the workflow gains justify enterprise contracts."
+    },
+    {
+     "question": "What do Dealpath and Juniper Square cost?",
+     "answer": "Neither publishes pricing. Dealpath is subscription-based with custom quotes and a 6-8 week implementation; Juniper Square is quote-based with pricing tied to AUM and requirements. Plan for sales conversations with both."
+    }
+   ]
+  },
+  {
+   "a": "costar",
+   "b": "compstak",
+   "verdict": "CoStar and CompStak both sell CRE comp data, but they gather it in fundamentally different ways. CoStar employs a research team of 1,000+ professionals to maintain the largest US commercial property database, covering 6 million+ properties with ownership records, lease and sales comps, tenant data, CMBS/loan data, and submarket analytics, serving 150,000+ professionals. CompStak crowdsources: its 35,000+ member network of appraisers, brokers, and researchers trades authenticated comps for database access, producing granular deal-level detail like effective rent, TI allowances, free rent, and escalations that CoStar does not surface.\n\nCoStar wins on breadth. It is the comprehensive market view, with property-level records, forecasting models, tenant prospecting, and LoopNet marketplace reach. The costs are premium pricing that shuts out smaller firms, annual contracts, and a steep learning curve. CompStak wins on lease economics depth and on price: brokers and appraisers who contribute their own comps get access free through the exchange. Its tradeoffs are contribution-dependent data quality that can be uneven in smaller markets, and a smaller overall dataset with no building operations data.\n\nBottom line: institutional shops that need the full market picture buy CoStar, and often add CompStak for true effective rents on specific deals. Brokers and appraisers with comps to trade should start with CompStak's free exchange before committing to a CoStar contract.",
+   "one_liner": "CoStar is the comprehensive researched database; CompStak trades crowdsourced comps for unmatched effective-rent detail — often free for contributors.",
+   "faq": [
+    {
+     "question": "Is CompStak data as reliable as CoStar's?",
+     "answer": "They have different strengths. CoStar's 1,000+ person research team ensures consistent breadth and timeliness, while CompStak's authenticated member-contributed comps offer deal-level detail like effective rent, TI, and free rent that CoStar lacks. CompStak's coverage can be uneven in smaller markets where fewer members contribute."
+    },
+    {
+     "question": "Can I get CompStak for free?",
+     "answer": "Yes, if you have comps to trade. CompStak's exchange model lets appraisers, brokers, and researchers contribute their own deal data to earn credits for accessing the database. Institutional users who cannot contribute comps pay for the Enterprise platform, which is quote-based."
+    },
+    {
+     "question": "Do firms use CoStar and CompStak together?",
+     "answer": "Commonly, yes. CoStar provides the broad market overview, property records, and analytics, while CompStak fills in granular lease economics for underwriting and appraisal work. CompStak explicitly positions its data as complementary detail that is difficult to find elsewhere."
+    }
+   ]
+  },
+  {
+   "a": "costar",
+   "b": "placer",
+   "verdict": "CoStar and Placer.ai answer different questions about the same properties. CoStar tells you what a property is and what it trades for: ownership, tenancy, lease and sales comps, vacancy, absorption, and rent forecasts across 6 million+ US commercial properties, backed by a 1,000+ person research team. Placer.ai tells you how a location actually performs in the physical world: foot traffic trends, visitor demographics, true trade areas based on where visitors live and work, dwell time, cross-shopping behavior, and competitive benchmarking, from a de-identified mobile panel it reports at 92%+ accuracy.\n\nCoStar wins as the general-purpose CRE data platform, since no rival matches its breadth across office, industrial, retail, and multifamily or its transaction and market analytics. Placer wins for retail-oriented decisions like site selection, tenant health assessment, and trade area analysis, where lease comps alone cannot tell you whether a center is actually drawing customers. Placer also has a free dashboard tier, a rarity in CRE data, while CoStar's premium pricing and annual contracts are a known barrier for smaller firms. Placer's limits are US-focused coverage and lower relevance for pure office or industrial plays.\n\nBottom line: investors and brokers who need comps, ownership data, and market analytics need CoStar. Retail investors, site selection teams, and anyone underwriting tenant performance should use Placer, starting with the free tier. For retail acquisitions, the two are genuinely complementary.",
+   "one_liner": "CoStar covers property data and comps; Placer.ai measures real-world foot traffic — retail buyers often want both, and Placer has a free tier.",
+   "faq": [
+    {
+     "question": "Does Placer.ai replace CoStar for retail investors?",
+     "answer": "No. Placer provides foot traffic, visitor demographics, and trade area analysis, but not lease comps, sales transactions, or ownership records, which is CoStar's territory. For retail underwriting they answer complementary questions: CoStar covers the deal economics, Placer covers whether customers actually show up."
+    },
+    {
+     "question": "Is Placer.ai really free?",
+     "answer": "There is a genuinely useful free dashboard with basic foot traffic data and limited property lookups. Full analytics, trade area analysis, API access, and data feeds require paid Professional or Enterprise plans, which are quote-based and can be expensive."
+    },
+    {
+     "question": "Which is better for office or industrial properties?",
+     "answer": "CoStar, clearly. Its database covers all major property types with submarket-level analytics. Placer's foot traffic data is most valuable for retail, hospitality, and entertainment; it is less relevant for pure office or industrial assets."
+    }
+   ]
+  },
+  {
+   "a": "compstak",
+   "b": "placer",
+   "verdict": "CompStak and Placer.ai are both alternative data plays, but they measure entirely different things. CompStak is transaction data: crowdsourced, authenticated lease and sales comps from a 35,000+ member network of appraisers and brokers, with granular detail like effective rent, TI, free rent, cap rates, and lease expirations across US markets. Placer.ai is behavioral data: foot traffic, visitor demographics, trade areas, dwell time, and cross-shopping patterns for any physical US location, drawn from a mobile panel it reports at 92%+ accuracy.\n\nCompStak wins for valuation and underwriting work, since appraisers and institutional investors use it because its effective rent detail is hard to find anywhere else, and contributors can access it free through the exchange model. Its data quality depends on member contributions and can thin out in smaller markets. Placer wins for retail-oriented questions such as whether a tenant is drawing customers, where a center's trade area really extends, and how a site compares to competitors. It offers a free dashboard tier plus a strong API, but is less relevant for pure office or industrial analysis.\n\nBottom line: this is rarely a head-to-head choice. Appraisers and lease-focused analysts need CompStak; retail investors and site selection teams need Placer. If you are underwriting a shopping center, the strongest position is CompStak for the rent roll economics and Placer for the customer traffic, and both offer free entry points worth testing first.",
+   "one_liner": "CompStak delivers granular lease and sales comps; Placer.ai delivers foot traffic and trade areas — different data for different questions.",
+   "faq": [
+    {
+     "question": "Do CompStak and Placer.ai compete with each other?",
+     "answer": "Not really. CompStak provides lease and sales transaction comps for valuation and underwriting, while Placer provides foot traffic and consumer behavior analytics for site selection and tenant performance. A retail investor might use both on the same deal for different parts of the analysis."
+    },
+    {
+     "question": "Which has a better free option?",
+     "answer": "Both have real free paths. CompStak is free for brokers and appraisers who contribute their own comps through its exchange model, while Placer offers a free dashboard with basic foot traffic data for anyone. Enterprise access to either is quote-based."
+    },
+    {
+     "question": "Which is more useful for office properties?",
+     "answer": "CompStak. Its lease comps, effective rents, and expiration data cover office markets in depth, whereas Placer's foot traffic data is most valuable for retail, hospitality, and entertainment locations and less relevant for pure office analysis."
+    }
+   ]
+  },
+  {
+   "a": "hqo",
+   "b": "smartrent",
+   "verdict": "HqO and SmartRent both live under the tenant experience banner, but they serve different asset classes with different tools. HqO is built for commercial office and mixed-use: a Real Estate Experience platform positioning itself as the first CRM purpose-built for CRE, with AI-powered portfolio analytics, programmable building experiences, amenity management, and access control aimed at landlords trying to keep office tenants engaged and renewing. SmartRent is built for multifamily: smart home hardware plus cloud software, including smart locks, access control, self-guided tours, community WiFi, and parking management, deployed across 600+ clients, 1.3M rental homes, and 3.5M connected devices.\n\nHqO wins for office landlords, since its Intelligence Suite measures tenant engagement and experience outcomes across a portfolio, which is something SmartRent does not attempt for commercial tenants. It is enterprise-focused and may be complex for smaller landlords. SmartRent wins for multifamily operators on operational ROI, with its data citing $30-60 in added value per unit per month, and its self-guided tours and IoT maintenance tools directly reducing staffing load. It does require upfront hardware investment and installation.\n\nBottom line: the choice is made by your portfolio. Office and mixed-use landlords should look at HqO; multifamily operators should look at SmartRent. There is little reason to cross-shop them, and if you hold both asset types, expect to run different platforms for each. Both are quote-based.",
+   "one_liner": "HqO is tenant experience for office portfolios; SmartRent is smart-home hardware and software for multifamily — pick by asset class.",
+   "faq": [
+    {
+     "question": "Can SmartRent be used for commercial office buildings?",
+     "answer": "SmartRent is designed for multifamily communities and rental properties, including student housing and senior living, with hardware like smart locks and community WiFi. It is not built for commercial office tenant engagement, which is exactly where HqO focuses."
+    },
+    {
+     "question": "What ROI can I expect from each platform?",
+     "answer": "SmartRent's materials cite $30-60 in added value per unit per month from smart home amenities and operational savings, plus revenue from parking monetization. HqO frames its value as measurable tenant experience outcomes and engagement analytics; specific pricing and ROI figures are quote-based for both."
+    },
+    {
+     "question": "Does either platform require hardware?",
+     "answer": "SmartRent does. It is a hardware-plus-software model with smart devices, hubs, and installation, which means upfront investment and ongoing device maintenance. HqO is primarily a software platform, though it integrates with building systems like access control."
+    }
+   ]
+  },
+  {
+   "a": "costar",
+   "b": "crexi",
+   "verdict": "CoStar and Crexi compete most directly in listings and marketplaces, but they are different-sized bets. CoStar is the incumbent: the largest US commercial property database with 6 million+ properties, verified lease and sales comps, forecasting, tenant prospecting, and marketplace reach through LoopNet and Apartments.com, maintained by a 1,000+ person research team and used by 150,000+ professionals. Crexi is the challenger: a fast-growing marketplace with 500,000+ active listings and $4T+ in property value, combining listings, deal management, and Crexi Intelligence analytics in a modern interface, with a genuinely free tier for basic listing and search.\n\nCoStar wins on data depth and institutional reach. Its comps, analytics, and research are the industry benchmark, and LoopNet remains the most-visited CRE marketplace. The price is premium pricing, annual contracts, and complexity that can overwhelm users who just need property search. Crexi wins on accessibility and usability: free basic access, a modern mobile experience, and no annual lock-in at the entry level. Its listing inventory is smaller in some markets, its data depth is still maturing, and institutional players still default to CoStar.\n\nBottom line: institutional brokers, investors, appraisers, and lenders who need verified comps and analytics should pay for CoStar. Independent brokers and smaller shops marketing listings should start with Crexi's free tier and upgrade as needed. Many brokers list on both to maximize exposure.",
+   "one_liner": "CoStar/LoopNet is the data-rich institutional standard; Crexi is the free-to-start, modern challenger — many brokers simply use both.",
+   "faq": [
+    {
+     "question": "Is Crexi a real alternative to CoStar and LoopNet?",
+     "answer": "For listing and marketing properties, yes. Crexi has 500,000+ active listings and has become a top LoopNet alternative with a modern interface and free basic access. For research-grade comps, ownership data, and analytics, CoStar's database remains substantially deeper."
+    },
+    {
+     "question": "What does each platform cost?",
+     "answer": "Crexi offers a free tier for basic listings and search, with Pro and Enterprise subscriptions quoted by sales. CoStar is subscription-based with premium, quote-based pricing and annual contracts, which its own critics note can be cost-prohibitive for smaller firms and individual brokers."
+    },
+    {
+     "question": "Should I list my property on both?",
+     "answer": "If budget allows, exposure argues for it. LoopNet brings the largest audience while Crexi is free to start and growing fast. Solo brokers on a budget can begin with Crexi's free listings and add paid syndication where a specific market demands it."
+    }
+   ]
+  },
+  {
+   "a": "buildout",
+   "b": "apto",
+   "verdict": "This comparison has an unusual asterisk: Apto's website is no longer accessible, and the product appears to have been discontinued or acquired. Apto was a pioneer, one of the first CRMs purpose-built for CRE brokers, built on Salesforce with contact management, deal tracking, and commission management. But a CRM you may not be able to buy, or get supported, is not a viable choice for a new purchase, and existing Apto users likely face a migration decision.\n\nBuildout is the active, growing alternative. Used by 50,000+ CRE brokers, it spans far more than CRM: AI-powered prospecting across a 40M+ property database, marketing with automated proposals and syndication to 20+ listing sites, the Rethink CRM with AI-assisted follow-up, and Transact for closing workflows. It is modular, so you can start with one product and expand, and it scales from solo brokers to multi-office brokerages. Its main caveats are quote-based pricing with no published numbers and some still-maturing AI features.\n\nBottom line: for anyone choosing a CRE brokerage platform today, Buildout is the practical answer, and Apto is effectively not an option. Former Apto users evaluating replacements will find Buildout's Rethink CRM covers the same broker-specific ground (contacts, pipeline, deal tracking) while adding prospecting and marketing Apto never had. Teams deeply invested in Salesforce infrastructure may want a Salesforce-native alternative, but that is a different search.",
+   "one_liner": "Apto appears discontinued; Buildout is the actively developed CRE brokerage platform and the practical choice — and a natural Apto migration path.",
+   "faq": [
+    {
+     "question": "Is Apto still available?",
+     "answer": "Apto's website is no longer accessible, suggesting the product was discontinued or acquired. That means limited or no ongoing support, and existing users should plan a migration to an actively maintained CRM rather than treating Apto as a current option."
+    },
+    {
+     "question": "Is Buildout a good replacement for Apto?",
+     "answer": "Yes, for most former Apto users. Buildout's Rethink CRM covers CRE-specific contact management and deal pipeline tracking, and the wider platform adds AI prospecting, marketing with listing syndication, and transaction management that Apto did not offer. Note that Apto was Salesforce-based, so teams committed to Salesforce infrastructure should factor that into migration planning."
+    },
+    {
+     "question": "How much does Buildout cost?",
+     "answer": "Buildout uses modular, quote-based pricing with no published prices; you can start with one product, such as the CRM or the Showcase marketing tool, and add others as needs grow. Expect a sales conversation to get numbers for your team size."
+    }
+   ]
+  }
+ ]
+}
