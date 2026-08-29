@@ -180,6 +180,12 @@ function headHTML({ title, description, canonical, ogType = 'website', ogImage =
     gtag('js', new Date());
     gtag('config', 'G-ZX9EKESMLP');
   </script>
+  <!-- Privacy-friendly analytics by Plausible -->
+  <script async src="https://plausible.io/js/pa-u69uN_qYKpZ5mUTg4gO0Z.js"></script>
+  <script>
+    window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
+    plausible.init()
+  </script>
   ${ld}`;
 }
 
