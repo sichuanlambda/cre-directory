@@ -1,0 +1,17 @@
+{
+  "tool_name": "LeaseLens",
+  "website": "https://leaselens-nu.vercel.app",
+  "email": "conneranderson007@gmail.com",
+  "category": "Broker Tools, Tenant Experience, AI & Automation, Legal & Compliance",
+  "description": "AI that reads commercial lease PDFs and flags high-risk clauses for tenants in under 2 minutes",
+  "pricing": "$75 per report. $199/month unlimited (for brokers and teams). No subscription required for single reports.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "Built for small business tenants and tenant rep brokers. Analyzes 15+ risk categories including CAM charges, personal guarantee scope, holdover rates, rent escalation, renewal deadlines. Delivers a PDF report with exact quoted clause language flagged as High/Medium/Low risk. First paying customer was a tenant rep broker in Los Angeles.",
+  "screenshot_urls": "notes:\nBuilt for small business tenants and tenant rep brokers. Analyzes 15+ risk categories including CAM charges, personal guarantee scope, holdover rates, rent escalation, renewal deadlines. Delivers a PDF report with exact quoted clause language flagged as High/Medium/Low risk. First paying customer was a tenant rep broker in Los Angeles.",
+  "submitted_at": "2026-06-01T22:53:56+00:00",
+  "source": "formspree-email-backlog",
+  "status": "processed",
+  "product_slug": "leaselens",
+  "processed_at": "2026-08-30"
+}

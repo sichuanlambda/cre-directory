@@ -1,0 +1,17 @@
+{
+  "tool_name": "Altyst",
+  "website": "https://altyst.ai",
+  "email": "hello@altyst.ai",
+  "category": "Investment & Valuation, AI & Automation",
+  "description": "Browser-based institutional underwriting engine that replaces the Excel model across multifamily, office, retail, industrial and mixed-use.",
+  "pricing": "No free tier and no free trial. Individual $12/mo (5 deals), Professional $24/mo (15 deals), Team $99/mo (75 deals, 5 seats). Additional deals are $4 each on Individual and $3 each on Professional and Team.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "Disclosure: we build Altyst, so this is a vendor submission and not a user review.\n\nWhy it fits Investment and Valuation: your directory already lists ARGUS as the reference tool there, and the gap buyers describe most often is that ARGUS and Excel both stop at the model. Altyst reads an OM or rent roll, builds the cash flows, and sizes debt as the lowest of LTV, DSCR and debt yield, with every input still editable and the full model recomputing live. After-tax, waterfall and partnership splits are included.\n\nOne sample deal tied out end to end: https://altyst.ai/models/184-unit-multifamily-value-add\n\nHappy to answer verification questions at hello@altyst.ai.",
+  "screenshot_urls": "notes:\nDisclosure: we build Altyst, so this is a vendor submission and not a user review.\n\nWhy it fits Investment and Valuation: your directory already lists ARGUS as the reference tool there, and the gap buyers describe most often is that ARGUS and Excel both stop at the model. Altyst reads an OM or rent roll, builds the cash flows, and sizes debt as the lowest of LTV, DSCR and debt yield, with every input still editable and the full model recomputing live. After-tax, waterfall and partnership splits are included.\n\nOne sample deal tied out end to end: https://altyst.ai/models/184-unit-multifamily-value-add\n\nHappy to answer verification questions at hello@altyst.ai.",
+  "submitted_at": "2026-08-20T22:00:16+00:00",
+  "source": "formspree-email-backlog",
+  "status": "processed",
+  "product_slug": "altyst",
+  "processed_at": "2026-08-30"
+}

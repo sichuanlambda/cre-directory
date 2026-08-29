@@ -32021,5 +32021,1275 @@
     "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
     "primary_category": "data-analytics",
     "logo_url_source": "https://logo.clearbit.com/moodys.com"
+  },
+  {
+    "title": "LeaseLens",
+    "slug": "leaselens",
+    "url": "https://leaselens-nu.vercel.app",
+    "logo_url": "",
+    "headline": "AI commercial lease analysis that flags risky clauses before tenants sign.",
+    "description": "LeaseLens is an AI-powered commercial lease analysis service for tenants and tenant-rep brokers. Users upload a lease PDF and get a free instant preview (a lease grade, risk flag count, and one detailed finding), then can purchase the full PDF report for $75. Reports check every clause against 14 risk categories and identify 15+ risk flag types, including uncapped CAM charges, personal guarantee scope, holdover rates, rent escalations, and renewal notice deadlines, quoting the exact clause language and suggesting negotiation changes. The report also calculates year-by-year occupancy costs and total personal guarantee exposure, and detects prompt-injection tampering hidden in PDF documents. A $199/month plan gives brokers unlimited analyses across their client base, and the site offers a free 10-question lease-risk quiz, a sample report, and a money-back guarantee.",
+    "short_description": "Upload a commercial lease PDF, get a risk report flagging CAM, guarantees, holdover, and escalation clauses.",
+    "tagline": "We read your lease before you pay a lawyer to.",
+    "categories": [
+      "Legal & Compliance",
+      "AI & Automation",
+      "Broker Tools"
+    ],
+    "primary_category": "legal-compliance",
+    "target_audience": {
+      "roles": [
+        "Small Business Tenants",
+        "Tenant Rep Brokers",
+        "Business Owners"
+      ],
+      "company_sizes": [
+        "Solo",
+        "Small"
+      ],
+      "property_types": [
+        "Retail",
+        "Office",
+        "Industrial",
+        "Flex"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Lease Risk Analysis",
+        "features": [
+          {
+            "name": "14 Risk Category Review",
+            "description": "Every clause is checked against 14 risk categories, flagging 15+ risk types such as uncapped CAM, personal guarantees, and holdover traps."
+          },
+          {
+            "name": "Quoted Clause Findings",
+            "description": "Findings quote the exact lease language and rate it Critical/High/Medium/Low with specific negotiation recommendations."
+          },
+          {
+            "name": "Financial Exposure Math",
+            "description": "Calculates year-by-year occupancy costs, escalation impact, and total personal guarantee exposure over the lease term."
+          }
+        ]
+      },
+      {
+        "name": "Report & Workflow",
+        "features": [
+          {
+            "name": "Free Instant Preview",
+            "description": "Upload a PDF and see a lease grade, risk flag count, and one finding before paying."
+          },
+          {
+            "name": "Structured PDF Report",
+            "description": "A shareable report with critical dates, financial breakdown, rights and restrictions, renewal/exit options, and a plain-English summary, delivered by email in minutes."
+          },
+          {
+            "name": "Document Integrity Check",
+            "description": "Detects hidden prompt-injection text and tampered PDFs and flags them as a high-severity risk; no lease data stored."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Pay-per-report with optional subscription",
+      "starting_price": "$75 per report",
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Single Report",
+          "price": "$75",
+          "description": "One-time full lease analysis, PDF report delivered by email in minutes."
+        },
+        {
+          "name": "Unlimited (Brokers & Teams)",
+          "price": "$199/month",
+          "description": "Unlimited lease analyses across a broker's book of business with priority processing."
+        }
+      ]
+    },
+    "pros": [
+      "Free instant preview and sample report let you evaluate before paying",
+      "Findings quote exact clause language with concrete negotiation asks",
+      "No subscription required for a single report",
+      "Money-back guarantee published on the site"
+    ],
+    "cons": [
+      "New product hosted on a Vercel subdomain with little public track record",
+      "Not a law firm — reports are not legal advice",
+      "Single-purpose tool; no ongoing lease management features"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "LeaseLens"
+    },
+    "domain": "leaselens-nu.vercel.app",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Pay-per-report",
+    "is_free": false,
+    "property_types": [
+      "Commercial",
+      "Retail",
+      "Office",
+      "Industrial"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-08-30",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Vizitor",
+    "slug": "vizitor",
+    "url": "https://www.vizitorapp.com/",
+    "logo_url": "/img/logos/vizitor.png",
+    "headline": "Cloud workplace platform: visitor check-in, desk and room booking, and front-desk workflows.",
+    "description": "Vizitor is a cloud-based workplace management system that unifies visitor check-in, desk and space booking, meeting room management, mailroom/package management, attendance tracking, queue management, ticketing, and contractor management in one platform. Visitor management includes badge printing, NDA signing, and watchlist screening, while space booking covers hot-desking with floor maps and real-time occupancy tracking. The platform supports multi-location management from a unified dashboard and integrates with Slack, Microsoft Teams, Outlook, Azure AD, and Google Workspace. The site states GDPR compliance, AES-256 encryption, and ISO 27001 certification, and offers a free trial with no credit card required. Plans are priced per location per month (Starter and Premium tiers, plus custom Enterprise), with pricing displayed in regional currency.",
+    "short_description": "Workplace management suite: visitor check-in, desk/room booking, attendance, mailroom, queue, and ticketing.",
+    "tagline": "One platform for visitors, spaces, and front-desk workflows.",
+    "categories": [
+      "Workplace & Space Management",
+      "Tenant Experience"
+    ],
+    "primary_category": "workplace-space-management",
+    "target_audience": {
+      "roles": [
+        "Facilities Managers",
+        "Admin Teams",
+        "HR Departments",
+        "Security Personnel",
+        "Workplace Managers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Office"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Visitor & Front Desk",
+        "features": [
+          {
+            "name": "Visitor Check-In",
+            "description": "Digital check-in with badges, NDA signing, and watchlist screening."
+          },
+          {
+            "name": "Queue Management",
+            "description": "Digital tokens, service counters, and wait-time notifications."
+          },
+          {
+            "name": "Mailroom Management",
+            "description": "Package logging, routing, and recipient notifications."
+          }
+        ]
+      },
+      {
+        "name": "Space & People",
+        "features": [
+          {
+            "name": "Desk & Space Booking",
+            "description": "Hot-desking with floor maps, neighborhood booking, and real-time occupancy tracking."
+          },
+          {
+            "name": "Meeting Room Management",
+            "description": "Room reservations including AV setup and catering options."
+          },
+          {
+            "name": "Attendance System",
+            "description": "WFH/WFO tracking and headcount management for hybrid teams."
+          }
+        ]
+      },
+      {
+        "name": "Operations & Compliance",
+        "features": [
+          {
+            "name": "Ticketing System",
+            "description": "Routes IT, facilities, and HR requests."
+          },
+          {
+            "name": "Contractor Management",
+            "description": "Access control and compliance verification for contractors."
+          },
+          {
+            "name": "Integrations & Security",
+            "description": "Slack, Teams, Outlook, Azure AD, and Google Workspace integrations; GDPR, AES-256 encryption, ISO 27001 stated."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription (per location, per month; regional currency pricing)",
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Starter",
+          "price": "₹1,600/month per location (billed annually)",
+          "description": "300 check-ins/month, up to 50 employees, single location."
+        },
+        {
+          "name": "Premium",
+          "price": "₹3,200/month per location (billed annually)",
+          "description": "1,000 check-ins/month, up to 200 employees, multiple locations."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "description": "Unlimited visitors, third-party integrations, blacklisting, evacuation alerts."
+        }
+      ]
+    },
+    "pros": [
+      "Broad module coverage — eight workplace functions in one platform",
+      "Free trial with no credit card and fast setup",
+      "Named enterprise case studies and multi-location support",
+      "Stated ISO 27001 certification and GDPR compliance"
+    ],
+    "cons": [
+      "Workplace/office focused — not a CRE deal, leasing, or portfolio tool",
+      "Pricing displayed in regional currency; US pricing not clearly published",
+      "Per-module and per-location pricing can add up across many features"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Vizitor"
+    },
+    "domain": "vizitorapp.com",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "property_types": [
+      "Office",
+      "Commercial"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-08-30",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Rentals369",
+    "slug": "rentals369",
+    "url": "https://www.rentals369.com/",
+    "logo_url": "/img/logos/rentals369.png",
+    "headline": "Rental management for independent landlords: rent, repairs, and documents in one place.",
+    "description": "Rentals369 is cloud-based property management software for independent landlords and small property management teams. It tracks rent with automatic late-fee application, manages maintenance requests with vendor dispatch, and stores documents with audit trails. Tenant and vendor portals are included at no extra cost, and optional add-ons provide QuickBooks Online synchronization and email sync. Pricing is usage-based: a base plan at $19.99/month includes the first 2 retained tenant records, with additional records priced on a declining per-record tier (from $5.99 down to $0.79 per record at higher volumes). The site offers a money-back guarantee and a live pricing calculator.",
+    "short_description": "Property management for small landlords: rent tracking, maintenance, portals, documents, QuickBooks sync.",
+    "tagline": "Track rent, repairs, and documents in one place.",
+    "categories": [
+      "Property Management",
+      "Accounting & Finance"
+    ],
+    "primary_category": "property-management",
+    "target_audience": {
+      "roles": [
+        "Independent Landlords",
+        "Small Property Managers",
+        "Portfolio Owners"
+      ],
+      "company_sizes": [
+        "Solo",
+        "Small"
+      ],
+      "property_types": [
+        "Residential",
+        "Multifamily"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Rent & Finance",
+        "features": [
+          {
+            "name": "Rent Tracking",
+            "description": "Track rent payments with automatic late-fee application."
+          },
+          {
+            "name": "QuickBooks Online Sync",
+            "description": "Optional add-on (from $30/mo) syncing financials to QuickBooks Online."
+          }
+        ]
+      },
+      {
+        "name": "Operations",
+        "features": [
+          {
+            "name": "Maintenance Management",
+            "description": "Log maintenance requests and dispatch vendors."
+          },
+          {
+            "name": "Tenant & Vendor Portals",
+            "description": "Included portals for tenants, vendors, and owners at no extra cost."
+          },
+          {
+            "name": "Documents & Audit Trails",
+            "description": "Store leases, notices, and documents with audit trails; storage scales with tenant records."
+          },
+          {
+            "name": "Email Sync",
+            "description": "Optional add-on (from $15.99/mo) to sync email correspondence."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription with per-tenant-record usage tiers",
+      "starting_price": "$19.99/month",
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Base",
+          "price": "$19.99/month",
+          "description": "First 2 retained tenant records included; additional records billed per tiered per-record rates ($5.99 down to $0.79/record)."
+        }
+      ]
+    },
+    "pros": [
+      "Usage-based pricing scales down per record for larger portfolios",
+      "Tenant and vendor portals included at no extra cost",
+      "QuickBooks Online integration available",
+      "Money-back guarantee"
+    ],
+    "cons": [
+      "Aimed at residential landlords — limited fit for commercial portfolios",
+      "Per-record plus add-on pricing can be harder to predict than flat plans",
+      "Smaller product with limited public track record"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Rentals369"
+    },
+    "domain": "rentals369.com",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "property_types": [
+      "Residential",
+      "Multifamily"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-08-30",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "CRE Retail Maps",
+    "slug": "cre-retail-maps",
+    "url": "https://www.creretailmaps.com",
+    "logo_url": "/img/logos/cre-retail-maps.png",
+    "headline": "Retail trade-area maps with brand logos, exported as presentation-ready PDFs and images.",
+    "description": "CRE Retail Maps is cloud-based mapping software for commercial real estate brokers who need presentation-quality retail maps for offering memorandums, lease proposals, and flyers. Users search for brand artwork, place logos on a map, and auto-discover nearby businesses by category such as restaurants, banks, grocery, and fitness. Maps can be customized with nine map styles, custom color schemes, text overlays, and shape drawing tools, then exported in five PDF layouts or as high-resolution images up to 8000 pixels. It targets landlord reps, tenant rep brokers, investment sales professionals, and brokerage marketing teams. Pricing is $39/month or $379/year, and a free trial allows building and previewing up to three maps without payment.",
+    "short_description": "Map software for retail brokers: place brand logos, find nearby tenants, export print-ready PDFs and 4K+ images.",
+    "tagline": "Presentation-quality retail maps without the hour in PowerPoint.",
+    "categories": [
+      "Broker Tools",
+      "Site Selection"
+    ],
+    "primary_category": "broker-tools",
+    "target_audience": {
+      "roles": [
+        "Landlord Rep Brokers",
+        "Tenant Rep Brokers",
+        "Investment Sales Professionals",
+        "Brokerage Marketing Teams"
+      ],
+      "company_sizes": [
+        "Solo",
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Retail"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Map Building",
+        "features": [
+          {
+            "name": "Brand Logo Placement",
+            "description": "Search brand artwork candidates, review suggested images, and place logos on the map."
+          },
+          {
+            "name": "Nearby Business Discovery",
+            "description": "Auto-find nearby locations by category — restaurants, banks, grocery, fitness, and more."
+          },
+          {
+            "name": "Customization",
+            "description": "Nine map styles, custom color schemes, text overlays, and shape drawing tools."
+          }
+        ]
+      },
+      {
+        "name": "Export & Presentation",
+        "features": [
+          {
+            "name": "PDF Layouts",
+            "description": "Five branded, print-ready PDF layouts for OMs, proposals, and flyers."
+          },
+          {
+            "name": "High-Resolution Images",
+            "description": "Image exports up to 8000 pixels for decks and marketing materials."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": "$39/month",
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Monthly",
+          "price": "$39/month",
+          "description": "Full feature access, billed monthly."
+        },
+        {
+          "name": "Annual",
+          "price": "$379/year",
+          "description": "Full feature access, billed annually (about $31.58/month)."
+        }
+      ]
+    },
+    "pros": [
+      "Purpose-built for retail broker presentation maps rather than general GIS",
+      "Free trial: build and preview up to three maps with no credit card",
+      "Simple flat pricing with a discounted annual plan",
+      "High-resolution and branded PDF export options"
+    ],
+    "cons": [
+      "Narrow use case — mapping/presentation only, no analytics or demographics engine",
+      "Retail-focused; less useful for office or industrial brokers",
+      "Newer product with a limited public track record"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "CRE Retail Maps"
+    },
+    "domain": "creretailmaps.com",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "property_types": [
+      "Retail",
+      "Commercial"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-08-30",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Zillapi",
+    "slug": "zillapi",
+    "url": "https://zillapi.com",
+    "logo_url": "/img/logos/zillapi.png",
+    "headline": "REST API for Zillow-sourced U.S. property data — 300+ fields per home in one call.",
+    "description": "Zillapi is a REST API that returns Zillow-sourced U.S. property data for developers and AI agents: price, Zestimate, rent estimate, photos, schools, taxes, agent contact, and full price history — 300+ typed fields across a stated 160M+ U.S. parcels in a single call. It offers nine sub-resources (such as /zestimate, /nearby comps, and /price-history), geo search by bounding box with filters, address- or zpid-based lookups, and JSON, CSV, and NDJSON output with HMAC-signed webhooks for async jobs. The service ships an OpenAPI 3.1 spec, llms.txt files, and MCP-readiness for use with Claude, ChatGPT, Cursor, LangChain, and workflow tools like Zapier and n8n. Pricing is credit-based: a free tier with 100 credits and no card, $5/month for 1,000 credits, or $54/year for 12,000 credits, with most calls costing 1 credit per record. Zillapi states it is an independent service not affiliated with or endorsed by Zillow Group.",
+    "short_description": "Credit-based REST/MCP API for Zillow-sourced U.S. property data: Zestimates, comps, taxes, photos, price history.",
+    "tagline": "Property data, productized.",
+    "categories": [
+      "Data & Analytics",
+      "AI & Automation"
+    ],
+    "primary_category": "data-analytics",
+    "target_audience": {
+      "roles": [
+        "Developers",
+        "Proptech Product Teams",
+        "Data Analysts",
+        "AI Agent Builders",
+        "Investors"
+      ],
+      "company_sizes": [
+        "Solo",
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Residential",
+        "Multifamily"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Property Data API",
+        "features": [
+          {
+            "name": "Full Property Records",
+            "description": "300+ typed fields per property: address, price, Zestimate, rent estimate, beds/baths, lot size, taxes, schools, agent contact, photos, and price history."
+          },
+          {
+            "name": "Sub-Resources & Field Projection",
+            "description": "Nine sub-resources (zestimate, nearby comps, price history, photos, schools) and ?fields= projection to slim payloads."
+          },
+          {
+            "name": "Geo & URL Search",
+            "description": "Bounding-box search with price/beds/baths/sqft/type filters, or paste a Zillow search URL; async jobs with signed webhooks."
+          }
+        ]
+      },
+      {
+        "name": "Developer & AI Integration",
+        "features": [
+          {
+            "name": "OpenAPI 3.1 Spec",
+            "description": "Stable v1 REST contract that drops into Postman, Cursor, and code generators."
+          },
+          {
+            "name": "AI-Agent Ready",
+            "description": "Function-call-ready spec, llms.txt/llms-full.txt, and MCP readiness for Claude, ChatGPT, and LangChain."
+          },
+          {
+            "name": "Multiple Output Formats",
+            "description": "JSON, CSV, and NDJSON output for pipelines including Google Sheets, BigQuery, and Snowflake."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Credit-based subscription with free tier",
+      "starting_price": "$5/month (1,000 credits)",
+      "free_trial": false,
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "description": "100 credits at signup, no credit card, no top-ups."
+        },
+        {
+          "name": "Monthly",
+          "price": "$5/month",
+          "description": "1,000 credits/month; top-ups at $4 per 1,000 credits."
+        },
+        {
+          "name": "Annual",
+          "price": "$54/year",
+          "description": "12,000 credits/year released 1,000/month; top-ups at $3 per 1,000 credits."
+        }
+      ]
+    },
+    "pros": [
+      "Free tier with no credit card and very low published entry pricing",
+      "OpenAPI 3.1 spec plus AI-agent tooling (llms.txt, MCP-ready) out of the box",
+      "Multiple output formats and sub-resources avoid pulling full records unnecessarily",
+      "Failed calls are free and pricing is transparently documented per endpoint"
+    ],
+    "cons": [
+      "Independent wrapper not affiliated with Zillow — upstream data access could change",
+      "Residential-focused data (homes, Zestimates); limited coverage for pure commercial assets",
+      "Early-access product with limited track record"
+    ],
+    "deployment": [
+      "Cloud",
+      "API"
+    ],
+    "company": {
+      "name": "Zillapi"
+    },
+    "domain": "zillapi.com",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Freemium",
+    "is_free": false,
+    "property_types": [
+      "Residential",
+      "Multifamily"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-08-30",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Concrete Estimator Hub",
+    "slug": "concrete-estimator-hub",
+    "url": "https://concreteestimatorhub.com/",
+    "logo_url": "/img/logos/concrete-estimator-hub.png",
+    "headline": "Free concrete calculators and quote-review tools for slabs, bags, ready-mix, and bids.",
+    "description": "Concrete Estimator Hub is a free web-based collection of concrete estimating calculators and reference guides. It covers volume estimation for slabs, driveways, patios, shed bases, and footings, with bag-count conversion (40/60/80 lb bags), waste buffers, and weight and gravel-base converters. Comparison tools weigh ready-mix versus bagged concrete, including delivery costs, minimum loads, short-load fees, and placement costs such as pump versus wheelbarrow. A quote reviewer helps users compare contractor bids and spot hidden fees before committing, and logged-in users can save and export estimates. The site cites industry sources such as Cement.org, NRMCA CIP, QUIKRETE, and Sakrete for its reference values.",
+    "short_description": "Free concrete calculators for volume, bags, ready-mix vs. bagged costs, delivery fees, and contractor bid review.",
+    "tagline": "From volume calculation to buying decision.",
+    "categories": [
+      "Construction & Development"
+    ],
+    "primary_category": "construction-development",
+    "target_audience": {
+      "roles": [
+        "Small Contractors",
+        "DIY Homeowners",
+        "Project Teams"
+      ],
+      "company_sizes": [
+        "Solo",
+        "Small"
+      ],
+      "property_types": [
+        "Residential",
+        "Commercial"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Volume & Material Estimation",
+        "features": [
+          {
+            "name": "Concrete Volume Calculators",
+            "description": "Slab, driveway, patio, shed base, and footing calculators in cubic yards, feet, or meters with waste buffers."
+          },
+          {
+            "name": "Bag Count Conversion",
+            "description": "Converts volumes to 40/60/80 lb bag counts, with concrete weight and gravel-base converters."
+          },
+          {
+            "name": "Layout Planners",
+            "description": "Control joint and rebar spacing planners for slab work."
+          }
+        ]
+      },
+      {
+        "name": "Buying & Quote Review",
+        "features": [
+          {
+            "name": "Ready-Mix vs. Bagged Comparison",
+            "description": "Compares buying paths including delivery costs, minimum loads, and short-load fees."
+          },
+          {
+            "name": "Quote Reviewer",
+            "description": "Compares contractor bids and flags hidden fees and gaps before purchase."
+          },
+          {
+            "name": "Placement & Removal Cost Tools",
+            "description": "Estimates placement costs (pump vs. wheelbarrow) and concrete removal/demolition costs."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Free",
+      "free_trial": false,
+      "free_tier": true
+    },
+    "pros": [
+      "Calculators are free and work without creating an account",
+      "Covers the full path from volume estimate to bid review, not just volume math",
+      "Cites industry sources (NRMCA, Cement.org, manufacturer calculators) for reference values"
+    ],
+    "cons": [
+      "Aimed at DIY homeowners and small contractors, not commercial-scale estimating",
+      "Very limited company information and transparency",
+      "Not integrated with any CRE or construction management workflows"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Concrete Estimator Hub"
+    },
+    "domain": "concreteestimatorhub.com",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Free",
+    "is_free": true,
+    "property_types": [
+      "Residential",
+      "Commercial"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-08-30",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "TensorPix Real Estate Video Maker",
+    "slug": "tensorpix-real-estate-video-maker",
+    "url": "https://tensorpix.ai/usecases/real-estate-video-maker",
+    "logo_url": "/img/logos/tensorpix-real-estate-video-maker.png",
+    "headline": "Turn listing photos into branded property marketing videos in minutes with AI.",
+    "description": "TensorPix Real Estate Video Maker converts property photos and listing details into finished marketing videos, typically in 5-10 minutes, without video editing skills. Users upload 6-40 photos per project depending on plan, add branding elements such as logos and colors, and can include music, voiceovers, and customizable intro/outro templates with property details. Videos export in formats sized for Instagram, Reels, TikTok, MLS, and YouTube. It is part of the broader TensorPix platform, which also offers AI video enhancement and upscaling to 4K, an AI video and image generator, a video compressor, and an API for custom integrations. A free plan includes enough credits to create up to three videos with no credit card required.",
+    "short_description": "AI tool that turns property photos into branded listing videos for social media, MLS, and YouTube.",
+    "tagline": "Property videos from photos, in minutes.",
+    "categories": [
+      "CRM & Marketing",
+      "AI & Automation",
+      "Listing Services"
+    ],
+    "primary_category": "crm-marketing",
+    "target_audience": {
+      "roles": [
+        "Realtors",
+        "Brokers",
+        "Property Photographers",
+        "Videographers",
+        "Real Estate Media Companies"
+      ],
+      "company_sizes": [
+        "Solo",
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Residential",
+        "Commercial"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Video Creation",
+        "features": [
+          {
+            "name": "Photo-to-Video Generation",
+            "description": "Creates listing videos from 6-40 property photos in about 5-10 minutes."
+          },
+          {
+            "name": "Branding & Customization",
+            "description": "Add logos, brand colors, music, voiceovers, and intro/outro templates with property details; edit before and after generation."
+          },
+          {
+            "name": "Multi-Platform Export",
+            "description": "Exports formats for Instagram, Reels, TikTok, MLS, and YouTube."
+          }
+        ]
+      },
+      {
+        "name": "AI Enhancement & Platform",
+        "features": [
+          {
+            "name": "AI Video Enhancer",
+            "description": "Upscales footage to 4K and improves video quality with AI filters."
+          },
+          {
+            "name": "AI Generators & Compressor",
+            "description": "AI video and image generation from text or images, plus video compression."
+          },
+          {
+            "name": "API Access",
+            "description": "Video Enhancer API available on Premium and Elite plans for custom integrations."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "starting_price": "$5.50/month (billed annually)",
+      "free_trial": false,
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "description": "Weekly login credits, up to 720p, 6 photos per project, 1 GB storage."
+        },
+        {
+          "name": "Standard",
+          "price": "$5.50/mo billed annually",
+          "description": "10 credits/month with rollover, up to 4K, 15 photos per project, 10 GB storage."
+        },
+        {
+          "name": "Premium",
+          "price": "$12.42/mo billed annually",
+          "description": "35 credits/month with rollover, 30 photos per project, 100 GB storage, API access."
+        },
+        {
+          "name": "Elite",
+          "price": "$30.25/mo billed annually",
+          "description": "110 credits/month with rollover, 40 photos per project, 500 GB storage, fastest queue."
+        }
+      ]
+    },
+    "pros": [
+      "Genuine free tier - up to three videos with no credit card",
+      "Fast output with branding, voiceover, and multi-platform export formats including MLS",
+      "Backed by an established AI video company rather than a single-purpose startup",
+      "Low published entry price"
+    ],
+    "cons": [
+      "General-purpose video platform; real estate is one use case rather than the product's core focus",
+      "Credit-based pricing means costs scale with volume and can be hard to predict",
+      "Marketing-only tool - no listing syndication, CRM, or transaction features"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Tensorpix d.o.o.",
+      "headquarters": "Zagreb, Croatia"
+    },
+    "domain": "tensorpix.ai",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Freemium",
+    "is_free": false,
+    "property_types": [
+      "Residential",
+      "Commercial"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-08-30",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "StackPlanner",
+    "slug": "stackplanner",
+    "url": "https://stackplanner.io/",
+    "logo_url": "/img/logos/stackplanner.png",
+    "headline": "Interactive stacking plan software to track tenants, lease expiries, and vacancies.",
+    "description": "StackPlanner is cloud-based stacking plan software for commercial real estate teams that replaces spreadsheet-based occupancy tracking. Users import existing spreadsheet, lease, or portfolio data, and the platform turns it into color-coded, interactive visual stacking plans showing tenants, vacancies, and floor distribution building by building. A real-time dashboard tracks occupancy, lease expiries, square footage, and portfolio-wide trends, with alerts and notifications for upcoming renewals, expiries, and move-outs. Plans can be exported to PDF or Excel, and the platform includes contact management, multi-property views, role-based access, and CRM integration. It is aimed at asset managers, property managers, leasing teams, property owners, and brokers.",
+    "short_description": "Cloud stacking plan software for CRE - visualize occupancy, tenants, lease expiries, and vacancies across a portfolio.",
+    "tagline": "Goodbye spreadsheets. Hello clarity.",
+    "categories": [
+      "Property Management",
+      "Data & Analytics",
+      "Broker Tools"
+    ],
+    "primary_category": "property-management",
+    "target_audience": {
+      "roles": [
+        "Asset Managers",
+        "Property Managers",
+        "Leasing Teams",
+        "Property Owners",
+        "Brokers",
+        "Portfolio Managers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Commercial",
+        "Office"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Stacking Plan Visualization",
+        "features": [
+          {
+            "name": "Interactive Stack View",
+            "description": "Color-coded visual stacking plans showing tenants, vacancies, and floor distribution, updated in real time."
+          },
+          {
+            "name": "Multi-Property View",
+            "description": "Manage multiple buildings and compare occupancy trends across a portfolio in one place."
+          },
+          {
+            "name": "PDF/Excel Export",
+            "description": "Export stacking plans for presentations and reporting."
+          }
+        ]
+      },
+      {
+        "name": "Lease & Occupancy Intelligence",
+        "features": [
+          {
+            "name": "Lease & Expiry Management",
+            "description": "Track lease timelines, tenant details, and square footage; spot upcoming renewals and expiries."
+          },
+          {
+            "name": "Alerts & Notifications",
+            "description": "Proactive notifications for upcoming expiries, renewals, and move-outs."
+          },
+          {
+            "name": "Real-Time Dashboard",
+            "description": "Portfolio dashboard tracking occupancy rates, lease expiries, revenue indicators, and custom KPIs."
+          }
+        ]
+      },
+      {
+        "name": "Collaboration & Data",
+        "features": [
+          {
+            "name": "Data Import & Sync",
+            "description": "Upload spreadsheet, lease, or portfolio data from existing workflows."
+          },
+          {
+            "name": "Role-Based Access & Contacts",
+            "description": "Team collaboration with role-based access controls and built-in contact management."
+          },
+          {
+            "name": "CRM Integration",
+            "description": "Connects stacking plan data with CRM workflows."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": "$99/month (billed annually)",
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Starter",
+          "price": "$99/mo annual ($114 monthly)",
+          "description": "Up to 5 properties, 3 users, 1 GB storage."
+        },
+        {
+          "name": "Pro",
+          "price": "$179/mo annual ($209 monthly)",
+          "description": "Up to 50 properties, 3 users, 10 GB storage."
+        },
+        {
+          "name": "Premium",
+          "price": "$339/mo annual ($399 monthly)",
+          "description": "Unlimited properties, up to 5 users, 35 GB storage."
+        }
+      ]
+    },
+    "pros": [
+      "Purpose-built for stacking plans rather than a module inside a larger platform",
+      "Transparent published pricing with a 14-day full-access trial, no credit card required",
+      "Serves multiple roles - asset managers, leasing teams, owners, and brokers"
+    ],
+    "cons": [
+      "Recently launched in the US (December 2025), so limited track record and reviews",
+      "Low user caps per plan (3-5 users) with paid storage overages",
+      "Focused on visualization and tracking - not a full lease administration or accounting system"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "StackPlanner (Springbord)"
+    },
+    "domain": "stackplanner.io",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "property_types": [
+      "Commercial",
+      "Office"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-08-30",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Altyst",
+    "slug": "altyst",
+    "url": "https://altyst.ai",
+    "logo_url": "/img/logos/altyst.png",
+    "headline": "Browser-based CRE underwriting engine that builds full investment models from deal documents.",
+    "description": "Altyst is a browser-based real estate underwriting platform that generates complete investment models from deal documents. Users upload offering memorandums, rent rolls, and financial statements as PDF, Excel, or CSV; AI extracts the data, flags conflicts between documents with confidence levels for human review, and every figure keeps provenance back to its source. The financial math itself is deterministic rather than AI-generated: the platform builds pro forma operating models (gross rent, vacancy, expenses, NOI), sizes debt by LTV, DSCR, and debt yield constraints, models lease rollovers with tenant improvement costs, and runs base, upside, and downside scenarios with sensitivity grids. All inputs remain editable with the full model recomputing live, and outputs export as Excel workbooks with live formulas, PDF memos, and editable PowerPoint decks. Supported property types include multifamily, office, retail, industrial, self-storage, mixed-use, hospitality, and land development.",
+    "short_description": "AI-assisted underwriting that turns OMs and rent rolls into editable, deterministic CRE investment models.",
+    "tagline": "The underwriting model, without the Excel.",
+    "categories": [
+      "Investment & Valuation",
+      "AI & Automation"
+    ],
+    "primary_category": "investment-valuation",
+    "target_audience": {
+      "roles": [
+        "Investment Analysts",
+        "Acquisitions Teams",
+        "Real Estate Investors",
+        "Investment Firms"
+      ],
+      "company_sizes": [
+        "Solo",
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Multifamily",
+        "Office",
+        "Retail",
+        "Industrial",
+        "Self-Storage",
+        "Mixed-Use",
+        "Hospitality",
+        "Land"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Document Intake & Extraction",
+        "features": [
+          {
+            "name": "Document Upload",
+            "description": "Accepts offering memorandums, rent rolls, and financial statements as PDF, Excel, or CSV."
+          },
+          {
+            "name": "AI Extract & Reconcile",
+            "description": "AI reads documents, flags conflicting data between sources with confidence levels, and keeps provenance for every figure."
+          }
+        ]
+      },
+      {
+        "name": "Modeling Engine",
+        "features": [
+          {
+            "name": "Operating Pro Forma",
+            "description": "Deterministic cash flow model tracking gross rent, vacancy, expenses, and NOI, with all inputs editable and live recomputation."
+          },
+          {
+            "name": "Debt & Leasing",
+            "description": "Sizes financing as the lowest of LTV, DSCR, and debt yield constraints; models lease rollovers and tenant improvement costs."
+          },
+          {
+            "name": "Scenario & Sensitivity Analysis",
+            "description": "Base, upside, and downside cases with sensitivity grids across exit caps and purchase prices; waterfall and partnership splits included."
+          }
+        ]
+      },
+      {
+        "name": "Outputs",
+        "features": [
+          {
+            "name": "Excel Export with Live Formulas",
+            "description": "Exports full workbooks with working formulas, not static values."
+          },
+          {
+            "name": "Memos & Decks",
+            "description": "Generates PDF investment memos and editable PowerPoint decks."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": "$12/month",
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Individual",
+          "price": "$12/mo",
+          "description": "5 deals per month; additional deals $4 each."
+        },
+        {
+          "name": "Professional",
+          "price": "$24/mo",
+          "description": "15 deals per month; additional deals $3 each."
+        },
+        {
+          "name": "Team",
+          "price": "$99/mo",
+          "description": "75 deals per month, 5 seats; additional deals $3 each."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "description": "Custom pricing for volume users."
+        }
+      ]
+    },
+    "pros": [
+      "Deterministic calculation engine with AI limited to document extraction, and provenance tracking on every figure",
+      "Exports Excel with live formulas rather than locking users into the platform",
+      "Broad property type coverage including self-storage, hospitality, and land development",
+      "Very low published entry price compared with institutional underwriting tools"
+    ],
+    "cons": [
+      "New product with little track record and no independent reviews or coverage yet",
+      "No free trial or free tier",
+      "Per-deal caps mean heavy screening workflows incur extra per-deal charges"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Altyst"
+    },
+    "domain": "altyst.ai",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "property_types": [
+      "Multifamily",
+      "Office",
+      "Retail",
+      "Industrial",
+      "Mixed-Use"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-08-30",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "OnComply",
+    "slug": "oncomply",
+    "url": "https://oncomply.biz",
+    "logo_url": "/img/logos/oncomply.png",
+    "headline": "Vendor onboarding and compliance - collect and validate W-9s, COIs, licenses, and payment docs.",
+    "description": "OnComply is a vendor onboarding and compliance platform that automates collecting, validating, and tracking vendor documentation through a single shareable link. It handles W-9s and tax-exempt certificates, certificates of insurance with automatic validation against customizable rules, professional and business licenses with expiration tracking, encrypted bank/ACH details with e-signature, signed agreements, and custom forms. Each vendor carries live \"Can Work\" and \"Can Pay\" eligibility statuses that update in real time as documents change, expire, or renew, with automated renewal reminders, grace period management, and audit-ready exports. Vendors upload documents through a portal without creating accounts, and an eligibility API, webhooks, and SFTP delivery connect compliance data to other business systems. The platform targets general contractors managing subcontractors, property managers tracking multi-location vendors, and accounts payable teams.",
+    "short_description": "Automates vendor document collection and validation with live Can Work / Can Pay eligibility statuses.",
+    "tagline": "Stop chasing vendor paperwork.",
+    "categories": [
+      "Legal & Compliance",
+      "Property Management",
+      "Construction & Development"
+    ],
+    "primary_category": "legal-compliance",
+    "target_audience": {
+      "roles": [
+        "General Contractors",
+        "Property Managers",
+        "Accounts Payable Teams",
+        "Compliance Managers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Commercial",
+        "Residential",
+        "Multifamily"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Document Collection & Validation",
+        "features": [
+          {
+            "name": "W-9 & Tax Documents",
+            "description": "Collects W-9s and tax-exempt certificates and extracts key details like tax IDs; optional real-time TIN verification against IRS records."
+          },
+          {
+            "name": "COI Validation",
+            "description": "Certificates of insurance validated automatically against customizable rules, including insurance limits."
+          },
+          {
+            "name": "Licenses & Agreements",
+            "description": "License collection with expiration tracking, plus fill-and-sign for agreements and any PDF."
+          },
+          {
+            "name": "ACH & Banking Details",
+            "description": "Encrypted collection of bank account and ACH authorization with e-signature."
+          }
+        ]
+      },
+      {
+        "name": "Compliance Automation",
+        "features": [
+          {
+            "name": "Can Work / Can Pay Eligibility",
+            "description": "Live per-vendor eligibility decisions that update the moment a document changes, expires, or renews."
+          },
+          {
+            "name": "Renewal Reminders & Grace Periods",
+            "description": "Automated expiration-based reminders with grace period management for lapsed documents."
+          },
+          {
+            "name": "Audit Trail & Exports",
+            "description": "Timestamped logs of user actions and document changes with audit-ready exports."
+          }
+        ]
+      },
+      {
+        "name": "Access & Integration",
+        "features": [
+          {
+            "name": "No-Account Vendor Portal",
+            "description": "Vendors upload documents, complete forms, and e-sign via a secure link without creating accounts."
+          },
+          {
+            "name": "API, Webhooks & SFTP",
+            "description": "Eligibility API, webhook integrations, and SFTP delivery for real-time compliance data exchange."
+          },
+          {
+            "name": "Security Controls",
+            "description": "Role-based access, step-up authentication, AES-256-GCM encryption, and database-enforced tenant isolation."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": "$29/month",
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Micro",
+          "price": "$29/mo",
+          "description": "Up to 10 vendors, core compliance platform."
+        },
+        {
+          "name": "Launch",
+          "price": "$69/mo",
+          "description": "Up to 25 vendors, core compliance platform."
+        },
+        {
+          "name": "Growth",
+          "price": "$179/mo",
+          "description": "Up to 75 vendors, core compliance platform."
+        },
+        {
+          "name": "Scale",
+          "price": "$449/mo",
+          "description": "Up to 200 vendors, includes branding and integrations."
+        },
+        {
+          "name": "Business",
+          "price": "$999/mo",
+          "description": "Up to 500 vendors, includes branding and integrations."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "description": "500+ vendors, custom limits and ERP/AP integrations."
+        }
+      ]
+    },
+    "pros": [
+      "Transparent flat monthly pricing by vendor count, starting at $29/month with a 14-day no-card trial",
+      "Live Can Work / Can Pay eligibility with API and webhooks, not just document storage",
+      "Vendors need no account to submit documents, reducing onboarding friction",
+      "Strong stated security posture with encryption, audit logs, and tenant isolation"
+    ],
+    "cons": [
+      "Newer product with a thin public track record and few independent reviews",
+      "API/webhook integrations and branding are paid add-ons on lower tiers",
+      "Compliance-focused - no broader vendor payment or procurement management"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "OnComply"
+    },
+    "domain": "oncomply.biz",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "property_types": [
+      "Commercial",
+      "Residential",
+      "Multifamily"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-08-30",
+    "status": "active",
+    "enriched": true
   }
 ]
