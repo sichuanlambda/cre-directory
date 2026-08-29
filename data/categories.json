@@ -3,7 +3,7 @@
     "name": "Property Management",
     "slug": "property-management",
     "description": "End-to-end platforms for managing commercial properties, from lease administration and rent collection to maintenance coordination and tenant communications. Compare tools built for portfolios of every size.",
-    "product_count": 56,
+    "product_count": 59,
     "products": [
       "archibus",
       "buildium",
@@ -60,7 +60,10 @@
       "occupier",
       "ibm-tririga",
       "corrigo",
-      "quarem"
+      "quarem",
+      "rentals369",
+      "stackplanner",
+      "oncomply"
     ],
     "seo_title": "Best Property Management Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare the top property management software for commercial real estate. Find platforms for lease administration, maintenance tracking, tenant management, and portfolio oversight.",
@@ -109,7 +112,7 @@
     "name": "CRM & Marketing",
     "slug": "crm-marketing",
     "description": "CRM systems and marketing platforms purpose-built for commercial real estate. Manage broker relationships, automate outreach, track deal pipelines, and nurture tenant and investor leads.",
-    "product_count": 31,
+    "product_count": 32,
     "products": [
       "apto",
       "brevitas",
@@ -141,7 +144,8 @@
       "proptracercom",
       "clientlook",
       "sharplaunch",
-      "theanalyst-pro"
+      "theanalyst-pro",
+      "tensorpix-real-estate-video-maker"
     ],
     "seo_title": "Best CRM & Marketing Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare CRM and marketing platforms built for commercial real estate. Find tools for deal tracking, client relationships, email campaigns, and pipeline management.",
@@ -190,7 +194,7 @@
     "name": "Investment & Valuation",
     "slug": "investment-valuation",
     "description": "Underwriting, financial modeling, and deal analysis tools for acquisitions, dispositions, and fund management. Build pro formas, stress-test assumptions, and present to investors with confidence.",
-    "product_count": 36,
+    "product_count": 37,
     "products": [
       "altus-group",
       "argus",
@@ -227,7 +231,8 @@
       "propertyshark",
       "theanalyst-pro",
       "msci-rca",
-      "moodys-reis"
+      "moodys-reis",
+      "altyst"
     ],
     "seo_title": "Best Investment & Valuation Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare investment analysis and property valuation software for commercial real estate. Tools for DCF modeling, portfolio analytics, underwriting, and asset management.",
@@ -276,7 +281,7 @@
     "name": "Construction & Development",
     "slug": "construction-development",
     "description": "Project management, budgeting, and coordination tools for ground-up development and major renovations. Track timelines, manage contractors, and keep builds on budget.",
-    "product_count": 15,
+    "product_count": 17,
     "products": [
       "architecture-helper",
       "citybldr",
@@ -292,7 +297,9 @@
       "fund-that-flip",
       "Deco-Base",
       "gis-software-commercial-development",
-      "sage-300-cre"
+      "sage-300-cre",
+      "concrete-estimator-hub",
+      "oncomply"
     ],
     "seo_title": "Best Construction & Development Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare construction management and real estate development software. Find platforms for project management, budgeting, scheduling, and development planning.",
@@ -341,7 +348,7 @@
     "name": "Data & Analytics",
     "slug": "data-analytics",
     "description": "Market research, benchmarking, and portfolio analytics platforms that turn raw property data into actionable insights. Track comps, forecast trends, and make smarter investment decisions.",
-    "product_count": 53,
+    "product_count": 55,
     "products": [
       "alteryx",
       "altus-group",
@@ -395,7 +402,9 @@
       "lobby-cre",
       "propertyshark",
       "msci-rca",
-      "moodys-reis"
+      "moodys-reis",
+      "zillapi",
+      "stackplanner"
     ],
     "seo_title": "Best Data & Analytics Platforms for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare data and analytics platforms for commercial real estate. Find tools for market research, comp analysis, property intelligence, and business analytics.",
@@ -444,7 +453,7 @@
     "name": "Broker Tools",
     "slug": "broker-tools",
     "description": "Deal management, commission tracking, and workflow tools designed for commercial brokers and brokerage firms. Streamline listings, proposals, and transaction coordination.",
-    "product_count": 33,
+    "product_count": 36,
     "products": [
       "apto",
       "avison-young",
@@ -478,7 +487,10 @@
       "clientlook",
       "commissiontrac",
       "sharplaunch",
-      "theanalyst-pro"
+      "theanalyst-pro",
+      "leaselens",
+      "cre-retail-maps",
+      "stackplanner"
     ],
     "seo_title": "Best Broker Tools & Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare software tools built for commercial real estate brokers. Find platforms for deal management, comp analysis, prospecting, and commission tracking.",
@@ -527,7 +539,7 @@
     "name": "Site Selection",
     "slug": "site-selection",
     "description": "Location intelligence and site analysis platforms for retailers, restaurants, and corporate occupiers. Evaluate demographics, traffic patterns, and competitive landscapes before signing a lease.",
-    "product_count": 16,
+    "product_count": 17,
     "products": [
       "citybldr",
       "lightbox",
@@ -544,7 +556,8 @@
       "plot-of-land",
       "mapzot-ai",
       "gis-software-commercial-development",
-      "tango"
+      "tango",
+      "cre-retail-maps"
     ],
     "seo_title": "Best Site Selection Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare the top site selection and location analysis tools for commercial real estate. Find platforms for market research, demographics, trade area analysis, and property search.",
@@ -593,7 +606,7 @@
     "name": "Tenant Experience",
     "slug": "tenant-experience",
     "description": "Platforms that improve the tenant journey, from building access and amenity booking to community engagement and service requests. Increase retention and justify premium rents.",
-    "product_count": 10,
+    "product_count": 11,
     "products": [
       "envoy-technologies",
       "hqo",
@@ -604,7 +617,8 @@
       "doordash-drive",
       "building-engines",
       "brivo",
-      "mri-angus"
+      "mri-angus",
+      "vizitor"
     ],
     "seo_title": "Best Tenant Experience Platforms for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare tenant experience and engagement platforms for commercial real estate. Find tools for tenant communication, building apps, amenity management, and resident portals.",
@@ -653,7 +667,7 @@
     "name": "Accounting & Finance",
     "slug": "accounting-finance",
     "description": "Accounting, budgeting, and financial reporting platforms tailored for commercial real estate. Handle complex fund structures, property-level P&L, and investor distributions.",
-    "product_count": 37,
+    "product_count": 38,
     "products": [
       "buildium",
       "fuel",
@@ -691,7 +705,8 @@
       "stratafolio",
       "commissiontrac",
       "sage-300-cre",
-      "occupier"
+      "occupier",
+      "rentals369"
     ],
     "seo_title": "Best Accounting & Finance Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare accounting and financial management software for commercial real estate. Find tools for property accounting, budgeting, AP/AR, and financial reporting.",
@@ -740,7 +755,7 @@
     "name": "AI & Automation",
     "slug": "ai-automation",
     "description": "AI-powered tools transforming CRE workflows, from automated document extraction and lease abstraction to predictive analytics and intelligent property matching.",
-    "product_count": 13,
+    "product_count": 17,
     "products": [
       "alteryx",
       "capital-brain",
@@ -754,7 +769,11 @@
       "blooma",
       "prophia",
       "noda",
-      "lobby-cre"
+      "lobby-cre",
+      "leaselens",
+      "zillapi",
+      "tensorpix-real-estate-video-maker",
+      "altyst"
     ],
     "seo_title": "Best AI & Automation Tools for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare AI and automation tools for commercial real estate. Find platforms using artificial intelligence for property analysis, document processing, market prediction, and workflow automation.",
@@ -803,7 +822,7 @@
     "name": "Listing Services",
     "slug": "listing-services",
     "description": "Commercial listing platforms and marketing tools for advertising available spaces. Syndicate listings, generate lead traffic, and connect landlords with prospective tenants.",
-    "product_count": 22,
+    "product_count": 23,
     "products": [
       "brevitas",
       "costar",
@@ -826,7 +845,8 @@
       "property-finder",
       "rentpath",
       "padmapper",
-      "must-wants"
+      "must-wants",
+      "tensorpix-real-estate-video-maker"
     ],
     "seo_title": "Best Listing Services & Platforms for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare commercial real estate listing platforms and marketing services. Find tools to list, market, and distribute your available properties to qualified tenants and buyers.",
@@ -942,7 +962,7 @@
     "name": "Legal & Compliance",
     "slug": "legal-compliance",
     "description": "Lease review, contract management, and regulatory compliance tools for commercial real estate. Automate abstraction, track obligations, and reduce legal risk across your portfolio.",
-    "product_count": 8,
+    "product_count": 10,
     "products": [
       "enertiv",
       "goby",
@@ -951,7 +971,9 @@
       "visuallease",
       "zoneomics",
       "dotloop",
-      "leasequery"
+      "leasequery",
+      "leaselens",
+      "oncomply"
     ],
     "seo_title": "Best Legal & Compliance Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare legal and compliance tools for commercial real estate. Find software for lease review, regulatory compliance, zoning analysis, and risk management.",
@@ -1000,7 +1022,7 @@
     "name": "Workplace & Space Management",
     "slug": "workplace-space-management",
     "description": "Workspace planning, space utilization, and facility management.",
-    "product_count": 16,
+    "product_count": 17,
     "products": [
       "archibus",
       "knotel",
@@ -1017,7 +1039,8 @@
       "lessen",
       "ibm-tririga",
       "corrigo",
-      "quarem"
+      "quarem",
+      "vizitor"
     ],
     "seo_title": "Best Workplace & Space Management Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare workplace and space management platforms for commercial real estate. Find tools for space planning, occupancy tracking, desk booking, and facility management.",

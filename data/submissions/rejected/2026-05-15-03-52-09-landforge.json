@@ -1,0 +1,17 @@
+{
+  "tool_name": "LandForge",
+  "website": "https://landforge-ospm.polsia.app",
+  "email": "landforge@polsia.app",
+  "category": "Investment & Valuation, AI & Automation",
+  "description": "AI-powered commercial real estate deal analysis. Enter any address, get NOI, cap rate, IRR, and cash-on-cash return in 2 minutes. Replaces spreadsheet underwriting for CRE investors.",
+  "pricing": "Starting at $49/mo. Free CRE calculators suite available (Cap Rate, NOI, Cash-on-Cash Return, DSCR, GRM, Loan-to-Value).",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "LandForge is an AI-powered CRE analysis platform. Key features: instant property underwriting from any address, Property Scout for finding deals matching investor criteria, and a free CRE calculators suite. Built for commercial real estate investors, brokers, and analysts who want to replace manual spreadsheet underwriting.",
+  "screenshot_urls": "notes:\nLandForge is an AI-powered CRE analysis platform. Key features: instant property underwriting from any address, Property Scout for finding deals matching investor criteria, and a free CRE calculators suite. Built for commercial real estate investors, brokers, and analysts who want to replace manual spreadsheet underwriting.",
+  "submitted_at": "2026-05-15T03:52:09+00:00",
+  "source": "formspree-email-backlog",
+  "status": "rejected",
+  "rejected_reason": "prototype/placeholder — https://landforge-ospm.polsia.app serves only the same generic Polsia platform landing page with no LandForge product, underwriting tool, or calculators anywhere on the site.",
+  "processed_at": "2026-08-30"
+}

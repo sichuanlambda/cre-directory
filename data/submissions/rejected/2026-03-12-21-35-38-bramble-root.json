@@ -1,0 +1,17 @@
+{
+  "tool_name": "Bramble Root",
+  "website": "https://brambleos.polsia.app",
+  "email": "brambleos@polsia.app",
+  "category": "Property Management, Legal & Compliance",
+  "description": "Email-first COI and compliance tracking for property managers. Multi-surface (email, Excel, app). No per-unit pricing.",
+  "pricing": "Free trial available. No per-unit pricing model — flat rate for property managers.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "Bramble Root helps property managers track certificates of insurance (COIs) and compliance across their portfolio. Works via email, Excel, and a web app — no expensive per-unit fees. Focused on the commercial and multifamily segments.",
+  "screenshot_urls": "notes:\nBramble Root helps property managers track certificates of insurance (COIs) and compliance across their portfolio. Works via email, Excel, and a web app — no expensive per-unit fees. Focused on the commercial and multifamily segments.",
+  "submitted_at": "2026-03-12T21:35:38+00:00",
+  "source": "formspree-email-backlog",
+  "status": "rejected",
+  "rejected_reason": "prototype/placeholder — https://brambleos.polsia.app serves only the generic Polsia app-builder landing page (canonical polsia.com, 'AI That Runs Your Company While You Sleep'); no Bramble Root product, features, or COI-tracking content exists at the URL even when rendered in a browser.",
+  "processed_at": "2026-08-30"
+}
