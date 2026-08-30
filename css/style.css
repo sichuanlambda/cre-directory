@@ -728,3 +728,28 @@ footer span { font-size: 14px; }
   .cat-grid { grid-template-columns: 1fr 1fr; }
   .stats-bar { grid-template-columns: 1fr; }
 }
+
+
+/* --- UX batch (nav search, filters, footer, sticky tabs) --- */
+.nav-search { position: relative; margin-left: 12px; }
+.nav-search input { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.15); color: #fff; border-radius: 8px; padding: 6px 12px; font-size: 13.5px; width: 160px; transition: width .15s; }
+.nav-search input:focus { width: 220px; outline: none; border-color: #3b82f6; }
+.nav-search input::placeholder { color: rgba(255,255,255,.45); }
+#nav-search-results { position: absolute; top: 38px; right: 0; width: 320px; max-height: 400px; overflow-y: auto; background: #fff; border: 1px solid #dde2ee; border-radius: 10px; box-shadow: 0 12px 32px rgba(10,14,40,.18); display: none; z-index: 90; }
+#nav-search-results.open { display: block; }
+#nav-search-results a { display: flex; gap: 10px; align-items: center; padding: 10px 14px; text-decoration: none; color: #16203a; border-bottom: 1px solid #f0f2f8; font-size: 14px; }
+#nav-search-results a:hover { background: #f4f6fb; }
+#nav-search-results .ns-cat { margin-left: auto; font-size: 11.5px; color: #7b849c; white-space: nowrap; }
+@media (max-width: 860px) { .nav-search { display: none; } }
+.filter-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 0 0 20px; font-size: 14px; }
+.filter-label, .sort-label { color: var(--gray-600, #6b7280); font-size: 13px; }
+.filter-chip { border: 1px solid #d3d9e8; background: #fff; border-radius: 999px; padding: 5px 14px; font-size: 13px; cursor: pointer; color: #374151; }
+.filter-chip.active { background: #2b4fd8; border-color: #2b4fd8; color: #fff; }
+.filter-count { font-size: 13px; color: #7b849c; }
+.sort-label { margin-left: auto; }
+.sort-label select { margin-left: 6px; padding: 4px 8px; border-radius: 8px; border: 1px solid #d3d9e8; }
+.product-tabs { position: sticky; top: 0; z-index: 40; background: var(--bg, #fff); }
+footer .footer-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 24px; padding: 28px 0 20px; }
+footer .footer-col h4 { margin: 0 0 10px; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; opacity: .7; }
+footer .footer-col a { display: block; font-size: 13.5px; padding: 3px 0; opacity: .85; text-decoration: none; color: inherit; }
+footer .footer-col a:hover { opacity: 1; text-decoration: underline; }

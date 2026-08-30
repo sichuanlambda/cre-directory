@@ -3873,8 +3873,8 @@
       "funding": "$15M+"
     },
     "categories": [
-      "Property Management",
-      "Legal & Compliance"
+      "Energy & Sustainability",
+      "Property Management"
     ],
     "deployment": [
       "Mobile"
@@ -3900,7 +3900,7 @@
     "property_types": [
       "Commercial"
     ],
-    "primary_category": "property-management",
+    "primary_category": "energy-sustainability",
     "logo_url_source": "https://logo.clearbit.com/enertiv.com"
   },
   {
@@ -4640,9 +4640,8 @@
       "funding": "Acquired by Conservice"
     },
     "categories": [
-      "Property Management",
-      "Legal & Compliance",
-      "Data & Analytics"
+      "Energy & Sustainability",
+      "Accounting & Finance"
     ],
     "deployment": [
       "Mobile"
@@ -4668,7 +4667,7 @@
     "property_types": [
       "Commercial"
     ],
-    "primary_category": "property-management",
+    "primary_category": "energy-sustainability",
     "logo_url_source": "https://logo.clearbit.com/gobyinc.com"
   },
   {
@@ -6064,7 +6063,7 @@
       "funding": "$30M+"
     },
     "categories": [
-      "Accounting & Finance",
+      "Lending & Debt",
       "Broker Tools"
     ],
     "deployment": [
@@ -6107,7 +6106,7 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:31:17.247398Z",
-    "primary_category": "accounting-finance",
+    "primary_category": "lending-debt",
     "logo_url_source": "https://logo.clearbit.com/levcapital.com"
   },
   {
@@ -9018,7 +9017,8 @@
       "funding": "$5M+"
     },
     "categories": [
-      "Accounting & Finance"
+      "Lending & Debt",
+      "Broker Tools"
     ],
     "deployment": [
       "Cloud"
@@ -9048,7 +9048,7 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:44:16.969851+00:00",
-    "primary_category": "accounting-finance",
+    "primary_category": "lending-debt",
     "logo_url_source": "https://logo.clearbit.com/realatom.com",
     "status": "active"
   },
@@ -9994,7 +9994,7 @@
     "logo_url_source": "https://logo.clearbit.com/routable.com"
   },
   {
-    "title": "russ",
+    "title": "Truss",
     "slug": "truss",
     "url": "https://www.avisonyoung.com",
     "logo_url": "/img/logos/truss.png",
@@ -11112,6 +11112,7 @@
       "funding": "$10M+"
     },
     "categories": [
+      "Lending & Debt",
       "Accounting & Finance"
     ],
     "deployment": [
@@ -11158,7 +11159,7 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:40:14.964648Z",
-    "primary_category": "accounting-finance",
+    "primary_category": "lending-debt",
     "logo_url_source": "https://logo.clearbit.com/stacksource.com"
   },
   {
@@ -27225,9 +27226,9 @@
       "funding": "$25M+"
     },
     "categories": [
-      "Investment & Valuation",
+      "Lending & Debt",
       "AI & Automation",
-      "Accounting & Finance"
+      "Investment & Valuation"
     ],
     "deployment": [
       "Cloud"
@@ -27255,7 +27256,7 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
-    "primary_category": "investment-valuation",
+    "primary_category": "lending-debt",
     "logo_url_source": "https://logo.clearbit.com/blooma.ai"
   },
   {

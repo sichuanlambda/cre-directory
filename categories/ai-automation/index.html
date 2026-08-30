@@ -15,6 +15,9 @@
   <meta name="twitter:title" content="Best AI &amp; Automation Tools for CRE (2026) | CRE Software Directory">
   <meta name="twitter:description" content="Compare AI and automation tools for commercial real estate. Find platforms using artificial intelligence for property analysis, document processing, market prediction, and workflow automation.">
   <link rel="canonical" href="https://cresoftware.tech/categories/ai-automation/">
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
@@ -35,6 +38,7 @@
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"ItemList","name":"AI & Automation Software","description":"AI-powered tools transforming CRE workflows, from automated document extraction and lease abstraction to predictive analytics and intelligent property matching.","numberOfItems":17,"itemListElement":[{"@type":"ListItem","position":1,"url":"https://cresoftware.tech/products/alteryx/","name":"Alteryx"},{"@type":"ListItem","position":2,"url":"https://cresoftware.tech/products/altyst/","name":"Altyst"},{"@type":"ListItem","position":3,"url":"https://cresoftware.tech/products/blooma/","name":"Blooma"},{"@type":"ListItem","position":4,"url":"https://cresoftware.tech/products/capital-brain/","name":"Capital Brain"},{"@type":"ListItem","position":5,"url":"https://cresoftware.tech/products/casafy-ai/","name":"Casafy AI"},{"@type":"ListItem","position":6,"url":"https://cresoftware.tech/products/cherre/","name":"Cherre"},{"@type":"ListItem","position":7,"url":"https://cresoftware.tech/products/cre-data-extractor/","name":"CRE Data Extractor"},{"@type":"ListItem","position":8,"url":"https://cresoftware.tech/products/Deco-Base/","name":"Deco Base"},{"@type":"ListItem","position":9,"url":"https://cresoftware.tech/products/fortressiq/","name":"FortressIQ"},{"@type":"ListItem","position":10,"url":"https://cresoftware.tech/products/leaselens/","name":"LeaseLens"},{"@type":"ListItem","position":11,"url":"https://cresoftware.tech/products/lobby-cre/","name":"Lobby CRE"},{"@type":"ListItem","position":12,"url":"https://cresoftware.tech/products/noda/","name":"Noda (formerly Aquicore)"},{"@type":"ListItem","position":13,"url":"https://cresoftware.tech/products/prophia/","name":"Prophia"},{"@type":"ListItem","position":14,"url":"https://cresoftware.tech/products/skyline/","name":"Skyline"},{"@type":"ListItem","position":15,"url":"https://cresoftware.tech/products/spacequant/","name":"SpaceQuant"},{"@type":"ListItem","position":16,"url":"https://cresoftware.tech/products/tensorpix-real-estate-video-maker/","name":"TensorPix Real Estate Video Maker"},{"@type":"ListItem","position":17,"url":"https://cresoftware.tech/products/zillapi/","name":"Zillapi"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://cresoftware.tech/"},{"@type":"ListItem","position":2,"name":"AI & Automation","item":"https://cresoftware.tech/categories/ai-automation/"}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Will AI replace CRE professionals?","acceptedAnswer":{"@type":"Answer","text":"No, but it will change what they spend time on. AI excels at data processing, pattern recognition, and repetitive tasks. It's poor at relationship building, negotiation, creative problem-solving, and the judgment calls that define CRE expertise. Professionals who learn to use AI tools effectively will outperform those who don't — that's the real competitive dynamic."}},{"@type":"Question","name":"What are the most practical AI applications in CRE today?","acceptedAnswer":{"@type":"Answer","text":"Lease abstraction and document analysis, property valuation estimates, market trend prediction, automated property matching, tenant screening, and chatbots for tenant/prospect communication. These are mature enough to deliver real value today, unlike some more speculative applications."}},{"@type":"Question","name":"How much do CRE AI tools cost?","acceptedAnswer":{"@type":"Answer","text":"Varies enormously by application. AI-powered lease abstraction might cost $10-50 per lease. Predictive analytics platforms range from $500-5,000+/month. Automation tools often charge based on volume of transactions processed. Many offer usage-based pricing rather than flat subscriptions."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"CRE Software Directory","url":"https://cresoftware.tech","logo":"https://cresoftware.tech/img/apple-touch-icon.png","email":"hello@cresoftware.tech"}</script>
 </head>
 <body>
   <nav>
@@ -48,6 +52,7 @@
         <a href="/submit.html">Submit a Tool</a>
         <a href="/advertise.html">Advertise</a>
       </div>
+      <div class="nav-search"><input type="search" id="nav-search" placeholder="Search tools…" aria-label="Search software tools" autocomplete="off"><div id="nav-search-results"></div></div>
     </div>
   </nav>
   <section class="category-header">
@@ -57,7 +62,7 @@
         <div>
           <h1>AI &amp; Automation Software for Commercial Real Estate</h1>
           <p>AI-powered tools transforming CRE workflows, from automated document extraction and lease abstraction to predictive analytics and intelligent property matching.</p>
-          <div class="cat-stats"><strong>17</strong> tools in this category</div>
+          <div class="cat-stats"><strong>17</strong> tools in this category · <a href="/guides/ai-automation.html">Read the buyer's guide →</a></div>
         </div>
       </div>
     </div>
@@ -67,8 +72,18 @@
   
   <section class="section">
     <div class="container">
-      <div class="product-grid">
-        <a class="product-card product-card-link" href="/products/alteryx/">
+      <div class="filter-bar" data-filter-bar>
+        <span class="filter-label">Filter:</span>
+        <button class="filter-chip" data-filter="trial">Free trial</button>
+        <button class="filter-chip" data-filter="free">Free tier</button>
+        <button class="filter-chip" data-filter="price">Published pricing</button>
+        <span class="filter-count" data-filter-count></span>
+        <label class="sort-label">Sort:
+          <select data-sort><option value="prominence">Most known</option><option value="az">A–Z</option></select>
+        </label>
+      </div>
+      <div class="product-grid" data-filterable-grid>
+        <a class="product-card product-card-link" href="/products/alteryx/" data-title="alteryx" data-trial="0" data-free="0" data-price="0" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><img src="/img/logos/alteryx.png" alt="Alteryx logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
@@ -86,7 +101,7 @@
       <div class="cats"><span class="badge badge-accent">Data &amp; Analytics</span><span class="badge badge-accent">AI &amp; Automation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/altyst/">
+<a class="product-card product-card-link" href="/products/altyst/" data-title="altyst" data-trial="0" data-free="0" data-price="1" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><img src="/img/logos/altyst.png" alt="Altyst logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
@@ -104,7 +119,7 @@
       <div class="cats"><span class="badge badge-accent">Investment &amp; Valuation</span><span class="badge badge-accent">AI &amp; Automation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/blooma/">
+<a class="product-card product-card-link" href="/products/blooma/" data-title="blooma" data-trial="0" data-free="0" data-price="0" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><div class="fallback" style="display:flex;background:#2ecc71;width:48px;height:48px;font-size:21.6px">B</div></div>
       <div class="product-info">
@@ -116,10 +131,10 @@
     <div class="card-features"><span class="card-feature">✦ Automated Underwriting</span><span class="card-feature">✦ Property Valuation</span><span class="card-feature">✦ Risk Assessment</span></div>
     <div class="card-bottom">
       <div class="card-meta"> </div>
-      <div class="cats"><span class="badge badge-accent">Investment &amp; Valuation</span><span class="badge badge-accent">AI &amp; Automation</span></div>
+      <div class="cats"><span class="badge badge-accent">Lending &amp; Debt</span><span class="badge badge-accent">AI &amp; Automation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/capital-brain/">
+<a class="product-card product-card-link" href="/products/capital-brain/" data-title="capital brain" data-trial="0" data-free="0" data-price="0" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><div class="fallback" style="display:flex;background:#4361ee;width:48px;height:48px;font-size:21.6px">C</div></div>
       <div class="product-info">
@@ -134,7 +149,7 @@
       <div class="cats"><span class="badge badge-accent">AI &amp; Automation</span><span class="badge badge-accent">Investment &amp; Valuation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/casafy-ai/">
+<a class="product-card product-card-link" href="/products/casafy-ai/" data-title="casafy ai" data-trial="0" data-free="0" data-price="0" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><img src="/img/logos/casafy-ai.png" alt="Casafy AI logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
@@ -152,7 +167,7 @@
       <div class="cats"><span class="badge badge-accent">Data &amp; Analytics</span><span class="badge badge-accent">AI &amp; Automation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/cherre/">
+<a class="product-card product-card-link" href="/products/cherre/" data-title="cherre" data-trial="0" data-free="0" data-price="0" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><img src="/img/logos/cherre.png" alt="Cherre logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
@@ -170,7 +185,7 @@
       <div class="cats"><span class="badge badge-accent">Data &amp; Analytics</span><span class="badge badge-accent">AI &amp; Automation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/cre-data-extractor/">
+<a class="product-card product-card-link" href="/products/cre-data-extractor/" data-title="cre data extractor" data-trial="0" data-free="1" data-price="0" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><img src="/img/logos/cre-data-extractor.png" alt="CRE Data Extractor logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
@@ -188,7 +203,7 @@
       <div class="cats"><span class="badge badge-accent">AI &amp; Automation</span><span class="badge badge-accent">Data &amp; Analytics</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/Deco-Base/">
+<a class="product-card product-card-link" href="/products/Deco-Base/" data-title="deco base" data-trial="0" data-free="0" data-price="0" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><img src="/img/logos/Deco-Base.png" alt="Deco Base logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
@@ -206,7 +221,7 @@
       <div class="cats"><span class="badge badge-accent">AI &amp; Automation</span><span class="badge badge-accent">Construction &amp; Development</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/fortressiq/">
+<a class="product-card product-card-link" href="/products/fortressiq/" data-title="fortressiq" data-trial="0" data-free="0" data-price="0" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><div class="fallback" style="display:flex;background:#e67e22;width:48px;height:48px;font-size:21.6px">F</div></div>
       <div class="product-info">
@@ -221,7 +236,7 @@
       <div class="cats"><span class="badge badge-accent">AI &amp; Automation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/leaselens/">
+<a class="product-card product-card-link" href="/products/leaselens/" data-title="leaselens" data-trial="1" data-free="0" data-price="1" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><div class="fallback" style="display:flex;background:#e91e63;width:48px;height:48px;font-size:21.6px">L</div></div>
       <div class="product-info">
@@ -236,7 +251,7 @@
       <div class="cats"><span class="badge badge-accent">Legal &amp; Compliance</span><span class="badge badge-accent">AI &amp; Automation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/lobby-cre/">
+<a class="product-card product-card-link" href="/products/lobby-cre/" data-title="lobby cre" data-trial="0" data-free="0" data-price="0" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><img src="/img/logos/lobby-cre.png" alt="Lobby CRE logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
@@ -254,7 +269,7 @@
       <div class="cats"><span class="badge badge-accent">Investment &amp; Valuation</span><span class="badge badge-accent">AI &amp; Automation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/noda/">
+<a class="product-card product-card-link" href="/products/noda/" data-title="noda (formerly aquicore)" data-trial="0" data-free="0" data-price="0" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><img src="/img/logos/noda.png" alt="Noda (formerly Aquicore) logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
@@ -272,7 +287,7 @@
       <div class="cats"><span class="badge badge-accent">Property Management</span><span class="badge badge-accent">AI &amp; Automation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/prophia/">
+<a class="product-card product-card-link" href="/products/prophia/" data-title="prophia" data-trial="1" data-free="1" data-price="1" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><img src="/img/logos/prophia.png" alt="Prophia logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
@@ -290,7 +305,7 @@
       <div class="cats"><span class="badge badge-accent">Property Management</span><span class="badge badge-accent">AI &amp; Automation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/skyline/">
+<a class="product-card product-card-link" href="/products/skyline/" data-title="skyline" data-trial="0" data-free="0" data-price="0" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><img src="/img/logos/skyline.png" alt="Skyline logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
@@ -308,7 +323,7 @@
       <div class="cats"><span class="badge badge-accent">Investment &amp; Valuation</span><span class="badge badge-accent">AI &amp; Automation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/spacequant/">
+<a class="product-card product-card-link" href="/products/spacequant/" data-title="spacequant" data-trial="0" data-free="0" data-price="0" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><img src="/img/logos/spacequant.png" alt="SpaceQuant logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
@@ -326,7 +341,7 @@
       <div class="cats"><span class="badge badge-accent">Investment &amp; Valuation</span><span class="badge badge-accent">AI &amp; Automation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/tensorpix-real-estate-video-maker/">
+<a class="product-card product-card-link" href="/products/tensorpix-real-estate-video-maker/" data-title="tensorpix real estate video maker" data-trial="0" data-free="1" data-price="1" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><img src="/img/logos/tensorpix-real-estate-video-maker.png" alt="TensorPix Real Estate Video Maker logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
@@ -344,7 +359,7 @@
       <div class="cats"><span class="badge badge-accent">CRM &amp; Marketing</span><span class="badge badge-accent">AI &amp; Automation</span></div>
     </div>
   </a>
-<a class="product-card product-card-link" href="/products/zillapi/">
+<a class="product-card product-card-link" href="/products/zillapi/" data-title="zillapi" data-trial="0" data-free="1" data-price="1" data-featured="0">
     <div class="card-top">
       <div class="product-logo"><img src="/img/logos/zillapi.png" alt="Zillapi logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
@@ -370,18 +385,30 @@
     <div class="container">
       <h2>Browse Other Categories</h2>
       <div class="footer-cat-links" style="display:flex;flex-wrap:wrap;gap:12px">
-        <a href="/categories/property-management/" class="badge badge-accent">Property Management</a><a href="/categories/crm-marketing/" class="badge badge-accent">CRM &amp; Marketing</a><a href="/categories/investment-valuation/" class="badge badge-accent">Investment &amp; Valuation</a><a href="/categories/construction-development/" class="badge badge-accent">Construction &amp; Development</a><a href="/categories/data-analytics/" class="badge badge-accent">Data &amp; Analytics</a><a href="/categories/broker-tools/" class="badge badge-accent">Broker Tools</a><a href="/categories/site-selection/" class="badge badge-accent">Site Selection</a><a href="/categories/tenant-experience/" class="badge badge-accent">Tenant Experience</a><a href="/categories/accounting-finance/" class="badge badge-accent">Accounting &amp; Finance</a><a href="/categories/listing-services/" class="badge badge-accent">Listing Services</a><a href="/categories/crowdfunding-investing/" class="badge badge-accent">Crowdfunding &amp; Investing</a><a href="/categories/legal-compliance/" class="badge badge-accent">Legal &amp; Compliance</a><a href="/categories/workplace-space-management/" class="badge badge-accent">Workplace &amp; Space Management</a>
+        <a href="/categories/property-management/" class="badge badge-accent">Property Management</a><a href="/categories/crm-marketing/" class="badge badge-accent">CRM &amp; Marketing</a><a href="/categories/investment-valuation/" class="badge badge-accent">Investment &amp; Valuation</a><a href="/categories/construction-development/" class="badge badge-accent">Construction &amp; Development</a><a href="/categories/data-analytics/" class="badge badge-accent">Data &amp; Analytics</a><a href="/categories/broker-tools/" class="badge badge-accent">Broker Tools</a><a href="/categories/site-selection/" class="badge badge-accent">Site Selection</a><a href="/categories/tenant-experience/" class="badge badge-accent">Tenant Experience</a><a href="/categories/accounting-finance/" class="badge badge-accent">Accounting &amp; Finance</a><a href="/categories/listing-services/" class="badge badge-accent">Listing Services</a><a href="/categories/crowdfunding-investing/" class="badge badge-accent">Crowdfunding &amp; Investing</a><a href="/categories/legal-compliance/" class="badge badge-accent">Legal &amp; Compliance</a><a href="/categories/workplace-space-management/" class="badge badge-accent">Workplace &amp; Space Management</a><a href="/categories/lending-debt/" class="badge badge-accent">Lending &amp; Debt</a><a href="/categories/energy-sustainability/" class="badge badge-accent">Energy &amp; Sustainability</a>
       </div>
     </div>
   </section>
   <footer>
-    <div class="container footer-inner">
-      <span>© 2026 CRE Software Directory</span>
-      <div><a href="/submit.html">Submit a Tool</a> · <a href="/compare.html">Compare Tools</a> · <a href="mailto:hello@cresoftware.tech">Contact</a></div>
+    <div class="container">
+      <div class="footer-cols">
+        <div class="footer-col"><h4>Categories</h4><a href="/categories/property-management/">Property Management</a><a href="/categories/data-analytics/">Data &amp; Analytics</a><a href="/categories/investment-valuation/">Investment &amp; Valuation</a><a href="/categories/broker-tools/">Broker Tools</a><a href="/categories/accounting-finance/">Accounting &amp; Finance</a><a href="/categories/crm-marketing/">CRM &amp; Marketing</a><a href="/categories/listing-services/">Listing Services</a><a href="/categories/construction-development/">Construction &amp; Development</a><a href="/categories/site-selection/">Site Selection</a><a href="/categories/ai-automation/">AI &amp; Automation</a><a href="/categories/crowdfunding-investing/">Crowdfunding &amp; Investing</a><a href="/categories/workplace-space-management/">Workplace &amp; Space Management</a><a href="/categories/tenant-experience/">Tenant Experience</a><a href="/categories/legal-compliance/">Legal &amp; Compliance</a><a href="/categories/lending-debt/">Lending &amp; Debt</a><a href="/categories/energy-sustainability/">Energy &amp; Sustainability</a></div>
+        <div class="footer-col"><h4>Buyer's Guides</h4><a href="/guides/accounting-finance.html">Accounting &amp; Finance</a><a href="/guides/ai-automation.html">AI &amp; Automation</a><a href="/guides/broker-tools.html">Broker Tools</a><a href="/guides/construction-development.html">Construction &amp; Development</a><a href="/guides/crm-marketing.html">CRM &amp; Marketing</a><a href="/guides/crowdfunding-investing.html">Crowdfunding &amp; Investing</a><a href="/guides/data-analytics.html">Data &amp; Analytics</a><a href="/guides/investment-valuation.html">Investment &amp; Valuation</a></div>
+        <div class="footer-col"><h4>Popular Comparisons</h4><a href="/compare/yardi-vs-appfolio/">Yardi vs AppFolio</a><a href="/compare/yardi-vs-mri-software/">Yardi vs MRI Software</a><a href="/compare/yardi-vs-realpage/">Yardi vs Realpage</a><a href="/compare/yardi-vs-buildium/">Yardi vs Buildium</a><a href="/compare/appfolio-vs-buildium/">AppFolio vs Buildium</a><a href="/compare/appfolio-vs-mri-software/">AppFolio vs MRI Software</a></div>
+        <div class="footer-col"><h4>CRE Software Directory</h4>
+          <a href="/about.html">About & methodology</a>
+          <a href="/submit.html">Submit a tool</a>
+          <a href="/advertise.html">Advertise</a>
+          <a href="/compare.html">Compare tools</a>
+          <a href="/market-map.html">Market map</a>
+          <a href="mailto:hello@cresoftware.tech">Contact</a>
+        </div>
+      </div>
+      <div class="footer-inner"><span>© 2026 CRE Software Directory</span><span style="opacity:.6;font-size:12.5px">Independent directory of commercial real estate software.</span></div>
     </div>
   </footer>
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
   <script src="/js/app.js"></script>
-  <script>initNav();initBackToTop();</script>
+  <script>initNav();initBackToTop();initNavSearch();</script>
 </body>
 </html>

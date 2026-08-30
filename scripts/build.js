@@ -110,7 +110,8 @@ function productCard(p) {
   if (p.is_featured) badges.push('<span class="badge badge-gold">Featured</span>');
   const features = (p.feature_groups || []).flatMap(g => g.features || []).slice(0, 3);
   const featHTML = features.length ? `<div class="card-features">${features.map(f => `<span class="card-feature">✦ ${esc(f.name)}</span>`).join('')}</div>` : '';
-  return `<a class="product-card product-card-link" href="${productPath(p.slug)}">
+  const pr = p.pricing || {};
+  return `<a class="product-card product-card-link" href="${productPath(p.slug)}" data-title="${esc((p.title || '').toLowerCase())}" data-trial="${pr.free_trial ? 1 : 0}" data-free="${pr.free_tier ? 1 : 0}" data-price="${pr.starting_price ? 1 : 0}" data-featured="${p.is_featured || p.featured_partner ? 1 : 0}">
     <div class="card-top">
       <div class="product-logo">${logoHTML(p)}</div>
       <div class="product-info">
@@ -140,22 +141,47 @@ function navHTML(active) {
         ${link('/submit.html', 'Submit a Tool', 'submit')}
         ${link('/advertise.html', 'Advertise', 'advertise')}
       </div>
+      <div class="nav-search"><input type="search" id="nav-search" placeholder="Search tools…" aria-label="Search software tools" autocomplete="off"><div id="nav-search-results"></div></div>
     </div>
   </nav>`;
 }
 
 function footerHTML() {
+  const catLinks = Object.values(CATEGORIES).sort((a, b) => b.product_count - a.product_count)
+    .map(c => `<a href="${categoryPath(c.slug)}">${esc(c.name)}</a>`).join('');
+  const guideLinks = fs.existsSync(path.join(ROOT, 'guides'))
+    ? fs.readdirSync(path.join(ROOT, 'guides')).filter(f => f.endsWith('.html')).slice(0, 8)
+        .map(f => { const cs = f.replace('.html', ''); const c = categoryBySlug(cs); return `<a href="/guides/${f}">${esc(c ? c.name : cs)}</a>`; }).join('')
+    : '';
+  const cmpLinks = (EDITORIAL.comparisons || []).slice(0, 6).map(c => {
+    const A = PRODUCTS.find(p => p.slug === c.a), B = PRODUCTS.find(p => p.slug === c.b);
+    return A && B ? `<a href="${comparePath(c.a, c.b)}">${esc(A.title)} vs ${esc(B.title)}</a>` : '';
+  }).join('');
   return `<footer>
-    <div class="container footer-inner">
-      <span>© ${YEAR} CRE Software Directory</span>
-      <div><a href="/submit.html">Submit a Tool</a> · <a href="/compare.html">Compare Tools</a> · <a href="mailto:hello@cresoftware.tech">Contact</a></div>
+    <div class="container">
+      <div class="footer-cols">
+        <div class="footer-col"><h4>Categories</h4>${catLinks}</div>
+        <div class="footer-col"><h4>Buyer's Guides</h4>${guideLinks}</div>
+        <div class="footer-col"><h4>Popular Comparisons</h4>${cmpLinks}</div>
+        <div class="footer-col"><h4>CRE Software Directory</h4>
+          <a href="/about.html">About & methodology</a>
+          <a href="/submit.html">Submit a tool</a>
+          <a href="/advertise.html">Advertise</a>
+          <a href="/compare.html">Compare tools</a>
+          <a href="/market-map.html">Market map</a>
+          <a href="mailto:hello@cresoftware.tech">Contact</a>
+        </div>
+      </div>
+      <div class="footer-inner"><span>© ${YEAR} CRE Software Directory</span><span style="opacity:.6;font-size:12.5px">Independent directory of commercial real estate software.</span></div>
     </div>
   </footer>
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>`;
 }
 
+const ORG_LD = { "@context": "https://schema.org", "@type": "Organization", "name": "CRE Software Directory", "url": BASE, "logo": `${BASE}/img/apple-touch-icon.png`, "email": "hello@cresoftware.tech" };
+
 function headHTML({ title, description, canonical, ogType = 'website', ogImage = `${BASE}/css/og-image.png`, jsonLd = [] }) {
-  const ld = jsonLd.map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join('\n  ');
+  const ld = jsonLd.concat([ORG_LD]).map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join('\n  ');
   return `<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${esc(title)}</title>
@@ -170,6 +196,9 @@ function headHTML({ title, description, canonical, ogType = 'website', ogImage =
   <meta name="twitter:title" content="${esc(title)}">
   <meta name="twitter:description" content="${esc(description)}">
   <link rel="canonical" href="${canonical}">
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
@@ -296,6 +325,7 @@ function renderProductPage(product) {
   const hasPricingInfo = plans.length > 0 || pricing.starting_price || pricing.free_trial || pricing.free_tier;
   const pricingHTML = hasPricingInfo ? `<div class="pricing-section" id="sec-pricing">
     <h2>${esc(product.title)} Pricing</h2>
+    ${product.last_updated ? `<p style="font-size:12.5px;opacity:.6;margin:-8px 0 12px;">Last verified ${esc(String(product.last_updated).slice(0, 7))}</p>` : ''}
     <div class="pricing-meta">
       <span class="pricing-model-badge">${esc(pricing.model || 'Quote-based')}</span>
       ${pricing.billing_options && pricing.billing_options.length ? `<span class="billing-options">Billing: ${esc(pricing.billing_options.join(', '))}</span>` : ''}
@@ -336,7 +366,7 @@ function renderProductPage(product) {
   // Related tools carousels + similar grid
   let relatedHTML = '';
   const usedSlugs = new Set([slug]);
-  (product.categories || []).forEach(cat => {
+  (product.categories || []).slice(0, 2).forEach(cat => {
     const related = PRODUCTS.filter(p => !usedSlugs.has(p.slug) && (p.categories || []).includes(cat));
     if (related.length === 0) return;
     const items = related.slice(0, 10);
@@ -394,6 +424,16 @@ function renderProductPage(product) {
   }
 
 
+  // FAQ derived strictly from structured fields
+  const faqItems = [];
+  if (!isDefunct && !isEcosystem) {
+    if (pricing.starting_price) faqItems.push({ question: `How much does ${product.title} cost?`, answer: `${product.title} pricing starts at ${pricing.starting_price}.${pricing.free_trial ? ' A free trial is available.' : ''}${pricing.free_tier ? ' A free tier is available.' : ''}` });
+    else faqItems.push({ question: `How much does ${product.title} cost?`, answer: `${product.title} does not publish pricing; it is ${(pricing.model || 'quote-based').toLowerCase()}.${pricing.free_trial ? ' A free trial is available.' : ''}${pricing.free_tier ? ' A free tier is available.' : ''} Contact the vendor for a quote.` });
+    if ((ta.roles || []).length) faqItems.push({ question: `Who is ${product.title} for?`, answer: `${product.title} is built for ${ta.roles.join(', ')}${(ta.property_types || []).length ? `, working with ${ta.property_types.join(', ').toLowerCase()} properties` : ''}.` });
+    if (primaryCat) faqItems.push({ question: `What are alternatives to ${product.title}?`, answer: `Popular ${primaryCat.toLowerCase()} alternatives include ${PRODUCTS.filter(p => p.slug !== slug && (p.categories || [])[0] === primaryCat).slice(0, 3).map(p => p.title).join(', ') || 'other tools in the category'}.${EDITORIAL.alternatives && EDITORIAL.alternatives[slug] ? ` See the full list of ${product.title} alternatives.` : ''}` });
+  }
+  const faqBlockHTML = faqItems.length ? faqHTMLBlock(faqItems, `${product.title} FAQ`) : '';
+
   const breadcrumbLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -407,7 +447,7 @@ function renderProductPage(product) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-  ${headHTML({ title, description, canonical, jsonLd: [softwareLd, breadcrumbLd] })}
+  ${headHTML({ title, description, canonical, jsonLd: faqItems.length ? [softwareLd, breadcrumbLd, faqLd(faqItems)] : [softwareLd, breadcrumbLd] })}
 </head>
 <body>
   ${navHTML('directory')}
@@ -451,6 +491,7 @@ function renderProductPage(product) {
       ${pricingHTML}
       ${integrationsHTML}
       ${companyHTML}
+      ${faqBlockHTML}
 
       ${(EDITORIAL.alternatives && EDITORIAL.alternatives[slug]) || comparisonsFor(slug).length ? `<div class="editorial-links" style="margin:24px 0;padding:16px 20px;border-radius:10px;background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.25);">
         <strong>Deciding on ${esc(product.title)}?</strong>
@@ -465,7 +506,7 @@ function renderProductPage(product) {
       </div>` : ''}
       <div class="bottom-cta">
         ${isDefunct ? '' : `<a href="${esc(outUrl)}" target="_blank" rel="${outRel}" class="cta-btn">Visit ${esc(product.title)} →</a>`}
-        <a href="/submit.html" class="claim-link">Submit a correction or claim this listing</a>
+        <a href="mailto:hello@cresoftware.tech?subject=${encodeURIComponent('Listing update: ' + product.title)}" class="claim-link">Submit a correction or claim this listing</a>
       </div>
       ${product.affiliate_url ? `<p style="font-size:12.5px;opacity:.65;margin:8px 0 0;">Disclosure: outbound links for this product are partner links. Partner relationships never change how a product is described.</p>` : ''}
 
@@ -486,7 +527,7 @@ function renderProductPage(product) {
   </div>
   ${footerHTML()}
   <script src="/js/app.js"></script>
-  <script>initNav();initBackToTop();</script>
+  <script>initNav();initBackToTop();initNavSearch();</script>
 </body>
 </html>`;
 }
@@ -499,7 +540,9 @@ function renderCategoryPage(slug, cat) {
   const ed = cat.editorial || {};
 
   const products = PRODUCTS.filter(p => (cat.products || []).includes(p.slug))
-    .sort((a, b) => a.title.localeCompare(b.title));
+    .sort((a, b) => ((b.featured_partner ? 2 : 0) + (b.is_featured ? 1 : 0)) - ((a.featured_partner ? 2 : 0) + (a.is_featured ? 1 : 0)) || a.title.localeCompare(b.title));
+  const guideFile = path.join(ROOT, 'guides', `${slug}.html`);
+  const guideLink = fs.existsSync(guideFile) ? `/guides/${slug}.html` : null;
 
   const editorialHTML = ed.intro ? `<div class="container"><div class="editorial-intro">${ed.intro.split('\n').filter(p => p.trim()).map(p => `<p>${esc(p)}</p>`).join('')}</div>
     ${ed.what_to_look_for && ed.what_to_look_for.length ? `<div class="editorial-criteria"><h2>What to Look For in ${esc(cat.name)} Software</h2><div class="criteria-grid">${ed.what_to_look_for.map(c => `<div class="criteria-card"><h3>${esc(c.title)}</h3><p>${esc(c.description)}</p></div>`).join('')}</div></div>` : ''}</div>` : '';
@@ -544,7 +587,7 @@ function renderCategoryPage(slug, cat) {
         <div>
           <h1>${esc(cat.name)} Software for Commercial Real Estate</h1>
           <p>${esc(cat.description)}</p>
-          <div class="cat-stats"><strong>${products.length}</strong> tools in this category</div>
+          <div class="cat-stats"><strong>${products.length}</strong> tools in this category${guideLink ? ` · <a href="${guideLink}">Read the buyer's guide →</a>` : ''}</div>
         </div>
       </div>
     </div>
@@ -567,7 +610,17 @@ function renderCategoryPage(slug, cat) {
   })()}
   <section class="section">
     <div class="container">
-      <div class="product-grid">
+      <div class="filter-bar" data-filter-bar>
+        <span class="filter-label">Filter:</span>
+        <button class="filter-chip" data-filter="trial">Free trial</button>
+        <button class="filter-chip" data-filter="free">Free tier</button>
+        <button class="filter-chip" data-filter="price">Published pricing</button>
+        <span class="filter-count" data-filter-count></span>
+        <label class="sort-label">Sort:
+          <select data-sort><option value="prominence">Most known</option><option value="az">A–Z</option></select>
+        </label>
+      </div>
+      <div class="product-grid" data-filterable-grid>
         ${products.map(productCard).join('\n')}
       </div>
     </div>
@@ -583,7 +636,7 @@ function renderCategoryPage(slug, cat) {
   </section>
   ${footerHTML()}
   <script src="/js/app.js"></script>
-  <script>initNav();initBackToTop();</script>
+  <script>initNav();initBackToTop();initNavSearch();</script>
 </body>
 </html>`;
 }
@@ -638,7 +691,7 @@ function renderAlternativesPage(slug, alt) {
   </div>
   ${footerHTML()}
   <script src="/js/app.js"></script>
-  <script>initNav();initBackToTop();</script>
+  <script>initNav();initBackToTop();initNavSearch();</script>
 </body>
 </html>`;
 }
@@ -692,6 +745,7 @@ function renderComparisonPage(cmp) {
           ${row('Primary category', A.primary_category && categoryBySlug(A.primary_category) ? categoryBySlug(A.primary_category).name : '', B.primary_category && categoryBySlug(B.primary_category) ? categoryBySlug(B.primary_category).name : '')}
         </tbody>
       </table></div>
+      <p style="font-size:13.5px"><a href="/compare.html?a=${cmp.a}&b=${cmp.b}">Customize this comparison →</a></p>
       <div class="description-section"><h2>Our Verdict</h2>${(cmp.verdict || '').split('\n\n').map(p => `<p>${esc(p)}</p>`).join('')}</div>
       <div class="proscons">${prosCons(A)}${prosCons(B)}</div>
       ${faqHTMLBlock(cmp.faq)}
@@ -703,7 +757,7 @@ function renderComparisonPage(cmp) {
   </div>
   ${footerHTML()}
   <script src="/js/app.js"></script>
-  <script>initNav();initBackToTop();</script>
+  <script>initNav();initBackToTop();initNavSearch();initCategoryFilters();</script>
 </body>
 </html>`;
 }
@@ -733,6 +787,7 @@ function renderSitemap() {
   add(`${BASE}/compare.html`, '0.5', TODAY);
   add(`${BASE}/submit.html`, '0.5', TODAY);
   add(`${BASE}/advertise.html`, '0.5', TODAY);
+  add(`${BASE}/about.html`, '0.5', TODAY);
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -828,6 +883,26 @@ function injectPopularComparisons() {
   return (EDITORIAL.comparisons || []).length;
 }
 const popCount = injectPopularComparisons();
+
+function injectHomeComparisons() {
+  const file = path.join(ROOT, 'index.html');
+  const START = '<!-- HOME-COMPARISONS:START -->';
+  const END = '<!-- HOME-COMPARISONS:END -->';
+  let html = fs.readFileSync(file, 'utf8');
+  const si = html.indexOf(START), ei = html.indexOf(END);
+  if (si === -1 || ei === -1) return 0;
+  const picks = (EDITORIAL.comparisons || []).slice(0, 3);
+  const section = `
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px">
+        ${picks.map(comparisonCard).join('\n        ')}
+      </div>
+      <p style="margin:16px 0 0;font-size:14px"><a href="/compare.html">See all comparisons →</a></p>
+      `;
+  html = html.slice(0, si + START.length) + section + html.slice(ei);
+  fs.writeFileSync(file, html);
+  return picks.length;
+}
+injectHomeComparisons();
 
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), renderSitemap());
 

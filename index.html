@@ -52,6 +52,9 @@
     window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
     plausible.init()
   </script>
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 </head>
 <body>
   <nav>
@@ -65,6 +68,7 @@
         <a href="submit.html">Submit a Tool</a>
         <a href="advertise.html">Advertise</a>
       </div>
+        <div class="nav-search"><input type="search" id="nav-search" placeholder="Search tools…" aria-label="Search software tools" autocomplete="off"><div id="nav-search-results"></div></div>
     </div>
   </nav>
 
@@ -126,6 +130,62 @@
     <div class="container">
       <h2 class="section-title">Recently Updated</h2>
       <div class="recent-row" id="recent-products"></div>
+    </div>
+  </section>
+
+  <section class="section hide-on-search" id="home-comparisons-section">
+    <div class="container">
+      <h2 class="section-title">Popular Comparisons</h2>
+      <!-- HOME-COMPARISONS:START -->
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px">
+        <a class="product-card product-card-link" href="/compare/yardi-vs-appfolio/" style="display:block">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+      <div class="product-logo" style="width:36px;height:36px"><img src="/img/logos/yardi.png" alt="Yardi logo" loading="lazy"
+    onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+    style="width:36px;height:36px;object-fit:contain">
+    <div class="fallback" style="display:none;background:#1abc9c;width:36px;height:36px;font-size:16.2px">Y</div></div>
+      <span style="font-weight:700;opacity:.45;font-size:12px">VS</span>
+      <div class="product-logo" style="width:36px;height:36px"><img src="/img/logos/appfolio.png" alt="AppFolio logo" loading="lazy"
+    onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+    style="width:36px;height:36px;object-fit:contain">
+    <div class="fallback" style="display:none;background:#4361ee;width:36px;height:36px;font-size:16.2px">A</div></div>
+    </div>
+    <h3 style="margin:0 0 6px;font-size:16px">Yardi vs AppFolio</h3>
+    <div class="tagline">Yardi wins on breadth across every property type; AppFolio wins on modern AI-native UX for growing residential managers.</div>
+  </a>
+        <a class="product-card product-card-link" href="/compare/yardi-vs-mri-software/" style="display:block">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+      <div class="product-logo" style="width:36px;height:36px"><img src="/img/logos/yardi.png" alt="Yardi logo" loading="lazy"
+    onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+    style="width:36px;height:36px;object-fit:contain">
+    <div class="fallback" style="display:none;background:#1abc9c;width:36px;height:36px;font-size:16.2px">Y</div></div>
+      <span style="font-weight:700;opacity:.45;font-size:12px">VS</span>
+      <div class="product-logo" style="width:36px;height:36px"><img src="/img/logos/mri-software.png" alt="MRI Software logo" loading="lazy"
+    onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+    style="width:36px;height:36px;object-fit:contain">
+    <div class="fallback" style="display:none;background:#1abc9c;width:36px;height:36px;font-size:16.2px">M</div></div>
+    </div>
+    <h3 style="margin:0 0 6px;font-size:16px">Yardi vs MRI Software</h3>
+    <div class="tagline">Yardi is the all-in-one closed ecosystem; MRI is the open platform with 200+ integrations. Pick by philosophy, not feature lists.</div>
+  </a>
+        <a class="product-card product-card-link" href="/compare/yardi-vs-realpage/" style="display:block">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+      <div class="product-logo" style="width:36px;height:36px"><img src="/img/logos/yardi.png" alt="Yardi logo" loading="lazy"
+    onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+    style="width:36px;height:36px;object-fit:contain">
+    <div class="fallback" style="display:none;background:#1abc9c;width:36px;height:36px;font-size:16.2px">Y</div></div>
+      <span style="font-weight:700;opacity:.45;font-size:12px">VS</span>
+      <div class="product-logo" style="width:36px;height:36px"><img src="/img/logos/realpage.png" alt="Realpage logo" loading="lazy"
+    onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
+    style="width:36px;height:36px;object-fit:contain">
+    <div class="fallback" style="display:none;background:#e74c3c;width:36px;height:36px;font-size:16.2px">R</div></div>
+    </div>
+    <h3 style="margin:0 0 6px;font-size:16px">Yardi vs Realpage</h3>
+    <div class="tagline">RealPage is the multifamily revenue-optimization specialist; Yardi is the broader platform for every property type and size.</div>
+  </a>
+      </div>
+      <p style="margin:16px 0 0;font-size:14px"><a href="/compare.html">See all comparisons →</a></p>
+      <!-- HOME-COMPARISONS:END -->
     </div>
   </section>
 
@@ -262,7 +322,7 @@
         <div class="footer-main-links">
           <a href="submit.html">Submit a Tool</a> · 
           <a href="compare.html">Compare Tools</a> · 
-          <a href="mailto:hello@cresoftware.tech">Contact</a>
+          <a href="about.html">About</a> · <a href="mailto:hello@cresoftware.tech">Contact</a>
         </div>
       </div>
     </div>
@@ -270,6 +330,6 @@
 
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
   <script src="js/app.js"></script>
-  <script>initHome();</script>
+  <script>initHome();initNavSearch();</script>
 </body>
 </html>

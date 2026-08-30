@@ -33,8 +33,26 @@
     window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
     plausible.init()
   </script>
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 </head>
 <body style="background:#0a0a0f;color:#e5e7eb;font-family:'Inter',system-ui,sans-serif;line-height:1.7;">
+<nav>
+  <div class="container nav-inner">
+    <a href="/" class="logo"><svg class="logo-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-4h6v4"/><rect x="9" y="9" width="2" height="2" fill="currentColor" stroke="none"/><rect x="13" y="9" width="2" height="2" fill="currentColor" stroke="none"/><rect x="9" y="13" width="2" height="2" fill="currentColor" stroke="none"/><rect x="13" y="13" width="2" height="2" fill="currentColor" stroke="none"/></svg>CRE<span>Software</span></a>
+    <button class="mobile-toggle" aria-label="Toggle menu">☰</button>
+    <div class="nav-links">
+      <a href="/">Directory</a>
+      <a href="/market-map.html">Market Map</a>
+      <a href="/compare.html">Compare</a>
+      <a href="/submit.html">Submit a Tool</a>
+      <a href="/advertise.html">Advertise</a>
+    </div>
+    <div class="nav-search"><input type="search" id="nav-search" placeholder="Search tools…" aria-label="Search software tools" autocomplete="off"><div id="nav-search-results"></div></div>
+  </div>
+</nav>
+<div style="max-width:800px;margin:16px auto 0;padding:0 20px"><a href="/categories/legal-compliance/" style="color:#3b82f6;text-decoration:none;font-size:14px">Browse all Legal & Compliance tools in the directory →</a></div>
 
 <div style="max-width:800px;margin:0 auto;padding:40px 20px;">
 
@@ -334,5 +352,13 @@
 
 </div>
 
+<footer style="margin-top:48px">
+  <div class="container footer-inner">
+    <span>© 2026 CRE Software Directory</span>
+    <div><a href="/submit.html">Submit a Tool</a> · <a href="/advertise.html">Advertise</a> · <a href="/about.html">About</a> · <a href="mailto:hello@cresoftware.tech">Contact</a></div>
+  </div>
+</footer>
+<script src="/js/app.js"></script>
+<script>initNav();initNavSearch();</script>
 </body>
 </html>
