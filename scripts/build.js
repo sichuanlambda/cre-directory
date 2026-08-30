@@ -190,6 +190,21 @@ function headHTML({ title, description, canonical, ogType = 'website', ogImage =
   ${ld}`;
 }
 
+function comparisonCard(cmp) {
+  const A = PRODUCTS.find(p => p.slug === cmp.a);
+  const B = PRODUCTS.find(p => p.slug === cmp.b);
+  if (!A || !B) return '';
+  return `<a class="product-card product-card-link" href="${comparePath(cmp.a, cmp.b)}" style="display:block">
+    <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px">
+      <div class="product-logo" style="width:36px;height:36px">${logoHTML(A, 36)}</div>
+      <span style="font-weight:700;opacity:.45;font-size:12px">VS</span>
+      <div class="product-logo" style="width:36px;height:36px">${logoHTML(B, 36)}</div>
+    </div>
+    <h3 style="margin:0 0 6px;font-size:16px">${esc(A.title)} vs ${esc(B.title)}</h3>
+    <div class="tagline">${esc(cmp.one_liner || '')}</div>
+  </a>`;
+}
+
 function faqHTMLBlock(faq, heading = 'Frequently Asked Questions') {
   if (!faq || !faq.length) return '';
   return `<div class="faq-section"><h2>${esc(heading)}</h2><div class="faq-list">${faq.map(f => `<details class="faq-item"><summary>${esc(f.question)}</summary><p>${esc(f.answer)}</p></details>`).join('')}</div></div>`;
@@ -337,12 +352,27 @@ function renderProductPage(product) {
   let similarHTML = '';
   const primaryCat = (product.categories || [])[0];
   if (primaryCat) {
-    const similar = PRODUCTS.filter(p => p.slug !== slug && !usedSlugs.has(p.slug) && (p.categories || []).includes(primaryCat))
-      .sort((a, b) => (b.rating || 0) - (a.rating || 0)).slice(0, 4);
+    const similar = PRODUCTS.filter(p => p.slug !== slug && (p.categories || []).includes(primaryCat))
+      .sort((a, b) => (b.is_featured ? 1 : 0) - (a.is_featured ? 1 : 0)).slice(0, 4);
     if (similar.length) {
       similarHTML = `<div class="similar-section"><h2>Similar Products</h2><div class="similar-grid">${similar.map(compactProductCard).join('')}</div></div>`;
     }
   }
+
+  // Popular comparisons: this product's own, else top comparisons from its category
+  const ownComps = comparisonsFor(slug);
+  const catComps = ownComps.length ? [] : (EDITORIAL.comparisons || []).filter(c => {
+    const A = PRODUCTS.find(p => p.slug === c.a);
+    const B = PRODUCTS.find(p => p.slug === c.b);
+    return (A && A.primary_category === product.primary_category) || (B && B.primary_category === product.primary_category);
+  });
+  const comps = (ownComps.length ? ownComps : catComps).slice(0, 3);
+  const popularCompsHTML = comps.length ? `<div class="popular-comparisons" style="margin:32px 0 0">
+        <h2 style="margin:0 0 14px">Popular Comparisons</h2>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px">
+          ${comps.map(comparisonCard).join('')}
+        </div>
+      </div>` : '';
 
   const primaryCatObj = primaryCat ? categoryByName(primaryCat) : null;
 
@@ -439,16 +469,19 @@ function renderProductPage(product) {
       </div>
       ${product.affiliate_url ? `<p style="font-size:12.5px;opacity:.65;margin:8px 0 0;">Disclosure: outbound links for this product are partner links. Partner relationships never change how a product is described.</p>` : ''}
 
-      ${isDefunct || isEcosystem || product.status === 'unverifiable' ? '' : `<div class="badge-embed" style="margin:32px 0 0;padding:18px 20px;border:1px dashed rgba(128,128,160,.4);border-radius:12px;">
-        <h3 style="margin:0 0 6px;">Work at ${esc(product.title)}? Show you're listed</h3>
-        <p style="margin:0 0 10px;font-size:14px;">Add this badge to your website — it links straight to your listing here.</p>
-        <p style="margin:0 0 10px;"><img src="/img/badge.svg" alt="Listed on CRE Software Directory" height="36"></p>
-        <pre style="overflow-x:auto;background:rgba(128,128,160,.12);padding:10px 12px;border-radius:8px;font-size:12px;white-space:pre-wrap;word-break:break-all;">${esc(`<a href="${BASE}${productPath(slug)}"><img src="${BASE}/img/badge.svg" alt="Listed on CRE Software Directory" height="36"></a>`)}</pre>
-        <p style="margin:10px 0 0;font-size:13px;"><a href="/advertise.html">Want more visibility? See Featured placement →</a></p>
-      </div>`}
-
-      ${relatedHTML ? `<div class="related-section" id="sec-alternatives"><h2>${esc(product.title)} Alternatives &amp; Related Tools</h2>${relatedHTML}</div>` : ''}
       ${similarHTML}
+      ${popularCompsHTML}
+      ${relatedHTML ? `<div class="related-section" id="sec-alternatives"><h2>${esc(product.title)} Alternatives &amp; Related Tools</h2>${relatedHTML}</div>` : ''}
+
+      ${isDefunct || isEcosystem || product.status === 'unverifiable' ? '' : `<details class="badge-embed" style="margin:36px 0 0;font-size:13.5px;">
+        <summary style="cursor:pointer;opacity:.7;">Work at ${esc(product.title)}? Get your "Listed on" badge</summary>
+        <div style="margin:12px 0 0;padding:14px 16px;border:1px dashed rgba(128,128,160,.4);border-radius:10px;">
+          <p style="margin:0 0 8px;">Add this badge to your website. It links straight to your listing here.</p>
+          <p style="margin:0 0 8px;"><img src="/img/badge.svg" alt="Listed on CRE Software Directory" height="32"></p>
+          <pre style="overflow-x:auto;background:rgba(128,128,160,.12);padding:10px 12px;border-radius:8px;font-size:12px;white-space:pre-wrap;word-break:break-all;">${esc(`<a href="${BASE}${productPath(slug)}"><img src="${BASE}/img/badge.svg" alt="Listed on CRE Software Directory" height="36"></a>`)}</pre>
+          <p style="margin:8px 0 0;font-size:13px;"><a href="/advertise.html">Want more visibility? See Featured placement →</a></p>
+        </div>
+      </details>`}
     </div>
   </div>
   ${footerHTML()}
