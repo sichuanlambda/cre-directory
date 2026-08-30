@@ -123,7 +123,9 @@ const CATEGORY_ICONS = {
   'listing-services': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>',
   'crowdfunding-investing': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="8" cy="8" r="6"/><circle cx="16" cy="16" r="6"/><path d="M7 6v4"/><path d="M5.5 8h3"/><path d="M14 16h4"/></svg>',
   'legal-compliance': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v3"/><path d="M5.5 9l6.5-3 6.5 3"/><path d="M3 15l3-6h0"/><path d="M21 15l-3-6h0"/><circle cx="6" cy="15" r="3"/><circle cx="18" cy="15" r="3"/><path d="M3 21h18"/></svg>',
-  'workplace-space-management': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg>'
+  'workplace-space-management': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/><path d="M15 3v18"/></svg>',
+  'lending-debt': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M14.5 8.5c-.5-1-1.5-1.5-2.5-1.5-1.5 0-2.5 1-2.5 2.2 0 3 5 1.6 5 4.6 0 1.2-1 2.2-2.5 2.2-1 0-2-.5-2.5-1.5"/><path d="M12 5.5v2"/><path d="M12 16.5v2"/></svg>',
+  'energy-sustainability': '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M13 2L4.5 13.5H11L10 22l8.5-11.5H12L13 2z"/></svg>'
 };
 
 function categoryCard(cat) {
@@ -899,11 +901,30 @@ async function initCategory() {
 async function initCompare() {
   await loadData();
   initNav();
-  
+
   const selects = document.querySelectorAll('.compare-product-select');
-  const options = '<option value="">Select a product...</option>' + 
-    PRODUCTS.sort((a, b) => a.title.localeCompare(b.title)).map(p => `<option value="${p.slug}">${p.title}</option>`).join('');
-  selects.forEach(s => { s.innerHTML = options; s.addEventListener('change', renderCompare); });
+  const byCat = {};
+  PRODUCTS.slice().sort((a, b) => a.title.localeCompare(b.title)).forEach(p => {
+    const c = (p.categories || [])[0] || 'Other';
+    (byCat[c] = byCat[c] || []).push(p);
+  });
+  const options = '<option value="">Select a product...</option>' +
+    Object.keys(byCat).sort().map(c => `<optgroup label="${c}">` +
+      byCat[c].map(p => `<option value="${p.slug}">${p.title}</option>`).join('') + '</optgroup>').join('');
+  selects.forEach(s => { s.innerHTML = options; s.addEventListener('change', () => { syncCompareUrl(); renderCompare(); }); });
+
+  const params = new URLSearchParams(location.search);
+  const pre = [params.get('a'), params.get('b')];
+  selects.forEach((s, i) => { if (pre[i] && PRODUCTS.some(p => p.slug === pre[i])) s.value = pre[i]; });
+  if (pre[0] || pre[1]) renderCompare();
+}
+
+function syncCompareUrl() {
+  const vals = [...document.querySelectorAll('.compare-product-select')].map(s => s.value);
+  const params = new URLSearchParams();
+  if (vals[0]) params.set('a', vals[0]);
+  if (vals[1]) params.set('b', vals[1]);
+  history.replaceState(null, '', vals[0] || vals[1] ? `?${params}` : location.pathname);
 }
 
 function renderCompare() {
@@ -970,4 +991,71 @@ function addJsonLd(data) {
   script.type = 'application/ld+json';
   script.textContent = JSON.stringify(data);
   document.head.appendChild(script);
+}
+
+
+// ====== NAV SEARCH ======
+async function initNavSearch() {
+  const input = document.getElementById('nav-search');
+  const results = document.getElementById('nav-search-results');
+  if (!input || !results) return;
+  let loaded = null;
+  async function ensure() {
+    if (!loaded) {
+      const res = await fetch('/data/products.json');
+      loaded = (await res.json()).filter(p => p.status !== 'unverifiable');
+    }
+    return loaded;
+  }
+  input.addEventListener('input', async () => {
+    const q = input.value.toLowerCase().trim();
+    if (q.length < 2) { results.classList.remove('open'); return; }
+    const prods = await ensure();
+    const hits = prods.filter(p =>
+      p.title.toLowerCase().includes(q) ||
+      (p.short_description || '').toLowerCase().includes(q) ||
+      (p.categories || []).some(c => c.toLowerCase().includes(q))
+    ).slice(0, 8);
+    results.innerHTML = hits.length
+      ? hits.map(p => `<a href="/products/${p.slug}/"><strong>${p.title}</strong><span class="ns-cat">${(p.categories || [])[0] || ''}</span></a>`).join('')
+      : '<a href="/">No matches — browse the directory →</a>';
+    results.classList.add('open');
+  });
+  document.addEventListener('click', (e) => { if (!e.target.closest('.nav-search')) results.classList.remove('open'); });
+  input.addEventListener('keydown', (e) => { if (e.key === 'Escape') { results.classList.remove('open'); input.blur(); } });
+}
+
+// ====== CATEGORY FILTERS (static category pages) ======
+function initCategoryFilters() {
+  const bar = document.querySelector('[data-filter-bar]');
+  const grid = document.querySelector('[data-filterable-grid]');
+  if (!bar || !grid) return;
+  const cards = [...grid.querySelectorAll('.product-card')];
+  const countEl = bar.querySelector('[data-filter-count]');
+  const active = new Set();
+  function apply() {
+    let shown = 0;
+    cards.forEach(c => {
+      const ok = [...active].every(f => c.getAttribute('data-' + f) === '1');
+      c.style.display = ok ? '' : 'none';
+      if (ok) shown++;
+    });
+    if (countEl) countEl.textContent = active.size ? `${shown} of ${cards.length} tools` : '';
+  }
+  bar.querySelectorAll('.filter-chip').forEach(chip => {
+    chip.addEventListener('click', () => {
+      const f = chip.getAttribute('data-filter');
+      if (active.has(f)) { active.delete(f); chip.classList.remove('active'); }
+      else { active.add(f); chip.classList.add('active'); }
+      apply();
+    });
+  });
+  const sortSel = bar.querySelector('[data-sort]');
+  if (sortSel) sortSel.addEventListener('change', () => {
+    const az = sortSel.value === 'az';
+    const sorted = [...cards].sort((x, y) => az
+      ? x.getAttribute('data-title').localeCompare(y.getAttribute('data-title'))
+      : (y.getAttribute('data-featured') - x.getAttribute('data-featured')) || x.getAttribute('data-title').localeCompare(y.getAttribute('data-title')));
+    sorted.forEach(c => grid.appendChild(c));
+  });
 }

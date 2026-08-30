@@ -324,6 +324,9 @@
     window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
     plausible.init()
   </script>
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 </head>
 <body>
   <nav>
@@ -340,6 +343,7 @@
         <a href="submit.html">Submit a Tool</a>
         <a href="advertise.html">Advertise</a>
       </div>
+        <div class="nav-search"><input type="search" id="nav-search" placeholder="Search tools…" aria-label="Search software tools" autocomplete="off"><div id="nav-search-results"></div></div>
     </div>
   </nav>
 
@@ -383,6 +387,8 @@
       { slug: 'legal-compliance', size: 'half' },
       { slug: 'workplace-space-management', size: 'half' },
       { slug: 'crowdfunding-investing', size: 'half' },
+      { slug: 'lending-debt', size: 'half' },
+      { slug: 'energy-sustainability', size: 'half' },
     ];
 
     async function init() {
@@ -549,5 +555,6 @@
 
     init();
   </script>
+<script>initNavSearch();</script>
 </body>
 </html>

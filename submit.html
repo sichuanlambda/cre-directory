@@ -22,6 +22,9 @@
     window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};
     plausible.init()
   </script>
+  <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32">
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 </head>
 <body>
   <nav>
@@ -34,6 +37,7 @@
         <a href="submit.html" class="active">Submit a Tool</a>
         <a href="advertise.html">Advertise</a>
       </div>
+        <div class="nav-search"><input type="search" id="nav-search" placeholder="Search tools…" aria-label="Search software tools" autocomplete="off"><div id="nav-search-results"></div></div>
     </div>
   </nav>
 
@@ -44,8 +48,9 @@
     
     <div class="success-msg" id="success-msg">
       <div class="success-icon">✅</div>
-      <h3>Thank you!</h3>
-      <p>Your submission has been received and will be reviewed shortly.</p>
+      <h3>Submission received</h3>
+      <p>Here's what happens next: we verify the company and research the product, and a listing goes live, usually within <strong>2 business days</strong>. We'll email your listing URL along with a "Listed on" badge for your site.</p>
+      <p style="font-size:14px">Want top-of-category placement once you're live? See <a href="advertise.html">Featured listings</a>.</p>
       <a href="index.html" class="cta-btn cta-btn-sm">Browse Directory</a>
     </div>
 
@@ -82,8 +87,8 @@
           <label><input type="checkbox" name="categories" value="Property Management"> Property Management</label>
           <label><input type="checkbox" name="categories" value="CRM & Marketing"> CRM & Marketing</label>
           <label><input type="checkbox" name="categories" value="Investment & Valuation"> Investment & Valuation</label>
-          <label><input type="checkbox" name="categories" value="Construction & Development"> Construction & Development</label>
           <label><input type="checkbox" name="categories" value="Data & Analytics"> Data & Analytics</label>
+          <label><input type="checkbox" name="categories" value="Construction & Development"> Construction & Development</label>
           <label><input type="checkbox" name="categories" value="Broker Tools"> Broker Tools</label>
           <label><input type="checkbox" name="categories" value="Site Selection"> Site Selection</label>
           <label><input type="checkbox" name="categories" value="Tenant Experience"> Tenant Experience</label>
@@ -93,6 +98,8 @@
           <label><input type="checkbox" name="categories" value="Crowdfunding & Investing"> Crowdfunding & Investing</label>
           <label><input type="checkbox" name="categories" value="Legal & Compliance"> Legal & Compliance</label>
           <label><input type="checkbox" name="categories" value="Workplace & Space Management"> Workplace & Space Management</label>
+          <label><input type="checkbox" name="categories" value="Lending & Debt"> Lending & Debt</label>
+          <label><input type="checkbox" name="categories" value="Energy & Sustainability"> Energy & Sustainability</label>
         </div>
       </div>
       <div class="form-group">
@@ -116,13 +123,13 @@
   <footer>
     <div class="container footer-inner">
       <span>© 2026 CRE Software Directory</span>
-      <div><a href="submit.html">Submit a Tool</a> · <a href="mailto:hello@cresoftware.tech">Contact</a></div>
+      <div><a href="submit.html">Submit a Tool</a> · <a href="about.html">About</a> · <a href="mailto:hello@cresoftware.tech">Contact</a></div>
     </div>
   </footer>
 
   <script src="js/app.js"></script>
   <script>
-    initNav();
+    initNav();initNavSearch();
     document.getElementById('submit-form').addEventListener('submit', function(e) {
       e.preventDefault();
       const data = Object.fromEntries(new FormData(this));

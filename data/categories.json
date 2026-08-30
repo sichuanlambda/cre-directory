@@ -3,12 +3,11 @@
     "name": "Property Management",
     "slug": "property-management",
     "description": "End-to-end platforms for managing commercial properties, from lease administration and rent collection to maintenance coordination and tenant communications. Compare tools built for portfolios of every size.",
-    "product_count": 59,
+    "product_count": 58,
     "products": [
       "archibus",
       "buildium",
       "enertiv",
-      "goby",
       "happyco",
       "hightower",
       "honest-buildings",
@@ -348,7 +347,7 @@
     "name": "Data & Analytics",
     "slug": "data-analytics",
     "description": "Market research, benchmarking, and portfolio analytics platforms that turn raw property data into actionable insights. Track comps, forecast trends, and make smarter investment decisions.",
-    "product_count": 55,
+    "product_count": 54,
     "products": [
       "alteryx",
       "altus-group",
@@ -361,7 +360,6 @@
       "costar",
       "crexi",
       "fuel",
-      "goby",
       "lightbox",
       "navigatorcre",
       "opus",
@@ -453,7 +451,7 @@
     "name": "Broker Tools",
     "slug": "broker-tools",
     "description": "Deal management, commission tracking, and workflow tools designed for commercial brokers and brokerage firms. Streamline listings, proposals, and transaction coordination.",
-    "product_count": 36,
+    "product_count": 37,
     "products": [
       "apto",
       "avison-young",
@@ -468,6 +466,7 @@
       "prodeal",
       "property-capsule",
       "real-capital-markets",
+      "realatom",
       "realnex",
       "rethink-crm",
       "ten-x",
@@ -667,15 +666,14 @@
     "name": "Accounting & Finance",
     "slug": "accounting-finance",
     "description": "Accounting, budgeting, and financial reporting platforms tailored for commercial real estate. Handle complex fund structures, property-level P&L, and investor distributions.",
-    "product_count": 38,
+    "product_count": 36,
     "products": [
       "buildium",
       "fuel",
+      "goby",
       "investor-management-services",
       "juniper-square",
-      "lev",
       "prodeal",
-      "realatom",
       "routable",
       "sertifi",
       "stacksource",
@@ -695,7 +693,6 @@
       "lendinghome",
       "mri-software",
       "re-leased",
-      "blooma",
       "accruent",
       "nakisa",
       "investnext",
@@ -962,10 +959,8 @@
     "name": "Legal & Compliance",
     "slug": "legal-compliance",
     "description": "Lease review, contract management, and regulatory compliance tools for commercial real estate. Automate abstraction, track obligations, and reduce legal risk across your portfolio.",
-    "product_count": 10,
+    "product_count": 8,
     "products": [
-      "enertiv",
-      "goby",
       "opencounter",
       "sertifi",
       "visuallease",
@@ -1083,6 +1078,112 @@
         }
       ],
       "buyer_tip": "Don't start with the technology — start with the question you're trying to answer. If you just need to know whether to renew a lease, badge data analysis might be sufficient. If you're redesigning your workplace strategy, you need deeper sensing and analytics. Match the tool's capability to your actual decision-making needs, not to a theoretical ideal."
+    }
+  },
+  "lending-debt": {
+    "name": "Lending & Debt",
+    "slug": "lending-debt",
+    "description": "Loan origination, debt marketplaces, servicing, and borrower intelligence for real estate lenders, brokers, and investors. From CRE loan origination systems to construction draw administration and private lending platforms.",
+    "product_count": 4,
+    "products": [
+      "lev",
+      "realatom",
+      "stacksource",
+      "blooma"
+    ],
+    "seo_title": "Best Real Estate Lending & Debt Software (2026) | CRE Software Directory",
+    "seo_description": "Compare loan origination systems, CRE debt marketplaces, loan servicing platforms, and construction lending software for banks, private lenders, and mortgage brokers.",
+    "editorial": {
+      "intro": "Real estate debt runs on software now. Banks and credit unions originate CRE loans through dedicated origination systems, debt brokers match borrowers with hundreds of lenders through marketplaces, and private lenders run their entire fix-and-flip books on purpose-built servicing platforms.\n\nThe category splits by who you are. Lenders need origination, underwriting, and portfolio management systems. Borrowers and their advisors need marketplaces and placement platforms that create competition for their deal. Construction lenders need draw administration and inspection workflows that generic loan systems handle badly.\n\nPricing varies as widely as the buyers: SMB private-lender platforms publish per-loan or monthly pricing, while bank-grade origination systems are six-figure enterprise deals. Almost everything in the middle is quote-based.",
+      "what_to_look_for": [
+        {
+          "title": "Asset-class fit",
+          "description": "CRE term loans, construction loans, bridge/fix-and-flip, and agency multifamily have very different workflows. A system built for one usually fakes the others."
+        },
+        {
+          "title": "Underwriting depth",
+          "description": "Look for real spreading, rent roll and operating statement ingestion, and covenant tracking rather than a CRM with a loan amount field."
+        },
+        {
+          "title": "Draw management",
+          "description": "For construction lending, inspection scheduling, budget tracking, and draw approvals are the whole job. Ask to see that workflow end to end."
+        },
+        {
+          "title": "Integrations and data",
+          "description": "Servicing, accounting, credit data, and doc prep all need to connect. Closed systems create rekeying at exactly the volume where errors get expensive."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What software do CRE lenders use to originate loans?",
+          "answer": "Banks and credit unions typically run commercial LOS platforms that handle intake, spreading, underwriting, and approvals in one pipeline. Private and hard-money lenders more often use lighter platforms purpose-built for bridge and fix-and-flip lending with faster setup."
+        },
+        {
+          "question": "What is a CRE debt marketplace?",
+          "answer": "A platform that takes one loan request and puts it in front of many lenders, creating competition on rate and terms. Some are broker-driven platforms, others let borrowers go direct. They earn fees on closed loans rather than software subscriptions."
+        },
+        {
+          "question": "Do these tools work for construction loans?",
+          "answer": "Only some. Construction lending needs draw administration, inspections, and budget tracking that standard loan systems lack, so several platforms in this category specialize in exactly that."
+        },
+        {
+          "question": "What does lending software cost?",
+          "answer": "Private-lender platforms often publish pricing from roughly $200-500 per month or per-loan fees. Bank-grade origination and servicing systems are quote-based enterprise contracts. Marketplaces typically charge success fees on closed loans instead."
+        }
+      ],
+      "buyer_tip": "Ask every vendor which loan types their existing customers actually run on the platform. A demo can show any workflow; the customer list shows what the system is really built for."
+    }
+  },
+  "energy-sustainability": {
+    "name": "Energy & Sustainability",
+    "slug": "energy-sustainability",
+    "description": "Energy management, utility benchmarking, ESG reporting, and decarbonization software for buildings. Track consumption, comply with ordinances like LL97, plan retrofits, and report portfolio sustainability performance.",
+    "product_count": 2,
+    "products": [
+      "enertiv",
+      "goby"
+    ],
+    "seo_title": "Best Building Energy & Sustainability Software (2026) | CRE Software Directory",
+    "seo_description": "Compare energy management systems, utility benchmarking tools, ESG reporting platforms, and decarbonization software for commercial real estate portfolios.",
+    "editorial": {
+      "intro": "Energy went from a facilities line item to a board-level real estate issue. Benchmarking ordinances in dozens of cities require annual reporting, New York's LL97 attaches real fines to carbon limits, and institutional investors expect ESG numbers with audit trails.\n\nThe software stack has three layers. Utility data and benchmarking platforms get the bills into one place and into ENERGY STAR Portfolio Manager. Building energy management systems optimize what buildings actually consume, from HVAC controls to fault detection. And ESG/decarbonization platforms turn all of it into investor reporting and retrofit plans.\n\nMost buyers start with the data layer, because everything else depends on clean utility data. Operators with older buildings in regulated cities move fastest on compliance-driven tools; institutional owners buy portfolio-wide ESG reporting first.",
+      "what_to_look_for": [
+        {
+          "title": "Utility data acquisition",
+          "description": "The hard part is getting bills and interval data automatically from hundreds of utilities. Ask exactly how data arrives and what happens when a utility connection breaks."
+        },
+        {
+          "title": "Ordinance coverage",
+          "description": "If you own in NYC, Boston, Denver, or other regulated cities, check the platform tracks your specific ordinances (LL97, BERDO, Energize Denver) and their actual calculation methods."
+        },
+        {
+          "title": "Reporting frameworks",
+          "description": "GRESB, CDP, and investor ESG questionnaires each want data cut differently. Native framework support saves weeks per reporting cycle."
+        },
+        {
+          "title": "Action vs measurement",
+          "description": "Some platforms only measure; others control equipment or generate retrofit plans with costs. Know whether you are buying a dashboard or savings."
+        }
+      ],
+      "faq": [
+        {
+          "question": "What is benchmarking software and do I need it?",
+          "answer": "It aggregates utility data across a portfolio and reports it to ENERGY STAR Portfolio Manager, which most US benchmarking ordinances require annually. If you own buildings over the size threshold in a covered city, you effectively need it or a consultant running it."
+        },
+        {
+          "question": "What software helps with LL97 compliance?",
+          "answer": "Several platforms calculate building carbon against LL97 limits, project fines, and model retrofit paths. NYC-focused energy management vendors build this in; national ESG platforms cover it as one ordinance among many."
+        },
+        {
+          "question": "How is a BEMS different from an ESG platform?",
+          "answer": "A building energy management system connects to equipment to monitor and optimize consumption in real time. An ESG platform aggregates results across a portfolio for reporting and planning. Large owners typically run both."
+        },
+        {
+          "question": "What does this software cost?",
+          "answer": "Utility tracking tools often price per building or per meter per month. BEMS pricing depends on hardware and building count. Portfolio ESG platforms are quote-based enterprise contracts. Free entry point: ENERGY STAR Portfolio Manager itself."
+        }
+      ],
+      "buyer_tip": "Whatever you buy, confirm it writes to ENERGY STAR Portfolio Manager automatically. Manual re-entry for compliance defeats the point of the software."
     }
   }
 }
