@@ -169,6 +169,7 @@ function footerHTML() {
           <a href="/advertise.html">Advertise</a>
           <a href="/compare.html">Compare tools</a>
           <a href="/market-map.html">Market map</a>
+          <a href="/integrations/">Browse by integration</a>
           <a href="mailto:hello@cresoftware.tech">Contact</a>
         </div>
       </div>
@@ -762,6 +763,94 @@ function renderComparisonPage(cmp) {
 </html>`;
 }
 
+// ---------- integration hubs ----------
+const INTEGRATION_DISPLAY = { 'yardi': 'Yardi', 'zillow': 'Zillow', 'docusign': 'DocuSign', 'salesforce': 'Salesforce', 'mri software': 'MRI Software', 'transunion': 'TransUnion', 'quickbooks': 'QuickBooks', 'sap': 'SAP', 'realpage': 'RealPage', 'realtor.com': 'Realtor.com', 'apartments.com': 'Apartments.com', 'excel': 'Excel', 'plaid': 'Plaid', 'vts': 'VTS', 'argus': 'ARGUS', 'costar': 'CoStar', 'power bi': 'Power BI', 'stripe': 'Stripe', 'google maps': 'Google Maps', 'microsoft 365': 'Microsoft 365', 'snowflake': 'Snowflake', 'oracle': 'Oracle', 'workday': 'Workday', 'microsoft dynamics': 'Microsoft Dynamics' };
+
+function collectIntegrationHubs(minCount = 4) {
+  const map = {};
+  for (const p of PRODUCTS) {
+    for (const i of (p.integrations || [])) {
+      const raw = (typeof i === 'string' ? i : (i && i.name) || '').trim();
+      if (!raw) continue;
+      const key = raw.toLowerCase();
+      (map[key] = map[key] || { key, products: new Set() }).products.add(p.slug);
+    }
+  }
+  return Object.values(map)
+    .filter(h => h.products.size >= minCount)
+    .map(h => ({ key: h.key, display: INTEGRATION_DISPLAY[h.key] || h.key.replace(/\b\w/g, c => c.toUpperCase()), slug: h.key.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''), products: [...h.products].map(s => PRODUCTS.find(p => p.slug === s)).filter(Boolean) }))
+    .sort((a, b) => b.products.length - a.products.length);
+}
+
+function renderIntegrationHub(hub) {
+  const canonical = `${BASE}/integrations/${hub.slug}/`;
+  const title = `CRE Software That Integrates With ${hub.display} (${YEAR}) | CRE Software Directory`;
+  const description = `${hub.products.length} commercial real estate software tools with a ${hub.display} integration: what they do, who they're for, and how they're priced.`;
+  const jsonLd = [{ "@context": "https://schema.org", "@type": "ItemList", "name": `CRE software that integrates with ${hub.display}`, "numberOfItems": hub.products.length, "itemListElement": hub.products.slice(0, 25).map((p, i) => ({ "@type": "ListItem", "position": i + 1, "url": BASE + productPath(p.slug), "name": p.title })) },
+  { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": BASE + '/' },
+    { "@type": "ListItem", "position": 2, "name": `Integrates with ${hub.display}`, "item": canonical }] }];
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  ${headHTML({ title, description, canonical, jsonLd })}
+</head>
+<body>
+  ${navHTML('directory')}
+  <section class="category-header">
+    <div class="container">
+      <div class="breadcrumbs"><a href="/">Home</a> / <a href="/integrations/">Integrations</a> / ${esc(hub.display)}</div>
+      <h1>CRE Software That Integrates With ${esc(hub.display)}</h1>
+      <p>Tools in the directory whose vendors list a ${esc(hub.display)} integration. Always confirm integration depth with the vendor: "integrates with" can mean anything from a certified two-way sync to a CSV import.</p>
+      <div class="cat-stats"><strong>${hub.products.length}</strong> tools</div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="product-grid">
+        ${hub.products.map(productCard).join('\n')}
+      </div>
+    </div>
+  </section>
+  ${footerHTML()}
+  <script src="/js/app.js"></script>
+  <script>initNav();initBackToTop();initNavSearch();</script>
+</body>
+</html>`;
+}
+
+function renderIntegrationsIndex(hubs) {
+  const canonical = `${BASE}/integrations/`;
+  const title = `CRE Software by Integration (${YEAR}) | CRE Software Directory`;
+  const description = 'Browse commercial real estate software by what it integrates with: Yardi, QuickBooks, Salesforce, DocuSign, and more.';
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  ${headHTML({ title, description, canonical, jsonLd: [] })}
+</head>
+<body>
+  ${navHTML('directory')}
+  <section class="category-header">
+    <div class="container">
+      <div class="breadcrumbs"><a href="/">Home</a> / Integrations</div>
+      <h1>Browse CRE Software by Integration</h1>
+      <p>Buying software that has to work with your existing stack? Start from the system you already run.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:14px">
+        ${hubs.map(h => `<a class="product-card product-card-link" href="/integrations/${h.slug}/" style="display:block"><h3 style="margin:0 0 4px">${esc(h.display)}</h3><div class="tagline">${h.products.length} tools with this integration</div></a>`).join('\n        ')}
+      </div>
+    </div>
+  </section>
+  ${footerHTML()}
+  <script src="/js/app.js"></script>
+  <script>initNav();initBackToTop();initNavSearch();</script>
+</body>
+</html>`;
+}
+
 // ---------- sitemap ----------
 function renderSitemap() {
   const urls = [];
@@ -788,6 +877,8 @@ function renderSitemap() {
   add(`${BASE}/submit.html`, '0.5', TODAY);
   add(`${BASE}/advertise.html`, '0.5', TODAY);
   add(`${BASE}/about.html`, '0.5', TODAY);
+  add(`${BASE}/integrations/`, '0.6', TODAY);
+  collectIntegrationHubs().forEach(h => add(`${BASE}/integrations/${h.slug}/`, '0.6', TODAY));
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -815,6 +906,15 @@ for (const [slug, cat] of Object.entries(CATEGORIES)) {
   fs.writeFileSync(path.join(dir, 'index.html'), renderCategoryPage(slug, cat));
   categoryCount++;
 }
+
+const HUBS = collectIntegrationHubs();
+for (const hub of HUBS) {
+  const dir = path.join(ROOT, 'integrations', hub.slug);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, 'index.html'), renderIntegrationHub(hub));
+}
+fs.mkdirSync(path.join(ROOT, 'integrations'), { recursive: true });
+fs.writeFileSync(path.join(ROOT, 'integrations', 'index.html'), renderIntegrationsIndex(HUBS));
 
 let altCount = 0, cmpCount = 0;
 for (const [slug, alt] of Object.entries(EDITORIAL.alternatives || {})) {
@@ -906,4 +1006,4 @@ injectHomeComparisons();
 
 fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), renderSitemap());
 
-console.log(`Built ${productCount} product pages, ${categoryCount} category pages, ${altCount} alternatives pages, ${cmpCount} comparison pages, ${popCount} popular comparisons on compare.html, sitemap.xml`);
+console.log(`Built ${productCount} product pages, ${categoryCount} category pages, ${altCount} alternatives pages, ${cmpCount} comparison pages, ${HUBS.length} integration hubs, ${popCount} popular comparisons on compare.html, sitemap.xml`);
