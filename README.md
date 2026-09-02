@@ -22,14 +22,21 @@ This regenerates:
 
 - `products/<slug>/index.html` — one page per product
 - `categories/<slug>/index.html` — one page per category
+- `alternatives/<slug>/index.html` + `alternatives/index.html` — alternatives guides and hub (from `data/editorial.json`)
+- `compare/<a>-vs-<b>/index.html` — comparison pages (from `data/editorial.json`)
+- `integrations/<hub>/index.html` + `integrations/index.html` — integration hubs
 - `sitemap.xml` — real URLs with lastmod
+- `llms.txt` — site map for AI assistants and answer engines
+- Blocks inside hand-maintained pages between marker comments (`SITE-FOOTER`, `HOME-COMPARISONS`, `HOME-ALTERNATIVES`, `POPULAR-COMPARISONS`, `GUIDE-RELATED`). Never edit between markers; the build overwrites them.
+
+`data/lastmod.json` stores a content hash per URL. A page's sitemap `lastmod` (and the visible "Updated" date on editorial pages) only moves when the content between the nav and the footer changes, so leave that file alone and commit it with the rest of the build output.
 
 Commit the regenerated output along with the data change.
 
 ## Hand-maintained pages
 
 - `index.html` (homepage), `market-map.html`, `compare.html`, `submit.html`
-- `guides/*.html` — editorial buyer's guides
+- `guides/*.html` — editorial buyer's guides (nav, related-reading block and footer are injected by the build)
 - `css/style.css`, `js/app.js` (homepage/compare interactivity + shared helpers)
 
 ## Legacy URLs

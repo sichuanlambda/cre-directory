@@ -5,7 +5,9 @@
  * Reads data/products.json + data/categories.json and renders:
  *   products/<slug>/index.html    — one indexable page per product
  *   categories/<slug>/index.html  — one indexable page per category
- *   sitemap.xml                   — real URLs only (no #fragments)
+ *   alternatives/<slug>/ + /alternatives/, compare/<a>-vs-<b>/, integrations/<hub>/
+ *   sitemap.xml (lastmod from data/lastmod.json content hashes), llms.txt
+ *   Shared footer / editorial blocks injected into hand pages between marker comments.
  *
  * Zero dependencies. Run from the repo root:  node scripts/build.js
  */
@@ -80,12 +82,81 @@ function pricingLabel(product) {
 }
 
 const productPath = slug => `/products/${slug}/`;
+const badSlug = s => !/^[A-Za-z0-9][A-Za-z0-9_-]*$/.test(s);
 const alternativesPath = slug => `/alternatives/${slug}/`;
 const comparePath = (a, b) => `/compare/${a}-vs-${b}/`;
 const comparisonsFor = slug => (EDITORIAL.comparisons || []).filter(c => c.a === slug || c.b === slug);
 const categoryPath = slug => `/categories/${slug}/`;
 const categoryBySlug = slug => CATEGORIES[slug];
 const categoryByName = name => Object.values(CATEGORIES).find(c => c.name === name);
+
+// ---------- lastmod store ----------
+// data/lastmod.json remembers a content hash per URL. A page's lastmod only moves when the
+// content between the nav and the footer actually changes, so the sitemap stays truthful
+// instead of stamping today's date on every URL at every build.
+const crypto = require('crypto');
+const LASTMOD_FILE = path.join(ROOT, 'data/lastmod.json');
+const LASTMOD = fs.existsSync(LASTMOD_FILE) ? JSON.parse(fs.readFileSync(LASTMOD_FILE, 'utf8')) : {};
+const LASTMOD_TOKEN = '{{LASTMOD}}', FIRSTMOD_TOKEN = '{{FIRSTMOD}}', LASTMOD_FMT_TOKEN = '{{LASTMOD_FMT}}';
+const fmtDate = d => new Date(d + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' });
+function contentHash(html) {
+  const s = html.indexOf('</nav>'), e = html.lastIndexOf('<footer');
+  const body = s !== -1 && e !== -1 && e > s ? html.slice(s, e) : html;
+  return crypto.createHash('sha1').update(body).digest('hex').slice(0, 16);
+}
+function trackLastmod(urlPath, html, seedDate) {
+  const hash = contentHash(html);
+  const prev = LASTMOD[urlPath];
+  const seed = (seedDate || TODAY).slice(0, 10);
+  if (!prev) LASTMOD[urlPath] = { hash, date: seed, first: seed };
+  else if (!prev.hash) LASTMOD[urlPath] = { hash, date: prev.date || seed, first: prev.first || prev.date || seed };
+  else if (prev.hash !== hash) LASTMOD[urlPath] = { hash, date: TODAY, first: prev.first || prev.date };
+  return LASTMOD[urlPath];
+}
+function stampDates(html, entry) {
+  return html.split(LASTMOD_TOKEN).join(entry.date).split(FIRSTMOD_TOKEN).join(entry.first).split(LASTMOD_FMT_TOKEN).join(fmtDate(entry.date));
+}
+// Writes <ROOT><urlPath>index.html, tracking lastmod and stamping date tokens.
+function writePage(urlPath, html, seedDate) {
+  const entry = trackLastmod(urlPath, html, seedDate);
+  const dir = path.join(ROOT, urlPath);
+  fs.mkdirSync(dir, { recursive: true });
+  fs.writeFileSync(path.join(dir, 'index.html'), stampDates(html, entry));
+  return entry;
+}
+function saveLastmod() {
+  const keys = Object.keys(LASTMOD).sort();
+  fs.writeFileSync(LASTMOD_FILE, '{\n' + keys.map(k => `  ${JSON.stringify(k)}: ${JSON.stringify(LASTMOD[k])}`).join(',\n') + '\n}\n');
+}
+
+// ---------- editorial helpers ----------
+const guideFiles = () => fs.existsSync(path.join(ROOT, 'guides')) ? fs.readdirSync(path.join(ROOT, 'guides')).filter(f => f.endsWith('.html')).sort() : [];
+const guideFor = catSlug => fs.existsSync(path.join(ROOT, 'guides', `${catSlug}.html`)) ? `/guides/${catSlug}.html` : null;
+function primaryCatOf(product) {
+  if (product.primary_category && categoryBySlug(product.primary_category)) return categoryBySlug(product.primary_category);
+  return categoryByName((product.categories || [])[0]) || null;
+}
+const altEntries = () => Object.entries(EDITORIAL.alternatives || {}).map(([slug, alt]) => ({ slug, alt, product: PRODUCTS.find(p => p.slug === slug) })).filter(x => x.product);
+const altsSorted = () => altEntries().sort((a, b) => ((b.product.is_featured ? 1 : 0) - (a.product.is_featured ? 1 : 0)) || a.product.title.localeCompare(b.product.title));
+const cmpEntries = () => (EDITORIAL.comparisons || []).map(c => ({ cmp: c, A: PRODUCTS.find(p => p.slug === c.a), B: PRODUCTS.find(p => p.slug === c.b) })).filter(x => x.A && x.B);
+const altLink = x => `<a href="${alternativesPath(x.slug)}">Best ${esc(x.product.title)} alternatives</a>`;
+const cmpLink = x => `<a href="${comparePath(x.cmp.a, x.cmp.b)}">${esc(x.A.title)} vs ${esc(x.B.title)}</a>`;
+const linkList = items => items.length ? `<ul class="link-list">${items.map(i => `<li>${i}</li>`).join('')}</ul>` : '';
+function editorialForCategory(cat) {
+  const members = new Set(cat.products || []);
+  return { alts: altsSorted().filter(x => members.has(x.slug)), cmps: cmpEntries().filter(x => members.has(x.cmp.a) || members.has(x.cmp.b)) };
+}
+const altMentions = slug => altsSorted().filter(x => x.slug !== slug && (x.alt.picks || []).some(p => p.slug === slug));
+const firstSentence = (s, max = 170) => { const t = String(s || '').split(/(?<=\.)\s/)[0] || ''; return t.length > max ? t.slice(0, max - 1).replace(/\s+\S*$/, '') + '…' : t; };
+function articleLd(headline, canonical, description) {
+  return { "@context": "https://schema.org", "@type": "Article", "headline": headline, "description": description, "mainEntityOfPage": canonical,
+    "datePublished": FIRSTMOD_TOKEN, "dateModified": LASTMOD_TOKEN,
+    "author": { "@type": "Organization", "name": "CRE Software Directory", "url": BASE },
+    "publisher": { "@type": "Organization", "name": "CRE Software Directory", "url": BASE, "logo": { "@type": "ImageObject", "url": `${BASE}/img/apple-touch-icon.png` } } };
+}
+const updatedLine = () => `<p class="updated-line">Updated ${LASTMOD_FMT_TOKEN}. Independent editorial; <a href="/about.html">how we research</a>.</p>`;
+// Chips linking every alternatives guide (homepage + compare hub).
+const altChipsHTML = () => `<div style="display:flex;flex-wrap:wrap;gap:10px">${altsSorted().map(x => `<a href="${alternativesPath(x.slug)}" class="badge badge-accent" style="font-size:13px;padding:6px 12px">${esc(x.product.title)} alternatives</a>`).join('')}</div>`;
 
 function compactProductCard(p) {
   return `<a class="product-card product-card-compact product-card-link" href="${productPath(p.slug)}">
@@ -149,20 +220,21 @@ function navHTML(active) {
 function footerHTML() {
   const catLinks = Object.values(CATEGORIES).sort((a, b) => b.product_count - a.product_count)
     .map(c => `<a href="${categoryPath(c.slug)}">${esc(c.name)}</a>`).join('');
-  const guideLinks = fs.existsSync(path.join(ROOT, 'guides'))
-    ? fs.readdirSync(path.join(ROOT, 'guides')).filter(f => f.endsWith('.html')).slice(0, 8)
-        .map(f => { const cs = f.replace('.html', ''); const c = categoryBySlug(cs); return `<a href="/guides/${f}">${esc(c ? c.name : cs)}</a>`; }).join('')
-    : '';
-  const cmpLinks = (EDITORIAL.comparisons || []).slice(0, 6).map(c => {
-    const A = PRODUCTS.find(p => p.slug === c.a), B = PRODUCTS.find(p => p.slug === c.b);
-    return A && B ? `<a href="${comparePath(c.a, c.b)}">${esc(A.title)} vs ${esc(B.title)}</a>` : '';
-  }).join('');
+  const guideLinks = guideFiles()
+    .map(f => { const cs = f.replace('.html', ''); const c = categoryBySlug(cs); return { name: c ? c.name : cs, f }; })
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .map(g => `<a href="/guides/${g.f}">${esc(g.name)}</a>`).join('');
+  const altLinks = altsSorted().slice(0, 12).map(x => `<a href="${alternativesPath(x.slug)}">${esc(x.product.title)} alternatives</a>`).join('')
+    + `<a href="/alternatives/"><strong>All alternatives guides →</strong></a>`;
+  const cmpLinks = cmpEntries().slice(0, 8).map(x => `<a href="${comparePath(x.cmp.a, x.cmp.b)}">${esc(x.A.title)} vs ${esc(x.B.title)}</a>`).join('')
+    + `<a href="/compare.html"><strong>All comparisons →</strong></a>`;
   return `<footer>
     <div class="container">
       <div class="footer-cols">
         <div class="footer-col"><h4>Categories</h4>${catLinks}</div>
         <div class="footer-col"><h4>Buyer's Guides</h4>${guideLinks}</div>
-        <div class="footer-col"><h4>Popular Comparisons</h4>${cmpLinks}</div>
+        <div class="footer-col"><h4>Alternatives</h4>${altLinks}</div>
+        <div class="footer-col"><h4>Comparisons</h4>${cmpLinks}</div>
         <div class="footer-col"><h4>CRE Software Directory</h4>
           <a href="/about.html">About & methodology</a>
           <a href="/submit.html">Submit a tool</a>
@@ -170,6 +242,7 @@ function footerHTML() {
           <a href="/compare.html">Compare tools</a>
           <a href="/market-map.html">Market map</a>
           <a href="/integrations/">Browse by integration</a>
+          <a href="/llms.txt">llms.txt</a>
           <a href="mailto:hello@cresoftware.tech">Contact</a>
         </div>
       </div>
@@ -187,6 +260,7 @@ function headHTML({ title, description, canonical, ogType = 'website', ogImage =
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
   <meta property="og:title" content="${esc(title)}">
   <meta property="og:description" content="${esc(description)}">
   <meta property="og:type" content="${ogType}">
@@ -244,6 +318,33 @@ function faqLd(faq) {
 }
 
 // ---------- product pages ----------
+// "Deciding on X?" box: the product's own alternatives guide, its head-to-head pages, and
+// every alternatives guide that ranks it as a pick (inbound links for those guides).
+function editorialBoxHTML(product) {
+  const slug = product.slug;
+  const own = EDITORIAL.alternatives && EDITORIAL.alternatives[slug];
+  const cmps = comparisonsFor(slug);
+  const mentions = altMentions(slug);
+  if (!own && !cmps.length && !mentions.length) return '';
+  const items = [];
+  if (own) items.push(`<li><a href="${alternativesPath(slug)}">Best ${esc(product.title)} alternatives (${YEAR})</a></li>`);
+  cmps.forEach(c => {
+    const other = c.a === slug ? c.b : c.a;
+    const op = PRODUCTS.find(p => p.slug === other);
+    if (op) items.push(`<li><a href="${comparePath(c.a, c.b)}">${esc(product.title)} vs ${esc(op.title)}: which is better?</a></li>`);
+  });
+  mentions.forEach(x => {
+    const pos = (x.alt.picks || []).findIndex(p => p.slug === slug) + 1;
+    items.push(`<li>Ranked #${pos} in <a href="${alternativesPath(x.slug)}">best ${esc(x.product.title)} alternatives</a></li>`);
+  });
+  return `<div class="editorial-links" style="margin:24px 0;padding:16px 20px;border-radius:10px;background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.25);">
+        <strong>Deciding on ${esc(product.title)}?</strong>
+        <ul style="margin:8px 0 0;padding-left:20px;">
+          ${items.join('\n          ')}
+        </ul>
+      </div>`;
+}
+
 function renderProductPage(product) {
   const slug = product.slug;
   const canonical = `${BASE}${productPath(slug)}`;
@@ -494,17 +595,7 @@ function renderProductPage(product) {
       ${companyHTML}
       ${faqBlockHTML}
 
-      ${(EDITORIAL.alternatives && EDITORIAL.alternatives[slug]) || comparisonsFor(slug).length ? `<div class="editorial-links" style="margin:24px 0;padding:16px 20px;border-radius:10px;background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.25);">
-        <strong>Deciding on ${esc(product.title)}?</strong>
-        <ul style="margin:8px 0 0;padding-left:20px;">
-          ${EDITORIAL.alternatives && EDITORIAL.alternatives[slug] ? `<li><a href="${alternativesPath(slug)}">Best ${esc(product.title)} alternatives (${YEAR})</a></li>` : ''}
-          ${comparisonsFor(slug).map(c => {
-            const other = c.a === slug ? c.b : c.a;
-            const op = PRODUCTS.find(p => p.slug === other);
-            return op ? `<li><a href="${comparePath(c.a, c.b)}">${esc(product.title)} vs ${esc(op.title)}: which is better?</a></li>` : '';
-          }).join('')}
-        </ul>
-      </div>` : ''}
+      ${editorialBoxHTML(product)}
       <div class="bottom-cta">
         ${isDefunct ? '' : `<a href="${esc(outUrl)}" target="_blank" rel="${outRel}" class="cta-btn">Visit ${esc(product.title)} →</a>`}
         <a href="mailto:hello@cresoftware.tech?subject=${encodeURIComponent('Listing update: ' + product.title)}" class="claim-link">Submit a correction or claim this listing</a>
@@ -627,6 +718,20 @@ function renderCategoryPage(slug, cat) {
     </div>
   </section>
   ${faqHTML}
+  ${(() => {
+    const ce = editorialForCategory(cat);
+    if (!ce.alts.length && !ce.cmps.length) return '';
+    return `<section class="section section-alt">
+    <div class="container">
+      <h2>Switching or shortlisting ${esc(cat.name)} tools?</h2>
+      <p style="opacity:.75;margin:-8px 0 20px">Editorial guides for the tools buyers in this category compare most.</p>
+      <div class="editorial-grid">
+        ${ce.alts.length ? `<div><h3>Alternatives guides</h3>${linkList(ce.alts.map(altLink))}</div>` : ''}
+        ${ce.cmps.length ? `<div><h3>Head-to-head comparisons</h3>${linkList(ce.cmps.map(cmpLink))}</div>` : ''}
+      </div>
+    </div>
+  </section>`;
+  })()}
   <section class="section">
     <div class="container">
       <h2>Browse Other Categories</h2>
@@ -643,34 +748,60 @@ function renderCategoryPage(slug, cat) {
 }
 
 // ---------- alternatives pages ----------
+function altRelatedHTML(slug, product) {
+  const cat = primaryCatOf(product);
+  const own = cmpEntries().filter(x => x.cmp.a === slug || x.cmp.b === slug);
+  const pickSlugs = new Set(((EDITORIAL.alternatives[slug] || {}).picks || []).map(p => p.slug));
+  const amongPicks = cmpEntries().filter(x => !own.includes(x) && pickSlugs.has(x.cmp.a) && pickSlugs.has(x.cmp.b));
+  const cmps = own.concat(amongPicks).slice(0, 8);
+  let siblings = cat ? altsSorted().filter(x => x.slug !== slug && (cat.products || []).includes(x.slug)) : [];
+  if (siblings.length < 3) siblings = siblings.concat(altsSorted().filter(x => x.slug !== slug && !siblings.includes(x)).slice(0, 6 - siblings.length));
+  siblings = siblings.slice(0, 8);
+  const guide = cat ? guideFor(cat.slug) : null;
+  return `<div class="related-editorial">
+        ${cmps.length ? `<h2>Head-to-head comparisons</h2>${linkList(cmps.map(cmpLink))}` : ''}
+        ${siblings.length ? `<h2>More alternatives guides</h2>${linkList(siblings.map(altLink))}<p style="font-size:14px;margin:8px 0 0"><a href="/alternatives/">All alternatives guides →</a></p>` : ''}
+        <h2>Keep browsing</h2>
+        <ul class="link-list">
+          ${cat ? `<li><a href="${categoryPath(cat.slug)}">All ${esc(cat.name)} software</a></li>` : ''}
+          ${guide && cat ? `<li><a href="${guide}">${esc(cat.name)} buyer's guide</a></li>` : ''}
+          <li><a href="/compare.html">Compare any two tools side by side</a></li>
+        </ul>
+      </div>`;
+}
+
 function renderAlternativesPage(slug, alt) {
   const product = PRODUCTS.find(p => p.slug === slug);
   if (!product) return null;
   const canonical = `${BASE}${alternativesPath(slug)}`;
+  const cat = primaryCatOf(product);
   const picks = (alt.picks || []).map(x => ({ ...x, product: PRODUCTS.find(p => p.slug === x.slug) })).filter(x => x.product);
   const title = `Best ${product.title} Alternatives & Competitors (${YEAR}) | CRE Software Directory`;
   const description = `Looking for an alternative to ${product.title}? We compare ${picks.length} competitors on pricing, features, and fit so you can pick the right replacement.`;
   const jsonLd = [
+    articleLd(`Best ${product.title} Alternatives (${YEAR})`, canonical, description),
     { "@context": "https://schema.org", "@type": "ItemList",
       "name": `Best ${product.title} Alternatives`, "numberOfItems": picks.length,
       "itemListElement": picks.map((x, i) => ({ "@type": "ListItem", "position": i + 1, "url": BASE + productPath(x.slug), "name": x.product.title })) },
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": BASE + '/' },
-      { "@type": "ListItem", "position": 2, "name": product.title, "item": BASE + productPath(slug) },
-      { "@type": "ListItem", "position": 3, "name": `${product.title} Alternatives`, "item": canonical }] }
+      ...(cat ? [{ "@type": "ListItem", "position": 2, "name": cat.name, "item": BASE + categoryPath(cat.slug) }] : []),
+      { "@type": "ListItem", "position": cat ? 3 : 2, "name": product.title, "item": BASE + productPath(slug) },
+      { "@type": "ListItem", "position": cat ? 4 : 3, "name": `${product.title} Alternatives`, "item": canonical }] }
   ];
   if (alt.faq && alt.faq.length) jsonLd.push(faqLd(alt.faq));
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-  ${headHTML({ title, description, canonical, jsonLd })}
+  ${headHTML({ title, description, canonical, ogType: 'article', jsonLd })}
 </head>
 <body>
   ${navHTML('directory')}
   <div class="product-detail">
     <div class="container">
-      <div class="breadcrumbs"><a href="/">Home</a> / <a href="${productPath(slug)}">${esc(product.title)}</a> / Alternatives</div>
+      <div class="breadcrumbs"><a href="/">Home</a> / ${cat ? `<a href="${categoryPath(cat.slug)}">${esc(cat.name)}</a> / ` : ''}<a href="${productPath(slug)}">${esc(product.title)}</a> / Alternatives</div>
       <h1>Best ${esc(product.title)} Alternatives (${YEAR})</h1>
+      ${updatedLine()}
       <div class="description-section">${(alt.intro || '').split('\n\n').map(p => `<p>${esc(p)}</p>`).join('')}</div>
       <div class="similar-section"><h2>Top ${esc(product.title)} Alternatives</h2>
         ${picks.map((x, i) => `<div style="margin:0 0 18px;padding:18px 20px;border:1px solid rgba(128,128,160,.25);border-radius:12px;">
@@ -681,15 +812,68 @@ function renderAlternativesPage(slug, alt) {
           </div>
           <p style="margin:0 0 8px;">${esc(x.product.short_description || x.product.headline || '')}</p>
           <p style="margin:0;"><strong>Why pick it over ${esc(product.title)}:</strong> ${esc(x.reason)}</p>
+          ${EDITORIAL.alternatives[x.slug] ? `<p style="margin:8px 0 0;font-size:13.5px;"><a href="${alternativesPath(x.slug)}">Not sold on ${esc(x.product.title)} either? See its alternatives →</a></p>` : ''}
         </div>`).join('')}
       </div>
       ${faqHTMLBlock(alt.faq)}
+      ${altRelatedHTML(slug, product)}
       <div class="bottom-cta">
         <a href="${productPath(slug)}" class="cta-btn cta-btn-outline">Read our ${esc(product.title)} review</a>
         <a href="/compare.html" class="claim-link">Compare any two tools side by side</a>
       </div>
     </div>
   </div>
+  ${footerHTML()}
+  <script src="/js/app.js"></script>
+  <script>initNav();initBackToTop();initNavSearch();</script>
+</body>
+</html>`;
+}
+
+// ---------- alternatives hub ----------
+function renderAlternativesIndex() {
+  const entries = altsSorted();
+  const canonical = `${BASE}/alternatives/`;
+  const title = `Best Alternatives to Popular CRE Software (${YEAR}) | CRE Software Directory`;
+  const description = `Ranked alternatives to ${entries.length} widely used commercial real estate platforms, including ${entries.slice(0, 4).map(e => e.product.title).join(', ')}. Independent picks with reasons and caveats.`;
+  const groups = {};
+  for (const e of entries) { const c = primaryCatOf(e.product); const k = c ? c.name : 'Other'; (groups[k] = groups[k] || { cat: c, items: [] }).items.push(e); }
+  const ordered = Object.entries(groups).sort((x, y) => y[1].items.length - x[1].items.length || x[0].localeCompare(y[0]));
+  const card = e => `<a class="product-card product-card-link" href="${alternativesPath(e.slug)}" style="display:block">
+          <div style="display:flex;align-items:center;gap:10px;margin-bottom:10px"><div class="product-logo" style="width:36px;height:36px">${logoHTML(e.product, 36)}</div><h3 style="margin:0;font-size:16px">Best ${esc(e.product.title)} alternatives</h3></div>
+          <div class="tagline">${(e.alt.picks || []).length} alternatives compared. ${esc(firstSentence(e.alt.intro, 140))}</div>
+        </a>`;
+  const jsonLd = [
+    { "@context": "https://schema.org", "@type": "ItemList", "name": "Alternatives guides for CRE software", "numberOfItems": entries.length,
+      "itemListElement": entries.map((e, i) => ({ "@type": "ListItem", "position": i + 1, "url": BASE + alternativesPath(e.slug), "name": `Best ${e.product.title} alternatives` })) },
+    { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": BASE + '/' },
+      { "@type": "ListItem", "position": 2, "name": "Alternatives guides", "item": canonical }] }
+  ];
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  ${headHTML({ title, description, canonical, jsonLd })}
+</head>
+<body>
+  ${navHTML('directory')}
+  <section class="category-header">
+    <div class="container">
+      <div class="breadcrumbs"><a href="/">Home</a> / Alternatives guides</div>
+      <h1>Best Alternatives to Popular CRE Software</h1>
+      <p>Outgrowing a platform, or priced out of one? Each guide ranks the strongest replacements for a widely used tool, explains who each pick suits, and names the trade-off. Independent editorial; no vendor pays for a ranking.</p>
+      <div class="cat-stats"><strong>${entries.length}</strong> guides</div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      ${ordered.map(([name, g]) => `<h2 style="margin:0 0 14px;font-size:20px">${esc(name)}${g.cat ? ` <a href="${categoryPath(g.cat.slug)}" style="font-size:13px;font-weight:400">Browse all ${esc(name)} tools →</a>` : ''}</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px;margin-bottom:36px">
+        ${g.items.map(card).join('\n        ')}
+      </div>`).join('\n      ')}
+      <p style="font-size:14.5px">Want a head-to-head instead? See <a href="/compare.html">all comparisons</a>, or <a href="/compare.html">compare any two tools</a> yourself.</p>
+    </div>
+  </section>
   ${footerHTML()}
   <script src="/js/app.js"></script>
   <script>initNav();initBackToTop();initNavSearch();</script>
@@ -711,16 +895,36 @@ function renderComparisonPage(cmp) {
   const prosCons = p => `<div class="proscons-col"><h3>${esc(p.title)}</h3>
     ${(p.pros || []).slice(0, 4).map(x => `<div class="proscons-item"><span class="icon-pro">✓</span>${esc(x)}</div>`).join('')}
     ${(p.cons || []).slice(0, 3).map(x => `<div class="proscons-item"><span class="icon-con">✗</span>${esc(x)}</div>`).join('')}</div>`;
+  const cat = primaryCatOf(A);
   const jsonLd = [
+    articleLd(`${A.title} vs ${B.title} (${YEAR})`, canonical, description),
     { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": BASE + '/' },
-      { "@type": "ListItem", "position": 2, "name": `${A.title} vs ${B.title}`, "item": canonical }] }
+      { "@type": "ListItem", "position": 2, "name": "Compare", "item": BASE + '/compare.html' },
+      { "@type": "ListItem", "position": 3, "name": `${A.title} vs ${B.title}`, "item": canonical }]
+    }
   ];
   if (cmp.faq && cmp.faq.length) jsonLd.push(faqLd(cmp.faq));
+  const relatedHTML = (() => {
+    const alts = [A, B].filter(p => EDITORIAL.alternatives && EDITORIAL.alternatives[p.slug]).map(p => `<a href="${alternativesPath(p.slug)}">Best ${esc(p.title)} alternatives</a>`);
+    const others = cmpEntries().filter(x => x.cmp !== cmp && (x.cmp.a === A.slug || x.cmp.b === A.slug || x.cmp.a === B.slug || x.cmp.b === B.slug)).slice(0, 8);
+    const guide = cat ? guideFor(cat.slug) : null;
+    return `<div class="related-editorial">
+        ${alts.length ? `<h2>Still deciding?</h2>${linkList(alts)}` : ''}
+        ${others.length ? `<h2>Related comparisons</h2>${linkList(others.map(cmpLink))}` : ''}
+        <h2>Keep browsing</h2>
+        <ul class="link-list">
+          ${cat ? `<li><a href="${categoryPath(cat.slug)}">All ${esc(cat.name)} software</a></li>` : ''}
+          ${guide && cat ? `<li><a href="${guide}">${esc(cat.name)} buyer's guide</a></li>` : ''}
+          <li><a href="/alternatives/">All alternatives guides</a></li>
+          <li><a href="/compare.html">All comparisons</a></li>
+        </ul>
+      </div>`;
+  })();
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-  ${headHTML({ title, description, canonical, jsonLd })}
+  ${headHTML({ title, description, canonical, ogType: 'article', jsonLd })}
 </head>
 <body>
   ${navHTML('compare')}
@@ -728,6 +932,7 @@ function renderComparisonPage(cmp) {
     <div class="container">
       <div class="breadcrumbs"><a href="/">Home</a> / <a href="/compare.html">Compare</a> / ${esc(A.title)} vs ${esc(B.title)}</div>
       <h1>${esc(A.title)} vs ${esc(B.title)}: Which Is Better in ${YEAR}?</h1>
+      ${updatedLine()}
       <p style="font-size:18px;">${esc(cmp.one_liner || '')}</p>
       <div style="display:flex;gap:24px;align-items:center;margin:20px 0;">
         <div style="display:flex;align-items:center;gap:10px;"><div class="product-logo">${logoHTML(A)}</div><a href="${productPath(A.slug)}"><strong>${esc(A.title)}</strong></a></div>
@@ -750,6 +955,7 @@ function renderComparisonPage(cmp) {
       <div class="description-section"><h2>Our Verdict</h2>${(cmp.verdict || '').split('\n\n').map(p => `<p>${esc(p)}</p>`).join('')}</div>
       <div class="proscons">${prosCons(A)}${prosCons(B)}</div>
       ${faqHTMLBlock(cmp.faq)}
+      ${relatedHTML}
       <div class="bottom-cta">
         <a href="${productPath(A.slug)}" class="cta-btn cta-btn-outline">${esc(A.title)} review</a>
         <a href="${productPath(B.slug)}" class="cta-btn cta-btn-outline">${esc(B.title)} review</a>
@@ -854,32 +1060,22 @@ function renderIntegrationsIndex(hubs) {
 // ---------- sitemap ----------
 function renderSitemap() {
   const urls = [];
-  const add = (loc, priority, lastmod) => urls.push({ loc, priority, lastmod });
-
-  add(`${BASE}/`, '1.0', TODAY);
-  Object.values(CATEGORIES).forEach(c => add(`${BASE}${categoryPath(c.slug)}`, '0.9', TODAY));
-  PRODUCTS.forEach(p => {
-    const lastmod = (p.enrichedAt || p.last_updated || TODAY).slice(0, 10);
-    add(`${BASE}${productPath(p.slug)}`, '0.8', lastmod);
-  });
-  Object.keys(EDITORIAL.alternatives || {}).forEach(slug => {
-    if (PRODUCTS.find(p => p.slug === slug)) add(`${BASE}${alternativesPath(slug)}`, '0.7', TODAY);
-  });
-  (EDITORIAL.comparisons || []).forEach(c => {
-    if (PRODUCTS.find(p => p.slug === c.a) && PRODUCTS.find(p => p.slug === c.b)) add(`${BASE}${comparePath(c.a, c.b)}`, '0.7', TODAY);
-  });
-  const guidesDir = path.join(ROOT, 'guides');
-  if (fs.existsSync(guidesDir)) {
-    fs.readdirSync(guidesDir).filter(f => f.endsWith('.html')).forEach(f => add(`${BASE}/guides/${f}`, '0.8', TODAY));
-  }
-  add(`${BASE}/market-map.html`, '0.6', TODAY);
-  add(`${BASE}/compare.html`, '0.5', TODAY);
-  add(`${BASE}/submit.html`, '0.5', TODAY);
-  add(`${BASE}/advertise.html`, '0.5', TODAY);
-  add(`${BASE}/about.html`, '0.5', TODAY);
-  add(`${BASE}/integrations/`, '0.6', TODAY);
-  collectIntegrationHubs().forEach(h => add(`${BASE}/integrations/${h.slug}/`, '0.6', TODAY));
-
+  const lm = p => (LASTMOD[p] && LASTMOD[p].date) || TODAY;
+  const add = (p, priority) => urls.push({ loc: BASE + p, priority, lastmod: lm(p) });
+  add('/', '1.0');
+  Object.values(CATEGORIES).forEach(c => add(categoryPath(c.slug), '0.9'));
+  PRODUCTS.filter(p => !badSlug(p.slug)).forEach(p => add(productPath(p.slug), '0.8'));
+  guideFiles().forEach(f => add(`/guides/${f}`, '0.8'));
+  add('/alternatives/', '0.7');
+  altEntries().forEach(x => add(alternativesPath(x.slug), '0.7'));
+  cmpEntries().forEach(x => add(comparePath(x.cmp.a, x.cmp.b), '0.7'));
+  add('/market-map.html', '0.6');
+  add('/compare.html', '0.6');
+  add('/integrations/', '0.6');
+  collectIntegrationHubs().forEach(h => add(`/integrations/${h.slug}/`, '0.6'));
+  add('/submit.html', '0.5');
+  add('/advertise.html', '0.5');
+  add('/about.html', '0.5');
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><priority>${u.priority}</priority></url>`).join('\n')}
@@ -887,52 +1083,94 @@ ${urls.map(u => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><prior
 `;
 }
 
+// ---------- llms.txt (for AI assistants and answer engines) ----------
+function renderLlmsTxt() {
+  const cats = Object.values(CATEGORIES).sort((a, b) => b.product_count - a.product_count);
+  const latest = Object.values(LASTMOD).map(e => e.date).filter(Boolean).sort().pop() || TODAY;
+  const line = (label, p, extra) => `- [${label}](${BASE}${p})${extra ? `: ${extra}` : ''}`;
+  return `# CRE Software Directory
+
+> Independent, editorially maintained directory of ${PRODUCTS.length} commercial real estate (CRE) software tools across ${cats.length} categories, with buyer's guides, ranked alternatives guides, and head-to-head comparisons. Listings are researched from vendor documentation and public sources. Featured placements are labeled as paid and never change editorial content. No star ratings or user reviews are published.
+
+Site: ${BASE}
+Contact: hello@cresoftware.tech
+Last content update: ${latest}
+
+## Categories
+${cats.map(c => line(`${c.name} software`, categoryPath(c.slug), `${c.product_count} tools. ${stripTags(c.description || '')}`)).join('\n')}
+
+## Buyer's guides
+${guideFiles().map(f => { const cs = f.replace('.html', ''); const c = categoryBySlug(cs); return line(`Best ${c ? c.name : cs} software for CRE`, `/guides/${f}`); }).join('\n')}
+
+## Alternatives guides
+${line('All alternatives guides', '/alternatives/')}
+${altsSorted().map(x => line(`Best ${x.product.title} alternatives`, alternativesPath(x.slug), firstSentence(x.alt.intro, 200))).join('\n')}
+
+## Head-to-head comparisons
+${line('All comparisons', '/compare.html')}
+${cmpEntries().map(x => line(`${x.A.title} vs ${x.B.title}`, comparePath(x.cmp.a, x.cmp.b), x.cmp.one_liner || '')).join('\n')}
+
+## Browse by integration
+${line('All integration hubs', '/integrations/')}
+${collectIntegrationHubs().map(h => line(`CRE software that integrates with ${h.display}`, `/integrations/${h.slug}/`, `${h.products.length} tools`)).join('\n')}
+
+## Product pages
+Every listed product has a page at ${BASE}/products/<slug>/ with an overview, pricing model, pros and cons, target audience, integrations, and FAQ. The full URL list is in ${BASE}/sitemap.xml.
+
+## About
+${line('About and methodology', '/about.html')}
+${line('Submit a tool', '/submit.html')}
+${line('Advertise (Featured listings)', '/advertise.html')}
+`;
+}
+
 // ---------- run ----------
 let productCount = 0, categoryCount = 0;
-const badSlug = s => !/^[A-Za-z0-9][A-Za-z0-9_-]*$/.test(s);
 
 for (const product of PRODUCTS) {
   if (badSlug(product.slug)) { console.warn(`SKIP invalid slug: ${JSON.stringify(product.slug)}`); continue; }
-  const dir = path.join(ROOT, 'products', product.slug);
-  fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, 'index.html'), renderProductPage(product));
+  writePage(productPath(product.slug), renderProductPage(product), product.enrichedAt || product.last_updated);
   productCount++;
 }
 
 for (const [slug, cat] of Object.entries(CATEGORIES)) {
   if (badSlug(slug)) { console.warn(`SKIP invalid category slug: ${JSON.stringify(slug)}`); continue; }
-  const dir = path.join(ROOT, 'categories', slug);
-  fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, 'index.html'), renderCategoryPage(slug, cat));
+  writePage(categoryPath(slug), renderCategoryPage(slug, cat));
   categoryCount++;
 }
 
 const HUBS = collectIntegrationHubs();
-for (const hub of HUBS) {
-  const dir = path.join(ROOT, 'integrations', hub.slug);
-  fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, 'index.html'), renderIntegrationHub(hub));
-}
-fs.mkdirSync(path.join(ROOT, 'integrations'), { recursive: true });
-fs.writeFileSync(path.join(ROOT, 'integrations', 'index.html'), renderIntegrationsIndex(HUBS));
+for (const hub of HUBS) writePage(`/integrations/${hub.slug}/`, renderIntegrationHub(hub));
+writePage('/integrations/', renderIntegrationsIndex(HUBS));
 
 let altCount = 0, cmpCount = 0;
 for (const [slug, alt] of Object.entries(EDITORIAL.alternatives || {})) {
   const html = renderAlternativesPage(slug, alt);
   if (!html) { console.warn(`SKIP alternatives (unknown slug): ${slug}`); continue; }
-  const dir = path.join(ROOT, 'alternatives', slug);
-  fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, 'index.html'), html);
+  writePage(alternativesPath(slug), html);
   altCount++;
 }
+writePage('/alternatives/', renderAlternativesIndex());
 for (const cmp of EDITORIAL.comparisons || []) {
   const html = renderComparisonPage(cmp);
   if (!html) { console.warn(`SKIP comparison (unknown slug): ${cmp.a} vs ${cmp.b}`); continue; }
-  const dir = path.join(ROOT, 'compare', `${cmp.a}-vs-${cmp.b}`);
-  fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, 'index.html'), html);
+  writePage(comparePath(cmp.a, cmp.b), html);
   cmpCount++;
 }
+
+// ---------- hand-maintained pages: injected blocks between marker comments ----------
+function injectBetween(file, START, END, inner) {
+  const abs = path.join(ROOT, file);
+  if (!fs.existsSync(abs)) return false;
+  let html = fs.readFileSync(abs, 'utf8');
+  const si = html.indexOf(START), ei = html.indexOf(END);
+  if (si === -1 || ei === -1) { console.warn(`SKIP ${file}: markers ${START} missing`); return false; }
+  html = html.slice(0, si + START.length) + inner + html.slice(ei);
+  fs.writeFileSync(abs, html);
+  return true;
+}
+const HAND_PAGES = [['index.html', '/'], ['compare.html', '/compare.html'], ['about.html', '/about.html'], ['submit.html', '/submit.html'], ['advertise.html', '/advertise.html'], ['market-map.html', '/market-map.html'], ['404.html', null]]
+  .concat(guideFiles().map(f => [`guides/${f}`, `/guides/${f}`]));
 
 // ---------- popular comparisons on compare.html ----------
 function injectPopularComparisons() {
@@ -976,6 +1214,12 @@ function injectPopularComparisons() {
         </div>`;
         }).join('\n        ')}
       </div>
+      <div style="margin-top:48px">
+        <h2 class="section-title" style="font-size:22px;margin-bottom:4px">Looking to Switch? Alternatives Guides</h2>
+        <p style="color:var(--gray-600);margin-bottom:16px">Ranked replacements for the platforms CRE teams most often outgrow.</p>
+        ${altChipsHTML()}
+        <p style="margin:16px 0 0;font-size:14px"><a href="/alternatives/">See all alternatives guides →</a></p>
+      </div>
       `;
 
   html = html.slice(0, si + START.length) + section + html.slice(ei);
@@ -985,25 +1229,54 @@ function injectPopularComparisons() {
 const popCount = injectPopularComparisons();
 
 function injectHomeComparisons() {
-  const file = path.join(ROOT, 'index.html');
-  const START = '<!-- HOME-COMPARISONS:START -->';
-  const END = '<!-- HOME-COMPARISONS:END -->';
-  let html = fs.readFileSync(file, 'utf8');
-  const si = html.indexOf(START), ei = html.indexOf(END);
-  if (si === -1 || ei === -1) return 0;
   const picks = (EDITORIAL.comparisons || []).slice(0, 3);
-  const section = `
+  return injectBetween('index.html', '<!-- HOME-COMPARISONS:START -->', '<!-- HOME-COMPARISONS:END -->', `
       <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px">
         ${picks.map(comparisonCard).join('\n        ')}
       </div>
       <p style="margin:16px 0 0;font-size:14px"><a href="/compare.html">See all comparisons →</a></p>
-      `;
-  html = html.slice(0, si + START.length) + section + html.slice(ei);
-  fs.writeFileSync(file, html);
-  return picks.length;
+      `) ? picks.length : 0;
 }
 injectHomeComparisons();
 
-fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), renderSitemap());
+function injectHomeAlternatives() {
+  return injectBetween('index.html', '<!-- HOME-ALTERNATIVES:START -->', '<!-- HOME-ALTERNATIVES:END -->', `
+      ${altChipsHTML()}
+      <p style="margin:16px 0 0;font-size:14px"><a href="/alternatives/">See all alternatives guides →</a></p>
+      `);
+}
+injectHomeAlternatives();
 
-console.log(`Built ${productCount} product pages, ${categoryCount} category pages, ${altCount} alternatives pages, ${cmpCount} comparison pages, ${HUBS.length} integration hubs, ${popCount} popular comparisons on compare.html, sitemap.xml`);
+// Related editorial block at the bottom of each buyer's guide (alternatives + comparisons in its category).
+function guideRelatedHTML(catSlug) {
+  const cat = categoryBySlug(catSlug);
+  if (!cat) return '';
+  const ce = editorialForCategory(cat);
+  const browse = `<p style="font-size:14px;margin:12px 0 0"><a href="${categoryPath(cat.slug)}">Browse all ${esc(cat.name)} software →</a> · <a href="/alternatives/">All alternatives guides</a> · <a href="/compare.html">All comparisons</a></p>`;
+  return `
+<div style="max-width:800px;margin:0 auto;padding:0 20px 32px">
+  <div class="related-editorial">
+    <h2 style="margin-top:0">Related reading</h2>
+    <div class="editorial-grid">
+      ${ce.alts.length ? `<div><h3>Alternatives guides</h3>${linkList(ce.alts.map(altLink))}</div>` : ''}
+      ${ce.cmps.length ? `<div><h3>Head-to-head comparisons</h3>${linkList(ce.cmps.map(cmpLink))}</div>` : ''}
+    </div>
+    ${browse}
+  </div>
+</div>
+`;
+}
+for (const f of guideFiles()) injectBetween(`guides/${f}`, '<!-- GUIDE-RELATED:START -->', '<!-- GUIDE-RELATED:END -->', guideRelatedHTML(f.replace('.html', '')));
+
+// Shared site footer on every hand-maintained page.
+let footerCount = 0;
+for (const [file] of HAND_PAGES) if (injectBetween(file, '<!-- SITE-FOOTER:START -->', '<!-- SITE-FOOTER:END -->', '\n' + footerHTML() + '\n')) footerCount++;
+
+// Track lastmod for hand pages (hash of the content between nav and footer, like generated pages).
+for (const [file, urlPath] of HAND_PAGES) if (urlPath && fs.existsSync(path.join(ROOT, file))) trackLastmod(urlPath, fs.readFileSync(path.join(ROOT, file), 'utf8'));
+
+fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), renderSitemap());
+fs.writeFileSync(path.join(ROOT, 'llms.txt'), renderLlmsTxt());
+saveLastmod();
+
+console.log(`Built ${productCount} product pages, ${categoryCount} category pages, ${altCount} alternatives pages + hub, ${cmpCount} comparison pages, ${HUBS.length} integration hubs, ${popCount} popular comparisons on compare.html, ${footerCount} shared footers, sitemap.xml, llms.txt`);

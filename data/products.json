@@ -1628,6 +1628,7 @@
       "Accounting & Finance"
     ],
     "deployment": [
+      "Cloud",
       "Mobile"
     ],
     "rating": null,
@@ -1641,7 +1642,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-09-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "buildium.com",
@@ -6392,7 +6393,7 @@
     "deployment": [
       "Cloud"
     ],
-    "rating": 4.0,
+    "rating": 4,
     "review_count": 0,
     "seo": {
       "title": "LoopNet Review 2026: Pricing, Features & Alternatives | CRE Software",
@@ -9592,7 +9593,7 @@
     "deployment": [
       "Cloud"
     ],
-    "rating": 4.0,
+    "rating": 4,
     "review_count": 0,
     "seo": {
       "title": "Reonomy Review 2026: Pricing, Features & Alternatives | CRE Software",
@@ -10829,7 +10830,7 @@
     "deployment": [
       "Cloud"
     ],
-    "rating": 4.0,
+    "rating": 4,
     "review_count": 0,
     "seo": {
       "title": "SpaceQuant Review 2026: Pricing, Features & Alternatives | CRE Software",
@@ -11635,20 +11636,21 @@
       }
     ],
     "pricing": {
-      "model": "Per unit/month",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": true,
+      "model": "Subscription",
+      "starting_price": "$15/month (billed annually)",
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
+      "free_trial": true,
+      "free_tier": false,
       "plans": [
         {
           "name": "Starter",
-          "price": "Free",
+          "price": "$15/month annual ($18 monthly)",
           "period": "monthly",
           "features": [
-            "Unlimited properties",
-            "10 leases",
-            "1 GB storage",
+            "Up to 10 leases",
             "Listing syndication",
             "Tenant screening",
             "Online payments",
@@ -11657,11 +11659,10 @@
         },
         {
           "name": "Growth",
-          "price": "Contact for pricing",
+          "price": "$29/month annual ($35 monthly)",
           "period": "monthly",
           "features": [
-            "30 leases",
-            "10 GB storage",
+            "Up to 30 leases",
             "Lead text messaging",
             "Custom listing website",
             "Tenant message board"
@@ -11669,11 +11670,10 @@
         },
         {
           "name": "Pro",
-          "price": "Contact for pricing",
+          "price": "$50/month annual ($60 monthly)",
           "period": "monthly",
           "features": [
-            "60 leases",
-            "25 GB storage",
+            "Up to 60 leases",
             "Lease builder",
             "Move in/out inspections",
             "State-specific forms"
@@ -11681,11 +11681,10 @@
         },
         {
           "name": "Business",
-          "price": "Contact for pricing",
+          "price": "From $100/month",
           "period": "monthly",
           "features": [
             "Unlimited leases",
-            "Custom storage",
             "All features",
             "Priority support"
           ]
@@ -11739,7 +11738,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-09-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "tenantcloud.com",
@@ -16484,30 +16483,41 @@
       }
     ],
     "pricing": {
-      "model": "Per unit/month",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
+      "model": "Subscription",
+      "starting_price": "$25/month",
+      "billing_options": [
+        "Monthly"
+      ],
+      "free_trial": true,
       "free_tier": false,
       "plans": [
         {
-          "name": "Rentec Pro (Landlords)",
-          "price": "$2/unit/month",
+          "name": "Starter",
+          "price": "$25/month",
           "period": "monthly",
           "features": [
+            "Up to 10 properties",
             "Accounting",
             "Tenant screening",
             "Online payments",
-            "Vacancy publishing",
-            "Maintenance management"
+            "Vacancy publishing"
+          ]
+        },
+        {
+          "name": "Rentec Pro (Landlords)",
+          "price": "From $50/month",
+          "period": "monthly",
+          "features": [
+            "Larger portfolios",
+            "Maintenance management",
+            "Everything in Starter"
           ]
         },
         {
           "name": "Rentec PM (Property Managers)",
-          "price": "$2.50/unit/month",
+          "price": "From $50/month",
           "period": "monthly",
           "features": [
-            "Everything in Pro",
             "Owner portal & statements",
             "Custom website",
             "Trust accounting",
@@ -16571,7 +16581,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-09-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "rentecdirect.com",
@@ -16689,7 +16699,7 @@
     ],
     "pricing": {
       "model": "Flat rate",
-      "starting_price": null,
+      "starting_price": "$12/month (billed annually)",
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
@@ -16715,7 +16725,7 @@
         },
         {
           "name": "Annual",
-          "price": "$19.95",
+          "price": "$12",
           "period": "monthly (billed annually)",
           "features": [
             "Same as Monthly"
@@ -16754,6 +16764,7 @@
       "Property Management"
     ],
     "deployment": [
+      "Cloud",
       "Mobile"
     ],
     "rating": null,
@@ -16767,7 +16778,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-09-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "rentredi.com",
@@ -17184,8 +17195,10 @@
     ],
     "pricing": {
       "model": "Freemium",
-      "starting_price": null,
-      "billing_options": [],
+      "starting_price": "Free",
+      "billing_options": [
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": true,
       "plans": [
@@ -17202,9 +17215,9 @@
           ]
         },
         {
-          "name": "Premium",
-          "price": "$12.42/unit/month",
-          "period": "monthly (billed annually)",
+          "name": "Paid plans",
+          "price": "From $149/year (billed annually, priced by unit count)",
+          "period": "annual",
           "features": [
             "Everything in Free",
             "State-specific leases",
@@ -17260,7 +17273,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-09-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "turbotenant.com",
@@ -20279,7 +20292,7 @@
     "deployment": [
       "Cloud"
     ],
-    "rating": 4.0,
+    "rating": 4,
     "review_count": 0,
     "seo": {
       "title": "HouseCanary Review 2026: Pricing, Features & Alternatives | CRE Software",
@@ -20781,7 +20794,7 @@
     ],
     "pricing": {
       "model": "Per unit/month",
-      "starting_price": null,
+      "starting_price": "$69/month (billed annually)",
       "billing_options": [
         "Monthly",
         "Annual"
@@ -20791,7 +20804,7 @@
       "plans": [
         {
           "name": "Starter",
-          "price": "$69",
+          "price": "$69 annual ($99 monthly), up to 10 units, $3 per additional unit",
           "period": "monthly (billed annually)",
           "features": [
             "Online rent & fee payments",
@@ -20806,7 +20819,7 @@
         },
         {
           "name": "Pro",
-          "price": "$139",
+          "price": "$149",
           "period": "monthly (billed annually)",
           "features": [
             "Everything in Starter",
@@ -20822,7 +20835,7 @@
         },
         {
           "name": "Premium",
-          "price": "$199",
+          "price": "$209",
           "period": "monthly (billed annually)",
           "features": [
             "Everything in Pro",
@@ -20830,6 +20843,14 @@
             "Free incoming ACH payments",
             "Free personalized website",
             "Custom dashboards"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom quote",
+          "period": "",
+          "features": [
+            "300+ units"
           ]
         }
       ]
@@ -20885,7 +20906,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-09-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "doorloop.com",
@@ -21492,13 +21513,16 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
-      "billing_options": [],
+      "starting_price": "$49.99/month",
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": [
         {
-          "name": "Basic",
+          "name": "Lite",
           "price": "$49.99",
           "period": "monthly",
           "features": [
@@ -21509,24 +21533,32 @@
         },
         {
           "name": "Standard",
-          "price": "$99.99",
+          "price": "$99.99 monthly ($74.99 billed annually)",
           "period": "monthly",
           "features": [
-            "Everything in Basic",
+            "Everything in Lite",
             "Advanced analytics",
             "Rental comps",
-            "Dynamic pricing"
+            "Short-term vs long-term rental analysis"
           ]
         },
         {
-          "name": "Premium",
-          "price": "$249.99",
+          "name": "Professional",
+          "price": "$119.99 monthly ($99.99 billed annually)",
           "period": "monthly",
           "features": [
             "Everything in Standard",
+            "Export and reporting",
+            "Priority support"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom quote",
+          "period": "",
+          "features": [
             "API access",
-            "Priority support",
-            "Custom reports"
+            "Custom data"
           ]
         }
       ]
@@ -21576,7 +21608,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-09-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "mashvisor.com",
@@ -21904,15 +21936,49 @@
       }
     ],
     "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
+      "model": "Freemium",
+      "starting_price": "Free",
       "billing_options": [
         "Monthly",
         "Annual"
       ],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Essentials",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Income and expense tracking",
+            "Financial reporting",
+            "Document storage",
+            "Bank account linking"
+          ]
+        },
+        {
+          "name": "Manage",
+          "price": "$12/month annual ($15 monthly)",
+          "period": "monthly",
+          "features": [
+            "Everything in Essentials",
+            "Rent collection",
+            "Tenant screening",
+            "Higher-yield cash management"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$28/month annual ($35 monthly)",
+          "period": "monthly",
+          "features": [
+            "Everything in Manage",
+            "Unlimited portfolios",
+            "Advanced reporting",
+            "Priority support"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
@@ -21972,12 +22038,12 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-09-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "stessa.com",
     "pricing_model": "Quote-based",
-    "is_free": false,
+    "is_free": true,
     "tagline": "Real estate investor portfolio management and tax preparation",
     "property_types": [
       "Residential",
