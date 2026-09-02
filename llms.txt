@@ -1,0 +1,150 @@
+# CRE Software Directory
+
+> Independent, editorially maintained directory of 504 commercial real estate (CRE) software tools across 16 categories, with buyer's guides, ranked alternatives guides, and head-to-head comparisons. Listings are researched from vendor documentation and public sources. Featured placements are labeled as paid and never change editorial content. No star ratings or user reviews are published.
+
+Site: https://cresoftware.tech
+Contact: hello@cresoftware.tech
+Last content update: 2026-09-02
+
+## Categories
+- [Data & Analytics software](https://cresoftware.tech/categories/data-analytics/): 167 tools. Market research, benchmarking, and portfolio analytics platforms that turn raw property data into actionable insights. Track comps, forecast trends, and make smarter investment decisions.
+- [Property Management software](https://cresoftware.tech/categories/property-management/): 121 tools. End-to-end platforms for managing commercial properties, from lease administration and rent collection to maintenance coordination and tenant communications. Compare tools built for portfolios of every size.
+- [CRM & Marketing software](https://cresoftware.tech/categories/crm-marketing/): 120 tools. CRM systems and marketing platforms purpose-built for commercial real estate. Manage broker relationships, automate outreach, track deal pipelines, and nurture tenant and investor leads.
+- [Investment & Valuation software](https://cresoftware.tech/categories/investment-valuation/): 106 tools. Underwriting, financial modeling, and deal analysis tools for acquisitions, dispositions, and fund management. Build pro formas, stress-test assumptions, and present to investors with confidence.
+- [AI & Automation software](https://cresoftware.tech/categories/ai-automation/): 101 tools. AI-powered tools transforming CRE workflows, from automated document extraction and lease abstraction to predictive analytics and intelligent property matching.
+- [Broker Tools software](https://cresoftware.tech/categories/broker-tools/): 97 tools. Deal management, commission tracking, and workflow tools designed for commercial brokers and brokerage firms. Streamline listings, proposals, and transaction coordination.
+- [Accounting & Finance software](https://cresoftware.tech/categories/accounting-finance/): 87 tools. Accounting, budgeting, and financial reporting platforms tailored for commercial real estate. Handle complex fund structures, property-level P&L, and investor distributions.
+- [Construction & Development software](https://cresoftware.tech/categories/construction-development/): 80 tools. Project management, budgeting, and coordination tools for ground-up development and major renovations. Track timelines, manage contractors, and keep builds on budget.
+- [Site Selection software](https://cresoftware.tech/categories/site-selection/): 48 tools. Location intelligence and site analysis platforms for retailers, restaurants, and corporate occupiers. Evaluate demographics, traffic patterns, and competitive landscapes before signing a lease.
+- [Listing Services software](https://cresoftware.tech/categories/listing-services/): 33 tools. Commercial listing platforms and marketing tools for advertising available spaces. Syndicate listings, generate lead traffic, and connect landlords with prospective tenants.
+- [Tenant Experience software](https://cresoftware.tech/categories/tenant-experience/): 26 tools. Platforms that improve the tenant journey, from building access and amenity booking to community engagement and service requests. Increase retention and justify premium rents.
+- [Legal & Compliance software](https://cresoftware.tech/categories/legal-compliance/): 25 tools. Lease review, contract management, and regulatory compliance tools for commercial real estate. Automate abstraction, track obligations, and reduce legal risk across your portfolio.
+- [Workplace & Space Management software](https://cresoftware.tech/categories/workplace-space-management/): 21 tools. Workspace planning, space utilization, and facility management.
+- [Crowdfunding & Investing software](https://cresoftware.tech/categories/crowdfunding-investing/): 20 tools. Platforms connecting real estate sponsors with investors. Manage fundraising, investor relations, distributions, and regulatory compliance for syndications and funds.
+- [Lending & Debt software](https://cresoftware.tech/categories/lending-debt/): 15 tools. Loan origination, debt marketplaces, servicing, and borrower intelligence for real estate lenders, brokers, and investors. From CRE loan origination systems to construction draw administration and private lending platforms.
+- [Energy & Sustainability software](https://cresoftware.tech/categories/energy-sustainability/): 6 tools. Energy management, utility benchmarking, ESG reporting, and decarbonization software for buildings. Track consumption, comply with ordinances like LL97, plan retrofits, and report portfolio sustainability performance.
+
+## Buyer's guides
+- [Best Accounting & Finance software for CRE](https://cresoftware.tech/guides/accounting-finance.html)
+- [Best AI & Automation software for CRE](https://cresoftware.tech/guides/ai-automation.html)
+- [Best Broker Tools software for CRE](https://cresoftware.tech/guides/broker-tools.html)
+- [Best Construction & Development software for CRE](https://cresoftware.tech/guides/construction-development.html)
+- [Best CRM & Marketing software for CRE](https://cresoftware.tech/guides/crm-marketing.html)
+- [Best Crowdfunding & Investing software for CRE](https://cresoftware.tech/guides/crowdfunding-investing.html)
+- [Best Data & Analytics software for CRE](https://cresoftware.tech/guides/data-analytics.html)
+- [Best Investment & Valuation software for CRE](https://cresoftware.tech/guides/investment-valuation.html)
+- [Best Legal & Compliance software for CRE](https://cresoftware.tech/guides/legal-compliance.html)
+- [Best Listing Services software for CRE](https://cresoftware.tech/guides/listing-services.html)
+- [Best Property Management software for CRE](https://cresoftware.tech/guides/property-management.html)
+- [Best Site Selection software for CRE](https://cresoftware.tech/guides/site-selection.html)
+- [Best Tenant Experience software for CRE](https://cresoftware.tech/guides/tenant-experience.html)
+- [Best Workplace & Space Management software for CRE](https://cresoftware.tech/guides/workplace-space-management.html)
+
+## Alternatives guides
+- [All alternatives guides](https://cresoftware.tech/alternatives/)
+- [Best AppFolio alternatives](https://cresoftware.tech/alternatives/appfolio/): AppFolio positions itself as an AI-native performance platform, and that is exactly why some teams look elsewhere.
+- [Best Argus by Altus Group alternatives](https://cresoftware.tech/alternatives/argus/): ARGUS is the industry standard for CRE valuation and DCF modeling, taught in 200+ universities, and that standardization is why leaving it is hard.
+- [Best Buildout alternatives](https://cresoftware.tech/alternatives/buildout/): Buildout is purpose-built for CRE brokerages, but shoppers hit a few consistent friction points in the data: quote-based pricing across all products with no published prices, a product best suited…
+- [Best CoStar alternatives](https://cresoftware.tech/alternatives/costar/): CoStar is the largest commercial real estate database in the US, but its premium pricing is cost-prohibitive for smaller firms and individual brokers, and annual contracts offer limited flexibility…
+- [Best Crexi alternatives](https://cresoftware.tech/alternatives/crexi/): Crexi has grown fast on the strength of free basic access and a modern interface, but its youth shows in places the data acknowledges: listing inventory is smaller than CoStar or LoopNet in some…
+- [Best Dealpath alternatives](https://cresoftware.tech/alternatives/dealpath/): Dealpath is deal and pipeline management software for institutional real estate investment teams.
+- [Best Juniper Square alternatives](https://cresoftware.tech/alternatives/juniper-square/): Juniper Square is an investment management and fund administration platform for private markets GPs.
+- [Best Matterport alternatives](https://cresoftware.tech/alternatives/matterport/): Matterport is the default platform for 3D digital twins in real estate, used for listing tours, floor plans, facilities documentation and construction coordination.
+- [Best Procore alternatives](https://cresoftware.tech/alternatives/procore/): Procore is the industry-leading construction management platform, but its model does not fit everyone.
+- [Best Reonomy alternatives](https://cresoftware.tech/alternatives/reonomy/): Reonomy's ownership intelligence, piercing LLCs and trusts and tracking debt maturity, makes it a favorite prospecting tool, but the data flags real limitations.
+- [Best VTS alternatives](https://cresoftware.tech/alternatives/vts/): VTS unifies leasing, marketing, tenant experience, and market data across 13B+ square feet, but it is built for large landlords, and the data says so: enterprise pricing is not accessible for small…
+- [Best Yardi alternatives](https://cresoftware.tech/alternatives/yardi/): Yardi is one of the most comprehensive property management stacks available, but that breadth comes with real costs.
+- [Best AirDNA alternatives](https://cresoftware.tech/alternatives/airdna/): AirDNA is the most widely used short-term rental analytics platform, tracking Airbnb and Vrbo listings worldwide with market-level occupancy, daily rate and revenue data, a Rentalizer that estimates…
+- [Best Archibus alternatives](https://cresoftware.tech/alternatives/archibus/): Archibus is a long-established Integrated Workplace Management System, now sold as part of Eptura's worktech portfolio alongside the former iOFFICE and SpaceIQ products.
+- [Best Buildium alternatives](https://cresoftware.tech/alternatives/buildium/): Buildium is a strong residential property management platform with transparent pricing, but its own trade-offs push some users to shop around.
+- [Best Cherre alternatives](https://cresoftware.tech/alternatives/cherre/): Cherre is a data management layer for institutional real estate: it ingests internal system data and 150-plus external sources, normalizes everything into a Universal Data Model, and delivers clean…
+- [Best Compstak alternatives](https://cresoftware.tech/alternatives/compstak/): CompStak's crowdsourced exchange produces lease comp detail, effective rents, TI, free rent, lease terms, that is hard to find anywhere else, and it is free for contributing brokers and appraisers.
+- [Best DoorLoop alternatives](https://cresoftware.tech/alternatives/doorloop/): DoorLoop is cloud property management software for landlords, small managers and investors, founded in Miami in 2019.
+- [Best Entrata alternatives](https://cresoftware.tech/alternatives/entrata/): Entrata is a property management operating system for multifamily, student, affordable, military and manufactured housing operators, with more than 2.5 million units on the platform.
+- [Best LoopNet alternatives](https://cresoftware.tech/alternatives/loopnet/): LoopNet's 10M+ monthly visitors make it the default place to market commercial property, but the economics frustrate many brokers.
+- [Best MRI Software alternatives](https://cresoftware.tech/alternatives/mri-software/): MRI Software's 50-year track record and open platform with 200+ integration partners make it a safe enterprise choice, but the data lists familiar enterprise pains: a complex platform with a steep…
+- [Best Placer.ai alternatives](https://cresoftware.tech/alternatives/placer/): Placer.ai leads location intelligence with foot traffic data traditional CRE providers cannot match, but its constraints are clear in the data: coverage is US-focused with limited international…
+- [Best PropertyShark alternatives](https://cresoftware.tech/alternatives/propertyshark/): PropertyShark is a property research and prospecting database owned by Yardi, priced from $60 per month with a free trial.
+- [Best Realpage alternatives](https://cresoftware.tech/alternatives/realpage/): RealPage offers the most comprehensive multifamily tech stack in the market, but four issues push operators to evaluate alternatives.
+- [Best Rent Manager alternatives](https://cresoftware.tech/alternatives/rent-manager/): Rent Manager is property management and accounting software from London Computer Systems, a Cincinnati company that has built it since 1986.
+- [Best TenantCloud alternatives](https://cresoftware.tech/alternatives/tenantcloud/): TenantCloud is cloud property management software for landlords and small managers, with separate apps for landlords, tenants, owners and service providers.
+- [Best Visual Lease alternatives](https://cresoftware.tech/alternatives/visuallease/): Visual Lease is an enterprise lease administration and lease accounting platform covering the full lease lifecycle plus ASC 842, IFRS 16 and GASB 87 compliance for both real estate and equipment…
+
+## Head-to-head comparisons
+- [All comparisons](https://cresoftware.tech/compare.html)
+- [Yardi vs AppFolio](https://cresoftware.tech/compare/yardi-vs-appfolio/): Yardi wins on breadth across every property type; AppFolio wins on modern AI-native UX for growing residential managers.
+- [Yardi vs MRI Software](https://cresoftware.tech/compare/yardi-vs-mri-software/): Yardi is the all-in-one closed ecosystem; MRI is the open platform with 200+ integrations. Pick by philosophy, not feature lists.
+- [Yardi vs Realpage](https://cresoftware.tech/compare/yardi-vs-realpage/): RealPage is the multifamily revenue-optimization specialist; Yardi is the broader platform for every property type and size.
+- [Yardi vs Buildium](https://cresoftware.tech/compare/yardi-vs-buildium/): Buildium for straightforward residential management with transparent pricing; Yardi when you need commercial, investment, or enterprise scale.
+- [AppFolio vs Buildium](https://cresoftware.tech/compare/appfolio-vs-buildium/): Buildium wins for small landlords with transparent $62+/month pricing; AppFolio suits growth-minded firms wanting deeper AI automation.
+- [AppFolio vs MRI Software](https://cresoftware.tech/compare/appfolio-vs-mri-software/): AppFolio for AI-driven residential management; MRI for commercial, mixed-use, and institutional portfolios needing enterprise depth.
+- [AppFolio vs Realpage](https://cresoftware.tech/compare/appfolio-vs-realpage/): AppFolio for unified AI-native management at mid-scale; RealPage for enterprise multifamily revenue optimization and analytics.
+- [Buildium vs Realpage](https://cresoftware.tech/compare/buildium-vs-realpage/): Buildium serves landlords and SMB managers with transparent pricing; RealPage serves institutional multifamily. Almost no overlap.
+- [Realpage vs MRI Software](https://cresoftware.tech/compare/realpage-vs-mri-software/): RealPage for enterprise multifamily revenue optimization; MRI for commercial, mixed-use, and investment management depth.
+- [VTS vs MRI Software](https://cresoftware.tech/compare/vts-vs-mri-software/): Not either/or: MRI is the accounting and lease-admin backbone; VTS is the leasing and market-intelligence layer, and they integrate.
+- [VTS vs Yardi](https://cresoftware.tech/compare/vts-vs-yardi/): Yardi is the property management and accounting backbone; VTS is the leasing and asset management layer that often sits on top of it.
+- [Argus by Altus Group vs Dealpath](https://cresoftware.tech/compare/argus-vs-dealpath/): Argus is the industry-standard DCF valuation engine; Dealpath manages the deal pipeline around it. Most institutional teams need both.
+- [Argus by Altus Group vs Juniper Square](https://cresoftware.tech/compare/argus-vs-juniper-square/): Argus values the assets; Juniper Square manages the fund and its investors. GPs running institutional capital typically need both layers.
+- [Dealpath vs Juniper Square](https://cresoftware.tech/compare/dealpath-vs-juniper-square/): Dealpath runs the acquisitions pipeline; Juniper Square runs fundraising and fund administration. They cover opposite sides of a GP's business.
+- [CoStar vs Compstak](https://cresoftware.tech/compare/costar-vs-compstak/): CoStar is the comprehensive researched database; CompStak trades crowdsourced comps for unmatched effective-rent detail. Often free for contributors.
+- [CoStar vs Placer.ai](https://cresoftware.tech/compare/costar-vs-placer/): CoStar covers property data and comps; Placer.ai measures real-world foot traffic. Retail buyers often want both, and Placer has a free tier.
+- [Compstak vs Placer.ai](https://cresoftware.tech/compare/compstak-vs-placer/): CompStak delivers granular lease and sales comps; Placer.ai delivers foot traffic and trade areas. Different data for different questions.
+- [HqO vs SmartRent](https://cresoftware.tech/compare/hqo-vs-smartrent/): HqO is tenant experience for office portfolios; SmartRent is smart-home hardware and software for multifamily. Pick by asset class.
+- [CoStar vs Crexi](https://cresoftware.tech/compare/costar-vs-crexi/): CoStar/LoopNet is the data-rich institutional standard; Crexi is the free-to-start, modern challenger. Many brokers simply use both.
+- [Buildout vs Apto](https://cresoftware.tech/compare/buildout-vs-apto/): Apto appears discontinued; Buildout is the actively developed CRE brokerage platform and the practical choice. And a natural Apto migration path.
+- [Crexi vs LoopNet](https://cresoftware.tech/compare/crexi-vs-loopnet/): LoopNet wins on raw listing exposure through CoStar's audience; Crexi wins on price, deal management, and a modern workflow for active brokers.
+- [CoStar vs Reonomy](https://cresoftware.tech/compare/costar-vs-reonomy/): CoStar wins for lease comps, valuation, and market research; Reonomy wins for owner discovery and prospecting at a lower entry cost.
+- [Visual Lease vs LeaseQuery](https://cresoftware.tech/compare/visuallease-vs-leasequery/): Visual Lease wins for enterprise lease administration across real estate and equipment; LeaseQuery, now part of FinQuery, wins for accounting-first compliance at any size.
+- [Entrata vs Realpage](https://cresoftware.tech/compare/entrata-vs-realpage/): Entrata wins for operators who want one login across diverse housing types; RealPage wins for enterprise multifamily teams built around revenue management and analytics.
+- [Entrata vs Yardi](https://cresoftware.tech/compare/entrata-vs-yardi/): Yardi wins on property-type breadth, deployment options, and an affordable entry tier; Entrata wins for multifamily operators who want one modern, unified platform.
+- [Rent Manager vs AppFolio](https://cresoftware.tech/compare/rent-manager-vs-appfolio/): Rent Manager wins on accounting depth and mixed-portfolio flexibility; AppFolio wins on modern user experience and AI automation for residential managers.
+- [DoorLoop vs Buildium](https://cresoftware.tech/compare/doorloop-vs-buildium/): DoorLoop suits smaller mixed portfolios that want simple setup and AI tooling; Buildium suits residential managers and association firms that need depth and published, predictable pricing.
+- [TenantCloud vs TurboTenant](https://cresoftware.tech/compare/tenantcloud-vs-turbo-tenant/): TurboTenant is the better free starting point for self-managing landlords; TenantCloud suits landlords and small managers who want accounting, owner portals, and QuickBooks sync.
+- [Archibus vs Planon](https://cresoftware.tech/compare/archibus-vs-planon/): Archibus, now under Eptura, fits US enterprises and government with deep CAD-linked space management; Planon fits global occupiers wanting a configurable IWMS with lease accounting and sustainability.
+- [Matterport vs iGUIDE](https://cresoftware.tech/compare/matterport-vs-iguide/): Matterport is the default for immersive 3D marketing tours across any camera; iGUIDE is the better choice when accurate, exportable floor plans and pay-per-project pricing matter more.
+- [AirDNA vs Mashvisor](https://cresoftware.tech/compare/airdna-vs-mashvisor/): AirDNA is the deeper short-term rental dataset for hosts and STR investors; Mashvisor is the broader tool for comparing STR and long-term returns before buying.
+- [Stessa vs Baselane](https://cresoftware.tech/compare/stessa-vs-baselane/): Stessa is the stronger free bookkeeping and reporting app for rental investors; Baselane is the better pick if you want property-level bank accounts and rent collection in one place.
+
+## Browse by integration
+- [All integration hubs](https://cresoftware.tech/integrations/)
+- [CRE software that integrates with Yardi](https://cresoftware.tech/integrations/yardi/): 16 tools
+- [CRE software that integrates with Zillow](https://cresoftware.tech/integrations/zillow/): 16 tools
+- [CRE software that integrates with DocuSign](https://cresoftware.tech/integrations/docusign/): 13 tools
+- [CRE software that integrates with Salesforce](https://cresoftware.tech/integrations/salesforce/): 12 tools
+- [CRE software that integrates with MRI Software](https://cresoftware.tech/integrations/mri-software/): 11 tools
+- [CRE software that integrates with TransUnion](https://cresoftware.tech/integrations/transunion/): 11 tools
+- [CRE software that integrates with QuickBooks](https://cresoftware.tech/integrations/quickbooks/): 10 tools
+- [CRE software that integrates with SAP](https://cresoftware.tech/integrations/sap/): 9 tools
+- [CRE software that integrates with RealPage](https://cresoftware.tech/integrations/realpage/): 9 tools
+- [CRE software that integrates with Realtor.com](https://cresoftware.tech/integrations/realtor-com/): 9 tools
+- [CRE software that integrates with Apartments.com](https://cresoftware.tech/integrations/apartments-com/): 8 tools
+- [CRE software that integrates with Excel](https://cresoftware.tech/integrations/excel/): 7 tools
+- [CRE software that integrates with Plaid](https://cresoftware.tech/integrations/plaid/): 7 tools
+- [CRE software that integrates with VTS](https://cresoftware.tech/integrations/vts/): 6 tools
+- [CRE software that integrates with ARGUS](https://cresoftware.tech/integrations/argus/): 6 tools
+- [CRE software that integrates with Snowflake](https://cresoftware.tech/integrations/snowflake/): 5 tools
+- [CRE software that integrates with Oracle](https://cresoftware.tech/integrations/oracle/): 5 tools
+- [CRE software that integrates with Power BI](https://cresoftware.tech/integrations/power-bi/): 5 tools
+- [CRE software that integrates with CoStar](https://cresoftware.tech/integrations/costar/): 5 tools
+- [CRE software that integrates with Google Maps](https://cresoftware.tech/integrations/google-maps/): 5 tools
+- [CRE software that integrates with Microsoft 365](https://cresoftware.tech/integrations/microsoft-365/): 5 tools
+- [CRE software that integrates with Microsoft Dynamics](https://cresoftware.tech/integrations/microsoft-dynamics/): 5 tools
+- [CRE software that integrates with Stripe](https://cresoftware.tech/integrations/stripe/): 5 tools
+- [CRE software that integrates with Workday](https://cresoftware.tech/integrations/workday/): 5 tools
+- [CRE software that integrates with Trulia](https://cresoftware.tech/integrations/trulia/): 5 tools
+- [CRE software that integrates with Appfolio](https://cresoftware.tech/integrations/appfolio/): 5 tools
+- [CRE software that integrates with Autodesk](https://cresoftware.tech/integrations/autodesk/): 4 tools
+- [CRE software that integrates with Microsoft Excel](https://cresoftware.tech/integrations/microsoft-excel/): 4 tools
+- [CRE software that integrates with Entrata](https://cresoftware.tech/integrations/entrata/): 4 tools
+- [CRE software that integrates with Servicenow](https://cresoftware.tech/integrations/servicenow/): 4 tools
+- [CRE software that integrates with Zapier](https://cresoftware.tech/integrations/zapier/): 4 tools
+- [CRE software that integrates with Hotpads](https://cresoftware.tech/integrations/hotpads/): 4 tools
+- [CRE software that integrates with Follow Up Boss](https://cresoftware.tech/integrations/follow-up-boss/): 4 tools
+
+## Product pages
+Every listed product has a page at https://cresoftware.tech/products/<slug>/ with an overview, pricing model, pros and cons, target audience, integrations, and FAQ. The full URL list is in https://cresoftware.tech/sitemap.xml.
+
+## About
+- [About and methodology](https://cresoftware.tech/about.html)
+- [Submit a tool](https://cresoftware.tech/submit.html)
+- [Advertise (Featured listings)](https://cresoftware.tech/advertise.html)
