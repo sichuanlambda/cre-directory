@@ -154,6 +154,11 @@ function articleLd(headline, canonical, description) {
     "author": { "@type": "Organization", "name": "CRE Software Directory", "url": BASE },
     "publisher": { "@type": "Organization", "name": "CRE Software Directory", "url": BASE, "logo": { "@type": "ImageObject", "url": `${BASE}/img/apple-touch-icon.png` } } };
 }
+// Disclosure line for products with an ownership relationship to the directory (product.disclosure).
+const disclosureHTML = products => {
+  const notes = [...new Set(products.filter(p => p && p.disclosure).map(p => p.disclosure))];
+  return notes.length ? `<p class="disclosure-line">Disclosure: ${notes.map(esc).join(' ')}</p>` : '';
+};
 const updatedLine = () => `<p class="updated-line">Updated ${LASTMOD_FMT_TOKEN}. Independent editorial; <a href="/about.html">how we research</a>.</p>`;
 // Chips linking every alternatives guide (homepage + compare hub).
 const altChipsHTML = () => `<div style="display:flex;flex-wrap:wrap;gap:10px">${altsSorted().map(x => `<a href="${alternativesPath(x.slug)}" class="badge badge-accent" style="font-size:13px;padding:6px 12px">${esc(x.product.title)} alternatives</a>`).join('')}</div>`;
@@ -566,6 +571,7 @@ function renderProductPage(product) {
         <div class="hero-content">
           <h1>${esc(product.title)}</h1>
           <div class="headline">${esc(product.headline || product.short_description || '')}</div>
+          ${product.disclosure ? `<div class="disclosure-line" style="margin:10px 0">Disclosure: ${esc(product.disclosure)}</div>` : ''}
           ${product.status_note ? `<div class="status-note" style="margin:10px 0;padding:8px 14px;border-radius:8px;background:rgba(243,156,18,.12);border:1px solid rgba(243,156,18,.35);font-size:14px;">ℹ️ ${esc(product.status_note)}</div>` : ''}
           ${isEcosystem ? `<div class="ecosystem-note" style="margin:10px 0;padding:8px 14px;border-radius:8px;background:rgba(59,130,246,.12);border:1px solid rgba(59,130,246,.35);font-size:14px;">🏛️ Ecosystem listing: ${esc(product.title)} is ${esc(product.entity_type || 'a company in the CRE ecosystem')}, not a software product.</div>` : ''}
           ${ratingHTML}
@@ -803,6 +809,7 @@ function renderAlternativesPage(slug, alt) {
       <h1>Best ${esc(product.title)} Alternatives (${YEAR})</h1>
       ${updatedLine()}
       <div class="description-section">${(alt.intro || '').split('\n\n').map(p => `<p>${esc(p)}</p>`).join('')}</div>
+      ${disclosureHTML([product].concat(picks.map(x => x.product)))}
       <div class="similar-section"><h2>Top ${esc(product.title)} Alternatives</h2>
         ${picks.map((x, i) => `<div style="margin:0 0 18px;padding:18px 20px;border:1px solid rgba(128,128,160,.25);border-radius:12px;">
           <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
@@ -934,6 +941,7 @@ function renderComparisonPage(cmp) {
       <h1>${esc(A.title)} vs ${esc(B.title)}: Which Is Better in ${YEAR}?</h1>
       ${updatedLine()}
       <p style="font-size:18px;">${esc(cmp.one_liner || '')}</p>
+      ${disclosureHTML([A, B])}
       <div style="display:flex;gap:24px;align-items:center;margin:20px 0;">
         <div style="display:flex;align-items:center;gap:10px;"><div class="product-logo">${logoHTML(A)}</div><a href="${productPath(A.slug)}"><strong>${esc(A.title)}</strong></a></div>
         <span style="opacity:.5;font-weight:700;">VS</span>
