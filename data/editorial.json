@@ -16,6 +16,10 @@
           "reason": "Better than CoStar for prospecting-driven work: it uncovers true owners behind LLCs and trusts and tracks debt maturity to flag motivated sellers. A free trial lets you evaluate it before committing, though lease data is thinner than CoStar's."
         },
         {
+          "slug": "Plotzy",
+          "reason": "If the CoStar slice you actually use is finding sites and owners rather than lease comps, Plotzy replaces it at a fraction of the cost: AI parcel search, two-level zoning on every parcel, owner contacts and exports for $180 to $300 a month with no annual contract. It has no lease or sales comps and no market analytics, so it is a partial replacement for land and development work, not a like-for-like one."
+        },
+        {
           "slug": "propertyshark",
           "reason": "At $60/month with a free trial, it is far more accessible than CoStar for individual users who need owner lookup, list building, and foreclosure tracking. Coverage is strongest in NYC and major metros, so verify your market first."
         },
@@ -409,6 +413,10 @@
         {
           "slug": "costar",
           "reason": "Solves Reonomy's coverage and lease-data gaps in one move: the most comprehensive CRE database, maintained by a 1,000+ person research team. The trade is premium pricing, annual contracts, and a steep learning curve."
+        },
+        {
+          "slug": "Plotzy",
+          "reason": "Choose Plotzy if your prospecting is land and development parcels rather than existing buildings: nationwide parcel search with two-level zoning filters, owner contact lookup, folders and CSV export for $180 to $300 a month, month to month, with a 7-day trial and no card. It lacks Reonomy's debt and mortgage data and is still labeled beta, so building-level investment sales teams should stay with Reonomy."
         },
         {
           "slug": "compstak",
@@ -955,6 +963,10 @@
           "reason": "PropTracer is built for one job: verified owner contact details for commercial and residential parcels, with map-based search, bulk CSV export and dynamic lists that refresh as records change. Choose it if PropertyShark's owner lookup gets you a name but not a working phone number. Pricing is quote-based, and accuracy can lag on very recently transferred properties."
         },
         {
+          "slug": "Plotzy",
+          "reason": "Plotzy covers 150M+ parcels across 3,200+ counties, which fills PropertyShark's gaps outside New York and the major metros, and adds two-level zoning filters plus owner contact lookup for outreach. It costs more, from $180 a month, and is still labeled beta, so a single-market user who only needs occasional owner lookups will find PropertyShark cheaper."
+        },
+        {
           "slug": "land-id",
           "reason": "Land id is the low-cost option, with a free plan and paid plans from $9.99 per month, covering parcel lines, ownership and comparable sales in all 50 states with branded interactive maps. It fits land, rural and suburban work far better than dense urban commercial, so NYC-focused PropertyShark users will find it thin for their core market."
         },
@@ -1218,6 +1230,100 @@
         {
           "question": "Is AirDNA data accurate?",
           "answer": "AirDNA compiles data from millions of Airbnb and Vrbo listings and is widely used, but accuracy can vary in smaller or emerging markets. Key Data uses verified reservation data from property management system integrations, which is more reliable for benchmarking a managed portfolio."
+        }
+      ]
+    },
+    "zoneomics": {
+      "intro": "Zoneomics is the zoning reference most CRE teams reach for first. It digitizes zoning and land use codes from thousands of cities into the largest nationwide zoning dataset, layers AI analysis on top, sells reports from $25 and certified zoning letters for closings, and exposes everything through an API. The reasons people look elsewhere are consistent: coverage is uneven, since not every city is fully digitized, the free search shows little without buying a report, per-report and per-letter costs add up for teams that check zoning every day, and it stops at the answer. Zoneomics tells you what a parcel allows; it does not help you find the next twenty parcels or reach their owners.\n\nSo start with the job. If zoning is the deliverable, you need a certified letter or a bulk code feed, the alternatives are thin and Zoneomics usually stays. If zoning is a filter on the way to a site or a prospect list, a parcel search platform with zoning attached to every record replaces it for most daily work, and a data vendor covers the pipeline case. Most land and development teams end up with one sourcing tool and Zoneomics on standby for confirmation.",
+      "picks": [
+        {
+          "slug": "Plotzy",
+          "reason": "The most direct replacement for daily zoning research: every one of Plotzy's 150M+ parcels carries a two-level zoning designation, so you filter a corridor, county or polygon by permitted use, lot size and owner type in one pass, then pull owner contacts and export the list. A Zoning AI chat covers the code questions Zoneomics reports answer. Flat pricing from $180 a month replaces per-report spend, with a 7-day trial and no card. It does not issue certified zoning letters, it is still labeled beta, and sub-level zoning depth varies by municipality."
+        },
+        {
+          "slug": "gridics",
+          "reason": "Gridics converts ordinances into parcel-level development-allowance data with a patented rules engine, and its PropZone product wraps that in property research and site selection tools with 3D development capacity. Pick it when you need buildable-envelope math, not just the zoning label. Depth depends on which municipalities have been onboarded, pricing is quote-based, and feasibility reports carry a services component."
+        },
+        {
+          "slug": "regrid",
+          "reason": "Regrid sells standardized zoning as an enrichment on complete US parcel data, delivered by API, tiles or bulk files. Choose it when you have GIS analysts or engineers and want zoning inside your own tools rather than a website. It is a data product, not an analysis application, and zoning is a paid add-on with no published pricing."
+        },
+        {
+          "slug": "landvision",
+          "reason": "LightBox Vision, the rebranded LandVision, puts zoning layers, parcel boundaries, ownership and in-platform report ordering in one enterprise mapping tool backed by LightBox datasets. Choose it for multi-seat teams already buying from LightBox. Pricing is annual and on quote, and the feature set is heavier than most brokers need."
+        },
+        {
+          "slug": "archistar",
+          "reason": "Archistar reads zoning rules, overlays and constraints and then generates code-compliant 3D massing options, so it answers what can be built rather than what the zoning says. Choose it for early feasibility on a shortlisted site. Planning-data depth is strongest in Australia and coverage varies elsewhere; pricing is not published."
+        },
+        {
+          "slug": "testfit",
+          "reason": "TestFit is the feasibility step after zoning: map the parcel, generate building configurations and see the financial takeoffs in hours. Choose it when the zoning answer is already known and the question is whether the deal pencils. It is not a zoning lookup and needs a sales conversation for pricing."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is there a free alternative to Zoneomics?",
+          "answer": "Zoneomics itself offers a free basic zoning search. Among alternatives, Plotzy provides a 7-day free trial with no credit card, and most other zoning and parcel platforms are paid or quote-based."
+        },
+        {
+          "question": "Which Zoneomics alternative also provides owner contacts?",
+          "answer": "Plotzy combines zoning filters with owner contact lookup, folders and CSV export, so a zoning search becomes a prospect list. LightBox Vision includes ownership data as well; Regrid provides ownership as a data enrichment."
+        },
+        {
+          "question": "Who else provides certified zoning letters?",
+          "answer": "Certified zoning verification letters remain a Zoneomics strength. Gridics offers expert-prepared zoning feasibility reports; the parcel search platforms in this list do not issue certified letters."
+        },
+        {
+          "question": "How does Plotzy compare to Zoneomics on coverage?",
+          "answer": "Plotzy covers 150M+ parcels across 3,200+ counties with a two-level zoning designation on every parcel; Zoneomics has the largest digitized code coverage but not every city is fully digitized. Check your target markets on both before committing."
+        }
+      ]
+    },
+    "landvision": {
+      "intro": "LandVision, now sold as LightBox Vision, is the enterprise mapping platform from LightBox: parcel boundaries, building footprints, ownership, zoning layers and report ordering on one map, tied together by the LightBox ID that links records across the wider LightBox data ecosystem. It is a serious tool for large teams. The reasons people shop around are equally serious: pricing is annual and on quote, the rebrand created confusion about what is included, the feature set is heavier than a broker or small land team needs, and the enterprise sales process is slow when you want to start searching this week.\n\nDecide which slice you use. If it is finding parcels and owners for prospecting, a modern parcel search tool with published pricing does the job at a fraction of the cost. If it is ownership and debt intelligence on existing commercial buildings, a property intelligence platform fits better. If it is the underlying data for your own GIS, buy the data directly. Few teams need all of LightBox Vision, which is why most alternatives below are narrower and cheaper.",
+      "picks": [
+        {
+          "slug": "Plotzy",
+          "reason": "For brokers and land teams the closest like-for-like replacement: nationwide parcel search across 150M+ parcels with two-level zoning on every record, owner contact lookup, folders and CSV export, at published month-to-month pricing of $180 to $300 and a 7-day trial with no credit card. You trade the LightBox ecosystem and environmental reports for speed and transparency. It is still labeled beta and integrations sit on the custom Scale plan."
+        },
+        {
+          "slug": "reonomy",
+          "reason": "Reonomy, an Altus Group business, is the pick when the parcels you care about have buildings on them: ownership unmasking through LLCs, debt maturity, transaction history and 200+ filters for investment sales prospecting. It is thinner on land and zoning, pricing is not published, and it is a research tool rather than a map-first workflow."
+        },
+        {
+          "slug": "regrid",
+          "reason": "Regrid is the data layer without the application: 100% US parcel coverage with boundaries, building footprints, zoning and daily ownership updates, delivered by API, tiles or bulk files. Choose it when a GIS analyst or engineer will pipe parcels into your own stack. Pricing is quote-based and there is no research interface to speak of."
+        },
+        {
+          "slug": "propertyshark",
+          "reason": "PropertyShark gives owner lookup, list building and foreclosure tracking from $60 a month with a free trial, which makes it the budget replacement for occasional ownership research. Coverage is strongest in New York City and major metros, and it lacks the zoning and mapping depth of LightBox Vision."
+        },
+        {
+          "slug": "landglide",
+          "reason": "LandGlide is the mobile parcel viewer: tap a parcel in the field and see boundaries, owner and basic attributes on a phone. Choose it as a cheap field companion rather than a desk research platform. It has no prospecting workflow, contact intelligence or zoning analysis."
+        },
+        {
+          "slug": "costar",
+          "reason": "CoStar is the everything option: property, ownership, comps, analytics and marketplaces in one enterprise contract. Choose it when you need lease and sales comps alongside parcel research and the budget supports it. It is the most expensive path and overkill if parcel and owner lookup is the actual need."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is LandVision the same as LightBox Vision?",
+          "answer": "Yes. LandVision was rebranded as LightBox Vision after Digital Map Products became part of LightBox. The product remains a nationwide parcel mapping and property research platform."
+        },
+        {
+          "question": "What is the cheapest LandVision alternative?",
+          "answer": "PropertyShark starts at $60 a month and LandGlide is a low-cost mobile parcel viewer. For a full prospecting workflow with zoning and owner contacts, Plotzy starts at $180 a month with a 7-day free trial."
+        },
+        {
+          "question": "Which alternative is best for land and development sites?",
+          "answer": "Plotzy is built for land acquisition teams and developers, with two-level zoning on every parcel and sub-level zoning filters. CityBldr and TestFit are stronger once you need buildable-unit or feasibility math on a shortlisted site."
+        },
+        {
+          "question": "Do these alternatives require an annual contract?",
+          "answer": "Plotzy and PropertyShark are month to month. Reonomy offers monthly and annual billing. LightBox Vision, Regrid and CoStar are typically sold on annual or enterprise terms."
         }
       ]
     }
@@ -1908,6 +2014,126 @@
         {
           "question": "Do Stessa and Baselane handle maintenance and leasing?",
           "answer": "Stessa includes maintenance tracking, tenant screening, and eSigning alongside rent collection. Baselane covers rent collection and tenant screening but has no leasing, listing, or maintenance workflows."
+        }
+      ]
+    },
+    {
+      "a": "Plotzy",
+      "b": "zoneomics",
+      "one_liner": "Zoneomics is the deeper zoning reference with certified letters and the widest code coverage; Plotzy turns zoning into a parcel search with owner contacts, so it wins for sourcing sites rather than confirming one.",
+      "verdict": "Plotzy and Zoneomics both digitize zoning, but they sell different jobs. Zoneomics is a zoning data company: it aggregates codes from thousands of cities into the largest nationwide zoning dataset, sells reports from $25 and certified zoning letters, offers a free basic search, and exposes the data through an API. Plotzy is a parcel research platform: 150M+ parcels across 3,200+ counties, each carrying a two-level zoning designation, with filters for permitted use, lot size, owner type and sale date, plus owner contact lookup, folders and CSV export. Plotzy publishes flat monthly pricing of $180 or $300 with a 7-day trial.\n\nZoneomics wins when the question is what exactly this code allows at this address. Its city-level depth, report format and certified letters are what lenders, attorneys and closing checklists expect, and the API suits teams that want zoning inside their own systems. Coverage is the caveat on both sides, and Zoneomics remains the reference point that any parcel platform's sub-level zoning is measured against.\n\nPlotzy wins when zoning is a filter, not the deliverable. Find every parcel zoned for a use inside a corridor or county, screen by lot size and owner type, then pull contacts and export the list; Zoneomics does none of the list building or outreach. For a team running searches daily, a flat subscription is cheaper than per-report spend, while an occasional single-report buyer pays less on Zoneomics. Plotzy is still labeled beta and its sub-level zoning depth varies by municipality.\n\nThe rule: source with Plotzy, confirm with Zoneomics. Many land teams keep both, using Plotzy to build the list and a Zoneomics report or letter on the one parcel that goes to contract.",
+      "faq": [
+        {
+          "question": "Does Plotzy provide certified zoning letters?",
+          "answer": "No. Plotzy attaches two-level zoning to every parcel and answers code questions through its Zoning AI chat, but certified zoning verification letters remain a Zoneomics product."
+        },
+        {
+          "question": "Which is cheaper, Plotzy or Zoneomics?",
+          "answer": "For occasional lookups Zoneomics is cheaper: basic search is free and reports start at $25. For daily research Plotzy's flat $180 or $300 a month usually costs less than accumulating per-report fees."
+        },
+        {
+          "question": "Can Plotzy replace Zoneomics for site selection?",
+          "answer": "For finding and screening parcels by zoning, yes; Plotzy filters 150M+ parcels by permitted use and adds owner contacts and exports. For formal zoning confirmation on a parcel under contract, most teams still order a Zoneomics report or letter."
+        },
+        {
+          "question": "Is Plotzy affiliated with this directory?",
+          "answer": "Yes. Plotzy is built by the people behind CRE Software Directory. It is evaluated with the same criteria as every other listing and pays nothing for its place in editorial pages."
+        }
+      ]
+    },
+    {
+      "a": "Plotzy",
+      "b": "landvision",
+      "one_liner": "LightBox Vision is the enterprise mapping platform with the deeper data ecosystem; Plotzy does the same core job of finding parcels and owners with zoning filters, published pricing and a trial you can start today.",
+      "verdict": "Plotzy and LightBox Vision, the platform formerly sold as LandVision, both put nationwide parcels, ownership and zoning on a map so you can find sites and the people who own them. LightBox Vision comes from LightBox, a large CRE data company, and ties parcels to its wider datasets through the LightBox ID, with report ordering inside the platform and annual contracts priced on quote. Plotzy is a younger, AI-first platform covering 150M+ parcels across 3,200+ counties with two-level zoning on every record, owner contact lookup, folders and CSV export, priced month to month at $180 or $300 with a 7-day trial and no credit card.\n\nLightBox Vision wins for enterprise teams. If you already buy environmental, valuation or other LightBox products, want multi-seat administration, or need authoritative datasets and in-platform report ordering for due diligence, its breadth and ecosystem are the reason to accept the price and the procurement cycle. Its feature set is deep, and that depth is what large brokerages and lenders pay for.\n\nPlotzy wins on speed and clarity. Pricing is published, there is no annual contract, and a broker or land team can be searching within minutes of starting the trial. Zoning is a first-class filter rather than a layer, so finding parcels by permitted use is a single query, and owner contacts and exports live in the same workflow. The trade-offs are honest: Plotzy is still labeled beta, sub-level zoning depth varies by municipality, and API access and custom integrations sit on the custom Scale plan.\n\nPick LightBox Vision if you are an enterprise buyer who values the ecosystem more than the price. Pick Plotzy if you are a broker, developer or land team that wants to find parcels and owners this week at a cost you can see.",
+      "faq": [
+        {
+          "question": "Is LandVision still available?",
+          "answer": "LandVision is now sold as LightBox Vision. It remains a nationwide parcel mapping and property research platform from LightBox, priced on quote."
+        },
+        {
+          "question": "How much does Plotzy cost compared to LightBox Vision?",
+          "answer": "Plotzy publishes month-to-month pricing: $180 for Starter and $300 for Production, with a custom Scale plan. LightBox Vision does not publish pricing and is typically sold on annual terms."
+        },
+        {
+          "question": "Which has better zoning data?",
+          "answer": "Both include zoning. Plotzy attaches a two-level designation to every parcel and adds sub-level zoning filters and a Zoning AI chat; LightBox Vision offers zoning layers and report ordering backed by LightBox datasets. Coverage depth varies by municipality on both."
+        },
+        {
+          "question": "Is Plotzy affiliated with this directory?",
+          "answer": "Yes. Plotzy is built by the people behind CRE Software Directory. It is evaluated with the same criteria as every other listing and pays nothing for its place in editorial pages."
+        }
+      ]
+    },
+    {
+      "a": "Plotzy",
+      "b": "reonomy",
+      "one_liner": "Reonomy is the property intelligence choice for existing commercial buildings, with ownership unmasking and debt data; Plotzy is the parcel and zoning choice for land and development sourcing at a lower, published price.",
+      "verdict": "Plotzy and Reonomy both help CRE professionals find properties and reach owners, but they start from different objects. Reonomy, an Altus Group business, builds connected records for commercial buildings: ownership unmasked through LLCs and trusts, debt and mortgage maturity, transaction history, 200+ search filters and predictive signals for likely sellers, with API and bulk feeds for enterprise. Plotzy starts from the parcel: 150M+ parcels across 3,200+ counties with a two-level zoning designation on each, filters for permitted use, lot size, owner type and sale date, owner contact lookup, folders and CSV export.\n\nReonomy wins for investment sales and lending work on standing assets. If the play is finding the owner of a specific office or industrial building, spotting loans coming due, or working a market of existing properties with debt signals, its data depth is the product, and the free trial lets you test it on your market. Pricing is not published, and third-party listings put it at several hundred dollars per user per month.\n\nPlotzy wins for land, development sites and zoning-driven search. Reonomy has little to say about what a parcel is zoned for; Plotzy makes that the first filter and follows it with owner contacts and exports for outreach. It is priced month to month at $180 or $300, offers a 7-day trial with no card, and suits solo brokers and small land teams that would not clear Reonomy's price. It has no debt or mortgage data, is thinner on building-level attributes, and is still labeled beta.\n\nDecision rule: buildings and debt, Reonomy; parcels and zoning, Plotzy. Brokerages that do both often run each for its half.",
+      "faq": [
+        {
+          "question": "Does Plotzy have debt and mortgage data like Reonomy?",
+          "answer": "No. Plotzy focuses on parcel data, zoning and owner contacts. Debt maturity, mortgage and transaction intelligence on commercial buildings is a Reonomy strength."
+        },
+        {
+          "question": "Which is better for land brokers?",
+          "answer": "Plotzy, because zoning is a first-class search filter across 150M+ parcels and the workflow ends in owner contacts and an exported list. Reonomy is built around existing commercial buildings."
+        },
+        {
+          "question": "How do the prices compare?",
+          "answer": "Plotzy publishes $180 and $300 monthly plans with a 7-day free trial and no annual contract. Reonomy does not publish pricing; third-party listings place it at several hundred dollars per user per month, with a free trial available."
+        },
+        {
+          "question": "Is Plotzy affiliated with this directory?",
+          "answer": "Yes. Plotzy is built by the people behind CRE Software Directory. It is evaluated with the same criteria as every other listing and pays nothing for its place in editorial pages."
+        }
+      ]
+    },
+    {
+      "a": "Plotzy",
+      "b": "citybldr",
+      "one_liner": "CityBldr is for developers who want buildable units, rents and assemblage math on a site; Plotzy is the broader parcel, zoning and owner search at published prices for brokers and land teams.",
+      "verdict": "Plotzy and CityBldr both use AI to find development opportunities, and both count land acquisition teams and developers as core users. CityBldr goes deep on the development case: it calculates buildable units for a site, shows market rents by location, finds assemblage opportunities with its Assemblage AI, and includes a CRM for the resulting leads, on quote-based pricing. Plotzy goes wide: 150M+ parcels across 3,200+ counties with two-level zoning on each, filters for permitted use, lot size, owner type and sale date, a Zoning AI chat, owner contact lookup, folders and CSV export, at $180 or $300 a month with a 7-day trial.\n\nCityBldr wins when the buyer is a multifamily or commercial developer whose first question is how many units pencil here. Buildable-unit math, rent context and assemblage detection are real work that Plotzy does not do, and the built-in CRM keeps the pipeline in one place. Coverage varies by market and pricing requires a conversation.\n\nPlotzy wins when the job is broader than one development thesis: a land broker covering a county, an industrial buyer screening parcels by zoning, a retail team hunting corner sites, or anyone who needs owner contacts and an export more than a pro forma. Published month-to-month pricing and a no-card trial matter to smaller teams. Plotzy is still labeled beta, has no buildable-unit or rent modeling, and its sub-level zoning depth varies by municipality.\n\nPick CityBldr for development feasibility on candidate sites. Pick Plotzy to find the candidates and their owners in the first place; some teams use Plotzy to source and CityBldr to underwrite.",
+      "faq": [
+        {
+          "question": "Does Plotzy calculate buildable units?",
+          "answer": "No. Plotzy gives you parcel attributes and two-level zoning so you can screen sites; buildable-unit and rent calculations are CityBldr features, and feasibility tools such as TestFit go further."
+        },
+        {
+          "question": "Which is better for brokers rather than developers?",
+          "answer": "Plotzy. Its owner contact lookup, folders and CSV export are built for prospecting, and its pricing is published. CityBldr is optimized for developers underwriting sites."
+        },
+        {
+          "question": "Do both offer a free trial?",
+          "answer": "Plotzy offers a 7-day free trial on its Production plan with no credit card. CityBldr pricing and trials are handled through its sales team."
+        },
+        {
+          "question": "Is Plotzy affiliated with this directory?",
+          "answer": "Yes. Plotzy is built by the people behind CRE Software Directory. It is evaluated with the same criteria as every other listing and pays nothing for its place in editorial pages."
+        }
+      ]
+    },
+    {
+      "a": "Plotzy",
+      "b": "regrid",
+      "one_liner": "Regrid is the parcel dataset you pipe into your own GIS and applications; Plotzy is the finished research application on top of nationwide parcels, with zoning filters and owner contacts, for teams without a data engineer.",
+      "verdict": "Plotzy and Regrid both rest on nationwide parcel data, and that is where the similarity ends. Regrid sells standardized parcel data covering 100% of US parcels, with optional building footprints, standardized zoning and daily ownership updates, delivered by API, tiles, feature services or bulk files on quote-based pricing. It is a data product; the value shows up when it lands inside your own tools. Plotzy is an application: 150M+ parcels across 3,200+ counties, updated bi-weekly, with a two-level zoning designation on every parcel, filters for permitted use, lot size, owner type and sale date, a Zoning AI chat, owner contact lookup, folders and CSV export, at $180 or $300 a month.\n\nRegrid wins when you have GIS analysts or engineers and a stack to feed. A proptech product, a lender's underwriting system or a national retailer's internal site-selection model wants complete, standardized parcels with daily ownership refresh, and Regrid's delivery options fit that. It is the wrong purchase for a broker who wants answers on a screen.\n\nPlotzy wins for everyone who needs research, not raw data. There is nothing to integrate, zoning is already attached and searchable, owner contact lookup turns parcels into prospects, and the 7-day trial with no card means a solo broker or land team is productive the same day. Plotzy is not a data feed; API access sits on the custom Scale plan, the product is still labeled beta, and sub-level zoning depth varies by municipality.\n\nDecision rule: if the buyer is a data team, Regrid. If the buyer is a person who needs to find parcels and call owners this week, Plotzy.",
+      "faq": [
+        {
+          "question": "Can I get Plotzy data through an API?",
+          "answer": "API access and custom integrations are available on Plotzy's custom Scale plan. For bulk parcel data delivered by API, tiles or files, Regrid is the purpose-built option."
+        },
+        {
+          "question": "Which has better parcel coverage?",
+          "answer": "Regrid states coverage of 100% of US parcels with daily ownership updates. Plotzy covers 150M+ parcels across 3,200+ counties, updated bi-weekly, and adds two-level zoning and owner contact lookup on top."
+        },
+        {
+          "question": "Which is cheaper?",
+          "answer": "Plotzy publishes month-to-month pricing from $180. Regrid pricing is quote-based and depends on coverage, enrichments and delivery method, and it usually requires engineering time to use."
+        },
+        {
+          "question": "Is Plotzy affiliated with this directory?",
+          "answer": "Yes. Plotzy is built by the people behind CRE Software Directory. It is evaluated with the same criteria as every other listing and pays nothing for its place in editorial pages."
         }
       ]
     }

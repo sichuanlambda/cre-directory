@@ -7866,8 +7866,8 @@
     "url": "https://plotzy.ai",
     "logo_url": "/img/logos/Plotzy.png",
     "headline": "Find & Research Parcels with AI",
-    "description": "Plotzy is an AI-powered parcel and zoning search and research platform designed to help real estate professionals make more deals. The platform provides property data, owner contact information, list management, and zoning attribute search capabilities. Plotzy's Basic plan is aimed at brokers and individuals who want to quickly find property data and owner contacts, while the Pro plan serves land acquisition teams, developers, and brokers who need to find parcels based on specific property and zoning attributes. The platform is currently in beta release with expanding municipal coverage.",
-    "short_description": "Find & Research Parcels with AI",
+    "description": "Plotzy is an AI-powered parcel and zoning research platform for commercial real estate brokers, land acquisition teams, developers and investors. It covers 150M+ parcels across 3,200+ US counties, updated bi-weekly, and attaches a two-level zoning designation to every parcel so you can search by permitted use, lot size, land use, assessed value, owner type and sale date instead of decoding municipal code parcel by parcel. A Zoning AI chat answers code questions in plain language, FEMA flood layers and satellite basemaps sit on the same map, and owner contact lookup, folders, deal notes and CSV export turn a search into a prospect list. Pricing is published and month to month: Starter at $180/month, Production at $300/month with sub-level zoning filters and 100 owner contacts a month, and a custom Scale plan with API access and integrations. A 7-day free trial on the Production plan needs no credit card. The product is still labeled beta, and sub-level zoning depth varies by municipality.",
+    "short_description": "AI parcel search with two-level zoning, owner contacts and exports across 150M+ US parcels.",
     "target_audience": {
       "roles": [
         "Real Estate Brokers",
@@ -7894,65 +7894,94 @@
         "features": [
           {
             "name": "Parcel Search",
-            "description": "AI-powered search for parcels and properties with detailed data."
+            "description": "Search 150M+ parcels across 3,200+ counties by city, county, ZIP, address, polygon or radius."
           },
           {
-            "name": "Owner Contact Info",
-            "description": "Find property owner contact information for outreach."
+            "name": "Filters",
+            "description": "Filter by lot size, land use, zoning category, assessed value, owner type and sale date."
           },
           {
-            "name": "Zoning Search",
-            "description": "Search and filter properties by zoning attributes and permitted uses."
-          },
-          {
-            "name": "List Management",
-            "description": "Create and manage lists of properties for deal tracking."
+            "name": "Saved Searches",
+            "description": "Revisit saved searches at no credit cost."
           }
         ]
       },
       {
-        "name": "Pro Tools",
+        "name": "Zoning",
         "features": [
           {
-            "name": "Advanced Zoning Filters",
-            "description": "Filter parcels by specific zoning attributes for development opportunities."
+            "name": "Two-Level Zoning",
+            "description": "Every parcel carries a two-level zoning designation."
           },
           {
-            "name": "Property Attributes",
-            "description": "Detailed property data including lot size, zoning, and development potential."
+            "name": "Sub-Level Zoning Filters",
+            "description": "Find parcels by permitted use on Production and Scale plans."
           },
           {
-            "name": "AI-Powered Research",
-            "description": "AI assists in finding the perfect parcel based on your criteria."
+            "name": "Zoning AI Chat",
+            "description": "Ask zoning questions in plain language instead of reading the ordinance."
+          }
+        ]
+      },
+      {
+        "name": "Prospecting",
+        "features": [
+          {
+            "name": "Owner Contact Lookup",
+            "description": "Owner contact intelligence for outreach; 100 contacts a month on Production."
+          },
+          {
+            "name": "Folders and Notes",
+            "description": "Organize prospects into folders with deal notes."
+          },
+          {
+            "name": "CSV Export",
+            "description": "Export individual parcels, folders or full search results."
           }
         ]
       }
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
+      "starting_price": "$180/month",
+      "billing_options": [
+        "Monthly"
+      ],
+      "free_trial": true,
       "free_tier": false,
       "plans": [
         {
-          "name": "Basic",
-          "price": "$65",
-          "period": "monthly (beta price)",
+          "name": "Starter",
+          "price": "$180",
+          "period": "monthly",
           "features": [
-            "Property data search",
-            "Owner contact info",
-            "List management"
+            "Nationwide parcel search and filters",
+            "Two-level zoning on every parcel",
+            "Owner contact lookup",
+            "Folders, notes and CSV export",
+            "Saved searches"
           ]
         },
         {
-          "name": "Pro",
-          "price": "$200",
+          "name": "Production",
+          "price": "$300",
           "period": "monthly",
           "features": [
-            "Everything in Basic",
-            "Advanced zoning filters",
-            "Zoning attribute search"
+            "Everything in Starter",
+            "Sub-level zoning filters",
+            "100 owner contacts per month",
+            "Zoning AI chat",
+            "FEMA flood and map layers"
+          ]
+        },
+        {
+          "name": "Scale",
+          "price": "Custom",
+          "period": "",
+          "features": [
+            "High-volume teams",
+            "API access",
+            "Custom workflows and integrations"
           ]
         }
       ]
@@ -7960,15 +7989,17 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "AI-powered property and zoning search saves research time",
-      "Beta pricing offers early adopter value",
-      "Combines parcel data with zoning attributes in one tool",
-      "Useful for land acquisition teams and developers"
+      "Nationwide coverage: 150M+ parcels across 3,200+ counties, updated bi-weekly",
+      "Two-level zoning on every parcel, with sub-level filters for finding sites by permitted use",
+      "Owner contact lookup, folders, notes and CSV export in the same workflow as search",
+      "Published month-to-month pricing and a 7-day trial with no credit card",
+      "Zoning AI chat answers code questions without reading the ordinance"
     ],
     "cons": [
-      "Still in beta—features and coverage expanding",
-      "Zoning data available in select municipalities only",
-      "Smaller platform compared to established competitors"
+      "Still labeled beta; sub-level zoning depth varies by municipality",
+      "Owner contacts are metered (100 per month on Production)",
+      "No debt, mortgage, lease or sales comp data",
+      "API access and custom integrations only on the Scale plan"
     ],
     "integrations": [],
     "company": {
@@ -7984,7 +8015,7 @@
       "Broker Tools"
     ],
     "deployment": [
-      "Mobile"
+      "Cloud"
     ],
     "rating": null,
     "review_count": 0,
@@ -7997,34 +8028,34 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-09-02",
     "is_verified": true,
     "is_featured": true,
     "domain": "plotzy.ai",
     "pricing_model": "Subscription",
     "is_free": false,
-    "tagline": "Find & Research Parcels with AI",
+    "tagline": "AI parcel search with two-level zoning, owner contacts and exports across 150M+ US parcels.",
     "property_types": [
       "Commercial"
     ],
     "features": [
-      "AI-powered parcel search and research",
-      "Zoning information and analysis",
-      "Property data discovery",
-      "Owner contact information lookup",
-      "Property and zoning attribute filtering",
-      "List management and organization",
-      "Deal sourcing and identification",
-      "Parcel analysis tools",
-      "Municipal zoning data integration",
-      "Property research automation",
-      "Land acquisition support tools",
-      "Geographic property search"
+      "AI-powered parcel search across 150M+ parcels",
+      "Two-level zoning on every parcel",
+      "Sub-level zoning filters (Production and above)",
+      "Zoning AI chat",
+      "Owner contact lookup",
+      "FEMA flood zone and map layers",
+      "Folders, deal notes and saved searches",
+      "CSV export of parcels, folders or full results",
+      "Filters: lot size, land use, zoning, assessed value, owner type, sale date",
+      "Search by city, county, ZIP, address, polygon or radius",
+      "API access and custom integrations (Scale plan)"
     ],
     "enriched": true,
     "enrichedAt": "2026-02-17T22:35:03.365212Z",
     "primary_category": "site-selection",
-    "logo_url_source": "https://i.postimg.cc/jdg7ZfSB/Plotzy-1-Concpt-modi-1-04.png"
+    "logo_url_source": "https://i.postimg.cc/jdg7ZfSB/Plotzy-1-Concpt-modi-1-04.png",
+    "disclosure": "Plotzy is built by the people behind CRE Software Directory. It is evaluated with the same criteria as every other listing and pays nothing for its place in editorial pages."
   },
   {
     "title": "Procore",

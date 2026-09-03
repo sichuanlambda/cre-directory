@@ -4,7 +4,7 @@
 
 Site: https://cresoftware.tech
 Contact: hello@cresoftware.tech
-Last content update: 2026-09-02
+Last content update: 2026-09-03
 
 ## Categories
 - [Data & Analytics software](https://cresoftware.tech/categories/data-analytics/): 167 tools. Market research, benchmarking, and portfolio analytics platforms that turn raw property data into actionable insights. Track comps, forecast trends, and make smarter investment decisions.
@@ -61,6 +61,7 @@ Last content update: 2026-09-02
 - [Best Compstak alternatives](https://cresoftware.tech/alternatives/compstak/): CompStak's crowdsourced exchange produces lease comp detail, effective rents, TI, free rent, lease terms, that is hard to find anywhere else, and it is free for contributing brokers and appraisers.
 - [Best DoorLoop alternatives](https://cresoftware.tech/alternatives/doorloop/): DoorLoop is cloud property management software for landlords, small managers and investors, founded in Miami in 2019.
 - [Best Entrata alternatives](https://cresoftware.tech/alternatives/entrata/): Entrata is a property management operating system for multifamily, student, affordable, military and manufactured housing operators, with more than 2.5 million units on the platform.
+- [Best Landvision alternatives](https://cresoftware.tech/alternatives/landvision/): LandVision, now sold as LightBox Vision, is the enterprise mapping platform from LightBox: parcel boundaries, building footprints, ownership, zoning layers and report ordering on one map, tied…
 - [Best LoopNet alternatives](https://cresoftware.tech/alternatives/loopnet/): LoopNet's 10M+ monthly visitors make it the default place to market commercial property, but the economics frustrate many brokers.
 - [Best MRI Software alternatives](https://cresoftware.tech/alternatives/mri-software/): MRI Software's 50-year track record and open platform with 200+ integration partners make it a safe enterprise choice, but the data lists familiar enterprise pains: a complex platform with a steep…
 - [Best Placer.ai alternatives](https://cresoftware.tech/alternatives/placer/): Placer.ai leads location intelligence with foot traffic data traditional CRE providers cannot match, but its constraints are clear in the data: coverage is US-focused with limited international…
@@ -69,6 +70,7 @@ Last content update: 2026-09-02
 - [Best Rent Manager alternatives](https://cresoftware.tech/alternatives/rent-manager/): Rent Manager is property management and accounting software from London Computer Systems, a Cincinnati company that has built it since 1986.
 - [Best TenantCloud alternatives](https://cresoftware.tech/alternatives/tenantcloud/): TenantCloud is cloud property management software for landlords and small managers, with separate apps for landlords, tenants, owners and service providers.
 - [Best Visual Lease alternatives](https://cresoftware.tech/alternatives/visuallease/): Visual Lease is an enterprise lease administration and lease accounting platform covering the full lease lifecycle plus ASC 842, IFRS 16 and GASB 87 compliance for both real estate and equipment…
+- [Best Zoneomics alternatives](https://cresoftware.tech/alternatives/zoneomics/): Zoneomics is the zoning reference most CRE teams reach for first.
 
 ## Head-to-head comparisons
 - [All comparisons](https://cresoftware.tech/compare.html)
@@ -104,6 +106,11 @@ Last content update: 2026-09-02
 - [Matterport vs iGUIDE](https://cresoftware.tech/compare/matterport-vs-iguide/): Matterport is the default for immersive 3D marketing tours across any camera; iGUIDE is the better choice when accurate, exportable floor plans and pay-per-project pricing matter more.
 - [AirDNA vs Mashvisor](https://cresoftware.tech/compare/airdna-vs-mashvisor/): AirDNA is the deeper short-term rental dataset for hosts and STR investors; Mashvisor is the broader tool for comparing STR and long-term returns before buying.
 - [Stessa vs Baselane](https://cresoftware.tech/compare/stessa-vs-baselane/): Stessa is the stronger free bookkeeping and reporting app for rental investors; Baselane is the better pick if you want property-level bank accounts and rent collection in one place.
+- [Plotzy vs Zoneomics](https://cresoftware.tech/compare/Plotzy-vs-zoneomics/): Zoneomics is the deeper zoning reference with certified letters and the widest code coverage; Plotzy turns zoning into a parcel search with owner contacts, so it wins for sourcing sites rather than confirming one.
+- [Plotzy vs Landvision](https://cresoftware.tech/compare/Plotzy-vs-landvision/): LightBox Vision is the enterprise mapping platform with the deeper data ecosystem; Plotzy does the same core job of finding parcels and owners with zoning filters, published pricing and a trial you can start today.
+- [Plotzy vs Reonomy](https://cresoftware.tech/compare/Plotzy-vs-reonomy/): Reonomy is the property intelligence choice for existing commercial buildings, with ownership unmasking and debt data; Plotzy is the parcel and zoning choice for land and development sourcing at a lower, published price.
+- [Plotzy vs CityBldr](https://cresoftware.tech/compare/Plotzy-vs-citybldr/): CityBldr is for developers who want buildable units, rents and assemblage math on a site; Plotzy is the broader parcel, zoning and owner search at published prices for brokers and land teams.
+- [Plotzy vs Regrid](https://cresoftware.tech/compare/Plotzy-vs-regrid/): Regrid is the parcel dataset you pipe into your own GIS and applications; Plotzy is the finished research application on top of nationwide parcels, with zoning filters and owner contacts, for teams without a data engineer.
 
 ## Browse by integration
 - [All integration hubs](https://cresoftware.tech/integrations/)
