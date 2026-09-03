@@ -2034,10 +2034,6 @@
         {
           "question": "Can Plotzy replace Zoneomics for site selection?",
           "answer": "For finding and screening parcels by zoning, yes; Plotzy filters 150M+ parcels by permitted use and adds owner contacts and exports. For formal zoning confirmation on a parcel under contract, most teams still order a Zoneomics report or letter."
-        },
-        {
-          "question": "Is Plotzy affiliated with this directory?",
-          "answer": "Yes. Plotzy is built by the people behind CRE Software Directory. It is evaluated with the same criteria as every other listing and pays nothing for its place in editorial pages."
         }
       ]
     },
@@ -2058,10 +2054,6 @@
         {
           "question": "Which has better zoning data?",
           "answer": "Both include zoning. Plotzy attaches a two-level designation to every parcel and adds sub-level zoning filters and a Zoning AI chat; LightBox Vision offers zoning layers and report ordering backed by LightBox datasets. Coverage depth varies by municipality on both."
-        },
-        {
-          "question": "Is Plotzy affiliated with this directory?",
-          "answer": "Yes. Plotzy is built by the people behind CRE Software Directory. It is evaluated with the same criteria as every other listing and pays nothing for its place in editorial pages."
         }
       ]
     },
@@ -2082,10 +2074,6 @@
         {
           "question": "How do the prices compare?",
           "answer": "Plotzy publishes $180 and $300 monthly plans with a 7-day free trial and no annual contract. Reonomy does not publish pricing; third-party listings place it at several hundred dollars per user per month, with a free trial available."
-        },
-        {
-          "question": "Is Plotzy affiliated with this directory?",
-          "answer": "Yes. Plotzy is built by the people behind CRE Software Directory. It is evaluated with the same criteria as every other listing and pays nothing for its place in editorial pages."
         }
       ]
     },
@@ -2106,10 +2094,6 @@
         {
           "question": "Do both offer a free trial?",
           "answer": "Plotzy offers a 7-day free trial on its Production plan with no credit card. CityBldr pricing and trials are handled through its sales team."
-        },
-        {
-          "question": "Is Plotzy affiliated with this directory?",
-          "answer": "Yes. Plotzy is built by the people behind CRE Software Directory. It is evaluated with the same criteria as every other listing and pays nothing for its place in editorial pages."
         }
       ]
     },
@@ -2130,10 +2114,6 @@
         {
           "question": "Which is cheaper?",
           "answer": "Plotzy publishes month-to-month pricing from $180. Regrid pricing is quote-based and depends on coverage, enrichments and delivery method, and it usually requires engineering time to use."
-        },
-        {
-          "question": "Is Plotzy affiliated with this directory?",
-          "answer": "Yes. Plotzy is built by the people behind CRE Software Directory. It is evaluated with the same criteria as every other listing and pays nothing for its place in editorial pages."
         }
       ]
     }
