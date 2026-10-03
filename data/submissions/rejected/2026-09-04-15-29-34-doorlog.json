@@ -1,0 +1,18 @@
+{
+  "tool_name": "Doorlog",
+  "website": "https://jacobcolburn.github.io/grok-bot/doorlog/",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Property Management",
+  "description": "A simple landlord walk-through tool that captures room photos and prints a dated photo PDF.",
+  "pricing": "$4 one-time.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "Maker: Fieldbench. Walk the place, capture photos, and export a dated photo PDF. This is not an inspection, tenant, legal, court, or insurance record.",
+  "screenshot_urls": "",
+  "submitted_at": "2026-09-04T15:29:34+00:00",
+  "source": "formspree-email-backlog",
+  "submission_count": 4,
+  "status": "rejected",
+  "rejected_reason": "prototype/placeholder (single-page tool with no saved data, no accounts and no company behind it)",
+  "processed_at": "2026-10-03"
+}

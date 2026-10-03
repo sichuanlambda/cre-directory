@@ -1,18 +1,18 @@
 # CRE Software Directory
 
-> Independent, editorially maintained directory of 504 commercial real estate (CRE) software tools across 16 categories, with buyer's guides, ranked alternatives guides, and head-to-head comparisons. Listings are researched from vendor documentation and public sources. Featured placements are labeled as paid and never change editorial content. No star ratings or user reviews are published.
+> Independent, editorially maintained directory of 508 commercial real estate (CRE) software tools across 16 categories, with buyer's guides, ranked alternatives guides, and head-to-head comparisons. Listings are researched from vendor documentation and public sources. Featured placements are labeled as paid and never change editorial content. No star ratings or user reviews are published.
 
 Site: https://cresoftware.tech
 Contact: hello@cresoftware.tech
 Last content update: 2026-10-03
 
 ## Categories
-- [Data & Analytics software](https://cresoftware.tech/categories/data-analytics/): 167 tools. Market research, benchmarking, and portfolio analytics platforms that turn raw property data into actionable insights. Track comps, forecast trends, and make smarter investment decisions.
-- [Property Management software](https://cresoftware.tech/categories/property-management/): 121 tools. End-to-end platforms for managing commercial properties, from lease administration and rent collection to maintenance coordination and tenant communications. Compare tools built for portfolios of every size.
-- [CRM & Marketing software](https://cresoftware.tech/categories/crm-marketing/): 120 tools. CRM systems and marketing platforms purpose-built for commercial real estate. Manage broker relationships, automate outreach, track deal pipelines, and nurture tenant and investor leads.
-- [Investment & Valuation software](https://cresoftware.tech/categories/investment-valuation/): 106 tools. Underwriting, financial modeling, and deal analysis tools for acquisitions, dispositions, and fund management. Build pro formas, stress-test assumptions, and present to investors with confidence.
-- [AI & Automation software](https://cresoftware.tech/categories/ai-automation/): 101 tools. AI-powered tools transforming CRE workflows, from automated document extraction and lease abstraction to predictive analytics and intelligent property matching.
-- [Broker Tools software](https://cresoftware.tech/categories/broker-tools/): 97 tools. Deal management, commission tracking, and workflow tools designed for commercial brokers and brokerage firms. Streamline listings, proposals, and transaction coordination.
+- [Data & Analytics software](https://cresoftware.tech/categories/data-analytics/): 168 tools. Market research, benchmarking, and portfolio analytics platforms that turn raw property data into actionable insights. Track comps, forecast trends, and make smarter investment decisions.
+- [Property Management software](https://cresoftware.tech/categories/property-management/): 123 tools. End-to-end platforms for managing commercial properties, from lease administration and rent collection to maintenance coordination and tenant communications. Compare tools built for portfolios of every size.
+- [CRM & Marketing software](https://cresoftware.tech/categories/crm-marketing/): 121 tools. CRM systems and marketing platforms purpose-built for commercial real estate. Manage broker relationships, automate outreach, track deal pipelines, and nurture tenant and investor leads.
+- [Investment & Valuation software](https://cresoftware.tech/categories/investment-valuation/): 107 tools. Underwriting, financial modeling, and deal analysis tools for acquisitions, dispositions, and fund management. Build pro formas, stress-test assumptions, and present to investors with confidence.
+- [AI & Automation software](https://cresoftware.tech/categories/ai-automation/): 105 tools. AI-powered tools transforming CRE workflows, from automated document extraction and lease abstraction to predictive analytics and intelligent property matching.
+- [Broker Tools software](https://cresoftware.tech/categories/broker-tools/): 98 tools. Deal management, commission tracking, and workflow tools designed for commercial brokers and brokerage firms. Streamline listings, proposals, and transaction coordination.
 - [Accounting & Finance software](https://cresoftware.tech/categories/accounting-finance/): 87 tools. Accounting, budgeting, and financial reporting platforms tailored for commercial real estate. Handle complex fund structures, property-level P&L, and investor distributions.
 - [Construction & Development software](https://cresoftware.tech/categories/construction-development/): 80 tools. Project management, budgeting, and coordination tools for ground-up development and major renovations. Track timelines, manage contractors, and keep builds on budget.
 - [Site Selection software](https://cresoftware.tech/categories/site-selection/): 48 tools. Location intelligence and site analysis platforms for retailers, restaurants, and corporate occupiers. Evaluate demographics, traffic patterns, and competitive landscapes before signing a lease.

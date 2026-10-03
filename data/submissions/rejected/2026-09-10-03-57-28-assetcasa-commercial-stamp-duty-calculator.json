@@ -1,0 +1,18 @@
+{
+  "tool_name": "AssetCasa Commercial Stamp Duty Calculator",
+  "website": "https://www.assetcasa.com/en/tools/commercial-stamp-duty-calculator",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Accounting & Finance, Investment & Valuation",
+  "description": "Free UK commercial/mixed-use SDLT calculator for CRE buyers — progressive non-residential bands, no signup.",
+  "pricing": "Free, no signup. Advisory services available separately via AssetCasa.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "Competitor gap: CRE Software Financing/Investment listings cover ARGUS-style valuation but have no free UK commercial SDLT (non-residential stamp duty) calculator. AssetCasa fills that for England & NI commercial/mixed-use and 6+ dwellings. Contact: Elliot Bai, [email redacted] Please do not require a site badge.",
+  "screenshot_urls": "",
+  "submitted_at": "2026-09-10T03:57:28+00:00",
+  "source": "formspree-email-backlog",
+  "submission_count": 1,
+  "status": "rejected",
+  "rejected_reason": "not software (single free calculator page on a residential advisory firm's site)",
+  "processed_at": "2026-10-03"
+}
