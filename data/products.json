@@ -66511,5 +66511,375 @@
     "last_updated": "2026-10-03",
     "status": "active",
     "enriched": true
+  },
+  {
+    "title": "Grafics MLS Ready",
+    "slug": "grafics-mls-ready",
+    "url": "https://grafics.com/mls-ready/",
+    "logo_url": "/img/logos/grafics-mls-ready.png",
+    "headline": "MLS-safe listing photo cleanup for Atlanta and Georgia agents on FMLS and GAMLS.",
+    "description": "Grafics MLS Ready is a web-based listing photo cleanup tool from Grafics Media LLC, built for residential listing agents in Atlanta and Georgia who upload to FMLS or GAMLS. It applies mild technical correction (exposure, white balance, straightening, contrast, denoise and sharpening) and strips burned-in artifacts such as Just Listed or Price Reduced banners, photographer watermarks, timestamps, phone numbers and logos. The company is explicit about what it will not do: no virtual staging, no sky or lawn replacement, no invented architecture and no text added to images, and it says photos that cannot be cleaned without guessing are refused. Agents choose an FMLS, GAMLS or combined target, with a generic mode for other states. Optional printable flyers (Just Listed through Sold) can be branded with agent details. Pricing is published and self-serve, with a free trial that needs a verified email but no card. The company states the product is not an MLS certification.",
+    "short_description": "Strips banners, watermarks and timestamps from listing photos and applies mild correction for FMLS and GAMLS uploads.",
+    "tagline": "Listing photo cleanup, not virtual staging.",
+    "categories": [
+      "Broker Tools",
+      "CRM & Marketing",
+      "Listing Services"
+    ],
+    "primary_category": "broker-tools",
+    "target_audience": {
+      "roles": [
+        "Listing Agents",
+        "Brokerage Teams",
+        "Listing Coordinators"
+      ],
+      "company_sizes": [
+        "Small"
+      ],
+      "property_types": [
+        "Residential"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Photo Cleanup",
+        "features": [
+          {
+            "name": "Artifact Strip",
+            "description": "Removes burned-in banners, watermarks, timestamps, phone numbers, URLs, logos and frames from listing photos."
+          },
+          {
+            "name": "Mild Correction",
+            "description": "Exposure, white balance, lens and vertical correction, straightening, mild contrast, denoise and sharpen."
+          },
+          {
+            "name": "Refusal on Unsafe Edits",
+            "description": "Photos where removal would require inventing a wall, view or other content are refused rather than filled in."
+          },
+          {
+            "name": "Work Presets",
+            "description": "Presets for cases such as new listing sets, dark or yellow-cast interiors, night exteriors and watermark cleanup."
+          }
+        ]
+      },
+      {
+        "name": "MLS Targeting",
+        "features": [
+          {
+            "name": "FMLS, GAMLS or Both",
+            "description": "Georgia listings can target either board or a combined dual-MLS path; a generic mode covers other states."
+          },
+          {
+            "name": "Output Specs",
+            "description": "sRGB JPEG output with a 3000 to 4096 px longest edge and a target size under 6 MB, per the site."
+          }
+        ]
+      },
+      {
+        "name": "Marketing Extras",
+        "features": [
+          {
+            "name": "Listing Flyers",
+            "description": "Printable story flyers for Just Listed, Open House, Price Reduced, Pending and Sold."
+          },
+          {
+            "name": "Flyer Brand Kit",
+            "description": "Adds agent name, brokerage, phone and logo to flyers, never to MLS photos."
+          },
+          {
+            "name": "Email Delivery",
+            "description": "Cleaned photo ZIPs or branded PDF flyers can be emailed from the workbench."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": "$49/month",
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Trial",
+          "price": "Free",
+          "description": "7 days, 2 listings, 25 photos. Verified email required, no card."
+        },
+        {
+          "name": "MLS Ready",
+          "price": "$49/mo",
+          "description": "1 agent, unlimited listings, 150 photos per month. $490 billed annually."
+        },
+        {
+          "name": "Team",
+          "price": "$129/mo",
+          "description": "5 seats, 500 photos per month. $1,290 billed annually."
+        }
+      ]
+    },
+    "pros": [
+      "Published self-serve pricing from $49/month with a no-card free trial",
+      "Clear limits on editing: correction and artifact removal only, no staging or invented content",
+      "Built around FMLS and GAMLS upload targets for Georgia agents",
+      "Overage is a stated $0.35 per photo rather than a forced plan upgrade"
+    ],
+    "cons": [
+      "New product with no independent reviews or press found",
+      "Narrow geography: designed for Atlanta and Georgia boards, with only a generic mode elsewhere",
+      "Residential listing photos only, and the company states it is not an MLS certification"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Grafics Media LLC"
+    },
+    "domain": "grafics.com",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "property_types": [
+      "Residential"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-10-03",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Howell Opportunity Radar",
+    "slug": "howell-opportunity-radar",
+    "url": "https://radar.howellcommerceco.com",
+    "logo_url": "",
+    "headline": "Missouri construction opportunity feed: public bids, early project signals and selected private-development leads in one workspace.",
+    "description": "Howell Opportunity Radar is a subscription lead-intelligence tool for contractors, estimators and preconstruction teams working in Missouri. It gathers public-project signals from state, county and municipal sources, including MissouriBUYS, MoDOT and Department of Natural Resources feeds plus local portals, and sorts them by stage: early signal, approved development, public bid or active construction. Records carry trade and supplier tags, a priority score, deadlines and a link back to the official source, and expired public bids are removed automatically. Paying members get a login dashboard with the full statewide feed, territory matching, known project parties such as owners, developers and applicants, and saved projects with notes and a simple pipeline. A limited public sample and a morning brief can be viewed without subscribing. The company describes the product as a research aid and says every record should be verified against the official source; it is not a planroom, takeoff or estimating tool. Coverage is limited to Missouri, and the inventory shown on the site is modest, at roughly 180 records in early October 2026.",
+    "short_description": "Stage-sorted feed of Missouri public bids and early construction project signals with official source links.",
+    "tagline": "Missouri construction leads, sorted by stage.",
+    "categories": [
+      "Construction & Development",
+      "Data & Analytics"
+    ],
+    "primary_category": "construction-development",
+    "target_audience": {
+      "roles": [
+        "General Contractors",
+        "Subcontractors",
+        "Estimators",
+        "Preconstruction Teams",
+        "Building Material Suppliers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Commercial"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Opportunity Discovery",
+        "features": [
+          {
+            "name": "Stage Classification",
+            "description": "Records are labelled as early signal, approved development, public bid or active construction."
+          },
+          {
+            "name": "Trade and Territory Filters",
+            "description": "Filter by trade or supplier tag and by Missouri region, such as Kansas City Metro, St. Louis Metro or Southwest Missouri."
+          },
+          {
+            "name": "Official Source Links",
+            "description": "Each record links back to the originating agency or portal so details can be verified."
+          },
+          {
+            "name": "Priority Scoring and Deadlines",
+            "description": "Opportunities are ranked and bid deadlines surfaced, with expired public bids removed automatically."
+          }
+        ]
+      },
+      {
+        "name": "Member Workspace",
+        "features": [
+          {
+            "name": "Saved Projects and Notes",
+            "description": "Members can save projects, add notes and track them through a pipeline workflow."
+          },
+          {
+            "name": "Known Project Parties",
+            "description": "Identifies owners, developers and applicants attached to a project where public records name them."
+          },
+          {
+            "name": "Public Sample and Morning Brief",
+            "description": "A deliberately limited sample feed and a morning brief are viewable without a subscription."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": "$79/month",
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Radar",
+          "price": "$79/mo",
+          "description": "Full statewide Missouri feed with member dashboard; monthly billing, cancel future renewals anytime, no refund once a period begins."
+        }
+      ]
+    },
+    "pros": [
+      "Single published price of $79/month with online checkout and no sales call",
+      "Separates early signals and approvals from formal bids, which generic bid boards rarely do",
+      "Every record links to its official public source for verification",
+      "Free public sample shows the data before paying"
+    ],
+    "cons": [
+      "Missouri only, so of no use to contractors working elsewhere",
+      "New, small operation with no independent reviews or press found",
+      "Modest inventory, roughly 180 records listed on the site in early October 2026"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Howell Commerce Co."
+    },
+    "domain": "radar.howellcommerceco.com",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "property_types": [
+      "Commercial"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-10-03",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "ImaageQ",
+    "slug": "imaageq",
+    "url": "https://imaageq.com",
+    "logo_url": "/img/logos/imaageq.png",
+    "headline": "Scan-based spatial visualization that furnishes empty luxury properties for buyers.",
+    "description": "ImaageQ is a Miami-based spatial visualization platform aimed at luxury real estate. According to its website, a space is scanned to produce a walkable 3D twin with a floor plan, then furnished virtually with layouts tailored to an individual buyer and populated with real collections from furnishing brands. Buyers can view the result in augmented reality on a phone or tablet, and the furnishings shown are intended to be purchasable in place. The company positions the product for developers, sales agents and property managers across pre-construction sales, repositioning and resale listings, with planned extensions into yachts, aviation and hospitality. The company says its technology is patented. Access is by request only: there is no public sign-up, app download or published pricing. An August 2026 Refresh Miami profile described the company as preparing to move from beta testing into a pilot, so buyers should treat it as an early-stage product and confirm availability directly.",
+    "short_description": "Turns a scan of an empty property into a personalized, shoppable AR interior for luxury buyers.",
+    "tagline": "Design Beyond Imagination.",
+    "categories": [
+      "CRM & Marketing",
+      "Broker Tools",
+      "AI & Automation"
+    ],
+    "primary_category": "crm-marketing",
+    "target_audience": {
+      "roles": [
+        "Luxury Brokers",
+        "Developers",
+        "Sales Agents",
+        "Furnishing Brands"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Residential",
+        "Multifamily"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Capture",
+        "features": [
+          {
+            "name": "Spatial Capture & Floor Plan",
+            "description": "A scan of the space is turned into a 3D twin with a floor plan, per the company's site."
+          },
+          {
+            "name": "Walkable 3D Twin",
+            "description": "The captured space can be explored as an interactive model rather than static photos."
+          }
+        ]
+      },
+      {
+        "name": "Design & Personalization",
+        "features": [
+          {
+            "name": "Personalized Buyer Identity",
+            "description": "Layouts and furnishings are shaped around an individual buyer's preferences."
+          },
+          {
+            "name": "Bespoke Furniture Layouts",
+            "description": "Furniture arrangements generated for the specific scanned space."
+          },
+          {
+            "name": "Branded Collections",
+            "description": "Spaces are furnished with real products from participating luxury furnishing brands."
+          }
+        ]
+      },
+      {
+        "name": "Delivery",
+        "features": [
+          {
+            "name": "AR Experience",
+            "description": "Buyers view and move furniture through the space in augmented reality on their own device, with no headset."
+          },
+          {
+            "name": "Shoppable Furnishings",
+            "description": "Items shown in the space are offered for purchase, with the company describing a design-to-delivery path."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "starting_price": "Contact sales",
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Private Access",
+          "price": "Contact sales",
+          "description": "Access is requested through a form on the company's site; no pricing is published."
+        }
+      ]
+    },
+    "pros": [
+      "Combines room capture, buyer-specific furnishing and AR viewing in one workflow",
+      "Works on a phone or tablet without a VR headset",
+      "Furnishings come from real brand collections and are meant to be purchasable, not just rendered",
+      "Identifiable Miami team and independent local press coverage"
+    ],
+    "cons": [
+      "Early stage: independent coverage in August 2026 described it as moving from beta into a pilot",
+      "No public sign-up, demo or published pricing; access is by request only",
+      "Focused on luxury residential in South Florida, with limited relevance to other commercial property types"
+    ],
+    "deployment": [
+      "Cloud",
+      "Mobile"
+    ],
+    "company": {
+      "name": "ImaageQ LLC",
+      "hq": "Miami, FL"
+    },
+    "domain": "imaageq.com",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Quote-based",
+    "is_free": false,
+    "property_types": [
+      "Residential",
+      "Multifamily"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-10-03",
+    "status": "active",
+    "enriched": true
   }
 ]

@@ -12,5 +12,7 @@
   "submitted_at": "2026-09-23T13:25:21+00:00",
   "source": "formspree-email-backlog",
   "submission_count": 1,
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "out of scope (single-family wholesaling only; relationship misstated; operator identity unclear)",
+  "processed_at": "2026-10-03"
 }
