@@ -4,30 +4,37 @@
 and commits each submission to `data/submissions/pending/` in this repo.
 Free tier is far more than enough (100k requests/day vs ~2 submissions/week).
 
-## Deploy (~5 minutes, needs a free Cloudflare account)
+## Deploy
+
+Live at `https://cre-submit.nathaninproduct.workers.dev` (deployed 2026-10-03).
+Config is in `wrangler.toml`. To redeploy after editing the worker:
 
 ```bash
-npm install -g wrangler
-wrangler login
 cd workers
-wrangler deploy submit-worker.js --name cre-submit
+npx wrangler login      # once per machine
+npx wrangler deploy
 ```
 
-Then give it a GitHub token so it can write to the repo:
+The worker needs a GitHub token so it can write to the repo:
 
 1. GitHub → Settings → Developer settings → Fine-grained tokens → Generate.
    Repository access: only `sichuanlambda/cre-directory`.
-   Permissions: **Contents: Read and write**. Nothing else. No expiry sooner than a year.
-2. `wrangler secret put GITHUB_TOKEN` and paste it.
+   Permissions: **Contents: Read and write**. Nothing else.
+2. `npx wrangler secret put GITHUB_TOKEN` and paste it. When the token
+   expires, generate a new one and run this again.
 
-The deploy prints a URL like `https://cre-submit.<account>.workers.dev`.
+## What the form sends
 
-## Switch the form over
+`submit.html` posts every submission to two places:
 
-In `submit.html`, change the form action from the Formspree URL to the worker
-URL. The worker accepts both normal form posts and JSON, answers
-`{"ok": true}` on success, and silently accepts (but discards) anything that
-fills the hidden `_gotcha` honeypot field.
+- this worker, which commits the listing details to `data/submissions/pending/`
+  with the email redacted (the repo is public);
+- Formspree, which emails the full submission, so the contact address stays in
+  Gmail and off the repo.
+
+The worker answers `{"ok": true}` on success and silently accepts (but
+discards) anything that fills the hidden `_gotcha` honeypot field. The form
+shows an error only when both posts fail.
 
 ## Notifications
 

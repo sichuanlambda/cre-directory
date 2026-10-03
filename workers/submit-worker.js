@@ -2,8 +2,9 @@
  * Cloudflare Worker: receives tool submissions from cresoftware.tech/submit.html
  * and commits each one as a JSON file to data/submissions/pending/ in the repo.
  *
- * The repo is the database: every submission lands in git, the research
- * pipeline picks it up from there, and nothing lives in a third-party inbox.
+ * The repo is the database: every submission lands in git and the research
+ * pipeline picks it up from there. The repo is public, so the submitter's
+ * email is redacted here; contact details stay in Formspree/Gmail.
  *
  * Deploy (one time, ~5 minutes):
  *   1. npm install -g wrangler && wrangler login
@@ -46,7 +47,10 @@ export default {
       if (ct.includes('application/json')) {
         data = await request.json();
       } else {
-        data = Object.fromEntries((await request.formData()).entries());
+        const form = await request.formData();
+        data = Object.fromEntries(form.entries());
+        // Checkbox groups post one entry per ticked box; keep all of them.
+        data.categories = form.getAll('categories');
       }
     } catch {
       return new Response(JSON.stringify({ ok: false, error: 'Bad request body' }),
@@ -59,23 +63,37 @@ export default {
         { status: 200, headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) } });
     }
 
-    const name = (data.tool_name || data.name || '').trim();
-    const website = (data.website || data.url || '').trim();
-    const email = (data.email || '').trim();
+    const field = (...keys) => {
+      for (const k of keys) {
+        const v = data[k];
+        if (Array.isArray(v) && v.length) return v.join(', ').trim().slice(0, 4000);
+        if (typeof v === 'string' && v.trim()) return v.trim().slice(0, 4000);
+      }
+      return '';
+    };
+
+    // Field names match submit.html; the shorter aliases are kept for JSON callers.
+    const name = field('tool_name', 'name');
+    const website = field('website_url', 'website', 'url');
+    const email = field('email');
     if (!name || !website || !email) {
       return new Response(JSON.stringify({ ok: false, error: 'tool name, website, and email are required' }),
         { status: 400, headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) } });
     }
 
+    // This repo is public, so the submitter's email is never committed.
+    // submit.html also posts to Formspree, which is where contact details live.
     const submission = {
       tool_name: name,
       website,
-      email,
-      category: (data.category || '').trim(),
-      description: (data.description || '').trim(),
-      pricing: (data.pricing || '').trim(),
-      submitter_name: (data.submitter_name || data.contact_name || '').trim(),
-      relationship: (data.relationship || '').trim(),
+      email: '[redacted - contact info kept off the public repo]',
+      category: field('categories', 'category'),
+      description: field('short_description', 'description'),
+      pricing: field('pricing_info', 'pricing'),
+      submitter_name: field('submitter_name', 'contact_name'),
+      relationship: field('relationship'),
+      notes: field('notes'),
+      screenshot_urls: field('screenshot_urls'),
       submitted_at: new Date().toISOString(),
       source: 'web-form',
       status: 'pending',
