@@ -3,3 +3,8 @@ main = "submit-worker.js"
 compatibility_date = "2026-10-01"
 workers_dev = true
 preview_urls = false
+
+[[d1_databases]]
+binding = "DB"
+database_name = "cre-submissions"
+database_id = "e693afd3-0416-4a10-8ae4-eebb44779e29"
