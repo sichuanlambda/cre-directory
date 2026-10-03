@@ -9,7 +9,8 @@ through a research + review step.
 ```
 submit.html form
    → Cloudflare Worker (workers/submit-worker.js)
-   → commits data/submissions/pending/<timestamp>-<slug>.json
+   → row in the private D1 database cre-submissions (full record, with email)
+   → commits data/submissions/pending/<timestamp>-<slug>.json (email redacted)
    → research pass (agent): verify the company, draft the full product record
    → draft lands as a PR adding the record to data/products.json
      (and moving the submission file to data/submissions/processed/)
@@ -67,9 +68,11 @@ at least one independent source. Check the domain age (WHOIS) for every
 submission and record it in the research notes. When a new product is listed,
 its cons must say plainly that it is new and has a thin track record.
 
-## Contact emails
+## Contact emails and the private database
 
 The repo is public, so the worker redacts the submitter's email before it
-commits. `submit.html` also posts each submission to Formspree, which emails
-it to the directory inbox; that is where the contact address lives when it is
-time to send the submitter their live URL.
+commits. The full record, email included, is in the private Cloudflare D1
+database `cre-submissions`; `workers/README.md` shows how to query it and how
+to mark a row processed or rejected. That is where the contact address comes
+from when it is time to send the submitter their live URL. No email inbox is
+involved.

@@ -2,9 +2,9 @@
  * Cloudflare Worker: receives tool submissions from cresoftware.tech/submit.html
  * and commits each one as a JSON file to data/submissions/pending/ in the repo.
  *
- * The repo is the database: every submission lands in git and the research
- * pipeline picks it up from there. The repo is public, so the submitter's
- * email is redacted here; contact details stay in Formspree/Gmail.
+ * Every submission is stored in the private D1 database "cre-submissions"
+ * (full record, email included) and mirrored without the email to
+ * data/submissions/pending/ in the public repo for the research pipeline.
  *
  * Deploy (one time, ~5 minutes):
  *   1. npm install -g wrangler && wrangler login
@@ -81,12 +81,10 @@ export default {
         { status: 400, headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) } });
     }
 
-    // This repo is public, so the submitter's email is never committed.
-    // submit.html also posts to Formspree, which is where contact details live.
     const submission = {
       tool_name: name,
       website,
-      email: '[redacted - contact info kept off the public repo]',
+      email,
       category: field('categories', 'category'),
       description: field('short_description', 'description'),
       pricing: field('pricing_info', 'pricing'),
@@ -98,30 +96,45 @@ export default {
       source: 'web-form',
       status: 'pending',
     };
+    const id = `${submission.submitted_at.slice(0, 19).replace(/[:T]/g, '-')}-${slugify(name)}`;
 
-    const ts = submission.submitted_at.slice(0, 19).replace(/[:T]/g, '-');
-    const path = `data/submissions/pending/${ts}-${slugify(name)}.json`;
-    const body = {
-      message: `Submission: ${name}`,
-      content: btoa(unescape(encodeURIComponent(JSON.stringify(submission, null, 2) + '\n'))),
-    };
-
-    const gh = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
-      method: 'PUT',
-      headers: {
-        'Authorization': `Bearer ${env.GITHUB_TOKEN}`,
-        'Content-Type': 'application/json',
-        'User-Agent': 'cre-submit-worker',
-        'Accept': 'application/vnd.github+json',
-      },
-      body: JSON.stringify(body),
-    });
-
-    if (!gh.ok) {
-      const detail = await gh.text();
-      console.log('GitHub API error', gh.status, detail.slice(0, 500));
+    // 1. The private database is the record of truth, email included.
+    try {
+      await env.DB.prepare(
+        `INSERT INTO submissions (id, tool_name, website, email, category, description, pricing,
+           submitter_name, relationship, notes, screenshot_urls, submitted_at, source, status)
+         VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)`
+      ).bind(id, submission.tool_name, submission.website, submission.email, submission.category,
+        submission.description, submission.pricing, submission.submitter_name, submission.relationship,
+        submission.notes, submission.screenshot_urls, submission.submitted_at, submission.source,
+        submission.status).run();
+    } catch (err) {
+      console.log('D1 insert failed', String(err).slice(0, 500));
       return new Response(JSON.stringify({ ok: false, error: 'Could not store submission, please email hello@cresoftware.tech' }),
         { status: 502, headers: { 'Content-Type': 'application/json', ...corsHeaders(origin) } });
+    }
+
+    // 2. A copy without the email goes to the public repo for the research pipeline.
+    //    Best effort: the submission is already safe in the database if this fails.
+    const path = `data/submissions/pending/${id}.json`;
+    const publicCopy = { ...submission, email: '[redacted - contact info kept off the public repo]' };
+    try {
+      const gh = await fetch(`https://api.github.com/repos/${REPO}/contents/${path}`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${env.GITHUB_TOKEN}`,
+          'Content-Type': 'application/json',
+          'User-Agent': 'cre-submit-worker',
+          'Accept': 'application/vnd.github+json',
+        },
+        body: JSON.stringify({
+          message: `Submission: ${name}`,
+          content: btoa(unescape(encodeURIComponent(JSON.stringify(publicCopy, null, 2) + '\n'))),
+        }),
+      });
+      if (!gh.ok) console.log('GitHub API error', gh.status, (await gh.text()).slice(0, 500));
+    } catch (err) {
+      console.log('GitHub commit failed', String(err).slice(0, 500));
     }
 
     return new Response(JSON.stringify({ ok: true }),
