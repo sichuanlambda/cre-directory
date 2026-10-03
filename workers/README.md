@@ -23,18 +23,37 @@ The worker needs a GitHub token so it can write to the repo:
 2. `npx wrangler secret put GITHUB_TOKEN` and paste it. When the token
    expires, generate a new one and run this again.
 
-## What the form sends
+## Where submissions go
 
-`submit.html` posts every submission to two places:
+`submit.html` posts each submission to this worker and nowhere else. The worker:
 
-- this worker, which commits the listing details to `data/submissions/pending/`
-  with the email redacted (the repo is public);
-- Formspree, which emails the full submission, so the contact address stays in
-  Gmail and off the repo.
+1. inserts the full record, email included, into the private Cloudflare D1
+   database `cre-submissions` (table `submissions`, schema in `schema.sql`);
+2. commits a copy with the email redacted to `data/submissions/pending/`
+   (the repo is public). This step is best effort: if the GitHub token has
+   expired the submission is still safe in the database.
 
-The worker answers `{"ok": true}` on success and silently accepts (but
-discards) anything that fills the hidden `_gotcha` honeypot field. The form
-shows an error only when both posts fail.
+The worker answers `{"ok": true}` once the database insert succeeds and
+silently accepts (but discards) anything that fills the hidden `_gotcha`
+honeypot field. The form shows an error if the worker does not answer ok.
+
+## Reading the database
+
+```bash
+cd workers
+npx wrangler d1 execute cre-submissions --remote --json \
+  --command "SELECT * FROM submissions WHERE status = 'pending' ORDER BY submitted_at"
+```
+
+After a submission is handled, record it so the queue stays accurate:
+
+```bash
+npx wrangler d1 execute cre-submissions --remote --command \
+  "UPDATE submissions SET status = 'processed', product_slug = '<slug>', processed_at = date('now') WHERE id = '<id>'"
+```
+
+Use `status = 'rejected'` with `rejected_reason` for spam, duplicates and
+non-CRE tools. The row `id` matches the pending file name without `.json`.
 
 ## Notifications
 
