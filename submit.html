@@ -56,7 +56,9 @@
     </div>
 
     <p style="font-size:14px;color:var(--gray-600);margin:0 0 20px">Listings are free for every real CRE product. Want more visibility once you're listed? See <a href="advertise.html">Featured placement</a>.</p>
-    <form id="submit-form" action="https://formspree.io/f/maqdjvqo" method="POST">
+    <div class="error-msg" id="error-msg" role="alert" style="display:none;margin:0 0 20px;padding:14px 16px;border:1px solid #f5c2c7;background:#fdf1f2;color:#842029;border-radius:8px;font-size:14px">We could not save your submission. Please try again, or email <a href="mailto:hello@cresoftware.tech">hello@cresoftware.tech</a>.</div>
+    <form id="submit-form" action="https://cre-submit.nathaninproduct.workers.dev/" data-contact-action="https://formspree.io/f/maqdjvqo" method="POST">
+      <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
       <div class="form-group">
         <label>Tool Name <span class="req">*</span></label>
         <input type="text" name="tool_name" required placeholder="e.g. VTS, Yardi, CoStar">
@@ -150,14 +152,25 @@
   <script src="js/app.js"></script>
   <script>
     initNav();initNavSearch();
-    document.getElementById('submit-form').addEventListener('submit', function(e) {
+    // Each submission goes two places: the worker commits the listing details to
+    // the repo (data/submissions/pending/), and Formspree emails the contact address,
+    // which is kept out of the public repo.
+    document.getElementById('submit-form').addEventListener('submit', async function(e) {
       e.preventDefault();
-      const data = Object.fromEntries(new FormData(this));
-      const submissions = JSON.parse(localStorage.getItem('cre-submissions') || '[]');
-      submissions.push({...data, submitted_at: new Date().toISOString()});
-      localStorage.setItem('cre-submissions', JSON.stringify(submissions));
-      fetch(this.action, { method: 'POST', body: new FormData(this), headers: { 'Accept': 'application/json' }}).catch(() => {});
-      this.style.display = 'none';
+      const form = this;
+      const btn = form.querySelector('button[type="submit"]');
+      const err = document.getElementById('error-msg');
+      err.style.display = 'none';
+      btn.disabled = true;
+      const post = url => fetch(url, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' }})
+        .then(r => r.ok).catch(() => false);
+      const results = await Promise.all([post(form.action), post(form.dataset.contactAction)]);
+      if (!results.some(Boolean)) {
+        btn.disabled = false;
+        err.style.display = 'block';
+        return;
+      }
+      form.style.display = 'none';
       document.getElementById('success-msg').style.display = 'block';
     });
   </script>

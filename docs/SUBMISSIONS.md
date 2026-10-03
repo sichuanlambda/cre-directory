@@ -21,7 +21,8 @@ submit.html form
 
 - `data/submissions/pending/` — raw submissions awaiting research. One JSON
   file each: `tool_name`, `website`, `email`, `category`, `description`,
-  `pricing`, `submitter_name`, `relationship`, `submitted_at`, `source`, `status`.
+  `pricing`, `submitter_name`, `relationship`, `notes`, `screenshot_urls`,
+  `submitted_at`, `source`, `status`. `email` is always redacted.
 - `data/submissions/processed/` — submissions that became listings (file gains
   `product_slug` and `processed_at`).
 - `data/submissions/rejected/` — spam, duplicates, non-CRE, unverifiable
@@ -41,9 +42,9 @@ A submission only becomes a listing when research can confirm:
 5. It is software a CRE buyer can purchase (services/media/VC firms get
    `not_software: true` and an ecosystem label instead).
 
-## Legacy Formspree
+## Contact emails
 
-The old form posted to Formspree (results by email). A one-time export of that
-inbox can be dropped anywhere in the repo as CSV/JSON and ingested into
-`data/submissions/pending/` — see scripts/ingest_submissions.py once it exists.
-Until the worker is deployed, submit.html continues to POST to Formspree.
+The repo is public, so the worker redacts the submitter's email before it
+commits. `submit.html` also posts each submission to Formspree, which emails
+it to the directory inbox; that is where the contact address lives when it is
+time to send the submitter their live URL.
