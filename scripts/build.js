@@ -350,6 +350,73 @@ function editorialBoxHTML(product) {
       </div>`;
 }
 
+// ---------- product titles and meta descriptions ----------
+// Built from each product's own facts (category, price, audience) so 500+ pages do not share one
+// template. A stored seo.title / seo.description is only used when the record sets seo.custom.
+const cleanPrice = s => { const m = /^\$[\d,.]+(?:\s*\/\s*[a-z]+(?:\s*\/\s*[a-z]+)?)?/i.exec(String(s || '').trim()); return m ? m[0].replace(/\s+/g, '') : ''; };
+function productSeoTitle(product, catName) {
+  const T = product.title, pr = product.pricing && typeof product.pricing === 'object' ? product.pricing : {};
+  const kind = catName ? (/(tools|software|services)$/i.test(catName) ? catName : `${catName} Software`) : '';
+  const price = cleanPrice(pr.starting_price);
+  const candidates = [
+    kind && price && `${T}: ${kind}, Pricing from ${price}`,
+    kind && pr.free_tier && `${T}: ${kind} with a Free Plan`,
+    kind && `${T}: ${kind}, Pricing & Alternatives`,
+    kind && price && `${T}: ${kind} from ${price}`,
+    kind && `${T}: ${kind} Pricing & Features`,
+    kind && `${T}: ${kind} Pricing`,
+    kind && `${T}: ${kind}`,
+    `${T}: Pricing, Features & Alternatives`,
+    `${T}: Pricing & Alternatives`,
+  ].filter(Boolean);
+  return candidates.find(c => c.length <= 60) || T;
+}
+function productSeoDescription(product) {
+  const T = product.title, pr = product.pricing && typeof product.pricing === 'object' ? product.pricing : {};
+  const sentence = s => { s = stripTags(s || '').trim(); return s ? (/[.!?]$/.test(s) ? s : s + '.') : ''; };
+  let out = sentence(product.short_description || product.headline);
+  if (out && !out.toLowerCase().includes(T.toLowerCase())) out = `${T}: ${out}`;
+  if (!out) out = `${T}.`;
+  const price = cleanPrice(pr.starting_price), roles = ((product.target_audience || {}).roles || []).slice(0, 2);
+  const facts = [
+    price ? `Pricing from ${price}${pr.free_trial ? ', free trial available' : ''}.` : pr.free_tier ? 'Free plan available.' : pr.free_trial ? 'Free trial available.' : '',
+    roles.length ? `Best for ${roles.join(' and ').toLowerCase()}.` : '',
+    product.not_software ? '' : 'See features, pros and cons, and alternatives.',
+  ].filter(Boolean);
+  for (const f of facts) if ((out + ' ' + f).length <= 158) out += ' ' + f;
+  if (out.length > 160) out = out.slice(0, 157).replace(/\s+\S*$/, '').replace(/[,;:]$/, '') + '...';
+  return out;
+}
+
+// ---------- internal link spreading ----------
+// Related blocks used to take the first N products of a category, so a few pages collected
+// hundreds of links and most product pages got none. Ring order (start just after the current
+// product) gives every product the same number of inbound links from its category peers.
+const linkable = p => !badSlug(p.slug) && p.status !== 'defunct';
+const ringAfter = (list, slug) => { const i = list.findIndex(p => p.slug === slug); return i === -1 ? list.slice() : list.slice(i + 1).concat(list.slice(0, i)); };
+const overlap = (a, b) => (a || []).filter(x => (b || []).includes(x)).length;
+const similarity = (a, b) => 2 * overlap(a.categories, b.categories) + overlap((a.target_audience || {}).roles, (b.target_audience || {}).roles) + overlap(a.property_types, b.property_types);
+const hashInt = s => parseInt(require('crypto').createHash('sha1').update(String(s)).digest('hex').slice(0, 8), 16);
+const integrationNames = p => (p.integrations || []).map(i => typeof i === 'string' ? i : i && i.name).filter(Boolean);
+const PRODUCT_BY_NAME = new Map(PRODUCTS.filter(linkable).map(p => [p.title.toLowerCase(), p]));
+const INTEGRATED_BY = {};
+for (const p of PRODUCTS.filter(linkable)) for (const n of integrationNames(p)) {
+  const t = PRODUCT_BY_NAME.get(n.toLowerCase());
+  if (t && t.slug !== p.slug && !(INTEGRATED_BY[t.slug] = INTEGRATED_BY[t.slug] || []).includes(p)) INTEGRATED_BY[t.slug].push(p);
+}
+const EDITORIAL_SLUGS = new Set();
+for (const c of EDITORIAL.comparisons || []) { EDITORIAL_SLUGS.add(c.a); EDITORIAL_SLUGS.add(c.b); }
+for (const [k, a] of Object.entries(EDITORIAL.alternatives || {})) { EDITORIAL_SLUGS.add(k); (a.picks || []).forEach(x => EDITORIAL_SLUGS.add(x.slug)); }
+// Four lesser-known tools from the same category for comparison and alternatives pages.
+function alsoConsiderHTML(cat, exclude, seed) {
+  if (!cat) return '';
+  const pool = PRODUCTS.filter(p => linkable(p) && (cat.products || []).includes(p.slug) && !exclude.has(p.slug) && !EDITORIAL_SLUGS.has(p.slug));
+  if (pool.length < 2) return '';
+  const start = hashInt(seed) % pool.length;
+  const picks = pool.slice(start).concat(pool.slice(0, start)).slice(0, 4);
+  return `<div class="similar-section"><h2>Also consider in ${esc(cat.name)}</h2><div class="similar-grid">${picks.map(compactProductCard).join('')}</div></div>`;
+}
+
 function renderProductPage(product) {
   const slug = product.slug;
   const canonical = `${BASE}${productPath(slug)}`;
@@ -357,11 +424,11 @@ function renderProductPage(product) {
   const isDefunct = product.status === 'defunct';
   const isEcosystem = !!product.not_software;
   const title = isDefunct
-    ? `What Happened to ${product.title}? History & Alternatives | CRE Software Directory`
+    ? `What Happened to ${product.title}? History & Alternatives`
     : isEcosystem
-      ? `${product.title} Overview: What They Do & Related CRE Software | CRE Software Directory`
-      : (seo.title || `${product.title} Review ${YEAR}: Pricing, Features & Alternatives | CRE Software Directory`);
-  const description = stripTags(seo.description || product.short_description || `${product.title}: ${product.headline || ''} Compare pricing, features & alternatives.`).slice(0, 300);
+      ? `${product.title}: What They Do & Related CRE Software`
+      : (seo.custom && seo.title) || productSeoTitle(product, (product.categories || [])[0]);
+  const description = seo.custom && seo.description ? stripTags(seo.description).slice(0, 300) : productSeoDescription(product);
 
   const pricing = product.pricing || {};
   const company = product.company || {};
@@ -455,8 +522,14 @@ function renderProductPage(product) {
     ? `<div class="integrations-section"><h3>Integrations</h3><div class="integrations-list">${product.integrations.map(i => {
         const name = typeof i === 'string' ? i : i.name;
         const cat = typeof i === 'object' && i.category ? ` <small>(${esc(i.category)})</small>` : '';
-        return `<span class="integration-badge">${esc(name)}${cat}</span>`;
+        const listed = PRODUCT_BY_NAME.get(String(name).toLowerCase());
+        return listed && listed.slug !== slug
+          ? `<a class="integration-badge" href="${productPath(listed.slug)}">${esc(name)}${cat}</a>`
+          : `<span class="integration-badge">${esc(name)}${cat}</span>`;
       }).join('')}</div></div>` : '';
+  const integratedBy = (INTEGRATED_BY[slug] || []).slice().sort((a, b) => a.title.localeCompare(b.title));
+  const integratedByHTML = integratedBy.length
+    ? `<div class="integrations-section"><h3>Tools that integrate with ${esc(product.title)}</h3><div class="integrations-list">${integratedBy.slice(0, 24).map(p => `<a class="integration-badge" href="${productPath(p.slug)}">${esc(p.title)}</a>`).join('')}</div></div>` : '';
 
   const companyHTML = (company.founded || company.headquarters || company.employees) ? `<div class="company-info" id="sec-company">
     <h2>Company Info</h2>
@@ -474,7 +547,7 @@ function renderProductPage(product) {
   let relatedHTML = '';
   const usedSlugs = new Set([slug]);
   (product.categories || []).slice(0, 2).forEach(cat => {
-    const related = PRODUCTS.filter(p => !usedSlugs.has(p.slug) && (p.categories || []).includes(cat));
+    const related = ringAfter(PRODUCTS.filter(p => linkable(p) && (p.categories || []).includes(cat)), slug).filter(p => !usedSlugs.has(p.slug));
     if (related.length === 0) return;
     const items = related.slice(0, 10);
     const id = 'carousel-' + slugify(cat);
@@ -489,8 +562,11 @@ function renderProductPage(product) {
   let similarHTML = '';
   const primaryCat = (product.categories || [])[0];
   if (primaryCat) {
-    const similar = PRODUCTS.filter(p => p.slug !== slug && (p.categories || []).includes(primaryCat))
-      .sort((a, b) => (b.is_featured ? 1 : 0) - (a.is_featured ? 1 : 0)).slice(0, 4);
+    // Closest matches by shared categories, roles and property types; ties fall back to ring order
+    // (offset past the carousel's window) so the picks differ from page to page.
+    const ring = ringAfter(PRODUCTS.filter(p => linkable(p) && (p.categories || []).includes(primaryCat)), slug);
+    const similar = ring.slice(10).concat(ring.slice(0, 10)).filter(p => p.slug !== slug)
+      .map((p, i) => ({ p, i, s: similarity(product, p) })).sort((x, y) => y.s - x.s || x.i - y.i).slice(0, 4).map(x => x.p);
     if (similar.length) {
       similarHTML = `<div class="similar-section"><h2>Similar Products</h2><div class="similar-grid">${similar.map(compactProductCard).join('')}</div></div>`;
     }
@@ -597,7 +673,7 @@ function renderProductPage(product) {
       ${audienceHTML}
       ${featuresHTML}
       ${pricingHTML}
-      ${integrationsHTML}
+      ${integrationsHTML}${integratedByHTML}
       ${companyHTML}
       ${faqBlockHTML}
 
@@ -823,6 +899,7 @@ function renderAlternativesPage(slug, alt) {
         </div>`).join('')}
       </div>
       ${faqHTMLBlock(alt.faq)}
+      ${alsoConsiderHTML(primaryCatOf(product), new Set([slug].concat((alt.picks || []).map(p => p.slug))), slug)}
       ${altRelatedHTML(slug, product)}
       <div class="bottom-cta">
         <a href="${productPath(slug)}" class="cta-btn cta-btn-outline">Read our ${esc(product.title)} review</a>
@@ -963,10 +1040,11 @@ function renderComparisonPage(cmp) {
       <div class="description-section"><h2>Our Verdict</h2>${(cmp.verdict || '').split('\n\n').map(p => `<p>${esc(p)}</p>`).join('')}</div>
       <div class="proscons">${prosCons(A)}${prosCons(B)}</div>
       ${faqHTMLBlock(cmp.faq)}
+      ${alsoConsiderHTML(primaryCatOf(A), new Set([A.slug, B.slug]), cmp.a + cmp.b)}
       ${relatedHTML}
       <div class="bottom-cta">
-        <a href="${productPath(A.slug)}" class="cta-btn cta-btn-outline">${esc(A.title)} review</a>
-        <a href="${productPath(B.slug)}" class="cta-btn cta-btn-outline">${esc(B.title)} review</a>
+        <a href="${productPath(A.slug)}" class="cta-btn cta-btn-outline">${esc(A.title)} profile</a>
+        <a href="${productPath(B.slug)}" class="cta-btn cta-btn-outline">${esc(B.title)} profile</a>
       </div>
     </div>
   </div>
