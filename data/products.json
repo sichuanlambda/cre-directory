@@ -2336,9 +2336,9 @@
     "slug": "citybldr",
     "url": "https://www.citybldr.com",
     "logo_url": "/img/logos/citybldr.png",
-    "headline": "Site selection and development analysis platform that shut down in 2022.",
+    "headline": "Site selection and development analysis platform that is no longer operating.",
     "description": "CityBldr is an AI-powered site selection and development analysis platform for multifamily and commercial real estate developers. The platform identifies development sites 1,000x faster, provides 50x faster workflows at half the price of traditional methods. CityBldr automatically calculates buildable units for any site, shows market rents for every location, includes a built-in CRM for lead management, and offers comprehensive zoning information, environmental indicators, parking requirements, and cost analysis. The platform also features Assemblage AI for identifying land assembly opportunities, competitor analysis, and neighborhood analysis. Used by major developers including Essex Property Trust.",
-    "short_description": "AI site selection and development analysis platform for developers. CityBldr ceased operations in October 2022.",
+    "short_description": "AI site selection and development analysis platform for developers. Reported to have ceased operations in October 2022.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -2473,14 +2473,14 @@
     "domain": "citybldr.com",
     "pricing_model": "Subscription",
     "is_free": false,
-    "tagline": "Site selection and development analysis platform that shut down in 2022.",
+    "tagline": "Site selection and development analysis platform that is no longer operating.",
     "property_types": [
       "Commercial"
     ],
     "primary_category": "site-selection",
     "logo_url_source": "https://logo.clearbit.com/citybldr.com",
     "status": "defunct",
-    "status_note": "CityBldr ceased operations in October 2022, as reported by GeekWire. Its website is offline."
+    "status_note": "CityBldr is reported to have ceased operations in October 2022, and its website is offline as of October 2026."
   },
   {
     "title": "Compstak",
@@ -2888,7 +2888,7 @@
       "Commercial"
     ],
     "primary_category": "data-analytics",
-    "logo_url_source": "https://logo.clearbit.com/corelogic.com",
+    "logo_url_source": "https://cdn.prod.website-files.com/6798199a0c3b02c6826da654/67dc88f1bf4de0d4810f50f3_webclip_256_b.png",
     "aliases": [
       "CoreLogic"
     ],
@@ -9239,7 +9239,7 @@
     "primary_category": "investment-valuation",
     "logo_url_source": "https://logo.clearbit.com/realdata.com",
     "status": "defunct",
-    "status_note": "RealData stopped selling its Excel-based analysis software on April 30, 2026 and ended technical support on May 30, 2026. The company now sells real estate investing eCourses."
+    "status_note": "RealData discontinued new software sales on April 30, 2026. Existing copies keep working and its knowledge base stays online, but the company now focuses on real estate investing eCourses."
   },
   {
     "title": "RealAtom",
