@@ -549,7 +549,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/archibus/1.webp",
+        "caption": "Eptura homepage, the parent platform of Archibus",
+        "source_url": "https://www.archibus.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/archibus/2.webp",
+        "caption": "Archibus by Eptura page with a facilities dashboard showing buildings and condition gauges",
+        "source_url": "https://eptura.com/our-platform/archibus/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Powers 50% of the Fortune 500 with proven enterprise scale",
@@ -784,7 +797,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/argus/1.webp",
+        "caption": "ARGUS commercial real estate software overview page on the Altus Group site",
+        "source_url": "https://www.altusgroup.com/argus",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/argus/2.webp",
+        "caption": "ARGUS Enterprise page with product summary and sales contact form",
+        "source_url": "https://www.altusgroup.com/solutions/argus-enterprise/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Industry standard for CRE valuation — recognized globally by investors, appraisers, and lenders",
@@ -1277,7 +1303,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/brevitas/1.webp",
+        "caption": "Brevitas homepage with the marketplace search for sale and lease listings",
+        "source_url": "https://www.brevitas.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/brevitas/2.webp",
+        "caption": "Brevitas listing search with the map view, filters and a listing card",
+        "source_url": "https://www.brevitas.com/search",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "200,000+ global members create a large network for deal flow",
@@ -1575,7 +1614,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/buildium/1.webp",
+        "caption": "Buildium homepage with the rentals dashboard and resident mobile app",
+        "source_url": "https://www.buildium.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/buildium/2.webp",
+        "caption": "Buildium platform overview",
+        "source_url": "https://www.buildium.com/features/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Transparent, published pricing starting at $62/month",
@@ -1802,7 +1854,20 @@
       }
     ],
     "pricing": "Modular pricing - Start with one product, expand as needed. Contact for custom quote",
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/buildout/1.webp",
+        "caption": "Buildout homepage with a video preview of the Listings screen",
+        "source_url": "https://www.buildout.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/buildout/2.webp",
+        "caption": "Buildout Showcase page with listings grid and marketing document screens",
+        "source_url": "https://www.buildout.com/platform/market",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Purpose-built for CRE brokers — not a generic CRM adapted for real estate",
@@ -2156,7 +2221,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/cherre/1.webp",
+        "caption": "Cherre homepage hero",
+        "source_url": "https://www.cherre.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/cherre/2.webp",
+        "caption": "Cherre Platform page with Portfolio Overview dashboard and maps",
+        "source_url": "https://cherre.com/products/platform",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Unmatched data integration — 150+ data partnerships and 3.5B+ connected data points",
@@ -2539,7 +2617,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/compstak/1.webp",
+        "caption": "CompStak homepage with Comp Finder map and lease comp preview",
+        "source_url": "https://www.compstak.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/compstak/2.webp",
+        "caption": "CompStak One Connect page with an AI assistant query example",
+        "source_url": "https://compstak.com/compstak-one",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Unique crowdsourced model produces granular lease data unavailable elsewhere",
@@ -2731,7 +2822,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/corelogic/1.webp",
+        "caption": "Cotality (formerly CoreLogic) homepage",
+        "source_url": "https://www.cotality.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/corelogic/2.webp",
+        "caption": "Cotality Araya property and market intelligence platform page",
+        "source_url": "https://www.cotality.com/platforms/araya",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Industry-leading 98%+ property coverage in major markets",
@@ -3076,7 +3180,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/cremodels/1.webp",
+        "caption": "CREModels homepage hero",
+        "source_url": "https://www.cremodels.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/cremodels/2.webp",
+        "caption": "CREModels real estate tech page listing free tools",
+        "source_url": "https://www.cremodels.com/real-estate-services/commercial-real-estate-technology",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Familiar interface reduces learning curve for finance teams",
@@ -3523,7 +3640,7 @@
     "url": "https://www.dealpath.com",
     "logo_url": "/img/logos/dealpath.png",
     "headline": "The AI-Powered Operating System for Real Estate Investing",
-    "description": "Dealpath is real estate's leading deal management software and AI-powered operating system for real estate investing. Trusted by 300+ firms powering over 0 trillion in transactions, Dealpath provides a comprehensive platform that centralizes data, surfaces insights, and enables efficient execution from sourcing to close. The platform combines AI-driven automation with comprehensive deal management capabilities to help investment teams identify opportunities, execute confidently, and maximize returns.",
+    "description": "Dealpath is real estate's leading deal management software and AI-powered operating system for real estate investing. Trusted by 300+ firms powering over $10 trillion in transactions, Dealpath provides a comprehensive platform that centralizes data, surfaces insights, and enables efficient execution from sourcing to close. The platform combines AI-driven automation with comprehensive deal management capabilities to help investment teams identify opportunities, execute confidently, and maximize returns.",
     "short_description": "AI-powered deal management platform for commercial real estate investment teams.",
     "target_audience": {
       "roles": [
@@ -3613,7 +3730,20 @@
       }
     ],
     "pricing": "Subscription-based with multiple tiers - Contact for custom pricing",
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/dealpath/1.webp",
+        "caption": "Dealpath homepage",
+        "source_url": "https://www.dealpath.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/dealpath/2.webp",
+        "caption": "Dealpath platform overview: pipeline dashboard, listings and Excel add-in",
+        "source_url": "https://www.dealpath.com/platform/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Purpose-built for CRE investment workflows — not a generic CRM adapted for real estate",
@@ -3714,7 +3844,7 @@
         "pipeline management"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": true,
     "domain": "dealpath.com",
@@ -5132,7 +5262,20 @@
       }
     ],
     "pricing": "Quote-based - Contact for custom pricing",
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/hqo/1.webp",
+        "caption": "Experience by HqO page with an Access Control dashboard on a laptop",
+        "source_url": "https://www.hqo.com/product/experience/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/hqo/2.webp",
+        "caption": "Operations by HqO page with an Energy Monitoring and Usage dashboard on a laptop",
+        "source_url": "https://www.hqo.com/product/operations/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "First CRM purpose-built specifically for commercial real estate",
@@ -5302,7 +5445,14 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/investor-management-services/1.webp",
+        "caption": "RealPage Investor Management Services (IMS) product page",
+        "source_url": "https://www.realpage.com/investment-management/investor-management-services/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "550+ customers and 85,000 investors in 98 countries",
@@ -5771,7 +5921,20 @@
       }
     ],
     "pricing": "Quote-based - Contact for custom pricing based on AUM and requirements",
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/juniper-square/1.webp",
+        "caption": "Juniper Square Investor Portal page",
+        "source_url": "https://www.junipersquare.com/finance-and-reporting/investor-portal",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/juniper-square/2.webp",
+        "caption": "Juniper Square Investor CRM page with previews of CRM screens",
+        "source_url": "https://www.junipersquare.com/investor-relations/investor-crm",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Unified platform connecting all GP and LP workflows",
@@ -6320,8 +6483,8 @@
         },
         {
           "name": "Gold",
-          "price": "~$200/listing/month",
-          "period": "monthly",
+          "price": "Quote-based",
+          "period": "",
           "features": [
             "Enhanced visibility",
             "Professional photos",
@@ -6330,8 +6493,8 @@
         },
         {
           "name": "Platinum",
-          "price": "~$350/listing/month",
-          "period": "monthly",
+          "price": "Quote-based",
+          "period": "",
           "features": [
             "Gold features",
             "Video tours",
@@ -6340,8 +6503,8 @@
         },
         {
           "name": "Diamond",
-          "price": "~$500/listing/month",
-          "period": "monthly",
+          "price": "Quote-based",
+          "period": "",
           "features": [
             "Platinum features",
             "3D virtual tours",
@@ -6404,7 +6567,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
     "domain": "loopnet.com",
@@ -6571,7 +6734,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/matterport/1.webp",
+        "caption": "Matterport homepage with digital twin hero and solution cards",
+        "source_url": "https://www.matterport.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/matterport/2.webp",
+        "caption": "Matterport property marketing page with a 3D tour shown on a laptop",
+        "source_url": "https://matterport.com/solutions/property-marketing",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Industry standard for 3D virtual tours in real estate",
@@ -6922,7 +7098,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/navigatorcre/1.webp",
+        "caption": "NavigatorCRE homepage with a portfolio dashboard preview",
+        "source_url": "https://www.navigatorcre.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/navigatorcre/2.webp",
+        "caption": "NavigatorCRE platform page with map and portfolio dashboards on several devices",
+        "source_url": "https://www.navigatorcre.com/platform",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Centralizes all CRE data sources into one intelligence platform",
@@ -7764,7 +7953,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/placer/1.webp",
+        "caption": "Placer.ai homepage with the Explore view listing properties beside a map",
+        "source_url": "https://www.placer.ai",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/placer/2.webp",
+        "caption": "Placer.ai Platform page with illustrated chart and map panels",
+        "source_url": "https://www.placer.ai/products/platform",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Free dashboard provides real value for quick lookups and basic analysis",
@@ -7986,7 +8188,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/Plotzy/1.webp",
+        "caption": "Plotzy homepage: parcel search, zoning research and owner contacts",
+        "source_url": "https://www.plotzy.ai/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/Plotzy/2.webp",
+        "caption": "Zoning AI answering a permitted-use question for Tampa's CG zone",
+        "source_url": "https://www.plotzy.ai/products/zoning-ai",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Nationwide coverage: 150M+ parcels across 3,200+ counties, updated bi-weekly",
@@ -8161,7 +8376,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/procore/1.webp",
+        "caption": "Procore homepage hero (UK site)",
+        "source_url": "https://www.procore.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/procore/2.webp",
+        "caption": "Procore platform page with bid, manpower and project overview dashboards",
+        "source_url": "https://www.procore.com/platform",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Industry-leading construction management platform — 3M+ projects in 150+ countries",
@@ -8466,7 +8694,14 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/property-capsule/1.webp",
+        "caption": "PropertyCapsule homepage with property pages shown on laptop, tablet, phone and flyer",
+        "source_url": "https://www.propertycapsule.com/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Automated flyer generation saves hours of design work",
@@ -8760,7 +8995,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/real-capital-markets/1.webp",
+        "caption": "Real Capital Markets homepage",
+        "source_url": "https://www.rcm1.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/real-capital-markets/2.webp",
+        "caption": "RCM marketplace grid of listed assets with asset type, country and state filters",
+        "source_url": "https://www.rcm1.com/marketplace/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "50%+ of all US CRE sales use RCM—dominant market position",
@@ -9198,7 +9446,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/realnex/1.webp",
+        "caption": "RealNex homepage",
+        "source_url": "https://www.realnex.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/realnex/2.webp",
+        "caption": "RealNex solutions page with a deal pipeline board shown on a laptop",
+        "source_url": "https://www.realnex.com/solutions",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Most complete all-in-one suite for CRE brokers — CRM, analysis, marketing, and transactions",
@@ -9424,7 +9685,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/realpage/1.webp",
+        "caption": "RealPage homepage hero",
+        "source_url": "https://www.realpage.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/realpage/2.webp",
+        "caption": "RealPage OneSite property management software page with product category tabs",
+        "source_url": "https://www.realpage.com/property-management-software/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Most comprehensive multifamily tech stack — covers everything from marketing to revenue management",
@@ -9568,16 +9842,58 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
+      "starting_price": "$400/month (annual subscription)",
       "billing_options": [
         "Monthly",
         "Annual"
       ],
       "free_trial": true,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Web app (monthly or annual)",
+          "price": "From $400/month on an annual subscription",
+          "period": "monthly or annual",
+          "features": [
+            "Unlimited searches",
+            "Full web app access",
+            "1,000 monthly exports",
+            "Support chat"
+          ]
+        },
+        {
+          "name": "Bulk Data Feeds",
+          "price": "Contact sales",
+          "period": "",
+          "features": [
+            "CSV delivery of property and ownership data",
+            "Custom cadence"
+          ]
+        },
+        {
+          "name": "API Connection",
+          "price": "Contact sales",
+          "period": "",
+          "features": [
+            "On-demand API access to Reonomy data"
+          ]
+        }
+      ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/reonomy/1.webp",
+        "caption": "Reonomy homepage hero with the top of the property search interface",
+        "source_url": "https://www.reonomy.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/reonomy/2.webp",
+        "caption": "Reonomy web application page with free trial request form",
+        "source_url": "https://www.reonomy.com/solutions/web-application/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Powerful ownership intelligence — uncovers true owners behind LLCs and trusts",
@@ -9587,7 +9903,7 @@
       "Useful for both brokers (prospecting) and investors (research)"
     ],
     "cons": [
-      "Pricing not publicly available",
+      "Only the web app starting price is published; data feed and API pricing require a sales quote",
       "Data accuracy varies by market — strongest in major metros",
       "Smaller data team than CoStar — some gaps in coverage",
       "Limited commercial lease data compared to CoStar or CompStak"
@@ -9634,11 +9950,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": true,
     "domain": "reonomy.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Unlock CRE Property Intelligence",
     "property_types": [
@@ -10226,7 +10542,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/saltmine/1.webp",
+        "caption": "Saltmine homepage with a floor plan in the workplace design tool",
+        "source_url": "https://www.saltmine.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/saltmine/2.webp",
+        "caption": "Saltmine offering page with stack plan allocation options",
+        "source_url": "https://www.saltmine.com/offering",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "70-90% faster space programming eliminates weeks of waiting",
@@ -10571,7 +10900,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/siteseer/1.webp",
+        "caption": "SiteSeer homepage",
+        "source_url": "https://www.siteseer.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/siteseer/2.webp",
+        "caption": "SiteSeer Professional page with a trade area heat map and site overview report",
+        "source_url": "https://www.siteseer.com/siteseer-professional/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Designed by retail analysts who understand real-world decisions",
@@ -10709,7 +11051,20 @@
       }
     ],
     "pricing": "Quote-based - Contact for custom pricing, estimated 0-0 added value per month per unit",
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/smartrent/1.webp",
+        "caption": "SmartRent homepage with resident app and unit management screens",
+        "source_url": "https://www.smartrent.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/smartrent/2.webp",
+        "caption": "SmartRent Work Management page header and overview text",
+        "source_url": "https://smartrent.com/products/work-management/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Comprehensive IoT platform with 3.5M+ connected devices",
@@ -10972,7 +11327,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/squarefoot/1.webp",
+        "caption": "SquareFoot homepage",
+        "source_url": "https://www.squarefoot.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/squarefoot/2.webp",
+        "caption": "SquareFoot New York City office listings with prices on a map",
+        "source_url": "https://www.squarefoot.com/office-space/ny/new-york",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Free service for tenants—commission paid by landlords",
@@ -11292,7 +11660,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/storefront/1.webp",
+        "caption": "Storefront homepage with the space search by location, event type and duration",
+        "source_url": "https://www.thestorefront.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/storefront/2.webp",
+        "caption": "Storefront search results for New York with listing cards and map",
+        "source_url": "https://www.thestorefront.com/search/new-york",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "10,000+ spaces across major global cities",
@@ -12222,7 +12603,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/valcre/1.webp",
+        "caption": "Valcre homepage with the sales comps screen on a laptop",
+        "source_url": "https://www.valcre.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/valcre/2.webp",
+        "caption": "Valcre features page with the top of a property record screen",
+        "source_url": "https://www.valcre.com/features/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Saves 2+ hours per appraiser daily on report writing",
@@ -12387,7 +12781,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/visuallease/1.webp",
+        "caption": "Visual Lease homepage with lease portfolio map, table and chart screens",
+        "source_url": "https://www.visuallease.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/visuallease/2.webp",
+        "caption": "Visual Lease platform page with lease dashboard and map screens",
+        "source_url": "https://visuallease.com/vl-platform/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "25+ years of lease management expertise — deepest domain knowledge in the market",
@@ -13718,7 +14125,14 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/buxton/1.webp",
+        "caption": "Buxton page on the Audiense site with a sample site score card",
+        "source_url": "https://www.audiense.com/products/audiense-in-person/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Deep customer analytics goes beyond basic demographics",
@@ -13861,7 +14275,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/sitezeus/1.webp",
+        "caption": "SiteZeus homepage",
+        "source_url": "https://sitezeus.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/sitezeus/2.webp",
+        "caption": "SiteZeus Locate site selection page with the map and sales forecast dashboard",
+        "source_url": "https://sitezeus.com/products/site-selection-software",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "End-to-end platform covering entire location lifecycle from planning to operations",
@@ -14111,7 +14538,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/landvision/1.webp",
+        "caption": "LightBox Vision (formerly LandVision) product page with video preview",
+        "source_url": "https://www.lightboxre.com/product/landvision/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/landvision/2.webp",
+        "caption": "LightBox All Products page",
+        "source_url": "https://www.lightboxre.com/products/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Nationwide coverage with comprehensive property data",
@@ -14301,7 +14741,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/land-id/1.webp",
+        "caption": "Land id homepage",
+        "source_url": "https://id.land/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/land-id/2.webp",
+        "caption": "Land id parcel data product page",
+        "source_url": "https://id.land/product/parcel-data",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "40,000+ real estate professionals trust the platform",
@@ -14453,7 +14906,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/landglide/1.webp",
+        "caption": "LandGlide homepage with the parcel map app on phone and laptop",
+        "source_url": "https://landglide.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/landglide/2.webp",
+        "caption": "LandGlide corporate accounts page with monthly and yearly pricing",
+        "source_url": "https://landglide.com/corporate-accounts/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Instant property boundary visualization on mobile",
@@ -14936,7 +15402,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/zoneomics/1.webp",
+        "caption": "Zoneomics homepage with address search and zoning metrics over a property photo",
+        "source_url": "https://www.zoneomics.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/zoneomics/2.webp",
+        "caption": "Zoneomics zoning map page with map explorer and zoning report contents",
+        "source_url": "https://www.zoneomics.com/zoning-maps",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Largest nationwide zoning data coverage in the market",
@@ -15126,7 +15605,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/testfit/1.webp",
+        "caption": "TestFit homepage with a generated site plan showing units and parking",
+        "source_url": "https://www.testfit.io",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/testfit/2.webp",
+        "caption": "TestFit Site Solver page with a workflow diagram",
+        "source_url": "https://www.testfit.io/product/site-solver",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "30x faster feasibility modeling compared to traditional methods",
@@ -15296,7 +15788,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/birdi/1.webp",
+        "caption": "Birdi homepage with the top of the Scout AI assistant chat",
+        "source_url": "https://www.birdi.io/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/birdi/2.webp",
+        "caption": "Birdi features page with the top of the map workspace",
+        "source_url": "https://www.birdi.io/features",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Bridges gap between GIS experts and non-technical stakeholders",
@@ -15423,7 +15928,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/appfolio/1.webp",
+        "caption": "AppFolio homepage hero with headline and demo button",
+        "source_url": "https://www.appfolio.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/appfolio/2.webp",
+        "caption": "AppFolio Performance Platform page with the top of a Performance Insights screen",
+        "source_url": "https://www.appfolio.com/performance-platform",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "AI-native platform built from ground-up, not retrofitted",
@@ -15616,14 +16134,15 @@
       "free_tier": true,
       "plans": [
         {
-          "name": "Free (Unlimited Plus)",
+          "name": "Unlimited",
           "price": "Free",
           "period": "",
           "features": [
             "Listing syndication",
             "Tenant screening",
             "Rent collection",
-            "Maintenance tracking"
+            "Maintenance tracking",
+            "Tenants pay $2.50 per bank transfer"
           ]
         },
         {
@@ -15631,11 +16150,12 @@
           "price": "$9/unit/month",
           "period": "monthly",
           "features": [
-            "Everything in Free",
+            "Everything in Unlimited",
             "State-specific leases",
             "Custom applications",
             "FastPay",
-            "Priority support"
+            "Priority support",
+            "Waived tenant ACH fees"
           ]
         }
       ]
@@ -15650,7 +16170,7 @@
       "TransUnion screening with comprehensive reports"
     ],
     "cons": [
-      "Website blocked automated access—potential technical limitations",
+      "On the free plan, tenants pay a $2.50 fee per bank transfer",
       "Less suitable for professional property managers",
       "Limited advanced features compared to full PM platforms"
     ],
@@ -15683,7 +16203,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-08-28",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
     "domain": "avail.co",
@@ -15796,7 +16316,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/entrata/1.webp",
+        "caption": "Entrata homepage hero with video preview",
+        "source_url": "https://www.entrata.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/entrata/2.webp",
+        "caption": "Entrata LeadManager product page",
+        "source_url": "https://www.entrata.com/products/leadmanager",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "True single-login unified platform — everything integrated without third-party dependencies",
@@ -15974,7 +16507,14 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/innago/1.webp",
+        "caption": "Innago homepage with illustrated payment, tenant and lease signing cards",
+        "source_url": "https://innago.com/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Completely free with no hidden fees or unit limits",
@@ -16171,7 +16711,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/propertyware/1.webp",
+        "caption": "Propertyware homepage",
+        "source_url": "https://www.propertyware.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/propertyware/2.webp",
+        "caption": "Propertyware property management features page",
+        "source_url": "https://www.propertyware.com/rental-property-management-software/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Highly customizable with custom fields, dashboards, and reports",
@@ -16344,7 +16897,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/rent-manager/1.webp",
+        "caption": "Rent Manager homepage hero",
+        "source_url": "https://www.rentmanager.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/rent-manager/2.webp",
+        "caption": "Rent Manager Accounting page with feature tabs",
+        "source_url": "https://www.rentmanager.com/accounting/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "450+ built-in reports provide exceptional financial detail",
@@ -16556,7 +17122,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/rentec-direct/1.webp",
+        "caption": "Rentec Direct homepage with a rental application mockup",
+        "source_url": "https://www.rentecdirect.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/rentec-direct/2.webp",
+        "caption": "Rentec Direct features page with dashboard on laptop and phone",
+        "source_url": "https://www.rentecdirect.com/features",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Very affordable at $2-2.50/unit/month with no minimum",
@@ -16763,7 +17342,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/rentredi/1.webp",
+        "caption": "RentRedi homepage with Rent and Charges dashboard on desktop and mobile",
+        "source_url": "https://rentredi.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/rentredi/2.webp",
+        "caption": "RentRedi landlords page with rent, maintenance and messaging cards",
+        "source_url": "https://rentredi.com/landlords/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Flat-rate pricing with unlimited units—great for growing portfolios",
@@ -17245,31 +17837,48 @@
           ]
         },
         {
-          "name": "Paid plans",
-          "price": "From $149/year (billed annually, priced by unit count)",
+          "name": "Essentials",
+          "price": "From $149/year (1 to 10 units)",
           "period": "annual",
           "features": [
             "Everything in Free",
-            "State-specific leases",
-            "Expedited rent payouts",
-            "Unlimited e-signatures",
-            "Priority support"
+            "Create and sign leases online",
+            "Faster rent payouts",
+            "Priority listing review"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "From $199/year (1 to 10 units)",
+          "period": "annual",
+          "features": [
+            "Everything in Essentials",
+            "Income verification",
+            "Free ACH payments",
+            "Built-in accounting tools"
           ]
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/turbo-tenant/1.webp",
+        "caption": "TurboTenant homepage hero with platform statistics",
+        "source_url": "https://www.turbotenant.com/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Generous free plan for landlords with core features included",
       "Over 500,000 landlords trust the platform",
       "Easy to use interface suitable for first-time landlords",
-      "State-specific lease templates on Premium plan",
+      "State-specific lease templates on paid plans",
       "Consolidates multiple apps into one dashboard"
     ],
     "cons": [
       "Free plan has limited features compared to paid competitors",
-      "Premium plan pricing per unit can add up for larger portfolios",
+      "Paid plan prices step up above 10, 30 and 60 units",
       "Less suitable for professional property managers managing third-party properties"
     ],
     "integrations": [
@@ -17303,7 +17912,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-09-02",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
     "domain": "turbotenant.com",
@@ -20645,7 +21254,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/rentometer/1.webp",
+        "caption": "Rentometer homepage with the rent estimate form",
+        "source_url": "https://www.rentometer.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/rentometer/2.webp",
+        "caption": "Rentometer Pro Report page with a sample report on a laptop",
+        "source_url": "https://www.rentometer.com/pro-report",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Hyperlocal rent data with high accuracy validated by years of user trust",
@@ -20885,7 +21507,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/doorloop/1.webp",
+        "caption": "DoorLoop homepage with tenant portal, AI assistant and profit and loss previews",
+        "source_url": "https://www.doorloop.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/doorloop/2.webp",
+        "caption": "DoorLoop accounting features page with transaction history and profit and loss cards",
+        "source_url": "https://www.doorloop.com/features/accounting",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Comprehensive all-in-one property management with AI features",
@@ -21190,7 +21825,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/leasequery/1.webp",
+        "caption": "FinQuery (formerly LeaseQuery) homepage with product selector",
+        "source_url": "https://www.leasequery.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/leasequery/2.webp",
+        "caption": "LeaseQuery lease accounting software page with feature list and demo request form",
+        "source_url": "https://finquery.com/lease-accounting-software/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "G2 leader across small, mid-market, and enterprise categories",
@@ -21593,7 +22241,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/mashvisor/1.webp",
+        "caption": "Mashvisor homepage with address search and property cards on a map",
+        "source_url": "https://www.mashvisor.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/mashvisor/2.webp",
+        "caption": "Mashvisor Mashboard page with address search and lead list preview",
+        "source_url": "https://www.mashvisor.com/product/mashboard",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Excellent for comparing STR vs LTR potential on any property",
@@ -21800,7 +22461,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/hemlane/1.webp",
+        "caption": "Hemlane homepage hero with platform statistics",
+        "source_url": "https://www.hemlane.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/hemlane/2.webp",
+        "caption": "Hemlane online rent collection page with a rent requests screen",
+        "source_url": "https://www.hemlane.com/features/online-rent/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "100% of rent goes to landlord with no hidden deductions",
@@ -22010,7 +22684,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/stessa/1.webp",
+        "caption": "Stessa homepage with a mobile dashboard showing cash flow metrics",
+        "source_url": "https://www.stessa.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/stessa/2.webp",
+        "caption": "Stessa accounting page with a transactions screen on a tablet",
+        "source_url": "https://www.stessa.com/accounting/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Generous free tier with unlimited properties and core features",
@@ -22530,7 +23217,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/roofsnap/1.webp",
+        "caption": "RoofSnap homepage with measurement, estimate and payment examples",
+        "source_url": "https://www.roofsnap.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/roofsnap/2.webp",
+        "caption": "RoofSnap subscription page with aerial roof image",
+        "source_url": "https://roofsnap.com/solutions/roofing-software-subscription/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Reports delivered in under 4 hours (30 min rush available)",
@@ -24406,7 +25106,14 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/cred-iq/1.webp",
+        "caption": "CRED iQ homepage with the access request form",
+        "source_url": "https://cred-iq.com/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Specialized CMBS and CRE debt analytics fill a market gap",
@@ -26040,7 +26747,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/mapzot-ai/1.webp",
+        "caption": "MapZot.AI homepage with industry and workflow selectors over an aerial view",
+        "source_url": "https://www.mapzot.ai/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/mapzot-ai/2.webp",
+        "caption": "MapZot.AI site selection product page",
+        "source_url": "https://www.mapzot.ai/products/site-selection/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "92%+ accuracy with advanced data science",
@@ -27107,7 +27827,14 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/re-leased/1.webp",
+        "caption": "Re-Leased real estate management software page with rent review and calendar cards",
+        "source_url": "https://www.re-leased.com/product/commercial-property-software",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Purpose-built for commercial — not adapted from residential",
@@ -27446,7 +28173,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/accruent/1.webp",
+        "caption": "Accruent homepage with solution categories",
+        "source_url": "https://www.accruent.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/accruent/2.webp",
+        "caption": "Accruent Lucernex real estate management software page",
+        "source_url": "https://www.accruent.com/products/lucernex",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Comprehensive IWMS covering real estate, facilities, and assets",
@@ -27625,7 +28365,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/planon/1.webp",
+        "caption": "Planon homepage hero with customer logos",
+        "source_url": "https://planonsoftware.com/us/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/planon/2.webp",
+        "caption": "Planon Integrated Workplace Management Solution page with module tiles",
+        "source_url": "https://planonsoftware.com/us/software/iwms/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Recognized as a leader by Verdantix, Gartner, IDC, and Frost & Sullivan",
@@ -27819,7 +28572,14 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/prophia/1.webp",
+        "caption": "Prophia How It Works page with the overview video",
+        "source_url": "https://www.prophia.com/how-it-works",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Free instant lease abstraction tool lowers barrier to try",
@@ -27991,7 +28751,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/dottid/1.webp",
+        "caption": "Dottid homepage",
+        "source_url": "https://www.dottid.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/dottid/2.webp",
+        "caption": "Dottid product overview with the deals workspace, stacking plan and mobile notifications",
+        "source_url": "https://www.dottid.com/product",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Purpose-built for CRE leasing teams — not a generic project management tool",
@@ -28170,7 +28943,14 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/tango/1.webp",
+        "caption": "Tango homepage",
+        "source_url": "https://tangoanalytics.com/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Covers entire property lifecycle from site selection to sustainability",
@@ -28337,7 +29117,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/nakisa/1.webp",
+        "caption": "Nakisa homepage",
+        "source_url": "https://nakisa.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/nakisa/2.webp",
+        "caption": "Nakisa lease accounting software page with schedule and disclosure report screens",
+        "source_url": "https://nakisa.com/products/lease-accounting-software/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Comprehensive IWMS covering lease accounting, FM, and capital projects",
@@ -28508,7 +29301,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/investnext/1.webp",
+        "caption": "InvestNext homepage",
+        "source_url": "https://www.investnext.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/investnext/2.webp",
+        "caption": "InvestNext platform overview page",
+        "source_url": "https://www.investnext.com/platform/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Full capital lifecycle management from fundraising to distributions",
@@ -28586,7 +29392,7 @@
     "url": "https://agorareal.com",
     "logo_url": "/img/logos/agora-real-estate.png",
     "headline": "Real estate investment management software with accounting services.",
-    "description": "Agora provides best-in-class software and services for real estate investment management. Trusted by 900+ customers worldwide, the platform covers fundraising and investor onboarding, investment management, investor portal and experience, real estate accounting services, and payment solutions including ACH and cross-border distributions. Rated 4.8/5 on G2 based on 313 reviews.",
+    "description": "Agora provides best-in-class software and services for real estate investment management. Trusted by 1,400+ customers worldwide, the platform covers fundraising and investor onboarding, investment management, investor portal and experience, real estate accounting services, and payment solutions including ACH and cross-border distributions.",
     "short_description": "Real estate investment management software with accounting services.",
     "target_audience": {
       "roles": [
@@ -28674,24 +29480,73 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
+      "starting_price": "From $749/month",
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Essential",
+          "price": "From $749/month",
+          "period": "monthly",
+          "features": [
+            "Investor portal",
+            "Investor CRM",
+            "Fundraising suite",
+            "Document and K-1 management",
+            "Waterfall automation",
+            "Integrated payments"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "Quote-based",
+          "period": "",
+          "features": [
+            "Everything in Essential",
+            "Institutional-grade data room",
+            "Open-end fund accounting",
+            "Free embedded ACH payments",
+            "Single sign-on"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "period": "",
+          "features": [
+            "Everything in Pro",
+            "Enhanced SLA",
+            "Data warehouse exports",
+            "Custom integrations"
+          ]
+        }
+      ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/agora-real-estate/1.webp",
+        "caption": "Agora homepage with dashboard and investor app previews",
+        "source_url": "https://agorareal.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/agora-real-estate/2.webp",
+        "caption": "Agora investment management page",
+        "source_url": "https://agorareal.com/investment-management-solutions/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
-      "900+ customers worldwide",
-      "4.8/5 rating on G2 with 313 reviews",
+      "1,400+ customers worldwide",
       "Built-in payment processing (ACH, cross-border)",
       "Accounting services included",
       "Quick investor onboarding (8-10 minutes)"
     ],
     "cons": [
       "Focused on investor management—not property operations",
-      "Pricing not publicly listed"
+      "Only the Essential starting price is published; Pro and Enterprise are quote-based"
     ],
     "integrations": [],
     "company": {
@@ -28719,7 +29574,7 @@
         "investor portal"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
     "domain": "agorareal.com",
@@ -28851,7 +29706,14 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/covercy/1.webp",
+        "caption": "Covercy investor portal product page",
+        "source_url": "https://www.covercy.com/product/investor-portal/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Unique embedded banking eliminates manual wire transfers",
@@ -29160,7 +30022,20 @@
       "free_tier": true,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/crowdstreet/1.webp",
+        "caption": "Crowd Street homepage",
+        "source_url": "https://crowdstreet.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/crowdstreet/2.webp",
+        "caption": "Crowd Street How It Works page with the investment opportunities screen on a laptop",
+        "source_url": "https://crowdstreet.com/invest/how-it-works",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Broad private markets access — not just CRE",
@@ -29458,7 +30333,14 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/clientlook/1.webp",
+        "caption": "LightBox ClientLook CRM page with the properties list screen",
+        "source_url": "https://www.lightboxre.com/product/clientlook/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Purpose-built for CRE brokers — simple and ready to use",
@@ -29620,7 +30502,14 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/stratafolio/1.webp",
+        "caption": "STRATAFOLIO homepage with the leases dashboard on laptop and phone",
+        "source_url": "https://stratafolio.com/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Best QuickBooks integration for commercial real estate — unmatched",
@@ -30502,7 +31391,7 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
+      "starting_price": "$399/month (billed annually)",
       "billing_options": [
         "Monthly",
         "Annual"
@@ -30511,7 +31400,14 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/sharplaunch/1.webp",
+        "caption": "SharpLaunch page for building owners",
+        "source_url": "https://www.sharplaunch.com/tours/building-owners",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Purpose-built for CRE marketing — not a generic marketing tool",
@@ -30520,7 +31416,7 @@
       "Helps brokers identify hot leads through engagement analytics"
     ],
     "cons": [
-      "Pricing not publicly available",
+      "Only a starting price is published; full plan pricing is quoted on a call",
       "Marketing-focused — not a CRM or deal management platform",
       "Smaller company with limited integrations",
       "Document portal is basic compared to virtual data rooms"
@@ -30564,7 +31460,7 @@
         "commercial real estate marketing"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
     "domain": "sharplaunch.com",
@@ -30987,7 +31883,20 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/occupier/1.webp",
+        "caption": "Occupier homepage with the critical dates screen",
+        "source_url": "https://www.occupier.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/occupier/2.webp",
+        "caption": "Occupier lease administration page with the lease clauses screen",
+        "source_url": "https://www.occupier.com/product/lease-administration",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Purpose-built for tenant/occupier side — unique positioning",
@@ -31146,7 +32055,14 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/ibm-tririga/1.webp",
+        "caption": "IBM Maximo Real Estate and Facilities (formerly TRIRIGA) product page with an occupancy table",
+        "source_url": "https://www.ibm.com/products/maximo/real-estate-facility-management",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Enterprise-grade IWMS for Fortune 500 companies",
@@ -31576,7 +32492,14 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/quarem/1.webp",
+        "caption": "Quarem homepage",
+        "source_url": "https://quarem.com/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Combines technology with dedicated human client services",
@@ -31748,7 +32671,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/theanalyst-pro/1.webp",
+        "caption": "TheAnalyst PRO homepage hero",
+        "source_url": "https://www.theanalystpro.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/theanalyst-pro/2.webp",
+        "caption": "TheAnalyst PRO features page",
+        "source_url": "https://www.theanalystpro.com/theanalystpro/features/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "All-in-one analysis + marketing in one subscription",
@@ -31898,7 +32834,14 @@
       "free_tier": false,
       "plans": []
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/msci-rca/1.webp",
+        "caption": "MSCI real estate data and analytics page",
+        "source_url": "https://www.msci.com/data-and-analytics/real-estate",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Most comprehensive global CRE transaction database",
@@ -35390,7 +36333,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/baselane/1.webp",
+        "caption": "Baselane homepage hero",
+        "source_url": "https://www.baselane.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/baselane/2.webp",
+        "caption": "Baselane bookkeeping page with a transaction details card",
+        "source_url": "https://www.baselane.com/landlord-accounting",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "BoldTrail",
@@ -35704,7 +36661,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/boxbrownie/1.webp",
+        "caption": "BoxBrownie homepage with a before and after virtual staging example",
+        "source_url": "https://www.boxbrownie.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/boxbrownie/2.webp",
+        "caption": "BoxBrownie pricing page listing real estate photo editing services",
+        "source_url": "https://www.boxbrownie.com/pricing",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "Breakthrough Broker",
@@ -36505,7 +37476,15 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/cloudpano/1.webp",
+        "caption": "CloudPano homepage with the virtual tour editor on laptop and phone",
+        "source_url": "https://www.cloudpano.com/",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "Coffee & Contracts",
@@ -38755,7 +39734,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/facilio/1.webp",
+        "caption": "Facilio homepage with the top of a building performance dashboard",
+        "source_url": "https://facilio.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/facilio/2.webp",
+        "caption": "Facilio CMMS software page",
+        "source_url": "https://facilio.com/product/cmms-software/",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "Findigs",
@@ -39548,7 +40541,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/guesty/1.webp",
+        "caption": "Guesty homepage with the AI agents screen",
+        "source_url": "https://www.guesty.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/guesty/2.webp",
+        "caption": "Guesty Multi-Calendar page with the calendar and a create reservation panel",
+        "source_url": "https://www.guesty.com/features/multi-calendar/",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "Happy Grasshopper",
@@ -40114,7 +41121,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/hostaway/1.webp",
+        "caption": "Hostaway homepage with the calendar and reservations screens",
+        "source_url": "https://www.hostaway.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/hostaway/2.webp",
+        "caption": "Hostaway property management system page",
+        "source_url": "https://www.hostaway.com/features/property-management-system/",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "IDX Broker",
@@ -40356,7 +41377,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/iguide/1.webp",
+        "caption": "iGUIDE homepage with a 3D virtual tour preview",
+        "source_url": "https://goiguide.com",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/iguide/2.webp",
+        "caption": "iGUIDE floor plans page with format tabs and a sample floor plan",
+        "source_url": "https://goiguide.com/iguide/floor-plans",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "iHomefinder",
@@ -40597,7 +41632,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/intellcre/1.webp",
+        "caption": "IntellCRE homepage showing the upload, analysis and marketing output steps",
+        "source_url": "https://intellcre.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/intellcre/2.webp",
+        "caption": "IntellCRE AI Underwriting page with the property address entry screen",
+        "source_url": "https://intellcre.com/underwriting",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "Intex",
@@ -40921,7 +41970,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/landlord-studio/1.webp",
+        "caption": "Landlord Studio homepage with the landlord dashboard",
+        "source_url": "https://www.landlordstudio.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/landlord-studio/2.webp",
+        "caption": "Landlord Studio rental accounting page with the bank feeds screen",
+        "source_url": "https://www.landlordstudio.com/features/rental-accounting",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "Latchel",
@@ -41274,7 +42337,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/lease-harbor/1.webp",
+        "caption": "Lease Harbor homepage",
+        "source_url": "https://www.leaseharbor.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/lease-harbor/2.webp",
+        "caption": "Lease Harbor system page with a lease record screen",
+        "source_url": "https://www.leaseharbor.com/system",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "Limble CMMS",
@@ -42519,7 +43596,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/northspyre/1.webp",
+        "caption": "Northspyre homepage",
+        "source_url": "https://www.northspyre.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/northspyre/2.webp",
+        "caption": "Northspyre project management page with draw request and approval screens",
+        "source_url": "https://www.northspyre.com/real-estate-project-management-software",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "Offrs",
@@ -46269,7 +47360,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/ricoh360-tours/1.webp",
+        "caption": "RICOH360 Tours homepage with virtual tour, floor plan and camera examples",
+        "source_url": "https://www.ricoh360.com/tours/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/ricoh360-tours/2.webp",
+        "caption": "RICOH360 Tours feature list page",
+        "source_url": "https://www.ricoh360.com/tours/features/",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "Rockport VAL",
@@ -50953,7 +52058,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/archistar/1.webp",
+        "caption": "Archistar AI PreCheck homepage with the plan review screen",
+        "source_url": "https://www.archistar.ai/aiprecheck/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/archistar/2.webp",
+        "caption": "Archistar AI PreCheck page for local government with the plan review screen",
+        "source_url": "https://www.archistar.ai/aiprecheck/government/",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "Aurigo Masterworks",
@@ -56821,7 +57940,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/gridics/1.webp",
+        "caption": "Gridics homepage",
+        "source_url": "https://gridics.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/gridics/2.webp",
+        "caption": "Gridics MuniMap page with a 3D zoning map",
+        "source_url": "https://gridics.com/munimap/",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "GrowthFactor",
@@ -57924,7 +59057,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/key-data/1.webp",
+        "caption": "Key Data homepage with sample occupancy, booking window and ADR metrics",
+        "source_url": "https://www.keydata.co/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/key-data/2.webp",
+        "caption": "Key Data ProData page for property managers with sample metrics",
+        "source_url": "https://www.keydata.co/products/prodata",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "Land Gorilla",
@@ -62847,7 +63994,21 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "screenshots": [
+      {
+        "src": "/img/screenshots/regrid/1.webp",
+        "caption": "Regrid homepage with parcel map imagery",
+        "source_url": "https://regrid.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/regrid/2.webp",
+        "caption": "Regrid Property App page with parcel map on desktop and mobile",
+        "source_url": "https://regrid.com/property-app",
+        "captured": "2026-10-04"
+      }
+    ]
   },
   {
     "title": "Rehab Valuator",
