@@ -1,0 +1,18 @@
+{
+  "tool_name": "DealBeast",
+  "website": "https://dealbeast.co/mao-calculator",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Investment & Valuation, Data & Analytics, AI & Automation",
+  "description": "DealBeast is a US wholesaler and investor deal analyzer. Paste an address for ARV, ask vs MAO, rent, and cash-flow context so you underwrite before you chase.",
+  "pricing": "Freemium (free analyses + paid plans)",
+  "submitter_name": "",
+  "relationship": "Just suggesting",
+  "notes": "DealBeast helps US wholesalers and investors underwrite single-family leads fast. Paste an address and get ARV, asking price vs maximum allowable offer (MAO), rent and cash-flow context, and a clear fee-under-MAO path. Built for operators who decide with numbers first: compare ask to buyer MAO after repairs and your wholesale fee, instead of guessing from ARV alone. Free analyses to start; upgrade when you are closing deals. No letter grades. Talk ARV, ask, MAO, rent, cash flow, and days on market.",
+  "screenshot_urls": "",
+  "submitted_at": "2026-09-23T13:25:21+00:00",
+  "source": "formspree-email-backlog",
+  "submission_count": 1,
+  "status": "rejected",
+  "rejected_reason": "out of scope (single-family wholesaling only; relationship misstated; operator identity unclear)",
+  "processed_at": "2026-10-03"
+}

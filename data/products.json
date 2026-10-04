@@ -65967,5 +65967,919 @@
     "last_updated": "2026-08-30",
     "status": "active",
     "enriched": true
+  },
+  {
+    "title": "Homesage.ai",
+    "slug": "homesage-ai",
+    "url": "https://homesage.ai",
+    "logo_url": "/img/logos/homesage-ai.png",
+    "headline": "AI property analytics and real estate APIs for US residential investment: condition scoring, renovation costs, comps and rental estimates.",
+    "description": "Homesage.ai is a residential real estate data and analytics platform sold mainly as an API, with investor-facing tools layered on top. The company says it covers more than 155 million US residential properties and analyzes MLS and off-market listings daily. Its API library offers more than 20 endpoints, including property information, investment potential, property condition, renovation cost, renovation return, flip return, long-term and short-term rental estimates, comps, a price flexibility score and a full property report. Condition assessments are produced with computer vision run on listing imagery. For non-developers there is an investment property search, full property reports, and DealFinder, a Chrome extension and mobile app that detects addresses on listing sites and pulls up a report. The company also offers a real estate MCP for connecting AI assistants to its data, and custom AI solutions for lenders, insurers and proptech firms. API plans are credit-based and published, starting at $150 a month, with a free sandbox that returns test data. Coverage is residential only, so it suits residential investors, lenders and developers rather than commercial asset teams.",
+    "short_description": "Residential property data APIs and investor tools with AI condition scoring, renovation estimates, comps and rental projections.",
+    "tagline": "Residential investment analytics, delivered by API.",
+    "categories": [
+      "Data & Analytics",
+      "Investment & Valuation",
+      "AI & Automation"
+    ],
+    "primary_category": "data-analytics",
+    "target_audience": {
+      "roles": [
+        "Real Estate Investors",
+        "Software Developers",
+        "Lenders",
+        "Residential Agents",
+        "PropTech Product Teams"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Residential"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Real Estate APIs",
+        "features": [
+          {
+            "name": "Property and Valuation Endpoints",
+            "description": "Property information, home value graph, comps and full property report endpoints."
+          },
+          {
+            "name": "Investment and Renovation Endpoints",
+            "description": "Investment potential, renovation cost, renovation return and flip return calculations."
+          },
+          {
+            "name": "Rental Estimates",
+            "description": "Separate long-term and short-term rental estimate endpoints."
+          },
+          {
+            "name": "Sandbox and MCP",
+            "description": "Free sandbox with test data for development, plus an MCP for AI assistants."
+          }
+        ]
+      },
+      {
+        "name": "AI Analysis",
+        "features": [
+          {
+            "name": "Property Condition Assessment",
+            "description": "Computer vision models grade property condition from listing images."
+          },
+          {
+            "name": "Price Flexibility Score",
+            "description": "A score intended to indicate how negotiable a seller may be, marketed as a seller motivation signal."
+          },
+          {
+            "name": "Full Property Reports",
+            "description": "AI-generated reports combining valuation, condition, renovation and return metrics."
+          }
+        ]
+      },
+      {
+        "name": "Investor Tools",
+        "features": [
+          {
+            "name": "Investment Property Search",
+            "description": "Search and filter listings for flip and rental opportunities."
+          },
+          {
+            "name": "DealFinder Extension and App",
+            "description": "Chrome extension and iOS/Android app that detect addresses on listing sites and open a report."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": "$150/month",
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Small",
+          "price": "$150/mo",
+          "description": "1,250 API credits per month; $120/mo billed annually."
+        },
+        {
+          "name": "Medium",
+          "price": "$375/mo",
+          "description": "5,000 API credits per month; $300/mo billed annually."
+        },
+        {
+          "name": "Large",
+          "price": "$750/mo",
+          "description": "20,000 API credits per month; $600/mo billed annually."
+        },
+        {
+          "name": "Custom AI Solutions",
+          "price": "From $350/mo",
+          "description": "Priced by company size: $350, $550 or $750 per month."
+        }
+      ]
+    },
+    "pros": [
+      "Published credit-based API pricing with a free sandbox for testing",
+      "Unusual endpoints for condition, renovation cost and renovation return, not just valuation and comps",
+      "Available as API, MCP, web search, browser extension and mobile app",
+      "Identifiable company and founder with a stated US address"
+    ],
+    "cons": [
+      "Residential only, with no commercial property coverage",
+      "Coverage and accuracy claims come from the company and its own press releases; little independent review",
+      "No published pricing for the investor-facing search and report products"
+    ],
+    "deployment": [
+      "Cloud",
+      "Mobile"
+    ],
+    "company": {
+      "name": "Homesage.ai",
+      "hq": "Gaithersburg, Maryland",
+      "founded": 2023
+    },
+    "domain": "homesage.ai",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "property_types": [
+      "Residential"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-10-03",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Mergro",
+    "slug": "mergro",
+    "url": "https://mergro.ai",
+    "logo_url": "/img/logos/mergro.png",
+    "headline": "AI voice agent that calls new real estate leads, qualifies them, books viewings and writes the outcome to the CRM.",
+    "description": "Mergro is an AI voice agent for residential real estate teams and brokerages that buy or receive portal and website leads. When a new inquiry arrives it places or answers the call, asks about budget, timeline and intent, offers viewing times and books the appointment on a connected calendar. Follow-up then continues across phone, WhatsApp, email, SMS and website chat, and the tool can run outbound campaigns against dormant leads. Each call produces a summary, transcript and structured fields that are written back to the CRM; the vendor lists native connectors for Follow Up Boss, HubSpot, Zoho CRM, Wise Agent, BoldTrail and Lofty, plus webhooks and Google Sheets for other systems. The company says it calls leads in under 60 seconds and supports 15 or more languages. It sells mainly in the United States, with the United Kingdom, Canada and Dubai also served. Pricing is by monthly lead volume rather than per seat.",
+    "short_description": "Voice AI that calls, qualifies and books real estate leads, then logs everything to the CRM.",
+    "tagline": "Every lead called, qualified and booked.",
+    "categories": [
+      "CRM & Marketing",
+      "Broker Tools",
+      "AI & Automation"
+    ],
+    "primary_category": "crm-marketing",
+    "target_audience": {
+      "roles": [
+        "Brokers",
+        "Team Leaders",
+        "Real Estate Agents",
+        "Inside Sales Managers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Residential"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Voice & Lead Response",
+        "features": [
+          {
+            "name": "Inbound & Outbound Calls",
+            "description": "Answers and dials new leads around the clock; the company says first contact happens in under 60 seconds."
+          },
+          {
+            "name": "Qualification & Booking",
+            "description": "Captures budget, timeline and intent, offers viewing times and books onto Calendly or Google Calendar."
+          },
+          {
+            "name": "Dormant Lead Reactivation",
+            "description": "Outbound campaigns that re-qualify old database contacts before agents step in."
+          },
+          {
+            "name": "Multilingual Voice",
+            "description": "The vendor lists 15 or more languages, including English, Spanish, Arabic, Hindi and French."
+          }
+        ]
+      },
+      {
+        "name": "Follow-Up & CRM",
+        "features": [
+          {
+            "name": "Multi-Channel Follow-Up",
+            "description": "Continues the conversation on phone, WhatsApp, email, SMS and website chat in one thread."
+          },
+          {
+            "name": "CRM Write-Back",
+            "description": "Native connectors for Follow Up Boss, HubSpot, Zoho CRM, Wise Agent, BoldTrail and Lofty; webhooks for others."
+          },
+          {
+            "name": "Summaries & Transcripts",
+            "description": "Call summary, timestamped transcript and extracted fields saved on the contact record."
+          },
+          {
+            "name": "Speed-to-Lead Reporting",
+            "description": "Dashboard of response time per lead and source, plus calls placed, qualified and booked."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": "$199/month",
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "50 leads",
+          "price": "$199/mo",
+          "description": "50 leads a month, all channels and features included, month-to-month, no setup fee."
+        },
+        {
+          "name": "More than 50 leads",
+          "price": "Quote-based",
+          "description": "Higher volumes are packaged on a sales call."
+        }
+      ]
+    },
+    "pros": [
+      "Published entry price of $199/month for 50 leads, billed by lead volume rather than per agent seat",
+      "Month-to-month with no setup fee",
+      "Writes summaries, transcripts and qualification fields into common real estate CRMs",
+      "Covers phone, WhatsApp, email, SMS and chat in one follow-up thread"
+    ],
+    "cons": [
+      "Company founded in 2026 with a thin public track record and no independent user reviews found",
+      "No free trial, and every contact sent counts as a lead even if nobody answers",
+      "Volumes above 50 leads a month require a sales call for pricing",
+      "Aimed at residential sales teams; limited fit for commercial brokerage workflows"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Mergro",
+      "founded": 2026
+    },
+    "domain": "mergro.ai",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "property_types": [
+      "Residential"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-10-03",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Rentology",
+    "slug": "rentology",
+    "url": "https://rentology.ai",
+    "logo_url": "/img/logos/rentology.png",
+    "headline": "Property management software for short-, mid- and long-term rentals in one account, with AI messaging and built-in pricing.",
+    "description": "Rentology is a cloud property management platform for operators who run short-term, mid-term and long-term rentals side by side. One account covers a shared inbox for guest, tenant and owner messages with AI-drafted replies, turnover and maintenance scheduling, a revenue management module that recommends and pushes nightly rates, and monthly owner statements with an owner portal. For mid-term stays it answers Furnished Finder housing requests by text, prospects nearby employers for corporate housing, and issues proposals and a single monthly invoice. Cleaners, contractors and owners each get their own app view, and an MCP connection lets AI assistants such as Claude query portfolio data. The site lists Airbnb, Vrbo, Zillow, Furnished Finder, OwnerRez, PriceLabs, Stripe and Twilio as live integrations. Rentology was built by the founder of PeachHaus Group, an Atlanta rental operator that runs its own portfolio on it. Pricing is a flat monthly fee by property count, never a percentage of bookings.",
+    "short_description": "One system for short-, mid- and long-term rentals: inbox, turnovers, pricing, owner statements.",
+    "tagline": "Short, mid and long term rentals from one operating system.",
+    "categories": [
+      "Property Management",
+      "AI & Automation"
+    ],
+    "primary_category": "property-management",
+    "target_audience": {
+      "roles": [
+        "Property Managers",
+        "Short-Term Rental Operators",
+        "Corporate Housing Operators",
+        "Landlords"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Residential",
+        "Short-Term Rental",
+        "Multifamily"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Communication & Operations",
+        "features": [
+          {
+            "name": "Unified Inbox with AI Drafts",
+            "description": "Guest, tenant and owner messages in one inbox, with AI reply drafts written in the operator's voice."
+          },
+          {
+            "name": "Turnovers & Maintenance",
+            "description": "Turnover scheduling, maintenance work orders with vendors attached, and team tasks and notifications."
+          },
+          {
+            "name": "Role-Based Apps",
+            "description": "Separate app views for the management team, owners, cleaners and contractors; a tenant app is listed as coming soon."
+          }
+        ]
+      },
+      {
+        "name": "Revenue & Owner Reporting",
+        "features": [
+          {
+            "name": "Revenue Management",
+            "description": "AI rate recommendations based on demand, seasonality and local events, synced across connected channels."
+          },
+          {
+            "name": "Owner Statements & Portal",
+            "description": "Automated monthly statements showing income, expenses and payout, with a shareable owner portal."
+          },
+          {
+            "name": "Rent Collection & Leases",
+            "description": "Rent collection, lease management with e-sign, and tenant screening for long-term units."
+          }
+        ]
+      },
+      {
+        "name": "Mid-Term & Integrations",
+        "features": [
+          {
+            "name": "Furnished Finder Follow-Up",
+            "description": "Texts each new housing request, follows up, and hands off leads that are ready to sign."
+          },
+          {
+            "name": "Corporate Housing Prospecting",
+            "description": "Finds employers near each property and the housing contact, then sends proposals and one monthly invoice."
+          },
+          {
+            "name": "Channel & Tool Integrations",
+            "description": "The site lists Airbnb, Vrbo, Zillow, Furnished Finder, OwnerRez, PriceLabs, Stripe and Twilio as live integrations."
+          },
+          {
+            "name": "MCP Access for AI Assistants",
+            "description": "Connect Claude, Cursor or another MCP client to query properties, bookings and work orders; included on every plan."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": "$149/month",
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Base",
+          "price": "$149/mo",
+          "description": "Includes up to 3 properties, unlimited team members and setup support."
+        },
+        {
+          "name": "Additional properties",
+          "price": "From $30/property/mo",
+          "description": "$30 each for properties 4 to 15, $24 for 16 to 40, $18 for 41 to 100, $14 for 101 to 250, $10 beyond 250."
+        }
+      ]
+    },
+    "pros": [
+      "Published flat pricing by property count from $149/month, with a 14-day trial and no card required",
+      "Handles short-term, mid-term and long-term rentals in one account rather than separate products",
+      "Built and used daily by an operating Atlanta property manager",
+      "Mid-term tooling (Furnished Finder follow-up, corporate prospecting, proposals) is uncommon in this price range"
+    ],
+    "cons": [
+      "New product launched in 2026 with no independent user reviews yet",
+      "Third-party listings show a different starting price ($299) than the vendor site ($149), so confirm current pricing",
+      "Residential rental focus; not built for office, retail or industrial portfolios",
+      "Tenant mobile app is listed as coming soon"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Rentology Technologies LLC",
+      "hq": "Atlanta, GA",
+      "founded": 2026
+    },
+    "domain": "rentology.ai",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "property_types": [
+      "Residential",
+      "Short-Term Rental",
+      "Multifamily"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-10-03",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "The Property AI",
+    "slug": "the-property-ai",
+    "url": "https://thepropertyai.co.uk",
+    "logo_url": "/img/logos/the-property-ai.png",
+    "headline": "AI inventory and inspection reports for UK lettings - turn on-site photos into branded check-in and check-out PDFs.",
+    "description": "The Property AI is inventory and inspection software for the UK lettings market, operated by Besmove Ltd, a London-registered company. A clerk or agent photographs a property room by room on a phone, and the software analyses the images to identify items and note their condition, then assembles an editable inventory, check-in or check-out report. Finished reports are exported as branded PDFs with photo references, and the company says they are formatted to serve as evidence in deposit disputes with the TDS, DPS and MyDeposits schemes. It runs on iOS, Android and the web. Pricing is pay per report rather than a subscription: 5 GBP per report plus 1 GBP for each additional room, with three free reports to start and no card required. A custom-quoted Teams and Portfolios plan adds team member access, invoicing, branded booking pages and landlord and tenant portals. The company claims 95 percent or better detection accuracy and that a three-hour inventory drops to under 45 minutes; neither figure is independently verified. The product is built for residential lettings, not commercial leasing.",
+    "short_description": "Generates UK lettings inventory, check-in and check-out reports from phone photos, priced per report.",
+    "tagline": "Property inventories from photos, without the typing.",
+    "categories": [
+      "Property Management",
+      "AI & Automation"
+    ],
+    "primary_category": "property-management",
+    "target_audience": {
+      "roles": [
+        "Letting Agents",
+        "Inventory Clerks",
+        "Property Managers",
+        "Landlords"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Residential",
+        "Single-Family Rental",
+        "Multifamily"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "AI Report Generation",
+        "features": [
+          {
+            "name": "Photo Analysis",
+            "description": "Analyses on-site photos to detect items and describe their condition; the company claims 95 percent or better accuracy."
+          },
+          {
+            "name": "Inventory, Check-in & Check-out Reports",
+            "description": "Builds the three standard lettings report types from the captured photos, with output the user can edit before issue."
+          },
+          {
+            "name": "Branded PDF Output",
+            "description": "Exports reports as PDFs with photo references and the agency's own logo and colours."
+          }
+        ]
+      },
+      {
+        "name": "Deposit Dispute Evidence",
+        "features": [
+          {
+            "name": "Scheme-Ready Formatting",
+            "description": "Reports are laid out for use as evidence with the TDS, DPS and MyDeposits deposit protection schemes, according to the company."
+          },
+          {
+            "name": "Photo-Referenced Condition Notes",
+            "description": "Condition notes are tied to the supporting photographs so each entry can be evidenced."
+          }
+        ]
+      },
+      {
+        "name": "Team & Workflow",
+        "features": [
+          {
+            "name": "Mobile Capture",
+            "description": "Native iOS and Android apps for capturing photos on site, with a web application for review."
+          },
+          {
+            "name": "Team & Portfolio Dashboard",
+            "description": "Team management and portfolio tracking for agencies running multiple clerks and properties."
+          },
+          {
+            "name": "Booking Pages & Portals",
+            "description": "The Teams and Portfolios plan lists invoicing, branded booking pages and landlord and tenant portals."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Pay-per-report",
+      "starting_price": "£5 per report",
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Pay Per Report",
+          "price": "£5 per report + £1 per additional room",
+          "description": "No subscription or contract. Inventory, check-in and check-out reports on iOS, Android and web. First 3 reports free, no card required."
+        },
+        {
+          "name": "Teams & Portfolios",
+          "price": "Custom",
+          "description": "Quote-based plan with team member access, invoicing, branded booking pages, landlord and tenant portals and guided onboarding."
+        }
+      ]
+    },
+    "pros": [
+      "Published pay-per-report pricing with no subscription or contract",
+      "Three free reports with no card required and no expiry",
+      "Available on iOS, Android and web",
+      "Operated by a UK company on the public register since 2013 (Besmove Ltd)"
+    ],
+    "cons": [
+      "UK lettings only: built around English deposit schemes and residential tenancies, not commercial leases",
+      "Accuracy and time-saving figures are the vendor's own claims with no independent verification",
+      "Third-party software listings show different subscription pricing than the vendor site, so confirm current pricing before buying"
+    ],
+    "deployment": [
+      "Cloud",
+      "iOS",
+      "Android"
+    ],
+    "company": {
+      "name": "Besmove Ltd",
+      "hq": "London, UK"
+    },
+    "domain": "thepropertyai.co.uk",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Pay-per-report",
+    "is_free": false,
+    "property_types": [
+      "Residential",
+      "Single-Family Rental",
+      "Multifamily"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-10-03",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Grafics MLS Ready",
+    "slug": "grafics-mls-ready",
+    "url": "https://grafics.com/mls-ready/",
+    "logo_url": "/img/logos/grafics-mls-ready.png",
+    "headline": "MLS-safe listing photo cleanup for Atlanta and Georgia agents on FMLS and GAMLS.",
+    "description": "Grafics MLS Ready is a web-based listing photo cleanup tool from Grafics Media LLC, built for residential listing agents in Atlanta and Georgia who upload to FMLS or GAMLS. It applies mild technical correction (exposure, white balance, straightening, contrast, denoise and sharpening) and strips burned-in artifacts such as Just Listed or Price Reduced banners, photographer watermarks, timestamps, phone numbers and logos. The company is explicit about what it will not do: no virtual staging, no sky or lawn replacement, no invented architecture and no text added to images, and it says photos that cannot be cleaned without guessing are refused. Agents choose an FMLS, GAMLS or combined target, with a generic mode for other states. Optional printable flyers (Just Listed through Sold) can be branded with agent details. Pricing is published and self-serve, with a free trial that needs a verified email but no card. The company states the product is not an MLS certification.",
+    "short_description": "Strips banners, watermarks and timestamps from listing photos and applies mild correction for FMLS and GAMLS uploads.",
+    "tagline": "Listing photo cleanup, not virtual staging.",
+    "categories": [
+      "Broker Tools",
+      "CRM & Marketing",
+      "Listing Services"
+    ],
+    "primary_category": "broker-tools",
+    "target_audience": {
+      "roles": [
+        "Listing Agents",
+        "Brokerage Teams",
+        "Listing Coordinators"
+      ],
+      "company_sizes": [
+        "Small"
+      ],
+      "property_types": [
+        "Residential"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Photo Cleanup",
+        "features": [
+          {
+            "name": "Artifact Strip",
+            "description": "Removes burned-in banners, watermarks, timestamps, phone numbers, URLs, logos and frames from listing photos."
+          },
+          {
+            "name": "Mild Correction",
+            "description": "Exposure, white balance, lens and vertical correction, straightening, mild contrast, denoise and sharpen."
+          },
+          {
+            "name": "Refusal on Unsafe Edits",
+            "description": "Photos where removal would require inventing a wall, view or other content are refused rather than filled in."
+          },
+          {
+            "name": "Work Presets",
+            "description": "Presets for cases such as new listing sets, dark or yellow-cast interiors, night exteriors and watermark cleanup."
+          }
+        ]
+      },
+      {
+        "name": "MLS Targeting",
+        "features": [
+          {
+            "name": "FMLS, GAMLS or Both",
+            "description": "Georgia listings can target either board or a combined dual-MLS path; a generic mode covers other states."
+          },
+          {
+            "name": "Output Specs",
+            "description": "sRGB JPEG output with a 3000 to 4096 px longest edge and a target size under 6 MB, per the site."
+          }
+        ]
+      },
+      {
+        "name": "Marketing Extras",
+        "features": [
+          {
+            "name": "Listing Flyers",
+            "description": "Printable story flyers for Just Listed, Open House, Price Reduced, Pending and Sold."
+          },
+          {
+            "name": "Flyer Brand Kit",
+            "description": "Adds agent name, brokerage, phone and logo to flyers, never to MLS photos."
+          },
+          {
+            "name": "Email Delivery",
+            "description": "Cleaned photo ZIPs or branded PDF flyers can be emailed from the workbench."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": "$49/month",
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Trial",
+          "price": "Free",
+          "description": "7 days, 2 listings, 25 photos. Verified email required, no card."
+        },
+        {
+          "name": "MLS Ready",
+          "price": "$49/mo",
+          "description": "1 agent, unlimited listings, 150 photos per month. $490 billed annually."
+        },
+        {
+          "name": "Team",
+          "price": "$129/mo",
+          "description": "5 seats, 500 photos per month. $1,290 billed annually."
+        }
+      ]
+    },
+    "pros": [
+      "Published self-serve pricing from $49/month with a no-card free trial",
+      "Clear limits on editing: correction and artifact removal only, no staging or invented content",
+      "Built around FMLS and GAMLS upload targets for Georgia agents",
+      "Overage is a stated $0.35 per photo rather than a forced plan upgrade"
+    ],
+    "cons": [
+      "New product with no independent reviews or press found",
+      "Narrow geography: designed for Atlanta and Georgia boards, with only a generic mode elsewhere",
+      "Residential listing photos only, and the company states it is not an MLS certification"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Grafics Media LLC"
+    },
+    "domain": "grafics.com",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "property_types": [
+      "Residential"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-10-03",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Howell Opportunity Radar",
+    "slug": "howell-opportunity-radar",
+    "url": "https://radar.howellcommerceco.com",
+    "logo_url": "",
+    "headline": "Missouri construction opportunity feed: public bids, early project signals and selected private-development leads in one workspace.",
+    "description": "Howell Opportunity Radar is a subscription lead-intelligence tool for contractors, estimators and preconstruction teams working in Missouri. It gathers public-project signals from state, county and municipal sources, including MissouriBUYS, MoDOT and Department of Natural Resources feeds plus local portals, and sorts them by stage: early signal, approved development, public bid or active construction. Records carry trade and supplier tags, a priority score, deadlines and a link back to the official source, and expired public bids are removed automatically. Paying members get a login dashboard with the full statewide feed, territory matching, known project parties such as owners, developers and applicants, and saved projects with notes and a simple pipeline. A limited public sample and a morning brief can be viewed without subscribing. The company describes the product as a research aid and says every record should be verified against the official source; it is not a planroom, takeoff or estimating tool. Coverage is limited to Missouri, and the inventory shown on the site is modest, at roughly 180 records in early October 2026.",
+    "short_description": "Stage-sorted feed of Missouri public bids and early construction project signals with official source links.",
+    "tagline": "Missouri construction leads, sorted by stage.",
+    "categories": [
+      "Construction & Development",
+      "Data & Analytics"
+    ],
+    "primary_category": "construction-development",
+    "target_audience": {
+      "roles": [
+        "General Contractors",
+        "Subcontractors",
+        "Estimators",
+        "Preconstruction Teams",
+        "Building Material Suppliers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Commercial"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Opportunity Discovery",
+        "features": [
+          {
+            "name": "Stage Classification",
+            "description": "Records are labelled as early signal, approved development, public bid or active construction."
+          },
+          {
+            "name": "Trade and Territory Filters",
+            "description": "Filter by trade or supplier tag and by Missouri region, such as Kansas City Metro, St. Louis Metro or Southwest Missouri."
+          },
+          {
+            "name": "Official Source Links",
+            "description": "Each record links back to the originating agency or portal so details can be verified."
+          },
+          {
+            "name": "Priority Scoring and Deadlines",
+            "description": "Opportunities are ranked and bid deadlines surfaced, with expired public bids removed automatically."
+          }
+        ]
+      },
+      {
+        "name": "Member Workspace",
+        "features": [
+          {
+            "name": "Saved Projects and Notes",
+            "description": "Members can save projects, add notes and track them through a pipeline workflow."
+          },
+          {
+            "name": "Known Project Parties",
+            "description": "Identifies owners, developers and applicants attached to a project where public records name them."
+          },
+          {
+            "name": "Public Sample and Morning Brief",
+            "description": "A deliberately limited sample feed and a morning brief are viewable without a subscription."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": "$79/month",
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Radar",
+          "price": "$79/mo",
+          "description": "Full statewide Missouri feed with member dashboard; monthly billing, cancel future renewals anytime, no refund once a period begins."
+        }
+      ]
+    },
+    "pros": [
+      "Single published price of $79/month with online checkout and no sales call",
+      "Separates early signals and approvals from formal bids, which generic bid boards rarely do",
+      "Every record links to its official public source for verification",
+      "Free public sample shows the data before paying"
+    ],
+    "cons": [
+      "Missouri only, so of no use to contractors working elsewhere",
+      "New, small operation with no independent reviews or press found",
+      "Modest inventory, roughly 180 records listed on the site in early October 2026"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Howell Commerce Co."
+    },
+    "domain": "radar.howellcommerceco.com",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "property_types": [
+      "Commercial"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-10-03",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "ImaageQ",
+    "slug": "imaageq",
+    "url": "https://imaageq.com",
+    "logo_url": "/img/logos/imaageq.png",
+    "headline": "Scan-based spatial visualization that furnishes empty luxury properties for buyers.",
+    "description": "ImaageQ is a Miami-based spatial visualization platform aimed at luxury real estate. According to its website, a space is scanned to produce a walkable 3D twin with a floor plan, then furnished virtually with layouts tailored to an individual buyer and populated with real collections from furnishing brands. Buyers can view the result in augmented reality on a phone or tablet, and the furnishings shown are intended to be purchasable in place. The company positions the product for developers, sales agents and property managers across pre-construction sales, repositioning and resale listings, with planned extensions into yachts, aviation and hospitality. The company says its technology is patented. Access is by request only: there is no public sign-up, app download or published pricing. An August 2026 Refresh Miami profile described the company as preparing to move from beta testing into a pilot, so buyers should treat it as an early-stage product and confirm availability directly.",
+    "short_description": "Turns a scan of an empty property into a personalized, shoppable AR interior for luxury buyers.",
+    "tagline": "Design Beyond Imagination.",
+    "categories": [
+      "CRM & Marketing",
+      "Broker Tools",
+      "AI & Automation"
+    ],
+    "primary_category": "crm-marketing",
+    "target_audience": {
+      "roles": [
+        "Luxury Brokers",
+        "Developers",
+        "Sales Agents",
+        "Furnishing Brands"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Residential",
+        "Multifamily"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Capture",
+        "features": [
+          {
+            "name": "Spatial Capture & Floor Plan",
+            "description": "A scan of the space is turned into a 3D twin with a floor plan, per the company's site."
+          },
+          {
+            "name": "Walkable 3D Twin",
+            "description": "The captured space can be explored as an interactive model rather than static photos."
+          }
+        ]
+      },
+      {
+        "name": "Design & Personalization",
+        "features": [
+          {
+            "name": "Personalized Buyer Identity",
+            "description": "Layouts and furnishings are shaped around an individual buyer's preferences."
+          },
+          {
+            "name": "Bespoke Furniture Layouts",
+            "description": "Furniture arrangements generated for the specific scanned space."
+          },
+          {
+            "name": "Branded Collections",
+            "description": "Spaces are furnished with real products from participating luxury furnishing brands."
+          }
+        ]
+      },
+      {
+        "name": "Delivery",
+        "features": [
+          {
+            "name": "AR Experience",
+            "description": "Buyers view and move furniture through the space in augmented reality on their own device, with no headset."
+          },
+          {
+            "name": "Shoppable Furnishings",
+            "description": "Items shown in the space are offered for purchase, with the company describing a design-to-delivery path."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "starting_price": "Contact sales",
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Private Access",
+          "price": "Contact sales",
+          "description": "Access is requested through a form on the company's site; no pricing is published."
+        }
+      ]
+    },
+    "pros": [
+      "Combines room capture, buyer-specific furnishing and AR viewing in one workflow",
+      "Works on a phone or tablet without a VR headset",
+      "Furnishings come from real brand collections and are meant to be purchasable, not just rendered",
+      "Identifiable Miami team and independent local press coverage"
+    ],
+    "cons": [
+      "Early stage: independent coverage in August 2026 described it as moving from beta into a pilot",
+      "No public sign-up, demo or published pricing; access is by request only",
+      "Focused on luxury residential in South Florida, with limited relevance to other commercial property types"
+    ],
+    "deployment": [
+      "Cloud",
+      "Mobile"
+    ],
+    "company": {
+      "name": "ImaageQ LLC",
+      "hq": "Miami, FL"
+    },
+    "domain": "imaageq.com",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Quote-based",
+    "is_free": false,
+    "property_types": [
+      "Residential",
+      "Multifamily"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-10-03",
+    "status": "active",
+    "enriched": true
   }
 ]

@@ -1,0 +1,18 @@
+{
+  "tool_name": "KonutUzman",
+  "website": "https://konutuzman.com/kira-kontrati-hazirlama",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Property Management, Legal & Compliance",
+  "description": "KonutUzman is SaaS for Turkish property owners and landlords: kira kontratı hazırlama (online rental contract PDF), free home valuation, rent tracking, tenant trust score, tax/DASK reminders. First pr",
+  "pricing": "Free plan: first property free. Additional properties on an annual quota plan.",
+  "submitter_name": "",
+  "relationship": "",
+  "notes": "Suggested listing title: Kira Kontratı Hazırlama | KonutUzman. Turkey-based, Turkish-language product for individual property owners/landlords (not brokers). Contact: [email redacted]",
+  "screenshot_urls": "",
+  "submitted_at": "2026-09-03T20:31:28+00:00",
+  "source": "formspree-email-backlog",
+  "submission_count": 3,
+  "status": "rejected",
+  "rejected_reason": "out of scope (Turkish-language tool for individual landlords; no independent source or identifiable company)",
+  "processed_at": "2026-10-03"
+}

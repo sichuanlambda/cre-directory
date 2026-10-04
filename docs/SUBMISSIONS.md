@@ -43,6 +43,31 @@ A submission only becomes a listing when research can confirm:
 5. It is software a CRE buyer can purchase (services/media/VC firms get
    `not_software: true` and an ecosystem label instead).
 
+## Extra scrutiny for new companies and prototype-looking URLs
+
+Default to skeptical when a submission shows any of these signals. One signal
+means look harder; two or more means reject unless the evidence below is strong.
+
+- Domain registered in the last 12 months, or a company founded this year.
+- Hosted on a throwaway or builder subdomain (github.io, netlify.app,
+  vercel.app, here.now, chatgpt.site, pazi.dev and similar) instead of its own
+  domain.
+- No identifiable legal entity, address or named people on the site.
+- Waitlist, "request access", "opening soon" or demo-labelled content in place
+  of a product someone can sign up for or buy today.
+- No independent source at all (no registry record, press, review listing or
+  app store entry that the vendor did not write).
+- Self-reported scale (study counts, ratings, customer numbers) that the age of
+  the domain makes implausible, or testimonials that cannot be traced.
+- Repeat submissions, campaign-tagged URLs, or a vendor posing as a third party
+  ("Just suggesting" from the vendor's own domain).
+
+To pass anyway, a new product needs a working sign-up or checkout on its own
+domain, published pricing or a clear quote path, an identifiable company, and
+at least one independent source. Check the domain age (WHOIS) for every
+submission and record it in the research notes. When a new product is listed,
+its cons must say plainly that it is new and has a thin track record.
+
 ## Contact emails and the private database
 
 The repo is public, so the worker redacts the submitter's email before it
