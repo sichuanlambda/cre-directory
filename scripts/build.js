@@ -513,6 +513,15 @@ function renderProductPage(product) {
 
   const primaryCatObj = primaryCat ? categoryByName(primaryCat) : null;
 
+  // Screenshots: captured from the vendor's public site by scripts/screenshot.js (see docs/SCREENSHOTS.md).
+  const shots = (product.screenshots || []).map(s => typeof s === 'string' ? { src: s } : s).filter(s => s && s.src);
+  const shotHost = u => { try { return new URL(u).hostname.replace(/^www\./, ''); } catch { return ''; } };
+  const screenshotsHTML = shots.length ? `<div class="screenshot-gallery" id="sec-screenshots">
+        <h2>${esc(product.title)} Screenshots</h2>
+        <div class="screenshot-scroll">${shots.map((s, i) => `<figure class="screenshot-figure"><a href="${esc(s.src)}" target="_blank" rel="noopener"><img src="${esc(s.src)}" alt="${esc(s.alt || s.caption || `${product.title} screenshot ${i + 1}`)}" width="1280" height="800" loading="lazy"></a>${s.caption ? `<figcaption>${esc(s.caption)}</figcaption>` : ''}</figure>`).join('')}</div>
+        <p class="screenshot-credit">Images from ${esc(shotHost(shots[0].source_url || product.url) || product.title)}${shots[0].captured ? `, captured ${fmtDate(shots[0].captured)}` : ''}.</p>
+      </div>` : '';
+
   const softwareLd = {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
@@ -523,6 +532,7 @@ function renderProductPage(product) {
     "applicationCategory": primaryCat || "BusinessApplication",
     "operatingSystem": (product.deployment || []).join(', ') || 'Web'
   };
+  if (shots.length) softwareLd.screenshot = shots.map(s => BASE + s.src);
   if (pricing.starting_price) {
     const num = String(pricing.starting_price).replace(/[^0-9.]/g, '');
     if (num) softwareLd.offers = { "@type": "Offer", "price": num, "priceCurrency": "USD" };
@@ -593,7 +603,7 @@ function renderProductPage(product) {
         <h2>About ${esc(product.title)}</h2>
         <div class="product-description">${esc(product.description || '').replace(/\n/g, '<br>')}</div>
       </div>
-      ${prosConsHTML}
+      ${screenshotsHTML}${prosConsHTML}
       ${audienceHTML}
       ${featuresHTML}
       ${pricingHTML}

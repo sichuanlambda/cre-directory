@@ -1575,7 +1575,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/buildium/1.webp",
+        "caption": "Buildium homepage with the rentals dashboard and resident mobile app",
+        "source_url": "https://www.buildium.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/buildium/2.webp",
+        "caption": "Buildium platform overview",
+        "source_url": "https://www.buildium.com/features/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Transparent, published pricing starting at $62/month",
@@ -3613,7 +3626,20 @@
       }
     ],
     "pricing": "Subscription-based with multiple tiers - Contact for custom pricing",
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/dealpath/1.webp",
+        "caption": "Dealpath homepage",
+        "source_url": "https://www.dealpath.com/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/dealpath/2.webp",
+        "caption": "Dealpath platform overview: pipeline dashboard, listings and Excel add-in",
+        "source_url": "https://www.dealpath.com/platform/",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Purpose-built for CRE investment workflows — not a generic CRM adapted for real estate",
@@ -7986,7 +8012,20 @@
         }
       ]
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "src": "/img/screenshots/Plotzy/1.webp",
+        "caption": "Plotzy homepage: parcel search, zoning research and owner contacts",
+        "source_url": "https://www.plotzy.ai/",
+        "captured": "2026-10-04"
+      },
+      {
+        "src": "/img/screenshots/Plotzy/2.webp",
+        "caption": "Zoning AI answering a permitted-use question for Tampa's CG zone",
+        "source_url": "https://www.plotzy.ai/products/zoning-ai",
+        "captured": "2026-10-04"
+      }
+    ],
     "video_url": null,
     "pros": [
       "Nationwide coverage: 150M+ parcels across 3,200+ counties, updated bi-weekly",
