@@ -3523,7 +3523,7 @@
     "url": "https://www.dealpath.com",
     "logo_url": "/img/logos/dealpath.png",
     "headline": "The AI-Powered Operating System for Real Estate Investing",
-    "description": "Dealpath is real estate's leading deal management software and AI-powered operating system for real estate investing. Trusted by 300+ firms powering over 0 trillion in transactions, Dealpath provides a comprehensive platform that centralizes data, surfaces insights, and enables efficient execution from sourcing to close. The platform combines AI-driven automation with comprehensive deal management capabilities to help investment teams identify opportunities, execute confidently, and maximize returns.",
+    "description": "Dealpath is real estate's leading deal management software and AI-powered operating system for real estate investing. Trusted by 300+ firms powering over $10 trillion in transactions, Dealpath provides a comprehensive platform that centralizes data, surfaces insights, and enables efficient execution from sourcing to close. The platform combines AI-driven automation with comprehensive deal management capabilities to help investment teams identify opportunities, execute confidently, and maximize returns.",
     "short_description": "AI-powered deal management platform for commercial real estate investment teams.",
     "target_audience": {
       "roles": [
@@ -3714,7 +3714,7 @@
         "pipeline management"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": true,
     "domain": "dealpath.com",
@@ -6320,8 +6320,8 @@
         },
         {
           "name": "Gold",
-          "price": "~$200/listing/month",
-          "period": "monthly",
+          "price": "Quote-based",
+          "period": "",
           "features": [
             "Enhanced visibility",
             "Professional photos",
@@ -6330,8 +6330,8 @@
         },
         {
           "name": "Platinum",
-          "price": "~$350/listing/month",
-          "period": "monthly",
+          "price": "Quote-based",
+          "period": "",
           "features": [
             "Gold features",
             "Video tours",
@@ -6340,8 +6340,8 @@
         },
         {
           "name": "Diamond",
-          "price": "~$500/listing/month",
-          "period": "monthly",
+          "price": "Quote-based",
+          "period": "",
           "features": [
             "Platinum features",
             "3D virtual tours",
@@ -6404,7 +6404,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
     "domain": "loopnet.com",
@@ -9568,14 +9568,43 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
+      "starting_price": "$400/month (annual subscription)",
       "billing_options": [
         "Monthly",
         "Annual"
       ],
       "free_trial": true,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Web app (monthly or annual)",
+          "price": "From $400/month on an annual subscription",
+          "period": "monthly or annual",
+          "features": [
+            "Unlimited searches",
+            "Full web app access",
+            "1,000 monthly exports",
+            "Support chat"
+          ]
+        },
+        {
+          "name": "Bulk Data Feeds",
+          "price": "Contact sales",
+          "period": "",
+          "features": [
+            "CSV delivery of property and ownership data",
+            "Custom cadence"
+          ]
+        },
+        {
+          "name": "API Connection",
+          "price": "Contact sales",
+          "period": "",
+          "features": [
+            "On-demand API access to Reonomy data"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
@@ -9587,7 +9616,7 @@
       "Useful for both brokers (prospecting) and investors (research)"
     ],
     "cons": [
-      "Pricing not publicly available",
+      "Only the web app starting price is published; data feed and API pricing require a sales quote",
       "Data accuracy varies by market — strongest in major metros",
       "Smaller data team than CoStar — some gaps in coverage",
       "Limited commercial lease data compared to CoStar or CompStak"
@@ -9634,11 +9663,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": true,
     "domain": "reonomy.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Unlock CRE Property Intelligence",
     "property_types": [
@@ -15616,14 +15645,15 @@
       "free_tier": true,
       "plans": [
         {
-          "name": "Free (Unlimited Plus)",
+          "name": "Unlimited",
           "price": "Free",
           "period": "",
           "features": [
             "Listing syndication",
             "Tenant screening",
             "Rent collection",
-            "Maintenance tracking"
+            "Maintenance tracking",
+            "Tenants pay $2.50 per bank transfer"
           ]
         },
         {
@@ -15631,11 +15661,12 @@
           "price": "$9/unit/month",
           "period": "monthly",
           "features": [
-            "Everything in Free",
+            "Everything in Unlimited",
             "State-specific leases",
             "Custom applications",
             "FastPay",
-            "Priority support"
+            "Priority support",
+            "Waived tenant ACH fees"
           ]
         }
       ]
@@ -15650,7 +15681,7 @@
       "TransUnion screening with comprehensive reports"
     ],
     "cons": [
-      "Website blocked automated access—potential technical limitations",
+      "On the free plan, tenants pay a $2.50 fee per bank transfer",
       "Less suitable for professional property managers",
       "Limited advanced features compared to full PM platforms"
     ],
@@ -15683,7 +15714,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-08-28",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
     "domain": "avail.co",
@@ -17245,15 +17276,25 @@
           ]
         },
         {
-          "name": "Paid plans",
-          "price": "From $149/year (billed annually, priced by unit count)",
+          "name": "Essentials",
+          "price": "From $149/year (1 to 10 units)",
           "period": "annual",
           "features": [
             "Everything in Free",
-            "State-specific leases",
-            "Expedited rent payouts",
-            "Unlimited e-signatures",
-            "Priority support"
+            "Create and sign leases online",
+            "Faster rent payouts",
+            "Priority listing review"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "From $199/year (1 to 10 units)",
+          "period": "annual",
+          "features": [
+            "Everything in Essentials",
+            "Income verification",
+            "Free ACH payments",
+            "Built-in accounting tools"
           ]
         }
       ]
@@ -17264,12 +17305,12 @@
       "Generous free plan for landlords with core features included",
       "Over 500,000 landlords trust the platform",
       "Easy to use interface suitable for first-time landlords",
-      "State-specific lease templates on Premium plan",
+      "State-specific lease templates on paid plans",
       "Consolidates multiple apps into one dashboard"
     ],
     "cons": [
       "Free plan has limited features compared to paid competitors",
-      "Premium plan pricing per unit can add up for larger portfolios",
+      "Paid plan prices step up above 10, 30 and 60 units",
       "Less suitable for professional property managers managing third-party properties"
     ],
     "integrations": [
@@ -17303,7 +17344,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-09-02",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
     "domain": "turbotenant.com",
@@ -28586,7 +28627,7 @@
     "url": "https://agorareal.com",
     "logo_url": "/img/logos/agora-real-estate.png",
     "headline": "Real estate investment management software with accounting services.",
-    "description": "Agora provides best-in-class software and services for real estate investment management. Trusted by 900+ customers worldwide, the platform covers fundraising and investor onboarding, investment management, investor portal and experience, real estate accounting services, and payment solutions including ACH and cross-border distributions. Rated 4.8/5 on G2 based on 313 reviews.",
+    "description": "Agora provides best-in-class software and services for real estate investment management. Trusted by 1,400+ customers worldwide, the platform covers fundraising and investor onboarding, investment management, investor portal and experience, real estate accounting services, and payment solutions including ACH and cross-border distributions.",
     "short_description": "Real estate investment management software with accounting services.",
     "target_audience": {
       "roles": [
@@ -28674,24 +28715,60 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
+      "starting_price": "From $749/month",
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Essential",
+          "price": "From $749/month",
+          "period": "monthly",
+          "features": [
+            "Investor portal",
+            "Investor CRM",
+            "Fundraising suite",
+            "Document and K-1 management",
+            "Waterfall automation",
+            "Integrated payments"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "Quote-based",
+          "period": "",
+          "features": [
+            "Everything in Essential",
+            "Institutional-grade data room",
+            "Open-end fund accounting",
+            "Free embedded ACH payments",
+            "Single sign-on"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "period": "",
+          "features": [
+            "Everything in Pro",
+            "Enhanced SLA",
+            "Data warehouse exports",
+            "Custom integrations"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "900+ customers worldwide",
-      "4.8/5 rating on G2 with 313 reviews",
+      "1,400+ customers worldwide",
       "Built-in payment processing (ACH, cross-border)",
       "Accounting services included",
       "Quick investor onboarding (8-10 minutes)"
     ],
     "cons": [
       "Focused on investor management—not property operations",
-      "Pricing not publicly listed"
+      "Only the Essential starting price is published; Pro and Enterprise are quote-based"
     ],
     "integrations": [],
     "company": {
@@ -28719,7 +28796,7 @@
         "investor portal"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
     "domain": "agorareal.com",
@@ -30502,7 +30579,7 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
+      "starting_price": "$399/month (billed annually)",
       "billing_options": [
         "Monthly",
         "Annual"
@@ -30520,7 +30597,7 @@
       "Helps brokers identify hot leads through engagement analytics"
     ],
     "cons": [
-      "Pricing not publicly available",
+      "Only a starting price is published; full plan pricing is quoted on a call",
       "Marketing-focused — not a CRM or deal management platform",
       "Smaller company with limited integrations",
       "Document portal is basic compared to virtual data rooms"
@@ -30564,7 +30641,7 @@
         "commercial real estate marketing"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
     "domain": "sharplaunch.com",

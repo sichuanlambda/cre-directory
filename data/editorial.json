@@ -2116,6 +2116,334 @@
           "answer": "Plotzy publishes month-to-month pricing from $180. Regrid pricing is quote-based and depends on coverage, enrichments and delivery method, and it usually requires engineering time to use."
         }
       ]
+    },
+    {
+      "a": "costar",
+      "b": "loopnet",
+      "one_liner": "CoStar is the paid research database for comps, analytics and ownership; LoopNet is the public marketplace where listings get seen. Same owner, different jobs.",
+      "verdict": "CoStar and LoopNet are both owned by CoStar Group, so this is less a rivalry than a question of which product you actually need. CoStar is the professional research subscription: verified property records, lease and sale comps, ownership and tenant data, market analytics and forecasts, used by brokers, appraisers, lenders and institutional owners to underwrite and prospect. LoopNet is the public-facing marketplace: a site anyone can search for free to find space for lease or property for sale, and the place most brokers advertise a listing when they want the widest audience.\n\nCoStar wins when the work is research. If you need to defend a rent assumption, pull comparable sales, map out who owns and occupies a submarket, or produce a market report, LoopNet will not do it. LoopNet shows what is being marketed today, not the historical comps and analytics behind a valuation. The trade-offs with CoStar are well known: pricing is quote-based and negotiated by market and seat count, contracts are typically annual, and the depth is more than a tenant or casual investor will ever use.\n\nLoopNet wins when the goal is exposure or a quick search. Tenants and small investors can browse without paying, and owners or brokers can pay for higher placement through its advertising tiers. The honest caveats: LoopNet does not publish prices for those tiers, the cost depends on property type, market and package, and a basic listing gets far less visibility than a paid one. LoopNet is also not a CRM, a deal tracker or a data product.\n\nChoose CoStar if you are a broker, appraiser, lender or investor who needs comps and analytics every week and can justify an enterprise subscription. Choose LoopNet if you are searching for space, or if you have a property to market and want buyers and tenants to find it. Many brokerages end up with both, because the two share a listing database and CoStar subscribers market their listings through LoopNet. If the bundle is out of reach, a free marketplace such as Crexi is the usual place to start.",
+      "faq": [
+        {
+          "question": "Are CoStar and LoopNet the same company?",
+          "answer": "Yes. LoopNet is owned by CoStar Group. CoStar is the subscription research and analytics product for professionals, and LoopNet is the public marketplace where properties are advertised for sale and lease."
+        },
+        {
+          "question": "Is LoopNet free to use?",
+          "answer": "Searching LoopNet is free. Marketing a property with strong visibility is not: LoopNet sells advertising tiers and does not publish their prices, so the cost is quoted by a LoopNet representative based on the property, market and package."
+        },
+        {
+          "question": "Can LoopNet replace a CoStar subscription?",
+          "answer": "Not for research. LoopNet shows properties currently on the market, while CoStar adds verified lease and sale comps, ownership and tenant data, and market analytics. If you only need to find or advertise space, LoopNet is enough."
+        },
+        {
+          "question": "How much does CoStar cost?",
+          "answer": "CoStar does not publish pricing. Subscriptions are quoted based on the markets, products and number of users you need, and are usually sold on annual contracts."
+        }
+      ]
+    },
+    {
+      "a": "appfolio",
+      "b": "doorloop",
+      "one_liner": "AppFolio suits established managers with 50+ units who want deep automation; DoorLoop suits smaller portfolios that want published pricing and a fast start.",
+      "verdict": "AppFolio and DoorLoop cover the same ground, accounting, leasing, maintenance, payments and tenant and owner portals, but they are sized for different businesses. AppFolio is a public company with a mature platform sold in three plans (Core, Plus and Max), built around its Realm-X AI and workflow engine and aimed at professional management companies. DoorLoop is a younger, Miami-based product that sells self-serve plans to landlords and small to mid-sized managers across residential, commercial, HOA, student and affordable portfolios.\n\nThe clearest difference is how you buy. DoorLoop publishes its prices: Starter is $69 a month billed yearly ($99 month to month) for up to 10 units, Pro is $149 and Premium is $209 on yearly billing, with portfolios over 300 units pushed to a demo. AppFolio lists its plans but not its prices, and its Core plan carries a 50 unit minimum plus a minimum monthly spend. If you manage 12 doors, AppFolio is not really on the table.\n\nAppFolio wins once the operation is large enough to need standardized processes. Its workflow automation, AI leasing and communication tools, investment management add-on and reporting depth are built for teams with dedicated accounting, leasing and maintenance staff. The caveats are quote-based pricing, onboarding that takes real effort, and features that a small team will pay for without using.\n\nDoorLoop wins on speed and transparency. Setup is quick, QuickBooks sync and listing syndication come with the Pro plan, and support is a selling point. The caveats: AI features and workflows sit on Pro and above, the base plans cover a limited number of units before per-unit charges apply, and it has less depth for very large or institutional portfolios.\n\nChoose AppFolio if you run a management company with 50 or more units, expect to grow, and want automation and reporting that scale. Choose DoorLoop if you are a landlord or a smaller manager who wants to see the price up front, be live in days and keep the software simple. Managers sitting between 50 and 200 units should demo both and compare the total quoted cost against DoorLoop Pro or Premium.",
+      "faq": [
+        {
+          "question": "Is DoorLoop cheaper than AppFolio?",
+          "answer": "For small portfolios, almost certainly, and it is the only one of the two you can price without a sales call. DoorLoop publishes plans from $69 a month on yearly billing for up to 10 units. AppFolio does not publish prices and applies minimum spend and unit requirements."
+        },
+        {
+          "question": "What is the minimum number of units for AppFolio?",
+          "answer": "AppFolio states that its Core plan has a 50 unit minimum and a minimum monthly spend, and that minimums also apply to Plus and Max. DoorLoop has no comparable minimum and sells a Starter plan for up to 10 units."
+        },
+        {
+          "question": "Does DoorLoop handle commercial properties?",
+          "answer": "Yes. DoorLoop markets itself to residential, commercial, mixed-use, HOA, student and affordable housing portfolios, and its Pro plan includes CAM charges. AppFolio also supports commercial properties, though both are used primarily for residential management."
+        }
+      ]
+    },
+    {
+      "a": "appfolio",
+      "b": "entrata",
+      "one_liner": "AppFolio fits third-party managers with mixed residential portfolios; Entrata fits large multifamily and student housing operators who want one enterprise operating system.",
+      "verdict": "AppFolio and Entrata are both single-platform property management systems with heavy AI investment, but they grew up serving different customers. AppFolio built its base among third-party managers running mixed portfolios of single-family homes, small multifamily, community associations and some commercial, and now sells Core, Plus and Max plans that stretch from 50 units into the enterprise. Entrata built its base among large apartment and student housing operators, and positions itself as an operating system for multifamily, student, affordable, military, commercial and manufactured housing.\n\nEntrata wins for large, site-staffed communities. Its platform bundles accounting, leasing, marketing websites, resident portals, payments and utilities, and its Entrata Layered Intelligence (ELI) agents cover leasing, maintenance, payments and renewals. Student housing features such as by-the-bed leasing are a long-standing strength. The caveats: pricing is entirely quote-based, the platform takes time to learn, and it is more than a manager with a few hundred scattered units needs.\n\nAppFolio wins for fee managers and mid-sized operators. Owner statements, owner portals, maintenance coordination across scattered properties and its Realm-X automation are designed for companies managing on behalf of many owners. It is generally regarded as quicker to adopt. The caveats: prices are not published, minimum spend and unit counts apply, and operators with large lease-up communities, student housing or centralized leasing teams may find Entrata goes deeper.\n\nNeither vendor publishes pricing, so the real comparison happens in the quotes. Ask each for the total cost including payments, screening, websites and AI modules, because both sell meaningful functionality as add-ons.\n\nChoose AppFolio if you are a third-party manager with a varied residential portfolio and want fast adoption with strong owner reporting. Choose Entrata if you own or operate large multifamily or student communities and want leasing, marketing, resident experience and accounting in one enterprise stack. Portfolios in the low thousands of units that sit between those descriptions should run both through a structured demo with their own leasing and accounting leads in the room.",
+      "faq": [
+        {
+          "question": "Which is better for student housing, AppFolio or Entrata?",
+          "answer": "Entrata is the more common choice for purpose-built student housing and lists student as a core segment alongside multifamily. AppFolio supports student housing too, but its strength is third-party residential management."
+        },
+        {
+          "question": "Do AppFolio or Entrata publish pricing?",
+          "answer": "No. AppFolio lists its Core, Plus and Max plans without prices and notes minimum spend and unit requirements. Entrata sells by demo and quote. Budget for add-on modules with either vendor."
+        },
+        {
+          "question": "Do both platforms include AI tools?",
+          "answer": "Yes. AppFolio builds AI into its platform through Realm-X for workflows, leasing and communications. Entrata offers Entrata Layered Intelligence (ELI), with agents for leasing, maintenance, payments and renewals. In both cases, confirm which AI features are included in your quote."
+        }
+      ]
+    },
+    {
+      "a": "buildium",
+      "b": "rent-manager",
+      "one_liner": "Buildium is the easier, transparently priced choice for residential and association managers; Rent Manager is the customizable choice for mixed portfolios with complex accounting.",
+      "verdict": "Buildium and Rent Manager are both long-established systems for small and mid-sized property managers, and they tend to appear on the same shortlists. Buildium, a RealPage company, is a cloud product purpose-built for residential managers and community associations, with a clean interface and three published plans. Rent Manager, from London Computer Systems in Cincinnati, is a highly configurable platform that handles residential, commercial, HOA, self-storage and mixed portfolios, and is known for accounting depth and customization.\n\nBuildium wins on ease and price clarity. Its Essential, Growth and Premium plans start at $62, $192 and $400 a month, with a 14-day trial that needs no credit card. Most teams can run it without a dedicated administrator. The caveats: it is primarily residential, the open API sits on the Premium plan, live phone support starts at Growth, and per-transaction fees for eSignatures and bank transfers are higher on the lower plans.\n\nRent Manager wins on flexibility. It runs cash and accrual books at the same time, ships with more than 450 reports, lets you add user-defined fields and custom workflows, and offers an open API and a large integration network. Commercial features such as CAM handling and its support for storage and manufactured housing make it a better fit for mixed portfolios. The caveats: pricing is by quote across its Basic, Plus and Premium bundles, setup takes longer because there is more to configure, and the interface feels more traditional than newer cloud products.\n\nA useful rule of thumb is how much your processes deviate from the norm. If you manage standard residential leases and associations and want software that works out of the box, Buildium will be faster to value. If you have unusual fee structures, several property types, or an accounting team that wants control over the general ledger and reporting, Rent Manager rewards the extra setup.\n\nChoose Buildium if you are a residential or association manager who values a short learning curve and published prices. Choose Rent Manager if you manage commercial, storage or mixed portfolios, or if customization and accounting control matter more than simplicity.",
+      "faq": [
+        {
+          "question": "How much do Buildium and Rent Manager cost?",
+          "answer": "Buildium publishes three plans starting at $62 (Essential), $192 (Growth) and $400 (Premium) per month, with the price rising by unit count. Rent Manager does not publish prices: its Basic, Plus and Premium bundles are sold by quote."
+        },
+        {
+          "question": "Which is better for commercial property management?",
+          "answer": "Rent Manager. It supports commercial, self-storage and mixed portfolios alongside residential, while Buildium is designed for residential rentals and community associations."
+        },
+        {
+          "question": "Is Rent Manager harder to learn than Buildium?",
+          "answer": "Generally yes. Rent Manager offers far more configuration, including custom fields, reports and workflows, so implementation and training take longer. Buildium trades some of that flexibility for a simpler setup."
+        }
+      ]
+    },
+    {
+      "a": "buildium",
+      "b": "propertyware",
+      "one_liner": "Two RealPage products for different managers: Buildium for small residential and association portfolios, Propertyware for scaled single-family rental operators.",
+      "verdict": "Buildium and Propertyware are sister products inside RealPage, which makes the choice mostly about portfolio type rather than vendor. Buildium serves residential managers and community associations of almost any size, starting with small portfolios. Propertyware is built specifically for single-family rental managers running hundreds or thousands of scattered homes, often across several markets, and leans into customization and an open API.\n\nPricing shows who each is for. Buildium publishes Essential, Growth and Premium plans starting at $62, $192 and $400 a month, with a 14-day free trial. Propertyware publishes per-unit pricing of $1, $1.50 and $2 per unit per month for Basic, Plus and Premium, but with monthly minimums of $250, $350 and $450 and an implementation fee of twice the monthly subscription. A manager with 40 doors pays far less on Buildium. A manager with 600 homes should price both.\n\nBuildium wins for smaller and more varied residential businesses. It is quicker to set up, handles associations as well as rentals, and includes resident services and AI-assisted communications on higher plans. The caveats: the open API is limited to Premium, eSignature and bank transfer fees are higher on Essential, and it offers less scope for custom fields and portfolio-level structures than Propertyware.\n\nPropertyware wins for single-family specialists at scale. Custom fields, dashboards and reports, two-way API access, multi-location management and add-ons such as maintenance and leasing contact centers are designed around the operational pattern of dispersed homes and many owners. The caveats: the minimums and implementation fee make it poor value for small portfolios, the interface is older in feel, and it is not aimed at multifamily communities or associations.\n\nChoose Buildium if you manage under a few hundred units, run associations, or want to be live quickly at a predictable entry price. Choose Propertyware if single-family rentals are your core business, you have several hundred homes or more, and you want to shape the system around your own processes. Because both sit under RealPage, it is reasonable to ask the sales team which they would recommend for your unit count and why.",
+      "faq": [
+        {
+          "question": "Are Buildium and Propertyware owned by the same company?",
+          "answer": "Yes. Both are RealPage products. Buildium targets residential and association managers broadly, while Propertyware focuses on single-family rental management companies."
+        },
+        {
+          "question": "What is the minimum cost of Propertyware?",
+          "answer": "Propertyware publishes monthly minimums of $250 for Basic, $350 for Plus and $450 for Premium, at $1, $1.50 and $2 per unit per month, plus an implementation fee of twice the monthly subscription price."
+        },
+        {
+          "question": "Which is better for a small landlord?",
+          "answer": "Buildium. Its Essential plan starts at $62 a month and has a free trial. Propertyware's monthly minimums mean it only makes financial sense once you manage a few hundred single-family homes."
+        }
+      ]
+    },
+    {
+      "a": "avail",
+      "b": "turbo-tenant",
+      "one_liner": "Both are free for DIY landlords. Avail charges per unit for its upgrade; TurboTenant charges a flat annual fee, which favors landlords with more doors.",
+      "verdict": "Avail and TurboTenant are the two best-known free tools for self-managing landlords, and their core feature lists look nearly identical: listing syndication, online applications, tenant screening, lease signing, rent collection and maintenance tracking. Both are residential products rather than commercial real estate software. Avail is part of Realtor.com. TurboTenant is an independent company based in Colorado.\n\nThe meaningful difference is how the paid upgrade is priced. Avail's free plan is called Unlimited, and its Unlimited Plus plan costs $9 per unit per month. TurboTenant's paid plans are flat annual fees by portfolio band: for 1 to 10 units, Essentials is $149 a year and Pro is $199 a year, rising in steps for larger portfolios. One unit on Avail's paid plan costs $108 a year, so a single-unit landlord pays less on Avail, while anyone with two or more units pays less on TurboTenant.\n\nFees on the free plans matter too. On Avail's free plan, tenants pay $2.50 per bank transfer, which Unlimited Plus waives. On TurboTenant, renters pay a $2 ACH fee unless the landlord is on Pro, where ACH is free. Both pass card processing fees to the payer, and on both the applicant normally pays for screening.\n\nAvail wins for landlords with one or two units who want lawyer-reviewed lease templates and exposure on Realtor.com. Its upgrade adds faster rent deposits, custom application questions and lease customization. The caveat is that per-unit pricing climbs quickly as you add doors.\n\nTurboTenant wins for landlords with several units. The flat fee covers the whole portfolio, Pro adds income verification and built-in accounting, and there is an optional full-service tier for owners who want to hand off management. The caveats: leases and e-signatures sit behind the paid plans, and the pricing bands step up above 10, 30 and 60 units.\n\nChoose Avail if you have one or two rentals and want the simplest free setup. Choose TurboTenant if you have three or more units or expect to add them. Neither is designed for professional managers handling properties for third-party owners.",
+      "faq": [
+        {
+          "question": "Are Avail and TurboTenant really free?",
+          "answer": "Yes, both have a free landlord plan covering listings, applications, screening, rent collection and maintenance requests. The costs fall on tenants as bank transfer, card and screening fees, and on landlords who choose a paid upgrade."
+        },
+        {
+          "question": "How much do the paid plans cost?",
+          "answer": "Avail Unlimited Plus is $9 per unit per month. TurboTenant charges a flat annual fee by portfolio size: for 1 to 10 units, Essentials is $149 a year and Pro is $199 a year, with higher bands for larger portfolios."
+        },
+        {
+          "question": "Which is cheaper for a landlord with five units?",
+          "answer": "TurboTenant. Five units on Avail Unlimited Plus costs $45 a month, or $540 a year, while TurboTenant Pro for up to 10 units is $199 a year. On the free plans the two are comparable."
+        },
+        {
+          "question": "Can I use Avail or TurboTenant for commercial leases?",
+          "answer": "They are built for residential rentals. Their lease templates, screening and listing syndication are all residential, so commercial landlords should look at commercial property management software instead."
+        }
+      ]
+    },
+    {
+      "a": "argus",
+      "b": "rockport-val",
+      "one_liner": "ARGUS is the institutional standard that counterparties expect; Rockport VAL is the web-native challenger that reads ARGUS exports and is quicker to learn.",
+      "verdict": "ARGUS Enterprise and Rockport VAL do the same core job: lease-by-lease cash flow modeling and valuation for commercial property. ARGUS, from Altus Group, has been the reference tool for more than 30 years, is taught at over 200 universities and is used in more than 100 countries. Rockport VAL, from The Rockport Group, is a cloud application that presents itself explicitly as the alternative, with a client list that includes large lenders and brokerages.\n\nARGUS wins on acceptance. When a lender, appraiser, buyer and seller all need to exchange a model, the ARGUS file is still the default format, and analysts trained on it are easy to hire. ARGUS Enterprise is now delivered in the cloud as part of the ARGUS Intelligence platform, which adds asset and portfolio management tools and an AI assistant, and it supports international valuation methods beyond discounted cash flow. The caveats: pricing is quote-based and widely regarded as expensive for small firms, the learning curve is steep, and the breadth of the suite is more than a firm doing occasional valuations will use.\n\nRockport VAL wins on accessibility. It is browser-based, built to feel familiar to Excel users, and Rockport claims new users can learn it in about an hour. It imports ARGUS exports so existing models do not need to be rebuilt, offers Excel import and export, includes debt modeling, keeps an audit trail of model changes, and lets you share a model with someone who is not a VAL customer. A two-way API connects it to other systems. The caveats: pricing is not published either, the pool of trained users and third-party training is smaller, and some counterparties will still ask for an ARGUS file.\n\nChoose ARGUS if you work in institutional acquisitions, appraisal or asset management where clients, lenders or investment committees specify it, or if you value property outside North America. Choose Rockport VAL if you want a lower-friction modeling tool for underwriting, lending or brokerage work, and your counterparties accept its output or an Excel export. Firms unhappy with ARGUS renewal terms often run VAL in parallel on a few deals before deciding.",
+      "faq": [
+        {
+          "question": "Can Rockport VAL open ARGUS files?",
+          "answer": "Rockport states that VAL can import ARGUS exports, so models built in ARGUS can be brought across without being recreated. Test this with a few of your own complex models before committing."
+        },
+        {
+          "question": "How much do ARGUS and Rockport VAL cost?",
+          "answer": "Neither publishes pricing. Altus Group describes ARGUS pricing as tiered and scaled to the business, and Rockport sells VAL by quote. Request both quotes on the same user count to compare."
+        },
+        {
+          "question": "Is ARGUS still desktop software?",
+          "answer": "ARGUS Enterprise is now delivered through the cloud as part of the ARGUS Intelligence platform and runs in modern browsers. Rockport VAL has been web-based from the start."
+        },
+        {
+          "question": "Do lenders accept Rockport VAL models?",
+          "answer": "Rockport lists lenders, appraisers and brokerages among its users, and VAL models can be shared with non-customers. Acceptance still varies by counterparty, so confirm with the lenders and investors you work with most."
+        }
+      ]
+    },
+    {
+      "a": "dealpath",
+      "b": "termsheet",
+      "one_liner": "Dealpath is the specialist pipeline and deal execution system for institutional investors; TermSheet, now Intapp Properties, stretches further into development tracking and portfolio reporting.",
+      "verdict": "Dealpath and TermSheet both replace the spreadsheet-and-email approach to tracking real estate deals, and both now lead with AI that extracts data from offering memoranda. They differ in scope and in who stands behind them. Dealpath is an independent, real-estate-only vendor that reports more than 300 firms as customers. TermSheet was acquired by Intapp and is now sold as Intapp Properties, part of a larger software company serving professional and financial services firms.\n\nDealpath wins for investment teams whose main problem is the pipeline. It covers sourcing, screening, underwriting, due diligence workflows and investment committee approvals across acquisitions, development, debt and dispositions, with reporting on top. Dealpath Connect adds a private channel through which brokers send listings directly into the pipeline, and its comps tracking builds a proprietary market database as deals are logged. The caveats: pricing is quote-based, it is designed for teams rather than solo investors, and it does not try to be a construction cost tracker or a portfolio accounting consolidation tool.\n\nTermSheet wins for firms that want one system from site selection through project delivery and into the hold period. Intapp Properties combines deal evaluation with GIS mapping across more than 152 million parcels, two-way Excel syncing for pro formas, schedule and line-item cost tracking with a Procore integration, and portfolio intelligence that consolidates actuals from Yardi, MRI and RealPage. Its target list includes developers, retailers rolling out stores and corporate real estate teams as well as private equity real estate. The caveats: pricing is not published, the TermSheet name is being retired in favor of Intapp branding, and a broader platform usually means a longer rollout.\n\nChoose Dealpath if you are an institutional investor, lender or asset manager that wants the deepest pipeline, approval and broker-connectivity tooling from a vendor focused only on that. Choose TermSheet (Intapp Properties) if you are a developer, operating company or multi-site occupier that needs deal tracking, project execution and portfolio reporting in one place, or if your firm already uses Intapp products.",
+      "faq": [
+        {
+          "question": "Is TermSheet now Intapp Properties?",
+          "answer": "Yes. Intapp acquired TermSheet and sells the product as Intapp Properties. The TermSheet name still appears in places such as the login page, but new marketing uses the Intapp brand."
+        },
+        {
+          "question": "Do Dealpath or TermSheet publish pricing?",
+          "answer": "No. Both are sold by demo and quote, with pricing dependent on team size and modules."
+        },
+        {
+          "question": "Which is better for real estate developers?",
+          "answer": "TermSheet (Intapp Properties) has more development-specific tooling, including schedule automation, line-item cost tracking and a Procore integration. Dealpath supports development pipelines too, but its center of gravity is deal sourcing, underwriting and approvals."
+        }
+      ]
+    },
+    {
+      "a": "juniper-square",
+      "b": "investnext",
+      "one_liner": "Juniper Square is the institutional platform with fund administration built in; InvestNext is the lighter investor portal and capital-raising tool for syndicators and emerging sponsors.",
+      "verdict": "Juniper Square and InvestNext both give real estate sponsors an investor portal, a CRM, online subscriptions and distribution processing. The gap between them is scale. Juniper Square reports more than 2,300 GPs, 750,000 LPs and $1 trillion in investor equity on its platform, and serves private equity, venture capital and private credit managers as well as real estate. InvestNext is a Detroit-based company focused on real estate GPs, and describes its range as firms from $10 million up to billion-dollar funds.\n\nJuniper Square wins for managers with institutional LPs. Its software is paired with a full fund administration service, AML and KYC, data rooms, due diligence questionnaire tools and an investor CRM enriched with institutional data, plus its JunieAI agents. For a firm that wants one vendor for both technology and fund accounting, that combination is hard to match. The caveats: pricing is quote-based, implementation and data migration are significant projects, and smaller syndicators often find the platform more than they need.\n\nInvestNext wins for sponsors raising deal by deal. Its three plans, Core, Firm and Institution, all include the portal, CRM, fundraising automation, distributions and waterfalls, with co-sponsor seats rising from 3 to 10 to unlimited. ACH, KYC, AML and accreditation checks are add-ons on Core. The caveats: it does not publish plan prices either, it states a 12 month initial agreement with onboarding fees that vary by tier, and it is primarily software rather than an outsourced fund administrator.\n\nOne figure InvestNext does publish is its ACH fee: 0.03% plus 25 cents per payment, capped at $25, with ACH included at no charge on the Institution plan. That is worth modeling if you pay monthly or quarterly distributions to hundreds of investors.\n\nChoose Juniper Square if you manage funds with institutional investors, want fund administration from the same provider, or operate across several asset classes. Choose InvestNext if you are a syndicator or emerging manager who needs a professional portal, waterfalls and capital-raising workflows without an institutional-scale implementation.",
+      "faq": [
+        {
+          "question": "Is InvestNext cheaper than Juniper Square?",
+          "answer": "Neither publishes subscription prices, so a direct comparison needs quotes. InvestNext is aimed at smaller sponsors and sells three tiers on a 12 month initial agreement. Juniper Square is positioned for larger managers and often bundles fund administration."
+        },
+        {
+          "question": "Does Juniper Square provide fund administration?",
+          "answer": "Yes. Juniper Square offers fund administration and investor services alongside its software. InvestNext lists fund administration among its capabilities, but its core offer is the software platform."
+        },
+        {
+          "question": "Can InvestNext calculate distribution waterfalls?",
+          "answer": "Yes. Waterfall capabilities are included in all three InvestNext plans, and the Firm plan adds white-glove waterfall setup."
+        }
+      ]
+    },
+    {
+      "a": "juniper-square",
+      "b": "agora-real-estate",
+      "one_liner": "Juniper Square serves institutional, multi-asset managers; Agora serves real estate sponsors with a published entry price and optional tax and bookkeeping services.",
+      "verdict": "Juniper Square and Agora both combine investor management software with back-office services, which sets them apart from portal-only tools. Juniper Square is the larger and more institutional of the two, reporting more than 2,300 GPs and $1 trillion in investor equity, across real estate, private equity, venture capital, fund of funds and private credit. Agora is focused on real estate firms and syndicators, and reports more than 1,400 customers worldwide.\n\nAgora wins on transparency and on fit for mid-sized real estate sponsors. Its Essential plan is published as starting from $749 a month and includes the investor portal, CRM, fundraising suite, document and K-1 management, cap table, waterfall automation and integrated payments. The Pro plan adds an institutional-grade data room, open-end fund accounting, free embedded ACH and single sign-on, and Enterprise adds custom integrations and data warehouse exports. Tax operations and bookkeeping are sold as separate services, and cross-border payments are supported, which is useful for sponsors with overseas investors. The caveats: Pro and Enterprise prices are not published, services are quoted separately, and the platform is real estate specific.\n\nJuniper Square wins when investors are institutions and reporting requirements are heavy. Its fund administration practice, AML and KYC, due diligence questionnaire tooling, data rooms and investor CRM with institutional data are built for managers answering to pension funds and endowments. The caveats: there is no published pricing, onboarding is a substantial project, and a sponsor with a handful of syndications may be paying for scale it does not use.\n\nBoth vendors will happily run a migration from spreadsheets or a competitor, so the decision usually turns on investor profile. Ask each how they would handle your most complicated structure, for example a fund with side letters or a deal with a multi-tier waterfall.\n\nChoose Agora if you are a real estate sponsor who wants a known starting price, a modern portal, and the option to add tax and bookkeeping services later. Choose Juniper Square if you raise from institutional LPs, need full fund administration, or manage strategies beyond real estate.",
+      "faq": [
+        {
+          "question": "How much does Agora cost compared with Juniper Square?",
+          "answer": "Agora publishes a starting price of $749 a month for its Essential plan, with Pro and Enterprise quoted. Juniper Square does not publish pricing at all, so you will need a quote based on your funds, investors and services."
+        },
+        {
+          "question": "Does Agora handle K-1s and tax work?",
+          "answer": "Agora's platform includes document and K-1 management for distributing forms to investors. Preparing them is a separate matter: Agora sells tax operations and bookkeeping as additional services priced after a consultation."
+        },
+        {
+          "question": "Which is better for a first-time syndicator?",
+          "answer": "Agora is the more natural fit, with a published entry price and a product designed around real estate sponsors. Juniper Square is built for established managers and is likely to be more platform than a first deal requires."
+        }
+      ]
+    },
+    {
+      "a": "hqo",
+      "b": "equiem",
+      "one_liner": "HqO is the broader platform reaching into operations, leasing and portfolio intelligence; Equiem is the tenant engagement and flex space specialist with a strong international footprint.",
+      "verdict": "HqO and Equiem started in the same place, a branded app that gives office tenants access to building services, events and amenities, and both have since grown into wider platforms for landlords. HqO, based in Boston, now describes itself as a real estate experience platform and a CRM built for commercial real estate. Equiem sells Equiem One, a modular system, and reports deployments in more than 800 buildings covering 145 million square feet across 25 countries, with over 300,000 registered users.\n\nHqO wins on breadth. Its REX platform is organized into six suites: Intelligence for portfolio analytics, Experience for engagement and amenity management, Tenant as the app-based front door, Operations as a cloud building management system, Leasing for visibility into the leasing process, and Vendor for service providers. For an owner that wants tenant data to inform leasing and asset management decisions, that is a wider remit than a tenant app. The caveats: pricing is quote-based, the scope means a heavier rollout, and an owner that only wants an amenity booking app may be buying more than it needs.\n\nEquiem wins on focus and on international reach. Its modules are easy to map to a need: Engage for community and events, Ops for property management automation, Flex for running and monetizing flexible space, Data for analytics, Connect for integrations and APIs, and Hybrid for hybrid work tools. It reports average monthly active use of 44% and markets itself to business parks, science parks and mixed-use estates as well as prime offices. The caveats: pricing is not published, the product is oriented to office and mixed-use rather than other asset classes, and like any tenant app its value depends on tenants actually adopting it.\n\nChoose HqO if you want a single platform that ties tenant experience to operations, leasing and portfolio-level intelligence, and you have the team to roll it out. Choose Equiem if your priority is tenant engagement, flexible space revenue and building operations across an office or campus portfolio, particularly outside the United States. In either case, ask for adoption figures from buildings similar to yours, because engagement is what determines the return.",
+      "faq": [
+        {
+          "question": "Do HqO or Equiem publish pricing?",
+          "answer": "No. Both are sold by quote, typically priced by portfolio size and the modules selected."
+        },
+        {
+          "question": "Which is better for managing flexible space?",
+          "answer": "Equiem has a dedicated Flex module for managing and generating revenue from flexible space. HqO covers amenity and space booking within its Experience and Tenant suites."
+        },
+        {
+          "question": "Are these tools only for office buildings?",
+          "answer": "Mostly. Both are designed around commercial office tenants. Equiem also markets to business parks, science parks and mixed-use developments. Residential operators typically use separate resident experience tools."
+        },
+        {
+          "question": "Is HqO a tenant app or a CRM?",
+          "answer": "Both. HqO still provides a tenant-facing app, but it now positions the wider platform as a CRM for commercial real estate that also covers operations, leasing and portfolio intelligence."
+        }
+      ]
+    },
+    {
+      "a": "buildout",
+      "b": "sharplaunch",
+      "one_liner": "Buildout is the end-to-end brokerage platform from prospecting to commission; SharpLaunch is the focused property marketing and website platform for brokers and owners.",
+      "verdict": "Buildout and SharpLaunch overlap on property marketing, which is where most buyers compare them, but they are different kinds of product. Buildout, used by more than 50,000 brokers, is a connected brokerage platform spanning prospecting, CRM (including Rethink by Buildout), marketing materials and deal management through to commissions. SharpLaunch is a marketing platform for commercial property: property websites, a searchable listings engine for your own site, lead management, document portals, flyers, interactive maps and analytics. It reports more than 400 CRE teams as customers.\n\nBuildout wins for brokerages that want one system. A listing entered once feeds brochures, offering memoranda, websites and syndication, and the same data flows into the CRM and back office. Its newer AI features write property descriptions, structure data and track follow-ups. For a multi-office brokerage standardizing on one login, that integration is the main attraction. The caveats: every product is priced by quote, the breadth takes time to roll out, and the platform is designed around brokers rather than owners.\n\nSharpLaunch wins for teams whose priority is how listings and portfolios look online. It serves building owners and leasing teams as well as full-service, leasing and investment sales brokers, which matters for landlords marketing their own space. Its document portal controls access to due diligence files and tracks who viewed what. SharpLaunch also publishes a starting price, with plans from $399 a month on annual billing. The caveats: it is not a CRM or commission system, so brokers will still need those elsewhere, the full price list is only shared on a call, and it is a much smaller company than Buildout.\n\nThe two can also be used together. Some firms keep a CRM and back office in one system and run their public-facing property sites in another.\n\nChoose Buildout if you are a brokerage that wants prospecting, CRM, marketing and deal management connected, and you are willing to commit to a platform. Choose SharpLaunch if you are an owner, a leasing team or a broker who mainly needs polished property websites, listing search, controlled document sharing and marketing analytics, with a known entry price.",
+      "faq": [
+        {
+          "question": "How much do Buildout and SharpLaunch cost?",
+          "answer": "SharpLaunch publishes plans from $399 a month on annual billing, with details quoted on a call. Buildout does not publish prices: its products are sold modularly by demo and quote."
+        },
+        {
+          "question": "Is SharpLaunch a CRM?",
+          "answer": "No. SharpLaunch handles property websites, listings search, lead capture, document portals and marketing analytics. Buildout includes CRM products alongside its marketing tools."
+        },
+        {
+          "question": "Which is better for property owners and landlords?",
+          "answer": "SharpLaunch explicitly serves building owners and leasing teams as well as brokers. Buildout is built around brokerage workflows, from prospecting through to commissions."
+        }
+      ]
+    },
+    {
+      "a": "buildout",
+      "b": "realnex",
+      "one_liner": "Buildout leads on marketing output and brokerage-wide rollout; RealNex sells a modular per-user suite that adds financial analysis and its own marketplace.",
+      "verdict": "Buildout and RealNex are the two vendors that try to cover most of a commercial broker's day in one suite, so this is a true head-to-head. Buildout positions itself as an AI brokerage platform taking a team from contact to commission, with prospecting, CRM, marketing and deal management on one data layer, and counts more than 50,000 brokers as users. RealNex sells Navigator, an all-in bundle, or individual modules: a CRM, MarketEdge for financial analysis and presentations, Bridge for transaction management, a marketing module and MarketPlace for listings.\n\nBuildout wins on marketing and on firm-wide adoption. Its document generation for brochures, flyers, offering memoranda and proposals is a long-standing strength, and listings flow through to websites and syndication. National and regional brokerages standardize on it, which helps with brand consistency and reporting across offices. The caveats: there is no published pricing, the lineup includes several CRM options that need explaining during a demo, and it has no built-in investment analysis tool comparable to MarketEdge.\n\nRealNex wins on flexibility for individuals and small teams. It is priced per user, you can subscribe to a single module or to everything in Navigator, and billing is monthly or annual. MarketEdge produces investment and lease analyses that feed straight into presentations, which matters to brokers who underwrite for clients. MarketPlace has a free tier for listing and searching, with a paid Pro tier. The caveats: a one-time per-user implementation fee applies on most plans, the interface is often described as less modern than Buildout's, and its market share is smaller. RealNex shows rates per product on its pricing page, so check there for current figures.\n\nChoose Buildout if you run a brokerage and want consistent, branded marketing with CRM and back office connected across the firm. Choose RealNex if you are an independent broker or small team that wants to buy only the modules you need, values built-in financial analysis, and prefers per-user pricing you can start month to month. In both cases, test the CRM with your own contact data before signing, since that is where daily use is won or lost.",
+      "faq": [
+        {
+          "question": "Does RealNex include financial analysis?",
+          "answer": "Yes. MarketEdge is RealNex's investment and lease analysis and presentation tool, available on its own or within Navigator. Buildout concentrates on marketing documents, CRM and deal management and does not offer an equivalent analysis module."
+        },
+        {
+          "question": "How are Buildout and RealNex priced?",
+          "answer": "Buildout is modular and quote-based with no published prices. RealNex is priced per user by module or as the Navigator bundle, with monthly or annual billing and a one-time implementation fee on most plans."
+        },
+        {
+          "question": "Can a solo broker use either platform?",
+          "answer": "Yes, though RealNex is easier to buy as an individual because modules are sold separately per user. Buildout serves solo brokers as well, but its strongest fit is brokerages rolling it out across a team."
+        },
+        {
+          "question": "Does either include a listing marketplace?",
+          "answer": "RealNex operates MarketPlace, which has a free tier for listing and searching properties. Buildout publishes listings to brokerage websites and syndicates them to third-party listing sites."
+        }
+      ]
+    },
+    {
+      "a": "reonomy",
+      "b": "propertyshark",
+      "one_liner": "Reonomy is the nationwide commercial prospecting database; PropertyShark is the lower-cost property research tool with its deepest records in New York and other major metros.",
+      "verdict": "Reonomy and PropertyShark both answer the question \"who owns this property and what is the history?\", and both are owned by larger groups: Reonomy is an Altus Group business and PropertyShark belongs to Yardi. They differ in coverage, in what they are designed for, and in price point.\n\nReonomy wins for commercial prospecting at national scale. It covers more than 53 million properties and 54 million commercial parcels across all 50 states, and connects ownership, sales history, debt and lien records, refinance activity and occupant data into one searchable profile. Its tools for seeing through LLCs to the people behind them, and its likelihood-to-sell scoring, are built for brokers, lenders and service providers building call lists. Reonomy publishes a starting price of $400 a month on an annual subscription, with a month-to-month option at a higher rate, 1,000 exports a month included, and separate quotes for bulk data feeds and API access. The caveats: that entry price is high for an individual, data quality varies by county because it rests on public records, and it is not a source of verified lease comps.\n\nPropertyShark wins for property-level research in the markets it covers best. It provides ownership, sales, liens, permits, zoning, violations, foreclosure data and property reports for both commercial and residential property, and is especially well regarded in New York City. It is sold as self-serve monthly or annual subscriptions with a set number of property reports each month, at a much lower entry point than Reonomy. The caveats: depth varies widely by market, the interface is older in style, and it is weaker as a nationwide list-building tool.\n\nThe practical test is geography and volume. Run a handful of addresses you know well through each trial and compare what comes back, particularly the owner contact details.\n\nChoose Reonomy if you prospect commercial owners across multiple states, need exports for outreach at volume, or want data delivered by feed or API. Choose PropertyShark if you work mainly in New York or another well-covered metro, need detailed reports on individual properties including residential, and want a lower monthly commitment.",
+      "faq": [
+        {
+          "question": "How much does Reonomy cost?",
+          "answer": "Reonomy states that plans start at $400 a month on an annual subscription, and that annual billing saves 30% against paying monthly. Bulk data feeds and API connections are quoted by sales."
+        },
+        {
+          "question": "Is PropertyShark only for New York?",
+          "answer": "No, it covers major markets across the United States, but its records are deepest in New York City, where it started. Check coverage for your own market during a trial before subscribing."
+        },
+        {
+          "question": "Which is better for finding property owner contact details?",
+          "answer": "Reonomy is built around this, linking LLCs to the individuals behind them across all 50 states. PropertyShark also offers owner information, with its fullest ownership detail on higher plans and in its strongest markets."
+        },
+        {
+          "question": "Do either include lease comps?",
+          "answer": "Not in the way CoStar or CompStak do. Both focus on ownership, sales, debt and property records rather than verified lease transaction data."
+        }
+      ]
+    },
+    {
+      "a": "procore",
+      "b": "autodesk-construction-cloud",
+      "one_liner": "Procore is the contractor-centred platform with unlimited users and strong financials; Autodesk Construction Cloud is the natural choice for teams whose projects live in Revit and BIM.",
+      "verdict": "Procore and Autodesk Construction Cloud are the two platforms most general contractors and owners end up comparing. Both cover document control, RFIs and submittals, quality and safety, cost management, bidding and field apps. The difference is where each started. Procore was built as a project management system for contractors and reports more than 3 million individual users. Autodesk assembled its platform around design and model data, and is now presenting the products under its Forma brand, including Forma Build and Forma Takeoff.\n\nProcore wins on field and financial workflows and on its commercial model. Pricing is based on the products you choose and your annual construction volume, and every plan includes unlimited users, unlimited storage and round-the-clock support. That makes it easy to invite subcontractors, architects and owner representatives without counting seats. Its cost management and its large marketplace of accounting and ERP integrations are the usual reasons contractors pick it. The caveats: there are no published prices, the volume-based fee can feel steep as a firm grows, and its model coordination tools are less deep than Autodesk's.\n\nAutodesk Construction Cloud wins when design data drives the job. Native connections to Revit, AutoCAD and Navisworks, model coordination with clash detection, and model-based takeoff and estimating mean less translation between design and construction teams. Autodesk describes its pricing as flexible across user, project and account-based options, and cites more than 400 integrations. The caveats: pricing is also by quote, the product names are changing as the Forma brand rolls out, and firms that do not use BIM get less from its main advantage.\n\nFor commercial real estate owners and developers, the question is often which platform their contractors already run. Owners who mandate one system across projects tend to favour Procore for its unlimited-user model, while design-build firms and those with in-house VDC teams lean toward Autodesk.\n\nChoose Procore if you are a general contractor or owner who wants strong project financials and easy collaboration with every party on the job. Choose Autodesk Construction Cloud if your teams already work in Autodesk design tools and model coordination is central to how you build.",
+      "faq": [
+        {
+          "question": "How is Procore priced compared with Autodesk Construction Cloud?",
+          "answer": "Neither publishes prices. Procore charges an annual fee by product based on your annual construction volume, with unlimited users. Autodesk offers user, project and account-based options by quote."
+        },
+        {
+          "question": "Which is better for BIM and model coordination?",
+          "answer": "Autodesk Construction Cloud. It connects directly to Revit, AutoCAD and Navisworks and includes model coordination and model-based takeoff. Procore supports models and integrates with design tools, but that is not its core strength."
+        },
+        {
+          "question": "Is Autodesk Construction Cloud being renamed?",
+          "answer": "Autodesk is presenting its construction products under the Forma brand, with names such as Forma Build and Forma Takeoff. The underlying capabilities remain, but expect to see both names during the transition."
+        },
+        {
+          "question": "Does Procore limit the number of users?",
+          "answer": "No. Procore states that all plans include unlimited users, so collaborators such as subcontractors and consultants can be added without per-seat fees."
+        }
+      ]
     }
   ]
 }
