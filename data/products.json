@@ -2336,9 +2336,9 @@
     "slug": "citybldr",
     "url": "https://www.citybldr.com",
     "logo_url": "/img/logos/citybldr.png",
-    "headline": "Find and value off-market properties.",
+    "headline": "Site selection and development analysis platform that is no longer operating.",
     "description": "CityBldr is an AI-powered site selection and development analysis platform for multifamily and commercial real estate developers. The platform identifies development sites 1,000x faster, provides 50x faster workflows at half the price of traditional methods. CityBldr automatically calculates buildable units for any site, shows market rents for every location, includes a built-in CRM for lead management, and offers comprehensive zoning information, environmental indicators, parking requirements, and cost analysis. The platform also features Assemblage AI for identifying land assembly opportunities, competitor analysis, and neighborhood analysis. Used by major developers including Essex Property Trust.",
-    "short_description": "Find and value off-market properties.",
+    "short_description": "AI site selection and development analysis platform for developers. Reported to have ceased operations in October 2022.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -2467,18 +2467,20 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
     "domain": "citybldr.com",
     "pricing_model": "Subscription",
     "is_free": false,
-    "tagline": "Find and value off-market properties.",
+    "tagline": "Site selection and development analysis platform that is no longer operating.",
     "property_types": [
       "Commercial"
     ],
     "primary_category": "site-selection",
-    "logo_url_source": "https://logo.clearbit.com/citybldr.com"
+    "logo_url_source": "https://logo.clearbit.com/citybldr.com",
+    "status": "defunct",
+    "status_note": "CityBldr is reported to have ceased operations in October 2022, and its website is offline as of October 2026."
   },
   {
     "title": "Compstak",
@@ -2722,13 +2724,13 @@
     "logo_url_source": "https://logo.clearbit.com/compstak.com"
   },
   {
-    "title": "CoreLogic",
+    "title": "Cotality",
     "slug": "corelogic",
-    "url": "https://www.corelogic.com",
+    "url": "https://www.cotality.com",
     "logo_url": "/img/logos/corelogic.png",
-    "headline": "Property information and analytics.",
-    "description": "CoreLogic, now rebranded as Cotality, is a leading global property data and analytics company providing intelligence for real estate, mortgage, insurance, and government sectors. The platform offers 98%+ property coverage in major markets, processes over 1 million data points refreshed monthly, and maintains 30 years of historical data. Cotality provides property valuations, climate and environmental risk analysis with 30-year forecasts, market analytics, automated valuation models (AVMs), and AI-powered insights through its CoreAI intelligence platform. The company serves real estate agents, lenders, insurers, investors, and government agencies worldwide.",
-    "short_description": "Property information and analytics.",
+    "headline": "Property data and analytics, formerly CoreLogic.",
+    "description": "Cotality, known as CoreLogic until its March 2025 rebrand, is a leading global property data and analytics company providing intelligence for real estate, mortgage, insurance, and government sectors. The platform offers 98%+ property coverage in major markets, processes over 1 million data points refreshed monthly, and maintains 30 years of historical data. Cotality provides property valuations, climate and environmental risk analysis with 30-year forecasts, market analytics, automated valuation models (AVMs), and AI-powered insights through its CoreAI intelligence platform. The company serves real estate agents, lenders, insurers, investors, and government agencies worldwide.",
+    "short_description": "Property data, valuation models and risk analytics for real estate, mortgage and insurance. Formerly CoreLogic.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -2855,7 +2857,7 @@
       "founded": 2010,
       "headquarters": "Irvine, CA",
       "employees": "5000+",
-      "funding": "Public company (acquired by Stone Point Capital & Insight Partners in 2022 for $6B)"
+      "funding": "Private. Acquired by Stone Point Capital and Insight Partners in June 2021 for about $6B."
     },
     "categories": [
       "Data & Analytics",
@@ -2875,18 +2877,22 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
-    "domain": "corelogic.com",
+    "domain": "cotality.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Property information and analytics.",
+    "tagline": "Property data and analytics, formerly CoreLogic.",
     "property_types": [
       "Commercial"
     ],
     "primary_category": "data-analytics",
-    "logo_url_source": "https://logo.clearbit.com/corelogic.com"
+    "logo_url_source": "https://cdn.prod.website-files.com/6798199a0c3b02c6826da654/67dc88f1bf4de0d4810f50f3_webclip_256_b.png",
+    "aliases": [
+      "CoreLogic"
+    ],
+    "status_note": "CoreLogic rebranded as Cotality in March 2025. corelogic.com now redirects to cotality.com."
   },
   {
     "title": "CoStar",
@@ -4373,11 +4379,11 @@
   {
     "title": "FUEL",
     "slug": "fuel",
-    "url": "https://www.fuelcre.com",
+    "url": "https://www.realpage.com/investment-management/",
     "logo_url": "/img/logos/fuel.png",
-    "headline": "Marketing platform for real estate.",
-    "description": "Fuel CRE has been acquired by RealPage and is now part of the RealPage Investment Management solutions suite. The platform provides AI-powered, data-driven solutions for real estate investment management including asset investment management (AIM), data management services, financial modeling, business intelligence, investor management, and investment accounting. The combined platform offers a single source of truth across financial, operational, valuation, loan, and metric data with automated data collection and AI/ML-driven ingestion. RealPage Investment Management helps firms make confident decisions with portfolio-wide visibility and enhanced investor interactions.",
-    "short_description": "Marketing platform for real estate.",
+    "headline": "Cash flow forecasting and valuation, now part of RealPage Investment Management.",
+    "description": "FUEL was Hipercept's cloud-based cash flow forecasting and valuation product. RealPage acquired Hipercept's assets in 2019, and FUEL is now part of the RealPage Investment Management suite. The platform provides AI-powered, data-driven solutions for real estate investment management including asset investment management (AIM), data management services, financial modeling, business intelligence, investor management, and investment accounting. The combined platform offers a single source of truth across financial, operational, valuation, loan, and metric data with automated data collection and AI/ML-driven ingestion. RealPage Investment Management helps firms make confident decisions with portfolio-wide visibility and enhanced investor interactions.",
+    "short_description": "Real estate cash flow forecasting and valuation product, now part of RealPage Investment Management.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -4471,8 +4477,7 @@
       "RealPage ecosystem"
     ],
     "company": {
-      "name": "Fuel CRE (now RealPage Investment Management)",
-      "founded": 2014,
+      "name": "RealPage (FUEL was built by Hipercept)",
       "headquarters": "Richardson, TX (RealPage)",
       "employees": "",
       "funding": "Acquired by RealPage (Thoma Bravo)"
@@ -4496,20 +4501,22 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
-    "domain": "fuelcre.com",
+    "domain": "realpage.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Marketing platform for real estate.",
+    "tagline": "Cash flow forecasting and valuation, now part of RealPage Investment Management.",
     "property_types": [
       "Industrial",
       "Office",
       "Retail"
     ],
     "primary_category": "investment-valuation",
-    "logo_url_source": "https://logo.clearbit.com/fuelcre.com"
+    "logo_url_source": "https://logo.clearbit.com/fuelcre.com",
+    "status": "acquired",
+    "status_note": "FUEL was built by Hipercept. RealPage acquired Hipercept's assets in 2019 and folded FUEL into RealPage Investment Management; fuelcre.com now redirects there."
   },
   {
     "title": "Fundrise",
@@ -9089,9 +9096,9 @@
     "slug": "real-data",
     "url": "https://www.realdata.com",
     "logo_url": "/img/logos/real-data.png",
-    "headline": "Comprehensive real estate data and analysis.",
+    "headline": "Excel-based real estate investment analysis software, discontinued in 2026.",
     "description": "RealData provides Excel-based real estate investment evaluation software and educational resources for investors and developers. The platform helps users analyze properties with speed and confidence by automating complex financial calculations, comparing properties, modeling scenarios, and generating professional reports. RealData offers separate products for multifamily properties, income properties (office, retail, industrial), commercial development, and residential development. Each software product is a one-time purchase with no recurring fees, working in a familiar spreadsheet environment with pre-programmed functions, PDF printing, cell notes, user guides, and training videos.",
-    "short_description": "Comprehensive real estate data and analysis.",
+    "short_description": "Excel-based real estate investment analysis software. RealData stopped selling it in April 2026 and now offers investing eCourses.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -9217,13 +9224,13 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-08-28",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
     "domain": "realdata.com",
     "pricing_model": "One-time purchase",
     "is_free": false,
-    "tagline": "Comprehensive real estate data and analysis.",
+    "tagline": "Excel-based real estate investment analysis software, discontinued in 2026.",
     "property_types": [
       "Commercial"
     ],
@@ -9231,7 +9238,8 @@
     "enrichedAt": "2026-02-17T22:43:50.108248+00:00",
     "primary_category": "investment-valuation",
     "logo_url_source": "https://logo.clearbit.com/realdata.com",
-    "status": "active"
+    "status": "defunct",
+    "status_note": "RealData discontinued new software sales on April 30, 2026. Existing copies keep working and its knowledge base stays online, but the company now focuses on real estate investing eCourses."
   },
   {
     "title": "RealAtom",
@@ -14058,9 +14066,9 @@
   {
     "title": "Buxton",
     "slug": "buxton",
-    "url": "https://www.buxtonco.com",
+    "url": "https://www.audiense.com/products/audiense-in-person/",
     "logo_url": "/img/logos/buxton.png",
-    "headline": "Customer analytics and site selection intelligence, now part of Audiense.",
+    "headline": "Customer analytics and site selection intelligence, now sold as Audiense In-Person.",
     "description": "Buxton is a customer analytics and location intelligence platform used for site selection, market planning, and location performance optimization. Drawing on household-level consumer intelligence and more than 50 data sources, it scores potential sites, defines trade areas, analyzes foot traffic, and supports whitespace and expansion planning through its web-based SCOUT analytics tool. Since 1994 it has served multi-unit operators in retail, restaurants, healthcare, and hospitality, along with the real estate teams planning their expansion. Buxton is now part of audience-intelligence company Audiense and is offered as Audiense In-Person.",
     "short_description": "Customer analytics and site selection platform for multi-unit brands, now offered as Audiense In-Person.",
     "target_audience": "Retail companies, restaurant chains, hospitality businesses, healthcare organizations, real estate developers, franchise operators",
@@ -14147,7 +14155,7 @@
     ],
     "integrations": [],
     "company": {
-      "name": "Buxton",
+      "name": "Audiense (formerly Buxton)",
       "founded": 1994,
       "headquarters": "Fort Worth, TX",
       "employees": "100-200",
@@ -14171,13 +14179,13 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-08-28",
+    "last_updated": "2026-10-04",
     "is_verified": false,
     "is_featured": false,
-    "domain": "buxtonco.com",
+    "domain": "audiense.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Consumer info; utilized for site selection & marketing. Where are consumers? Where should we open up shop?",
+    "tagline": "Customer analytics and site selection intelligence, now sold as Audiense In-Person.",
     "property_types": [
       "Commercial"
     ],
@@ -14197,8 +14205,8 @@
     ],
     "enriched": true,
     "primary_category": "site-selection",
-    "status": "acquired",
-    "status_note": "Now part of Audiense, sold as 'Audiense In-Person, powered by Buxton'.",
+    "status": "active",
+    "status_note": "Buxton acquired Audiense in 2025, and in July 2026 the combined company took the Audiense name. Buxton's tools are now sold as Audiense In-Person.",
     "logo_url_source": "https://logo.clearbit.com/buxtonco.com"
   },
   {

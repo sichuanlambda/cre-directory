@@ -235,10 +235,6 @@
           "reason": "The affordability play: $699.99/year with transparent pricing and a 7-day free trial, combining investment analysis with marketing outputs for brokers. It is less powerful than ARGUS for complex institutional valuations, which is the honest trade-off."
         },
         {
-          "slug": "real-data",
-          "reason": "One-time purchases of $99-$399 with no recurring fees, built in Excel so finance teams face no learning curve, the direct opposite of ARGUS's training burden. No cloud collaboration, but for solo investors and small shops the value is excellent."
-        },
-        {
           "slug": "cremodels",
           "reason": "A familiar-interface modeling suite that standardizes underwriting across distributed teams with fast scenario analysis, plus optional services. It is less well-known than ARGUS, but the lower learning curve is precisely its pitch."
         },
@@ -258,11 +254,11 @@
       "faq": [
         {
           "question": "What is the best free alternative to ARGUS?",
-          "answer": "There is no credible free alternative to ARGUS for institutional-grade DCF valuation. The cheapest legitimate routes are paid but modest: Real Data sells Excel-based analysis products as one-time purchases from $99, and TheAnalyst PRO offers a 7-day free trial before its $699.99/year subscription. If counterparties expect ARGUS files in your deals, budget for that reality rather than a free workaround."
+          "answer": "There is no credible free alternative to ARGUS for institutional-grade DCF valuation. The cheapest legitimate route is paid but modest: TheAnalyst PRO offers a 7-day free trial before its $699.99/year subscription. If counterparties expect ARGUS files in your deals, budget for that reality rather than a free workaround."
         },
         {
           "question": "Is there a cheaper alternative to ARGUS for small teams?",
-          "answer": "Yes, meaningfully cheaper. TheAnalyst PRO runs $699.99/year with transparent pricing and covers investment analysis plus marketing reports for brokers. Real Data's one-time-purchase Excel models ($99-$399) avoid subscriptions entirely. Both are far less powerful than ARGUS for complex institutional valuations, but for small firms priced out of enterprise contracts, they cover acquisition underwriting and investor-ready reporting."
+          "answer": "Yes, meaningfully cheaper. TheAnalyst PRO runs $699.99/year with transparent pricing and covers investment analysis plus marketing reports for brokers. It is far less powerful than ARGUS for complex institutional valuations, but for small firms priced out of enterprise contracts, it covers acquisition underwriting and investor-ready reporting."
         }
       ]
     },
@@ -656,10 +652,6 @@
         {
           "slug": "Plotzy",
           "reason": "For land acquisition and development teams, Plotzy combines AI parcel search with zoning attributes at accessible pricing ($65 Basic, $200 Pro). It is in beta with zoning coverage in select municipalities, so verify your target markets."
-        },
-        {
-          "slug": "citybldr",
-          "reason": "Choose CityBldr when the goal is finding and valuing off-market development sites rather than analyzing tenant performance: automatic buildable-unit calculations and assemblage AI, used by developers like Essex Property Trust. It is development-focused, not a retail analytics tool."
         }
       ],
       "faq": [
@@ -669,7 +661,7 @@
         },
         {
           "question": "Is there a cheaper alternative to Placer.ai for small teams?",
-          "answer": "Placer's premium plans are quote-based and can be expensive, and most competitors (Buxton, SiteZeus, MapZot.AI) are also quote-priced enterprise tools. The transparently cheap options solve adjacent problems: Plotzy at $65/month for AI parcel and zoning research, and Zoneomics reports from $25 each. Small retail teams often combine Placer's free dashboard with one of these instead of paying for enterprise location intelligence."
+          "answer": "Placer's premium plans are quote-based and can be expensive, and most competitors (Buxton, SiteZeus, MapZot.AI) are also quote-priced enterprise tools. The transparently cheap options solve adjacent problems: Plotzy from $180/month for AI parcel and zoning research, and Zoneomics reports from $25 each. Small retail teams often combine Placer's free dashboard with one of these instead of paying for enterprise location intelligence."
         }
       ]
     },
@@ -693,10 +685,6 @@
           "reason": "Choose Argus if valuation depth, not pipeline tracking, is the real job. ARGUS Enterprise is the accepted standard for property-level DCF analysis among institutional investors, lenders and appraisers, and its models are what many counterparties expect to receive. It is enterprise-priced with a steep learning curve, and it does nothing for deal tracking, so it replaces the underwriting slice of Dealpath rather than the whole platform."
         },
         {
-          "slug": "real-data",
-          "reason": "RealData is the budget option for small investors and developers who want disciplined analysis without a subscription. Its Excel-based products for income properties, multifamily and development are one-time purchases in the $99 to $399 range, with printed reports for lenders and partners. There is no cloud collaboration, no pipeline view and no data ingestion, so it suits one or two analysts rather than an acquisitions team."
-        },
-        {
           "slug": "juniper-square",
           "reason": "Juniper Square is the different-approach pick: it starts where Dealpath ends. Instead of tracking deals to close, it manages fundraising, investor onboarding, reporting and fund administration for GPs once capital is committed. Firms that bought Dealpath hoping for investor reporting are usually better served here. It is also enterprise-priced and quote-based, and it has no acquisitions pipeline, so it complements a pipeline tool rather than replacing one."
         }
@@ -704,7 +692,7 @@
       "faq": [
         {
           "question": "What is the best alternative to Dealpath for small investment teams?",
-          "answer": "IntellCRE and CREModels cover underwriting and comps without Dealpath's five-user minimum, and RealData's one-time Excel models are the lowest-cost route. None of them replicates Dealpath's pipeline collaboration features."
+          "answer": "IntellCRE and CREModels cover underwriting and comps without Dealpath's five-user minimum. Neither of them replicates Dealpath's pipeline collaboration features."
         },
         {
           "question": "Does Dealpath publish pricing?",
@@ -1319,7 +1307,7 @@
         },
         {
           "question": "Which alternative is best for land and development sites?",
-          "answer": "Plotzy is built for land acquisition teams and developers, with two-level zoning on every parcel and sub-level zoning filters. CityBldr and TestFit are stronger once you need buildable-unit or feasibility math on a shortlisted site."
+          "answer": "Plotzy is built for land acquisition teams and developers, with two-level zoning on every parcel and sub-level zoning filters. TestFit is stronger once you need buildable-unit or feasibility math on a shortlisted site."
         },
         {
           "question": "Do these alternatives require an annual contract?",
@@ -2074,26 +2062,6 @@
         {
           "question": "How do the prices compare?",
           "answer": "Plotzy publishes $180 and $300 monthly plans with a 7-day free trial and no annual contract. Reonomy does not publish pricing; third-party listings place it at several hundred dollars per user per month, with a free trial available."
-        }
-      ]
-    },
-    {
-      "a": "Plotzy",
-      "b": "citybldr",
-      "one_liner": "CityBldr is for developers who want buildable units, rents and assemblage math on a site; Plotzy is the broader parcel, zoning and owner search at published prices for brokers and land teams.",
-      "verdict": "Plotzy and CityBldr both use AI to find development opportunities, and both count land acquisition teams and developers as core users. CityBldr goes deep on the development case: it calculates buildable units for a site, shows market rents by location, finds assemblage opportunities with its Assemblage AI, and includes a CRM for the resulting leads, on quote-based pricing. Plotzy goes wide: 150M+ parcels across 3,200+ counties with two-level zoning on each, filters for permitted use, lot size, owner type and sale date, a Zoning AI chat, owner contact lookup, folders and CSV export, at $180 or $300 a month with a 7-day trial.\n\nCityBldr wins when the buyer is a multifamily or commercial developer whose first question is how many units pencil here. Buildable-unit math, rent context and assemblage detection are real work that Plotzy does not do, and the built-in CRM keeps the pipeline in one place. Coverage varies by market and pricing requires a conversation.\n\nPlotzy wins when the job is broader than one development thesis: a land broker covering a county, an industrial buyer screening parcels by zoning, a retail team hunting corner sites, or anyone who needs owner contacts and an export more than a pro forma. Published month-to-month pricing and a no-card trial matter to smaller teams. Plotzy is still labeled beta, has no buildable-unit or rent modeling, and its sub-level zoning depth varies by municipality.\n\nPick CityBldr for development feasibility on candidate sites. Pick Plotzy to find the candidates and their owners in the first place; some teams use Plotzy to source and CityBldr to underwrite.",
-      "faq": [
-        {
-          "question": "Does Plotzy calculate buildable units?",
-          "answer": "No. Plotzy gives you parcel attributes and two-level zoning so you can screen sites; buildable-unit and rent calculations are CityBldr features, and feasibility tools such as TestFit go further."
-        },
-        {
-          "question": "Which is better for brokers rather than developers?",
-          "answer": "Plotzy. Its owner contact lookup, folders and CSV export are built for prospecting, and its pricing is published. CityBldr is optimized for developers underwriting sites."
-        },
-        {
-          "question": "Do both offer a free trial?",
-          "answer": "Plotzy offers a 7-day free trial on its Production plan with no credit card. CityBldr pricing and trials are handled through its sales team."
         }
       ]
     },
