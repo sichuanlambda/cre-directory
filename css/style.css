@@ -772,3 +772,24 @@ footer .footer-col a:hover { opacity: 1; text-decoration: underline; }
 @media (max-width: 640px) { .link-list { columns: 1; } }
 
 .disclosure-line { font-size: 13px; opacity: .8; padding: 8px 12px; border-left: 3px solid rgba(59,130,246,.5); background: rgba(59,130,246,.06); border-radius: 0 8px 8px 0; margin: 12px 0 16px; }
+
+/* ===== BUYER'S GUIDES: light by default, dark via the nav toggle (html[data-theme="dark"]) ===== */
+body.guide {
+  --g-bg: #ffffff; --g-text: #374151; --g-heading: #111827; --g-soft: #374151; --g-muted: #6b7280; --g-faint: #6b7280;
+  --g-card: #f5f7fb; --g-border: #dfe3ec; --g-row: #e9ecf2;
+  --g-accent: #2563eb; --g-accent-bg: #2563eb; --g-good: #047857; --g-bad: #b91c1c;
+  background: var(--g-bg); color: var(--g-text); font-family: 'Inter', system-ui, sans-serif; line-height: 1.7;
+}
+html[data-theme="dark"] body.guide {
+  --g-bg: #0a0a0f; --g-text: #e5e7eb; --g-heading: #ffffff; --g-soft: #d1d5db; --g-muted: #9ca3af; --g-faint: #6b7280;
+  --g-card: #1a1a2e; --g-border: #2a2a3e; --g-row: #1a1a2e;
+  --g-accent: #3b82f6; --g-accent-bg: #3b82f6; --g-good: #10b981; --g-bad: #ef4444;
+}
+html[data-theme="dark"] body.guide article a:not([style]), html[data-theme="dark"] body.guide .related-editorial a { color: #7c93f5; }
+.theme-toggle {
+  flex-shrink: 0; margin-left: 12px; width: 34px; height: 34px; border-radius: 8px; cursor: pointer;
+  background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.15); color: #fff; font-size: 15px; line-height: 1;
+}
+.theme-toggle:hover { background: rgba(255,255,255,.16); }
+.theme-toggle::before { content: '☾'; }
+html[data-theme="dark"] .theme-toggle::before { content: '☀'; }

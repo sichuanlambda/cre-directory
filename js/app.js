@@ -210,6 +210,25 @@ function initNav() {
   }
 }
 
+// Light/dark toggle on buyer's guides. Light is the default; the choice is remembered per browser.
+function initThemeToggle() {
+  const btn = document.querySelector('.theme-toggle');
+  if (!btn) return;
+  const root = document.documentElement;
+  const sync = () => {
+    const dark = root.getAttribute('data-theme') === 'dark';
+    btn.setAttribute('aria-pressed', String(dark));
+    btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+  };
+  btn.addEventListener('click', () => {
+    const dark = root.getAttribute('data-theme') !== 'dark';
+    if (dark) root.setAttribute('data-theme', 'dark'); else root.removeAttribute('data-theme');
+    try { localStorage.setItem('cre-theme', dark ? 'dark' : 'light'); } catch (e) {}
+    sync();
+  });
+  sync();
+}
+
 function featuredCard(p) {
   const cat = (p.categories || [])[0];
   const catBadge = cat ? `<span class="badge badge-accent">${cat}</span>` : '';
