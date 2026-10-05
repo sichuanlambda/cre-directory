@@ -1,0 +1,15 @@
+{
+  "tool_name": "Neuronto",
+  "website": "https://neuronto.com",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "",
+  "description": "Find MCP servers, AI agents and APIs by what they can do",
+  "pricing": "Free. Optional prepaid credits for high-volume use, from $1",
+  "submitter_name": "",
+  "relationship": "",
+  "notes": "Neuronto is a free, open source search index of MCP servers, AI agents and APIs, with each server's verified tools, queryable on the web or over REST, MCP and A2A.",
+  "screenshot_urls": "https://neuronto.com/img/og-v1.png",
+  "submitted_at": "2026-10-05T09:44:56.475Z",
+  "source": "web-form",
+  "status": "pending"
+}
