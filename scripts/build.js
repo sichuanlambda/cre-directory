@@ -983,7 +983,8 @@ function renderComparisonPage(cmp) {
   const canonical = `${BASE}${comparePath(cmp.a, cmp.b)}`;
   const title = `${A.title} vs ${B.title} (${YEAR}): Which Is Better? | CRE Software Directory`;
   const description = cmp.one_liner || `${A.title} vs ${B.title}: side-by-side comparison of pricing, features, and fit for commercial real estate teams.`;
-  const row = (label, va, vb) => (!va && !vb) ? '' : `<tr><th style="text-align:left;padding:10px 12px;">${esc(label)}</th><td style="padding:10px 12px;">${esc(va || '—')}</td><td style="padding:10px 12px;">${esc(vb || '—')}</td></tr>`;
+  const row = (label, va, vb) => (!va && !vb) ? '' : `<tr><th scope="row">${esc(label)}</th><td>${esc(va || '—')}</td><td>${esc(vb || '—')}</td></tr>`;
+  const cmpHead = p => `<th scope="col"><a class="cmp-product" href="${productPath(p.slug)}"><span class="product-logo">${logoHTML(p)}</span><span>${esc(p.title)}</span></a></th>`;
   const pm = p => (p.pricing || {});
   const ta = p => (p.target_audience || {});
   const prosCons = p => `<div class="proscons-col"><h3>${esc(p.title)}</h3>
@@ -1029,13 +1030,8 @@ function renderComparisonPage(cmp) {
       ${updatedLine()}
       <p style="font-size:18px;">${esc(cmp.one_liner || '')}</p>
       ${disclosureHTML([A, B])}
-      <div style="display:flex;gap:24px;align-items:center;margin:20px 0;">
-        <div style="display:flex;align-items:center;gap:10px;"><div class="product-logo">${logoHTML(A)}</div><a href="${productPath(A.slug)}"><strong>${esc(A.title)}</strong></a></div>
-        <span style="opacity:.5;font-weight:700;">VS</span>
-        <div style="display:flex;align-items:center;gap:10px;"><div class="product-logo">${logoHTML(B)}</div><a href="${productPath(B.slug)}"><strong>${esc(B.title)}</strong></a></div>
-      </div>
-      <div style="overflow-x:auto;"><table style="width:100%;border-collapse:collapse;margin:16px 0;">
-        <thead><tr><th style="text-align:left;padding:10px 12px;"></th><th style="text-align:left;padding:10px 12px;">${esc(A.title)}</th><th style="text-align:left;padding:10px 12px;">${esc(B.title)}</th></tr></thead>
+      <div class="cmp-table-wrap"><table class="cmp-table">
+        <thead><tr><td></td>${cmpHead(A)}${cmpHead(B)}</tr></thead>
         <tbody>
           ${row('Starting price', pricingLabel(A), pricingLabel(B))}
           ${row('Pricing model', pm(A).model, pm(B).model)}
