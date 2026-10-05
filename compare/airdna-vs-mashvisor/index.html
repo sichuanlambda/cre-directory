@@ -63,19 +63,27 @@
       <p class="updated-line">Updated October 5, 2026. Independent editorial; <a href="/about.html">how we research</a>.</p>
       <p style="font-size:18px;">AirDNA is the deeper short-term rental dataset for hosts and STR investors; Mashvisor is the broader tool for comparing STR and long-term returns before buying.</p>
       
-      <div class="cmp-table-wrap"><table class="cmp-table">
+      <label class="cmp-diff-toggle"><input type="checkbox" id="cmp-diff"> Show differences only</label>
+      <div class="cmp-table-wrap"><table class="cmp-table" id="cmp-table">
         <thead><tr><td></td><th scope="col"><a class="cmp-product" href="/products/airdna/"><span class="product-logo"><img src="/img/logos/airdna.png" alt="AirDNA logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
     style="width:48px;height:48px;object-fit:contain">
     <div class="fallback" style="display:none;background:#1abc9c;width:48px;height:48px;font-size:21.6px">A</div></span><span>AirDNA</span></a></th><th scope="col"><a class="cmp-product" href="/products/mashvisor/"><span class="product-logo"><div class="fallback" style="display:flex;background:#4361ee;width:48px;height:48px;font-size:21.6px">M</div></span><span>Mashvisor</span></a></th></tr></thead>
         <tbody>
           <tr><th scope="row">Starting price</th><td>Free</td><td>$49.99/month</td></tr>
-          <tr><th scope="row">Pricing model</th><td>Subscription</td><td>Subscription</td></tr>
-          <tr><th scope="row">Free trial</th><td>No</td><td>No</td></tr>
+          <tr data-same="1"><th scope="row">Pricing model</th><td>Subscription</td><td>Subscription</td></tr>
+          <tr data-same="1"><th scope="row">Free trial</th><td>No</td><td>No</td></tr>
+          <tr><th scope="row">Free plan</th><td>Yes</td><td>No</td></tr>
           
           
-          <tr><th scope="row">Deployment</th><td>Cloud</td><td>Cloud</td></tr>
-          <tr><th scope="row">Primary category</th><td>Data &amp; Analytics</td><td>Data &amp; Analytics</td></tr>
+          <tr data-same="1"><th scope="row">Property types</th><td>Commercial</td><td>Commercial</td></tr>
+          <tr><th scope="row">Feature areas</th><td><ul class="cmp-list"><li>Market Research</li><li>Revenue Tools</li><li>Performance Analytics</li></ul></td><td><ul class="cmp-list"><li>Market Analysis</li><li>Property Analysis</li><li>Host Tools</li><li>Data &amp; Integration</li></ul></td></tr>
+          <tr><th scope="row">Integrations</th><td>Uplisting, Airbnb, Vrbo</td><td>Airbnb, Zillow, Redfin, Realtor.com</td></tr>
+          <tr class="cmp-shared"><th scope="row">Both integrate with</th><td colspan="2">Airbnb</td></tr>
+          <tr data-same="1"><th scope="row">Deployment</th><td>Cloud</td><td>Cloud</td></tr>
+          <tr data-same="1"><th scope="row">Primary category</th><td>Data &amp; Analytics</td><td>Data &amp; Analytics</td></tr>
+          <tr><th scope="row">Founded</th><td>2015</td><td>2016</td></tr>
+          <tr><th scope="row">Headquarters</th><td>Denver, CO</td><td>San Francisco, CA</td></tr>
         </tbody>
       </table></div>
       <p style="font-size:13.5px"><a href="/compare.html?a=airdna&b=mashvisor">Customize this comparison →</a></p>
@@ -171,6 +179,6 @@
   </footer>
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
   <script src="/js/app.js"></script>
-  <script>initNav();initBackToTop();initNavSearch();initCategoryFilters();</script>
+  <script>initNav();initBackToTop();initNavSearch();initCategoryFilters();initCmpDiff();</script>
 </body>
 </html>

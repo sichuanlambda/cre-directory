@@ -63,19 +63,27 @@
       <p class="updated-line">Updated October 5, 2026. Independent editorial; <a href="/about.html">how we research</a>.</p>
       <p style="font-size:18px;">Apto appears discontinued; Buildout is the actively developed CRE brokerage platform and the practical choice. And a natural Apto migration path.</p>
       
-      <div class="cmp-table-wrap"><table class="cmp-table">
+      <label class="cmp-diff-toggle"><input type="checkbox" id="cmp-diff"> Show differences only</label>
+      <div class="cmp-table-wrap"><table class="cmp-table" id="cmp-table">
         <thead><tr><td></td><th scope="col"><a class="cmp-product" href="/products/buildout/"><span class="product-logo"><img src="/img/logos/buildout.png" alt="Buildout logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
     style="width:48px;height:48px;object-fit:contain">
     <div class="fallback" style="display:none;background:#e91e63;width:48px;height:48px;font-size:21.6px">B</div></span><span>Buildout</span></a></th><th scope="col"><a class="cmp-product" href="/products/apto/"><span class="product-logo"><div class="fallback" style="display:flex;background:#9b59b6;width:48px;height:48px;font-size:21.6px">A</div></span><span>Apto</span></a></th></tr></thead>
         <tbody>
           <tr><th scope="row">Starting price</th><td>Contact for pricing</td><td>Subscription</td></tr>
-          <tr><th scope="row">Pricing model</th><td>—</td><td>Subscription</td></tr>
-          <tr><th scope="row">Free trial</th><td>No</td><td>No</td></tr>
+          <tr data-same="1"><th scope="row">Pricing model</th><td>Subscription</td><td>Subscription</td></tr>
+          <tr><th scope="row">Free trial</th><td><span class="cmp-na">Not listed</span></td><td>No</td></tr>
+          <tr><th scope="row">Free plan</th><td><span class="cmp-na">Not listed</span></td><td>No</td></tr>
           <tr><th scope="row">Best for</th><td>Commercial Real Estate Brokers, Marketing Teams, Operations Leaders</td><td>Property Managers, Brokers, Investors</td></tr>
           <tr><th scope="row">Company size</th><td>Solo, Small, Mid-Market</td><td>Small, Mid-Market</td></tr>
-          <tr><th scope="row">Deployment</th><td>Cloud</td><td>Cloud</td></tr>
+          <tr data-same="1"><th scope="row">Property types</th><td>Commercial</td><td>Commercial</td></tr>
+          <tr><th scope="row">Feature areas</th><td><ul class="cmp-list"><li>Prospecting (Prospect by Buildout)</li><li>Marketing (Showcase)</li><li>CRM (Rethink)</li><li>Transactions (Transact)</li></ul></td><td><ul class="cmp-list"><li>CRM</li><li>Data &amp; Analytics</li></ul></td></tr>
+          <tr><th scope="row">Integrations</th><td><span class="cmp-na">Not listed</span></td><td>Salesforce</td></tr>
+          
+          <tr data-same="1"><th scope="row">Deployment</th><td>Cloud</td><td>Cloud</td></tr>
           <tr><th scope="row">Primary category</th><td>Broker Tools</td><td>CRM &amp; Marketing</td></tr>
+          <tr><th scope="row">Founded</th><td>2013</td><td>2012</td></tr>
+          <tr><th scope="row">Headquarters</th><td>Chicago, IL</td><td>Denver, CO</td></tr>
         </tbody>
       </table></div>
       <p style="font-size:13.5px"><a href="/compare.html?a=buildout&b=apto">Customize this comparison →</a></p>
@@ -168,6 +176,6 @@
   </footer>
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
   <script src="/js/app.js"></script>
-  <script>initNav();initBackToTop();initNavSearch();initCategoryFilters();</script>
+  <script>initNav();initBackToTop();initNavSearch();initCategoryFilters();initCmpDiff();</script>
 </body>
 </html>

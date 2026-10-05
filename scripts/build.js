@@ -983,9 +983,24 @@ function renderComparisonPage(cmp) {
   const canonical = `${BASE}${comparePath(cmp.a, cmp.b)}`;
   const title = `${A.title} vs ${B.title} (${YEAR}): Which Is Better? | CRE Software Directory`;
   const description = cmp.one_liner || `${A.title} vs ${B.title}: side-by-side comparison of pricing, features, and fit for commercial real estate teams.`;
-  const row = (label, va, vb) => (!va && !vb) ? '' : `<tr><th scope="row">${esc(label)}</th><td>${esc(va || '—')}</td><td>${esc(vb || '—')}</td></tr>`;
+  // Spec rows. Rows whose two values match carry data-same so "Show differences only" can hide them.
+  const na = '<span class="cmp-na">Not listed</span>';
+  const row = (label, va, vb, html = false) => {
+    if (!va && !vb) return '';
+    const f = v => v ? (html ? v : esc(v)) : na;
+    const same = String(va || '').toLowerCase() === String(vb || '').toLowerCase();
+    return `<tr${same ? ' data-same="1"' : ''}><th scope="row">${esc(label)}</th><td>${f(va)}</td><td>${f(vb)}</td></tr>`;
+  };
   const cmpHead = p => `<th scope="col"><a class="cmp-product" href="${productPath(p.slug)}"><span class="product-logo">${logoHTML(p)}</span><span>${esc(p.title)}</span></a></th>`;
-  const pm = p => (p.pricing || {});
+  const pm = p => (p.pricing && typeof p.pricing === 'object' ? p.pricing : {});
+  const yesNo = (p, k) => typeof p.pricing === 'object' && p.pricing ? (p.pricing[k] ? 'Yes' : 'No') : '';
+  const co = p => (p.company || {});
+  const intNames = p => (p.integrations || []).map(i => typeof i === 'string' ? i : (i && i.name) || '').map(x => x.trim()).filter(Boolean);
+  const intCell = p => { const n = intNames(p); return n.length ? n.slice(0, 6).join(', ') + (n.length > 6 ? `, and ${n.length - 6} more` : '') : ''; };
+  const sharedInts = intNames(A).filter(x => intNames(B).some(y => y.toLowerCase() === x.toLowerCase()));
+  const listCell = items => items.length ? `<ul class="cmp-list">${items.map(x => `<li>${esc(x)}</li>`).join('')}</ul>` : '';
+  const featureAreas = p => (p.feature_groups || []).map(g => g && g.name).filter(Boolean).slice(0, 4);
+  const propTypes = p => ((p.property_types && p.property_types.length ? p.property_types : (p.target_audience || {}).property_types) || []).slice(0, 6).join(', ');
   const ta = p => (p.target_audience || {});
   const prosCons = p => `<div class="proscons-col"><h3>${esc(p.title)}</h3>
     ${(p.pros || []).slice(0, 4).map(x => `<div class="proscons-item"><span class="icon-pro">✓</span>${esc(x)}</div>`).join('')}
@@ -1030,16 +1045,24 @@ function renderComparisonPage(cmp) {
       ${updatedLine()}
       <p style="font-size:18px;">${esc(cmp.one_liner || '')}</p>
       ${disclosureHTML([A, B])}
-      <div class="cmp-table-wrap"><table class="cmp-table">
+      <label class="cmp-diff-toggle"><input type="checkbox" id="cmp-diff"> Show differences only</label>
+      <div class="cmp-table-wrap"><table class="cmp-table" id="cmp-table">
         <thead><tr><td></td>${cmpHead(A)}${cmpHead(B)}</tr></thead>
         <tbody>
           ${row('Starting price', pricingLabel(A), pricingLabel(B))}
-          ${row('Pricing model', pm(A).model, pm(B).model)}
-          ${row('Free trial', pm(A).free_trial ? 'Yes' : 'No', pm(B).free_trial ? 'Yes' : 'No')}
+          ${row('Pricing model', pm(A).model || A.pricing_model, pm(B).model || B.pricing_model)}
+          ${row('Free trial', yesNo(A, 'free_trial'), yesNo(B, 'free_trial'))}
+          ${row('Free plan', yesNo(A, 'free_tier'), yesNo(B, 'free_tier'))}
           ${row('Best for', (ta(A).roles || []).slice(0, 3).join(', '), (ta(B).roles || []).slice(0, 3).join(', '))}
           ${row('Company size', (ta(A).company_sizes || []).join(', '), (ta(B).company_sizes || []).join(', '))}
+          ${row('Property types', propTypes(A), propTypes(B))}
+          ${row('Feature areas', listCell(featureAreas(A)), listCell(featureAreas(B)), true)}
+          ${row('Integrations', intCell(A), intCell(B))}
+          ${sharedInts.length ? `<tr class="cmp-shared"><th scope="row">Both integrate with</th><td colspan="2">${esc(sharedInts.join(', '))}</td></tr>` : ''}
           ${row('Deployment', (A.deployment || []).join(', '), (B.deployment || []).join(', '))}
           ${row('Primary category', A.primary_category && categoryBySlug(A.primary_category) ? categoryBySlug(A.primary_category).name : '', B.primary_category && categoryBySlug(B.primary_category) ? categoryBySlug(B.primary_category).name : '')}
+          ${row('Founded', co(A).founded ? String(co(A).founded) : '', co(B).founded ? String(co(B).founded) : '')}
+          ${row('Headquarters', co(A).headquarters || co(A).hq, co(B).headquarters || co(B).hq)}
         </tbody>
       </table></div>
       <p style="font-size:13.5px"><a href="/compare.html?a=${cmp.a}&b=${cmp.b}">Customize this comparison →</a></p>
@@ -1056,7 +1079,7 @@ function renderComparisonPage(cmp) {
   </div>
   ${footerHTML()}
   <script src="/js/app.js"></script>
-  <script>initNav();initBackToTop();initNavSearch();initCategoryFilters();</script>
+  <script>initNav();initBackToTop();initNavSearch();initCategoryFilters();initCmpDiff();</script>
 </body>
 </html>`;
 }
@@ -1084,10 +1107,36 @@ function renderIntegrationHub(hub) {
   const canonical = `${BASE}/integrations/${hub.slug}/`;
   const title = `CRE Software That Integrates With ${hub.display} (${YEAR}) | CRE Software Directory`;
   const description = `${hub.products.length} commercial real estate software tools with a ${hub.display} integration: what they do, who they're for, and how they're priced.`;
+  const ps = hub.products, N = ps.length, X = hub.display;
+  const pr = p => (p.pricing && typeof p.pricing === 'object' ? p.pricing : {});
+  const listNames = (arr, n = 8) => { const t = arr.slice(0, n).map(p => p.title); if (arr.length > n) return t.join(', ') + `, and ${arr.length - n} more`; return t.length > 1 ? t.slice(0, -1).join(', ') + ' and ' + t[t.length - 1] : (t[0] || ''); };
+  const self = PRODUCTS.find(p => !badSlug(p.slug) && (p.title.toLowerCase() === hub.key || p.slug.toLowerCase() === hub.slug));
+  const byCat = {};
+  ps.forEach(p => { const c = primaryCatOf(p); if (c) (byCat[c.slug] = byCat[c.slug] || { cat: c, items: [] }).items.push(p); });
+  const cats = Object.values(byCat).sort((a, b) => b.items.length - a.items.length || a.cat.name.localeCompare(b.cat.name));
+  const trial = ps.filter(p => pr(p).free_trial), free = ps.filter(p => pr(p).free_tier || pr(p).model === 'Free');
+  const quoted = ps.filter(p => pricingLabel(p) === 'Contact for pricing');
+  const relatedHubs = HUBS.filter(h => h !== hub).map(h => ({ h, n: h.products.filter(p => ps.includes(p)).length })).filter(x => x.n >= 2).sort((a, b) => b.n - a.n || a.h.display.localeCompare(b.h.display)).slice(0, 8);
+  const hubCmps = cmpEntries().filter(x => ps.includes(x.A) || ps.includes(x.B)).sort((x, y) => (ps.includes(y.A) && ps.includes(y.B) ? 1 : 0) - (ps.includes(x.A) && ps.includes(x.B) ? 1 : 0)).slice(0, 8);
+  const hubAlts = altsSorted().filter(x => ps.includes(x.product)).slice(0, 8);
+  const catSummary = cats.map(c => `${c.cat.name} (${c.items.length})`).join(', ');
+  const faq = [
+    { question: `Which CRE software integrates with ${X}?`, answer: `${N} tools in the directory list a ${X} integration, including ${listNames(ps)}.` },
+    { question: `Which tools with a ${X} integration offer a free trial or free plan?`, answer: (trial.length || free.length)
+      ? [trial.length ? `Free trial: ${listNames(trial)}.` : '', free.length ? `Free plan: ${listNames(free)}.` : ''].filter(Boolean).join(' ') + ' Check the vendor site for current terms.'
+      : `None of the ${N} tools publish a free trial or free plan. Expect to request a demo or a quote.` },
+    cats.length ? { question: `What kinds of CRE software connect to ${X}?`, answer: `By primary category: ${catSummary}.` } : null,
+    { question: `Does "integrates with ${X}" mean a two-way sync?`, answer: `Not necessarily. Vendors use the phrase for anything from a certified two-way sync to a scheduled file import. Ask each vendor which records sync, in which direction, how often, and whether the connector costs extra.` }
+  ].filter(Boolean);
+  const glance = `<p>${N} tools in the directory list a ${esc(X)} integration${cats.length ? `, spread across ${cats.length} ${cats.length === 1 ? 'category' : 'categories'}: ${cats.map(c => `<a href="${categoryPath(c.cat.slug)}">${esc(c.cat.name)}</a> (${c.items.length})`).join(', ')}` : ''}. ${trial.length ? `${trial.length} of them ${trial.length === 1 ? 'offers' : 'offer'} a free trial` : 'None publish a free trial'}${free.length ? `, ${free.length} ${free.length === 1 ? 'has' : 'have'} a free plan` : ''}, and ${quoted.length} ${quoted.length === 1 ? 'is' : 'are'} quote-priced.</p>`
+    + (self ? `<p><a href="${productPath(self.slug)}">${esc(self.title)}</a> has its own listing in the directory: ${esc(self.short_description || firstSentence(self.description))}</p>` : '');
+  const priceCell = p => { const l = pricingLabel(p), m = pr(p).model || p.pricing_model || ''; return m && m.toLowerCase() !== l.toLowerCase() && !(l === 'Contact for pricing' && /quote|custom|contact/i.test(m)) ? `${l} (${m})` : l; };
+  const tableRows = ps.slice().sort((a, b) => a.title.localeCompare(b.title)).map(p => { const c = primaryCatOf(p); const roles = ((p.target_audience || {}).roles || []).slice(0, 2).join(', ');
+    return `<tr><th scope="row"><a href="${productPath(p.slug)}">${esc(p.title)}</a></th><td>${c ? `<a href="${categoryPath(c.slug)}">${esc(c.name)}</a>` : ''}</td><td>${esc(priceCell(p))}</td><td>${typeof p.pricing === 'object' && p.pricing ? (p.pricing.free_trial ? 'Yes' : 'No') : ''}</td><td>${esc(roles)}</td></tr>`; }).join('\n          ');
   const jsonLd = [{ "@context": "https://schema.org", "@type": "ItemList", "name": `CRE software that integrates with ${hub.display}`, "numberOfItems": hub.products.length, "itemListElement": hub.products.slice(0, 25).map((p, i) => ({ "@type": "ListItem", "position": i + 1, "url": BASE + productPath(p.slug), "name": p.title })) },
   { "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
     { "@type": "ListItem", "position": 1, "name": "Home", "item": BASE + '/' },
-    { "@type": "ListItem", "position": 2, "name": `Integrates with ${hub.display}`, "item": canonical }] }];
+    { "@type": "ListItem", "position": 2, "name": `Integrates with ${hub.display}`, "item": canonical }] }, faqLd(faq)];
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -1105,8 +1154,27 @@ function renderIntegrationHub(hub) {
   </section>
   <section class="section">
     <div class="container">
+      <div class="hub-summary">
+        <h2>${esc(X)} integrations at a glance</h2>
+        ${glance}
+        <div class="spec-table-wrap"><table class="spec-table">
+          <thead><tr><th scope="col">Tool</th><th scope="col">Category</th><th scope="col">Pricing</th><th scope="col">Free trial</th><th scope="col">Best for</th></tr></thead>
+          <tbody>
+          ${tableRows}
+          </tbody>
+        </table></div>
+      </div>
+      <h2 class="hub-grid-title">All ${N} tools that integrate with ${esc(X)}</h2>
       <div class="product-grid">
         ${hub.products.map(productCard).join('\n')}
+      </div>
+      ${faqHTMLBlock(faq, `${X} integration FAQ`)}
+      <div class="related-editorial">
+        ${relatedHubs.length ? `<h2>Often connected alongside ${esc(X)}</h2>${linkList(relatedHubs.map(x => `<a href="/integrations/${x.h.slug}/">${esc(x.h.display)} integrations</a> (${x.n} tools in common)`))}` : ''}
+        ${hubCmps.length ? `<h2>Comparisons featuring these tools</h2>${linkList(hubCmps.map(cmpLink))}` : ''}
+        ${hubAlts.length ? `<h2>Alternatives guides</h2>${linkList(hubAlts.map(altLink))}` : ''}
+        <h2>Keep browsing</h2>
+        <ul class="link-list"><li><a href="/integrations/">All integrations</a></li><li><a href="/compare.html">All comparisons</a></li><li><a href="/alternatives/">All alternatives guides</a></li></ul>
       </div>
     </div>
   </section>
@@ -1365,7 +1433,19 @@ let footerCount = 0;
 for (const [file] of HAND_PAGES) if (injectBetween(file, '<!-- SITE-FOOTER:START -->', '<!-- SITE-FOOTER:END -->', '\n' + footerHTML() + '\n')) footerCount++;
 
 // Track lastmod for hand pages (hash of the content between nav and footer, like generated pages).
-for (const [file, urlPath] of HAND_PAGES) if (urlPath && fs.existsSync(path.join(ROOT, file))) trackLastmod(urlPath, fs.readFileSync(path.join(ROOT, file), 'utf8'));
+// Guides also get their visible "Updated <Month Year>" line and Article dateModified stamped from that
+// date; the month is masked before hashing so stamping it never counts as a content change.
+const GUIDE_UPDATED = /Updated [A-Z][a-z]+ \d{4}(?= &middot;)/;
+for (const [file, urlPath] of HAND_PAGES) {
+  const abs = path.join(ROOT, file);
+  if (!urlPath || !fs.existsSync(abs)) continue;
+  const html = fs.readFileSync(abs, 'utf8');
+  if (!file.startsWith('guides/')) { trackLastmod(urlPath, html); continue; }
+  const entry = trackLastmod(urlPath, html.replace(GUIDE_UPDATED, 'Updated'));
+  const month = new Date(entry.date + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
+  const stamped = html.replace(GUIDE_UPDATED, `Updated ${month}`).replace(/("dateModified": ")[^"]*/, `$1${entry.date}`);
+  if (stamped !== html) fs.writeFileSync(abs, stamped);
+}
 
 // ---------- legacy redirects ----------
 // GitHub Pages cannot send a 301, so each retired URL in data/redirects.json gets a stub page
@@ -1411,7 +1491,13 @@ injectBetween('404.html', '<!-- CASE-REDIRECTS:START (generated by scripts/build
   const latest = Object.values(LASTMOD).map(v => v.date).filter(Boolean).sort().pop() || TODAY;
   const month = new Date(latest + 'T00:00:00Z').toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
   const nP = PRODUCTS.filter(p => !badSlug(p.slug)).length, nC = Object.keys(CATEGORIES).length;
-  const html = fs.readFileSync(file, 'utf8')
+  // Round the product count down to the nearest 50 for "N+" marketing copy on hand pages.
+  const nPlus = `${Math.floor(nP / 50) * 50}+`;
+  const stampCopy = h => h
+    .replace(/\b\d{3,4}\+(?= (?:Commercial Real Estate Tools|CRE tools|software tools|Products Compared|products across|commercial real estate software companies|tools across))/g, nPlus)
+    .replace(/across \d+ categories/g, `across ${nC} categories`);
+  for (const f of ['about.html', 'market-map.html']) { const abs = path.join(ROOT, f); if (fs.existsSync(abs)) { const h = fs.readFileSync(abs, 'utf8'), n = stampCopy(h); if (n !== h) fs.writeFileSync(abs, n); } }
+  const html = stampCopy(fs.readFileSync(file, 'utf8'))
     .replace(/(id="hero-count">)[^<]*/, `$1${nP}+`).replace(/(id="hero-cats">)[^<]*/, `$1${nC}`)
     .replace(/data-target="\d*" id="counter-products">[^<]*/, `data-target="${nP}" id="counter-products">${nP}`)
     .replace(/data-target="\d*" id="counter-categories">[^<]*/, `data-target="${nC}" id="counter-categories">${nC}`)

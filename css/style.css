@@ -807,3 +807,24 @@ html[data-theme="dark"] .theme-toggle::before { content: '☀'; }
 .cmp-product { display: inline-flex; flex-direction: column; align-items: center; gap: 10px; font-size: 17px; font-weight: 700; }
 .cmp-product .product-logo { display: flex; }
 @media (max-width: 640px) { .cmp-table { min-width: 0; font-size: 14px; } .cmp-table th, .cmp-table td { padding: 10px 10px; overflow-wrap: anywhere; } .cmp-product { font-size: 15px; } .cmp-table thead td, .cmp-table tbody th { width: 30%; } }
+
+.cmp-diff-toggle { display: inline-flex; align-items: center; gap: 8px; margin-top: 20px; font-size: 14px; font-weight: 500; color: var(--gray-700); cursor: pointer; }
+.cmp-diff-toggle + .cmp-table-wrap { margin-top: 10px; }
+.cmp-table.diff-only tr[data-same] { display: none; }
+.cmp-na { color: var(--gray-600); font-style: italic; }
+.cmp-list { margin: 0; padding-left: 18px; }
+.cmp-list li { padding: 1px 0; }
+.cmp-table tr.cmp-shared td { text-align: center; background: var(--accent-light); }
+
+/* ===== INTEGRATION HUBS: summary + spec table above the card grid ===== */
+.hub-summary { max-width: 1000px; margin-bottom: 40px; }
+.hub-summary h2, .hub-grid-title { font-size: 22px; margin: 0 0 12px; }
+.hub-summary p { margin: 0 0 12px; color: var(--gray-700); }
+.hub-grid-title { margin-bottom: 20px; }
+.spec-table-wrap { overflow-x: auto; margin-top: 20px; border: 1px solid var(--gray-300); border-radius: var(--radius-lg); }
+.spec-table { width: 100%; min-width: 640px; border-collapse: collapse; font-size: 14px; }
+.spec-table th, .spec-table td { padding: 10px 14px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--gray-200); }
+.spec-table thead th { background: var(--gray-50); font-size: 13px; color: var(--gray-700); border-bottom: 1px solid var(--gray-300); white-space: nowrap; }
+.spec-table tbody th { font-weight: 600; }
+.spec-table tbody tr:last-child th, .spec-table tbody tr:last-child td { border-bottom: none; }
+.spec-table tbody tr:hover td, .spec-table tbody tr:hover th { background: var(--accent-light); }

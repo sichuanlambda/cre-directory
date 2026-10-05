@@ -63,7 +63,8 @@
       <p class="updated-line">Updated October 5, 2026. Independent editorial; <a href="/about.html">how we research</a>.</p>
       <p style="font-size:18px;">Juniper Square serves institutional, multi-asset managers; Agora serves real estate sponsors with a published entry price and optional tax and bookkeeping services.</p>
       
-      <div class="cmp-table-wrap"><table class="cmp-table">
+      <label class="cmp-diff-toggle"><input type="checkbox" id="cmp-diff"> Show differences only</label>
+      <div class="cmp-table-wrap"><table class="cmp-table" id="cmp-table">
         <thead><tr><td></td><th scope="col"><a class="cmp-product" href="/products/juniper-square/"><span class="product-logo"><img src="/img/logos/juniper-square.png" alt="Juniper Square logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
     style="width:48px;height:48px;object-fit:contain">
@@ -73,12 +74,19 @@
     <div class="fallback" style="display:none;background:#2ecc71;width:48px;height:48px;font-size:21.6px">A</div></span><span>Agora Real Estate</span></a></th></tr></thead>
         <tbody>
           <tr><th scope="row">Starting price</th><td>Contact for pricing</td><td>From $749/month</td></tr>
-          <tr><th scope="row">Pricing model</th><td>—</td><td>Subscription</td></tr>
-          <tr><th scope="row">Free trial</th><td>No</td><td>No</td></tr>
+          <tr><th scope="row">Pricing model</th><td>Quote-based</td><td>Subscription</td></tr>
+          <tr><th scope="row">Free trial</th><td><span class="cmp-na">Not listed</span></td><td>No</td></tr>
+          <tr><th scope="row">Free plan</th><td><span class="cmp-na">Not listed</span></td><td>No</td></tr>
           <tr><th scope="row">Best for</th><td>General Partners, Limited Partners, Fund Managers</td><td>General Partner, Fund Manager, Investor Relations</td></tr>
           <tr><th scope="row">Company size</th><td>Mid-Market, Enterprise</td><td>Small, Mid-Market</td></tr>
-          <tr><th scope="row">Deployment</th><td>Cloud</td><td>Cloud</td></tr>
+          <tr><th scope="row">Property types</th><td>Commercial, Office, Industrial, Multifamily</td><td>Commercial</td></tr>
+          <tr><th scope="row">Feature areas</th><td><ul class="cmp-list"><li>Fundraising &amp; Investor Management</li><li>Fund Administration</li><li>AI &amp; Analytics (JunieAI)</li></ul></td><td><ul class="cmp-list"><li>Fundraising &amp; Onboarding</li><li>Investment Management</li><li>Investor Experience</li><li>Accounting &amp; Payments</li></ul></td></tr>
+          
+          
+          <tr data-same="1"><th scope="row">Deployment</th><td>Cloud</td><td>Cloud</td></tr>
           <tr><th scope="row">Primary category</th><td>Investment &amp; Valuation</td><td>Crowdfunding &amp; Investing</td></tr>
+          <tr><th scope="row">Founded</th><td>2014</td><td>2019</td></tr>
+          <tr><th scope="row">Headquarters</th><td>San Francisco, CA</td><td>Tel Aviv, Israel</td></tr>
         </tbody>
       </table></div>
       <p style="font-size:13.5px"><a href="/compare.html?a=juniper-square&b=agora-real-estate">Customize this comparison →</a></p>
@@ -171,6 +179,6 @@
   </footer>
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
   <script src="/js/app.js"></script>
-  <script>initNav();initBackToTop();initNavSearch();initCategoryFilters();</script>
+  <script>initNav();initBackToTop();initNavSearch();initCategoryFilters();initCmpDiff();</script>
 </body>
 </html>

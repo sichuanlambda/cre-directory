@@ -63,7 +63,8 @@
       <p class="updated-line">Updated October 5, 2026. Independent editorial; <a href="/about.html">how we research</a>.</p>
       <p style="font-size:18px;">Procore is the contractor-centred platform with unlimited users and strong financials; Autodesk Construction Cloud is the natural choice for teams whose projects live in Revit and BIM.</p>
       
-      <div class="cmp-table-wrap"><table class="cmp-table">
+      <label class="cmp-diff-toggle"><input type="checkbox" id="cmp-diff"> Show differences only</label>
+      <div class="cmp-table-wrap"><table class="cmp-table" id="cmp-table">
         <thead><tr><td></td><th scope="col"><a class="cmp-product" href="/products/procore/"><span class="product-logo"><img src="/img/logos/procore.png" alt="Procore logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
     style="width:48px;height:48px;object-fit:contain">
@@ -72,13 +73,20 @@
     style="width:48px;height:48px;object-fit:contain">
     <div class="fallback" style="display:none;background:#e91e63;width:48px;height:48px;font-size:21.6px">A</div></span><span>Autodesk Construction Cloud</span></a></th></tr></thead>
         <tbody>
-          <tr><th scope="row">Starting price</th><td>Subscription</td><td>Subscription</td></tr>
-          <tr><th scope="row">Pricing model</th><td>Subscription</td><td>Subscription</td></tr>
-          <tr><th scope="row">Free trial</th><td>Yes</td><td>Yes</td></tr>
+          <tr data-same="1"><th scope="row">Starting price</th><td>Subscription</td><td>Subscription</td></tr>
+          <tr data-same="1"><th scope="row">Pricing model</th><td>Subscription</td><td>Subscription</td></tr>
+          <tr data-same="1"><th scope="row">Free trial</th><td>Yes</td><td>Yes</td></tr>
+          <tr data-same="1"><th scope="row">Free plan</th><td>No</td><td>No</td></tr>
           <tr><th scope="row">Best for</th><td>General Contractors, Subcontractors, Project Owners</td><td>General Contractors, Specialty Contractors, Owners</td></tr>
           <tr><th scope="row">Company size</th><td>Small, Mid-Market, Enterprise</td><td>Mid-Market, Enterprise</td></tr>
+          <tr><th scope="row">Property types</th><td>Commercial, Industrial, Mixed-Use</td><td>Commercial, Industrial, Institutional, Infrastructure</td></tr>
+          <tr><th scope="row">Feature areas</th><td><ul class="cmp-list"><li>Project Management</li><li>Quality &amp; Safety</li><li>Financial Management</li></ul></td><td><ul class="cmp-list"><li>Project Delivery</li><li>Preconstruction</li><li>Platform</li></ul></td></tr>
+          <tr><th scope="row">Integrations</th><td>Autodesk, DocuSign, Box, Sage, QuickBooks, Microsoft 365</td><td><span class="cmp-na">Not listed</span></td></tr>
+          
           <tr><th scope="row">Deployment</th><td>Cloud</td><td>Cloud, Mobile</td></tr>
-          <tr><th scope="row">Primary category</th><td>Construction &amp; Development</td><td>Construction &amp; Development</td></tr>
+          <tr data-same="1"><th scope="row">Primary category</th><td>Construction &amp; Development</td><td>Construction &amp; Development</td></tr>
+          <tr><th scope="row">Founded</th><td>2002</td><td><span class="cmp-na">Not listed</span></td></tr>
+          <tr><th scope="row">Headquarters</th><td>Carpinteria, CA</td><td><span class="cmp-na">Not listed</span></td></tr>
         </tbody>
       </table></div>
       <p style="font-size:13.5px"><a href="/compare.html?a=procore&b=autodesk-construction-cloud">Customize this comparison →</a></p>
@@ -174,6 +182,6 @@
   </footer>
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
   <script src="/js/app.js"></script>
-  <script>initNav();initBackToTop();initNavSearch();initCategoryFilters();</script>
+  <script>initNav();initBackToTop();initNavSearch();initCategoryFilters();initCmpDiff();</script>
 </body>
 </html>

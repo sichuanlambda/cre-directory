@@ -63,7 +63,8 @@
       <p class="updated-line">Updated October 5, 2026. Independent editorial; <a href="/about.html">how we research</a>.</p>
       <p style="font-size:18px;">Visual Lease wins for enterprise lease administration across real estate and equipment; LeaseQuery, now part of FinQuery, wins for accounting-first compliance at any size.</p>
       
-      <div class="cmp-table-wrap"><table class="cmp-table">
+      <label class="cmp-diff-toggle"><input type="checkbox" id="cmp-diff"> Show differences only</label>
+      <div class="cmp-table-wrap"><table class="cmp-table" id="cmp-table">
         <thead><tr><td></td><th scope="col"><a class="cmp-product" href="/products/visuallease/"><span class="product-logo"><img src="/img/logos/visuallease.png" alt="Visual Lease logo" loading="lazy"
     onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"
     style="width:48px;height:48px;object-fit:contain">
@@ -72,13 +73,20 @@
     style="width:48px;height:48px;object-fit:contain">
     <div class="fallback" style="display:none;background:#2ecc71;width:48px;height:48px;font-size:21.6px">L</div></span><span>LeaseQuery</span></a></th></tr></thead>
         <tbody>
-          <tr><th scope="row">Starting price</th><td>Contact for pricing</td><td>Contact for pricing</td></tr>
+          <tr data-same="1"><th scope="row">Starting price</th><td>Contact for pricing</td><td>Contact for pricing</td></tr>
           <tr><th scope="row">Pricing model</th><td>Enterprise</td><td>Quote-based</td></tr>
-          <tr><th scope="row">Free trial</th><td>No</td><td>No</td></tr>
+          <tr data-same="1"><th scope="row">Free trial</th><td>No</td><td>No</td></tr>
+          <tr data-same="1"><th scope="row">Free plan</th><td>No</td><td>No</td></tr>
           
           
-          <tr><th scope="row">Deployment</th><td>Cloud</td><td>Cloud</td></tr>
-          <tr><th scope="row">Primary category</th><td>Accounting &amp; Finance</td><td>Accounting &amp; Finance</td></tr>
+          <tr><th scope="row">Property types</th><td>Office, Industrial, Retail, Mixed-Use</td><td>Commercial</td></tr>
+          <tr><th scope="row">Feature areas</th><td><ul class="cmp-list"><li>Lease Management</li><li>Lease Accounting</li><li>Controls &amp; Compliance</li><li>AI &amp; Integrations</li></ul></td><td><ul class="cmp-list"><li>Lease Accounting</li><li>Lease Management</li><li>Reporting &amp; Disclosure</li><li>Beyond Leases</li></ul></td></tr>
+          <tr><th scope="row">Integrations</th><td>SAP, Oracle, Workday, Microsoft Dynamics, CoStar, NetSuite</td><td>NetSuite, SAP, Sage Intacct, QuickBooks, Microsoft Dynamics, Workday</td></tr>
+          <tr class="cmp-shared"><th scope="row">Both integrate with</th><td colspan="2">SAP, Workday, Microsoft Dynamics, NetSuite</td></tr>
+          <tr data-same="1"><th scope="row">Deployment</th><td>Cloud</td><td>Cloud</td></tr>
+          <tr data-same="1"><th scope="row">Primary category</th><td>Accounting &amp; Finance</td><td>Accounting &amp; Finance</td></tr>
+          
+          
         </tbody>
       </table></div>
       <p style="font-size:13.5px"><a href="/compare.html?a=visuallease&b=leasequery">Customize this comparison →</a></p>
@@ -171,6 +179,6 @@
   </footer>
   <button id="back-to-top" class="back-to-top" aria-label="Back to top">↑</button>
   <script src="/js/app.js"></script>
-  <script>initNav();initBackToTop();initNavSearch();initCategoryFilters();</script>
+  <script>initNav();initBackToTop();initNavSearch();initCategoryFilters();initCmpDiff();</script>
 </body>
 </html>
