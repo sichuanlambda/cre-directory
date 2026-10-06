@@ -955,37 +955,57 @@ function syncCompareUrl() {
 }
 
 function renderCompare() {
+  const out = document.getElementById('compare-result');
+  if (!out) return;
   const slugs = [...document.querySelectorAll('.compare-product-select')].map(s => s.value);
-  const products = slugs.map(s => PRODUCTS.find(p => p.slug === s)).filter(Boolean);
-  
-  products.forEach((p, i) => {
-    const el = document.getElementById(`compare-detail-${i}`);
-    if (!el) return;
-    const pricing = p.pricing || {};
-    const company = p.company || {};
-    el.innerHTML = p ? `
-      <div class="compare-product-header">
-        <div class="product-logo" style="margin:0 auto">${logoHTML(p)}</div>
-        <h3>${p.title}</h3>
-        <div class="tagline">${p.short_description || p.tagline || p.headline || ''}</div>
-        ${p.rating ? `<div class="card-rating">${starsHTML(p.rating, 14)} <span class="rating-num">${p.rating}</span></div>` : ''}
-      </div>
-      <div class="compare-details">
-        <div class="meta-item"><label>Categories</label><span>${(p.categories || []).join(', ')}</span></div>
-        <div class="meta-item"><label>Property Types</label><span>${((p.target_audience || {}).property_types || p.property_types || []).join(', ')}</span></div>
-        <div class="meta-item"><label>Deployment</label><span>${(p.deployment || []).join(', ')}</span></div>
-        <div class="meta-item"><label>Pricing</label><span>${pricingLabel(p)}</span></div>
-        <div class="meta-item"><label>Free Trial</label><span>${pricing.free_trial ? '✓ Yes' : '✗ No'}</span></div>
-        <div class="meta-item"><label>Free Tier</label><span>${pricing.free_tier ? '✓ Yes' : '✗ No'}</span></div>
-        ${company.founded ? `<div class="meta-item"><label>Founded</label><span>${company.founded}</span></div>` : ''}
-        ${company.employees ? `<div class="meta-item"><label>Employees</label><span>${company.employees}</span></div>` : ''}
-      </div>
-      <div style="margin-top:16px;text-align:center">
-        <a href="/products/${p.slug}/" class="cta-btn cta-btn-sm">View Details</a>
-        <a href="${p.url}" target="_blank" class="cta-btn cta-btn-outline cta-btn-sm">Visit Website →</a>
-      </div>
-    ` : '';
-  });
+  const [A, B] = slugs.map(s => PRODUCTS.find(p => p.slug === s) || null);
+  if (!A && !B) { out.innerHTML = ''; return; }
+  const h = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const na = '<span class="cmp-na">Not listed</span>', pick = '<span class="cmp-na">Select a tool</span>';
+  const pm = p => (p && p.pricing && typeof p.pricing === 'object' ? p.pricing : {});
+  const yesNo = (p, k) => p && p.pricing && typeof p.pricing === 'object' ? (p.pricing[k] ? 'Yes' : 'No') : '';
+  const ta = p => (p && p.target_audience) || {};
+  const co = p => (p && p.company) || {};
+  const ints = p => ((p && p.integrations) || []).map(i => typeof i === 'string' ? i : (i && i.name) || '').map(x => x.trim()).filter(Boolean);
+  const intCell = p => { const n = ints(p); return n.length ? n.slice(0, 6).join(', ') + (n.length > 6 ? `, and ${n.length - 6} more` : '') : ''; };
+  const list = items => items.length ? `<ul class="cmp-list">${items.map(x => `<li>${h(x)}</li>`).join('')}</ul>` : '';
+  const areas = p => ((p && p.feature_groups) || []).map(g => g && g.name).filter(Boolean).slice(0, 4);
+  const props = p => p ? ((p.property_types && p.property_types.length ? p.property_types : ta(p).property_types) || []).slice(0, 6).join(', ') : '';
+  const cell = (p, v, html) => !p ? pick : (v ? (html ? v : h(v)) : na);
+  const row = (label, f, html = false) => {
+    const va = A ? f(A) : '', vb = B ? f(B) : '';
+    if (!va && !vb) return '';
+    const same = A && B && String(va || '').toLowerCase() === String(vb || '').toLowerCase();
+    return `<tr${same ? ' data-same="1"' : ''}><th scope="row">${h(label)}</th><td>${cell(A, va, html)}</td><td>${cell(B, vb, html)}</td></tr>`;
+  };
+  const head = p => p
+    ? `<th scope="col"><a class="cmp-product" href="/products/${p.slug}/"><span class="product-logo">${logoHTML(p)}</span><span>${h(p.title)}</span></a><div class="cmp-tagline">${h(p.short_description || p.tagline || p.headline || '')}</div></th>`
+    : `<th scope="col">${pick}</th>`;
+  const actions = p => p ? `<a href="/products/${p.slug}/" class="cta-btn cta-btn-sm">View details</a> <a href="${h(p.url)}" target="_blank" rel="noopener" class="cta-btn cta-btn-outline cta-btn-sm">Visit website →</a>` : '';
+  const shared = A && B ? ints(A).filter(x => ints(B).some(y => y.toLowerCase() === x.toLowerCase())) : [];
+  out.innerHTML = `
+    <label class="cmp-diff-toggle"><input type="checkbox" id="cmp-diff"> Show differences only</label>
+    <div class="cmp-table-wrap"><table class="cmp-table" id="cmp-table">
+      <thead><tr><td></td>${head(A)}${head(B)}</tr></thead>
+      <tbody>
+        ${row('Starting price', p => pricingLabel(p))}
+        ${row('Pricing model', p => pm(p).model || p.pricing_model)}
+        ${row('Free trial', p => yesNo(p, 'free_trial'))}
+        ${row('Free plan', p => yesNo(p, 'free_tier'))}
+        ${row('Best for', p => (ta(p).roles || []).slice(0, 3).join(', '))}
+        ${row('Company size', p => (ta(p).company_sizes || []).join(', '))}
+        ${row('Property types', props)}
+        ${row('Feature areas', p => list(areas(p)), true)}
+        ${row('Integrations', intCell)}
+        ${shared.length ? `<tr class="cmp-shared"><th scope="row">Both integrate with</th><td colspan="2">${h(shared.join(', '))}</td></tr>` : ''}
+        ${row('Deployment', p => (p.deployment || []).join(', '))}
+        ${row('Categories', p => (p.categories || []).join(', '))}
+        ${row('Founded', p => co(p).founded ? String(co(p).founded) : '')}
+        ${row('Headquarters', p => co(p).headquarters || co(p).hq)}
+        <tr class="cmp-actions"><th scope="row"></th><td>${actions(A)}</td><td>${actions(B)}</td></tr>
+      </tbody>
+    </table></div>`;
+  initCmpDiff();
 }
 
 // ====== HELPERS ======

@@ -896,6 +896,15 @@ function renderAlternativesPage(slug, alt) {
       ${updatedLine()}
       <div class="description-section">${(alt.intro || '').split('\n\n').map(p => `<p>${esc(p)}</p>`).join('')}</div>
       ${disclosureHTML([product].concat(picks.map(x => x.product)))}
+      <div class="similar-section"><h2>${esc(product.title)} and its alternatives at a glance</h2>
+        <div class="spec-table-wrap alt-glance"><table class="spec-table">
+          <thead><tr><th scope="col">Tool</th><th scope="col">Starting price</th><th scope="col">Free trial</th><th scope="col">Best for</th><th scope="col">Deployment</th></tr></thead>
+          <tbody>
+          ${[{ product, self: true }].concat(picks).map(x => { const q = x.product, pr = q.pricing && typeof q.pricing === 'object' ? q.pricing : null;
+            return `<tr${x.self ? ' class="spec-self"' : ''}><th scope="row"><a class="spec-product" href="${productPath(q.slug)}"><span class="product-logo">${logoHTML(q, 32)}</span><span>${esc(q.title)}</span></a></th><td>${esc(pricingLabel(q))}</td><td>${pr ? (pr.free_trial ? 'Yes' : 'No') : '<span class="cmp-na">Not listed</span>'}</td><td>${esc(((q.target_audience || {}).roles || []).slice(0, 2).join(', ')) || '<span class="cmp-na">Not listed</span>'}</td><td>${esc((q.deployment || []).join(', ')) || '<span class="cmp-na">Not listed</span>'}</td></tr>`; }).join('\n          ')}
+          </tbody>
+        </table></div>
+      </div>
       <div class="similar-section"><h2>Top ${esc(product.title)} Alternatives</h2>
         ${picks.map((x, i) => `<div style="margin:0 0 18px;padding:18px 20px;border:1px solid rgba(128,128,160,.25);border-radius:12px;">
           <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;">
