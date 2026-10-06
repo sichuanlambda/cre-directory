@@ -210,6 +210,33 @@ function initNav() {
   }
 }
 
+// Light/dark toggle on buyer's guides. Light is the default; the choice is remembered per browser.
+function initThemeToggle() {
+  const btn = document.querySelector('.theme-toggle');
+  if (!btn) return;
+  const root = document.documentElement;
+  const sync = () => {
+    const dark = root.getAttribute('data-theme') === 'dark';
+    btn.setAttribute('aria-pressed', String(dark));
+    btn.setAttribute('aria-label', dark ? 'Switch to light mode' : 'Switch to dark mode');
+  };
+  btn.addEventListener('click', () => {
+    const dark = root.getAttribute('data-theme') !== 'dark';
+    if (dark) root.setAttribute('data-theme', 'dark'); else root.removeAttribute('data-theme');
+    try { localStorage.setItem('cre-theme', dark ? 'dark' : 'light'); } catch (e) {}
+    sync();
+  });
+  sync();
+}
+
+// "Show differences only" on comparison pages: hides spec rows where both tools have the same value.
+function initCmpDiff() {
+  const box = document.getElementById('cmp-diff'), table = document.getElementById('cmp-table');
+  if (!box || !table) return;
+  if (!table.querySelector('tr[data-same]')) { box.closest('label').style.display = 'none'; return; }
+  box.addEventListener('change', () => table.classList.toggle('diff-only', box.checked));
+}
+
 function featuredCard(p) {
   const cat = (p.categories || [])[0];
   const catBadge = cat ? `<span class="badge badge-accent">${cat}</span>` : '';
