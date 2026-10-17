@@ -1,0 +1,15 @@
+{
+  "tool_name": "Minervian AI",
+  "website": "https://minervianai.com",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Investment & Valuation, Accounting & Finance, AI & Automation",
+  "description": "AI underwriting for commercial real estate: OM and rent roll to a full model in minutes",
+  "pricing": "Freemium: free tier includes 5 deals (no card); $25 per seat per month",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "Minervian AI is browser-based CRE underwriting software. AI reads an offering memorandum and rent roll and proposes assumptions; a deterministic engine runs lease-by-lease cash flow, multi-tranche debt and a flexible equity waterfall, with Excel export. A first draft takes 5-10 minutes. $25/seat/month; 5 free deals, no card. Covers office, industrial, retail and multifamily; core, value-add and development; portfolio modeling with multiple properties per deal. An alternative to ARGUS Enterprise with published pricing and no installation. Platforms: Web (browser). Features/tags: CRE underwriting, cash flow modeling, rent roll extraction, OM analysis, debt modeling, equity waterfall, Excel export, Argus alternative. Contact: Viet, Founder (viet@minervianai.com).",
+  "screenshot_urls": "",
+  "submitted_at": "2026-10-17T16:41:50.126Z",
+  "source": "web-form",
+  "status": "pending"
+}
