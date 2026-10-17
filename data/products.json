@@ -269,14 +269,14 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Owns ARGUS — the industry-standard CRE valuation software",
+      "Owns ARGUS, the industry-standard CRE valuation software",
       "Combines software, data, and advisory in one integrated offering",
       "Strong global presence across North America, Europe, and Asia Pacific",
       "Deep institutional investor client base and trusted brand"
     ],
     "cons": [
-      "Complex product portfolio — can be confusing to navigate offerings",
-      "Enterprise pricing only — not accessible for small firms",
+      "Complex product portfolio, can be confusing to navigate offerings",
+      "Enterprise pricing only, not accessible for small firms",
       "Advisory services can create potential conflicts with software recommendations",
       "Some legacy technology still transitioning to cloud"
     ],
@@ -419,7 +419,7 @@
       "Commission management tailored for brokerage operations"
     ],
     "cons": [
-      "Website no longer accessible—product may be discontinued",
+      "Website no longer accessible, product may be discontinued",
       "Likely requires migration to alternative CRM",
       "Limited ongoing support if no longer active"
     ],
@@ -680,7 +680,7 @@
       "Covers variety of architecture software and tools"
     ],
     "cons": [
-      "Not a CRE software product—educational resource only",
+      "Not a CRE software product, educational resource only",
       "Limited to general architecture topics",
       "No interactive tools or platform features"
     ],
@@ -813,16 +813,16 @@
     ],
     "video_url": null,
     "pros": [
-      "Industry standard for CRE valuation — recognized globally by investors, appraisers, and lenders",
+      "Industry standard for CRE valuation, recognized globally by investors, appraisers, and lenders",
       "Comprehensive suite covering valuation, development feasibility, and fund management",
-      "Taught in 200+ universities — strong talent pipeline of trained users",
+      "Taught in 200+ universities, strong talent pipeline of trained users",
       "Deep DCF modeling capabilities unmatched by competitors",
       "Strong support community and training/certification programs"
     ],
     "cons": [
-      "Steep learning curve — requires significant training to use effectively",
+      "Steep learning curve, requires significant training to use effectively",
       "Enterprise pricing not accessible for small firms or individual brokers",
-      "Legacy desktop roots — cloud transition still evolving",
+      "Legacy desktop roots, cloud transition still evolving",
       "User interface can feel dated compared to modern SaaS products"
     ],
     "integrations": [
@@ -1393,7 +1393,7 @@
         "features": [
           {
             "name": "CRE Brokerage Support",
-            "description": "Tools for commercial real estate brokers (details unavailable—website not accessible)."
+            "description": "Tools for commercial real estate brokers (details unavailable; website not accessible)."
           }
         ]
       }
@@ -1634,10 +1634,10 @@
       "Purpose-built for residential property management with deep feature set",
       "Strong AI features via Lumina including automated bill scanning and communications",
       "Serves a wide range from small landlords to 15,000+ unit portfolios",
-      "Free trial available — can test before committing"
+      "Free trial available, can test before committing"
     ],
     "cons": [
-      "Primarily residential — limited commercial property management features",
+      "Primarily residential, limited commercial property management features",
       "Pricing scales up significantly with portfolio size",
       "Some advanced features locked behind Premium tier ($400/month)",
       "API access only available on highest-tier plan"
@@ -1731,9 +1731,9 @@
     "slug": "buildout",
     "url": "https://www.buildout.com",
     "logo_url": "/img/logos/buildout.png",
-    "headline": "The connected CRE brokerage platform — prospecting, CRM, marketing, and transactions in one place.",
+    "headline": "The connected CRE brokerage platform: prospecting, CRM, marketing, and transactions in one place.",
     "description": "Buildout is a comprehensive connected software platform built specifically for commercial real estate brokerages, combining CRM, marketing, data, and back-office automation to help brokers win more listings and close more deals faster. Used by over 50,000 CRE brokers, the platform leverages AI-powered features for prospecting, workflow automation, and intelligent targeting. Buildout provides a complete suite of tools from finding properties to closing transactions, designed to scale from solo brokers to multi-office brokerages.",
-    "short_description": "Connected CRE brokerage platform — AI-powered prospecting, CRM, marketing, and deal management for 50,000+ brokers.",
+    "short_description": "Connected CRE brokerage platform: AI-powered prospecting, CRM, marketing, and deal management for 50,000+ brokers.",
     "target_audience": {
       "roles": [
         "Commercial Real Estate Brokers",
@@ -1777,7 +1777,7 @@
         "features": [
           {
             "name": "AI Data Ingestion",
-            "description": "Property data flows in automatically — no manual entry. Raw data becomes polished marketing."
+            "description": "Property data flows in automatically, with no manual entry. Raw data becomes polished marketing."
           },
           {
             "name": "Automated Proposal Generator",
@@ -1789,7 +1789,7 @@
           },
           {
             "name": "Native Email Marketing",
-            "description": "Send listings to ideal buyers and syndicate to 20+ listing sites — all from one platform."
+            "description": "Send listings to ideal buyers and syndicate to 20+ listing sites, all from one platform."
           },
           {
             "name": "Listing Syndication",
@@ -1802,7 +1802,7 @@
         "features": [
           {
             "name": "Deal Pipeline Management",
-            "description": "The most complete CRM for CRE — manage leads, contacts, and deal flow in one place."
+            "description": "The most complete CRM for CRE: manage leads, contacts, and deal flow in one place."
           },
           {
             "name": "AI-Assisted Follow-Up",
@@ -1870,14 +1870,14 @@
     ],
     "video_url": null,
     "pros": [
-      "Purpose-built for CRE brokers — not a generic CRM adapted for real estate",
+      "Purpose-built for CRE brokers, not a generic CRM adapted for real estate",
       "Strong AI features across prospecting, marketing, and CRM that save real time",
-      "Modular — start with one product and expand as needs grow",
+      "Modular, start with one product and expand as needs grow",
       "40M+ property database gives strong prospecting foundation",
       "50,000+ broker user base means active development and community"
     ],
     "cons": [
-      "Quote-based pricing across all products — no published prices",
+      "Quote-based pricing across all products, no published prices",
       "Best suited for brokerages, not landlords or investors",
       "Newer AI features (Rethink+, Showcase AI) are still maturing",
       "Less suited for enterprise portfolio management vs. deal-focused workflows"
@@ -1900,8 +1900,8 @@
     "rating": 4.1,
     "review_count": 30,
     "seo": {
-      "title": "Buildout Review 2026: CRE Brokerage Platform — Pricing, Features & Alternatives",
-      "description": "In-depth review of Buildout — the connected CRE brokerage platform used by 50,000+ brokers. Compare Prospect, Showcase, Rethink CRM, and Transact products.",
+      "title": "Buildout Review 2026: CRE Brokerage Platform | Pricing, Features & Alternatives",
+      "description": "In-depth review of Buildout, the connected CRE brokerage platform used by 50,000+ brokers. Compare Prospect, Showcase, Rethink CRM, and Transact products.",
       "keywords": [
         "Buildout review",
         "Buildout CRM",
@@ -2048,7 +2048,7 @@
         "features": [
           {
             "name": "Platform Details Unavailable",
-            "description": "Website not accessible—features cannot be determined."
+            "description": "Website not accessible; features cannot be determined."
           }
         ]
       }
@@ -2237,17 +2237,17 @@
     ],
     "video_url": null,
     "pros": [
-      "Unmatched data integration — 150+ data partnerships and 3.5B+ connected data points",
+      "Unmatched data integration, 150+ data partnerships and 3.5B+ connected data points",
       "Universal Data Model solves the 'data silo' problem that plagues CRE organizations",
       "AI Agent STUDIO is innovative and forward-looking for workflow automation",
       "Strong backing with $30M Series C (2024) and partnerships like Nuveen",
       "Purpose-built for institutional real estate investors"
     ],
     "cons": [
-      "Enterprise pricing only — not accessible for smaller firms",
+      "Enterprise pricing only, not accessible for smaller firms",
       "Requires significant data infrastructure maturity to get full value",
       "Implementation can be complex depending on data sources",
-      "Relatively newer company — less brand recognition than legacy providers"
+      "Relatively newer company, less brand recognition than legacy providers"
     ],
     "integrations": [
       {
@@ -2438,7 +2438,7 @@
     ],
     "cons": [
       "Pricing not publicly available",
-      "Focused on development sites—not general CRE analytics",
+      "Focused on development sites, not general CRE analytics",
       "Coverage may vary by market"
     ],
     "integrations": [],
@@ -2642,10 +2642,10 @@
       "Trusted by institutional investors and appraisers for due diligence"
     ],
     "cons": [
-      "Data quality depends on member contributions — can be uneven in smaller markets",
+      "Data quality depends on member contributions, can be uneven in smaller markets",
       "Enterprise pricing not publicly available",
       "Limited property-level data beyond transaction comps (no building operations data)",
-      "Smaller overall dataset than CoStar — better for specific deals than broad market overview"
+      "Smaller overall dataset than CoStar, better for specific deals than broad market overview"
     ],
     "integrations": [
       {
@@ -3372,7 +3372,7 @@
     "video_url": null,
     "pros": [
       "Free basic access makes it accessible to any CRE professional",
-      "Fastest-growing CRE marketplace — strong alternative to LoopNet",
+      "Fastest-growing CRE marketplace, strong alternative to LoopNet",
       "Modern, intuitive interface compared to legacy platforms",
       "Combines marketplace, analytics, and deal management in one platform",
       "Strong mobile experience for on-the-go property search"
@@ -3510,7 +3510,7 @@
           },
           {
             "name": "Automated Data Capture",
-            "description": "Zero-entry data capture from emails, calendars, and communications — eliminates 95% of manual entry."
+            "description": "Zero-entry data capture from emails, calendars, and communications, eliminating 95% of manual entry."
           },
           {
             "name": "Relationship Scoring",
@@ -3540,7 +3540,7 @@
         "features": [
           {
             "name": "Custom Dashboards",
-            "description": "No-code configurable dashboards and reports — no IT required."
+            "description": "No-code configurable dashboards and reports, no IT required."
           },
           {
             "name": "Pipeline Analytics",
@@ -3564,17 +3564,17 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Purpose-built for deal-driven firms — not a generic CRM adapted for real estate",
+      "Purpose-built for deal-driven firms, not a generic CRM adapted for real estate",
       "AI eliminates 95% of manual data entry via automated relationship capture",
-      "No-code configuration — business users can customize without IT",
+      "No-code configuration, business users can customize without IT",
       "Proven results: Hamilton Lane replaced 28 systems with DealCloud",
       "Enterprise-grade security with ISO 27001 and SOC-2 compliance"
     ],
     "cons": [
-      "Enterprise pricing — geared toward mid-to-large firms",
+      "Enterprise pricing, geared toward mid-to-large firms",
       "Can be complex to implement and configure for maximum value",
-      "Owned by Intapp — bundled with other Intapp products which may add complexity",
-      "Less CRE-specific than platforms like Dealpath — broader professional services focus"
+      "Owned by Intapp, bundled with other Intapp products which may add complexity",
+      "Less CRE-specific than platforms like Dealpath, broader professional services focus"
     ],
     "integrations": [
       {
@@ -3752,17 +3752,17 @@
     ],
     "video_url": null,
     "pros": [
-      "Purpose-built for CRE investment workflows — not a generic CRM adapted for real estate",
+      "Purpose-built for CRE investment workflows, not a generic CRM adapted for real estate",
       "AI-powered data ingestion dramatically reduces manual data entry from OMs and flyers",
       "White-glove implementation with dedicated Customer Success Manager",
       "Trusted by top-tier institutional investors (Blackstone, New York Life, CBRE IM)",
       "Strong integration ecosystem with CompStak, Esri, Microsoft Office, and data providers"
     ],
     "cons": [
-      "Minimum of 5 users required — not suitable for solo practitioners or very small teams",
+      "Minimum of 5 users required, not suitable for solo practitioners or very small teams",
       "Quote-based pricing lacks transparency for budget planning",
       "Implementation takes 6-8 weeks which may feel slow for firms wanting quick deployment",
-      "Focused on deal management — not a full property management or accounting solution",
+      "Focused on deal management, not a full property management or accounting solution",
       "Best suited for institutional investors; may be over-engineered for smaller owner-operators"
     ],
     "integrations": [
@@ -3995,7 +3995,7 @@
     "cons": [
       "Enterprise pricing not publicly available",
       "Shadow metering requires hardware installation",
-      "Focused on sustainability—not a general CRE platform"
+      "Focused on sustainability, not a general CRE platform"
     ],
     "integrations": [
       "Energy Star",
@@ -4118,7 +4118,7 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Turnkey service—Envoy handles everything from vehicles to maintenance",
+      "Turnkey service, Envoy handles everything from vehicles to maintenance",
       "Electric vehicles align with sustainability and ESG goals",
       "Premium amenity differentiates properties in competitive markets",
       "Reduces parking pressure at properties",
@@ -4167,7 +4167,10 @@
     "primary_category": "tenant-experience",
     "logo_url_source": "https://logo.clearbit.com/envoythere.com",
     "not_software": true,
-    "entity_type": "an electric-vehicle amenity service for properties"
+    "entity_type": "an electric-vehicle amenity service for properties",
+    "previous_status": "",
+    "status": "unverifiable",
+    "unpublished_reason": "Not CRE software: EV car-sharing amenity service"
   },
   {
     "title": "Fifth Wall",
@@ -4242,7 +4245,7 @@
       "Deep real estate industry expertise and connections"
     ],
     "cons": [
-      "Not a product or service—venture capital firm",
+      "Not a product or service, venture capital firm",
       "Investments are for institutional and accredited investors only",
       "Portfolio companies are separate entities with their own challenges"
     ],
@@ -4373,8 +4376,10 @@
     ],
     "primary_category": "ai-automation",
     "logo_url_source": "https://logo.clearbit.com/fortressiq.com",
-    "status": "acquired",
-    "status_note": "Acquired by Automation Anywhere in December 2021; folded into the Automation 360 platform and no longer standalone."
+    "status": "unverifiable",
+    "status_note": "Acquired by Automation Anywhere in December 2021; folded into the Automation 360 platform and no longer standalone.",
+    "previous_status": "acquired",
+    "unpublished_reason": "Not CRE software: general process mining, absorbed into Automation Anywhere"
   },
   {
     "title": "FUEL",
@@ -4468,8 +4473,8 @@
       "Standard integrations with 3rd party property management systems"
     ],
     "cons": [
-      "Enterprise pricing—not suitable for individual investors",
-      "Acquired by RealPage—brand transition may cause confusion",
+      "Enterprise pricing, not suitable for individual investors",
+      "Acquired by RealPage, brand transition may cause confusion",
       "Complex implementation for full platform deployment"
     ],
     "integrations": [
@@ -4762,9 +4767,9 @@
       "Part of Conservice ecosystem with utility management expertise"
     ],
     "cons": [
-      "Rebranded from Goby to Conservice ESG—potential confusion",
+      "Rebranded from Goby to Conservice ESG, potential confusion",
       "Enterprise pricing not publicly available",
-      "Focused specifically on ESG—not a general CRE platform"
+      "Focused specifically on ESG, not a general CRE platform"
     ],
     "integrations": [
       "Conservice utility management",
@@ -4778,8 +4783,7 @@
       "funding": "Acquired by Conservice"
     },
     "categories": [
-      "Energy & Sustainability",
-      "Accounting & Finance"
+      "Energy & Sustainability"
     ],
     "deployment": [
       "Mobile"
@@ -4908,7 +4912,7 @@
     ],
     "cons": [
       "Enterprise pricing not publicly available",
-      "Primarily focused on multifamily—limited applicability for other property types",
+      "Primarily focused on multifamily, limited applicability for other property types",
       "Requires cultural shift toward centralized maintenance operations"
     ],
     "integrations": [
@@ -5031,11 +5035,11 @@
     "video_url": null,
     "pros": [
       "Pioneer in CRE leasing technology",
-      "Now part of VTS—the leading CRE leasing platform",
+      "Now part of VTS, the leading CRE leasing platform",
       "Original functionality expanded within VTS ecosystem"
     ],
     "cons": [
-      "No longer available as standalone product—merged into VTS",
+      "No longer available as standalone product, merged into VTS",
       "Website is no longer accessible",
       "Users must transition to VTS platform"
     ],
@@ -5152,7 +5156,7 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Now part of Procore—industry-leading construction management platform",
+      "Now part of Procore, industry-leading construction management platform",
       "Expanded capabilities beyond original Honest Buildings offering",
       "Access to Procore's full platform including Helix AI"
     ],
@@ -5773,16 +5777,16 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Global reach — operations in 80+ countries with deep local market expertise",
+      "Global reach, operations in 80+ countries with deep local market expertise",
       "Full-service platform covering every aspect of commercial real estate",
       "Strong technology investment through JLL Technologies and JLL Spark",
       "Massive market data and research capabilities",
       "One of the most recognized brands in commercial real estate"
     ],
     "cons": [
-      "Primarily a services firm — technology is secondary to advisory services",
-      "Custom pricing for all services — no transparency",
-      "Not a SaaS product — more of a service provider with tech components",
+      "Primarily a services firm, technology is secondary to advisory services",
+      "Custom pricing for all services, no transparency",
+      "Not a SaaS product, more of a service provider with tech components",
       "Can be expensive for smaller companies or single-asset owners"
     ],
     "integrations": [],
@@ -6222,7 +6226,7 @@
     ],
     "cons": [
       "Pricing not publicly available",
-      "Focused on financing—not a general CRE platform",
+      "Focused on financing, not a general CRE platform",
       "Value depends on deal volume and lender network"
     ],
     "integrations": [],
@@ -6524,16 +6528,16 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Largest CRE marketplace audience — 10M+ monthly visitors",
-      "Owned by CoStar Group — backed by the most comprehensive CRE data",
+      "Largest CRE marketplace audience, 10M+ monthly visitors",
+      "Owned by CoStar Group, backed by the most comprehensive CRE data",
       "Free basic listings lower the barrier to entry",
-      "Strong SEO — LoopNet listings rank highly in Google searches",
+      "Strong SEO, LoopNet listings rank highly in Google searches",
       "Recognized brand trusted by buyers, tenants, and investors"
     ],
     "cons": [
       "Premium listing costs add up quickly for multi-property portfolios",
-      "Owned by CoStar — some brokers resist the monopolistic ecosystem",
-      "Limited CRM or deal management features — primarily a listing platform",
+      "Owned by CoStar, some brokers resist the monopolistic ecosystem",
+      "Limited CRM or deal management features, primarily a listing platform",
       "Free tier listings get minimal visibility compared to paid tiers"
     ],
     "integrations": [
@@ -6767,7 +6771,7 @@
       "Monthly per-space pricing can get expensive for large portfolios",
       "Best results require dedicated Matterport camera hardware ($3,000+)",
       "3D models require good internet bandwidth to load smoothly",
-      "Limited offline capabilities — cloud-dependent"
+      "Limited offline capabilities, cloud-dependent"
     ],
     "integrations": [
       {
@@ -6943,7 +6947,7 @@
       "Track record with companies like BuildOps and Attentive"
     ],
     "cons": [
-      "Not a product—venture capital firm",
+      "Not a product, venture capital firm",
       "Investments are for institutional/accredited investors only",
       "Portfolio companies are independent entities"
     ],
@@ -7594,7 +7598,7 @@
         "features": [
           {
             "name": "Platform Details Unavailable",
-            "description": "Website not accessible—features cannot be determined."
+            "description": "Website not accessible; features cannot be determined."
           }
         ]
       }
@@ -7742,7 +7746,7 @@
       "Automated daily backups reduce risk"
     ],
     "cons": [
-      "Not CRE-specific—general SaaS data protection",
+      "Not CRE-specific, general SaaS data protection",
       "Enterprise pricing for larger organizations",
       "Requires SaaS platform dependency"
     ],
@@ -7804,7 +7808,10 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T22:34:14.326139Z",
     "primary_category": "data-analytics",
-    "logo_url_source": "https://logo.clearbit.com/ownbackup.com"
+    "logo_url_source": "https://logo.clearbit.com/ownbackup.com",
+    "previous_status": "",
+    "status": "unverifiable",
+    "unpublished_reason": "Not CRE software: general SaaS data backup"
   },
   {
     "title": "Placer.ai",
@@ -7979,14 +7986,14 @@
       "Free dashboard provides real value for quick lookups and basic analysis",
       "92%+ accuracy with best-in-class mobile data science methodology",
       "Unique foot traffic data unavailable from traditional CRE data providers",
-      "Powerful for retail CRE — tenant performance, site selection, and trade area analysis",
+      "Powerful for retail CRE, tenant performance, site selection, and trade area analysis",
       "Strong API for integration into custom analytics workflows"
     ],
     "cons": [
-      "Foot traffic data is US-focused — limited international coverage",
+      "Foot traffic data is US-focused, limited international coverage",
       "Premium pricing not publicly available and can be expensive",
-      "Data based on mobile panel — may underrepresent certain demographics",
-      "Primarily useful for retail/hospitality — less relevant for pure office or industrial"
+      "Data based on mobile panel, may underrepresent certain demographics",
+      "Primarily useful for retail/hospitality, less relevant for pure office or industrial"
     ],
     "integrations": [
       {
@@ -8399,15 +8406,15 @@
     ],
     "video_url": null,
     "pros": [
-      "Industry-leading construction management platform — 3M+ projects in 150+ countries",
-      "Unlimited users model — no per-seat pricing encouraging broad adoption",
+      "Industry-leading construction management platform, 3M+ projects in 150+ countries",
+      "Unlimited users model, no per-seat pricing encouraging broad adoption",
       "Exceptional mobile app for field teams",
       "Massive integration marketplace with 300+ partners",
       "Strong AI features via Procore Helix for automated insights"
     ],
     "cons": [
       "Pricing based on construction volume can be expensive for large developers",
-      "Primarily construction-focused — not a full CRE lifecycle platform",
+      "Primarily construction-focused, not a full CRE lifecycle platform",
       "Can be overkill for small renovation or tenant improvement projects",
       "Steep learning curve for teams not used to project management software"
     ],
@@ -8560,7 +8567,7 @@
     },
     "categories": [
       "Broker Tools",
-      "Accounting & Finance"
+      "Lending & Debt"
     ],
     "deployment": [
       "Cloud"
@@ -8719,7 +8726,7 @@
     "cons": [
       "Focused primarily on retail CRE leasing",
       "Pricing not clearly displayed on website",
-      "Niche tool—may not justify subscription for small portfolios"
+      "Niche tool, may not justify subscription for small portfolios"
     ],
     "integrations": [],
     "company": {
@@ -9018,7 +9025,7 @@
     ],
     "video_url": null,
     "pros": [
-      "50%+ of all US CRE sales use RCM—dominant market position",
+      "50%+ of all US CRE sales use RCM, dominant market position",
       "$2.5 trillion in transactions demonstrates scale and trust",
       "81,000+ qualified principals provide maximum deal exposure",
       "Part of LightBox ecosystem with expanded data capabilities",
@@ -9027,7 +9034,7 @@
     "cons": [
       "Pricing not publicly available",
       "Recent integration into LightBox may cause transition issues",
-      "Focused on investment sales—not leasing or property management"
+      "Focused on investment sales, not leasing or property management"
     ],
     "integrations": [
       "LightBox",
@@ -9154,7 +9161,7 @@
           },
           {
             "name": "One-Time Purchase",
-            "description": "No recurring monthly or annual charges—buy once, use forever."
+            "description": "No recurring monthly or annual charges: buy once, use forever."
           },
           {
             "name": "Training Resources",
@@ -9186,7 +9193,7 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "One-time purchase with no recurring fees—excellent value",
+      "One-time purchase with no recurring fees, excellent value",
       "Excel-based means familiar interface with no learning curve",
       "Separate products optimized for different property types",
       "Professional reports impress investors and lenders",
@@ -9470,7 +9477,7 @@
     ],
     "video_url": null,
     "pros": [
-      "Most complete all-in-one suite for CRE brokers — CRM, analysis, marketing, and transactions",
+      "Most complete all-in-one suite for CRE brokers, CRM, analysis, marketing, and transactions",
       "RX Data with predictive analytics uniquely identifies likely buyers and sellers",
       "60+ professional presentation templates for consistent branded output",
       "Affordable for individual brokers compared to enterprise platforms",
@@ -9709,17 +9716,17 @@
     ],
     "video_url": null,
     "pros": [
-      "Most comprehensive multifamily tech stack — covers everything from marketing to revenue management",
+      "Most comprehensive multifamily tech stack, covers everything from marketing to revenue management",
       "Industry-leading revenue management with proven cycle-tested analytics",
       "Lumina AI workforce automates tedious operational tasks at scale",
       "Massive market data footprint for benchmarking and analytics",
       "Integrates leasing, operations, and financial management in one ecosystem"
     ],
     "cons": [
-      "Enterprise pricing — not suitable for small landlords or single properties",
+      "Enterprise pricing, not suitable for small landlords or single properties",
       "Complex platform with steep learning curve for new users",
       "Recent DOJ antitrust scrutiny around revenue management pricing algorithms",
-      "Primarily focused on multifamily — limited commercial CRE features"
+      "Primarily focused on multifamily, limited commercial CRE features"
     ],
     "integrations": [
       {
@@ -9904,7 +9911,7 @@
     ],
     "video_url": null,
     "pros": [
-      "Powerful ownership intelligence — uncovers true owners behind LLCs and trusts",
+      "Powerful ownership intelligence, uncovers true owners behind LLCs and trusts",
       "Free trial available for evaluating the platform",
       "Strong debt/mortgage data for identifying motivated sellers near loan maturity",
       "AI-connected records create more complete property profiles than raw public data",
@@ -9912,8 +9919,8 @@
     ],
     "cons": [
       "Only the web app starting price is published; data feed and API pricing require a sales quote",
-      "Data accuracy varies by market — strongest in major metros",
-      "Smaller data team than CoStar — some gaps in coverage",
+      "Data accuracy varies by market, strongest in major metros",
+      "Smaller data team than CoStar, some gaps in coverage",
       "Limited commercial lease data compared to CoStar or CompStak"
     ],
     "integrations": [
@@ -10283,7 +10290,7 @@
       "Full API for custom integration"
     ],
     "cons": [
-      "Not CRE-specific—general AP automation",
+      "Not CRE-specific, general AP automation",
       "Pricing not publicly available",
       "May require configuration for real estate-specific workflows"
     ],
@@ -10346,7 +10353,10 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T22:38:24.658674Z",
     "primary_category": "accounting-finance",
-    "logo_url_source": "https://logo.clearbit.com/routable.com"
+    "logo_url_source": "https://logo.clearbit.com/routable.com",
+    "previous_status": "",
+    "status": "unverifiable",
+    "unpublished_reason": "Not CRE software: general accounts-payable automation"
   },
   {
     "title": "Truss",
@@ -10394,7 +10404,7 @@
       "Simplified commercial leasing for small businesses"
     ],
     "cons": [
-      "Acquired by Industrious—may not operate independently",
+      "Acquired by Industrious, may not operate independently",
       "Limited information available"
     ],
     "integrations": [],
@@ -10447,7 +10457,7 @@
     "url": "https://www.saltmine.com",
     "logo_url": "/img/logos/saltmine.png",
     "headline": "Workplace design and management platform.",
-    "description": "Saltmine is a modern workplace planning and design platform built by architects and real estate professionals for corporate real estate (CRE) teams. The platform enables space programming, test fitting, visualization, and project delivery with intelligence woven throughout. Saltmine helps CRE teams plan workspaces 70-90% faster, reduce change orders by 5-10%, and optimize space use by 3-5%. A global financial services firm used Saltmine to test-fit 10 sites in a single week, and a global insurance firm avoided a planned expansion by identifying 4% latent capacity—saving over $6M in rent. The platform offers unlimited users with no special skills required and is SOC 2 compliant.",
+    "description": "Saltmine is a modern workplace planning and design platform built by architects and real estate professionals for corporate real estate (CRE) teams. The platform enables space programming, test fitting, visualization, and project delivery with intelligence woven throughout. Saltmine helps CRE teams plan workspaces 70-90% faster, reduce change orders by 5-10%, and optimize space use by 3-5%. A global financial services firm used Saltmine to test-fit 10 sites in a single week, and a global insurance firm avoided a planned expansion by identifying 4% latent capacity, saving over $6M in rent. The platform offers unlimited users with no special skills required and is SOC 2 compliant.",
     "short_description": "Workplace design and management platform.",
     "target_audience": {
       "roles": [
@@ -10799,7 +10809,10 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T22:39:08.424941Z",
     "primary_category": "legal-compliance",
-    "logo_url_source": "https://logo.clearbit.com/sertifi.com"
+    "logo_url_source": "https://logo.clearbit.com/sertifi.com",
+    "previous_status": "",
+    "status": "unverifiable",
+    "unpublished_reason": "Not CRE software: hotel e-signature and payments"
   },
   {
     "title": "SiteSeer",
@@ -11351,7 +11364,7 @@
     ],
     "video_url": null,
     "pros": [
-      "Free service for tenants—commission paid by landlords",
+      "Free service for tenants, commission paid by landlords",
       "Combines technology with expert brokerage services",
       "Simplifies the commercial space search process"
     ],
@@ -11519,8 +11532,7 @@
       "funding": "$10M+"
     },
     "categories": [
-      "Lending & Debt",
-      "Accounting & Finance"
+      "Lending & Debt"
     ],
     "deployment": [
       "Cloud"
@@ -12309,7 +12321,7 @@
       "Referral network connects brokers across markets"
     ],
     "cons": [
-      "Limited to broker networking—not a transaction platform",
+      "Limited to broker networking, not a transaction platform",
       "Premium features require paid membership",
       "Smaller user base compared to LinkedIn for professional networking"
     ],
@@ -12635,7 +12647,7 @@
     ],
     "cons": [
       "Pricing not publicly available",
-      "Focused specifically on appraisal—not general CRE analytics",
+      "Focused specifically on appraisal, not general CRE analytics",
       "Some property types like condos and senior housing still coming soon"
     ],
     "integrations": [
@@ -12698,7 +12710,7 @@
     "url": "https://www.visuallease.com",
     "logo_url": "/img/logos/visuallease.png",
     "headline": "Lease accounting and management software",
-    "description": "Visual Lease is an enterprise lease management and accounting platform with 25+ years of experience, recently acquired by CoStar Group. It provides end-to-end lease lifecycle management — from acquisition to termination — combined with robust lease accounting compliance for ASC 842, IFRS 16, and GASB 87. VL serves Fortune 500 companies and large enterprises, unifying real estate, finance, procurement, and legal teams around centralized lease data. With AI-supported tools for data extraction, it manages millions of lease records across its customer base with 97%+ customer retention.",
+    "description": "Visual Lease is an enterprise lease management and accounting platform with 25+ years of experience, recently acquired by CoStar Group. It provides end-to-end lease lifecycle management, from acquisition to termination, combined with robust lease accounting compliance for ASC 842, IFRS 16, and GASB 87. VL serves Fortune 500 companies and large enterprises, unifying real estate, finance, procurement, and legal teams around centralized lease data. With AI-supported tools for data extraction, it manages millions of lease records across its customer base with 97%+ customer retention.",
     "short_description": "Comprehensive lease accounting and management software for ASC 842 and IFRS 16 compliance.",
     "target_audience": "Enterprise organizations, Fortune 500 companies, and large corporations with complex lease portfolios",
     "feature_groups": [
@@ -12805,16 +12817,16 @@
     ],
     "video_url": null,
     "pros": [
-      "25+ years of lease management expertise — deepest domain knowledge in the market",
-      "97%+ customer retention — customers stay and grow",
-      "Recently acquired by CoStar Group — strong backing and integration potential",
+      "25+ years of lease management expertise, deepest domain knowledge in the market",
+      "97%+ customer retention, customers stay and grow",
+      "Recently acquired by CoStar Group, strong backing and integration potential",
       "Purpose-built controls for SOX compliance and multi-team collaboration",
       "Handles both real estate and equipment leases in one platform"
     ],
     "cons": [
-      "Enterprise pricing only — not suitable for small businesses",
+      "Enterprise pricing only, not suitable for small businesses",
       "Implementation can be lengthy for complex global portfolios",
-      "UI modernization is ongoing — some screens feel dated",
+      "UI modernization is ongoing, some screens feel dated",
       "CoStar acquisition may change pricing and product direction"
     ],
     "integrations": [
@@ -12902,7 +12914,7 @@
     "logo_url": "/img/logos/vts.png",
     "headline": "The industry's leading leasing and asset management platform, powered by 13B+ SF of CRE data and AI.",
     "description": "Comprehensive commercial real estate technology platform that unifies leasing, asset management, property management, and marketing operations. VTS brings together every person, process, and AI agent to help the CRE industry move faster, smarter, and more profitably with over 13 billion square feet of assets managed globally.",
-    "short_description": "Leading CRE platform for leasing, asset management, tenant experience, and market intelligence — 13B+ SF managed globally.",
+    "short_description": "Leading CRE platform for leasing, asset management, tenant experience, and market intelligence, with 13B+ SF managed globally.",
     "target_audience": "Commercial real estate landlords, brokers, property managers, asset managers, and leasing professionals",
     "feature_groups": [
       {
@@ -13015,13 +13027,13 @@
       "Unified platform replaces siloed tools across leasing, marketing, and tenant experience",
       "Strong AI features that solve real workflow problems (proposals, work orders, market analysis)",
       "Deep integration ecosystem with major CRE technology partners",
-      "Used by the world's largest landlords and brokerages — proven at enterprise scale"
+      "Used by the world's largest landlords and brokerages, proven at enterprise scale"
     ],
     "cons": [
-      "Enterprise pricing — not accessible for small brokerages or individual brokers",
+      "Enterprise pricing, not accessible for small brokerages or individual brokers",
       "Quote-based pricing means no transparency until you talk to sales",
       "Steep learning curve for teams transitioning from spreadsheets or simpler tools",
-      "Primarily focused on office/commercial — multifamily features are newer"
+      "Primarily focused on office/commercial, multifamily features are newer"
     ],
     "integrations": [
       {
@@ -13089,7 +13101,7 @@
     "review_count": 45,
     "seo": {
       "title": "VTS Review 2026: Platform, Pricing, Features & Alternatives | CRE Software Directory",
-      "description": "In-depth review of VTS — the leading CRE leasing and asset management platform managing 13B+ SF globally. Compare VTS Lease, Market, Data & Activate products, pricing, AI features, and alternatives.",
+      "description": "In-depth review of VTS, the leading CRE leasing and asset management platform managing 13B+ SF globally. Compare VTS Lease, Market, Data & Activate products, pricing, AI features, and alternatives.",
       "keywords": [
         "VTS review",
         "VTS pricing",
@@ -13299,8 +13311,10 @@
     ],
     "primary_category": "accounting-finance",
     "logo_url_source": "https://logo.clearbit.com/xplor.com",
-    "status": "active",
-    "status_note": "Xplor Technologies is an active payments and vertical SaaS company, but it is not a commercial real estate product."
+    "status": "unverifiable",
+    "status_note": "Xplor Technologies is an active payments and vertical SaaS company, but it is not a commercial real estate product.",
+    "previous_status": "active",
+    "unpublished_reason": "Not CRE software: payments for fitness, childcare and field services"
   },
   {
     "title": "Yardi",
@@ -13420,7 +13434,7 @@
     "video_url": null,
     "pros": [
       "Most comprehensive single-stack platform covering every aspect of property and investment management",
-      "Serves all property types — multifamily, commercial, affordable, senior living, and more",
+      "Serves all property types, multifamily, commercial, affordable, senior living, and more",
       "Yardi Breeze offers an affordable entry point for smaller operators",
       "Global reach with clients in 80+ countries and strong localization",
       "AI capabilities through Yardi Virtuoso for workflow automation and insights"
@@ -13561,7 +13575,7 @@
       "Provides capital to tech companies"
     ],
     "cons": [
-      "Not a CRE software product—VC firm",
+      "Not a CRE software product, VC firm",
       "Limited relevance to directory"
     ],
     "integrations": [],
@@ -13714,14 +13728,14 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Massive audience — 200M+ monthly visitors provides unmatched exposure",
+      "Massive audience, 200M+ monthly visitors provides unmatched exposure",
       "Zestimate is the most recognized property valuation tool among consumers",
       "Free rental listing option lowers barrier for small landlords",
       "Zillow Rental Manager combines listing, screening, and rent collection",
       "Zillow Research provides valuable market data and trend analysis"
     ],
     "cons": [
-      "Primarily residential — minimal commercial real estate functionality",
+      "Primarily residential, minimal commercial real estate functionality",
       "Zestimate accuracy varies significantly by market and property type",
       "Premier Agent model can create conflicts between agents and leads",
       "Landlord tools are basic compared to dedicated property management software",
@@ -14017,7 +14031,7 @@
       "Relevant occupancy and space analytics for CRE"
     ],
     "cons": [
-      "Primarily healthcare and building tech—not CRE-specific",
+      "Primarily healthcare and building tech, not CRE-specific",
       "Enterprise pricing"
     ],
     "integrations": [
@@ -14060,8 +14074,10 @@
     ],
     "primary_category": "workplace-space-management",
     "logo_url_source": "https://logo.clearbit.com/zyter.com",
-    "status": "active",
-    "status_note": "Zyter has pivoted away from smart building products entirely; it now offers AI workflow orchestration for healthcare and regulated industries at zyter.ai."
+    "status": "unverifiable",
+    "status_note": "Zyter has pivoted away from smart building products entirely; it now offers AI workflow orchestration for healthcare and regulated industries at zyter.ai.",
+    "previous_status": "active",
+    "unpublished_reason": "Not CRE software: healthcare workflow software"
   },
   {
     "title": "Buxton",
@@ -14149,7 +14165,7 @@
       "Combines consumer behavior data with location intelligence"
     ],
     "cons": [
-      "Website blocked automated access—limited public information",
+      "Website blocked automated access, limited public information",
       "Enterprise pricing not available",
       "May require significant data sharing for optimal results"
     ],
@@ -14370,7 +14386,7 @@
     "url": "https:///MapZot.ai",
     "logo_url": "",
     "headline": "Monitor local and national chains in real time. Identify your top customers; expand your customer base; and respond in real-time to emerging visitation trends.",
-    "description": "MapZot.AI (duplicate listing) — see MapZot.AI entry for full details. Data and AI platform for site selection, audience research, and sales forecasting helping multi-unit brands with location intelligence and actionable insights.",
+    "description": "MapZot.AI (duplicate listing). See MapZot.AI entry for full details. Data and AI platform for site selection, audience research, and sales forecasting helping multi-unit brands with location intelligence and actionable insights.",
     "short_description": "Monitor local and national chains in real time. Identify your top customers; expand your customer base; and respond in real-time to emerging visitation trends.",
     "target_audience": "Commercial real estate professionals, franchise developers, retail chains, coffee shops, restaurant operators, site selection specialists",
     "feature_groups": [
@@ -14570,7 +14586,7 @@
     ],
     "cons": [
       "Pricing not publicly available",
-      "Rebranded from LandVision to LightBox Vision—may cause confusion",
+      "Rebranded from LandVision to LightBox Vision, may cause confusion",
       "Enterprise-oriented with complex feature set"
     ],
     "integrations": [
@@ -15074,7 +15090,7 @@
       "Both desktop and mobile platforms available"
     ],
     "cons": [
-      "Limited to Florida only—no coverage outside the state",
+      "Limited to Florida only, no coverage outside the state",
       "Pricing not publicly available",
       "Legacy interface being gradually updated"
     ],
@@ -15255,7 +15271,7 @@
     ],
     "cons": [
       "Expensive enterprise pricing starting at $15K+/year",
-      "Not purpose-built for CRE — requires adaptation for real estate workflows",
+      "Not purpose-built for CRE, requires adaptation for real estate workflows",
       "Data accuracy can vary for smaller companies"
     ],
     "integrations": [
@@ -15433,7 +15449,7 @@
       "Weekly data updates ensure current zoning information"
     ],
     "cons": [
-      "Coverage varies by city and state—not all areas fully digitized",
+      "Coverage varies by city and state, not all areas fully digitized",
       "Certified Zoning Letters can be expensive for individual transactions",
       "Free search provides limited information without purchasing reports"
     ],
@@ -15819,7 +15835,7 @@
       "Free tier available for basic usage"
     ],
     "cons": [
-      "Not CRE-specific—general geospatial platform",
+      "Not CRE-specific, general geospatial platform",
       "Advanced AI features require paid plans",
       "Smaller platform compared to established GIS tools"
     ],
@@ -16340,17 +16356,17 @@
     ],
     "video_url": null,
     "pros": [
-      "True single-login unified platform — everything integrated without third-party dependencies",
-      "Proven at massive scale — 32,000+ properties and 3.2M+ units",
+      "True single-login unified platform, everything integrated without third-party dependencies",
+      "Proven at massive scale, 32,000+ properties and 3.2M+ units",
       "Strong AI with ELI handling 1,000+ simultaneous conversations",
       "Covers diverse property types including multifamily, student, affordable, military, and commercial",
       "141% ROI verified by Forrester Total Economic Impact study"
     ],
     "cons": [
-      "Quote-based pricing — no public price transparency",
+      "Quote-based pricing, no public price transparency",
       "Complex platform can have a steep learning curve",
-      "Primarily multifamily-focused — commercial features are less mature",
-      "Closed ecosystem — fewer third-party integrations than some competitors"
+      "Primarily multifamily-focused, commercial features are less mature",
+      "Closed ecosystem, fewer third-party integrations than some competitors"
     ],
     "integrations": [
       {
@@ -16428,7 +16444,7 @@
     "url": "https://innago.com/",
     "logo_url": "/img/logos/innago.png",
     "headline": "Free property management software for landlords.",
-    "description": "Innago is a free, cloud-based property management software designed for landlords and property managers of all sizes. The platform provides comprehensive tools for online rent collection, tenant screening, lease management, maintenance tracking, and accounting—all at no cost. Innago emphasizes communication as the foundation of tenant-landlord relationships and was built from the ground up with both landlords and tenants in mind. The platform includes a mobile app for on-the-go management and has earned consistently high reviews on Google, G2, and Capterra for its ease of use, responsive customer support, and the fact that it's genuinely free.",
+    "description": "Innago is a free, cloud-based property management software designed for landlords and property managers of all sizes. The platform provides comprehensive tools for online rent collection, tenant screening, lease management, maintenance tracking, and accounting, all at no cost. Innago emphasizes communication as the foundation of tenant-landlord relationships and was built from the ground up with both landlords and tenants in mind. The platform includes a mobile app for on-the-go management and has earned consistently high reviews on Google, G2, and Capterra for its ease of use, responsive customer support, and the fact that it's genuinely free.",
     "short_description": "Free property management software for landlords.",
     "target_audience": "Individual landlords, small property management companies, real estate investors, property managers seeking cost-effective solutions",
     "feature_groups": [
@@ -17366,7 +17382,7 @@
     ],
     "video_url": null,
     "pros": [
-      "Flat-rate pricing with unlimited units—great for growing portfolios",
+      "Flat-rate pricing with unlimited units, great for growing portfolios",
       "99% on-time payment rate with autopay feature",
       "Cash payment option at 90,000+ retail locations serves unbanked tenants",
       "Official partner of BiggerPockets and NAR",
@@ -17691,7 +17707,7 @@
       "Good financial tracking and reporting features"
     ],
     "cons": [
-      "Website was unreachable during research—potential reliability concerns",
+      "Website was unreachable during research, potential reliability concerns",
       "Limited features compared to more comprehensive platforms",
       "May not scale well for larger portfolios"
     ],
@@ -17742,7 +17758,7 @@
     "url": "https://www.turbotenant.com/",
     "logo_url": "/img/logos/turbo-tenant.png",
     "headline": "Free property management software for landlords.",
-    "description": "TurboTenant is a free property management software platform that helps over 500,000 landlords streamline their rental process. The platform is designed for landlords with one to 1,000+ doors, offering tools for listing vacancies, screening tenants, collecting rent, managing leases, and tracking maintenance—all from a consolidated dashboard. TurboTenant's free plan includes core features while the Premium plan offers advanced capabilities. The platform emphasizes keeping passive income truly passive by automating repetitive tasks and eliminating the need for multiple apps and paper filing systems. TurboTenant serves both first-time landlords and experienced residential investors.",
+    "description": "TurboTenant is a free property management software platform that helps over 500,000 landlords streamline their rental process. The platform is designed for landlords with one to 1,000+ doors, offering tools for listing vacancies, screening tenants, collecting rent, managing leases, and tracking maintenance, all from a consolidated dashboard. TurboTenant's free plan includes core features while the Premium plan offers advanced capabilities. The platform emphasizes keeping passive income truly passive by automating repetitive tasks and eliminating the need for multiple apps and paper filing systems. TurboTenant serves both first-time landlords and experienced residential investors.",
     "short_description": "Free property management software for landlords.",
     "target_audience": "First-time landlords, experienced residential investors, small to large-scale property owners",
     "feature_groups": [
@@ -17968,7 +17984,7 @@
         "features": [
           {
             "name": "Status Unknown",
-            "description": "Website not accessible—domain not resolving."
+            "description": "Website not accessible; domain not resolving."
           }
         ]
       }
@@ -18050,7 +18066,7 @@
         "features": [
           {
             "name": "Coming Soon",
-            "description": "Website shows coming soon page—no product details available."
+            "description": "Website shows coming soon page; no product details available."
           }
         ]
       }
@@ -18265,7 +18281,7 @@
     "video_url": null,
     "pros": [],
     "cons": [
-      "Not a CRE product—appears to be resume builder",
+      "Not a CRE product, appears to be resume builder",
       "Listing may need URL update"
     ],
     "integrations": [],
@@ -18537,7 +18553,7 @@
       "Publicly traded company with strong brand recognition"
     ],
     "cons": [
-      "Website blocks automated access—aggressive bot protection",
+      "Website blocks automated access, aggressive bot protection",
       "Agent availability varies by market",
       "Lower commissions may mean less personalized service in some cases"
     ],
@@ -18935,7 +18951,7 @@
     "url": "https://www.boomtownroi.com",
     "logo_url": "",
     "headline": "Real estate CRM and lead generation platform.",
-    "description": "BoomTown is the #1 user-rated real estate CRM and marketing platform, providing expert lead generation, IDX websites, intelligent CRM, and lead management services in flexible packages that scale with success. The platform offers a complete suite from lead generation through Google and Facebook advertising to conversion with Success Assurance—a team of Lead Concierges who monitor databases for meaningful behaviors and engage leads at the right time. BoomTown serves individual agents, teams, and enterprise brokerages with tiered packages (Launch, Core, Grow, Advance) designed to match different business stages and growth goals.",
+    "description": "BoomTown is the #1 user-rated real estate CRM and marketing platform, providing expert lead generation, IDX websites, intelligent CRM, and lead management services in flexible packages that scale with success. The platform offers a complete suite from lead generation through Google and Facebook advertising to conversion with Success Assurance, a team of Lead Concierges who monitor databases for meaningful behaviors and engage leads at the right time. BoomTown serves individual agents, teams, and enterprise brokerages with tiered packages (Launch, Core, Grow, Advance) designed to match different business stages and growth goals.",
     "short_description": "Real estate CRM and lead generation platform.",
     "target_audience": {
       "roles": [],
@@ -19604,8 +19620,7 @@
       "funding": "$30M+"
     },
     "categories": [
-      "Property Management",
-      "Tenant Experience"
+      "Property Management"
     ],
     "deployment": [
       "Cloud"
@@ -19938,7 +19953,7 @@
       "Market analytics provide leading indicators of buyer demand"
     ],
     "cons": [
-      "Pricing dependent on MLS participation—no direct agent purchase",
+      "Pricing dependent on MLS participation, no direct agent purchase",
       "Zillow Showcase features require additional subscription",
       "Recent Zillow integration may concern agents worried about platform dependency"
     ],
@@ -20111,7 +20126,7 @@
     "cons": [
       "Investments are illiquid with long hold periods",
       "Higher minimums ($5K-$25K+) may exclude smaller investors",
-      "Past performance not indicative of future results—substantial risk of capital loss"
+      "Past performance not indicative of future results, substantial risk of capital loss"
     ],
     "integrations": [],
     "company": {
@@ -20281,7 +20296,7 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "AI builds custom website in minutes—no tech skills needed",
+      "AI builds custom website in minutes, no tech skills needed",
       "4.9/5 rating from 1,600+ reviews demonstrates high satisfaction",
       "600+ MLS integrations provide broad listing coverage",
       "Straightforward pricing with no hidden fees",
@@ -20447,8 +20462,8 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Backed by TransUnion—one of the three major credit bureaus",
-      "No subscription required—pay per screening",
+      "Backed by TransUnion, one of the three major credit bureaus",
+      "No subscription required, pay per screening",
       "Reports available within minutes",
       "Applicant-pays option saves landlords money",
       "ResidentScore specifically designed for rental risk"
@@ -20456,7 +20471,7 @@
     "cons": [
       "Per-screening costs add up for high-volume landlords",
       "Limited to US market",
-      "No ongoing monitoring—point-in-time screening only"
+      "No ongoing monitoring, point-in-time screening only"
     ],
     "integrations": [
       "Multiple PM platforms via TransUnion partnerships"
@@ -20895,15 +20910,15 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Most accurate AVMs in the industry — trusted by 6 of top 10 SFR REITs",
+      "Most accurate AVMs in the industry, trusted by 6 of top 10 SFR REITs",
       "Block-level granularity surpasses MSA-level competitors",
       "AI image recognition for property condition assessment is innovative",
       "Well-documented API makes integration straightforward",
-      "Covers 136M+ properties — comprehensive US coverage"
+      "Covers 136M+ properties, comprehensive US coverage"
     ],
     "cons": [
-      "Primarily residential/SFR — limited commercial property coverage",
-      "Quote-based pricing — no public price transparency",
+      "Primarily residential/SFR, limited commercial property coverage",
+      "Quote-based pricing, no public price transparency",
       "Can be expensive for individual investors or small teams",
       "50-state brokerage model adds complexity to the product positioning"
     ],
@@ -21744,7 +21759,7 @@
     "url": "https://www.leasequery.com",
     "logo_url": "/img/logos/leasequery.png",
     "headline": "Lease accounting software for compliance with financial regulations.",
-    "description": "LeaseQuery (now rebranded as FinQuery) is the G2-leading lease accounting software built for compliance with ASC 842, IFRS 16, and GASB 87 lease accounting standards. The platform automates lease data management, journal entry generation, disclosure reporting, and compliance workflows. FinQuery serves organizations of all sizes — from small businesses to Fortune 500 enterprises — and is recognized for top satisfaction scores in quality of support, ease of use, and implementation accuracy. It also handles prepaid expenses and accrual management beyond leases.",
+    "description": "LeaseQuery (now rebranded as FinQuery) is the G2-leading lease accounting software built for compliance with ASC 842, IFRS 16, and GASB 87 lease accounting standards. The platform automates lease data management, journal entry generation, disclosure reporting, and compliance workflows. FinQuery serves organizations of all sizes, from small businesses to Fortune 500 enterprises, and is recognized for top satisfaction scores in quality of support, ease of use, and implementation accuracy. It also handles prepaid expenses and accrual management beyond leases.",
     "short_description": "Lease accounting software for compliance with financial regulations.",
     "target_audience": "Accountants, CFOs, controllers, and finance professionals at organizations with lease portfolios requiring compliance with modern lease accounting standards. Serves small businesses to large enterprises across all industries needing ASC 842, IFRS 16, GASB, or other lease accounting compliance.",
     "feature_groups": [
@@ -21852,12 +21867,12 @@
       "G2 leader across small, mid-market, and enterprise categories",
       "Top satisfaction scores for support quality, ease of use, and accuracy",
       "Supports all major lease accounting standards (ASC 842, IFRS 16, GASB 87)",
-      "Extends beyond leases to prepaids and accruals — broader value proposition",
+      "Extends beyond leases to prepaids and accruals, broader value proposition",
       "Strong implementation support with dedicated onboarding"
     ],
     "cons": [
-      "Pricing not publicly available — must contact sales",
-      "Primarily focused on accounting compliance — limited operational lease management",
+      "Pricing not publicly available, must contact sales",
+      "Primarily focused on accounting compliance, limited operational lease management",
       "Rebranded from LeaseQuery to FinQuery which may cause market confusion",
       "Less comprehensive for real estate operations compared to full property management platforms"
     ],
@@ -22376,7 +22391,7 @@
         "features": [
           {
             "name": "Automated Rent Collection",
-            "description": "Rent deposited directly to your bank account including late fees—no deductions."
+            "description": "Rent deposited directly to your bank account including late fees, with no deductions."
           },
           {
             "name": "Bank Account Sync",
@@ -22418,7 +22433,7 @@
           },
           {
             "name": "Eviction Shield",
-            "description": "Eviction protection with mediators and process servers—93% resolved without court."
+            "description": "Eviction protection with mediators and process servers; 93% resolved without court."
           },
           {
             "name": "Maintenance Tracking",
@@ -22489,7 +22504,7 @@
       "24/7 repair coordination available as add-on for hands-off management",
       "70% time savings compared to manual property management",
       "Eviction Shield resolves 93% of cases without court",
-      "Manages properties remotely—landlords report managing from 8,434 miles away"
+      "Manages properties remotely, landlords report managing from 8,434 miles away"
     ],
     "cons": [
       "Higher-tier plans needed for core features like repair coordination",
@@ -22709,14 +22724,14 @@
     "video_url": null,
     "pros": [
       "Generous free tier with unlimited properties and core features",
-      "Purpose-built for rental property investors — not adapted from generic accounting software",
+      "Purpose-built for rental property investors, not adapted from generic accounting software",
       "High-yield banking (3.24% APY) provides tangible financial value",
-      "Extremely easy to use — designed for non-technical landlords",
-      "Backed by Roofstock — institutional-grade investment analytics"
+      "Extremely easy to use, designed for non-technical landlords",
+      "Backed by Roofstock, institutional-grade investment analytics"
     ],
     "cons": [
       "Best features require Pro plan ($28-35/month)",
-      "Primarily designed for individual investors — not for large property management companies",
+      "Primarily designed for individual investors, not for large property management companies",
       "Limited commercial property support",
       "No dedicated property management workflows (beyond basic maintenance)"
     ],
@@ -23063,7 +23078,7 @@
     ],
     "cons": [
       "Enterprise pricing not publicly available",
-      "Purpose-built for multifamily—not suitable for other property types",
+      "Purpose-built for multifamily, not suitable for other property types",
       "Requires significant adoption effort for leasing teams"
     ],
     "integrations": [
@@ -23248,7 +23263,7 @@
       "4.5/5 star rating from roofing professionals"
     ],
     "cons": [
-      "Focused exclusively on roofing—not a general construction tool",
+      "Focused exclusively on roofing, not a general construction tool",
       "Per-report pricing can add up for high-volume businesses",
       "Subscription pricing not transparently listed"
     ],
@@ -23555,7 +23570,7 @@
     ],
     "cons": [
       "Enterprise pricing not publicly listed",
-      "Primarily B2B—not directly accessible to individual investors",
+      "Primarily B2B, not directly accessible to individual investors",
       "Valuation accuracy can vary by market and property type"
     ],
     "integrations": [
@@ -23946,7 +23961,7 @@
     "cons": [
       "Website was unreachable during research",
       "Pricing not publicly available",
-      "Focused specifically on showings—not comprehensive PM software"
+      "Focused specifically on showings, not comprehensive PM software"
     ],
     "integrations": [
       "AppFolio",
@@ -24159,7 +24174,10 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T23:33:42.924847Z",
     "primary_category": "crowdfunding-investing",
-    "logo_url_source": "https://logo.clearbit.com/wealthfront.com"
+    "logo_url_source": "https://logo.clearbit.com/wealthfront.com",
+    "previous_status": "",
+    "status": "unverifiable",
+    "unpublished_reason": "Not CRE software: consumer robo-advisor"
   },
   {
     "title": "SimpleNexus",
@@ -24262,7 +24280,7 @@
       "funding": "Acquired by nCino (NASDAQ: NCNO) in 2022 for $1.2B"
     },
     "categories": [
-      "Accounting & Finance"
+      "Lending & Debt"
     ],
     "deployment": [
       "Cloud"
@@ -24307,7 +24325,7 @@
     "pricing_info": "Enterprise-focused pricing model for financial institutions. Trusted by over 2,700 financial institutions. Custom pricing based on institution size, loan volume, and feature requirements. Contact nCino for detailed pricing and implementation packages.",
     "enriched": true,
     "enrichedAt": "2026-02-17T23:33:59.771579Z",
-    "primary_category": "accounting-finance",
+    "primary_category": "lending-debt",
     "logo_url_source": "https://logo.clearbit.com/simplenexus.com"
   },
   {
@@ -24385,7 +24403,7 @@
     ],
     "cons": [
       "Website blocked automated access during research",
-      "Rebranded to Upright—may cause confusion",
+      "Rebranded to Upright, may cause confusion",
       "Short-term bridge loan rates can be higher than traditional financing"
     ],
     "integrations": [],
@@ -24398,8 +24416,8 @@
     },
     "categories": [
       "Crowdfunding & Investing",
-      "Accounting & Finance",
-      "Construction & Development"
+      "Construction & Development",
+      "Lending & Debt"
     ],
     "deployment": [
       "Cloud"
@@ -24517,7 +24535,7 @@
       "funding": "$300M+"
     },
     "categories": [
-      "Accounting & Finance"
+      "Lending & Debt"
     ],
     "deployment": [
       "Cloud"
@@ -24562,7 +24580,7 @@
     "pricing_info": "Competitive interest rates and terms based on loan terms, borrower qualifications, LTV ratios, and property factors. Rates are subject to change and vary by project type. Contact Kiavi (formerly LendingHome) for specific rate quotes and loan terms based on individual investment scenarios.",
     "enriched": true,
     "enrichedAt": "2026-02-17T23:34:27.169168Z",
-    "primary_category": "accounting-finance",
+    "primary_category": "lending-debt",
     "logo_url_source": "https://logo.clearbit.com/lendinghome.com",
     "not_software": true,
     "entity_type": "a technology-powered lender (now Kiavi)"
@@ -24779,7 +24797,7 @@
       "Strong mobile app for property search on the go"
     ],
     "cons": [
-      "Primarily focused on UAE and Gulf states—limited global coverage",
+      "Primarily focused on UAE and Gulf states, limited global coverage",
       "Agent listing fees may be high for smaller brokerages",
       "Market data primarily covers Middle Eastern markets"
     ],
@@ -25008,7 +25026,10 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T23:35:27.812633Z",
     "primary_category": "workplace-space-management",
-    "logo_url_source": "https://logo.clearbit.com/justpark.com"
+    "logo_url_source": "https://logo.clearbit.com/justpark.com",
+    "previous_status": "",
+    "status": "unverifiable",
+    "unpublished_reason": "Not CRE software: consumer parking marketplace"
   },
   {
     "title": "CRED iQ",
@@ -25132,7 +25153,7 @@
     "cons": [
       "Website returned minimal content during research",
       "Pricing not publicly available",
-      "Primarily focused on CMBS—limited coverage of other CRE debt"
+      "Primarily focused on CMBS, limited coverage of other CRE debt"
     ],
     "integrations": [],
     "company": {
@@ -25271,7 +25292,10 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T23:35:56.867089Z",
     "primary_category": "crm-marketing",
-    "logo_url_source": "https://logo.clearbit.com/cofounderslab.com"
+    "logo_url_source": "https://logo.clearbit.com/cofounderslab.com",
+    "previous_status": "",
+    "status": "unverifiable",
+    "unpublished_reason": "Not CRE software: startup co-founder matching"
   },
   {
     "title": "ParkMobile",
@@ -25445,7 +25469,10 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T23:36:19.127662Z",
     "primary_category": "workplace-space-management",
-    "logo_url_source": "https://logo.clearbit.com/parkmobile.io"
+    "logo_url_source": "https://logo.clearbit.com/parkmobile.io",
+    "previous_status": "",
+    "status": "unverifiable",
+    "unpublished_reason": "Not CRE software: consumer parking payments"
   },
   {
     "title": "RentPath",
@@ -25639,7 +25666,10 @@
     "primary_category": "tenant-experience",
     "logo_url_source": "https://logo.clearbit.com/doordash.com",
     "not_software": true,
-    "entity_type": "a delivery logistics service"
+    "entity_type": "a delivery logistics service",
+    "previous_status": "",
+    "status": "unverifiable",
+    "unpublished_reason": "Not CRE software: delivery logistics service"
   },
   {
     "title": "PadMapper",
@@ -25876,7 +25906,7 @@
     ],
     "cons": [
       "Limited to rent roll extraction only",
-      "AI may make mistakes—requires manual verification",
+      "AI may make mistakes, requires manual verification",
       "Basic tool with no additional CRE features"
     ],
     "integrations": [],
@@ -25988,8 +26018,8 @@
       "Market statistics and trend visualization"
     ],
     "cons": [
-      "Dependent on Zillow—only works with Zillow data",
-      "Chrome extension only—no standalone platform",
+      "Dependent on Zillow, only works with Zillow data",
+      "Chrome extension only, no standalone platform",
       "Zillow may change access policies"
     ],
     "integrations": [
@@ -26104,7 +26134,7 @@
       "Free to use"
     ],
     "cons": [
-      "Very niche—military families only",
+      "Very niche, military families only",
       "Not CRE-specific"
     ],
     "integrations": [],
@@ -26531,8 +26561,8 @@
       "Simple interface for field use"
     ],
     "cons": [
-      "iOS only—no Android or web version",
-      "Basic calculator—not comprehensive analysis platform"
+      "iOS only, no Android or web version",
+      "Basic calculator, not comprehensive analysis platform"
     ],
     "integrations": [],
     "company": {
@@ -26634,8 +26664,8 @@
     ],
     "cons": [
       "Pricing not publicly listed",
-      "Newer platform—less established than competitors",
-      "API-only—no user interface"
+      "Newer platform, less established than competitors",
+      "API-only, no user interface"
     ],
     "integrations": [],
     "company": {
@@ -26826,7 +26856,7 @@
     "url": "https://www.terraprime.estate/",
     "logo_url": "/img/logos/terraprime-estate.png",
     "headline": "TerraPrime is a SaaS platform that connects commercial real estate developers with investors, streamlining transactions and enabling cities to access global investment for sustainable local growth.",
-    "description": "TerraPrime is a global platform connecting premium off-market real estate opportunities with institutional investors, buyers, and family offices. With a total deal volume of $10+ billion, TerraPrime serves as a private network for principals raising and deploying capital globally. The platform offers precision-driven property discovery using cutting-edge technology to match investors with premium properties aligned to their investment strategy—whether commercial space in New York, industrial assets in Europe, or residential projects in Dubai. TerraPrime emphasizes trust, confidentiality, and opportunity, providing customizable filters, AI tools, and data-backed insights.",
+    "description": "TerraPrime is a global platform connecting premium off-market real estate opportunities with institutional investors, buyers, and family offices. With a total deal volume of $10+ billion, TerraPrime serves as a private network for principals raising and deploying capital globally. The platform offers precision-driven property discovery using cutting-edge technology to match investors with premium properties aligned to their investment strategy, whether commercial space in New York, industrial assets in Europe, or residential projects in Dubai. TerraPrime emphasizes trust, confidentiality, and opportunity, providing customizable filters, AI tools, and data-backed insights.",
     "short_description": "TerraPrime is a SaaS platform that connects commercial real estate developers with investors, streamlining transactions and enabling cities to access global investment for sustainable local growth.",
     "target_audience": {
       "roles": [],
@@ -26894,7 +26924,7 @@
       "Trust-based private network"
     ],
     "cons": [
-      "Institutional focus—not for individual investors",
+      "Institutional focus, not for individual investors",
       "Limited public information on pricing",
       "Requires membership for access"
     ],
@@ -27327,7 +27357,7 @@
         "features": [
           {
             "name": "AI Technology",
-            "description": "AI-powered platform (website blocked during research—details unavailable)."
+            "description": "AI-powered platform (website blocked during research; details unavailable)."
           }
         ]
       }
@@ -27357,7 +27387,7 @@
     },
     "categories": [
       "Data & Analytics",
-      "Investment & Valuation"
+      "Lending & Debt"
     ],
     "deployment": [
       "Cloud"
@@ -27499,15 +27529,15 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "One of the most comprehensive CRE tech platforms — covers commercial, residential, and investment management",
-      "50+ year track record — longest-standing CRE technology company",
+      "One of the most comprehensive CRE tech platforms, covers commercial, residential, and investment management",
+      "50+ year track record, longest-standing CRE technology company",
       "Open platform with 200+ integration partners",
       "Strong facilities management via MRI Angus",
       "Global reach serving 50,000+ clients"
     ],
     "cons": [
       "Complex platform with steep learning curve",
-      "Enterprise pricing — not transparent or accessible to small firms",
+      "Enterprise pricing, not transparent or accessible to small firms",
       "Product sprawl from acquisitions can create inconsistent user experiences",
       "Implementation timelines can be lengthy"
     ],
@@ -27682,7 +27712,7 @@
     ],
     "cons": [
       "Enterprise pricing only",
-      "Part of JLL — may not suit firms using competing brokerages",
+      "Part of JLL, may not suit firms using competing brokerages",
       "UI can feel dated compared to newer competitors",
       "Limited property management accounting features"
     ],
@@ -27845,7 +27875,7 @@
     ],
     "video_url": null,
     "pros": [
-      "Purpose-built for commercial — not adapted from residential",
+      "Purpose-built for commercial, not adapted from residential",
       "Excellent Xero and QuickBooks integrations",
       "Strong automated rent review and CPI adjustment features",
       "Modern cloud-native platform with good UX"
@@ -27920,7 +27950,7 @@
     "url": "https://www.blooma.ai",
     "logo_url": "",
     "headline": "AI-powered CRE lending and intelligence platform.",
-    "description": "Blooma is an AI-powered CRE lending intelligence platform that empowers commercial real estate lenders — from community banks to large institutions — with real-time insights and seamless automation. Blooma isn't an LOS, CRM, or data provider; it's the insights engine that augments existing tech stacks, transforming raw data into actionable intelligence for deal evaluation, portfolio monitoring, and risk management. The platform automates manual data entry, provides real-time deal evaluation, continuous portfolio monitoring with instant alerts, and integrates with existing lending systems.",
+    "description": "Blooma is an AI-powered CRE lending intelligence platform that empowers commercial real estate lenders, from community banks to large institutions, with real-time insights and seamless automation. Blooma isn't an LOS, CRM, or data provider; it's the insights engine that augments existing tech stacks, transforming raw data into actionable intelligence for deal evaluation, portfolio monitoring, and risk management. The platform automates manual data entry, provides real-time deal evaluation, continuous portfolio monitoring with instant alerts, and integrates with existing lending systems.",
     "short_description": "AI-powered CRE lending and intelligence platform.",
     "target_audience": {
       "roles": [
@@ -28024,7 +28054,7 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Purpose-built for CRE lenders — not a generic fintech tool",
+      "Purpose-built for CRE lenders, not a generic fintech tool",
       "Augments existing tech stack rather than replacing it",
       "Real-time portfolio monitoring catches risks early",
       "Strong customer testimonials from banks like C3Bank and Sunwest Bank"
@@ -28199,8 +28229,8 @@
     "pros": [
       "Comprehensive IWMS covering real estate, facilities, and assets",
       "Strong lease accounting compliance for ASC 842 and IFRS 16",
-      "Serves diverse industries — healthcare, retail, education, government",
-      "Backed by Fortive Corporation — strong financial stability"
+      "Serves diverse industries, healthcare, retail, education, government",
+      "Backed by Fortive Corporation, strong financial stability"
     ],
     "cons": [
       "Enterprise pricing not accessible to small organizations",
@@ -28395,9 +28425,9 @@
       "40+ years of experience with global enterprise customers"
     ],
     "cons": [
-      "Enterprise pricing — not suitable for small organizations",
+      "Enterprise pricing, not suitable for small organizations",
       "Complex implementation requiring specialized consulting",
-      "Primarily EMEA-focused — less presence in US market",
+      "Primarily EMEA-focused, less presence in US market",
       "Can be overkill for organizations with simple facility needs"
     ],
     "integrations": [
@@ -28505,7 +28535,7 @@
           },
           {
             "name": "Prophia Abstract (Instant)",
-            "description": "Free self-serve tool for instant, accurate lease summaries — no setup required."
+            "description": "Free self-serve tool for instant, accurate lease summaries, no setup required."
           }
         ]
       },
@@ -28591,13 +28621,13 @@
     "video_url": null,
     "pros": [
       "Free instant lease abstraction tool lowers barrier to try",
-      "Purpose-built for CRE — not adapted from generic document management",
+      "Purpose-built for CRE, not adapted from generic document management",
       "Strong client roster including Nuveen, RXR, Spear Street Capital",
       "Addresses the critical problem that 53% of rent rolls contain material errors",
       "Self-updating stacking plans save significant manual effort"
     ],
     "cons": [
-      "Primarily focused on lease abstraction — not a full property management platform",
+      "Primarily focused on lease abstraction, not a full property management platform",
       "Enterprise pricing for full platform not publicly available",
       "Smaller company with limited market recognition vs. established players",
       "Requires good quality lease document scans for best AI results"
@@ -28775,7 +28805,7 @@
     ],
     "video_url": null,
     "pros": [
-      "Purpose-built for CRE leasing teams — not a generic project management tool",
+      "Purpose-built for CRE leasing teams, not a generic project management tool",
       "ARGUS integration bridges deal tracking and financial analysis",
       "Dynamic projections provide real-time portfolio intelligence",
       "Modern UX replacing email/spreadsheet workflows",
@@ -28783,7 +28813,7 @@
     ],
     "cons": [
       "Pricing not publicly available",
-      "Focused on leasing — not a full property management or accounting platform",
+      "Focused on leasing, not a full property management or accounting platform",
       "Smaller company with limited market recognition",
       "Requires team adoption to realize full value"
     ],
@@ -28848,7 +28878,7 @@
     "url": "https://tangoanalytics.com",
     "logo_url": "/img/logos/tango.png",
     "headline": "Real estate solutions for streamlining portfolio operations.",
-    "description": "Tango is an industry-acclaimed real estate and facilities management platform that powers every stage of the property lifecycle — from site selection to sustainability. The platform serves corporate and retail real estate teams with solutions for lease management, space utilization, project and maintenance management, energy and sustainability tracking, and workplace optimization. Tango helps organizations reduce their second-largest expense (real estate) by optimizing portfolios, improving space utilization, and driving sustainability compliance. Strong presence in retail with store performance prediction and market analysis.",
+    "description": "Tango is an industry-acclaimed real estate and facilities management platform that powers every stage of the property lifecycle, from site selection to sustainability. The platform serves corporate and retail real estate teams with solutions for lease management, space utilization, project and maintenance management, energy and sustainability tracking, and workplace optimization. Tango helps organizations reduce their second-largest expense (real estate) by optimizing portfolios, improving space utilization, and driving sustainability compliance. Strong presence in retail with store performance prediction and market analysis.",
     "short_description": "Real estate solutions for streamlining portfolio operations.",
     "target_audience": {
       "roles": [
@@ -29147,7 +29177,7 @@
       "Integrates real estate with HR and finance for enterprise-wide visibility"
     ],
     "cons": [
-      "Enterprise pricing only — not accessible to small firms",
+      "Enterprise pricing only, not accessible to small firms",
       "Broad product portfolio may lack depth in CRE-specific areas vs. specialists",
       "Less CRE market recognition than Planon or Accruent",
       "Complex implementation for full IWMS deployment"
@@ -29326,13 +29356,13 @@
     "video_url": null,
     "pros": [
       "Full capital lifecycle management from fundraising to distributions",
-      "Built for GPs, not just investor portals — includes fund admin and compliance",
+      "Built for GPs, not just investor portals, includes fund admin and compliance",
       "Strong co-sponsor and fund structure support",
       "Modern platform designed for real estate syndication"
     ],
     "cons": [
       "Pricing requires demo consultation",
-      "Focused on capital management — not property operations",
+      "Focused on capital management, not property operations",
       "Smaller than Juniper Square in enterprise market share",
       "KYC/AML and accreditation add complexity for smaller operators"
     ],
@@ -29553,7 +29583,7 @@
       "Quick investor onboarding (8-10 minutes)"
     ],
     "cons": [
-      "Focused on investor management—not property operations",
+      "Focused on investor management, not property operations",
       "Only the Essential starting price is published; Pro and Enterprise are quote-based"
     ],
     "integrations": [],
@@ -29603,7 +29633,7 @@
     "url": "https://www.covercy.com",
     "logo_url": "/img/logos/covercy.png",
     "headline": "Investment management platform with embedded banking for CRE.",
-    "description": "Covercy is a CRE investment management platform that uniquely combines investment management software with embedded banking. It enables GPs and syndicators to manage fundraising, investor relations, distributions, and banking — all from one platform. Covercy's embedded banking eliminates the need for separate bank accounts and manual wire transfers, allowing automated distribution payments directly from the platform. The system covers investor CRM, fundraising automation, waterfall distributions, reporting, and compliance.",
+    "description": "Covercy is a CRE investment management platform that uniquely combines investment management software with embedded banking. It enables GPs and syndicators to manage fundraising, investor relations, distributions, and banking, all from one platform. Covercy's embedded banking eliminates the need for separate bank accounts and manual wire transfers, allowing automated distribution payments directly from the platform. The system covers investor CRM, fundraising automation, waterfall distributions, reporting, and compliance.",
     "short_description": "Investment management platform with embedded banking for CRE.",
     "target_audience": {
       "roles": [
@@ -29730,7 +29760,7 @@
       "Automated waterfall distributions save significant time"
     ],
     "cons": [
-      "Smaller player — less market recognition than Juniper Square or InvestNext",
+      "Smaller player, less market recognition than Juniper Square or InvestNext",
       "Banking features may not suit firms with existing banking relationships",
       "Limited property management or operational features",
       "International payment capabilities unclear"
@@ -29882,7 +29912,7 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Simple and easy to use — designed to be ridiculously easy",
+      "Simple and easy to use, designed to be ridiculously easy",
       "Janover Engage network provides access to 52K+ investors",
       "Strong customer service with dedicated success managers",
       "Handles the full syndication lifecycle end-to-end"
@@ -29891,7 +29921,7 @@
       "Smaller platform than InvestNext or Juniper Square",
       "Pricing not publicly available",
       "Limited features for complex fund structures",
-      "Relatively newer brand — less market recognition"
+      "Relatively newer brand, less market recognition"
     ],
     "integrations": [
       {
@@ -30046,8 +30076,8 @@
     ],
     "video_url": null,
     "pros": [
-      "Broad private markets access — not just CRE",
-      "Free for investors — fees paid by sponsors",
+      "Broad private markets access, not just CRE",
+      "Free for investors, fees paid by sponsors",
       "Curated deal flow with due diligence",
       "Track record in CRE crowdfunding space"
     ],
@@ -30207,7 +30237,7 @@
       "Digital twin capabilities"
     ],
     "cons": [
-      "Specialized in energy/sustainability—not general property management",
+      "Specialized in energy/sustainability, not general property management",
       "Requires BMS/sensor data infrastructure"
     ],
     "integrations": [],
@@ -30220,7 +30250,8 @@
     },
     "categories": [
       "Property Management",
-      "AI & Automation"
+      "AI & Automation",
+      "Energy & Sustainability"
     ],
     "deployment": [
       "Cloud"
@@ -30249,7 +30280,7 @@
     ],
     "enriched": true,
     "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
-    "primary_category": "property-management",
+    "primary_category": "energy-sustainability",
     "logo_url_source": "https://logo.clearbit.com/noda.ai"
   },
   {
@@ -30258,7 +30289,7 @@
     "url": "https://www.lightboxre.com/product/clientlook/",
     "logo_url": "/img/logos/clientlook.png",
     "headline": "CRE CRM purpose-built for commercial real estate brokers.",
-    "description": "ClientLook, now part of LightBox, is a commercial real estate CRM designed specifically for CRE brokers and professionals. It provides contact management, property tracking, deal pipeline management, and activity logging in a simple, ready-to-use interface. As part of LightBox, ClientLook integrates with LightBox's comprehensive property data platform including RCM (Real Capital Markets) for deal marketing, property data intelligence, and environmental data. The CRM is known for its ease of use — brokers can be up and running quickly without elaborate setup or training.",
+    "description": "ClientLook, now part of LightBox, is a commercial real estate CRM designed specifically for CRE brokers and professionals. It provides contact management, property tracking, deal pipeline management, and activity logging in a simple, ready-to-use interface. As part of LightBox, ClientLook integrates with LightBox's comprehensive property data platform including RCM (Real Capital Markets) for deal marketing, property data intelligence, and environmental data. The CRM is known for its ease of use: brokers can be up and running quickly without elaborate setup or training.",
     "short_description": "CRE CRM purpose-built for commercial real estate brokers.",
     "target_audience": {
       "roles": [
@@ -30351,9 +30382,9 @@
     ],
     "video_url": null,
     "pros": [
-      "Purpose-built for CRE brokers — simple and ready to use",
-      "Part of LightBox — access to comprehensive property data and RCM",
-      "Very quick setup — no elaborate configuration needed",
+      "Purpose-built for CRE brokers, simple and ready to use",
+      "Part of LightBox, access to comprehensive property data and RCM",
+      "Very quick setup, no elaborate configuration needed",
       "Strong testimonials from major brokerages (CBRE, Lee & Associates, Stirling)"
     ],
     "cons": [
@@ -30520,14 +30551,14 @@
     ],
     "video_url": null,
     "pros": [
-      "Best QuickBooks integration for commercial real estate — unmatched",
-      "Purpose-built for commercial — not residential adapted",
+      "Best QuickBooks integration for commercial real estate, unmatched",
+      "Purpose-built for commercial, not residential adapted",
       "Lets teams keep QuickBooks while adding CRE-specific tools",
       "Automated invoicing and reminders reduce manual work",
       "Free trial available"
     ],
     "cons": [
-      "Requires QuickBooks — not suitable for other accounting systems",
+      "Requires QuickBooks, not suitable for other accounting systems",
       "Smaller company with limited feature depth vs. Yardi or MRI",
       "Less comprehensive than full property management platforms",
       "Limited integrations beyond QuickBooks ecosystem"
@@ -30588,7 +30619,7 @@
     "url": "https://www.brivo.com",
     "logo_url": "/img/logos/brivo.png",
     "headline": "Cloud-based access control and security for commercial real estate.",
-    "description": "Brivo is the leading cloud-based access control and smart building security platform serving commercial real estate, multifamily, enterprise, healthcare, education, and retail. The Brivo Security Suite provides access control, video surveillance, visitor management, identity management, intrusion detection, and smart home automation — all managed from a unified cloud platform. With 100M+ credentials managed and 24M+ users, Brivo is the largest cloud access control provider. The platform enables CRE owners to offer smart building amenities, improve security, and generate ancillary revenue.",
+    "description": "Brivo is the leading cloud-based access control and smart building security platform serving commercial real estate, multifamily, enterprise, healthcare, education, and retail. The Brivo Security Suite provides access control, video surveillance, visitor management, identity management, intrusion detection, and smart home automation, all managed from a unified cloud platform. With 100M+ credentials managed and 24M+ users, Brivo is the largest cloud access control provider. The platform enables CRE owners to offer smart building amenities, improve security, and generate ancillary revenue.",
     "short_description": "Cloud-based access control and security for commercial real estate.",
     "target_audience": {
       "roles": [
@@ -30696,7 +30727,7 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Largest cloud access control provider — 100M+ credentials, 24M+ users",
+      "Largest cloud access control provider, 100M+ credentials, 24M+ users",
       "Unified platform covering access, video, visitor, and intrusion",
       "Strong CRE and multifamily features with rent revenue tools",
       "Open API enables integration with property management platforms",
@@ -30705,7 +30736,7 @@
     "cons": [
       "Hardware costs in addition to software subscription",
       "Requires professional installation for access control hardware",
-      "Enterprise pricing — not accessible for small properties",
+      "Enterprise pricing, not accessible for small properties",
       "Some features require additional Brivo subscriptions"
     ],
     "integrations": [
@@ -30866,15 +30897,15 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Massive scale — 280K+ properties, 3M+ work orders, 30K+ vendors",
+      "Massive scale, 280K+ properties, 3M+ work orders, 30K+ vendors",
       "AI-powered Aiden platform for intelligent maintenance management",
       "4.8/5 customer satisfaction rating",
       "Both commercial and residential coverage",
       "Eliminates vendor sourcing headaches with pre-vetted network"
     ],
     "cons": [
-      "Service-based pricing — not a pure SaaS product",
-      "Requires Lessen's vendor network — less control over vendor selection",
+      "Service-based pricing, not a pure SaaS product",
+      "Requires Lessen's vendor network, less control over vendor selection",
       "May not suit firms wanting to manage their own vendor relationships",
       "Commercial facilities management is newer than residential side"
     ],
@@ -31034,7 +31065,7 @@
       "Mobile-friendly for both tenants and building staff"
     ],
     "cons": [
-      "Part of MRI Software — may require broader MRI commitment",
+      "Part of MRI Software, may require broader MRI commitment",
       "Pricing not public",
       "Less standalone than competitors like Building Engines",
       "Primarily focused on office buildings"
@@ -31276,12 +31307,12 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Purpose-built for CRE commission tracking — solves a real pain point",
+      "Purpose-built for CRE commission tracking, solves a real pain point",
       "Eliminates spreadsheet-based commission management errors",
       "Automated calculations for complex split structures"
     ],
     "cons": [
-      "Niche product — only handles commissions, not full brokerage management",
+      "Niche product, only handles commissions, not full brokerage management",
       "Smaller company with limited market presence",
       "Pricing not publicly available",
       "Limited integrations with major CRE platforms"
@@ -31418,14 +31449,14 @@
     ],
     "video_url": null,
     "pros": [
-      "Purpose-built for CRE marketing — not a generic marketing tool",
+      "Purpose-built for CRE marketing, not a generic marketing tool",
       "Document tracking reveals which prospects are seriously interested",
       "Professional property websites without needing a web developer",
       "Helps brokers identify hot leads through engagement analytics"
     ],
     "cons": [
       "Only a starting price is published; full plan pricing is quoted on a call",
-      "Marketing-focused — not a CRM or deal management platform",
+      "Marketing-focused, not a CRM or deal management platform",
       "Smaller company with limited integrations",
       "Document portal is basic compared to virtual data rooms"
     ],
@@ -31577,13 +31608,13 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Industry standard for construction/RE accounting — decades of track record",
+      "Industry standard for construction/RE accounting, decades of track record",
       "Combines construction and property management",
       "Robust job costing for development projects",
       "Strong audit trail and compliance"
     ],
     "cons": [
-      "Dated interface — desktop-first",
+      "Dated interface, desktop-first",
       "Sage shifting focus to Sage Intacct cloud",
       "Steep learning curve",
       "Limited modern integrations"
@@ -31737,13 +31768,13 @@
     "video_url": null,
     "pros": [
       "Deep data coverage in major metros especially NYC",
-      "Owned by Yardi — reliable data infrastructure",
+      "Owned by Yardi, reliable data infrastructure",
       "Good for prospecting with owner lookup and list building",
       "Foreclosure and distressed property tracking",
       "More affordable than CoStar for individual users"
     ],
     "cons": [
-      "Coverage varies significantly by market — strongest in NYC",
+      "Coverage varies significantly by market, strongest in NYC",
       "Smaller dataset than CoStar",
       "No property management or transaction features",
       "Interface can feel dated"
@@ -31907,14 +31938,14 @@
     ],
     "video_url": null,
     "pros": [
-      "Purpose-built for tenant/occupier side — unique positioning",
+      "Purpose-built for tenant/occupier side, unique positioning",
       "ASC 842 compliance integrated into lease management",
       "Strong transaction and approval workflow features",
       "Collaborative platform for cross-functional real estate teams"
     ],
     "cons": [
       "Pricing not publicly available",
-      "Smaller company — less market recognition",
+      "Smaller company, less market recognition",
       "Not suitable for landlord-side operations",
       "Limited market data compared to CoStar or Reonomy"
     ],
@@ -32075,14 +32106,14 @@
     "pros": [
       "Enterprise-grade IWMS for Fortune 500 companies",
       "Comprehensive coverage of RE, facilities, space, and sustainability",
-      "Now part of IBM Maximo — broader asset management capabilities",
+      "Now part of IBM Maximo, broader asset management capabilities",
       "Strong compliance features for lease accounting standards"
     ],
     "cons": [
-      "Very expensive — IBM enterprise pricing",
+      "Very expensive, IBM enterprise pricing",
       "Extremely complex implementation often requiring IBM consultants",
       "Being folded into Maximo creates transition uncertainty",
-      "Overkill for most CRE firms — designed for massive corporate occupiers"
+      "Overkill for most CRE firms, designed for massive corporate occupiers"
     ],
     "integrations": [
       {
@@ -32237,13 +32268,13 @@
     "video_url": null,
     "pros": [
       "Industry-leading CMMS for commercial real estate",
-      "Part of JLL Technologies — deep FM expertise",
+      "Part of JLL Technologies, deep FM expertise",
       "Strong vendor management and procurement features",
       "Scalable for large multi-site portfolios"
     ],
     "cons": [
-      "Enterprise pricing — not accessible for small property managers",
-      "Part of JLL ecosystem — may not suit competitors' clients",
+      "Enterprise pricing, not accessible for small property managers",
+      "Part of JLL ecosystem, may not suit competitors' clients",
       "Implementation complexity for large deployments",
       "Limited property management accounting features"
     ],
@@ -32433,7 +32464,7 @@
     "url": "https://www.quarem.com",
     "logo_url": "/img/logos/quarem.png",
     "headline": "Corporate real estate and lease management software.",
-    "description": "Quarem is a lease management platform based in Houston, TX that combines technology with dedicated client services for comprehensive lease administration. Unlike fully automated platforms, Quarem believes the best lease management strategy comes from technology and people working together. All core components — technology, client services, abstracting, and leadership — are under one roof, meaning clients work with real people who know their leases. Quarem provides lease abstraction, critical date management, payment tracking, and portfolio analytics.",
+    "description": "Quarem is a lease management platform based in Houston, TX that combines technology with dedicated client services for comprehensive lease administration. Unlike fully automated platforms, Quarem believes the best lease management strategy comes from technology and people working together. All core components (technology, client services, abstracting, and leadership) are under one roof, meaning clients work with real people who know their leases. Quarem provides lease abstraction, critical date management, payment tracking, and portfolio analytics.",
     "short_description": "Corporate real estate and lease management software.",
     "target_audience": {
       "roles": [
@@ -32511,7 +32542,7 @@
     "video_url": null,
     "pros": [
       "Combines technology with dedicated human client services",
-      "All operations under one roof — no outsourced call centers",
+      "All operations under one roof, no outsourced call centers",
       "Strong lease abstraction services",
       "Personal relationship model preferred by many corporate tenants"
     ],
@@ -32519,7 +32550,7 @@
       "Pricing not publicly available",
       "Service model may not scale as efficiently as pure SaaS",
       "Smaller company with limited technology innovation vs. pure tech platforms",
-      "Houston-based — less geographic diversity in team"
+      "Houston-based, less geographic diversity in team"
     ],
     "integrations": [],
     "company": {
@@ -32696,10 +32727,10 @@
     "video_url": null,
     "pros": [
       "All-in-one analysis + marketing in one subscription",
-      "Creates professional reports in minutes — massive time savings",
+      "Creates professional reports in minutes, massive time savings",
       "Transparent, affordable pricing ($699.99/year)",
       "7-day free trial to evaluate",
-      "Cloud-based — works on any device"
+      "Cloud-based, works on any device"
     ],
     "cons": [
       "Less powerful than ARGUS for complex institutional valuations",
@@ -32859,7 +32890,7 @@
     ],
     "cons": [
       "Very expensive enterprise pricing",
-      "Institutional-only — not for individual brokers",
+      "Institutional-only, not for individual brokers",
       "Steep learning curve",
       "Backward-looking data"
     ],
@@ -33012,8 +33043,8 @@
     ],
     "cons": [
       "Very expensive enterprise pricing",
-      "US-focused — limited international",
-      "Market-level — less useful for property-level decisions",
+      "US-focused, limited international",
+      "Market-level, less useful for property-level decisions",
       "Complex for practitioners"
     ],
     "integrations": [
@@ -33164,7 +33195,7 @@
     ],
     "cons": [
       "New product hosted on a Vercel subdomain with little public track record",
-      "Not a law firm — reports are not legal advice",
+      "Not a law firm, reports are not legal advice",
       "Single-purpose tool; no ongoing lease management features"
     ],
     "deployment": [
@@ -33296,13 +33327,13 @@
       ]
     },
     "pros": [
-      "Broad module coverage — eight workplace functions in one platform",
+      "Broad module coverage, eight workplace functions in one platform",
       "Free trial with no credit card and fast setup",
       "Named enterprise case studies and multi-location support",
       "Stated ISO 27001 certification and GDPR compliance"
     ],
     "cons": [
-      "Workplace/office focused — not a CRE deal, leasing, or portfolio tool",
+      "Workplace/office focused, not a CRE deal, leasing, or portfolio tool",
       "Pricing displayed in regional currency; US pricing not clearly published",
       "Per-module and per-location pricing can add up across many features"
     ],
@@ -33411,7 +33442,7 @@
       "Money-back guarantee"
     ],
     "cons": [
-      "Aimed at residential landlords — limited fit for commercial portfolios",
+      "Aimed at residential landlords, limited fit for commercial portfolios",
       "Per-record plus add-on pricing can be harder to predict than flat plans",
       "Smaller product with limited public track record"
     ],
@@ -33475,7 +33506,7 @@
           },
           {
             "name": "Nearby Business Discovery",
-            "description": "Auto-find nearby locations by category — restaurants, banks, grocery, fitness, and more."
+            "description": "Auto-find nearby locations by category: restaurants, banks, grocery, fitness, and more."
           },
           {
             "name": "Customization",
@@ -33522,7 +33553,7 @@
       "High-resolution and branded PDF export options"
     ],
     "cons": [
-      "Narrow use case — mapping/presentation only, no analytics or demographics engine",
+      "Narrow use case, mapping/presentation only, no analytics or demographics engine",
       "Retail-focused; less useful for office or industrial brokers",
       "Newer product with a limited public track record"
     ],
@@ -33551,8 +33582,8 @@
     "slug": "zillapi",
     "url": "https://zillapi.com",
     "logo_url": "/img/logos/zillapi.png",
-    "headline": "REST API for Zillow-sourced U.S. property data — 300+ fields per home in one call.",
-    "description": "Zillapi is a REST API that returns Zillow-sourced U.S. property data for developers and AI agents: price, Zestimate, rent estimate, photos, schools, taxes, agent contact, and full price history — 300+ typed fields across a stated 160M+ U.S. parcels in a single call. It offers nine sub-resources (such as /zestimate, /nearby comps, and /price-history), geo search by bounding box with filters, address- or zpid-based lookups, and JSON, CSV, and NDJSON output with HMAC-signed webhooks for async jobs. The service ships an OpenAPI 3.1 spec, llms.txt files, and MCP-readiness for use with Claude, ChatGPT, Cursor, LangChain, and workflow tools like Zapier and n8n. Pricing is credit-based: a free tier with 100 credits and no card, $5/month for 1,000 credits, or $54/year for 12,000 credits, with most calls costing 1 credit per record. Zillapi states it is an independent service not affiliated with or endorsed by Zillow Group.",
+    "headline": "REST API for Zillow-sourced U.S. property data, with 300+ fields per home in one call.",
+    "description": "Zillapi is a REST API that returns Zillow-sourced U.S. property data for developers and AI agents: price, Zestimate, rent estimate, photos, schools, taxes, agent contact, and full price history, with 300+ typed fields across a stated 160M+ U.S. parcels in a single call. It offers nine sub-resources (such as /zestimate, /nearby comps, and /price-history), geo search by bounding box with filters, address- or zpid-based lookups, and JSON, CSV, and NDJSON output with HMAC-signed webhooks for async jobs. The service ships an OpenAPI 3.1 spec, llms.txt files, and MCP-readiness for use with Claude, ChatGPT, Cursor, LangChain, and workflow tools like Zapier and n8n. Pricing is credit-based: a free tier with 100 credits and no card, $5/month for 1,000 credits, or $54/year for 12,000 credits, with most calls costing 1 credit per record. Zillapi states it is an independent service not affiliated with or endorsed by Zillow Group.",
     "short_description": "Credit-based REST/MCP API for Zillow-sourced U.S. property data: Zestimates, comps, taxes, photos, price history.",
     "tagline": "Property data, productized.",
     "categories": [
@@ -33644,7 +33675,7 @@
       "Failed calls are free and pricing is transparently documented per endpoint"
     ],
     "cons": [
-      "Independent wrapper not affiliated with Zillow — upstream data access could change",
+      "Independent wrapper not affiliated with Zillow, upstream data access could change",
       "Residential-focused data (homes, Zestimates); limited coverage for pure commercial assets",
       "Early-access product with limited track record"
     ],
@@ -37032,8 +37063,7 @@
     "tagline": "Defensible deal analysis, backed by sources",
     "categories": [
       "Investment & Valuation",
-      "AI & Automation",
-      "Site Selection"
+      "AI & Automation"
     ],
     "primary_category": "investment-valuation",
     "target_audience": {
@@ -39092,7 +39122,6 @@
     "tagline": "Smarter Property Management",
     "categories": [
       "CRM & Marketing",
-      "Tenant Experience",
       "Data & Analytics"
     ],
     "primary_category": "crm-marketing",
@@ -43158,8 +43187,7 @@
     "short_description": "ResMed-owned EHR and operations software for senior living, skilled nursing, and home-based care organizations.",
     "tagline": "More time for care, less time on operations.",
     "categories": [
-      "Property Management",
-      "Data & Analytics"
+      "Property Management"
     ],
     "primary_category": "property-management",
     "target_audience": {
@@ -44585,7 +44613,6 @@
     "tagline": "AI-powered workflows for long-term and post-acute care.",
     "categories": [
       "Property Management",
-      "Data & Analytics",
       "Accounting & Finance"
     ],
     "primary_category": "property-management",
@@ -48358,8 +48385,7 @@
     "short_description": "Inspection app for iOS, Android, and web with branded reports, video capture, dashboards, and auto-messaging.",
     "tagline": "Conduct mobile inspections and create reports in minutes.",
     "categories": [
-      "Property Management",
-      "Data & Analytics"
+      "Property Management"
     ],
     "primary_category": "property-management",
     "target_audience": {
@@ -53023,8 +53049,7 @@
     "short_description": "BIM issue tracking, clash management, and model validation that plug into Revit, Navisworks, and other tools.",
     "tagline": "Transform BIM chaos into complete control.",
     "categories": [
-      "Construction & Development",
-      "Data & Analytics"
+      "Construction & Development"
     ],
     "primary_category": "construction-development",
     "target_audience": {
@@ -58087,8 +58112,7 @@
     "short_description": "Cloud suite for heavy civil contractors: HeavyBid estimating, HeavyJob field management, safety, and fleet tools.",
     "tagline": "Connecting the office to the field for heavy civil construction.",
     "categories": [
-      "Construction & Development",
-      "Data & Analytics"
+      "Construction & Development"
     ],
     "primary_category": "construction-development",
     "target_audience": {
@@ -58533,8 +58557,7 @@
     "short_description": "Cloud workspace where owners, GCs, and designers track costs, value engineering, and design decisions together.",
     "tagline": "Decision intelligence for preconstruction.",
     "categories": [
-      "Construction & Development",
-      "Data & Analytics"
+      "Construction & Development"
     ],
     "primary_category": "construction-development",
     "target_audience": {
@@ -59921,7 +59944,7 @@
         "features": [
           {
             "name": "Link to Transactions (zipForm Edition)",
-            "description": "Two-way sync of 150+ transaction fields — contracts, documents, deposits, commission breakdowns — with zipForm."
+            "description": "Two-way sync of 150+ transaction fields (contracts, documents, deposits, commission breakdowns) with zipForm."
           },
           {
             "name": "Reporting",
@@ -60326,8 +60349,7 @@
     "short_description": "Cloud PIM platform centralizing email, files, RFIs, submittals, and BIM issue coordination for AEC teams.",
     "tagline": "A complete, connected project record.",
     "categories": [
-      "Construction & Development",
-      "Data & Analytics"
+      "Construction & Development"
     ],
     "primary_category": "construction-development",
     "target_audience": {
@@ -60665,8 +60687,7 @@
     "short_description": "Oracle's capital project suite: Primavera P6, Primavera Cloud, Unifier, and Aconex for scheduling and controls.",
     "tagline": "Software for planning and delivering major capital projects",
     "categories": [
-      "Construction & Development",
-      "Data & Analytics"
+      "Construction & Development"
     ],
     "primary_category": "construction-development",
     "target_audience": {
@@ -61550,8 +61571,7 @@
     "short_description": "Cloud planroom and bidding platform where GCs post projects and subs find, estimate, and win commercial work.",
     "tagline": "Connect. Collaborate. Win More Work.",
     "categories": [
-      "Construction & Development",
-      "CRM & Marketing"
+      "Construction & Development"
     ],
     "primary_category": "construction-development",
     "target_audience": {
@@ -62353,8 +62373,7 @@
     "short_description": "Owner-focused construction program management covering capital planning, budgets, bids, workflows, and reporting.",
     "tagline": "Empowering owners to build smarter, faster, and more efficiently",
     "categories": [
-      "Construction & Development",
-      "Data & Analytics"
+      "Construction & Development"
     ],
     "primary_category": "construction-development",
     "target_audience": {
@@ -62541,7 +62560,7 @@
     },
     "pros": [
       "Purpose-built for commercial real estate contracts rather than generic e-signature",
-      "Whole negotiation lifecycle — draft, redline, sign — happens in one platform",
+      "Whole negotiation lifecycle, draft, redline, sign, happens in one platform",
       "Partnerships with major CRE organizations (AIR CRE, IREM, CCIM, NAI Global, Corfac)",
       "Free sign-up to try before committing"
     ],
@@ -63360,8 +63379,7 @@
     "short_description": "Mobile field reporting for contractors: daily reports, time and production tracking, safety checklists, and dashboards.",
     "tagline": "Field management made easy.",
     "categories": [
-      "Construction & Development",
-      "Data & Analytics"
+      "Construction & Development"
     ],
     "primary_category": "construction-development",
     "target_audience": {
@@ -64595,8 +64613,7 @@
     "short_description": "Cloud platform unifying 2D sheets, 3D models, clash automation, and spatially tagged issue tracking for AECO teams.",
     "tagline": "Your project. Made right.",
     "categories": [
-      "Construction & Development",
-      "Data & Analytics"
+      "Construction & Development"
     ],
     "primary_category": "construction-development",
     "target_audience": {
@@ -66606,8 +66623,7 @@
     "short_description": "Owner-focused capital program and construction project management from Trimble, formerly known as e-Builder.",
     "tagline": "Connecting data, workflows & teams",
     "categories": [
-      "Construction & Development",
-      "Data & Analytics"
+      "Construction & Development"
     ],
     "primary_category": "construction-development",
     "target_audience": {
