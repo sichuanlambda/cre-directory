@@ -37,6 +37,7 @@ Commit the regenerated output along with the data change.
 
 - `index.html` (homepage), `market-map.html`, `compare.html`, `submit.html`
 - `guides/*.html` — editorial buyer's guides (nav, related-reading block and footer are injected by the build)
+  - Category guides are named after a category slug. Topic guides that cover one job across categories (e.g. `ai-underwriting-software.html`) must be registered in `TOPIC_GUIDES` in `scripts/build.js` with a footer label and the category whose editorial feeds their related-reading block.
 - `css/style.css`, `js/app.js` (homepage/compare interactivity + shared helpers)
 
 ## Legacy URLs

@@ -132,6 +132,18 @@ function saveLastmod() {
 // ---------- editorial helpers ----------
 const guideFiles = () => fs.existsSync(path.join(ROOT, 'guides')) ? fs.readdirSync(path.join(ROOT, 'guides')).filter(f => f.endsWith('.html')).sort() : [];
 const guideFor = catSlug => fs.existsSync(path.join(ROOT, 'guides', `${catSlug}.html`)) ? `/guides/${catSlug}.html` : null;
+// Topic guides cover one job across categories (e.g. AI underwriting). Each names a short label for
+// the footer and the category whose editorial feeds its related-reading block.
+const TOPIC_GUIDES = {
+  'ai-underwriting-software': { name: 'AI Underwriting', category: 'investment-valuation' },
+  'ai-lease-abstraction-software': { name: 'AI Lease Abstraction', category: 'legal-compliance' },
+};
+const guideHTML = f => fs.readFileSync(path.join(ROOT, 'guides', f), 'utf8');
+const guideH1 = f => { const m = /<h1[^>]*>([\s\S]*?)<\/h1>/.exec(guideHTML(f)); return m ? stripTags(m[1]).replace(/&amp;/g, '&').trim() : f.replace('.html', ''); };
+const guideName = f => { const s = f.replace('.html', ''); const c = categoryBySlug(s); return c ? c.name : TOPIC_GUIDES[s] ? TOPIC_GUIDES[s].name : s; };
+// Product slugs a topic guide links to, in page order.
+const guideProducts = f => [...new Set([...guideHTML(f).matchAll(/href="\/products\/([^/"]+)\/"/g)].map(m => m[1]))];
+const topicGuidesFor = slugs => Object.keys(TOPIC_GUIDES).filter(g => fs.existsSync(path.join(ROOT, 'guides', `${g}.html`)) && guideProducts(`${g}.html`).some(s => slugs.includes(s)));
 function primaryCatOf(product) {
   if (product.primary_category && categoryBySlug(product.primary_category)) return categoryBySlug(product.primary_category);
   return categoryByName((product.categories || [])[0]) || null;
@@ -226,7 +238,7 @@ function footerHTML() {
   const catLinks = Object.values(CATEGORIES).sort((a, b) => b.product_count - a.product_count)
     .map(c => `<a href="${categoryPath(c.slug)}">${esc(c.name)}</a>`).join('');
   const guideLinks = guideFiles()
-    .map(f => { const cs = f.replace('.html', ''); const c = categoryBySlug(cs); return { name: c ? c.name : cs, f }; })
+    .map(f => ({ name: guideName(f), f }))
     .sort((a, b) => a.name.localeCompare(b.name))
     .map(g => `<a href="/guides/${g.f}">${esc(g.name)}</a>`).join('');
   const altLinks = altsSorted().slice(0, 12).map(x => `<a href="${alternativesPath(x.slug)}">${esc(x.product.title)} alternatives</a>`).join('')
@@ -1035,6 +1047,7 @@ function renderComparisonPage(cmp) {
         <ul class="link-list">
           ${cat ? `<li><a href="${categoryPath(cat.slug)}">All ${esc(cat.name)} software</a></li>` : ''}
           ${guide && cat ? `<li><a href="${guide}">${esc(cat.name)} buyer's guide</a></li>` : ''}
+          ${topicGuidesFor([A.slug, B.slug]).map(g => `<li><a href="/guides/${g}.html">${esc(TOPIC_GUIDES[g].name)} buyer's guide</a></li>`).join('')}
           <li><a href="/alternatives/">All alternatives guides</a></li>
           <li><a href="/compare.html">All comparisons</a></li>
         </ul>
@@ -1269,7 +1282,7 @@ Last content update: ${latest}
 ${cats.map(c => line(`${c.name} software`, categoryPath(c.slug), `${c.product_count} tools. ${stripTags(c.description || '')}`)).join('\n')}
 
 ## Buyer's guides
-${guideFiles().map(f => { const cs = f.replace('.html', ''); const c = categoryBySlug(cs); return line(`Best ${c ? c.name : cs} software for CRE`, `/guides/${f}`); }).join('\n')}
+${guideFiles().map(f => { const cs = f.replace('.html', ''); const c = categoryBySlug(cs); return line(c ? `Best ${c.name} software for CRE` : guideH1(f), `/guides/${f}`); }).join('\n')}
 
 ## Alternatives guides
 ${line('All alternatives guides', '/alternatives/')}
@@ -1418,9 +1431,16 @@ injectHomeAlternatives();
 
 // Related editorial block at the bottom of each buyer's guide (alternatives + comparisons in its category).
 function guideRelatedHTML(catSlug) {
-  const cat = categoryBySlug(catSlug);
+  const topic = TOPIC_GUIDES[catSlug];
+  const cat = categoryBySlug(topic ? topic.category : catSlug);
   if (!cat) return '';
   const ce = editorialForCategory(cat);
+  if (topic) {
+    // Comparisons between tools the guide ranks come first, then the related category's editorial.
+    const ranked = new Set(guideProducts(`${catSlug}.html`));
+    const own = cmpEntries().filter(x => ranked.has(x.cmp.a) || ranked.has(x.cmp.b));
+    ce.cmps = own.concat(ce.cmps.filter(x => !own.some(o => o.cmp === x.cmp)));
+  }
   const browse = `<p style="font-size:14px;margin:12px 0 0"><a href="${categoryPath(cat.slug)}">Browse all ${esc(cat.name)} software →</a> · <a href="/alternatives/">All alternatives guides</a> · <a href="/compare.html">All comparisons</a></p>`;
   return `
 <div style="max-width:800px;margin:0 auto;padding:0 20px 32px">

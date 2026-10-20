@@ -12710,7 +12710,7 @@
     "url": "https://www.visuallease.com",
     "logo_url": "/img/logos/visuallease.png",
     "headline": "Lease accounting and management software",
-    "description": "Visual Lease is an enterprise lease management and accounting platform with 25+ years of experience, recently acquired by CoStar Group. It provides end-to-end lease lifecycle management, from acquisition to termination, combined with robust lease accounting compliance for ASC 842, IFRS 16, and GASB 87. VL serves Fortune 500 companies and large enterprises, unifying real estate, finance, procurement, and legal teams around centralized lease data. With AI-supported tools for data extraction, it manages millions of lease records across its customer base with 97%+ customer retention.",
+    "description": "Visual Lease is an enterprise lease management and accounting platform with 25+ years of experience, recently acquired by CoStar Group. It provides end-to-end lease lifecycle management, from acquisition to termination, combined with robust lease accounting compliance for ASC 842, IFRS 16, and GASB 87. VL serves Fortune 500 companies and large enterprises, unifying real estate, finance, procurement, and legal teams around centralized lease data. It now offers AI lease abstraction powered by CoStar's Lease LLM, with fields tied back to the lease language and review by its in-house attorneys and expert abstractors, and it manages millions of lease records across its customer base with 97%+ customer retention.",
     "short_description": "Comprehensive lease accounting and management software for ASC 842 and IFRS 16 compliance.",
     "target_audience": "Enterprise organizations, Fortune 500 companies, and large corporations with complex lease portfolios",
     "feature_groups": [
@@ -12880,7 +12880,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-10-20",
     "is_verified": false,
     "is_featured": false,
     "domain": "visuallease.com",
@@ -15512,12 +15512,12 @@
     "logo_url_source": "https://logo.clearbit.com/zoneomics.com"
   },
   {
-    "title": "Testfit",
+    "title": "TestFit",
     "slug": "testfit",
     "url": "https://www.testfit.io",
     "logo_url": "/img/logos/testfit.png",
     "headline": "Site feasibility & planning. Understand if you can make a deal make sense.",
-    "description": "TestFit is a real estate feasibility platform that enables developers, architects, and brokers to rapidly test-fit building configurations on sites. The platform automates site planning by allowing users to map parcels, configure road layouts, and generate 3D building massing in hours instead of days. TestFit provides real-time financial analysis, automatic takeoffs for parking, infrastructure, and earthwork costs, and the ability to compare multiple design schemes instantly. With 6,200+ users, TestFit helps teams produce 2-3x more design iterations, validate pro formas against actual layouts, and make confident investment decisions 30x faster than traditional methods.",
+    "description": "TestFit is a site feasibility platform that lets developers, architects and brokers generate and edit building configurations on a real site. Its generative engine produces an AI-generated site plan with 3D massing that the user then adjusts, with automatic takeoffs for parking, infrastructure and earthwork. Typologies include multifamily, single-family, industrial, data centers, retail, hotels and parking. The Site Intelligence add-on layers zoning (FAR, lot coverage, setbacks, height), FEMA flood, wetlands, soil and utility data onto the site, and the Pro Forma add-on keeps the financial model live-linked to the plan so returns move as the layout changes. Designs push to Revit and export to AutoCAD, SketchUp, Excel and PDF. Pricing is published: Parking Solver at $195 a month with unlimited users, Site Solver from $15,000 a year and Site Solver Portfolio from $20,000 a year.",
     "short_description": "Site feasibility & planning. Understand if you can make a deal make sense.",
     "target_audience": "Real estate developers, architects, planners, investment professionals, development managers, site acquisition teams",
     "feature_groups": [
@@ -15600,32 +15600,28 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
-      "billing_options": [],
+      "starting_price": "$195/month",
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": [
         {
-          "name": "Standard",
-          "price": "Contact for pricing",
-          "period": "annual",
-          "features": [
-            "Site planning",
-            "Financial analysis",
-            "3D visualization",
-            "Basic exports"
-          ]
+          "name": "Parking Solver",
+          "price": "$195/month",
+          "description": "Billed monthly, unlimited users. Add-ons: Site Intelligence +$150/month, Pro Forma +$170/month, MCP Connection +$100/month."
         },
         {
-          "name": "Enterprise",
-          "price": "Contact for pricing",
-          "period": "annual",
-          "features": [
-            "Everything in Standard",
-            "API access",
-            "Custom integrations",
-            "Priority support"
-          ]
+          "name": "Site Solver",
+          "price": "From $15,000/year",
+          "description": "Billed annually. Generative design and MCP connection included; Site Intelligence and Pro Forma available as add-ons."
+        },
+        {
+          "name": "Site Solver Portfolio",
+          "price": "From $20,000/year",
+          "description": "Adds volume pricing, enterprise SSO and quarterly business reviews."
         }
       ]
     },
@@ -15645,16 +15641,16 @@
     ],
     "video_url": null,
     "pros": [
-      "30x faster feasibility modeling compared to traditional methods",
-      "Produces 2-3x more design iterations on the same budget",
-      "Automatic cost takeoffs reduce estimation errors",
-      "Direct export to Revit, AutoCAD, and SketchUp streamlines workflows",
-      "6,200+ users including major developers and architecture firms"
+      "Generates editable site plans and 3D massing in minutes across multifamily, industrial, data center, retail, hotel and parking typologies",
+      "Pro Forma add-on is live-linked to the site plan, so returns update as the layout changes",
+      "Published pricing, including a monthly Parking Solver plan with unlimited users",
+      "Pushes to Revit and exports to AutoCAD, SketchUp, Excel and PDF"
     ],
     "cons": [
-      "Pricing not publicly listed, requires sales consultation",
-      "Focused on feasibility stage, not full architectural design",
-      "Learning curve for maximizing AI optimization features"
+      "Full Site Solver starts at $15,000 a year, a large step up from the entry plan",
+      "Site Intelligence data layers (zoning, flood, wetlands, soils) are US datasets",
+      "No free trial stated on the pricing page",
+      "Focused on the feasibility stage, not full architectural design"
     ],
     "integrations": [
       "Revit",
@@ -15688,7 +15684,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-20",
     "is_verified": false,
     "is_featured": false,
     "domain": "testfit.io",
@@ -15696,7 +15692,13 @@
     "is_free": false,
     "tagline": "Site feasibility & planning. Understand if you can make a deal make sense.",
     "property_types": [
-      "Commercial"
+      "Multifamily",
+      "Single-Family",
+      "Industrial",
+      "Data Center",
+      "Retail",
+      "Hospitality",
+      "Parking"
     ],
     "features": [
       "Rapid site planning and feasibility analysis",
@@ -21756,10 +21758,10 @@
   {
     "title": "LeaseQuery",
     "slug": "leasequery",
-    "url": "https://www.leasequery.com",
+    "url": "https://finquery.com/lease-accounting-software/",
     "logo_url": "/img/logos/leasequery.png",
     "headline": "Lease accounting software for compliance with financial regulations.",
-    "description": "LeaseQuery (now rebranded as FinQuery) is the G2-leading lease accounting software built for compliance with ASC 842, IFRS 16, and GASB 87 lease accounting standards. The platform automates lease data management, journal entry generation, disclosure reporting, and compliance workflows. FinQuery serves organizations of all sizes, from small businesses to Fortune 500 enterprises, and is recognized for top satisfaction scores in quality of support, ease of use, and implementation accuracy. It also handles prepaid expenses and accrual management beyond leases.",
+    "description": "LeaseQuery (now rebranded as FinQuery) is the G2-leading lease accounting software built for compliance with ASC 842, IFRS 16, and GASB 87 lease accounting standards. The platform automates lease data management, journal entry generation, disclosure reporting, and compliance workflows. FinQuery serves organizations of all sizes, from small businesses to Fortune 500 enterprises, and is recognized for top satisfaction scores in quality of support, ease of use, and implementation accuracy. It also handles prepaid expenses and accrual management beyond leases. The leasequery.com domain now redirects to FinQuery, whose lease accounting software includes automated lease abstracts with AI-assisted data abstraction, and a LeaseGuru trial lets you enter your first two leases free.",
     "short_description": "Lease accounting software for compliance with financial regulations.",
     "target_audience": "Accountants, CFOs, controllers, and finance professionals at organizations with lease portfolios requiring compliance with modern lease accounting standards. Serves small businesses to large enterprises across all industries needing ASC 842, IFRS 16, GASB, or other lease accounting compliance.",
     "feature_groups": [
@@ -21844,7 +21846,7 @@
       "model": "Quote-based",
       "starting_price": null,
       "billing_options": [],
-      "free_trial": false,
+      "free_trial": true,
       "free_tier": false,
       "plans": []
     },
@@ -21927,10 +21929,10 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-10-20",
     "is_verified": false,
     "is_featured": false,
-    "domain": "leasequery.com",
+    "domain": "finquery.com",
     "pricing_model": "Quote-based",
     "is_free": false,
     "tagline": "Lease accounting software for compliance with financial regulations.",
@@ -25858,7 +25860,7 @@
     "url": "https://credataextractor.com/",
     "logo_url": "/img/logos/cre-data-extractor.png",
     "headline": "Stop manually extracting text from images of rent rolls, use CRE Data Extractor to get your rent roll into a csv format in minutes",
-    "description": "CRE Data Extractor is a simple AI-powered tool that converts rent roll images into structured CSV data. Users upload an image of their rent roll (JPG, JPEG, PDF, or PNG), and the platform uses AI to extract and structure the data into a downloadable CSV file. Processing takes approximately 30 seconds to 2 minutes. The tool is designed for commercial real estate professionals who need to quickly digitize paper or image-based rent rolls for analysis in spreadsheets or financial models.",
+    "description": "CRE Data Extractor is a simple AI-powered tool that converts rent roll images into structured CSV data. Users upload an image of a rent roll (JPG, JPEG or PNG) and the platform extracts and structures the data into a downloadable CSV file in about 30 seconds to 2 minutes; the site warns that the AI may make mistakes, so output needs checking. It is run by SUMMIT & Shark, LLC. A free plan covers 15 rent roll pages in total, Pro is $20 a month for 200 pages and Premium is $99 a month for 1,200 pages.",
     "short_description": "Stop manually extracting text from images of rent rolls, use CRE Data Extractor to get your rent roll into a csv format in minutes",
     "target_audience": "Commercial real estate professionals, property managers, real estate analysts, asset managers, and CRE professionals who regularly work with rent rolls and need to convert physical or image-based rent roll data into digital, analyzable formats.",
     "feature_groups": [
@@ -25871,7 +25873,7 @@
           },
           {
             "name": "Multiple Format Support",
-            "description": "Accepts JPG, JPEG, PNG, and PDF rent roll documents."
+            "description": "Accepts JPG, JPEG and PNG rent roll images."
           },
           {
             "name": "CSV Export",
@@ -25881,18 +25883,36 @@
       }
     ],
     "pricing": {
-      "model": "Free/Freemium",
-      "starting_price": null,
-      "billing_options": [],
+      "model": "Freemium",
+      "starting_price": "$20/month",
+      "billing_options": [
+        "Monthly"
+      ],
       "free_trial": false,
       "free_tier": true,
       "plans": [
         {
           "name": "Free",
-          "price": "Free",
-          "period": "",
+          "price": "$0",
+          "period": "month",
           "features": [
-            "Rent roll image to CSV conversion"
+            "15 rent roll pages total"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price": "$20",
+          "period": "month",
+          "features": [
+            "200 pages a month"
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": "$99",
+          "period": "month",
+          "features": [
+            "1,200 pages a month"
           ]
         }
       ]
@@ -25901,7 +25921,7 @@
     "video_url": null,
     "pros": [
       "Simple, focused tool that does one thing well",
-      "Free to use",
+      "Free plan for occasional use, with low-cost monthly plans for volume",
       "Fast processing in under 2 minutes"
     ],
     "cons": [
@@ -25911,11 +25931,7 @@
     ],
     "integrations": [],
     "company": {
-      "name": "CRE Data Extractor",
-      "founded": 2024,
-      "headquarters": "",
-      "employees": "1-5",
-      "funding": ""
+      "name": "SUMMIT & Shark, LLC"
     },
     "categories": [
       "AI & Automation",
@@ -25935,11 +25951,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-20",
     "is_verified": false,
     "is_featured": false,
     "domain": "credataextractor.com",
-    "pricing_model": "Free/Freemium",
+    "pricing_model": "Freemium",
     "is_free": false,
     "tagline": "Stop manually extracting text from images of rent rolls, use CRE Data Extractor to get your rent roll into a csv format in minutes",
     "property_types": [
@@ -25947,7 +25963,7 @@
     ],
     "features": [
       "AI-powered rent roll image processing",
-      "Support for multiple image formats (JPG, JPEG, PDF, PNG)",
+      "Support for multiple image formats (JPG, JPEG, PNG)",
       "Automated CSV generation from rent roll images",
       "Quick processing time (30 seconds to 2 minutes)",
       "Direct CSV download functionality",
@@ -25957,7 +25973,7 @@
       "Time-saving automation for rent roll analysis",
       "Integration-friendly CSV output format"
     ],
-    "pricing_info": "Pricing model not explicitly stated on the website. Likely offers pay-per-use, subscription-based, or freemium pricing for rent roll processing services. Users agree to Terms of Service for usage, suggesting potential paid tiers or usage limitations.",
+    "pricing_info": "Published plans: Free (15 rent roll pages total), Pro $20/month (200 pages), Premium $99/month (1,200 pages).",
     "enriched": true,
     "enrichedAt": "2026-02-17T23:37:00.939626Z",
     "primary_category": "ai-automation",
@@ -28497,7 +28513,7 @@
     "url": "https://www.prophia.com",
     "logo_url": "/img/logos/prophia.png",
     "headline": "AI-powered lease abstraction and management for commercial real estate.",
-    "description": "Prophia is an AI-powered lease abstraction and management platform purpose-built for commercial real estate owners and operators. The platform transforms static lease documents into dynamic, living abstracts that allow teams to verify, analyze, and manage lease obligations with confidence. Prophia processes 493M+ square feet across 4,425+ buildings and 22,000+ tenants. Key use cases include leasing (stacking plans, benchmarks, critical dates), acquisitions (due diligence, rent roll reconciliation), property management (CAM reconciliation, budgeting), and investor reporting. Trusted by firms like Nuveen, RXR, and Spear Street Capital.",
+    "description": "Prophia is a lease abstraction and lease management platform for commercial real estate owners and operators. AI extracts lease data and Prophia's CRE experts audit it before delivery, producing living abstracts that link each value back to the source text across leases, amendments and renewals. On top of the abstracts it offers self-updating stacking plans, critical date tracking, lease benchmarking, CAM and rent roll reconciliation, a Yardi audit that checks lease data against the property management system, and an MCP connector that lets ChatGPT, Claude or Gemini query portfolio data. Prophia Essentials is priced per tenant on an annual subscription with unlimited users; pricing is not published. The company was founded in 2018 in San Francisco and says it covers 720 million square feet across 5,852 buildings and 29,022 tenants. RXR is named on its site as a customer.",
     "short_description": "AI-powered lease abstraction and management for commercial real estate.",
     "target_audience": {
       "roles": [
@@ -28535,7 +28551,7 @@
           },
           {
             "name": "Prophia Abstract (Instant)",
-            "description": "Free self-serve tool for instant, accurate lease summaries, no setup required."
+            "description": "Self-serve lease summaries; terms and fees are set out on Prophia's site."
           }
         ]
       },
@@ -28579,33 +28595,33 @@
       }
     ],
     "pricing": {
-      "model": "Subscription",
-      "starting_price": "Free (Prophia Abstract)",
+      "model": "Quote-based",
+      "starting_price": null,
       "billing_options": [
         "Annual"
       ],
-      "free_trial": true,
-      "free_tier": true,
+      "free_trial": false,
+      "free_tier": false,
       "plans": [
-        {
-          "name": "Prophia Abstract",
-          "price": "Free",
-          "period": "monthly",
-          "features": [
-            "Instant lease summaries",
-            "Self-serve",
-            "No setup required"
-          ]
-        },
         {
           "name": "Prophia Essentials",
           "price": "Contact for pricing",
           "period": "annual",
           "features": [
-            "Full lease management",
-            "Stacking plans",
-            "Critical dates",
-            "AI abstraction"
+            "Priced per tenant",
+            "AI abstraction with CRE expert review",
+            "215 fields",
+            "Accounting integration",
+            "SSO and API options",
+            "Unlimited users"
+          ]
+        },
+        {
+          "name": "Prophia Portfolio",
+          "price": "Contact for pricing",
+          "period": "annual",
+          "features": [
+            "Annual add-on for portfolio-level lease management"
           ]
         }
       ]
@@ -28620,10 +28636,10 @@
     ],
     "video_url": null,
     "pros": [
-      "Free instant lease abstraction tool lowers barrier to try",
-      "Purpose-built for CRE, not adapted from generic document management",
-      "Strong client roster including Nuveen, RXR, Spear Street Capital",
-      "Addresses the critical problem that 53% of rent rolls contain material errors",
+      "AI extraction is followed by a CRE expert audit before abstracts are delivered",
+      "Abstracts link each value back to the source lease language",
+      "Unlimited users, with pricing per tenant rather than per seat",
+      "Purpose-built for CRE owners, with stacking plans, critical dates and a Yardi data audit",
       "Self-updating stacking plans save significant manual effort"
     ],
     "cons": [
@@ -28648,7 +28664,7 @@
     ],
     "company": {
       "name": "Prophia, Inc.",
-      "founded": 2019,
+      "founded": 2018,
       "headquarters": "San Francisco, CA",
       "employees": "50-100",
       "funding": "Private"
@@ -28671,7 +28687,7 @@
         "CRE lease management"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-20",
     "is_verified": false,
     "is_featured": false,
     "domain": "prophia.com",
@@ -33104,10 +33120,10 @@
   {
     "title": "LeaseLens",
     "slug": "leaselens",
-    "url": "https://leaselens-nu.vercel.app",
+    "url": "https://leaselens.org",
     "logo_url": "",
     "headline": "AI commercial lease analysis that flags risky clauses before tenants sign.",
-    "description": "LeaseLens is an AI-powered commercial lease analysis service for tenants and tenant-rep brokers. Users upload a lease PDF and get a free instant preview (a lease grade, risk flag count, and one detailed finding), then can purchase the full PDF report for $75. Reports check every clause against 14 risk categories and identify 15+ risk flag types, including uncapped CAM charges, personal guarantee scope, holdover rates, rent escalations, and renewal notice deadlines, quoting the exact clause language and suggesting negotiation changes. The report also calculates year-by-year occupancy costs and total personal guarantee exposure, and detects prompt-injection tampering hidden in PDF documents. A $199/month plan gives brokers unlimited analyses across their client base, and the site offers a free 10-question lease-risk quiz, a sample report, and a money-back guarantee.",
+    "description": "LeaseLens is an AI-powered commercial lease review service for tenants and tenant-rep brokers. Users upload a retail, office, industrial or NNN lease PDF and get a free instant preview, then can buy the full PDF report for $75. Reports run the lease against a 15+ category checklist and cover risk flags rated critical, high, medium or low, the rent schedule, CAM charges, personal guarantee exposure, critical dates and negotiation priorities, quoting the clause language behind each finding. Lease comparison reports are also $75, a $199 a month plan gives brokers unlimited analyses with priority processing, and free tools include a risk score calculator. The site says it was established in 2026, offers free reprocessing if a report misses a material clause, and states that its reports are not legal advice.",
     "short_description": "Upload a commercial lease PDF, get a risk report flagging CAM, guarantees, holdover, and escalation clauses.",
     "tagline": "We read your lease before you pay a lawyer to.",
     "categories": [
@@ -33138,8 +33154,8 @@
         "name": "Lease Risk Analysis",
         "features": [
           {
-            "name": "14 Risk Category Review",
-            "description": "Every clause is checked against 14 risk categories, flagging 15+ risk types such as uncapped CAM, personal guarantees, and holdover traps."
+            "name": "Risk Checklist Review",
+            "description": "Each lease is checked against a 15+ category checklist, flagging items such as uncapped CAM, personal guarantees and holdover terms."
           },
           {
             "name": "Quoted Clause Findings",
@@ -33178,12 +33194,12 @@
         {
           "name": "Single Report",
           "price": "$75",
-          "description": "One-time full lease analysis, PDF report delivered by email in minutes."
+          "description": "One full lease analysis, PDF report delivered by email. Lease comparison reports are also $75."
         },
         {
           "name": "Unlimited (Brokers & Teams)",
           "price": "$199/month",
-          "description": "Unlimited lease analyses across a broker's book of business with priority processing."
+          "description": "Unlimited lease analyses with priority processing and renewal briefings."
         }
       ]
     },
@@ -33191,10 +33207,10 @@
       "Free instant preview and sample report let you evaluate before paying",
       "Findings quote exact clause language with concrete negotiation asks",
       "No subscription required for a single report",
-      "Money-back guarantee published on the site"
+      "Free reprocessing if a report misses a material clause, per the pricing page"
     ],
     "cons": [
-      "New product hosted on a Vercel subdomain with little public track record",
+      "New product (the site says established 2026) with little public track record and no named operator",
       "Not a law firm, reports are not legal advice",
       "Single-purpose tool; no ongoing lease management features"
     ],
@@ -33204,7 +33220,7 @@
     "company": {
       "name": "LeaseLens"
     },
-    "domain": "leaselens-nu.vercel.app",
+    "domain": "leaselens.org",
     "is_verified": false,
     "is_featured": false,
     "pricing_model": "Pay-per-report",
@@ -33216,7 +33232,7 @@
       "Industrial"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -34073,7 +34089,7 @@
     "url": "https://altyst.ai",
     "logo_url": "/img/logos/altyst.png",
     "headline": "Browser-based CRE underwriting engine that builds full investment models from deal documents.",
-    "description": "Altyst is a browser-based real estate underwriting platform that generates complete investment models from deal documents. Users upload offering memorandums, rent rolls, and financial statements as PDF, Excel, or CSV; AI extracts the data, flags conflicts between documents with confidence levels for human review, and every figure keeps provenance back to its source. The financial math itself is deterministic rather than AI-generated: the platform builds pro forma operating models (gross rent, vacancy, expenses, NOI), sizes debt by LTV, DSCR, and debt yield constraints, models lease rollovers with tenant improvement costs, and runs base, upside, and downside scenarios with sensitivity grids. All inputs remain editable with the full model recomputing live, and outputs export as Excel workbooks with live formulas, PDF memos, and editable PowerPoint decks. Supported property types include multifamily, office, retail, industrial, self-storage, mixed-use, hospitality, and land development.",
+    "description": "Altyst is a browser-based real estate underwriting platform that generates complete investment models from deal documents. Users upload offering memorandums, rent rolls, and financial statements as PDF, Excel, or CSV; AI extracts the data, flags conflicts between documents with confidence levels for human review, and every figure keeps provenance back to its source. The financial math itself is deterministic rather than AI-generated: the platform builds pro forma operating models (gross rent, vacancy, expenses, NOI), sizes debt by LTV, DSCR, and debt yield constraints, models lease rollovers with tenant improvement costs, and runs base, upside, and downside scenarios with sensitivity grids. All inputs remain editable with the full model recomputing live, and outputs export as Excel workbooks with live formulas (scenario and sensitivity results export as values), PDF memos, and editable PowerPoint decks. The vendor states it does not hold a SOC 2 or ISO 27001 certification. Supported property types include multifamily, office, retail, industrial, self-storage, mixed-use, hospitality, and land development.",
     "short_description": "AI-assisted underwriting that turns OMs and rent rolls into editable, deterministic CRE investment models.",
     "tagline": "The underwriting model, without the Excel.",
     "categories": [
@@ -34158,17 +34174,17 @@
         {
           "name": "Individual",
           "price": "$12/mo",
-          "description": "5 deals per month; additional deals $4 each."
+          "description": "5 deals per month; additional deals $4 each. Fair-use cap of 25 new deals a month; billed monthly."
         },
         {
           "name": "Professional",
           "price": "$24/mo",
-          "description": "15 deals per month; additional deals $3 each."
+          "description": "15 deals per month; additional deals $3 each. Fair-use cap of 60 new deals a month; billed monthly."
         },
         {
           "name": "Team",
           "price": "$99/mo",
-          "description": "75 deals per month, 5 seats; additional deals $3 each."
+          "description": "75 deals per month, 5 seats; additional deals $3 each. Fair-use cap of 200 new deals a month; billed monthly."
         },
         {
           "name": "Enterprise",
@@ -34186,7 +34202,8 @@
     "cons": [
       "New product with little track record and no independent reviews or coverage yet",
       "No free trial or free tier",
-      "Per-deal caps mean heavy screening workflows incur extra per-deal charges"
+      "Per-deal caps mean heavy screening workflows incur extra per-deal charges",
+      "No SOC 2 or ISO 27001 certification, as the vendor's security page states"
     ],
     "deployment": [
       "Cloud"
@@ -34204,10 +34221,13 @@
       "Office",
       "Retail",
       "Industrial",
-      "Mixed-Use"
+      "Self-Storage",
+      "Mixed-Use",
+      "Hospitality",
+      "Land"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -35115,7 +35135,7 @@
     "url": "https://apers.app",
     "logo_url": "/img/logos/apers.png",
     "headline": "AI that reads the deal, builds the Excel model, and writes the memo.",
-    "description": "Apers is an AI system for institutional real estate that reads deal documents, builds the financial model, and writes the memo end to end. Its UDPE engine extracts structured data from unstructured documents such as offering memos, rent rolls, appraisals, and tax returns, flagging conflicts during reconciliation, while the XL-2 engine converts plain-language descriptions into formula-based Excel models. A deal workflow layer handles acquisition underwriting, waterfall modeling, debt sizing, and IC memo generation, drawing on a pre-built model library that also covers development and ground leases. It targets REITs, private equity firms, family offices, affordable housing organizations, boutique funds, and developers. Published plans run from Basic at $19/month to Pro at $99/month, with custom enterprise pricing and a free trial.",
+    "description": "Apers is an AI system for institutional real estate that reads deal documents, builds the financial model, and writes the memo end to end. Its UDPE engine extracts structured data from unstructured documents such as offering memos, rent rolls, T-12s, appraisals, ARGUS exports, and tax returns, flagging conflicts during reconciliation, while the XL-2 engine converts plain-language descriptions into formula-based Excel models. A deal workflow layer handles acquisition underwriting, waterfall modeling, debt sizing, and IC memo generation, drawing on a pre-built model library that also covers development and ground leases. It targets REITs, private equity firms, family offices, affordable housing organizations, boutique funds, and developers. Published plans run from Basic at $19/month to Pro at $99/month, with custom enterprise pricing; sign-up starts free with no credit card required.",
     "short_description": "AI that turns deal documents into formula-based Excel underwriting models and IC memos.",
     "tagline": "Reads the deal. Builds the model. Writes the memo.",
     "categories": [
@@ -35195,12 +35215,12 @@
         {
           "name": "Basic",
           "price": "$19/month",
-          "description": "100 credits, AI deal analysis, document ingestion (PDF, Excel, Word), long document processing."
+          "description": "100 monthly credits, AI deal analysis, document ingestion (PDF, Excel, Word), long document processing."
         },
         {
           "name": "Pro",
           "price": "$99/month",
-          "description": "10x usage, institutional-grade Excel modeling, workflow automation, thesis simulation, knowledge library."
+          "description": "1,000 monthly credits, XL-2 institutional-grade Excel modeling, Playbook, Max Mode, workflow automation and knowledge library."
         },
         {
           "name": "Enterprise",
@@ -35217,7 +35237,8 @@
     "cons": [
       "Credit-based usage limits on published plans",
       "Young product with a limited public track record",
-      "Excel-workbook-centric output assumes teams live in Excel"
+      "Excel-workbook-centric output assumes teams live in Excel",
+      "Not SOC 2 certified, as the vendor's security page states"
     ],
     "deployment": [
       "Cloud"
@@ -35235,7 +35256,7 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -35560,7 +35581,7 @@
     "url": "https://archer.re",
     "logo_url": "/img/logos/archer.png",
     "headline": "AI-driven underwriting, deal parsing, and pipeline tracking for CRE teams.",
-    "description": "Archer is an AI platform that automates commercial real estate analysis for investors, brokers, lenders, and property managers. It parses deal documents automatically, underwrites assets, and benchmarks assumptions using proprietary market analysis models. Teams manage their deal pipeline and sourcing strategy in the same interface, generate broker opinions of value (BOVs), and use Excel integration to build custom data workflows. The product is cloud SaaS accessed at app.archer.re; pricing is not published and evaluation runs through a demo.",
+    "description": "Archer is an AI platform that automates multifamily real estate analysis for investors, brokers, lenders and property managers, and now describes itself as a multifamily real estate intelligence platform. It parses rent rolls and T-12s automatically (the vendor says in under 10 seconds), underwrites assets, loads a firm's own Excel model, and benchmarks assumptions using proprietary market analysis models and comps. Teams manage their deal pipeline and sourcing strategy in the same interface and generate broker opinions of value, with add-ons for asset management, loan servicing and sourcing. Archer RE Inc. was founded in 2019. Pricing combines an annual platform fee with a usage, deals or unlimited option, all with unlimited users; the pricing page headline lists multifamily underwriting from $500 a month.",
     "short_description": "AI platform that parses deal documents, automates underwriting, and tracks CRE deal pipelines.",
     "tagline": "Automate your CRE analysis",
     "categories": [
@@ -35627,9 +35648,10 @@
       }
     ],
     "pricing": {
-      "model": "Subscription (custom quote)",
+      "model": "Subscription (annual platform fee)",
       "free_trial": false,
-      "free_tier": false
+      "free_tier": false,
+      "starting_price": "$500/month"
     },
     "pros": [
       "Combines parsing, underwriting, market analysis, and pipeline in one platform",
@@ -35637,7 +35659,7 @@
       "Excel integration preserves existing modeling workflows"
     ],
     "cons": [
-      "No published pricing; demo-led sales process",
+      "Only an entry figure is published; plan details need a demo",
       "Broad scope means depth varies by module",
       "AI-parsed outputs still require analyst review for institutional use"
     ],
@@ -35645,7 +35667,8 @@
       "Cloud"
     ],
     "company": {
-      "name": "Archer RE Inc."
+      "name": "Archer RE Inc.",
+      "founded": 2019
     },
     "domain": "archer.re",
     "is_verified": false,
@@ -35657,7 +35680,7 @@
       "Commercial"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -37058,7 +37081,7 @@
     "url": "https://www.trycactus.com",
     "logo_url": "/img/logos/cactus.png",
     "headline": "AI deal analysis with source-backed models for CRE investors and lenders.",
-    "description": "Cactus is an AI platform that automates commercial real estate deal analysis with source-backed, audit-ready outputs. Users upload property documents such as rent rolls and T-12s; the platform extracts the data, validates assumptions against market data, and generates financial models, pro formas, and presentations, with Excel export that preserves formulas. Modules cover financial analysis, market intelligence (real-time comps, tax data, and insurance calculations), site selection supply-demand analysis, and an agent builder for automated sourcing and underwriting workflows. It focuses on multifamily and self-storage with support for additional asset classes on higher tiers, and every plan includes unlimited users. Pricing is quote-based across Core, Plus, and Max tiers, with a 7-day free trial.",
+    "description": "Cactus is an AI platform that automates commercial real estate deal analysis with source-backed, audit-ready outputs. Users upload property documents such as offering memorandums, rent rolls, T-12s, P&Ls and budgets; the platform extracts the data, validates assumptions against market data, and generates financial models, pro formas, and presentations, with Excel export that preserves formulas. Modules cover financial analysis, market intelligence (real-time comps, tax data, and insurance calculations), site selection supply-demand analysis, and an agent builder for automated sourcing and underwriting workflows. Multifamily and self-storage are fully supported, while industrial, retail, office, hospitality and land are in beta or early access and gated to the top tier, and every plan includes unlimited users. Pricing is quote-based across Core, Plus, and Max tiers, with a 7-day free trial.",
     "short_description": "AI underwriting that turns rent rolls and T-12s into audit-ready models, comps, and pro formas.",
     "tagline": "Defensible deal analysis, backed by sources",
     "categories": [
@@ -37178,7 +37201,7 @@
       "Commercial"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -37293,7 +37316,7 @@
     "url": "https://clik.ai",
     "logo_url": "/img/logos/clik-ai.png",
     "headline": "AI-automated underwriting and data operations for CRE lenders and investors.",
-    "description": "Clik.ai provides AI-automated underwriting, servicing, and data-operations software for commercial real estate institutions. Its AutoUW module extracts rent rolls and operating statements into underwriting models, and companion modules cover investment analysis (InvestAssist), Fannie Mae and Freddie Mac agency workbook population, lease abstraction and audit, loan onboarding and digitization, and portfolio analytics dashboards. The platform is aimed at lenders, banks, brokerages, and institutional investment teams. Alongside the software, Clik.ai offers professional services such as custom financial modeling and CRE technology consulting. Pricing is not published.",
+    "description": "Clik.ai provides AI-automated underwriting, servicing and data-operations software for commercial real estate lenders and investors. Its AutoUW module reads rent rolls, operating statements and T-12s (Excel, PDF, scanned PDF, image or Word files, or through an API) into lender-specific, Excel-compatible underwriting models, with an Excel add-in that keeps them in sync. Companion modules cover investment analysis (InvestAssist), Fannie Mae and Freddie Mac agency workbook population, loan onboarding and portfolio analytics, and asset classes span multifamily, office, retail, industrial, hotel, healthcare, senior housing and student housing. Lease abstraction is offered as a tech-enabled service: 50+ fields, each referenced to the source lease section and page, with a 24-hour turnaround. Integrations include Salesforce and a Trepp partnership. Customers named on the site include Newmark, Lument, Northmarq, Colliers, Heitman and Webster Bank. The company is based in Toronto, and pricing is not published.",
     "short_description": "AI extraction and automated underwriting of rent rolls and financials for CRE lenders and institutions.",
     "tagline": "Automated underwriting infrastructure for CRE",
     "categories": [
@@ -37382,13 +37405,24 @@
     "pricing_model": "Subscription",
     "is_free": false,
     "property_types": [
-      "Commercial",
-      "Multifamily"
+      "Multifamily",
+      "Office",
+      "Retail",
+      "Industrial",
+      "Hospitality",
+      "Healthcare",
+      "Senior Housing",
+      "Student Housing"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "integrations": [
+      "Salesforce",
+      "Trepp",
+      "Excel"
+    ]
   },
   {
     "title": "CloudPano",
@@ -39010,7 +39044,7 @@
     "url": "https://eliseai.com",
     "logo_url": "/img/logos/eliseai.png",
     "headline": "Agentic AI that automates leasing, resident, and operations conversations.",
-    "description": "EliseAI is an agentic AI platform that automates communications and operational workflows for housing operators, handling messages, calls, and tasks across voice, SMS, email, and web chat. The AI schedules tours, answers complex prospect questions, and follows up with leads, and extends into resident workflows such as maintenance request automation, renewals, delinquency management, and move-in assistance. It includes EliseCRM and integrates with operators' existing systems, and the company also offers healthcare modules for scheduling, reminders, and intake. EliseAI targets multifamily, single-family rental, student housing, and affordable housing operators, and is built by Elise A.I. Technologies Corp. in New York.",
+    "description": "EliseAI is an agentic AI platform that automates communications and operational workflows for housing operators, handling messages, calls, and tasks across voice, SMS, email, and web chat. The AI schedules tours, answers complex prospect questions, and follows up with leads, and extends into resident workflows such as maintenance request automation, renewals, delinquency management, and move-in assistance. Voice works in seven languages and written replies in 51. It includes EliseCRM and integrates with systems such as Rent Manager, ResMan, Funnel, Bluemoon and Zillow Rentals, and the company also offers healthcare modules for scheduling, reminders, and intake. The company says it is used by more than 900 property management companies, naming Equity Residential and LeFrak among them. EliseAI targets conventional multifamily, single-family rental, student housing, and affordable housing operators, and is built by Elise A.I. Technologies Corp. in New York.",
     "short_description": "Agentic AI for housing operators automating leasing, tours, and resident comms across voice, SMS, email, and chat.",
     "tagline": "More than a chatbot for property operations.",
     "categories": [
@@ -39107,7 +39141,7 @@
       "Affordable Housing"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -40239,7 +40273,7 @@
     "url": "https://funnelleasing.com",
     "logo_url": "/img/logos/funnel-leasing.png",
     "headline": "AI front office and renter-centric CRM for multifamily leasing teams.",
-    "description": "Funnel is a multifamily front-office platform combining a renter-centric CRM with agentic AI that engages prospects and residents 24/7 across email, chat, SMS, and voice. It covers the leasing lifecycle with online leasing and fraud detection, AI workflows for lead nurturing, voice AI with call answering and scoring, contact center software, and reporting dashboards, plus a resident portal (Nestio) for payments, maintenance requests, and renewals. Leasing agents work from a consolidated My Queue dashboard rather than per-property pipelines. The platform is PMS-agnostic, integrating with systems such as Yardi, RealPage, and Entrata, and is used by large multifamily operators and REITs.",
+    "description": "Funnel is a multifamily front-office platform combining a renter-centric CRM with agentic AI that engages prospects and residents 24/7 across email, chat, SMS, and voice. It covers the leasing lifecycle with online leasing and fraud detection, AI workflows for lead nurturing, voice AI with call answering and scoring, contact center software, and reporting dashboards, plus a resident portal (Nestio) for payments, maintenance requests, and renewals. Leasing agents work from a consolidated My Queue dashboard rather than per-property pipelines. Its AI is branded Fenix, and it is sold as an Agent Platform (CRM, communications and Fenix) with an optional Renter Platform for applications, screening, payments and renewals. The platform is PMS-agnostic, integrating with Yardi, RealPage, Entrata and ResMan, and Funnel says it powers 2 million units for operators including Camden, Essex, MAA and UDR.",
     "short_description": "Multifamily front-office platform: renter-centric CRM, online leasing, resident portal, and 24/7 agentic AI.",
     "tagline": "Multifamily's AI front office.",
     "categories": [
@@ -40343,7 +40377,7 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -41562,7 +41596,7 @@
     "url": "https://intellcre.com",
     "logo_url": "/img/logos/intellcre.png",
     "headline": "AI underwriting plus automated OMs, BOVs, and marketing for CRE teams.",
-    "description": "IntellCRE is an AI platform that combines commercial real estate underwriting with automated marketing production. It generates offering memorandums, brochures, pitch decks, listing websites, and flipbooks from deal data, while the underwriting side covers financial modeling, sensitivity analysis, equity waterfall modeling, and broker opinions of value. Comparable analysis draws on a database of 150 million property records, and deal sourcing tools (Dealfinder and Dealbox) surface opportunities. Data imports support Excel and PDF, brand customization templates keep output on-brand, and a concierge service can produce materials hands-on. A free trial is offered; full pricing requires a demo.",
+    "description": "IntellCRE is an AI platform that combines commercial real estate underwriting with automated marketing production for brokers. It generates offering memorandums, broker opinions of value, pitch decks, brochures, listing websites and flipbooks from deal data. The underwriting side starts from an address or from uploaded rent rolls, T-12s and operating statements (Excel or PDF) read by its rent roll and T-12 parsers, and covers financial modeling, sensitivity analysis, equity waterfalls and valuation. Comparable analysis draws on 150 million residential and multifamily property records, deal sourcing tools (Dealfinder and Dealbox) surface opportunities, and a concierge service can produce materials hands-on. It lists twelve property types, from multifamily and office to net lease, self-storage and mobile home parks. Pricing is not published; the site offers sign-up and a booked call.",
     "short_description": "AI platform for CRE underwriting, comps, BOVs, and auto-generated offering memorandums.",
     "tagline": "The AI deal flow engine for CRE",
     "categories": [
@@ -41638,13 +41672,13 @@
     ],
     "pricing": {
       "model": "Subscription (custom quote)",
-      "free_trial": true,
+      "free_trial": false,
       "free_tier": false
     },
     "pros": [
       "Unusual combination of underwriting and marketing-asset generation in one tool",
-      "Large national property-record database for comps and sourcing",
-      "Free trial available, with a concierge option for hands-off production"
+      "Large property-record database (150 million residential and multifamily records) for comps and sourcing",
+      "Concierge option for hands-off production of marketing materials"
     ],
     "cons": [
       "No published pricing; demo-led for full plans",
@@ -41663,11 +41697,19 @@
     "pricing_model": "Subscription",
     "is_free": false,
     "property_types": [
-      "Commercial",
-      "Multifamily"
+      "Multifamily",
+      "Office",
+      "Medical Office",
+      "Industrial",
+      "Retail",
+      "Land",
+      "Hospitality",
+      "Net Lease",
+      "Self-Storage",
+      "Mixed-Use"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true,
     "screenshots": [
@@ -45623,10 +45665,10 @@
   {
     "title": "Radix Underwriting",
     "slug": "radix-underwriting",
-    "url": "https://www.rediq.com/",
+    "url": "https://radix.com/radix-underwriting/",
     "logo_url": "/img/logos/radix-underwriting.png",
     "headline": "AI multifamily underwriting platform, formerly redIQ, now part of Radix.",
-    "description": "Radix Underwriting is the multifamily underwriting platform formerly known as redIQ, which Radix acquired and is rebranding into its data ecosystem. The platform ingests deal financials and applies AI-driven underwriting models trained on industry data so investors, brokers, and lenders can test scenarios, forecast returns, and analyze market impacts. Features include scenario stress-testing with real-time recalculation, rehab and repositioning analysis comparing as-is versus post-renovation value, and machine-learning forecasting that fills gaps in financial data. It connects to the wider Radix ecosystem (Intelligence, Analytics, RealRents) and supports Excel export. Pricing is not published; demos are sales-led.",
+    "description": "Radix Underwriting is the multifamily underwriting platform formerly known as redIQ. Radix announced the acquisition in August 2024 and is moving the product into its data ecosystem; the redIQ site still carries a banner saying the final cutover is coming. The platform ingests rent rolls, operating statements and T-12s as PDF or Excel, and can pull data from property management systems including Yardi, Entrata, ResMan and AMSI. It flags anomalies, uses machine learning to fill gaps in incomplete financials, and auto-populates assumptions from Radix market data, with scenario stress-testing and rehab and repositioning analysis. Outputs are Excel-ready with formulas intact, and a QuickSync Excel add-in pushes data into existing templates. Radix Software holds a SOC 2 Type II report at company level. Customers named on the site include Nuveen, Alliance Residential, Berkadia and Avenue5. Pricing is not published; demos are sales-led.",
     "short_description": "AI underwriting for multifamily deals - the former redIQ platform, rebranded under Radix.",
     "tagline": "AI-powered investment decisions for multifamily",
     "categories": [
@@ -45708,7 +45750,7 @@
     "company": {
       "name": "Radix"
     },
-    "domain": "rediq.com",
+    "domain": "radix.com",
     "is_verified": false,
     "is_featured": false,
     "pricing_model": "Subscription",
@@ -45717,9 +45759,16 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "integrations": [
+      "Yardi",
+      "Entrata",
+      "ResMan",
+      "AMSI",
+      "Excel"
+    ]
   },
   {
     "title": "rDCF",
@@ -46951,7 +47000,7 @@
     "url": "https://respage.com",
     "logo_url": "/img/logos/respage.png",
     "headline": "AI leasing and marketing platform for multifamily communities.",
-    "description": "Respage is an all-in-one platform combining lead generation, AI leasing automation, and marketing operations for the multifamily industry, covering the resident journey from first awareness through renewal. Marketing services include Google Ads, Instagram and Facebook advertising, SEO, social media management, Google Business Profile, and apartment websites. Its AI leasing agent and chatbot answer prospect inquiries and automate follow-up, alongside a Smart Leasing Platform CRM for leasing teams. Reputation and retention tools add review management, a review booster, surveys, and community events and amenities scheduling. The company also serves senior living and affordable housing operators.",
+    "description": "Respage is an all-in-one platform combining lead generation, AI leasing automation, and marketing operations for the multifamily industry, covering the resident journey from first awareness through renewal. Marketing services include Google Ads, Instagram and Facebook advertising, SEO, social media management, Google Business Profile, and apartment websites. Its AI leasing assistant, ResMate, answers prospects across web chat, email, text, phone, Facebook Messenger and ILS leads and books tours, with AI Voice for inbound calls and a Smart Leasing Platform CRM built as an extension of ResMate. Pricing is not published, but Respage describes its structure: the chatbot is a flat rate, the full leasing assistant is priced per unit, AI phone is an add-on, and the CRM and resident chatbot are included with the AI license. Integrations include Yardi, RealPage, Entrata, MRI, AppFolio, ResMan, Rent Manager, AMSI and Knock. Reputation and retention tools add review management, a review booster, surveys, and community events and amenities scheduling. The company also serves senior living and affordable housing operators.",
     "short_description": "Multifamily lead-gen, AI leasing agent, chatbot, CRM, and reputation tools in one platform.",
     "tagline": "AI that simplifies multifamily marketing & leasing.",
     "categories": [
@@ -47050,7 +47099,7 @@
       "Affordable Housing"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -55588,8 +55637,8 @@
     "url": "https://deepblocks.com/",
     "logo_url": "/img/logos/deepblocks.png",
     "headline": "AI site analysis with 3D massing, zoning review, and instant feasibility.",
-    "description": "Deepblocks (Deep Blocks Inc.) builds AI-powered software for early-stage real estate development analysis. Its Developer product produces interactive feasibility studies with assumptions, 3D massing, and return metrics - including pro forma generation, scenario testing, unit mix adjustment, real-time return calculations, and PDF/CSV export. The AIM deal-flow service layers automated property screening, zoning analysis, comparables, and residual land value calculations onto a pipeline CRM, delivering on-market development and value-add opportunities matched to a buyer's criteria at published monthly tiers. A ChatDB tool lets users query demographic and economic data across cities, zip codes, neighborhoods, and census tracts, and the company also offers AI strategy advisory for real estate workflow automation.",
-    "short_description": "AI development feasibility software - 3D massing, zoning analysis, pro formas - plus curated deal flow tiers.",
+    "description": "Deepblocks (Deep Blocks Inc.) builds software for early-stage real estate development analysis in US cities. Its DEV product produces interactive feasibility studies: live 3D massing sits beside an editable pro forma whose return metrics update as assumptions change, with tutorials covering multifamily, condo, retail, office, hotel and industrial schemes. Studies export as branded PDFs, assumptions export to CSV, and models can be shared by link. City coverage is built on request rather than published as a map. A second product, AIM, for site selection, is listed as coming in October 2026, and further modules (market analysis, highest and best use, zoning reports, a data API) are marked coming soon. Pricing is published per month by the number of cities included, from $99.99 (about 5 cities for DEV) to $499.99, with overage billed at the standard rate.",
+    "short_description": "Development feasibility software for US cities: live 3D massing beside an editable pro forma, priced by the number of cities.",
     "tagline": "Interactive feasibility studies with 3D massing and return metrics",
     "categories": [
       "Data & Analytics",
@@ -55616,91 +55665,76 @@
     },
     "feature_groups": [
       {
-        "name": "Feasibility & 3D Massing (Developer)",
+        "name": "Feasibility & 3D Massing (DEV)",
         "features": [
           {
             "name": "Interactive Feasibility Studies",
-            "description": "Adjustable assumptions, 3D massing, and return metrics for early-stage deals."
+            "description": "Adjustable assumptions with live 3D massing and return metrics for early-stage deals."
           },
           {
-            "name": "Pro Forma & Scenarios",
-            "description": "Cost and income modeling, scenario testing, unit mix adjustment, and real-time return calculations."
+            "name": "Editable Pro Forma",
+            "description": "Cost and income assumptions with returns recalculated as inputs or massing change."
           },
           {
             "name": "Reporting & Export",
-            "description": "PDF reports and CSV export with shareable model links."
+            "description": "Branded PDF reports, CSV export of assumptions and shareable model links."
           }
         ]
       },
       {
-        "name": "Deal Flow (AIM)",
+        "name": "Coverage & Roadmap",
         "features": [
           {
-            "name": "Automated Screening",
-            "description": "On-market development and value-add opportunities selected around your criteria."
+            "name": "US City Coverage",
+            "description": "Cities are built on request; plans include a set number of cities."
           },
           {
-            "name": "Zoning & Valuation Analysis",
-            "description": "Automated zoning analysis, comparable analysis, and a residual land value calculator."
-          },
-          {
-            "name": "Pipeline Management",
-            "description": "CRM-style pipeline that integrates with Developer feasibility models."
-          }
-        ]
-      },
-      {
-        "name": "Market Intelligence",
-        "features": [
-          {
-            "name": "ChatDB",
-            "description": "Conversational queries over demographic and economic data across cities, zips, neighborhoods, and census tracts."
+            "name": "AIM Site Selection",
+            "description": "Listed as coming in October 2026."
           }
         ]
       }
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": "$499/month (AIM 2 deal-flow tier)",
+      "starting_price": "$99.99/month",
+      "billing_options": [
+        "Monthly"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": [
         {
-          "name": "AIM 2",
-          "price": "$499/mo",
-          "description": "2 curated deals per month with zoning, comps, and residual land value analysis."
+          "name": "DEV (about 5 cities)",
+          "price": "$99.99/month",
+          "description": "Feasibility studies with 3D massing and pro forma; overage billed at the standard rate."
         },
         {
-          "name": "AIM 4",
-          "price": "$999/mo",
-          "description": "4 deals per month."
+          "name": "DEV (about 16 cities)",
+          "price": "$299.99/month",
+          "description": "More cities and included usage."
         },
         {
-          "name": "AIM 8",
-          "price": "$1,999/mo",
-          "description": "8 deals per month."
+          "name": "DEV (about 30 cities)",
+          "price": "$499.99/month",
+          "description": "Largest published DEV tier."
         },
         {
-          "name": "AIM 16",
-          "price": "$3,999/mo",
-          "description": "16 deals per month."
-        },
-        {
-          "name": "AIM 32",
-          "price": "$7,999/mo",
-          "description": "32 deals per month."
+          "name": "AIM (coming October 2026)",
+          "price": "$99.99 to $499.99/month",
+          "description": "Site selection, about 3 to 24 cities by tier; listed as not yet available."
         }
       ]
     },
     "pros": [
-      "Automates zoning review and highest-and-best-use style analysis that is normally manual",
-      "3D massing plus financial returns in one early-stage model",
-      "Published deal-flow pricing tiers, unusual in this category"
+      "3D massing and a live pro forma in one early-stage model",
+      "Published monthly pricing starting under $100, unusual for feasibility software",
+      "Branded PDF and CSV exports make studies easy to share with partners"
     ],
     "cons": [
-      "Pricing for the core Developer software is not published",
-      "AIM deal-flow tiers start at $499/month, steep for occasional users",
-      "Mixes software with advisory services, so scope varies by engagement"
+      "US cities only, and coverage is built on request rather than published",
+      "Several modules, including AIM site selection, are still listed as coming soon",
+      "Plans are capped by city count, with overage billed separately"
     ],
     "deployment": [
       "Cloud"
@@ -55719,7 +55753,7 @@
       "Land"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -58226,7 +58260,7 @@
     "url": "https://www.henry.ai",
     "logo_url": "/img/logos/henry.png",
     "headline": "AI copilot for CRE brokers: underwriting models, pitch decks, and buyer lists.",
-    "description": "Henry is an AI copilot built for commercial real estate brokerage teams. It builds custom Excel underwriting models from a firm's own assumptions, generates pitch decks and marketing materials on brand templates, runs market research and comp analysis with cited sources, and identifies buyer universes from CRM data and transaction history. It works inside the tools brokers already use - email, Excel, and chat - without a separate login. The site says Henry is used by teams at more than 150 firms, including brokers at Colliers, JLL, Newmark, and Marcus & Millichap, managing over $150B in deal value. The company announced a $16.5M Series A in 2026, is backed by Y Combinator and FirstMark Capital, and is SOC 2 Type II certified. Pricing is by sales call.",
+    "description": "Henry is an AI copilot built for commercial real estate brokerage teams. It builds custom Excel underwriting models from a firm's own assumptions, generates pitch decks and marketing materials on brand templates, runs market research and comp analysis with cited sources, and identifies buyer universes from CRM data and transaction history. It works inside the tools brokers already use - email, Excel, and chat - without a separate login. The site says Henry is used by teams at more than 150 firms, including teams from the largest CRE brokerages, with over $150B in underlying deal value; Colliers is named in a testimonial. Founded in 2024, the company raised a $16.5M Series A led by FirstMark in July 2026, is backed by Y Combinator, and is SOC 2 Type II certified. Pricing is by sales call.",
     "short_description": "AI copilot that automates underwriting, pitch decks, research, and buyer lists for CRE brokerage teams.",
     "tagline": "Walk in ready.",
     "categories": [
@@ -58310,7 +58344,8 @@
       "Cloud"
     ],
     "company": {
-      "name": "Henry AI"
+      "name": "Henry AI",
+      "founded": 2024
     },
     "domain": "henry.ai",
     "is_verified": false,
@@ -58321,7 +58356,7 @@
       "Commercial"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -61823,7 +61858,7 @@
     "url": "https://www.planswift.com",
     "logo_url": "",
     "headline": "Point-and-click desktop takeoff and estimating for construction trades.",
-    "description": "PlanSwift is desktop takeoff and estimating software that converts architectural plans into measurable quantities and bid-ready estimates. Estimators use point-and-click and drag-and-drop tools to measure areas, lengths, and counts directly on digital plans. Its Takeoff Boost AI suite adds Auto Takeoff for preset-driven initial measurements, Auto Count for symbol recognition across multiple plans, Auto Scale for batch scaling entire plan sets, and Auto Bookmark for AI-generated plan navigation. The product is operated by ConstructConnect and serves general contractors and specialty trades including concrete, drywall, electrical, flooring, framing, HVAC, landscape, painting, and plumbing. A 14-day free trial is available with no credit card required.",
+    "description": "PlanSwift is desktop takeoff and estimating software that converts architectural plans into measurable quantities and bid-ready estimates. Estimators use point-and-click and drag-and-drop tools to measure areas, lengths, and counts directly on digital plans. Its Takeoff Boost AI suite adds Auto Takeoff, which generates areas, lengths, counts and wall types, Auto Count for symbol recognition across multiple plans, Auto Scale for batch scaling entire plan sets, and Auto Bookmark for AI-generated plan navigation. The product is operated by ConstructConnect and serves general contractors and specialty trades including concrete, drywall, electrical, flooring, framing, HVAC, landscape, painting, and plumbing. It runs on Windows only. Pricing is published: Essential at $2,000 a year and Core, which adds Auto Takeoff, at $3,000 a year, each for one seat, with a 14-day free trial and no credit card required.",
     "short_description": "Desktop point-and-click takeoff and estimating software for general and specialty contractors.",
     "tagline": "Turn plans into takeoffs and estimates with point-and-click tools.",
     "categories": [
@@ -61877,8 +61912,29 @@
     ],
     "pricing": {
       "model": "Subscription",
+      "starting_price": "$2,000/year",
+      "billing_options": [
+        "Annual"
+      ],
       "free_trial": true,
-      "free_tier": false
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Essential",
+          "price": "$2,000/year",
+          "description": "One seat. Includes Auto Count, Auto Scale and Auto Bookmark."
+        },
+        {
+          "name": "Core",
+          "price": "$3,000/year",
+          "description": "One seat. Adds the full Takeoff Boost suite, including Auto Takeoff."
+        },
+        {
+          "name": "Volume",
+          "price": "Quote",
+          "description": "Volume pricing for 10 or more licenses."
+        }
+      ]
     },
     "pros": [
       "Long-established takeoff tool with a large installed base across many trades",
@@ -61887,7 +61943,7 @@
     ],
     "cons": [
       "Windows desktop software rather than a cloud platform, limiting anywhere access",
-      "Pricing is not published; quotes go through sales",
+      "Auto Takeoff is only in the higher Core plan, at $3,000 per seat per year",
       "Estimating is lighter-weight than dedicated cost-estimating platforms"
     ],
     "deployment": [
@@ -61906,7 +61962,7 @@
       "Residential"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -65696,7 +65752,7 @@
       "plans": [
         {
           "name": "Takeoff & Estimate",
-          "price": "Starting at $249/user/month",
+          "price": "Starting at $299/user/month",
           "description": "Quantity, labor, and material takeoff; flexible estimates and proposals; unlimited plans and projects. Free version available for new users."
         },
         {
@@ -65706,7 +65762,7 @@
         },
         {
           "name": "Full STACK Platform",
-          "price": "Starting at $298/user/month",
+          "price": "Starting at $348/user/month",
           "description": "Plan measurement and markup, integrated estimating, and field and project management."
         }
       ]
@@ -65740,7 +65796,7 @@
       "Commercial"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -66058,7 +66114,7 @@
     "url": "https://www.togal.ai",
     "logo_url": "/img/logos/togal-ai.png",
     "headline": "AI takeoff software that auto-detects and measures spaces on drawings.",
-    "description": "Togal.AI is cloud-based, AI-powered construction takeoff software that automatically detects, measures, and labels spaces and features directly on building drawings. The company states its AI reaches up to 98% detection accuracy and lets estimators complete takeoffs about five times faster than manual methods. Togal.CHAT lets users ask questions of their construction plans conversationally, drawing comparison quantifies changes between versions, and Togal Assemblies builds up assemblies during takeoff. The platform supports real-time collaboration among multiple team members and multiple file types. It targets estimators at general contractors and specialty trades including drywall, electrical, mechanical, plumbing, painting, and flooring.",
+    "description": "Togal.AI is cloud-based, AI-powered construction takeoff software that automatically detects, measures, and labels spaces and features directly on building drawings. The company states its AI reaches up to 98% detection accuracy and lets estimators complete takeoffs about five times faster than manual methods. Togal.CHAT lets users ask questions of their construction plans conversationally, drawing comparison quantifies changes between versions,, image search finds matching symbols across a plan set, and results export to Excel or other estimating tools. The platform supports real-time collaboration among multiple team members and multiple file types. It targets estimators at general contractors and specialty trades including doors and hardware, drywall, electrical, flooring, framing, glazing and painting. Pricing is published: the Growth plan is $299 per user per month billed yearly, and a custom Business plan covers teams of four or more.",
     "short_description": "AI-powered takeoff that auto-detects and measures spaces on drawings, with chat-based plan Q&A.",
     "tagline": "Takeoff in minutes, not days.",
     "categories": [
@@ -66095,8 +66151,8 @@
             "description": "Compares drawing versions and quantifies changes between them."
           },
           {
-            "name": "Togal Assemblies",
-            "description": "Build assemblies during takeoff to move from quantities toward pricing."
+            "name": "Image & Symbol Search",
+            "description": "Box-select an item on a sheet to find matching instances across the plan set."
           }
         ]
       },
@@ -66116,8 +66172,24 @@
     ],
     "pricing": {
       "model": "Subscription",
+      "starting_price": "$299/user/month",
+      "billing_options": [
+        "Annual"
+      ],
       "free_trial": false,
-      "free_tier": false
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Growth",
+          "price": "$299/user/month, billed yearly",
+          "description": "Unlimited automated takeoffs, chat prompts and image or symbol searches, with internal and external collaboration."
+        },
+        {
+          "name": "Business",
+          "price": "Custom",
+          "description": "For teams of 4 or more users: onboarding, a dedicated rep, a classification library template, quantity discounts, security compliance and SSO."
+        }
+      ]
     },
     "pros": [
       "Automates the most time-consuming part of estimating - detecting and measuring spaces",
@@ -66125,7 +66197,7 @@
       "Cloud-based with real-time multi-user collaboration"
     ],
     "cons": [
-      "No published pricing; demo-led sales process",
+      "Growth plan is $299 per user per month billed yearly, with no free trial or free tier",
       "Takeoff-focused - estimating and bid management still happen in other tools",
       "AI auto-detection accuracy claims still warrant verification on your own drawing sets"
     ],
@@ -66144,7 +66216,7 @@
       "Commercial"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -68239,7 +68311,7 @@
     "url": "https://www.abstria.com",
     "logo_url": "/img/logos/abstria.png",
     "headline": "AI lease abstraction for commercial real estate, with every extracted field linked back to its source clause.",
-    "description": "Abstria is a lease abstraction tool for commercial real estate teams. Users upload leases, amendments, SNDAs, estoppels, LOIs and related documents as PDFs, and the software extracts more than 200 structured fields per lease, with each field hyperlinked to the page and clause it came from. Results open in a dual-panel editor beside the source PDF for review, and uploaded amendments are compared against the original lease so changed values appear side by side. Leases are organized in a building, tenant and document hierarchy, and a portfolio assistant answers plain-language questions such as which leases expire in the next 90 days. Abstracts export to PDF or Word through reusable export profiles, and the app has admin and contributor roles, an audit trail and a review status workflow. Enterprise plans add Microsoft single sign-on, SharePoint Online document sourcing and export, and API access. Abstria is built and run by Al Rafay Consulting, LLC, a Microsoft Solutions Partner based in Bolingbrook, Illinois, and is hosted on Azure. A self-serve free trial is available; paid pricing is not published.",
+    "description": "Abstria is a lease abstraction tool for commercial real estate teams. Users upload leases, amendments, SNDAs, estoppels, LOIs and related documents as PDFs, and the software extracts more than 200 structured fields per lease, with each field hyperlinked to the page and clause it came from. Results open in a dual-panel editor beside the source PDF for review, and uploaded amendments are compared against the original lease so changed values appear side by side. Leases are organized in a building, tenant and document hierarchy, and a portfolio assistant answers plain-language questions such as which leases expire in the next 90 days. Abstracts export to PDF or Word through reusable export profiles, and the app has admin and contributor roles, an audit trail and a review status workflow. Enterprise plans add Microsoft single sign-on and API access, and SharePoint integration is offered as a custom engagement. Abstria is built and run by Al Rafay Consulting, LLC, a Microsoft Solutions Partner based in Bolingbrook, Illinois, and is hosted on Azure. A self-serve free trial is available; paid pricing is not published.",
     "short_description": "Extracts 200+ source-linked fields from CRE leases and amendments, with portfolio Q&A and PDF or Word exports.",
     "tagline": "Lease abstracts in minutes, every field traced to its clause.",
     "categories": [
@@ -68349,9 +68421,9 @@
       "Backed by an established Microsoft partner consultancy rather than a solo founder"
     ],
     "cons": [
-      "New product (launched 2025) with a thin track record and few independent user reviews",
+      "New product with a thin track record and few independent user reviews",
       "No published pricing; paid plans require contacting sales",
-      "SSO, SharePoint and API access are limited to Enterprise plans",
+      "SSO and API access are Enterprise-only, and SharePoint integration is a custom engagement",
       "Accuracy and speed figures on the site are vendor claims"
     ],
     "deployment": [
