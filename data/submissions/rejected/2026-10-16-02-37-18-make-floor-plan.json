@@ -11,5 +11,7 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-16T02:37:18.142Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "non-CRE (AI floor plan concept generator, mostly home layouts); domain registered Jul 2026, submitted by an AI assistant",
+  "processed_at": "2026-10-20"
 }

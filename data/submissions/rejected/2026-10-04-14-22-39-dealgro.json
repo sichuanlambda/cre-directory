@@ -11,5 +11,7 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-04T14:22:39.175Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "unverifiable (no address or full founder name on the site, no independent source; product still in beta on an older domain; submission says free but paid plans start at $49.95/mo)",
+  "processed_at": "2026-10-20"
 }

@@ -11,5 +11,7 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-17T13:14:13.543Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "non-CRE (residential foreclosure leads); no legal entity or named people, stock-name testimonials, implausible scale claims",
+  "processed_at": "2026-10-20"
 }

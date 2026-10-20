@@ -11,5 +11,7 @@
   "screenshot_urls": "https://www.rrentos.com",
   "submitted_at": "2026-10-20T09:23:37.918Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "non-CRE (residential mid-term rental PMS); domain registered Jul 2026, conflicting scale claims, no independent source",
+  "processed_at": "2026-10-20"
 }

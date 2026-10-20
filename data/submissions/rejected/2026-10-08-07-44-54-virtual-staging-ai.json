@@ -11,5 +11,7 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-08T07:44:54.712Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "new-company scrutiny (domain registered Jul 2026, demo mode only, mostly residential); name copies the existing Virtual Staging AI listing (virtualstagingai.app)",
+  "processed_at": "2026-10-20"
 }

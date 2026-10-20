@@ -11,5 +11,7 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-15T04:52:34.406Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "new-company scrutiny (domain registered Aug 2026, founding beta membership, no independent source); wholesaler buyer-review site rather than CRE software",
+  "processed_at": "2026-10-20"
 }

@@ -11,5 +11,7 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-12T17:32:46.751Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "non-CRE (AI music generator)",
+  "processed_at": "2026-10-20"
 }

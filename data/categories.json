@@ -345,7 +345,7 @@
     "name": "Investment & Valuation",
     "slug": "investment-valuation",
     "description": "Underwriting, financial modeling, and deal analysis tools for acquisitions, dispositions, and fund management. Build pro formas, stress-test assumptions, and present to investors with confidence.",
-    "product_count": 106,
+    "product_count": 107,
     "products": [
       "altus-group",
       "argus",
@@ -452,7 +452,8 @@
       "top-shelf-models",
       "yardi-matrix",
       "zilculator",
-      "homesage-ai"
+      "homesage-ai",
+      "minervian-ai"
     ],
     "seo_title": "Best Investment & Valuation Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare investment analysis and property valuation software for commercial real estate. Tools for DCF modeling, portfolio analytics, underwriting, and asset management.",
@@ -1281,7 +1282,7 @@
     "name": "AI & Automation",
     "slug": "ai-automation",
     "description": "AI-powered tools transforming CRE workflows, from automated document extraction and lease abstraction to predictive analytics and intelligent property matching.",
-    "product_count": 105,
+    "product_count": 107,
     "products": [
       "alteryx",
       "capital-brain",
@@ -1387,7 +1388,9 @@
       "mergro",
       "rentology",
       "the-property-ai",
-      "imaageq"
+      "imaageq",
+      "minervian-ai",
+      "abstria"
     ],
     "seo_title": "Best AI & Automation Tools for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare AI and automation tools for commercial real estate. Find platforms using artificial intelligence for property analysis, document processing, market prediction, and workflow automation.",
@@ -1589,7 +1592,7 @@
     "name": "Legal & Compliance",
     "slug": "legal-compliance",
     "description": "Lease review, contract management, and regulatory compliance tools for commercial real estate. Automate abstraction, track obligations, and reduce legal risk across your portfolio.",
-    "product_count": 24,
+    "product_count": 25,
     "products": [
       "opencounter",
       "visuallease",
@@ -1614,7 +1617,8 @@
       "propdocs",
       "pulley",
       "qualia",
-      "skyslope"
+      "skyslope",
+      "abstria"
     ],
     "seo_title": "Best Legal & Compliance Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare legal and compliance tools for commercial real estate. Find software for lease review, regulatory compliance, zoning analysis, and risk management.",

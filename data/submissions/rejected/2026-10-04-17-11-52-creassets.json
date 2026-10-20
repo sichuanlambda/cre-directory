@@ -11,5 +11,7 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-04T17:11:52.470Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "unverifiable (handles investor money but names no legal entity and its platform terms are unfinished; team of ten untraceable; no independent source)",
+  "processed_at": "2026-10-20"
 }

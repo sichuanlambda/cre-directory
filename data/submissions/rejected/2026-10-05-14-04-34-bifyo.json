@@ -11,5 +11,7 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-05T14:04:34.976Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "new-company scrutiny (domain registered Sep 2026, registered-agent address only, no named people, no independent source, submitted pricing does not match the site)",
+  "processed_at": "2026-10-20"
 }

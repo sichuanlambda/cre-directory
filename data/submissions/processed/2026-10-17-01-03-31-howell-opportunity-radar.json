@@ -11,5 +11,8 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-17T01:03:31.892Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "processed",
+  "product_slug": "howell-opportunity-radar",
+  "processed_note": "correction to existing listing: pricing updated to the four tiers on the vendor pricing page; stale record count removed; no duplicate listing created",
+  "processed_at": "2026-10-20"
 }

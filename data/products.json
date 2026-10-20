@@ -67837,7 +67837,7 @@
     "url": "https://radar.howellcommerceco.com",
     "logo_url": "",
     "headline": "Missouri construction opportunity feed: public bids, early project signals and selected private-development leads in one workspace.",
-    "description": "Howell Opportunity Radar is a subscription lead-intelligence tool for contractors, estimators and preconstruction teams working in Missouri. It gathers public-project signals from state, county and municipal sources, including MissouriBUYS, MoDOT and Department of Natural Resources feeds plus local portals, and sorts them by stage: early signal, approved development, public bid or active construction. Records carry trade and supplier tags, a priority score, deadlines and a link back to the official source, and expired public bids are removed automatically. Paying members get a login dashboard with the full statewide feed, territory matching, known project parties such as owners, developers and applicants, and saved projects with notes and a simple pipeline. A limited public sample and a morning brief can be viewed without subscribing. The company describes the product as a research aid and says every record should be verified against the official source; it is not a planroom, takeoff or estimating tool. Coverage is limited to Missouri, and the inventory shown on the site is modest, at roughly 180 records in early October 2026.",
+    "description": "Howell Opportunity Radar is a subscription lead-intelligence tool for contractors, estimators and preconstruction teams working in Missouri. It gathers public-project signals from state, county and municipal sources, including MissouriBUYS, MoDOT and Department of Natural Resources feeds plus local portals, and sorts them by stage: early signal, approved development, public bid or active construction. Records carry trade and supplier tags, a priority score, deadlines and a link back to the official source, and expired public bids are removed automatically. Four monthly tiers from $19 to $129 scale from a single trade and region up to the full statewide feed; members get a login dashboard with territory matching, known project parties such as owners, developers and applicants, and saved projects with notes and a simple pipeline. A limited public sample and a morning brief can be viewed without subscribing. The company describes the product as a research aid and says every record should be verified against the official source; it is not a planroom, takeoff or estimating tool. Coverage is limited to Missouri, and the live inventory is modest next to national bid networks, so check current coverage for your trade and region before subscribing.",
     "short_description": "Stage-sorted feed of Missouri public bids and early construction project signals with official source links.",
     "tagline": "Missouri construction leads, sorted by stage.",
     "categories": [
@@ -67903,27 +67903,48 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": "$79/month",
+      "starting_price": "$19/month",
       "free_trial": false,
       "free_tier": false,
       "plans": [
         {
-          "name": "Radar",
-          "price": "$79/mo",
-          "description": "Full statewide Missouri feed with member dashboard; monthly billing, cancel future renewals anytime, no refund once a period begins."
+          "name": "Starter",
+          "price": "$19/mo",
+          "description": "One Missouri trade and one region; matched public-bid records with official sources and deadlines; member workspace."
+        },
+        {
+          "name": "Plus",
+          "price": "$39/mo",
+          "description": "Up to three trades and three regions; matched public bids plus freshly checked early project signals when available; saved opportunities and notes."
+        },
+        {
+          "name": "Pro",
+          "price": "$69/mo",
+          "description": "Broader statewide Missouri feed across all supported trades and regions, with source-checked project and party details and pipeline tools."
+        },
+        {
+          "name": "Managed",
+          "price": "$129/mo",
+          "description": "Everything in Pro plus one tailored research pack each month with up to 10 potential matching projects."
+        },
+        {
+          "name": "One-time options",
+          "price": "$19 or $199 once",
+          "description": "A $19 Bid Match Mini-Scan (up to 5 matches by email) and a $199 Opportunity Desk Pilot (custom pack plus 14 days of monitoring). Existing $79/month subscribers keep their terms."
         }
       ]
     },
     "pros": [
-      "Single published price of $79/month with online checkout and no sales call",
+      "Published tiered pricing from $19/month with online checkout and no sales call",
       "Separates early signals and approvals from formal bids, which generic bid boards rarely do",
       "Every record links to its official public source for verification",
       "Free public sample shows the data before paying"
     ],
     "cons": [
       "Missouri only, so of no use to contractors working elsewhere",
-      "New, small operation with no independent reviews or press found",
-      "Modest inventory, roughly 180 records listed on the site in early October 2026"
+      "New, small operation; the articles found are written by the founder, with no independent reviews yet",
+      "Modest live inventory compared with national bid networks; lower tiers cover only selected trades and regions",
+      "No free trial on the monthly plans"
     ],
     "deployment": [
       "Cloud"
@@ -67940,7 +67961,7 @@
       "Commercial"
     ],
     "review_count": 0,
-    "last_updated": "2026-10-03",
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   },
@@ -68064,6 +68085,295 @@
     ],
     "review_count": 0,
     "last_updated": "2026-10-03",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Minervian AI",
+    "slug": "minervian-ai",
+    "url": "https://minervianai.com",
+    "logo_url": "/img/logos/minervian-ai.png",
+    "headline": "Browser-based CRE underwriting: AI reads the OM and rent roll, a deterministic engine runs the cash flow, debt and waterfall.",
+    "description": "Minervian AI is a web-based underwriting tool for commercial real estate acquisitions. Users upload an offering memorandum, rent roll, Excel or CSV file, PDF or screenshot, or describe a deal in plain language, and the AI extracts the inputs and proposes the assumptions the documents leave out, flagging gaps and contradictions. The arithmetic is not done by the AI: a fixed, deterministic engine builds a monthly lease-by-lease cash flow, a multi-tranche debt stack and an equity waterfall, so the same inputs always produce the same numbers. Lease modeling covers renewal probability, downtime, free rent, tenant improvements, leasing commissions and expense stops; debt covers construction, bridge, permanent, mezzanine, ground lease and seller financing with fixed or SOFR-based rates; the waterfall supports preferred return, catch-up and any number of promote tiers. Models export to a multi-tab Excel workbook, and deals can be versioned and compared. The product covers office, lab, industrial, retail and multifamily, including core, value-add and development deals and multi-property portfolios. Minervian AI Inc. was incorporated in December 2025 and the product went live in May 2026; pricing is published, with a free tier of five lifetime deals and a $25 per seat monthly plan.",
+    "short_description": "AI document intake plus a deterministic engine for lease-by-lease cash flow, debt and waterfall models, exported to Excel.",
+    "tagline": "From OM and rent roll to a full underwriting model in the browser.",
+    "categories": [
+      "Investment & Valuation",
+      "AI & Automation"
+    ],
+    "primary_category": "investment-valuation",
+    "target_audience": {
+      "roles": [
+        "Acquisitions Analysts",
+        "Investment Managers",
+        "Sponsors & Developers",
+        "Capital Markets Brokers",
+        "Lenders"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Office",
+        "Industrial",
+        "Retail",
+        "Multifamily",
+        "Mixed-Use"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Document Intake & AI",
+        "features": [
+          {
+            "name": "Document Extraction",
+            "description": "Reads offering memoranda, rent rolls, PDFs, Excel and CSV files and screenshots into structured model inputs."
+          },
+          {
+            "name": "Assumption Suggestions",
+            "description": "Proposes the inputs the documents omit and flags gaps and contradictions for review."
+          },
+          {
+            "name": "Plain-Language Edits",
+            "description": "Change the model by instruction, for example by pasting waterfall terms as a sentence."
+          }
+        ]
+      },
+      {
+        "name": "Modeling Engine",
+        "features": [
+          {
+            "name": "Deterministic Cash Flow",
+            "description": "A fixed calculation engine, not the AI, does the math, so identical inputs give identical results."
+          },
+          {
+            "name": "Lease-by-Lease Projections",
+            "description": "Monthly projections with renewal probability, downtime, free rent, TI, leasing commissions and expense stops."
+          },
+          {
+            "name": "Multi-Tranche Debt",
+            "description": "Construction, bridge, permanent, mezzanine, ground lease and seller financing, with fixed or SOFR-floating rates, caps, swaps, IO and refinancing."
+          },
+          {
+            "name": "Equity Waterfall",
+            "description": "Preferred return, return of capital, catch-up and any number of promote tiers by IRR, multiple or profit share."
+          },
+          {
+            "name": "Portfolio & Development Deals",
+            "description": "Several buildings and asset classes in one projection, including development deals with S-curve draws."
+          }
+        ]
+      },
+      {
+        "name": "Outputs",
+        "features": [
+          {
+            "name": "Excel Export",
+            "description": "Exports deal summary, full model, rent roll and waterfall tabs to an Excel workbook."
+          },
+          {
+            "name": "Deal Versioning",
+            "description": "Snapshot a model before changes and compare versions afterwards."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "starting_price": "$25/seat/month",
+      "free_trial": false,
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "description": "5 lifetime deals, 5M input and 500K output tokens (lifetime), AI extraction included, no card."
+        },
+        {
+          "name": "CRE Pro",
+          "price": "$25/seat/mo",
+          "description": "15 deals, 5M input and 1M output tokens a month shared across the account; overages $7.50 per deal, $5 per 1M input and $25 per 1M output tokens."
+        }
+      ]
+    },
+    "pros": [
+      "Published, low per-seat pricing with a free tier of five complete deals and no card required",
+      "AI handles document intake while a deterministic engine does the math, avoiding run-to-run drift in the numbers",
+      "Supports institutional mechanics such as multi-tranche debt and multi-tier promote waterfalls",
+      "Self-serve in the browser with Excel export, nothing to install"
+    ],
+    "cons": [
+      "New product (live since May 2026) with a thin track record and no independent user reviews yet",
+      "The site names no team members or street address",
+      "Usage-based overages on deals and AI tokens make monthly cost harder to predict for heavy users",
+      "No built-in market or comps data; assumptions still need the analyst's own market research"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Minervian AI Inc.",
+      "founded": 2025
+    },
+    "domain": "minervianai.com",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Freemium",
+    "is_free": false,
+    "property_types": [
+      "Office",
+      "Industrial",
+      "Retail",
+      "Multifamily",
+      "Mixed-Use"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-10-20",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Abstria",
+    "slug": "abstria",
+    "url": "https://www.abstria.com",
+    "logo_url": "/img/logos/abstria.png",
+    "headline": "AI lease abstraction for commercial real estate, with every extracted field linked back to its source clause.",
+    "description": "Abstria is a lease abstraction tool for commercial real estate teams. Users upload leases, amendments, SNDAs, estoppels, LOIs and related documents as PDFs, and the software extracts more than 200 structured fields per lease, with each field hyperlinked to the page and clause it came from. Results open in a dual-panel editor beside the source PDF for review, and uploaded amendments are compared against the original lease so changed values appear side by side. Leases are organized in a building, tenant and document hierarchy, and a portfolio assistant answers plain-language questions such as which leases expire in the next 90 days. Abstracts export to PDF or Word through reusable export profiles, and the app has admin and contributor roles, an audit trail and a review status workflow. Enterprise plans add Microsoft single sign-on, SharePoint Online document sourcing and export, and API access. Abstria is built and run by Al Rafay Consulting, LLC, a Microsoft Solutions Partner based in Bolingbrook, Illinois, and is hosted on Azure. A self-serve free trial is available; paid pricing is not published.",
+    "short_description": "Extracts 200+ source-linked fields from CRE leases and amendments, with portfolio Q&A and PDF or Word exports.",
+    "tagline": "Lease abstracts in minutes, every field traced to its clause.",
+    "categories": [
+      "Legal & Compliance",
+      "AI & Automation"
+    ],
+    "primary_category": "legal-compliance",
+    "target_audience": {
+      "roles": [
+        "Real Estate Attorneys",
+        "Due Diligence Teams",
+        "Asset Managers",
+        "Property Managers",
+        "Lease Administrators"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Office",
+        "Retail",
+        "Industrial",
+        "Mixed-Use"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Extraction & Review",
+        "features": [
+          {
+            "name": "200+ Field Abstraction",
+            "description": "Extracts structured lease data from leases and related documents, typically in a few minutes per document."
+          },
+          {
+            "name": "Source-Traced Fields",
+            "description": "Every extracted field links to the exact page and clause in the source PDF."
+          },
+          {
+            "name": "Dual-Panel Editor",
+            "description": "Review and correct the abstract next to an inline PDF viewer with document search."
+          },
+          {
+            "name": "Amendment Delta Tracking",
+            "description": "Compares an amendment against the original lease and shows old and new values side by side."
+          }
+        ]
+      },
+      {
+        "name": "Portfolio & Team",
+        "features": [
+          {
+            "name": "Portfolio Hierarchy",
+            "description": "Buildings, tenants and documents organized in one searchable structure."
+          },
+          {
+            "name": "Portfolio Q&A Assistant",
+            "description": "Plain-language questions across all abstracted leases, such as upcoming expirations."
+          },
+          {
+            "name": "Export Profiles",
+            "description": "Reusable field subsets for PDF and Word abstract exports."
+          },
+          {
+            "name": "Roles & Audit Trail",
+            "description": "Admin and contributor roles, an audit trail and an under-review to reviewed status workflow."
+          }
+        ]
+      },
+      {
+        "name": "Enterprise Integrations",
+        "features": [
+          {
+            "name": "Microsoft SSO & SharePoint",
+            "description": "Single sign-on and SharePoint Online document sourcing and export on Enterprise plans."
+          },
+          {
+            "name": "API Access",
+            "description": "REST API access on Enterprise plans."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "starting_price": "",
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Free Trial",
+          "price": "Free",
+          "description": "Self-serve sign-up to try lease abstraction before buying."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Contact sales",
+          "description": "Adds SSO, SharePoint integration and API access; pricing through sales or a demo."
+        }
+      ]
+    },
+    "pros": [
+      "Every field is linked to its source clause, which suits legal and diligence review",
+      "Handles amendments and related documents such as SNDAs and estoppels, not just the base lease",
+      "Self-serve free trial alongside a sales-led enterprise path",
+      "Backed by an established Microsoft partner consultancy rather than a solo founder"
+    ],
+    "cons": [
+      "New product (launched 2025) with a thin track record and few independent user reviews",
+      "No published pricing; paid plans require contacting sales",
+      "SSO, SharePoint and API access are limited to Enterprise plans",
+      "Accuracy and speed figures on the site are vendor claims"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Al Rafay Consulting, LLC",
+      "hq": "Bolingbrook, IL"
+    },
+    "domain": "abstria.com",
+    "is_verified": false,
+    "is_featured": false,
+    "pricing_model": "Quote-based",
+    "is_free": false,
+    "property_types": [
+      "Office",
+      "Retail",
+      "Industrial",
+      "Mixed-Use"
+    ],
+    "review_count": 0,
+    "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
   }
