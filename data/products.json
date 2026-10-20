@@ -68376,5 +68376,289 @@
     "last_updated": "2026-10-20",
     "status": "active",
     "enriched": true
+  },
+  {
+    "screenshots": [],
+    "video_url": null,
+    "rating": null,
+    "review_count": 0,
+    "is_verified": false,
+    "is_featured": false,
+    "deployment": [
+      "Cloud"
+    ],
+    "status": "active",
+    "enriched": true,
+    "last_updated": "2026-10-20",
+    "integrations": [],
+    "seo": {},
+    "title": "Buildability",
+    "slug": "buildability",
+    "url": "https://buildability.us",
+    "domain": "buildability.us",
+    "logo_url": "/img/logos/buildability.png",
+    "headline": "Scores any U.S. parcel 0 to 100 on nine cited factors, with paid reports that add the buildable envelope.",
+    "tagline": "Parcel buildability scores and reports from public data.",
+    "short_description": "Scores any U.S. parcel 0 to 100 on nine cited factors such as zoning, flood and soil, with paid buildable-envelope reports.",
+    "description": "Buildability scores any U.S. parcel from 0 to 100 using nine factors drawn from public data: zoning (city and county code), flood (FEMA NFHL), seismic (USGS), soil (USDA SSURGO), radon (EPA), wildfire (USFS Wildfire Hazard Potential), utilities, terrain (USGS 3DEP) and lot shape from the county parcel record. Each factor shows its source and an as-of date, and a factor with no data is left out of the score rather than estimated. Constraints such as a flood zone, septic limits or a use restriction cap the score, and factor weights vary by region, though the weights are not published. The free score needs no account. A paid Property Report adds a buildable envelope, risk findings, a lender-ready PDF, a verifiable certificate with a QR code, and an AI assistant that answers questions about the parcel. Cities and counties can use it to inventory undeveloped land, with custom pricing and a free 30-day pilot. Buildability is operated by ReadyPermit.AI, Inc. and launched in 2026.",
+    "categories": [
+      "Site Selection",
+      "Construction & Development",
+      "Data & Analytics"
+    ],
+    "primary_category": "site-selection",
+    "target_audience": {
+      "roles": [
+        "Developers",
+        "Investors",
+        "Land Acquisition Teams",
+        "Lenders",
+        "Municipal Planners"
+      ],
+      "company_sizes": [
+        "Solo",
+        "Small",
+        "Mid-Market",
+        "Government"
+      ],
+      "property_types": [
+        "Land",
+        "Residential",
+        "Commercial"
+      ]
+    },
+    "property_types": [
+      "Land",
+      "Residential",
+      "Commercial"
+    ],
+    "feature_groups": [
+      {
+        "name": "Scoring",
+        "features": [
+          {
+            "name": "Buildability Score",
+            "description": "Free 0 to 100 score for any U.S. parcel with no account or card required."
+          },
+          {
+            "name": "Nine Cited Factors",
+            "description": "Zoning, flood, seismic, soil, radon, wildfire, utilities, terrain and lot shape, each with its source and as-of date."
+          },
+          {
+            "name": "Constraint Caps",
+            "description": "Flood zones, septic constraints and use restrictions cap the score instead of being averaged away."
+          }
+        ]
+      },
+      {
+        "name": "Reports",
+        "features": [
+          {
+            "name": "Property Report",
+            "description": "Buildable envelope, risk findings and a lender-ready PDF for a single parcel."
+          },
+          {
+            "name": "Verifiable Certificate",
+            "description": "QR-coded certificate that recomputes the score from the parcel record."
+          },
+          {
+            "name": "Parcel Q&A",
+            "description": "An AI assistant answers questions about the report's parcel."
+          }
+        ]
+      },
+      {
+        "name": "Public Sector",
+        "features": [
+          {
+            "name": "Land Inventory",
+            "description": "Jurisdiction-wide scoring for cities, urban counties and CDBG grantees inventorying undeveloped land."
+          },
+          {
+            "name": "Pilot Program",
+            "description": "Free 30-day pilot with custom per-jurisdiction pricing afterwards."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "starting_price": "$99/report",
+      "free_trial": false,
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free score",
+          "price": "$0",
+          "description": "0 to 100 score with cited factors, no account needed."
+        },
+        {
+          "name": "Property Report",
+          "price": "$99/report",
+          "description": "Single report; 3-pack $89 each, 10-pack $79 each. Reports never expire."
+        },
+        {
+          "name": "Pro",
+          "price": "$289/month",
+          "description": "3 reports a month, shared workspace, priority support."
+        },
+        {
+          "name": "Cities and counties",
+          "price": "Custom",
+          "description": "Per-jurisdiction pricing with a free 30-day pilot."
+        }
+      ]
+    },
+    "pricing_model": "Freemium",
+    "is_free": false,
+    "pros": [
+      "Free parcel score with no account, and every factor shows its public data source",
+      "Published pricing for reports and the Pro plan",
+      "Constraints like flood zones cap the score instead of hiding inside an average",
+      "Built for public-sector land inventories as well as private buyers"
+    ],
+    "cons": [
+      "Launched in 2026 with no independent reviews or press yet",
+      "Factor weights vary by region and are not published, so scores are hard to reproduce by hand",
+      "Zoning depth depends on whether a city publishes its code and zoning layer",
+      "Residential and land focused; not a full commercial site selection or market analytics tool"
+    ],
+    "company": {
+      "name": "ReadyPermit.AI, Inc. (Buildability)",
+      "founded": 2026
+    }
+  },
+  {
+    "screenshots": [],
+    "video_url": null,
+    "rating": null,
+    "review_count": 0,
+    "is_verified": false,
+    "is_featured": false,
+    "deployment": [
+      "Cloud"
+    ],
+    "status": "active",
+    "enriched": true,
+    "last_updated": "2026-10-20",
+    "integrations": [],
+    "seo": {},
+    "title": "DealGro",
+    "slug": "dealgro",
+    "url": "https://www.dealgro.com",
+    "domain": "dealgro.com",
+    "logo_url": "/img/logos/dealgro.png",
+    "headline": "Email alerts when new commercial listings match your buy box, focused on mobile home parks, storage, RV parks and multifamily.",
+    "tagline": "Deal alerts for niche commercial real estate buyers.",
+    "short_description": "Deal-alert service that emails buyers when new listings match their buy box, focused on mobile home parks, self-storage, RV parks and multifamily.",
+    "description": "DealGro tracks commercial real estate listings and emails buyers when a new deal matches their buy box: asset type, target states (all states or up to 20), price range and size criteria such as minimum lots. Coverage centers on mobile home parks, self-storage, RV parks and campgrounds, multifamily, and flex or small-bay industrial, with retail and office marked as coming soon. Listings come from listing sites, broker pages and off-market sources including Craigslist, are updated daily, and each match is labeled confirmed, likely or off-market. Brokers, wholesalers and owners can post deals for free, including pocket listings with controlled visibility. Paid members get an alert as soon as a deal matches; free members receive one email a month. Paid plans cover one asset type, with extra types as add-ons. DealGro LLC operates the service on a domain registered in 2019.",
+    "categories": [
+      "Listing Services",
+      "Investment & Valuation"
+    ],
+    "primary_category": "listing-services",
+    "target_audience": {
+      "roles": [
+        "Investors",
+        "Buyers",
+        "Brokers",
+        "Wholesalers"
+      ],
+      "company_sizes": [
+        "Solo",
+        "Small"
+      ],
+      "property_types": [
+        "Mobile Home Parks",
+        "Self-Storage",
+        "RV Parks",
+        "Multifamily",
+        "Industrial"
+      ]
+    },
+    "property_types": [
+      "Mobile Home Parks",
+      "Self-Storage",
+      "RV Parks",
+      "Multifamily",
+      "Industrial"
+    ],
+    "feature_groups": [
+      {
+        "name": "Deal Alerts",
+        "features": [
+          {
+            "name": "Buy Box Matching",
+            "description": "Set asset type, states, price range and size criteria; get emailed when a new listing matches."
+          },
+          {
+            "name": "Match Labels",
+            "description": "Each match is marked confirmed, likely or off-market."
+          },
+          {
+            "name": "Daily Updates",
+            "description": "Listings refreshed daily from listing sites, broker pages and off-market sources."
+          }
+        ]
+      },
+      {
+        "name": "Deal Posting",
+        "features": [
+          {
+            "name": "Free Listing Posts",
+            "description": "Brokers, wholesalers and owners post deals for free."
+          },
+          {
+            "name": "Pocket Listings",
+            "description": "Posters control who can see the details of private listings."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": "$29.95/month (billed annually)",
+      "free_trial": false,
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "description": "One alert email a month."
+        },
+        {
+          "name": "Monthly",
+          "price": "$49.95/month",
+          "description": "Instant alerts for one asset type; extra types are add-ons."
+        },
+        {
+          "name": "Quarterly",
+          "price": "$39.95/month",
+          "description": "Billed $119.85 every 3 months."
+        },
+        {
+          "name": "Annual",
+          "price": "$29.95/month",
+          "description": "Billed $359.40 a year."
+        }
+      ]
+    },
+    "pricing_model": "Subscription",
+    "is_free": false,
+    "pros": [
+      "Covers niche asset types that mainstream listing sites serve poorly, like mobile home parks and RV parks",
+      "Pulls in off-market and Craigslist listings alongside broker pages",
+      "Published pricing, with a lower rate on quarterly and annual billing",
+      "Brokers and owners can post deals and pocket listings for free"
+    ],
+    "cons": [
+      "The site names no full founder name or business address, and there are no independent reviews",
+      "Each plan covers one asset type; more types cost extra",
+      "The free tier is a single monthly email, so instant alerts require a paid plan",
+      "Retail and office are not covered yet"
+    ],
+    "company": {
+      "name": "DealGro LLC"
+    }
   }
 ]

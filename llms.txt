@@ -1,6 +1,6 @@
 # CRE Software Directory
 
-> Independent, editorially maintained directory of 501 commercial real estate (CRE) software tools across 16 categories, with buyer's guides, ranked alternatives guides, and head-to-head comparisons. Listings are researched from vendor documentation and public sources. Featured placements are labeled as paid and never change editorial content. No star ratings or user reviews are published.
+> Independent, editorially maintained directory of 503 commercial real estate (CRE) software tools across 16 categories, with buyer's guides, ranked alternatives guides, and head-to-head comparisons. Listings are researched from vendor documentation and public sources. Featured placements are labeled as paid and never change editorial content. No star ratings or user reviews are published.
 
 Site: https://cresoftware.tech
 Contact: hello@cresoftware.tech
