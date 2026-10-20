@@ -27,6 +27,8 @@ Last content update: 2026-10-20
 ## Buyer's guides
 - [Best Accounting & Finance software for CRE](https://cresoftware.tech/guides/accounting-finance.html)
 - [Best AI & Automation software for CRE](https://cresoftware.tech/guides/ai-automation.html)
+- [Best AI Lease Abstraction Software for CRE (2026)](https://cresoftware.tech/guides/ai-lease-abstraction-software.html)
+- [Best AI Underwriting Software for CRE (2026)](https://cresoftware.tech/guides/ai-underwriting-software.html)
 - [Best Broker Tools software for CRE](https://cresoftware.tech/guides/broker-tools.html)
 - [Best Construction & Development software for CRE](https://cresoftware.tech/guides/construction-development.html)
 - [Best CRM & Marketing software for CRE](https://cresoftware.tech/guides/crm-marketing.html)
@@ -125,21 +127,31 @@ Last content update: 2026-10-20
 - [Buildout vs RealNex](https://cresoftware.tech/compare/buildout-vs-realnex/): Buildout leads on marketing output and brokerage-wide rollout; RealNex sells a modular per-user suite that adds financial analysis and its own marketplace.
 - [Reonomy vs PropertyShark](https://cresoftware.tech/compare/reonomy-vs-propertyshark/): Reonomy is the nationwide commercial prospecting database; PropertyShark is the lower-cost property research tool with its deepest records in New York and other major metros.
 - [Procore vs Autodesk Construction Cloud](https://cresoftware.tech/compare/procore-vs-autodesk-construction-cloud/): Procore is the contractor-centred platform with unlimited users and strong financials; Autodesk Construction Cloud is the natural choice for teams whose projects live in Revit and BIM.
+- [Altyst vs Minervian AI](https://cresoftware.tech/compare/altyst-vs-minervian-ai/): Altyst and Minervian AI both turn an OM and rent roll into a deterministic underwriting model in the browser; Altyst covers more asset classes and outputs, while Minervian goes deeper on lease-by-lease cash flow, debt and waterfalls and has a free tier.
+- [Apers vs Altyst](https://cresoftware.tech/compare/apers-vs-altyst/): Apers builds formula-based Excel models from deal documents and covers specialist structures such as LIHTC and ground leases; Altyst runs a deterministic browser model with memo and deck outputs at a lower price.
+- [Radix Underwriting vs Clik.ai](https://cresoftware.tech/compare/radix-underwriting-vs-clik-ai/): Radix Underwriting (formerly redIQ) is the multifamily specialist tied to Radix market data; Clik.ai automates underwriting across eight asset classes for lenders, including agency workbooks.
+- [Henry vs IntellCRE](https://cresoftware.tech/compare/henry-vs-intellcre/): Henry is an AI analyst for brokerage teams that builds underwriting, decks and buyer lists inside email and Excel; IntellCRE pairs underwriting with a wide range of generated marketing materials and a concierge service.
+- [Prophia vs Abstria](https://cresoftware.tech/compare/prophia-vs-abstria/): Prophia is an established lease abstraction and management platform for owners with expert-reviewed abstracts and stacking plans; Abstria is a new self-serve abstraction tool that links 200+ fields to their source clauses.
+- [EliseAI vs Funnel Leasing](https://cresoftware.tech/compare/eliseai-vs-funnel-leasing/): EliseAI is an AI-first leasing and resident operations agent that plugs into many systems, including Funnel; Funnel is a multifamily front-office CRM with its own AI, Fenix, built in.
+- [EliseAI vs Respage](https://cresoftware.tech/compare/eliseai-vs-respage/): EliseAI is a pure AI operations agent for leasing and resident work; Respage pairs its ResMate AI leasing assistant with apartment marketing services and a CRM, and describes a per-unit pricing structure.
+- [TestFit vs Deepblocks](https://cresoftware.tech/compare/testfit-vs-deepblocks/): TestFit generates editable site plans and massing across many building types, with published plans from $195 a month to $15,000+ a year; Deepblocks pairs 3D massing with a live pro forma for US cities from $99.99 a month.
+- [Togal.AI vs STACK](https://cresoftware.tech/compare/togal-ai-vs-stack/): Togal.AI is a cloud takeoff tool built around AI detection, plan comparison and chat over drawings; STACK combines AI-assisted takeoff with estimating and field tools, and offers a free version.
+- [Togal.AI vs PlanSwift](https://cresoftware.tech/compare/togal-ai-vs-planswift/): Togal.AI is a cloud, AI-first takeoff tool at $299 per user per month; PlanSwift is long-established Windows desktop takeoff and estimating from $2,000 a year, with AI Auto Takeoff in its Core plan.
 
 ## Browse by integration
 - [All integration hubs](https://cresoftware.tech/integrations/)
-- [CRE software that integrates with Yardi](https://cresoftware.tech/integrations/yardi/): 16 tools
+- [CRE software that integrates with Yardi](https://cresoftware.tech/integrations/yardi/): 17 tools
 - [CRE software that integrates with Zillow](https://cresoftware.tech/integrations/zillow/): 16 tools
 - [CRE software that integrates with DocuSign](https://cresoftware.tech/integrations/docusign/): 13 tools
+- [CRE software that integrates with Salesforce](https://cresoftware.tech/integrations/salesforce/): 11 tools
 - [CRE software that integrates with MRI Software](https://cresoftware.tech/integrations/mri-software/): 11 tools
 - [CRE software that integrates with TransUnion](https://cresoftware.tech/integrations/transunion/): 11 tools
-- [CRE software that integrates with Salesforce](https://cresoftware.tech/integrations/salesforce/): 10 tools
 - [CRE software that integrates with SAP](https://cresoftware.tech/integrations/sap/): 9 tools
+- [CRE software that integrates with Excel](https://cresoftware.tech/integrations/excel/): 9 tools
 - [CRE software that integrates with RealPage](https://cresoftware.tech/integrations/realpage/): 9 tools
 - [CRE software that integrates with Realtor.com](https://cresoftware.tech/integrations/realtor-com/): 9 tools
 - [CRE software that integrates with QuickBooks](https://cresoftware.tech/integrations/quickbooks/): 9 tools
 - [CRE software that integrates with Apartments.com](https://cresoftware.tech/integrations/apartments-com/): 8 tools
-- [CRE software that integrates with Excel](https://cresoftware.tech/integrations/excel/): 7 tools
 - [CRE software that integrates with Plaid](https://cresoftware.tech/integrations/plaid/): 7 tools
 - [CRE software that integrates with VTS](https://cresoftware.tech/integrations/vts/): 6 tools
 - [CRE software that integrates with ARGUS](https://cresoftware.tech/integrations/argus/): 6 tools
@@ -148,13 +160,13 @@ Last content update: 2026-10-20
 - [CRE software that integrates with Power BI](https://cresoftware.tech/integrations/power-bi/): 5 tools
 - [CRE software that integrates with CoStar](https://cresoftware.tech/integrations/costar/): 5 tools
 - [CRE software that integrates with Microsoft 365](https://cresoftware.tech/integrations/microsoft-365/): 5 tools
+- [CRE software that integrates with Entrata](https://cresoftware.tech/integrations/entrata/): 5 tools
 - [CRE software that integrates with Stripe](https://cresoftware.tech/integrations/stripe/): 5 tools
 - [CRE software that integrates with Workday](https://cresoftware.tech/integrations/workday/): 5 tools
 - [CRE software that integrates with Trulia](https://cresoftware.tech/integrations/trulia/): 5 tools
 - [CRE software that integrates with Appfolio](https://cresoftware.tech/integrations/appfolio/): 5 tools
 - [CRE software that integrates with Autodesk](https://cresoftware.tech/integrations/autodesk/): 4 tools
 - [CRE software that integrates with Microsoft Excel](https://cresoftware.tech/integrations/microsoft-excel/): 4 tools
-- [CRE software that integrates with Entrata](https://cresoftware.tech/integrations/entrata/): 4 tools
 - [CRE software that integrates with Zapier](https://cresoftware.tech/integrations/zapier/): 4 tools
 - [CRE software that integrates with Microsoft Dynamics](https://cresoftware.tech/integrations/microsoft-dynamics/): 4 tools
 - [CRE software that integrates with Hotpads](https://cresoftware.tech/integrations/hotpads/): 4 tools

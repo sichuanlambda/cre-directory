@@ -2412,6 +2412,246 @@
           "answer": "No. Procore states that all plans include unlimited users, so collaborators such as subcontractors and consultants can be added without per-seat fees."
         }
       ]
+    },
+    {
+      "a": "altyst",
+      "b": "minervian-ai",
+      "one_liner": "Altyst and Minervian AI both turn an OM and rent roll into a deterministic underwriting model in the browser; Altyst covers more asset classes and outputs, while Minervian goes deeper on lease-by-lease cash flow, debt and waterfalls and has a free tier.",
+      "verdict": "Altyst and Minervian AI are two of the newest self-serve AI underwriting tools, and they are built on the same idea. You upload an offering memorandum, rent roll or operating statement, the AI pulls the inputs out, and a fixed calculation engine (not a language model) does the math, so the same inputs always produce the same numbers. Both run in the browser, both export to Excel, and both publish low prices. The differences are in depth, breadth and track record.\n\nAltyst is the broader tool. It reads PDFs, spreadsheets, Word files, photos and listing links, names OMs, rent rolls, T-12s, debt quotes and lease schedules as inputs, and flags conflicts between documents with provenance back to the source for every figure. It covers multifamily, office, retail, industrial, self-storage, mixed-use, hotel, land and development, sizes debt on LTV, DSCR or debt yield, and runs base, upside and downside cases. Outputs are an Excel workbook with live formulas, a PDF memo and an editable PowerPoint deck, though scenario and sensitivity results export as values. Plans run from $12 a month for five deals to $99 a month for a five-seat team, billed monthly, with fair-use caps on new deals. The caveats: there is no free tier or trial beyond a sample deal, and its security page says it holds no SOC 2 or ISO 27001 certification.\n\nMinervian AI goes deeper on the modeling engine. It builds a monthly lease-by-lease cash flow with renewal probability, downtime, free rent, TI, leasing commissions and expense stops, a multi-tranche debt stack (construction, bridge, permanent, mezzanine, ground lease, seller financing, fixed or SOFR-based) and an equity waterfall with any number of promote tiers. Live asset classes are office, lab, industrial, retail and market-rate multifamily, with hotel, self-storage, student and senior housing listed as upcoming. The free plan covers five lifetime deals with no card, and CRE Pro is $25 per seat a month for 15 deals, with overage charges per deal and per million AI tokens. The caveats are significant: the company was incorporated in December 2025, the product went live in May 2026, the site names no team members, and there are no independent user reviews yet. Its site also does not say whether the Excel export keeps live formulas.\n\nNeither tool includes market or comps data, so assumptions still need your own research, and both are young enough that you should run a deal you already know through each before trusting it.\n\nChoose Altyst if you want the widest asset class coverage, memo and deck outputs, and an Excel model with live formulas at the lowest monthly price. Choose Minervian AI if your deals turn on lease-level office, industrial or retail cash flows, layered debt and promote structures, and you want to try it free before paying, accepting that it is the newer and less proven of the two.",
+      "faq": [
+        {
+          "question": "Does the AI do the math in Altyst and Minervian AI?",
+          "answer": "No. Both use AI to read documents and suggest inputs, then run the numbers through a fixed calculation engine, so identical inputs give identical results."
+        },
+        {
+          "question": "How much do Altyst and Minervian AI cost?",
+          "answer": "Altyst publishes plans from $12 a month (5 deals) to $99 a month for a five-seat team. Minervian AI has a free plan with five lifetime deals and a CRE Pro plan at $25 per seat a month for 15 deals, with usage-based overages."
+        },
+        {
+          "question": "Which handles more property types?",
+          "answer": "Altyst lists multifamily, office, retail, industrial, self-storage, mixed-use, hotel, land and development. Minervian AI currently covers office, lab, industrial, retail and market-rate multifamily, with other types listed as upcoming."
+        },
+        {
+          "question": "How established are these products?",
+          "answer": "Both are new. Minervian AI went live in May 2026 and its company was incorporated in December 2025. Neither has a meaningful body of independent reviews yet, so test each on a deal you have already underwritten."
+        }
+      ]
+    },
+    {
+      "a": "apers",
+      "b": "altyst",
+      "one_liner": "Apers builds formula-based Excel models from deal documents and covers specialist structures such as LIHTC and ground leases; Altyst runs a deterministic browser model with memo and deck outputs at a lower price.",
+      "verdict": "Apers and Altyst both promise to go from a stack of deal documents to a finished underwriting model and memo in minutes, and both publish entry prices under $25 a month. They differ in where the model lives and how much of the deal structure library they cover.\n\nApers is built around Excel. Its document engine reads OMs, rent rolls, T-12s, appraisals, ARGUS exports, tax returns, broker packages and even scanned or handwritten notes, and you can forward emails straight into it. Its XL-2 engine writes formula-based Excel workbooks with each formula traced to its source, drawing on a model library that covers acquisitions, development, value-add, 4% and 9% LIHTC, historic tax credits, NNN, ground leases, sale-leasebacks, mezzanine and preferred equity, bridge loans and debt sizing. That library is the main reason to pick it: few tools in this price range model affordable housing tax credits or ground leases out of the box. Basic is $19 a month for 100 credits and is pitched at students and hobbyists, Pro is $99 a month for 1,000 credits, and Enterprise is custom. The caveats: usage is credit-based, its security page says it is not SOC 2 certified, and the site does not state whether calculations are deterministic.\n\nAltyst keeps the model in the browser and exports it. AI handles extraction and flags conflicts between documents with confidence levels and provenance, while tested code, not a language model, does the math. It sizes debt on LTV, DSCR or debt yield, models lease rollovers with TI, runs base, upside and downside cases and exports an Excel workbook with live formulas, a PDF memo and an editable deck. Plans start at $12 a month for five deals, with $24 and $99 tiers. The caveats: it does not advertise tax credit or ground lease templates, scenario outputs export as values, it also holds no SOC 2, and it is a young product with little public track record.\n\nBoth are early-stage companies. Apers names two clients in case studies; Altyst names none. Either is cheap enough to test on a live deal before committing.\n\nChoose Apers if your team lives in Excel and you underwrite specialist structures such as LIHTC, historic tax credit, ground lease or sale-leaseback deals. Choose Altyst if you want a deterministic model you can edit live in the browser, with memo and deck outputs, at the lowest monthly cost.",
+      "faq": [
+        {
+          "question": "Which is cheaper, Apers or Altyst?",
+          "answer": "Altyst starts at $12 a month for five deals; Apers Basic is $19 a month for 100 credits and Pro is $99 a month for 1,000 credits. Both publish an Enterprise tier on request."
+        },
+        {
+          "question": "Can either model affordable housing deals?",
+          "answer": "Apers lists 4% and 9% LIHTC and historic tax credit models in its library. Altyst does not advertise tax credit templates."
+        },
+        {
+          "question": "Do they export to Excel?",
+          "answer": "Yes. Apers writes formula-based Excel workbooks with formulas traced to source. Altyst exports Excel with live formulas, though scenario and sensitivity results come across as values."
+        },
+        {
+          "question": "Are Apers and Altyst SOC 2 certified?",
+          "answer": "No. Both vendors state on their security pages that they do not currently hold SOC 2 certification, which may matter for institutional IT reviews."
+        }
+      ]
+    },
+    {
+      "a": "radix-underwriting",
+      "b": "clik-ai",
+      "one_liner": "Radix Underwriting (formerly redIQ) is the multifamily specialist tied to Radix market data; Clik.ai automates underwriting across eight asset classes for lenders, including agency workbooks.",
+      "verdict": "Radix Underwriting and Clik.ai sit at the institutional end of AI underwriting. Both read rent rolls, operating statements and T-12s, normalize them, and push the result into Excel-based underwriting models, and neither publishes prices. The split is asset class and buyer.\n\nRadix Underwriting is the platform long known as redIQ, which Radix announced it had acquired in August 2024. It is multifamily only. It ingests rent rolls, operating statements and T-12s as PDF or Excel, can pull data from property management systems including Yardi, Entrata, ResMan and AMSI, flags anomalies, fills gaps in incomplete financials with machine learning and auto-populates assumptions from Radix market data. Outputs keep formulas intact, and a QuickSync Excel add-in pushes data into a firm's existing templates. Radix Software holds a SOC 2 Type II report at company level, and customers named on its site include Nuveen, Alliance Residential, Berkadia and Avenue5. The caveats: the rebrand is still in progress (the redIQ site says the final cutover is coming), it does nothing outside multifamily, and pricing is by demo.\n\nClik.ai is broader and leans toward lenders. Its AutoUW module reads operating statements, rent rolls and T-12s in Excel, PDF, scanned or image form, or through an API, into lender-specific Excel-compatible models, and it populates Fannie Mae and Freddie Mac agency workbooks. Asset classes span multifamily, office, retail, industrial, hotel, healthcare, senior housing and student housing. Around the core it offers loan onboarding, portfolio analytics, a Salesforce integration, a Trepp partnership and a lease abstraction service. Named customers include Newmark, Lument, Northmarq, Colliers and Webster Bank. The caveats: its security page lists SOC 2 Type 1, it mixes software with services so scope varies by engagement, and pricing is by demo.\n\nChoose Radix Underwriting if you are a multifamily investor, broker or lender who wants underwriting tied to market rent data and your existing Excel templates. Choose Clik.ai if you are a lender or servicer underwriting several property types, need agency workbook population, or want extraction delivered alongside services.",
+      "faq": [
+        {
+          "question": "Is Radix Underwriting the same as redIQ?",
+          "answer": "Yes. Radix announced its acquisition of redIQ in August 2024 and is rebranding the platform as Radix Underwriting. The redIQ site still carries a banner about the final cutover."
+        },
+        {
+          "question": "Which asset classes do they support?",
+          "answer": "Radix Underwriting is multifamily only. Clik.ai lists multifamily, office, retail, industrial, hotel, healthcare, senior housing and student housing."
+        },
+        {
+          "question": "Do they publish pricing?",
+          "answer": "No. Both are sold through demos and quotes."
+        },
+        {
+          "question": "Which is better for agency lenders?",
+          "answer": "Clik.ai, which populates Fannie Mae and Freddie Mac underwriting workbooks directly. Radix Underwriting serves lenders too, but its strength is multifamily market data and Excel template sync."
+        }
+      ]
+    },
+    {
+      "a": "henry",
+      "b": "intellcre",
+      "one_liner": "Henry is an AI analyst for brokerage teams that builds underwriting, decks and buyer lists inside email and Excel; IntellCRE pairs underwriting with a wide range of generated marketing materials and a concierge service.",
+      "verdict": "Henry and IntellCRE are both aimed at commercial real estate brokers, and both promise to compress the work between winning a listing and taking it to market: underwriting, broker opinions of value, pitch decks and offering memorandums. They go about it differently.\n\nHenry works like an AI analyst embedded in a brokerage. It builds custom Excel underwriting models from a deal description and rent roll using the firm's own assumptions, drafts pitch decks on the firm's templates, runs market research and comp selection with cited sources, profiles sponsors and builds buyer lists from the firm's CRM and past closings. It works through email, Excel and chat rather than a separate app. The company was founded in 2024, raised a $16.5M Series A led by FirstMark in July 2026, is SOC 2 Type II certified, and says it is used at more than 150 firms. The caveats: pricing is by sales call, it is a young company, and its output is only as good as the templates, assumptions and CRM data a team gives it.\n\nIntellCRE is a platform for producing marketing materials with underwriting attached. It generates offering memorandums, BOVs, decks, brochures, property websites and flipbooks, and its underwriting starts from an address or from rent rolls, T-12s and operating statements read by its parsers, with sensitivity analysis and equity waterfalls. It draws comps from 150 million residential and multifamily records, offers deal sourcing tools, lists twelve property types, and has a concierge service that will produce materials for you. A testimonial from Lee & Associates San Diego appears on its site. The caveats: pricing is not published, its security page relies on its hosting providers' certifications rather than its own, and teams that only need analysis may not use most of the product.\n\nChoose Henry if you run a brokerage team that wants an AI analyst working inside its existing email, Excel and CRM, with enterprise security. Choose IntellCRE if your bottleneck is producing polished marketing materials, from OMs to property websites, and you want the option to hand production to a concierge.",
+      "faq": [
+        {
+          "question": "Do Henry and IntellCRE publish pricing?",
+          "answer": "No. Henry is sold through a booked call, and IntellCRE offers sign-up and a booked call without listing prices."
+        },
+        {
+          "question": "Which generates more marketing formats?",
+          "answer": "IntellCRE, which produces offering memorandums, BOVs, decks, brochures, property websites and flipbooks. Henry focuses on underwriting, pitch decks, market research and buyer lists."
+        },
+        {
+          "question": "Does either work inside Excel?",
+          "answer": "Henry builds custom Excel underwriting models and offers an Excel add-in that is free for its customers. IntellCRE imports Excel and PDF files into its own platform."
+        },
+        {
+          "question": "Which has stronger security credentials?",
+          "answer": "Henry states SOC 2 Type II certification. IntellCRE does not name a certification of its own and points to its hosting providers."
+        }
+      ]
+    },
+    {
+      "a": "prophia",
+      "b": "abstria",
+      "one_liner": "Prophia is an established lease abstraction and management platform for owners with expert-reviewed abstracts and stacking plans; Abstria is a new self-serve abstraction tool that links 200+ fields to their source clauses.",
+      "verdict": "Prophia and Abstria both use AI to turn commercial leases into structured abstracts you can check against the source, but they sit at different points of maturity and serve slightly different jobs.\n\nProphia is a lease data platform for landlords and operators. AI extracts the data, then Prophia's CRE experts audit it before it reaches you, and each value in the living abstract links back to the lease, amendment or renewal it came from. On top of the abstracts it offers stacking plans that update themselves, critical date tracking, lease benchmarking, CAM and rent roll reconciliation, a Yardi audit that checks your system of record against the leases, and an MCP connector so ChatGPT, Claude or Gemini can query portfolio data. Prophia Essentials is priced per tenant on an annual subscription with unlimited users and 215 fields; prices are not published. Founded in 2018, it says it covers 720 million square feet across 5,852 buildings, and names RXR as a customer. The caveats: it is a subscription platform rather than a one-off abstraction service, and pricing needs a sales conversation.\n\nAbstria is a newer, narrower tool built by Al Rafay Consulting, a Microsoft partner in Illinois. It reads leases, amendments, SNDAs, estoppels, LOIs and related documents, extracts more than 200 fields per lease, and hyperlinks each one to the page and clause it came from. Review happens in a dual-panel editor beside the PDF, amendments are compared against the original so changed values sit side by side, and abstracts export to PDF or Word. A self-serve free trial is available; paid plans are by quote, and SSO and API access are Enterprise only. The caveats are real: it has a thin track record and few independent reviews, its accuracy and speed figures are vendor claims, and it does not offer Prophia's expert QA or portfolio operations features.\n\nChoose Prophia if you own or operate a portfolio and want abstracts reviewed by people, kept current, and connected to stacking plans, critical dates and Yardi. Choose Abstria if you are an attorney, diligence team or asset manager who wants to abstract a batch of leases yourself, with every field traced to its clause, and try it free before talking to sales.",
+      "faq": [
+        {
+          "question": "Does Prophia or Abstria review abstracts by hand?",
+          "answer": "Prophia does: CRE experts audit AI output before delivery. Abstria leaves review to your team, using a side-by-side editor and a review status workflow."
+        },
+        {
+          "question": "Can I try either for free?",
+          "answer": "Abstria offers a self-serve free trial. Prophia does not publish prices or a free plan; its full platform is sold per tenant on an annual subscription."
+        },
+        {
+          "question": "Which documents can they read?",
+          "answer": "Abstria lists leases, amendments, SNDAs, estoppels, LOIs and acknowledgements. Prophia covers leases, amendments and renewals and links each value back to its source."
+        },
+        {
+          "question": "Is Abstria an established product?",
+          "answer": "No. It is new, with few independent reviews so far, and its accuracy figures are vendor claims. Test it on leases you have already abstracted before relying on it."
+        }
+      ]
+    },
+    {
+      "a": "eliseai",
+      "b": "funnel-leasing",
+      "one_liner": "EliseAI is an AI-first leasing and resident operations agent that plugs into many systems, including Funnel; Funnel is a multifamily front-office CRM with its own AI, Fenix, built in.",
+      "verdict": "EliseAI and Funnel are two of the names multifamily operators shortlist when they want AI to answer prospects, book tours and handle resident requests around the clock. The useful distinction is that EliseAI starts from the AI agent and adds a CRM, while Funnel starts from the CRM and adds AI. They are not always either-or: Funnel appears on EliseAI's own list of integrations.\n\nEliseAI handles conversations by text, email, chat and voice, with voice in seven languages and written replies in 51. On the leasing side it manages prospects and AI-guided tours; on the resident side it covers move-ins, maintenance requests, renewals and delinquency, plus lease audits and fee transparency. It ships with EliseCRM but is designed to sit on top of other systems, and its integrations page names Rent Manager, ResMan, Funnel, Bluemoon and Zillow Rentals among others. It serves conventional multifamily, student, affordable and single-family rental operators, says it is used by more than 900 property management companies, and names Equity Residential and LeFrak among them. The caveats: pricing is not published, the sales motion is enterprise, and it also sells into healthcare, so not every roadmap item is housing.\n\nFunnel is a renter-centric CRM for multifamily, organized around the renter rather than each property's pipeline. Its AI, branded Fenix, engages prospects by email, SMS, chat and voice and books tours, and on the resident side handles requests, rent reminders and renewals and turns maintenance calls into work orders. It is sold as an Agent Platform (CRM, communications and Fenix) with an optional Renter Platform for applications, screening, fraud detection, payments and renewals. It works on top of Yardi, RealPage, Entrata and ResMan, and Funnel says it powers 2 million units for operators including Camden, Essex, MAA and UDR. The caveats: it is multifamily only, pricing is not published, and you still need a property management system underneath.\n\nChoose EliseAI if you want an AI agent that covers leasing and resident operations across several housing types and slots into the systems you already run. Choose Funnel if you want to replace your leasing CRM and centralize your front office around one renter record, with AI built into that platform.",
+      "faq": [
+        {
+          "question": "Can EliseAI and Funnel be used together?",
+          "answer": "Yes. Funnel is listed among the integrations on EliseAI's site, so some operators run EliseAI's AI agent alongside Funnel's CRM."
+        },
+        {
+          "question": "Do EliseAI or Funnel publish pricing?",
+          "answer": "No. Both are sold through demos and quotes."
+        },
+        {
+          "question": "Which property types do they support?",
+          "answer": "EliseAI serves conventional multifamily, student housing, affordable housing and single-family rentals. Funnel focuses on multifamily."
+        },
+        {
+          "question": "Which PMS platforms do they work with?",
+          "answer": "Funnel names Yardi, RealPage, Entrata and ResMan. EliseAI's integrations page names partners such as Rent Manager, ResMan, Funnel and Bluemoon."
+        }
+      ]
+    },
+    {
+      "a": "eliseai",
+      "b": "respage",
+      "one_liner": "EliseAI is a pure AI operations agent for leasing and resident work; Respage pairs its ResMate AI leasing assistant with apartment marketing services and a CRM, and describes a per-unit pricing structure.",
+      "verdict": "EliseAI and Respage both sell an AI leasing assistant to multifamily operators: software that answers prospect questions at any hour, follows up and books tours. Beyond that shared core they are different kinds of company.\n\nEliseAI is an AI platform first. It handles conversations by text, email, chat and voice, with voice in seven languages and written replies in 51, and extends from leasing (prospect management and AI-guided tours) into resident operations: move-ins, maintenance, renewals, delinquency, lease audits and fee transparency. It includes EliseCRM and integrates with systems such as Rent Manager, ResMan, Funnel and Bluemoon. It serves conventional, student, affordable and single-family rental operators and says more than 900 property management companies use it. Pricing is not published.\n\nRespage is a multifamily marketing company with an AI assistant at the centre. ResMate answers prospects across web chat, forms, email, text, phone, Facebook Messenger and ILS leads and books tours, AI Voice handles inbound calls, and a resident chatbot and a CRM built as an extension of ResMate round out the leasing side. Around that, Respage runs paid search and social ads, SEO, apartment websites, Google Business Profile and reputation management. Its integrations list covers Yardi, RealPage, Entrata, MRI, AppFolio, ResMan, Rent Manager, AMSI and Knock, and it serves multifamily, senior living and affordable communities. It does not publish prices but explains the structure: the chatbot is a flat rate, the full leasing assistant is per unit, AI phone is an add-on, and the CRM and resident chatbot are included with the AI license.\n\nThe caveat for Respage is that its value is highest if you also buy its marketing services; teams with an agency already may only want ResMate. The caveat for EliseAI is the enterprise sales motion, which can be heavy for small portfolios.\n\nChoose EliseAI if you want AI to take on resident operations as well as leasing, across several housing types. Choose Respage if you want one vendor for apartment marketing and AI leasing, with broad PMS integrations and senior living support.",
+      "faq": [
+        {
+          "question": "What is ResMate?",
+          "answer": "ResMate is Respage's AI leasing assistant. It answers prospects across chat, email, text, phone, Facebook Messenger and ILS leads and books tours."
+        },
+        {
+          "question": "How is Respage priced?",
+          "answer": "Respage does not publish prices. It says the chatbot is a flat rate, the full leasing assistant is priced per unit, AI phone is an add-on, and the CRM and resident chatbot are included with the AI license."
+        },
+        {
+          "question": "Does EliseAI handle maintenance requests?",
+          "answer": "Yes. EliseAI's resident features cover maintenance requests, move-ins, renewals and delinquency as well as leasing conversations."
+        },
+        {
+          "question": "Which supports senior living?",
+          "answer": "Respage lists senior living alongside multifamily and affordable housing. EliseAI lists conventional, student, affordable and single-family rental housing."
+        }
+      ]
+    },
+    {
+      "a": "testfit",
+      "b": "deepblocks",
+      "one_liner": "TestFit generates editable site plans and massing across many building types, with published plans from $195 a month to $15,000+ a year; Deepblocks pairs 3D massing with a live pro forma for US cities from $99.99 a month.",
+      "verdict": "TestFit and Deepblocks both answer the developer's first question about a site: what fits here, and does it pencil? Both pair 3D massing with financial outputs and both now publish prices. The difference is how far each goes on the design side versus the numbers, and how much each costs to get going.\n\nTestFit is the more mature design engine. Its generative tool produces an AI-generated site plan with 3D massing that you then edit, across multifamily, single-family, industrial, data centers, retail, hotels and parking, with automatic takeoffs for parking, infrastructure and earthwork. The Site Intelligence add-on layers zoning, flood, wetland, soil and utility data onto the site, and the Pro Forma add-on keeps the model live-linked to the plan. Designs push to Revit and export to AutoCAD, SketchUp, Excel and PDF. Parking Solver is $195 a month with unlimited users, while the full Site Solver starts at $15,000 a year and the Portfolio tier at $20,000. The caveats: the jump to Site Solver is large, the data layers are US datasets, and no free trial is stated.\n\nDeepblocks is lighter and cheaper. Its DEV product shows live 3D massing beside an editable pro forma whose returns update as you change assumptions, with tutorials for multifamily, condo, retail, office, hotel and industrial schemes, and exports to branded PDF and CSV. Coverage is US cities only, built on request, and plans are priced by the number of cities, from $99.99 a month for about five to $499.99 for about thirty. The caveats: coverage is not published as a map, several modules (including the AIM site selection product) are still listed as coming soon, and its design tools are simpler than TestFit's generative layouts.\n\nChoose TestFit if you need detailed, editable site plans across many building types, especially parking-heavy or industrial schemes, and will hand the result to an architect in Revit. Choose Deepblocks if you mainly need quick massing-plus-returns studies in a handful of US cities at a low monthly cost.",
+      "faq": [
+        {
+          "question": "How much do TestFit and Deepblocks cost?",
+          "answer": "TestFit publishes Parking Solver at $195 a month, Site Solver from $15,000 a year and Site Solver Portfolio from $20,000 a year. Deepblocks DEV runs $99.99 to $499.99 a month depending on how many cities are included."
+        },
+        {
+          "question": "Do they work outside the US?",
+          "answer": "Deepblocks covers US cities only. TestFit's design engine works on any site you draw, but its Site Intelligence data layers are US datasets."
+        },
+        {
+          "question": "Which exports to Revit?",
+          "answer": "TestFit pushes designs to Revit and exports to AutoCAD, SketchUp, Excel and PDF. Deepblocks exports PDF reports and CSV assumptions."
+        },
+        {
+          "question": "Do both include a pro forma?",
+          "answer": "Deepblocks includes an editable pro forma in DEV. TestFit offers Pro Forma as an add-on that stays linked to the site plan."
+        }
+      ]
+    },
+    {
+      "a": "togal-ai",
+      "b": "stack",
+      "one_liner": "Togal.AI is a cloud takeoff tool built around AI detection, plan comparison and chat over drawings; STACK combines AI-assisted takeoff with estimating and field tools, and offers a free version.",
+      "verdict": "Togal.AI and STACK are both cloud takeoff platforms that use AI to cut the time estimators spend measuring drawings, and their entry prices are close: $299 per user per month on Togal's Growth plan (billed yearly) and from $299 per user per month for STACK's Takeoff & Estimate. Where they differ is scope.\n\nTogal.AI is takeoff-first and AI-first. Its AI detects, measures and labels spaces and features on drawings, and the company claims up to 98% detection accuracy and takeoffs about five times faster than manual work. One-click drawing comparison quantifies changes between versions, Togal Chat answers questions about a plan set, image search finds matching symbols across sheets, and sheets are named automatically. It is cloud-only with real-time collaboration and exports to Excel or other estimating tools. Its trades list covers doors and hardware, drywall, electrical, flooring, framing, glazing and painting. The caveats: it does not include an estimating module, there is no free trial or tier, and accuracy claims should be tested on your own drawings.\n\nSTACK is a broader preconstruction and field platform. Its takeoff auto-counts symbols, suggests scope and measurements, auto-names pages and flags revisions, and Version Compare overlays drawing versions. Estimating is built in, with items and assemblies, and AI flags risk, gaps and pricing drift. A Build & Operate tier from $49 per user per month covers plan viewing, markup, punch lists and daily reports, and the full platform starts at $348 per user per month. A free version of Takeoff & Estimate is available for new users. The caveats: it has no chat over plans, and its estimating is worksheet-style rather than an enterprise cost database.\n\nChoose Togal.AI if takeoff speed is the bottleneck and you already price work in another estimating tool. Choose STACK if you want takeoff, estimating and jobsite tools from one vendor, or want to start on a free version before paying.",
+      "faq": [
+        {
+          "question": "How much do Togal.AI and STACK cost?",
+          "answer": "Togal's Growth plan is $299 per user per month billed yearly, with a custom Business plan for four or more users. STACK's Takeoff & Estimate starts at $299 per user per month, Build & Operate at $49 and the full platform at $348, with a free Takeoff & Estimate version."
+        },
+        {
+          "question": "Does Togal.AI include estimating?",
+          "answer": "Not as a full module. Togal focuses on takeoff and exports quantities to Excel or other estimating tools. STACK includes estimating."
+        },
+        {
+          "question": "Can I ask questions of my drawings?",
+          "answer": "Togal Chat lets you ask questions of a plan set. STACK does not advertise a chat feature."
+        },
+        {
+          "question": "Are both cloud-based?",
+          "answer": "Yes. Both run in the browser with real-time collaboration; STACK also has iOS, Android and Windows apps for field work."
+        }
+      ]
+    },
+    {
+      "a": "togal-ai",
+      "b": "planswift",
+      "one_liner": "Togal.AI is a cloud, AI-first takeoff tool at $299 per user per month; PlanSwift is long-established Windows desktop takeoff and estimating from $2,000 a year, with AI Auto Takeoff in its Core plan.",
+      "verdict": "Togal.AI and PlanSwift both turn construction drawings into quantities, and both now use AI to do more of the measuring. They come from different eras of takeoff software, and that shapes everything from where they run to how they are priced.\n\nTogal.AI was built around AI. It detects, measures and labels spaces and features on drawings automatically, with the company claiming up to 98% detection accuracy and takeoffs about five times faster than manual methods. It adds one-click drawing comparison, Togal Chat for questions about a plan set, image search for matching symbols and automatic sheet naming. It runs in the cloud with real-time collaboration and exports to Excel or other estimating tools. The Growth plan is $299 per user per month billed yearly, and a custom Business plan covers teams of four or more. The caveats: there is no estimating module, no free trial, and its accuracy claims are the vendor's.\n\nPlanSwift is the established desktop option, with its support and legal pages run by ConstructConnect. Estimators measure areas, lengths and counts with point-and-click tools and build estimates from assemblies with export to Excel. Its Takeoff Boost AI suite adds Auto Count, Auto Scale, Auto Bookmark and Auto Takeoff, which generates areas, lengths, counts and wall types. Pricing is published: Essential is $2,000 a year for one seat, Core adds Auto Takeoff at $3,000 a year, and volume pricing applies from ten licenses. A 14-day free trial needs no card. The caveats: it is Windows only and cannot be installed directly on a Mac, cloud users are pointed to a separate ConstructConnect product, and multi-user collaboration is weaker than in a browser tool.\n\nOn cost, a single PlanSwift Core seat is $3,000 a year against about $3,600 a year for a Togal Growth seat, so the decision is less about price than about workflow.\n\nChoose Togal.AI if your team works across locations, wants the most automated detection and plan comparison, and prices work in another tool. Choose PlanSwift if your estimators work on Windows desktops, want takeoff and estimating in one familiar application, and prefer to trial before buying.",
+      "faq": [
+        {
+          "question": "Is PlanSwift cloud-based?",
+          "answer": "No. PlanSwift is Windows desktop software and cannot be installed directly on a Mac. ConstructConnect points cloud users to a separate takeoff product."
+        },
+        {
+          "question": "How do Togal.AI and PlanSwift pricing compare?",
+          "answer": "Togal's Growth plan is $299 per user per month billed yearly. PlanSwift publishes Essential at $2,000 a year and Core, with Auto Takeoff, at $3,000 a year per seat."
+        },
+        {
+          "question": "Does PlanSwift use AI?",
+          "answer": "Yes. Its Takeoff Boost suite includes Auto Count, Auto Scale, Auto Bookmark and, on the Core plan, Auto Takeoff, which generates areas, lengths, counts and wall types."
+        },
+        {
+          "question": "Can I try them before buying?",
+          "answer": "PlanSwift offers a 14-day free trial with no card. Togal does not list a free trial; its Try Now link leads to a demo."
+        }
+      ]
     }
   ]
 }
