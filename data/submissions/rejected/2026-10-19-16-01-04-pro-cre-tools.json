@@ -11,5 +11,7 @@
   "screenshot_urls": "https://www.procretools.com/shots/hero.jpg, https://www.procretools.com/shots/ai-intake.jpg, https://www.procretools.com/shots/rental-sensitivity.jpg, https://www.procretools.com/shots/spec-summary.jpg",
   "submitted_at": "2026-10-19T16:01:04.993Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "new-company scrutiny (domain registered Sep 2026, ref-tagged submission URL, no legal entity, address or named people, no independent source)",
+  "processed_at": "2026-10-20"
 }

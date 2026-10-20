@@ -11,5 +11,7 @@
   "screenshot_urls": "https://buildability.us/og-card.jpg",
   "submitted_at": "2026-10-06T04:19:49.788Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "new-company scrutiny (domain registered Apr 2026, no independent source, site contradicts itself on its scoring method); revisit when an independent source exists",
+  "processed_at": "2026-10-20"
 }

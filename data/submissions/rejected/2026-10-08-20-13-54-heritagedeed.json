@@ -11,5 +11,7 @@
   "screenshot_urls": "https://heritagedeed.com/og/default.jpg",
   "submitted_at": "2026-10-08T20:13:54.804Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "new-company scrutiny (domain registered Oct 3 2026, free-during-launch only, four repeat submissions, no independent source); residential title search",
+  "processed_at": "2026-10-20"
 }

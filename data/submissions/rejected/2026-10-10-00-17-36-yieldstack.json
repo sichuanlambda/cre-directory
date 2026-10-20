@@ -11,5 +11,7 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-10T00:17:36.725Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "not software (commercial mortgage brokerage paid by closing fee); only paid press releases, inconsistent lender-count claims",
+  "processed_at": "2026-10-20"
 }

@@ -11,5 +11,7 @@
   "screenshot_urls": "https://trypaperroute.com/opengraph-image",
   "submitted_at": "2026-10-05T12:13:32.538Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "non-CRE (Instagram content for residential agents); domain registered Sep 2026, no address or named people",
+  "processed_at": "2026-10-20"
 }

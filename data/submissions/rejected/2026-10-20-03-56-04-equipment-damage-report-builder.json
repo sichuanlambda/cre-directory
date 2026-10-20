@@ -11,5 +11,7 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-20T03:56:04.318Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "not a CRE product (single free equipment-record worksheet page on auditit.app, a domain registered Jun 2026)",
+  "processed_at": "2026-10-20"
 }

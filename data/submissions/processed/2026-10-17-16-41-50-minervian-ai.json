@@ -11,5 +11,7 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-17T16:41:50.126Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "processed",
+  "product_slug": "minervian-ai",
+  "processed_at": "2026-10-20"
 }

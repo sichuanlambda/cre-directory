@@ -11,5 +11,7 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-19T04:06:26.514Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "non-CRE (contact lists of residential real estate agents); domain registered Mar 2026",
+  "processed_at": "2026-10-20"
 }

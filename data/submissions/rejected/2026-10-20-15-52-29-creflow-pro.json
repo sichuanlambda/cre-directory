@@ -11,5 +11,7 @@
   "screenshot_urls": "",
   "submitted_at": "2026-10-20T15:52:29.365Z",
   "source": "web-form",
-  "status": "pending"
+  "status": "rejected",
+  "rejected_reason": "unverifiable (no legal entity, address or named people; no independent source; domain changed hands May 2026)",
+  "processed_at": "2026-10-20"
 }
