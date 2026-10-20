@@ -835,3 +835,14 @@ a.price-est:hover { text-decoration: underline; }
 .pricing-note { margin-top: 32px; padding: 18px 22px; border-radius: 12px; border: 1px solid var(--g-border); background: var(--g-card); font-size: 14px; scroll-margin-top: 72px; }
 .pricing-note p { margin: 0; color: var(--g-soft); }
 html[data-theme="dark"] body.guide { --g-est: #fcd34d; --g-est-bg: rgba(252,211,77,.14); }
+
+/* Interactive compare page + alternatives glance table */
+.compare-select select { width: 100%; }
+#compare-result:empty { display: none; }
+.cmp-tagline { margin-top: 8px; font-size: 13px; font-weight: 400; color: var(--gray-600); line-height: 1.45; }
+.cmp-table tr.cmp-actions th, .cmp-table tr.cmp-actions td { text-align: center; background: var(--gray-50); border-top: 1px solid var(--gray-300); }
+.cmp-table tr.cmp-actions .cta-btn { margin: 3px; }
+.alt-glance { margin: 8px 0 28px; }
+.spec-product { display: inline-flex; align-items: center; gap: 10px; }
+.spec-product .product-logo { width: 32px; height: 32px; flex-shrink: 0; display: flex; }
+.spec-table tr.spec-self th, .spec-table tr.spec-self td { background: var(--accent-light); }
