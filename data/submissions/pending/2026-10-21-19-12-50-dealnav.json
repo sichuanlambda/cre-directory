@@ -1,0 +1,15 @@
+{
+  "tool_name": "DealNav",
+  "website": "https://deal-nav.com",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "CRM & Marketing, AI & Automation",
+  "description": "Track deals, contacts and follow-ups on one map, with county parcel records and a direct connection to ChatGPT and Claude.",
+  "pricing": "Basic: $59/month or $600/year, with 25 parcel lookups a month.\r\nPro: $99/month or $999/year, with unlimited parcel lookups (fair use).\r\nEnterprise: custom pricing.\r\n14-day free trial.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "I'm a co-founder of DealNav.\r\n\r\nTagline: Map-based CRM for real estate acquisitions and brokerage teams.\r\n\r\nDealNav is a map-based CRM for real estate acquisitions and brokerage professionals. Deals, contacts and follow-ups live as pins on one map, so a team can see and work its whole market in one place. Click any lot to open its county record (owner, mailing address, acreage, zoning, flood zone, year built, building size and last sale) and turn it into a tracked deal with the owner added as a contact. DealNav connects directly to ChatGPT and Claude on every plan, so a team can ask its AI assistant about its own pipeline. It's web-based and works on any computer, tablet or phone.\r\n\r\nFeatures:\r\n- Map with priority pins\r\n- County parcel records and one-click deal creation from a parcel\r\n- Deals as a list, Kanban board or pipeline report\r\n- Contacts linked to deals, including LLC/entity contacts\r\n- Reminders by email and text\r\n- Gmail and Outlook email sync\r\n- ChatGPT and Claude connection, plus a public API, on every plan\r\n- Team datasets with view-only or edit access\r\n- File uploads\r\n- Spreadsheet import and Excel export\r\n\r\nIntegrations: Gmail, Outlook, ChatGPT, Claude, public API.\r\n\r\nHQ: Cos Cob, Connecticut. Founders: Anthony Longo and Patrick Carino.\r\nLinkedIn: https://www.linkedin.com/company/deal-nav/\r\nX: https://x.com/DealNav\r\nG2 reviews (4.7 out of 5): https://www.g2.com/products/dealnav/reviews\r\n\r\nScreenshot captions, in order:\r\n1. See your whole market on one map\r\n2. Work any deal right from its pin\r\n3. Filter, prioritize, and export to Excel\r\n4. From spreadsheet to map",
+  "screenshot_urls": "https://deal-nav.com/marketing/dealnav-map-dashboard-1200.webp, https://deal-nav.com/marketing/dealnav-dashboard-tasks.webp, https://deal-nav.com/marketing/dealnav-deals-listview.webp, https://deal-nav.com/marketing/dealnav-map-wide.webp",
+  "submitted_at": "2026-10-21T19:12:50.427Z",
+  "source": "web-form",
+  "status": "pending"
+}
