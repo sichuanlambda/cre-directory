@@ -1,0 +1,15 @@
+{
+  "tool_name": "Rentalot",
+  "website": "https://rentalot.ai",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Property Management, AI & Automation, Listing Services",
+  "description": "Rentalot: the AI Agent for Leasing Agents.",
+  "pricing": "Free trial; paid month-to-month plans.",
+  "submitter_name": "",
+  "relationship": "",
+  "notes": "Rentalot is the AI leasing assistant for leasing agents. Paste your listing text and AI builds the property page. Renters answer your screening questions by voice or text from one link you can drop into any listing site, and you get comparable answers side by side. Book showings, manage contacts and properties by just asking, or let your own AI (Claude, ChatGPT) drive it through MCP, the CLI or the REST API. The AI collects and organises; you approve what matters. Self-serve, month-to-month, free trial.\r\n\r\nFounder: Ariel Frischer. Founded: 2026. Demo: https://youtu.be/2kOc1uSbIt0",
+  "screenshot_urls": "",
+  "submitted_at": "2026-10-22T05:32:16.309Z",
+  "source": "web-form",
+  "status": "pending"
+}
