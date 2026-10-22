@@ -2115,8 +2115,8 @@
     "slug": "cherre",
     "url": "https://www.cherre.com",
     "logo_url": "/img/logos/cherre.png",
-    "headline": "Commercial real estate software solution",
-    "description": "Cherre is a real estate data management and intelligence platform that connects, cleans, and unifies data from 150+ sources for asset managers and investment managers. The platform ingests data from internal systems and external providers, normalizes it through a Universal Data Model, and delivers validated, enriched data for analytics, AI, and reporting. Cherre's Agent STUDIO enables users to build AI agents for automating CRE workflows. With 100+ petabytes of data and 3.5B+ connected data points, Cherre powers data-driven decision-making for some of the largest real estate investors globally. Raised $30M Series C in 2024.",
+    "headline": "Real estate data management platform that connects, cleans and unifies portfolio data.",
+    "description": "Cherre is a real estate data management and intelligence platform that connects, cleans, and unifies data from 150+ sources for asset managers and investment managers. The platform ingests data from internal systems and external providers, normalizes it through a Universal Data Model, and delivers validated, enriched data for analytics, AI, and reporting. Cherre's Agent STUDIO enables users to build AI agents for automating CRE workflows. With 100+ petabytes of data and 3.5B+ connected data points, Cherre powers data-driven decision-making for some of the largest real estate investors globally. RealPage completed its acquisition of Cherre in July 2026. Data is exposed through a GraphQL API and delivered to warehouses such as Snowflake, AWS, Azure and BigQuery.",
     "short_description": "Commercial real estate software platform.",
     "target_audience": {
       "roles": [
@@ -2245,9 +2245,9 @@
     ],
     "cons": [
       "Enterprise pricing only, not accessible for smaller firms",
-      "Requires significant data infrastructure maturity to get full value",
+      "Requires data infrastructure maturity to get full value",
       "Implementation can be complex depending on data sources",
-      "Relatively newer company, less brand recognition than legacy providers"
+      "Now part of RealPage (July 2026), so roadmap and packaging may change"
     ],
     "integrations": [
       {
@@ -2276,11 +2276,7 @@
       }
     ],
     "company": {
-      "name": "Cherre",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Cherre (a RealPage company)"
     },
     "categories": [
       "Data & Analytics",
@@ -2300,7 +2296,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-10-22",
     "is_verified": false,
     "is_featured": false,
     "domain": "cherre.com",
@@ -2329,7 +2325,15 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T22:47:23.057975Z",
     "primary_category": "data-analytics",
-    "logo_url_source": "https://logo.clearbit.com/cherre.com"
+    "logo_url_source": "https://logo.clearbit.com/cherre.com",
+    "api": {
+      "access": [
+        "GraphQL API",
+        "Warehouse delivery"
+      ],
+      "docs_url": "https://cherre.com/products/platform/",
+      "how": "Through sales"
+    }
   },
   {
     "title": "CityBldr",
@@ -2729,7 +2733,7 @@
     "url": "https://www.cotality.com",
     "logo_url": "/img/logos/corelogic.png",
     "headline": "Property data and analytics, formerly CoreLogic.",
-    "description": "Cotality, known as CoreLogic until its March 2025 rebrand, is a leading global property data and analytics company providing intelligence for real estate, mortgage, insurance, and government sectors. The platform offers 98%+ property coverage in major markets, processes over 1 million data points refreshed monthly, and maintains 30 years of historical data. Cotality provides property valuations, climate and environmental risk analysis with 30-year forecasts, market analytics, automated valuation models (AVMs), and AI-powered insights through its CoreAI intelligence platform. The company serves real estate agents, lenders, insurers, investors, and government agencies worldwide.",
+    "description": "Cotality, known as CoreLogic until its March 2025 rebrand, is a leading global property data and analytics company providing intelligence for real estate, mortgage, insurance, and government sectors. The platform offers 98%+ property coverage in major markets, processes over 1 million data points refreshed monthly, and maintains 30 years of historical data. Cotality provides property valuations, climate and environmental risk analysis with 30-year forecasts, market analytics, automated valuation models (AVMs), and AI-powered insights through its CoreAI intelligence platform. An MCP server gives licensed customers' AI agents access to property data, market analytics and climate risk tools, and data is also offered through Snowflake and Databricks. The company serves real estate agents, lenders, insurers, investors, and government agencies worldwide.",
     "short_description": "Property data, valuation models and risk analytics for real estate, mortgage and insurance. Formerly CoreLogic.",
     "target_audience": {
       "roles": [],
@@ -2877,7 +2881,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-04",
+    "last_updated": "2026-10-22",
     "is_verified": false,
     "is_featured": false,
     "domain": "cotality.com",
@@ -2892,7 +2896,18 @@
     "aliases": [
       "CoreLogic"
     ],
-    "status_note": "CoreLogic rebranded as Cotality in March 2025. corelogic.com now redirects to cotality.com."
+    "status_note": "CoreLogic rebranded as Cotality in March 2025. corelogic.com now redirects to cotality.com.",
+    "api": {
+      "access": [
+        "REST API",
+        "MCP server",
+        "Snowflake",
+        "Databricks"
+      ],
+      "docs_url": "https://develop.cotality.com/mcp/overview",
+      "mcp_docs_url": "https://develop.cotality.com/mcp/overview",
+      "how": "Licensed customers; credentials from your account team"
+    }
   },
   {
     "title": "CoStar",
@@ -6115,11 +6130,11 @@
   {
     "title": "Lev",
     "slug": "lev",
-    "url": "https://www.levcapital.com",
+    "url": "https://www.lev.com",
     "logo_url": "/img/logos/lev.png",
-    "headline": "Real estate lending platform.",
-    "description": "Lev is a commercial real estate financing platform that combines powerful tools with purpose-built AI to help CRE professionals close more deals faster. The platform provides lender matching, workflow automation, and AI-powered deal management. Leading commercial real estate brands including Time Equities and Alturas Capital Partners use Lev to streamline the financing process, manage lender relationships, and connect with new lenders. Lev has integrated AI into real estate mortgage lending to provide clarity and purpose for deal teams, enabling them to run more holistic financing processes with reduced headaches.",
-    "short_description": "Real estate lending platform.",
+    "headline": "AI platform for CRE financing: lender matching, deal execution, loan servicing and surveillance.",
+    "description": "Lev is an AI platform for commercial real estate financing. Capital markets teams and borrowers use it to run a debt process from sourcing to close in one deal record: lender search and matching, lender outreach, term sheet extraction and comparison, document collection and closing. Lev for Enterprise adds loan servicing, with a searchable loan book that pulls terms such as maturity and minimum DSCR out of loan documents, and portfolio surveillance that keeps watchlists, compares operating metrics with covenant minimums and surfaces early warnings next to recent market terms and lender activity. The company also sells sourcing, screening and data enrichment tools for acquisitions, loan origination and investment sales teams. Lev Capital, its former brokerage business, says on its old site that it is no longer active. Pricing is not published.",
+    "short_description": "AI platform that runs a CRE debt process from lender search to close, with servicing and portfolio surveillance for enterprises.",
     "target_audience": {
       "roles": [
         "Sponsors",
@@ -6196,46 +6211,25 @@
       }
     ],
     "pricing": {
-      "model": "Subscription",
-      "starting_price": null,
-      "billing_options": [],
+      "model": "Quote-based",
       "free_trial": false,
-      "free_tier": false,
-      "plans": [
-        {
-          "name": "Standard",
-          "price": "Contact for pricing",
-          "period": "",
-          "features": [
-            "Lender matching",
-            "Workflow automation",
-            "Deal pipeline",
-            "AI insights"
-          ]
-        }
-      ]
+      "free_tier": false
     },
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Purpose-built AI for commercial real estate financing",
-      "Streamlines lender matching and relationship management",
-      "Workflow automation reduces manual tasks in financing",
-      "Used by leading CRE brands and capital markets teams",
-      "Helps teams connect with new lenders efficiently"
+      "Runs the debt process from lender search to closing in one deal record",
+      "Enterprise servicing and surveillance track maturities and covenant tests",
+      "Recent market terms and lender activity help benchmark a refinance"
     ],
     "cons": [
-      "Pricing not publicly available",
-      "Focused on financing, not a general CRE platform",
-      "Value depends on deal volume and lender network"
+      "No published pricing",
+      "Servicing and surveillance sit in a separate, sales-led enterprise tier",
+      "The product is changing quickly (Lev 3.0), so confirm which modules a plan includes"
     ],
     "integrations": [],
     "company": {
-      "name": "Lev",
-      "founded": 2019,
-      "headquarters": "New York, NY",
-      "employees": "50-100",
-      "funding": "$30M+"
+      "name": "Lev, Inc."
     },
     "categories": [
       "Lending & Debt",
@@ -6255,11 +6249,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-22",
     "is_verified": false,
     "is_featured": false,
-    "domain": "levcapital.com",
-    "pricing_model": "Subscription",
+    "domain": "lev.com",
+    "pricing_model": "Quote-based",
     "is_free": false,
     "tagline": "Real estate lending platform.",
     "property_types": [
@@ -6419,7 +6413,16 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T22:31:36.726344Z",
     "primary_category": "data-analytics",
-    "logo_url_source": "https://logo.clearbit.com/lightboxre.com"
+    "logo_url_source": "https://logo.clearbit.com/lightboxre.com",
+    "api": {
+      "access": [
+        "REST API",
+        "Bulk delivery",
+        "Snowflake"
+      ],
+      "docs_url": "https://developer.lightboxre.com/",
+      "how": "Free developer account and app key; evaluation agreement applies"
+    }
   },
   {
     "title": "LoopNet",
@@ -7819,7 +7822,7 @@
     "url": "https://www.placer.ai",
     "logo_url": "/img/logos/placer.png",
     "headline": "Location analytics and foot traffic intelligence",
-    "description": "Placer.ai is the leading location intelligence and foot traffic analytics platform for commercial real estate, retail, and hospitality. It provides granular foot traffic data, visitor demographics, trade area analysis, and competitive benchmarking for any physical location in the US. CRE professionals use Placer.ai to evaluate investment properties, assess retail tenant performance, analyze market trends, and inform site selection decisions. The platform offers a free dashboard alongside premium API and data feed products, processing data from a de-identified mobile panel with 92%+ accuracy.",
+    "description": "Placer.ai is the leading location intelligence and foot traffic analytics platform for commercial real estate, retail, and hospitality. It provides granular foot traffic data, visitor demographics, trade area analysis, and competitive benchmarking for any physical location in the US. CRE professionals use Placer.ai to evaluate investment properties, assess retail tenant performance, analyze market trends, and inform site selection decisions. The platform offers a free edition alongside custom plans with an API, data feeds and, for enterprise accounts, an MCP server that lets AI assistants run Placer analyses, processing data from a de-identified mobile panel with 92%+ accuracy.",
     "short_description": "Location analytics platform providing foot traffic intelligence and consumer behavior insights.",
     "target_audience": {
       "roles": [
@@ -7926,43 +7929,26 @@
       "model": "Freemium",
       "starting_price": "Free",
       "billing_options": [
-        "Monthly",
         "Annual"
       ],
-      "free_trial": true,
+      "free_trial": false,
       "free_tier": true,
       "plans": [
         {
           "name": "Free",
           "price": "Free",
-          "period": "monthly",
           "features": [
-            "Basic foot traffic data",
-            "Limited property lookups",
-            "Community reports"
+            "Free edition of the platform"
           ]
         },
         {
-          "name": "Professional",
+          "name": "Custom plans",
           "price": "Contact for pricing",
-          "period": "annual",
           "features": [
             "Full analytics platform",
-            "Custom reports",
-            "Advanced demographics",
-            "Trade area analysis"
-          ]
-        },
-        {
-          "name": "Enterprise",
-          "price": "Contact for pricing",
-          "period": "annual",
-          "features": [
-            "API access",
+            "API (PAPI) add-on",
             "Data feeds",
-            "Custom integrations",
-            "Dedicated support",
-            "Marketplace data"
+            "MCP access for enterprise accounts"
           ]
         }
       ]
@@ -8018,11 +8004,7 @@
       }
     ],
     "company": {
-      "name": "Placer.ai",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Placer Labs, Inc."
     },
     "categories": [
       "Data & Analytics",
@@ -8042,7 +8024,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-10-22",
     "is_verified": false,
     "is_featured": false,
     "domain": "placer.ai",
@@ -8074,7 +8056,17 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T22:34:34.536355Z",
     "primary_category": "data-analytics",
-    "logo_url_source": "https://logo.clearbit.com/placer.ai"
+    "logo_url_source": "https://logo.clearbit.com/placer.ai",
+    "api": {
+      "access": [
+        "REST API",
+        "MCP server",
+        "Data feeds"
+      ],
+      "docs_url": "https://docs.placer.ai/reference/getting-started",
+      "mcp_docs_url": "https://docs.placer.ai/page/placer-mcp",
+      "how": "Paid account with the API add-on; MCP enabled per enterprise account"
+    }
   },
   {
     "title": "Plotzy",
@@ -8283,7 +8275,14 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T22:35:03.365212Z",
     "primary_category": "site-selection",
-    "logo_url_source": "https://i.postimg.cc/jdg7ZfSB/Plotzy-1-Concpt-modi-1-04.png"
+    "logo_url_source": "https://i.postimg.cc/jdg7ZfSB/Plotzy-1-Concpt-modi-1-04.png",
+    "api": {
+      "access": [
+        "REST API"
+      ],
+      "docs_url": "https://www.plotzy.ai/llms.txt",
+      "how": "Scale plan only; credentials set up by Plotzy support"
+    }
   },
   {
     "title": "Procore",
@@ -8544,26 +8543,25 @@
       }
     ],
     "pricing": {
-      "model": "",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "model": "Quote-based",
+      "free_trial": true,
+      "free_tier": false
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
+    "pros": [
+      "Shared deal room and live closing checklist from term sheet to funding",
+      "Borrowers upload documents through links with no login",
+      "Integrates with Outlook, Word, Excel, Salesforce and SharePoint"
+    ],
     "cons": [
-      "Website not accessible during research"
+      "No published pricing",
+      "A closing and deal-room tool, not an underwriting or servicing system",
+      "Post-close support is light compared with servicing platforms"
     ],
     "integrations": [],
     "company": {
-      "name": "Prodeal",
-      "founded": 0,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "Prodeal"
     },
     "categories": [
       "Broker Tools",
@@ -8583,7 +8581,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-08-28",
+    "last_updated": "2026-10-22",
     "is_verified": false,
     "is_featured": false,
     "domain": "prodeal360.com",
@@ -11419,8 +11417,8 @@
     "slug": "stacksource",
     "url": "https://www.stacksource.com",
     "logo_url": "/img/logos/stacksource.png",
-    "headline": "Commercial real estate financing platform.",
-    "description": "StackSource is a modern lending marketplace platform for commercial real estate professionals that brings technology to capital markets. The platform combines real-time deal posting, algorithmic matching, and transparent data to streamline capital sourcing. StackSource uses AI-driven matching that improves with every interaction to connect borrowers with verified lenders. Top developers and investors rely on StackSource to fund projects faster with access to best-in-class lending data including lender behavior trends, rate benchmarks, and performance metrics. The platform serves investors, brokers, and lenders with real-time feedback from a network of verified capital sources.",
+    "headline": "CRE lending marketplace with lender matching and daily rate benchmarks, free during early access.",
+    "description": "StackSource is a commercial real estate lending marketplace. Brokers and borrowers post a deal once and an algorithm notifies only the lenders whose criteria (geography, asset type and loan size) match, while lenders set their criteria and receive filtered deals. Dashboards add daily rate updates across lender types and loan products, benchmark rates, lender behavior trends and recent deals. The current platform was relaunched and is in early access, which the site says is free; pricing after early access is not published. StackSource previously operated as a technology-enabled financing brokerage, so treat the new marketplace as young.",
     "short_description": "Commercial real estate financing platform.",
     "target_audience": {
       "roles": [
@@ -11502,31 +11500,32 @@
       }
     ],
     "pricing": {
-      "model": "Transaction-based",
-      "starting_price": null,
-      "billing_options": [],
+      "model": "Free during early access",
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Early access",
+          "price": "Free",
+          "description": "Free during early access; later pricing not published."
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "AI-driven matching improves with every interaction",
-      "Real-time lender feedback eliminates waiting",
-      "Exclusive lending data provides competitive intelligence",
-      "Verified lender network ensures quality capital sources",
-      "Modern tech-driven approach to CRE capital markets"
+      "Post a deal once and reach only matching lenders",
+      "Daily rate updates and benchmark rates by lender type and product",
+      "Free to use during early access"
     ],
     "cons": [
-      "Pricing model not publicly detailed",
-      "Network size compared to traditional brokers may vary",
-      "Best suited for institutional-quality deals"
+      "Relaunched marketplace in early access, with a short track record in this form",
+      "Pricing after early access is not published",
+      "Lender network depth for smaller or unusual deals is hard to judge from outside"
     ],
     "integrations": [],
     "company": {
       "name": "StackSource",
-      "founded": 2018,
       "headquarters": "New York, NY",
       "employees": "20-50",
       "funding": "$10M+"
@@ -11548,11 +11547,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-22",
     "is_verified": false,
     "is_featured": false,
     "domain": "stacksource.com",
-    "pricing_model": "Transaction-based",
+    "pricing_model": "Free (early access)",
     "is_free": false,
     "tagline": "Commercial real estate financing platform.",
     "property_types": [
@@ -15389,40 +15388,29 @@
       }
     ],
     "pricing": {
-      "model": "Subscription + per-report",
-      "starting_price": null,
-      "billing_options": [],
+      "model": "Subscription",
       "free_trial": false,
-      "free_tier": true,
+      "free_tier": false,
       "plans": [
         {
-          "name": "Search",
-          "price": "Free",
-          "period": "",
-          "features": [
-            "Basic zoning search",
-            "Zoning maps"
-          ]
+          "name": "API Starter",
+          "price": "$134/mo",
+          "description": "10,000 tiling calls and 100 point calls a month."
         },
         {
-          "name": "Reports",
-          "price": "Starting at $25 per report",
-          "period": "per report",
-          "features": [
-            "Zoning Briefs",
-            "Summary Reports",
-            "Full Reports"
-          ]
+          "name": "API Builder",
+          "price": "$284/mo",
+          "description": "25,000 tiling calls, 250 point calls, 1,000 Zone Permits credits."
         },
         {
-          "name": "API",
+          "name": "API Growth",
+          "price": "$549/mo",
+          "description": "75,000 tiling calls, 600 point calls, plus Prospector and Bassett allowances."
+        },
+        {
+          "name": "Custom",
           "price": "Contact for pricing",
-          "period": "",
-          "features": [
-            "Zoning data API",
-            "Bulk access",
-            "Custom integration"
-          ]
+          "description": "Custom volumes."
         }
       ]
     },
@@ -15450,8 +15438,8 @@
     ],
     "cons": [
       "Coverage varies by city and state, not all areas fully digitized",
-      "Certified Zoning Letters can be expensive for individual transactions",
-      "Free search provides limited information without purchasing reports"
+      "API pricing starts at $134 a month with no free plan",
+      "Search and report pricing is not shown on the API pricing page"
     ],
     "integrations": [
       "Redfin",
@@ -15483,11 +15471,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-22",
     "is_verified": false,
     "is_featured": false,
     "domain": "zoneomics.com",
-    "pricing_model": "Subscription + per-report",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "AI-driven Zoning Analysis & Site Search. Understanding zoning for address/area.",
     "property_types": [
@@ -15509,7 +15497,14 @@
     ],
     "enriched": true,
     "primary_category": "data-analytics",
-    "logo_url_source": "https://logo.clearbit.com/zoneomics.com"
+    "logo_url_source": "https://logo.clearbit.com/zoneomics.com",
+    "api": {
+      "access": [
+        "REST API"
+      ],
+      "docs_url": "https://www.zoneomics.com/pricing/api",
+      "how": "Self-serve plans from $134 a month"
+    }
   },
   {
     "title": "TestFit",
@@ -22256,12 +22251,32 @@
           ]
         },
         {
-          "name": "Enterprise",
-          "price": "Custom quote",
-          "period": "",
+          "name": "API Starter",
+          "price": "$129/mo",
           "features": [
-            "API access",
-            "Custom data"
+            "500 API calls a month",
+            "$0.30 per extra call"
+          ]
+        },
+        {
+          "name": "API Professional",
+          "price": "$249/mo",
+          "features": [
+            "1,000 API calls a month"
+          ]
+        },
+        {
+          "name": "API Growth",
+          "price": "$599/mo",
+          "features": [
+            "3,000 API calls a month"
+          ]
+        },
+        {
+          "name": "API Enterprise",
+          "price": "Custom",
+          "features": [
+            "Custom volume"
           ]
         }
       ]
@@ -22290,7 +22305,7 @@
     ],
     "cons": [
       "Data accuracy can vary in smaller or rural markets",
-      "Premium features and API access require expensive plans",
+      "API calls are priced separately from the investor plans",
       "Focused primarily on US market"
     ],
     "integrations": [
@@ -22324,7 +22339,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-09-02",
+    "last_updated": "2026-10-22",
     "is_verified": false,
     "is_featured": false,
     "domain": "mashvisor.com",
@@ -22355,7 +22370,14 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T23:30:38.470824Z",
     "primary_category": "data-analytics",
-    "logo_url_source": "https://logo.clearbit.com/mashvisor.com"
+    "logo_url_source": "https://logo.clearbit.com/mashvisor.com",
+    "api": {
+      "access": [
+        "REST API"
+      ],
+      "docs_url": "https://www.mashvisor.com/data-api",
+      "how": "Self-serve; 30 free sample calls, then from $129 a month"
+    }
   },
   {
     "title": "Hemlane",
@@ -25039,7 +25061,7 @@
     "url": "https://cred-iq.com",
     "logo_url": "/img/logos/cred-iq.png",
     "headline": "Commercial real estate intelligence and property data platform.",
-    "description": "CRED iQ is a commercial real estate data, analytics, and valuation platform built on the universe of securitized CRE debt, spanning CMBS, SASB, CRE CLO, and GSE/Agency multifamily loans. Founded in 2020, it covers roughly $2.3 trillion in loan data and over 150 million properties, including loan balances and maturity dates, borrower and ownership contact data, special-servicing status, and property-level operating statements. Investors, lenders, brokers, and analysts use it to monitor loan performance, track distress, model valuations, and source leads for lending, refinancing, and acquisition opportunities. Data is delivered via web application, API, and bulk feeds.",
+    "description": "CRED iQ is a commercial real estate data, analytics and valuation platform built on the universe of securitized CRE debt, spanning CMBS, SASB, CRE CLO and Fannie Mae, Freddie Mac and Ginnie Mae multifamily loans, joined to public records, sales, ownership and comps. Founded in 2020, it says it covers more than $2 trillion in loans, with loan balances and maturity dates, borrower and ownership data, special servicing status and property-level operating statements. The web platform includes a maturity pipeline, instant valuation and refinance models, watchlists, portfolio uploads and distress alerts, and investors, lenders, brokers and analysts use it to monitor loans and source refinancing and acquisition leads. Pricing is published: API access starts on the Professional plan, and an MCP server and bulk feeds to Snowflake, Databricks and SFTP come with Enterprise.",
     "short_description": "CRE and CMBS loan data, analytics, and valuation platform for investors, lenders, and brokers.",
     "target_audience": {
       "roles": [],
@@ -25109,31 +25131,42 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
+      "starting_price": "$625/month (billed annually)",
+      "billing_options": [
+        "Annual"
+      ],
+      "free_trial": true,
       "free_tier": false,
       "plans": [
         {
-          "name": "Standard",
-          "price": "Contact for pricing",
-          "period": "annual",
-          "features": [
-            "CMBS loan data",
-            "Property financials",
-            "Market analytics"
-          ]
+          "name": "Trial Access",
+          "price": "Free",
+          "description": "Demo account, 1 seat, view-only, business email required."
+        },
+        {
+          "name": "Solo",
+          "price": "$625/mo ($7,500 billed annually)",
+          "description": "1 seat; full securitized coverage, search, lists, alerts, CSV/XLSX exports."
+        },
+        {
+          "name": "Starter",
+          "price": "$1,250/mo ($15,000 billed annually)",
+          "description": "Up to 5 seats; adds watchlists, portfolio uploads and distress alerts."
+        },
+        {
+          "name": "Professional",
+          "price": "$3,850/mo ($46,200 billed annually)",
+          "description": "Up to 25 seats; adds portfolio analytics, DCF models and documented API access."
         },
         {
           "name": "Enterprise",
-          "price": "Contact for pricing",
-          "period": "annual",
-          "features": [
-            "Everything in Standard",
-            "API access",
-            "Custom reports",
-            "Priority support"
-          ]
+          "price": "Custom",
+          "description": "Unlimited seats, MCP server, bulk feeds (Snowflake, Databricks, SFTP)."
+        },
+        {
+          "name": "DCF Valuation add-on",
+          "price": "$200/mo per seat",
+          "description": "Web-based valuation models with CRED iQ data."
         }
       ]
     },
@@ -25153,21 +25186,21 @@
       "Regular market reports provide current insights"
     ],
     "cons": [
-      "Website returned minimal content during research",
-      "Pricing not publicly available",
-      "Primarily focused on CMBS, limited coverage of other CRE debt"
+      "Strongest on securitized and agency debt; balance sheet bank loans are not in the loan data",
+      "API from the Professional plan and MCP only on Enterprise",
+      "Trial is a view-only demo for qualified leads"
     ],
     "integrations": [],
     "company": {
       "name": "CRED iQ",
       "founded": 2020,
-      "headquarters": "Austin, TX",
       "employees": "20-50",
       "funding": "$5M+"
     },
     "categories": [
       "Data & Analytics",
-      "Investment & Valuation"
+      "Investment & Valuation",
+      "Lending & Debt"
     ],
     "deployment": [
       "Cloud"
@@ -25183,7 +25216,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-08-28",
+    "last_updated": "2026-10-22",
     "is_verified": false,
     "is_featured": false,
     "domain": "crediq.com",
@@ -25198,7 +25231,16 @@
     "enrichedAt": "2026-02-17T23:35:38.440435Z",
     "primary_category": "data-analytics",
     "status": "active",
-    "logo_url_source": "https://logo.clearbit.com/crediq.com"
+    "logo_url_source": "https://logo.clearbit.com/crediq.com",
+    "api": {
+      "access": [
+        "REST API",
+        "MCP server",
+        "Bulk feeds"
+      ],
+      "docs_url": "https://cred-iq.com/pricing",
+      "how": "API from the Professional plan; MCP and feeds on Enterprise"
+    }
   },
   {
     "title": "CoFoundersLab",
@@ -26623,8 +26665,8 @@
     "slug": "property-data-api",
     "url": "https://www.realie.ai/real-estate-data-api",
     "logo_url": "/img/logos/property-data-api.png",
-    "headline": "details on 180 million property parcels",
-    "description": "Realie Property Data API provides access to 180+ million US properties with 100+ comprehensive data fields, directly sourced from local counties with constant updates. The low-latency API delivers property insights for enterprise and individual users, including ownership data, tax records, property characteristics, and more. Realie offers custom enterprise solutions alongside standard API access, positioning itself as a developer-friendly real estate data provider for building applications and integrations.",
+    "headline": "US property data API covering 180M+ parcels, with an MCP server and published usage tiers.",
+    "description": "Realie Property Data API provides access to 180+ million US properties with 100+ comprehensive data fields, directly sourced from local counties with constant updates. The low-latency API delivers property insights for enterprise and individual users, including ownership data, tax records, property characteristics, and more. An official MCP server connects AI assistants to the same data, bulk delivery is available to S3, GCS or Azure, and Realie offers custom enterprise solutions alongside standard API access, positioning itself as a developer-friendly real estate data provider for building applications and integrations.",
     "short_description": "details on 180 million property parcels",
     "target_audience": "Enterprise software developers building real estate applications, individual developers creating PropTech solutions, real estate technology companies requiring comprehensive property data, data analysts and researchers in real estate, and businesses needing reliable, fast access to property information for their platforms.",
     "feature_groups": [
@@ -26651,22 +26693,29 @@
       }
     ],
     "pricing": {
-      "model": "API usage-based",
-      "starting_price": null,
-      "billing_options": [],
+      "model": "Usage-based",
       "free_trial": false,
-      "free_tier": false,
+      "free_tier": true,
       "plans": [
         {
-          "name": "API Access",
-          "price": "Contact for pricing",
-          "period": "",
-          "features": [
-            "180M+ properties",
-            "100+ data fields",
-            "County-sourced data",
-            "Custom enterprise solutions"
-          ]
+          "name": "Free",
+          "price": "$0",
+          "description": "25 tokens a month; payment method needed for API access."
+        },
+        {
+          "name": "Tier 1",
+          "price": "$50/mo",
+          "description": "1,250 tokens; $0.05 per extra token."
+        },
+        {
+          "name": "Tier 2",
+          "price": "$150/mo",
+          "description": "6,000 tokens; $0.025 per extra token."
+        },
+        {
+          "name": "Tier 3",
+          "price": "$350/mo",
+          "description": "30,000 tokens; $0.012 per extra token."
         }
       ]
     },
@@ -26679,9 +26728,9 @@
       "Custom enterprise solutions available"
     ],
     "cons": [
-      "Pricing not publicly listed",
-      "Newer platform, less established than competitors",
-      "API-only, no user interface"
+      "Newer platform, less established than larger data vendors",
+      "Residential-heavy parcel data rather than CRE leases, comps or debt",
+      "A payment method is needed even for free API access"
     ],
     "integrations": [],
     "company": {
@@ -26708,11 +26757,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-22",
     "is_verified": false,
     "is_featured": false,
     "domain": "realie.ai",
-    "pricing_model": "API usage-based",
+    "pricing_model": "Usage-based",
     "is_free": false,
     "tagline": "details on 180 million property parcels",
     "property_types": [
@@ -26736,7 +26785,17 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T23:37:34.305980Z",
     "primary_category": "data-analytics",
-    "logo_url_source": "https://logo.clearbit.com/realie.ai"
+    "logo_url_source": "https://logo.clearbit.com/realie.ai",
+    "api": {
+      "access": [
+        "REST API",
+        "MCP server",
+        "Bulk files"
+      ],
+      "docs_url": "https://docs.realie.ai/api-reference/pricing",
+      "mcp_docs_url": "https://docs.realie.ai/realie-mcp-server",
+      "how": "Self-serve; free tier needs a payment method on file"
+    }
   },
   {
     "title": "MapZot.AI",
@@ -28050,9 +28109,7 @@
           "price": "Contact for pricing",
           "period": "annual",
           "features": [
-            "Streamlined origination",
-            "Quick setup",
-            "Essential automation"
+            "For teams under 4 people and under $500M in annual originations"
           ]
         },
         {
@@ -28060,9 +28117,8 @@
           "price": "Contact for pricing",
           "period": "annual",
           "features": [
-            "Advanced portfolio monitoring",
-            "Custom workflows",
-            "Dedicated support"
+            "For larger teams and origination volumes",
+            "Portfolio monitoring"
           ]
         }
       ]
@@ -28098,7 +28154,7 @@
     "company": {
       "name": "Blooma, Inc.",
       "founded": 2018,
-      "headquarters": "New York, NY",
+      "headquarters": "Encinitas, CA",
       "employees": "50-100",
       "funding": "$25M+"
     },
@@ -28121,7 +28177,7 @@
         "AI CRE"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-22",
     "is_verified": false,
     "is_featured": false,
     "domain": "blooma.ai",
@@ -28703,7 +28759,15 @@
     "enriched": true,
     "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
     "primary_category": "property-management",
-    "logo_url_source": "https://logo.clearbit.com/prophia.com"
+    "logo_url_source": "https://logo.clearbit.com/prophia.com",
+    "api": {
+      "access": [
+        "MCP server"
+      ],
+      "docs_url": "https://www.prophia.com/mcp-integration",
+      "mcp_docs_url": "https://support.prophia.com/kb/guide/en/mcp-end-user-getting-started-guide-IHf6G06L85/Steps/5740004",
+      "how": "Prophia customers; enabled per organization"
+    }
   },
   {
     "title": "Dottid",
@@ -32962,7 +33026,17 @@
     "enriched": true,
     "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
     "primary_category": "data-analytics",
-    "logo_url_source": "https://logo.clearbit.com/msci.com"
+    "logo_url_source": "https://logo.clearbit.com/msci.com",
+    "api": {
+      "access": [
+        "API",
+        "Snowflake",
+        "MCP connector"
+      ],
+      "docs_url": "https://www.msci.com/data-and-analytics/real-estate/data-delivery",
+      "mcp_docs_url": "https://www.msci.com/discover-msci/artificial-intelligence/msci-connector",
+      "how": "MSCI client entitlements"
+    }
   },
   {
     "title": "Moody's REIS",
@@ -33714,7 +33788,16 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "REST API",
+        "MCP server"
+      ],
+      "docs_url": "https://zillapi.com/quickstart/",
+      "mcp_docs_url": "https://zillapi.com/ai-agents/",
+      "how": "Self-serve; 100 free credits, no card"
+    }
   },
   {
     "title": "Concrete Estimator Hub",
@@ -36029,8 +36112,15 @@
     ],
     "pricing": {
       "model": "Quote-based",
-      "free_trial": false,
-      "free_tier": false
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "API trial",
+          "price": "Free for 30 days",
+          "description": "Self-serve evaluation key for the property data API."
+        }
+      ]
     },
     "pros": [
       "Breadth of datasets in one vendor, from deeds and mortgages to schools and risk",
@@ -36045,7 +36135,7 @@
       "Cloud"
     ],
     "company": {
-      "name": "ATTOM Data Solutions"
+      "name": "ATTOM"
     },
     "domain": "attomdata.com",
     "is_verified": false,
@@ -36057,9 +36147,21 @@
       "Commercial"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-22",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "REST API",
+        "MCP server",
+        "Bulk files",
+        "Snowflake",
+        "Databricks"
+      ],
+      "docs_url": "https://api.developer.attomdata.com/docs",
+      "mcp_docs_url": "https://www.attomdata.com/solutions/delivery/mcp-server/",
+      "how": "30-day self-serve API trial; MCP through sales"
+    }
   },
   {
     "title": "Azibo",
@@ -40387,7 +40489,7 @@
     "url": "https://www.greenstreet.com",
     "logo_url": "/img/logos/green-street.png",
     "headline": "Independent research, pricing, and analytics on public and private CRE markets.",
-    "description": "Green Street provides commercial real estate and infrastructure market intelligence spanning independent research, data and analytics, and real-time news. Its Data & Analytics products cover private and public market data, valuation models, REIT coverage, retail analytics, and debt data, delivered through the platform as well as Excel, Snowflake, and API integrations. The Research arm publishes independent sector analysis and forecasts, while Green Street News adds market coverage and transactional intelligence. A GreenStreetAI MCP server brings Green Street intelligence into AI tools such as Claude, ChatGPT, and Gemini. It serves institutional investors, asset managers, advisors, brokers, and lenders across sectors including office, retail, student housing, hotels, and healthcare.",
+    "description": "Green Street provides commercial real estate and infrastructure market intelligence spanning independent research, data and analytics, and real-time news. Its Data & Analytics products cover private and public market data, valuation models, REIT coverage, retail analytics, and debt data, delivered through the platform as well as Excel, Snowflake, and API integrations. The Research arm publishes independent sector analysis and forecasts, while Green Street News adds market coverage and transactional intelligence. A GreenStreetAI MCP server, sold as a paid add-on for subscribers, brings Green Street intelligence into AI tools such as Claude, ChatGPT, and Gemini. It serves institutional investors, asset managers, advisors, brokers, and lenders across sectors including office, retail, student housing, hotels, and healthcare.",
     "short_description": "Subscription CRE research, pricing data, REIT analytics, and news for institutional investors.",
     "tagline": "Power your strategy with clarity and confidence",
     "categories": [
@@ -40480,9 +40582,20 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-22",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "MCP server",
+        "REST API",
+        "Snowflake",
+        "Excel add-in"
+      ],
+      "docs_url": "https://eu.greenstreet.com/products/ai/",
+      "mcp_docs_url": "https://eu.greenstreet.com/mcp-server-commercial-real-estate/",
+      "how": "Paid add-on for subscribers"
+    }
   },
   {
     "title": "Guesty",
@@ -40825,8 +40938,8 @@
       "plans": [
         {
           "name": "Standard",
-          "price": "Contact sales",
-          "description": "Automated rent comps with unit-level data, rent trend analysis, exports, live chat support, 5 saved surveys per user; add-ons available."
+          "price": "$300/user/month",
+          "description": "Automated rent comps with unit-level data, rent trend analysis, exports, 10 saved surveys per user; free trial available."
         },
         {
           "name": "Portfolio",
@@ -40843,7 +40956,7 @@
     ],
     "cons": [
       "Multifamily only; no office, retail, or industrial coverage",
-      "Plan prices are not published beyond the per-call API rate",
+      "Portfolio pricing is quoted per unit",
       "Built on publicly listed asking data rather than executed lease transactions"
     ],
     "deployment": [
@@ -40861,9 +40974,16 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-22",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "REST API"
+      ],
+      "docs_url": "https://docs.hellodata.ai/",
+      "how": "Key on request; $0.10 per call on the Portfolio plan"
+    }
   },
   {
     "title": "Homebot",
@@ -47109,7 +47229,7 @@
     "url": "https://revolutionre.com",
     "logo_url": "/img/logos/revolutionre.png",
     "headline": "Multifamily data suite standardizing PMS data into dashboards and benchmarks.",
-    "description": "RevolutionRE is a multifamily operational and financial data suite that extracts, standardizes, and visualizes data from property management systems. Its ETL & Standardization service manages the data pipeline with GL mapping and daily refreshes across more than 120 PMS connections, while the BI Tool delivers interactive dashboards, automated reports, and smart alerts without coding. Data Plus layers on AI-driven benchmarking and performance insights, and a Data Licensing product provides live market benchmarks across more than 20 US markets. The platform serves owners, operators, asset managers, acquisition teams, and proptech developers, with role-based permissions, API access, and SOC 2 compliance.",
+    "description": "RevolutionRE is a multifamily operational and financial data suite that extracts, standardizes, and visualizes data from property management systems. Its ETL & Standardization service manages the data pipeline with GL mapping and daily refreshes across more than 120 PMS connections, while the BI Tool delivers interactive dashboards, automated reports, and smart alerts without coding. Data Plus layers on AI-driven benchmarking and performance insights, and a Data Licensing product provides live market benchmarks across more than 20 US markets. The platform serves owners, operators, asset managers, acquisition teams, and proptech developers, with role-based permissions and SOC 2 compliance. A RevRE MCP server, included with BI Tool and ETL subscriptions, connects that data to AI assistants, and data feeds go to Snowflake, BigQuery, S3 or SFTP; public API documentation is listed as coming soon.",
     "short_description": "Extracts and standardizes multifamily PMS data into dashboards, APIs, and market benchmarks.",
     "tagline": "Multifamily operational & financial data suite",
     "categories": [
@@ -47226,9 +47346,18 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-22",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "MCP server",
+        "Data feeds"
+      ],
+      "docs_url": "https://www.revolutionre.com/documentation",
+      "mcp_docs_url": "https://www.revolutionre.com/mcp",
+      "how": "Included with BI Tool and ETL subscriptions"
+    }
   },
   {
     "title": "rezora",
@@ -49464,7 +49593,7 @@
     "url": "https://www.trepp.com",
     "logo_url": "/img/logos/trepp.png",
     "headline": "CMBS and CRE data, analytics, and loan surveillance for lenders and investors.",
-    "description": "Trepp provides data, analytics, and technology solutions for the structured finance, commercial real estate, and banking markets, and is widely regarded as an industry standard for CMBS analysis. Its platforms support cash flow modeling, deal surveillance, and loan performance tracking across securitized commercial mortgages. TreppLoan manages and analyzes commercial real estate loans with insight into loan performance and risk, while TreppCRE provides property-level ownership, lease, tax, and financial data on US commercial real estate. TreppLoan Valuation, introduced in 2025, adds whole-loan valuation for CRE lenders and institutional investors. Users include institutional bond investors, broker-dealers, banks, lenders, and hedge funds; Trepp is part of Fitch Solutions.",
+    "description": "Trepp provides data, analytics, and technology solutions for the structured finance, commercial real estate, and banking markets, and is widely regarded as an industry standard for CMBS analysis. Its platforms support cash flow modeling, deal surveillance, and loan performance tracking across securitized commercial mortgages. TreppLoan manages and analyzes commercial real estate loans with insight into loan performance and risk, while TreppCRE provides property-level ownership, lease, tax, and financial data on US commercial real estate. TreppLoan Valuation, introduced in 2025, adds whole-loan valuation for CRE lenders and institutional investors. Users include institutional bond investors, broker-dealers, banks, lenders, and hedge funds. In April 2026 Fitch Group announced an agreement to acquire Trepp, subject to regulatory clearance. TreppMCP servers are offered to connect Trepp data to AI assistants such as Claude and ChatGPT, and the TreppData Feed delivers data in bulk.",
     "short_description": "CMBS and CRE loan data and analytics for surveillance, valuation, and portfolio monitoring.",
     "tagline": "Data, analytics, and technology for structured finance and CRE",
     "categories": [
@@ -49536,7 +49665,7 @@
     ],
     "pricing": {
       "model": "Quote-based",
-      "free_trial": false,
+      "free_trial": true,
       "free_tier": false
     },
     "pros": [
@@ -49553,7 +49682,7 @@
       "Cloud"
     ],
     "company": {
-      "name": "Trepp, Inc. (Fitch Solutions)"
+      "name": "Trepp, Inc."
     },
     "domain": "trepp.com",
     "is_verified": false,
@@ -49567,9 +49696,19 @@
       "Retail"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-22",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "MCP server",
+        "Data feed",
+        "Web services"
+      ],
+      "docs_url": "https://www.trepp.com/trepp-data-feed",
+      "mcp_docs_url": "https://www.trepp.com/agent-optimized-mcp-servers-treppai",
+      "how": "Through sales"
+    }
   },
   {
     "title": "U-Rite",
@@ -52737,7 +52876,7 @@
     "url": "https://batchdata.io/",
     "logo_url": "/img/logos/batchdata.png",
     "headline": "Property, owner, and contact data APIs for real estate and proptech.",
-    "description": "BatchData provides bulk property data, real-time APIs, and data enrichment built from more than 1 billion data points across 155 million US properties. Datasets include property characteristics, ownership information, automated valuation models, mortgage data, permits, and pre-foreclosure records, with skip tracing, reverse skip tracing, contact enrichment, and phone number verification layered on top. Delivery options span real-time APIs, bulk delivery to S3, Snowflake, or flat files, and an MCP server integration. The company serves real estate investors, mortgage lenders, insurers, real estate portals, title and legal professionals, government agencies, and marketers, and cites customers including Ring, Crexi, and HouseCanary. Pricing is not published on the site.",
+    "description": "BatchData provides bulk property data, real-time APIs, and data enrichment built from more than 1 billion data points across 155 million US properties. Datasets include property characteristics, ownership information, automated valuation models, mortgage data, permits, and pre-foreclosure records, with skip tracing, reverse skip tracing, contact enrichment, and phone number verification layered on top. Delivery options span real-time APIs, bulk delivery to S3, Snowflake, or flat files, and an MCP server integration. The company serves real estate investors, mortgage lenders, insurers, real estate portals, title and legal professionals, government agencies, and marketers, and cites customers including Ring, Crexi, and HouseCanary. Property data and skip tracing plans are priced on the site; the MCP server is custom priced.",
     "short_description": "Bulk property data and APIs: ownership, AVMs, mortgages, permits, skip tracing, and contact enrichment.",
     "tagline": "Real Estate Data, APIs, and AI Solutions",
     "categories": [
@@ -52812,9 +52951,26 @@
       }
     ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription (records per month)",
       "free_trial": false,
-      "free_tier": false
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Property Data",
+          "price": "$1,000 to $10,000/mo",
+          "description": "100,000 to 3,000,000 records a month."
+        },
+        {
+          "name": "Skip Tracing",
+          "price": "$2,000 to $20,000/mo",
+          "description": "100,000 to 3,000,000 records a month."
+        },
+        {
+          "name": "MCP server and custom",
+          "price": "Contact for pricing",
+          "description": "Enterprise and custom solutions."
+        }
+      ]
     },
     "pros": [
       "Combines property records with owner contact data in one vendor",
@@ -52822,8 +52978,9 @@
       "Serves both bulk data and real-time API use cases"
     ],
     "cons": [
-      "No published pricing",
-      "Primarily residential coverage rather than commercial asset data"
+      "High entry price for property data compared with self-serve APIs",
+      "Primarily residential coverage rather than commercial asset data",
+      "Terms bar sending data to third-party AI tools without written approval"
     ],
     "deployment": [
       "Cloud"
@@ -52834,15 +52991,25 @@
     "domain": "batchdata.io",
     "is_verified": false,
     "is_featured": false,
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "property_types": [
       "Residential"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-22",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "REST API",
+        "Bulk delivery",
+        "MCP server"
+      ],
+      "docs_url": "https://help.batchdata.io/en/articles/12606410-sandbox-api-tokens",
+      "mcp_docs_url": "https://batchdata.io/mcp-server",
+      "how": "Account with sandbox tokens; MCP custom priced"
+    }
   },
   {
     "title": "BatchLeads",
@@ -61129,9 +61296,21 @@
       }
     ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Freemium (credits)",
       "free_trial": false,
-      "free_tier": false
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "$0",
+          "description": "100 data credits a month."
+        },
+        {
+          "name": "Pro",
+          "price": "$50 every 4 weeks",
+          "description": "15,000 data credits; includes AI Connect (MCP)."
+        }
+      ]
     },
     "pros": [
       "Daily-updated market data rather than lagging monthly indices",
@@ -61139,8 +61318,9 @@
       "Publishes free, data-driven housing research"
     ],
     "cons": [
-      "No pricing published on the site",
-      "Residential housing focus rather than commercial asset classes"
+      "Residential housing focus rather than commercial asset classes",
+      "Credit-based usage needs watching on heavy research days",
+      "API licence limits use to internal purposes and requires attribution"
     ],
     "deployment": [
       "Cloud"
@@ -61151,7 +61331,7 @@
     "domain": "parcllabs.com",
     "is_verified": false,
     "is_featured": false,
-    "pricing_model": "Quote-based",
+    "pricing_model": "Freemium",
     "is_free": false,
     "property_types": [
       "Residential",
@@ -61159,9 +61339,19 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-22",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "REST API",
+        "MCP server",
+        "CSV downloads"
+      ],
+      "docs_url": "https://docs.parcllabs.com/",
+      "mcp_docs_url": "https://www.parcllabs.com/data-vault/ai-connect",
+      "how": "Free account with 100 credits a month; MCP on the paid Pro plan"
+    }
   },
   {
     "title": "PassBy",
@@ -62653,7 +62843,7 @@
     "url": "https://www.propertyradar.com/",
     "logo_url": "/img/logos/propertyradar.png",
     "headline": "Public-records property data and list building with multi-channel outreach.",
-    "description": "PropertyRadar is a property data and marketing platform that helps real estate professionals identify motivated owners and automate outreach. It combines public-records data on more than 160 million properties and 318 million mortgages across 3,000+ counties with over 30 distress signals, skip tracing, and list building. Built-in campaigns reach owners by phone, text, email, direct mail, and online ads, with automated alerts and actions as property status changes. The company started with foreclosure tracking in 2007 and now serves investors, residential and commercial agents, mortgage professionals, and property service businesses through industry-specific playbooks.",
+    "description": "PropertyRadar is a property data and marketing platform that helps real estate professionals identify motivated owners and automate outreach. It combines public-records data on more than 160 million properties and 318 million mortgages across 3,000+ counties with over 30 distress signals, skip tracing, and list building. Built-in campaigns reach owners by phone, text, email, direct mail, and online ads, with automated alerts and actions as property status changes. The company started with foreclosure tracking in 2007 and now serves investors, residential and commercial agents, mortgage professionals, and property service businesses through industry-specific playbooks. API access is included in every paid plan, and an MCP server connects AI assistants such as Claude and ChatGPT.",
     "short_description": "160M+ property records with owner contacts, 30+ distress signals, and built-in multi-channel marketing.",
     "tagline": "Find motivated owners before anyone else.",
     "categories": [
@@ -62734,7 +62924,7 @@
         {
           "name": "Business",
           "price": "$549/mo annual ($599 monthly)",
-          "description": "10 users, 50,000 monthly exports, 2,500 phones and emails, API access, dedicated success rep."
+          "description": "10 users, 50,000 monthly exports, 2,500 phones and emails, dedicated success rep."
         }
       ]
     },
@@ -62747,7 +62937,7 @@
     "cons": [
       "Phone, email, and send quotas are modest on lower tiers",
       "More investor and agent focused than institutional CRE",
-      "API access is reserved for the top plan"
+      "Not available to UK or EU users, and terms bar using data to train AI"
     ],
     "deployment": [
       "Cloud",
@@ -62766,9 +62956,19 @@
       "Commercial"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-22",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "REST API",
+        "Webhooks",
+        "MCP server"
+      ],
+      "docs_url": "https://developers.propertyradar.com/",
+      "mcp_docs_url": "https://www.propertyradar.com/features/api",
+      "how": "Key in account settings on any paid plan"
+    }
   },
   {
     "title": "PropStream",
@@ -63190,9 +63390,31 @@
       }
     ],
     "pricing": {
-      "model": "Subscription",
+      "model": "Per draw (draw credits)",
       "free_trial": false,
-      "free_tier": false
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Lite",
+          "price": "$120 per draw",
+          "description": "Document management, budget tracking, draw approval workflows."
+        },
+        {
+          "name": "Standard",
+          "price": "$170 per draw",
+          "description": "Adds automated rules, basic project management and an inspector portal."
+        },
+        {
+          "name": "Premium",
+          "price": "$215 per draw",
+          "description": "Adds advanced project management, cash flow projections, HUD forms and a borrower portal."
+        },
+        {
+          "name": "Homebuilder",
+          "price": "Custom",
+          "description": "Revolving facilities, priced to the portfolio."
+        }
+      ]
     },
     "pros": [
       "Purpose-built for construction finance on both the developer and lender sides",
@@ -63200,9 +63422,9 @@
       "Pay-for-active-projects subscription model scales with actual usage"
     ],
     "cons": [
-      "No published pricing tiers",
+      "Contract minimums apply for SSO, API and integrations",
       "Focused on construction finance, not full project or property management",
-      "Aimed at teams with real draw volume; light users may not justify it"
+      "Per-draw pricing adds up on large, draw-heavy portfolios"
     ],
     "deployment": [
       "Cloud"
@@ -63213,7 +63435,7 @@
     "domain": "rabbet.com",
     "is_verified": false,
     "is_featured": false,
-    "pricing_model": "Subscription",
+    "pricing_model": "Usage-based",
     "is_free": false,
     "property_types": [
       "Commercial",
@@ -63221,7 +63443,7 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-22",
     "status": "active",
     "enriched": true
   },
@@ -63977,7 +64199,7 @@
     "slug": "regrid",
     "url": "https://regrid.com/",
     "logo_url": "",
-    "headline": "Nationwide parcel data with boundaries, buildings, zoning, and ownership.",
+    "headline": "Standardized parcel data across North America and Europe, by API, tiles, bulk files and MCP.",
     "description": "Regrid sells standardized land parcel data covering 100% of U.S. parcels across all 50 states, with additional coverage in Canada and Europe (22 countries globally). Core parcel boundaries and attributes can be enriched with matched building footprints, standardized zoning data, daily property ownership updates, and matched secondary addresses, plus U.S. roadway right-of-way polygons. Data is delivered through APIs and tiles, an Esri-compatible feature service, bulk file delivery, a self-serve Data Store for county and state downloads, and a web/mobile Property App, with an MCP server for AI-native access. Regrid serves real estate, architecture/engineering/construction, government, insurance and finance, renewable energy, telecom, and logistics teams.",
     "short_description": "Standardized nationwide parcel data - boundaries, buildings, zoning, ownership - via API, bulk files, and apps.",
     "tagline": "Foundational context for location decisions",
@@ -64042,9 +64264,21 @@
       }
     ],
     "pricing": {
-      "model": "Quote-based",
-      "free_trial": false,
-      "free_tier": false
+      "model": "Usage-based (self-serve API) and enterprise licences",
+      "free_trial": true,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Self-serve API",
+          "price": "Monthly plans; overage $0.10 per record (Standard) or $0.15 (Premium), $0.001 per tile",
+          "description": "Includes 2,000 records and 200,000 tiles a month; trial token limited to 7 counties."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Contact for pricing",
+          "description": "For more than 10,000 records a month, bulk files and batch API."
+        }
+      ]
     },
     "pros": [
       "Complete, standardized U.S. parcel coverage in one dataset",
@@ -64052,9 +64286,9 @@
       "Zoning, building footprint, and daily ownership enrichments layer onto the same records"
     ],
     "cons": [
-      "No pricing published - enterprise and API plans require contacting sales",
-      "It is a data product, not an analysis application - most value comes when piped into your own tools",
-      "Some enrichments (zoning, ownership updates) are paid add-ons on top of base parcels"
+      "Base self-serve plan prices are not on the public pages, only overage rates",
+      "A data product, not an analysis application; most value comes when piped into your own tools",
+      "API terms bar using the data to train AI models, and AI tools must have training and data sharing turned off"
     ],
     "deployment": [
       "Cloud",
@@ -64066,7 +64300,7 @@
     "domain": "regrid.com",
     "is_verified": false,
     "is_featured": false,
-    "pricing_model": "Quote-based",
+    "pricing_model": "Usage-based",
     "is_free": false,
     "property_types": [
       "Commercial",
@@ -64074,7 +64308,7 @@
       "Land"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-22",
     "status": "active",
     "enriched": true,
     "screenshots": [
@@ -64090,7 +64324,18 @@
         "source_url": "https://regrid.com/property-app",
         "captured": "2026-10-04"
       }
-    ]
+    ],
+    "api": {
+      "access": [
+        "REST API",
+        "MCP server",
+        "Bulk files",
+        "Tiles"
+      ],
+      "docs_url": "https://regrid.com/api",
+      "mcp_docs_url": "https://support.regrid.com/docs/mcp-server",
+      "how": "Self-serve token with monthly plans; trial token covers 7 counties"
+    }
   },
   {
     "title": "Rehab Valuator",
@@ -64228,7 +64473,7 @@
     "url": "https://www.rentcast.io/",
     "logo_url": "/img/logos/rentcast.png",
     "headline": "Rent estimates, rental comps, and market data for any US property.",
-    "description": "RentCast provides rent estimates, rental comps, and market analytics for properties across the United States, drawing on a database of more than 150 million property records with roughly 500,000 updated daily. Users can look up rent prices for any address, pull up to 20 nearby rental comps, track market trends and statistics across 38,000+ zip codes, and monitor a portfolio with automated rent alerts and market updates. Reports can be exported and shared as PDFs, with white-label branding on the Pro tier. A separate self-serve property and rental data API serves developers and proptech companies. Coverage spans houses, condos, townhomes, apartments, multifamily, and some commercial properties.",
+    "description": "RentCast provides rent estimates, rental comps, and market analytics for properties across the United States, drawing on a database of more than 150 million property records with roughly 500,000 updated daily. Users can look up rent prices for any address, pull up to 20 nearby rental comps, track market trends and statistics across 38,000+ zip codes, and monitor a portfolio with automated rent alerts and market updates. Reports can be exported and shared as PDFs, with white-label branding on the Pro tier. A separate self-serve property and rental data API, with a free developer plan and an official MCP server for AI assistants, serves developers and proptech companies. Coverage spans houses, condos, townhomes, apartments, multifamily, and some commercial properties.",
     "short_description": "Rent estimates, comps, market trends, and portfolio tracking for US rental properties, free to start.",
     "tagline": "Real-time rental property data and market insights",
     "categories": [
@@ -64316,6 +64561,26 @@
           "name": "Pro",
           "price": "$12/mo annual ($19 monthly)",
           "description": "20 nearby comps, 50+ portfolio properties, custom PDF report branding; 14-day free trial."
+        },
+        {
+          "name": "API Developer",
+          "price": "$0",
+          "description": "50 API calls a month; $0.20 per extra call."
+        },
+        {
+          "name": "API Foundation",
+          "price": "$74/mo",
+          "description": "1,000 calls a month; $0.06 per extra call."
+        },
+        {
+          "name": "API Growth",
+          "price": "$199/mo",
+          "description": "5,000 calls a month; $0.03 per extra call."
+        },
+        {
+          "name": "API Scale",
+          "price": "$449/mo",
+          "description": "25,000 calls a month; $0.015 per extra call."
         }
       ]
     },
@@ -64345,9 +64610,18 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-22",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "REST API",
+        "MCP server"
+      ],
+      "docs_url": "https://www.rentcast.io/api",
+      "mcp_docs_url": "https://developers.rentcast.io/reference/ai-tools",
+      "how": "Self-serve key; free plan with 50 calls a month, MCP on paid plans"
+    }
   },
   {
     "title": "REPM",
@@ -64862,7 +65136,15 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "GraphQL API",
+        "Bulk delivery"
+      ],
+      "docs_url": "https://docs.safegraph.com/reference/places-api-overview-new",
+      "how": "Through sales"
+    }
   },
   {
     "title": "Searchland",
@@ -65903,7 +66185,14 @@
     "review_count": 0,
     "last_updated": "2026-08-30",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "REST API"
+      ],
+      "docs_url": "https://developer.streetlightdata.com/docs",
+      "how": "Through your account team"
+    }
   },
   {
     "title": "Tactica RES",
@@ -66914,7 +67203,7 @@
     "url": "https://www.yardimatrix.com/",
     "logo_url": "/img/logos/yardi-matrix.png",
     "headline": "Institutional market data and research across eight commercial asset classes.",
-    "description": "Yardi Matrix is the market intelligence division of Yardi Systems, providing data, analytics, and research to support institutional real estate investment and asset management decisions. Coverage spans multifamily, affordable housing, student housing, single-family rental and build-to-rent, office, industrial, self storage, and vacant land across more than 180 US markets. Property-level data is developed through original field research with continuous near real-time updates, supplemented by anonymized Yardi platform data. The platform includes monthly market reports on rents and occupancy, ownership transparency, loan intelligence, transaction history, and supply and absorption insights, delivered through dashboards and benchmarking tools. It is used by equity investors, lenders, and property managers underwriting US real estate.",
+    "description": "Yardi Matrix is the market intelligence division of Yardi Systems, providing data, analytics, and research to support institutional real estate investment and asset management decisions. Coverage spans multifamily, affordable housing, student housing, single-family rental and build-to-rent, office, industrial, self storage, and vacant land across more than 180 US markets. Property-level data is developed through original field research with continuous near real-time updates, supplemented by anonymized Yardi platform data. The platform includes monthly market reports on rents and occupancy, ownership transparency, loan intelligence, transaction history, and supply and absorption insights, delivered through dashboards and benchmarking tools, and a Matrix Connector for Claude, included on every plan, lets the assistant query Matrix data. It is used by equity investors, lenders, and property managers underwriting US real estate.",
     "short_description": "Yardi's market intelligence arm - rents, occupancy, ownership, and loan data across 180+ US markets.",
     "tagline": "Institutional real estate market intelligence.",
     "categories": [
@@ -66986,9 +67275,36 @@
       }
     ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Subscription (per user, per asset class)",
       "free_trial": false,
-      "free_tier": false
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Starter",
+          "price": "$199/user/asset class/mo",
+          "description": "1 metro."
+        },
+        {
+          "name": "Professional",
+          "price": "$699/user/asset class/mo",
+          "description": "Up to 5 metros."
+        },
+        {
+          "name": "Expert",
+          "price": "$999/user/asset class/mo",
+          "description": "Up to 10 metros."
+        },
+        {
+          "name": "Nationwide",
+          "price": "$1,999/user/asset class/mo",
+          "description": "All available metros."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "description": "Custom metro selection, API and data feeds through sales."
+        }
+      ]
     },
     "pros": [
       "Broad asset-class coverage including niches like self storage and student housing",
@@ -66997,8 +67313,8 @@
       "Includes debt and loan maturity intelligence alongside market data"
     ],
     "cons": [
-      "No published pricing; sales-led contracting",
-      "Aimed at institutional users, so likely overkill for small investors",
+      "Priced per user and per asset class, so multi-sector teams pay for each",
+      "Aimed at institutional users, likely more than small investors need",
       "US-only market coverage"
     ],
     "deployment": [
@@ -67010,7 +67326,7 @@
     "domain": "yardimatrix.com",
     "is_verified": false,
     "is_featured": false,
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "property_types": [
       "Multifamily",
@@ -67022,9 +67338,17 @@
       "Land"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-22",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "MCP connector (Claude)",
+        "API and feeds via sales"
+      ],
+      "docs_url": "https://www.yardimatrix.com/about-us/yardi-matrix-ai-connectors/",
+      "how": "Claude connector included on every Matrix plan"
+    }
   },
   {
     "title": "Zilculator",
@@ -67369,7 +67693,16 @@
     "review_count": 0,
     "last_updated": "2026-10-03",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "api": {
+      "access": [
+        "REST API",
+        "MCP server"
+      ],
+      "docs_url": "https://app.homesage.ai/docs",
+      "mcp_docs_url": "https://homesage.ai/products/real-estate-mcps/",
+      "how": "Self-serve; 30-day trial with 300 credits"
+    }
   },
   {
     "title": "Mergro",
@@ -68461,7 +68794,7 @@
     ],
     "status": "active",
     "enriched": true,
-    "last_updated": "2026-10-20",
+    "last_updated": "2026-10-22",
     "integrations": [],
     "seo": {},
     "title": "Buildability",
@@ -68472,7 +68805,7 @@
     "headline": "Scores any U.S. parcel 0 to 100 on nine cited factors, with paid reports that add the buildable envelope.",
     "tagline": "Parcel buildability scores and reports from public data.",
     "short_description": "Scores any U.S. parcel 0 to 100 on nine cited factors such as zoning, flood and soil, with paid buildable-envelope reports.",
-    "description": "Buildability scores any U.S. parcel from 0 to 100 using nine factors drawn from public data: zoning (city and county code), flood (FEMA NFHL), seismic (USGS), soil (USDA SSURGO), radon (EPA), wildfire (USFS Wildfire Hazard Potential), utilities, terrain (USGS 3DEP) and lot shape from the county parcel record. Each factor shows its source and an as-of date, and a factor with no data is left out of the score rather than estimated. Constraints such as a flood zone, septic limits or a use restriction cap the score, and factor weights vary by region, though the weights are not published. The free score needs no account. A paid Property Report adds a buildable envelope, risk findings, a lender-ready PDF, a verifiable certificate with a QR code, and an AI assistant that answers questions about the parcel. Cities and counties can use it to inventory undeveloped land, with custom pricing and a free 30-day pilot. Buildability is operated by ReadyPermit.AI, Inc. and launched in 2026.",
+    "description": "Buildability scores any U.S. parcel from 0 to 100 using nine factors drawn from public data: zoning (city and county code), flood (FEMA NFHL), seismic (USGS), soil (USDA SSURGO), radon (EPA), wildfire (USFS Wildfire Hazard Potential), utilities, terrain (USGS 3DEP) and lot shape from the county parcel record. Each factor shows its source and an as-of date, and a factor with no data is left out of the score rather than estimated. Constraints such as a flood zone, septic limits or a use restriction cap the score, and factor weights vary by region, though the weights are not published. The free score needs no account. A paid Property Report adds a buildable envelope, risk findings, a lender-ready PDF, a verifiable certificate with a QR code, and an AI assistant that answers questions about the parcel. Cities and counties can use it to inventory undeveloped land, with custom pricing and a free 30-day pilot. A keyless MCP server exposes the scoring tools to AI assistants. Buildability is operated by ReadyPermit.AI, Inc. and launched in 2026.",
     "categories": [
       "Site Selection",
       "Construction & Development",
@@ -68598,6 +68931,14 @@
     "company": {
       "name": "ReadyPermit.AI, Inc. (Buildability)",
       "founded": 2026
+    },
+    "api": {
+      "access": [
+        "MCP server"
+      ],
+      "docs_url": "https://buildability.us/llms.txt",
+      "mcp_docs_url": "https://buildability.us/llms.txt",
+      "how": "Free, no account"
     }
   },
   {
@@ -68732,5 +69073,585 @@
     "company": {
       "name": "DealGro LLC"
     }
+  },
+  {
+    "title": "nCino Commercial Real Estate Lending",
+    "slug": "ncino",
+    "url": "https://www.ncino.com/solutions/commercial-real-estate/",
+    "logo_url": "/img/logos/ncino.png",
+    "headline": "CRE loan origination, analysis, and portfolio monitoring inside nCino's banking platform.",
+    "description": "nCino sells cloud software to banks and credit unions, and its Commercial Real Estate Lending solution covers the CRE loan lifecycle from origination through analysis and ongoing monitoring. Lenders capture loan and collateral details in one system, build net operating income statements with custom ratios and cash flow, and run single and multi-variable sensitivity analysis to stress vacancy and interest rate assumptions. A property list tracks tenants, lease terms, concentrations, and rollovers, and portfolio tools track loan performance through custom reports and dashboards. The CRE module sits alongside nCino's commercial lending, credit analysis, and automated spreading products, so it fits institutions that want CRE on the same platform as the rest of their loan book. nCino is listed on Nasdaq (NCNO) and is headquartered in Wilmington, North Carolina.",
+    "short_description": "CRE lending module in nCino's bank platform: origination, NOI and sensitivity analysis, rent rolls, and portfolio monitoring.",
+    "tagline": "CRE lending on the same platform as the rest of the bank.",
+    "categories": [
+      "Lending & Debt"
+    ],
+    "primary_category": "lending-debt",
+    "target_audience": {
+      "roles": [
+        "Commercial Real Estate Lenders",
+        "Credit Analysts",
+        "Portfolio Managers",
+        "Credit Risk Teams",
+        "Loan Operations"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Commercial",
+        "Multifamily",
+        "Office",
+        "Retail",
+        "Industrial"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Origination & Analysis",
+        "features": [
+          {
+            "name": "Single CRE Loan Record",
+            "description": "Captures loan and collateral details in one place so origination, credit, and portfolio teams work from the same data."
+          },
+          {
+            "name": "NOI Statements & Ratios",
+            "description": "Builds net operating income statements with customizable ratios and cash flow to support credit decisions."
+          },
+          {
+            "name": "Sensitivity Analysis",
+            "description": "Single and multi-variable stress tests on vacancy and interest rates."
+          }
+        ]
+      },
+      {
+        "name": "Portfolio Monitoring",
+        "features": [
+          {
+            "name": "Loan & Portfolio Monitoring",
+            "description": "Tracks loan and portfolio performance so lenders can respond earlier to weakening credits."
+          },
+          {
+            "name": "Rent Roll & Concentration View",
+            "description": "Property list of tenants, lease terms, concentrations, and rollovers across collateral."
+          },
+          {
+            "name": "Reports & Dashboards",
+            "description": "Custom reports and dashboards over CRE loan and collateral data."
+          }
+        ]
+      },
+      {
+        "name": "Platform",
+        "features": [
+          {
+            "name": "Connected Commercial Lending",
+            "description": "Works alongside nCino's commercial lending, credit analysis, and automated spreading products."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "free_trial": false,
+      "free_tier": false
+    },
+    "pros": [
+      "Puts CRE lending on the same platform many banks already use for commercial lending",
+      "Sensitivity analysis on vacancy and rates supports refinance and maturity risk reviews",
+      "Publicly listed vendor (Nasdaq: NCNO), which lowers vendor risk for a long-term system"
+    ],
+    "cons": [
+      "No published pricing",
+      "Built for banks and credit unions, not for borrowers or small private lenders",
+      "Not a loan servicing or payment processing system; servicing needs a separate core or servicing platform"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "nCino, Inc.",
+      "founded": 2011,
+      "headquarters": "Wilmington, NC"
+    },
+    "domain": "ncino.com",
+    "pricing_model": "Quote-based",
+    "is_free": false,
+    "property_types": [
+      "Commercial",
+      "Multifamily",
+      "Office",
+      "Retail",
+      "Industrial"
+    ],
+    "is_verified": false,
+    "is_featured": false,
+    "review_count": 0,
+    "last_updated": "2026-10-22",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "LoanBoss",
+    "slug": "loanboss",
+    "url": "https://www.loanboss.com",
+    "logo_url": "/img/logos/loanboss.png",
+    "headline": "Debt management software for CRE owners: loan abstracts, covenant testing, and debt reporting.",
+    "description": "LoanBoss is a debt management platform for commercial real estate owners and investors who carry many loans across many lenders. The LoanBoss team abstracts each loan (the vendor says about 400 fields per loan, with two rounds of QA) and links the record to property accounting data and live interest rates, so portfolio metrics such as weighted average maturity and rate update without spreadsheet work. Critical date alerts cover extension notices, interest rate step-downs, funding deadlines and repair schedules, and DSCR and debt yield covenant tests can be set up with each lender's own adjustments, with projections of next year's results. Hedge tools show live mark-to-market values, replacement cap costs and swap pricing, and the platform estimates prepayment and defeasance costs, tracks escrows, reserves and recourse, and exports SREO reports. It supports agency, balance sheet, bridge, CMBS, construction and life company loans. Pricing is not published.",
+    "short_description": "CRE debt management for owners: loan abstracts, critical dates, lender-specific covenant tests, debt and hedge reporting.",
+    "tagline": "One system of record for a CRE debt portfolio.",
+    "categories": [
+      "Lending & Debt",
+      "Accounting & Finance"
+    ],
+    "primary_category": "lending-debt",
+    "target_audience": {
+      "roles": [
+        "Capital Markets Teams",
+        "CFOs",
+        "Asset Managers",
+        "Treasury & Finance Teams",
+        "Investment Managers"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Commercial",
+        "Multifamily",
+        "Office",
+        "Industrial",
+        "Retail"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Loan Compliance",
+        "features": [
+          {
+            "name": "Loan Abstracts",
+            "description": "Loans are abstracted by the vendor's team and provisions can be opened from the platform with one click."
+          },
+          {
+            "name": "Critical Date Tracking",
+            "description": "Tracks extension notices, interest-only end dates, rate schedule changes, replacement caps, prepayment changes, and other lender obligations."
+          },
+          {
+            "name": "Covenant Testing",
+            "description": "Automates DSCR and debt yield tests with each lender's specific adjustments, using connected accounting data."
+          }
+        ]
+      },
+      {
+        "name": "Reporting",
+        "features": [
+          {
+            "name": "Replicated Client Reports",
+            "description": "Recreates the debt reports a team already uses so they refresh without manual updates."
+          },
+          {
+            "name": "Debt Summary & SREO",
+            "description": "Debt summary, hedge mark-to-market, and Fannie Mae and Freddie Mac SREO report formats."
+          }
+        ]
+      },
+      {
+        "name": "Valuations & Calculations",
+        "features": [
+          {
+            "name": "Debt & Hedge Mark-to-Market",
+            "description": "Debt fair value and interest rate swap and cap valuations for auditors, investors, and boards."
+          },
+          {
+            "name": "Prepayment Costs",
+            "description": "Defeasance and yield maintenance estimates for refinance and sale decisions."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "free_trial": false,
+      "free_tier": false
+    },
+    "pros": [
+      "Built for the borrower side of CRE debt, which few tools serve directly",
+      "Vendor-led loan abstraction and report replication reduce setup work for the client team",
+      "Covers maturity, extension, covenant, and hedge tracking in one place, which suits refinance planning"
+    ],
+    "cons": [
+      "No published pricing on the vendor site",
+      "Value depends on the quality of the initial loan abstraction and accounting integration",
+      "Focused on tracking and reporting existing debt; it is not a lender marketplace for sourcing refinance capital"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "LoanBoss",
+      "founded": 2018
+    },
+    "domain": "loanboss.com",
+    "pricing_model": "Quote-based",
+    "is_free": false,
+    "property_types": [
+      "Commercial",
+      "Multifamily",
+      "Office",
+      "Industrial",
+      "Retail"
+    ],
+    "is_verified": false,
+    "is_featured": false,
+    "review_count": 0,
+    "last_updated": "2026-10-22",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Backshop",
+    "slug": "backshop",
+    "url": "https://cmbs.com/backshop/",
+    "logo_url": "",
+    "headline": "Life-of-the-loan CRE origination, asset management, and servicing software from CMBS.com.",
+    "description": "Backshop is a web-based commercial real estate loan platform from CMBS.com that covers a loan from pipeline and underwriting through asset management, servicing, and exit. Lenders manage deal workflow, tasks, approvals, documents, and contacts in one system, value commercial, multifamily, and hotel properties by direct capitalization and discounted cash flow, and model debt structures that include additional fundings, floating rates, modifications, and extensions. The platform calculates loan to value, debt service coverage, and debt yield, produces deal reports in PDF and industry standard XML, and connects to a library of CMBS loans and bonds. CMBS.com also markets special servicing tools for default management and loss scenario analysis, a borrower portal, and CMBS PRO, a lower cost version of the same tools for smaller owners and borrowers. In 2024 SitusAMC took a minority stake in CMBS.com and moved its CLOSER origination system to the company.",
+    "short_description": "CRE loan origination, deal-stack modeling, asset management, and servicing tools, plus a low cost CMBS PRO tier for borrowers.",
+    "tagline": "One system for the full life of a CRE loan.",
+    "categories": [
+      "Lending & Debt",
+      "Investment & Valuation"
+    ],
+    "primary_category": "lending-debt",
+    "target_audience": {
+      "roles": [
+        "CRE Lenders",
+        "Loan Originators",
+        "Asset Managers",
+        "Master & Special Servicers",
+        "Borrowers & Owners"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Commercial",
+        "Multifamily",
+        "Hospitality"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Origination & Underwriting",
+        "features": [
+          {
+            "name": "Deal Workflow",
+            "description": "Pipeline, tasks, approvals, documents, and contacts for each deal."
+          },
+          {
+            "name": "Property Valuation",
+            "description": "Direct capitalization and DCF valuation for commercial, multifamily, and hotel properties."
+          },
+          {
+            "name": "Debt Structure Modeling",
+            "description": "Models additional fundings, floating rates, leverage, modifications, and extensions, with LTV, DSCR, and debt yield."
+          }
+        ]
+      },
+      {
+        "name": "Asset Management & Servicing",
+        "features": [
+          {
+            "name": "Loan Asset Management",
+            "description": "Tracks loans and equity positions after closing within the same record."
+          },
+          {
+            "name": "Special Servicing Tools",
+            "description": "Default management and loss scenario analysis tied to the CMBS library."
+          },
+          {
+            "name": "Borrower Portal",
+            "description": "Lets borrowers self-serve information on their loans."
+          }
+        ]
+      },
+      {
+        "name": "Data & Reporting",
+        "features": [
+          {
+            "name": "Integrated CMBS Library",
+            "description": "Database of CMBS loans and bonds for comps and lead generation."
+          },
+          {
+            "name": "Deal Reports",
+            "description": "Counterparty deal reports in PDF and industry standard XML."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based (enterprise); published price for CMBS PRO",
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "CMBS PRO",
+          "price": "$20/month or $200/year",
+          "description": "Backshop tools packaged as SaaS for smaller owners and borrowers."
+        },
+        {
+          "name": "BACKSHOP",
+          "price": "Contact for pricing",
+          "description": "Enterprise platform licensed on a direct or SaaS basis."
+        }
+      ]
+    },
+    "pros": [
+      "Covers origination, asset management, and servicing in one long-running system",
+      "Debt modeling handles modifications and extensions, which matters for maturity workouts",
+      "Low cost CMBS PRO tier gives smaller borrowers access to the same toolset"
+    ],
+    "cons": [
+      "Enterprise pricing is not published",
+      "Website gives limited product detail compared with newer competitors",
+      "Configuration-heavy enterprise system, so implementation effort should be expected"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "CMBS.com",
+      "founded": 2000,
+      "headquarters": "Sausalito, CA and New York, NY"
+    },
+    "domain": "cmbs.com",
+    "pricing_model": "Quote-based",
+    "is_free": false,
+    "property_types": [
+      "Commercial",
+      "Multifamily",
+      "Hospitality"
+    ],
+    "is_verified": false,
+    "is_featured": false,
+    "review_count": 0,
+    "last_updated": "2026-10-22",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "McCracken STRATEGY",
+    "slug": "mccracken-strategy",
+    "url": "https://www.mccrackenfs.com/products/strategy-loan-servicing/",
+    "logo_url": "/img/logos/mccracken-strategy.png",
+    "headline": "Commercial and multifamily loan servicing and asset management software for lenders and servicers.",
+    "description": "STRATEGY is McCracken Financial Solutions' web-based system for servicing commercial and multifamily mortgage loans. It covers servicing from payment terms, interest calculations and escrow analysis to covenant compliance and investor reporting, with GAAP, statutory and tax loan accounting, an asset management portal that requests and spreads financial statements, rent rolls and inspections, and a rules engine that triggers actions when, for example, a debt service coverage ratio falls below a set value or financials are missing. McCracken also sells an insurance compliance tool that scans and compares commercial insurance policies against requirements, and BUILDRITE, construction loan software for tracking commercial construction loans in one place. The company serves banks, insurance companies, private and bridge lenders, business purpose and fix-and-flip lenders, mortgage bankers, and quasi-government agencies, and offers consulting, custom development, and hosting. McCracken is based in Billerica, Massachusetts, and says it has served the commercial lending industry for three decades.",
+    "short_description": "Web-based commercial and multifamily loan servicing: accounting, asset management, compliance monitoring, and workflow.",
+    "tagline": "Servicing software for commercial and multifamily loan portfolios.",
+    "categories": [
+      "Lending & Debt"
+    ],
+    "primary_category": "lending-debt",
+    "target_audience": {
+      "roles": [
+        "Loan Servicers",
+        "Asset Managers",
+        "Loan Accounting Teams",
+        "Compliance Teams",
+        "Construction Loan Administrators"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Commercial",
+        "Multifamily"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Loan Servicing",
+        "features": [
+          {
+            "name": "Loan Accounting",
+            "description": "Servicing accounting for commercial and multifamily loans."
+          },
+          {
+            "name": "Asset Management",
+            "description": "Portfolio and asset oversight tied to each serviced loan."
+          },
+          {
+            "name": "Compliance Monitoring & Workflow",
+            "description": "Tracks borrower obligations and routes servicing tasks through configurable workflows."
+          }
+        ]
+      },
+      {
+        "name": "Risk & Construction",
+        "features": [
+          {
+            "name": "Insurance Compliance",
+            "description": "Cloud tool that scans, compares, and monitors commercial insurance policies against loan requirements."
+          },
+          {
+            "name": "BUILDRITE Construction Loans",
+            "description": "Central tracking for commercial construction loans in place of spreadsheets."
+          }
+        ]
+      },
+      {
+        "name": "Services",
+        "features": [
+          {
+            "name": "Hosting, Consulting & Development",
+            "description": "Hosting, implementation consulting, and custom development offered alongside the software."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "free_trial": false,
+      "free_tier": false
+    },
+    "pros": [
+      "Purpose-built for commercial and multifamily servicing rather than adapted from residential",
+      "Insurance compliance and construction loan tools extend coverage beyond core servicing",
+      "Long track record in commercial loan servicing"
+    ],
+    "cons": [
+      "No published pricing",
+      "Website offers limited detail on workout, modification, and extension workflows",
+      "Aimed at lenders and servicers; borrowers do not use it to manage their own debt"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "McCracken Financial Solutions Corp.",
+      "headquarters": "Billerica, MA"
+    },
+    "domain": "mccrackenfs.com",
+    "pricing_model": "Quote-based",
+    "is_free": false,
+    "property_types": [
+      "Commercial",
+      "Multifamily"
+    ],
+    "is_verified": false,
+    "is_featured": false,
+    "review_count": 0,
+    "last_updated": "2026-10-22",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Moody's Lending Suite for CRE",
+    "slug": "moodys-lending-suite-cre",
+    "url": "https://www.moodys.com/web/en/us/solutions/lending/commercial-real-estate.html",
+    "logo_url": "/img/logos/moodys-lending-suite-cre.png",
+    "headline": "CRE loan origination, underwriting, and portfolio risk monitoring for banks from Moody's.",
+    "description": "Moody's Lending Suite for CRE packages Moody's origination workflow, underwriting, and risk monitoring tools for commercial real estate lenders, mainly banks. Lenders can run cash flow analysis, underwriting, scoring, and stress testing on CRE deals, then monitor risk at both the loan and portfolio level after closing. Monitoring includes covenant compliance tracking, early warning models and signals, and refinance risk tools, which are relevant as loans approach maturity. The suite draws on Moody's analytics and market data, and Moody's describes generative AI features for evaluating loans and watching CRE portfolios. Moody's previously marketed CRE origination and monitoring through its CreditLens platform, which added a CRE module in 2019.",
+    "short_description": "Moody's CRE lending suite: origination, underwriting and stress tests, covenant tracking, early warnings, refinance risk.",
+    "tagline": "Underwrite and monitor CRE loans with Moody's analytics.",
+    "categories": [
+      "Lending & Debt",
+      "Data & Analytics"
+    ],
+    "primary_category": "lending-debt",
+    "target_audience": {
+      "roles": [
+        "Commercial Real Estate Lenders",
+        "Credit Risk Teams",
+        "Portfolio Managers",
+        "Underwriters",
+        "Chief Risk Officers"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Commercial",
+        "Multifamily",
+        "Office",
+        "Retail",
+        "Industrial"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Origination & Underwriting",
+        "features": [
+          {
+            "name": "Origination Workflow",
+            "description": "Borrower engagement and loan operations workflows for CRE deals."
+          },
+          {
+            "name": "Cash Flow Analysis & Scoring",
+            "description": "Underwriting, scoring, and stress testing of CRE loan cash flows."
+          }
+        ]
+      },
+      {
+        "name": "Portfolio Monitoring",
+        "features": [
+          {
+            "name": "Loan & Portfolio Risk Monitoring",
+            "description": "Continuous tracking of loan performance at the loan and portfolio level."
+          },
+          {
+            "name": "Covenant Compliance Tracking",
+            "description": "Monitors covenant compliance across the CRE book."
+          },
+          {
+            "name": "Early Warning & Refinance Risk",
+            "description": "Early warning models and signals plus refinance risk tools for loans nearing maturity."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "free_trial": false,
+      "free_tier": false
+    },
+    "pros": [
+      "Combines underwriting with post-close monitoring and refinance risk in one vendor",
+      "Backed by Moody's credit models and market data",
+      "Covenant tracking and early warning signals suit banks managing CRE concentration risk"
+    ],
+    "cons": [
+      "No published pricing",
+      "Product naming has shifted (CreditLens, Lending Suite), so buyers should confirm exactly which modules are included",
+      "Aimed at banks and institutional lenders; not built for borrowers or small private lenders"
+    ],
+    "deployment": [
+      "Cloud",
+      "On-premise"
+    ],
+    "company": {
+      "name": "Moody's Corporation"
+    },
+    "domain": "moodys.com",
+    "pricing_model": "Quote-based",
+    "is_free": false,
+    "property_types": [
+      "Commercial",
+      "Multifamily",
+      "Office",
+      "Retail",
+      "Industrial"
+    ],
+    "is_verified": false,
+    "is_featured": false,
+    "review_count": 0,
+    "last_updated": "2026-10-22",
+    "status": "active",
+    "enriched": true
   }
 ]

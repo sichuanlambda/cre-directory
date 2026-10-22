@@ -345,7 +345,7 @@
     "name": "Investment & Valuation",
     "slug": "investment-valuation",
     "description": "Underwriting, financial modeling, and deal analysis tools for acquisitions, dispositions, and fund management. Build pro formas, stress-test assumptions, and present to investors with confidence.",
-    "product_count": 107,
+    "product_count": 109,
     "products": [
       "altus-group",
       "argus",
@@ -454,7 +454,8 @@
       "zilculator",
       "homesage-ai",
       "minervian-ai",
-      "dealgro"
+      "dealgro",
+      "backshop"
     ],
     "seo_title": "Best Investment & Valuation Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare investment analysis and property valuation software for commercial real estate. Tools for DCF modeling, portfolio analytics, underwriting, and asset management.",
@@ -503,7 +504,7 @@
     "name": "Construction & Development",
     "slug": "construction-development",
     "description": "Project management, budgeting, and coordination tools for ground-up development and major renovations. Track timelines, manage contractors, and keep builds on budget.",
-    "product_count": 81,
+    "product_count": 82,
     "products": [
       "architecture-helper",
       "citybldr",
@@ -635,7 +636,7 @@
     "name": "Data & Analytics",
     "slug": "data-analytics",
     "description": "Market research, benchmarking, and portfolio analytics platforms that turn raw property data into actionable insights. Track comps, forecast trends, and make smarter investment decisions.",
-    "product_count": 154,
+    "product_count": 156,
     "products": [
       "alteryx",
       "altus-group",
@@ -791,7 +792,8 @@
       "zonda",
       "homesage-ai",
       "howell-opportunity-radar",
-      "buildability"
+      "buildability",
+      "moodys-lending-suite-cre"
     ],
     "seo_title": "Best Data & Analytics Platforms for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare data and analytics platforms for commercial real estate. Find tools for market research, comp analysis, property intelligence, and business analytics.",
@@ -990,7 +992,7 @@
     "name": "Site Selection",
     "slug": "site-selection",
     "description": "Location intelligence and site analysis platforms for retailers, restaurants, and corporate occupiers. Evaluate demographics, traffic patterns, and competitive landscapes before signing a lease.",
-    "product_count": 46,
+    "product_count": 47,
     "products": [
       "citybldr",
       "lightbox",
@@ -1158,7 +1160,7 @@
     "name": "Accounting & Finance",
     "slug": "accounting-finance",
     "description": "Accounting, budgeting, and financial reporting platforms tailored for commercial real estate. Handle complex fund structures, property-level P&L, and investor distributions.",
-    "product_count": 78,
+    "product_count": 79,
     "products": [
       "buildium",
       "fuel",
@@ -1237,7 +1239,8 @@
       "redteam",
       "siteline",
       "skyslope",
-      "totalbrokerage"
+      "totalbrokerage",
+      "loanboss"
     ],
     "seo_title": "Best Accounting & Finance Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare accounting and financial management software for commercial real estate. Find tools for property accounting, budgeting, AP/AR, and financial reporting.",
@@ -1443,7 +1446,7 @@
     "name": "Listing Services",
     "slug": "listing-services",
     "description": "Commercial listing platforms and marketing tools for advertising available spaces. Syndicate listings, generate lead traffic, and connect landlords with prospective tenants.",
-    "product_count": 34,
+    "product_count": 35,
     "products": [
       "brevitas",
       "costar",
@@ -1739,7 +1742,7 @@
     "name": "Lending & Debt",
     "slug": "lending-debt",
     "description": "Loan origination, debt marketplaces, servicing, and borrower intelligence for real estate lenders, brokers, and investors. From CRE loan origination systems to construction draw administration and private lending platforms.",
-    "product_count": 20,
+    "product_count": 26,
     "products": [
       "lev",
       "realatom",
@@ -1760,7 +1763,13 @@
       "lendinghome",
       "prodeal",
       "fund-that-flip",
-      "elementix"
+      "elementix",
+      "ncino",
+      "loanboss",
+      "backshop",
+      "mccracken-strategy",
+      "moodys-lending-suite-cre",
+      "cred-iq"
     ],
     "seo_title": "Best Real Estate Lending & Debt Software (2026) | CRE Software Directory",
     "seo_description": "Compare loan origination systems, CRE debt marketplaces, loan servicing platforms, and construction lending software for banks, private lenders, and mortgage brokers.",

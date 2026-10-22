@@ -137,6 +137,9 @@ const guideFor = catSlug => fs.existsSync(path.join(ROOT, 'guides', `${catSlug}.
 const TOPIC_GUIDES = {
   'ai-underwriting-software': { name: 'AI Underwriting', category: 'investment-valuation' },
   'ai-lease-abstraction-software': { name: 'AI Lease Abstraction', category: 'legal-compliance' },
+  'cre-debt-management-software': { name: 'CRE Debt Management', category: 'lending-debt' },
+  'cre-loan-servicing-software': { name: 'CRE Loan Servicing & Monitoring', category: 'lending-debt' },
+  'agent-ready-cre-data': { name: 'Agent-Ready CRE Data', category: 'data-analytics' },
 };
 const guideHTML = f => fs.readFileSync(path.join(ROOT, 'guides', f), 'utf8');
 const guideH1 = f => { const m = /<h1[^>]*>([\s\S]*?)<\/h1>/.exec(guideHTML(f)); return m ? stripTags(m[1]).replace(/&amp;/g, '&').trim() : f.replace('.html', ''); };
@@ -342,7 +345,8 @@ function editorialBoxHTML(product) {
   const own = EDITORIAL.alternatives && EDITORIAL.alternatives[slug];
   const cmps = comparisonsFor(slug);
   const mentions = altMentions(slug);
-  if (!own && !cmps.length && !mentions.length) return '';
+  const topics = topicGuidesFor([slug]);
+  if (!own && !cmps.length && !mentions.length && !topics.length) return '';
   const items = [];
   if (own) items.push(`<li><a href="${alternativesPath(slug)}">Best ${esc(product.title)} alternatives (${YEAR})</a></li>`);
   cmps.forEach(c => {
@@ -354,6 +358,7 @@ function editorialBoxHTML(product) {
     const pos = (x.alt.picks || []).findIndex(p => p.slug === slug) + 1;
     items.push(`<li>Ranked #${pos} in <a href="${alternativesPath(x.slug)}">best ${esc(x.product.title)} alternatives</a></li>`);
   });
+  topics.forEach(g => items.push(`<li>Featured in the <a href="/guides/${g}.html">${esc(TOPIC_GUIDES[g].name)} buyer's guide</a></li>`));
   return `<div class="editorial-links" style="margin:24px 0;padding:16px 20px;border-radius:10px;background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.25);">
         <strong>Deciding on ${esc(product.title)}?</strong>
         <ul style="margin:8px 0 0;padding-left:20px;">
@@ -530,6 +535,14 @@ function renderProductPage(product) {
     </div>` : '')}
   </div>` : '';
 
+  // Developer access: documented API / MCP / feed access from the vendor's own docs (product.api).
+  const api = product.api && product.api.docs_url ? product.api : null;
+  const apiHTML = api ? `<div class="integrations-section dev-access" id="sec-developer"><h3>Developer access</h3>
+        <p style="margin:0;font-size:14.5px;line-height:1.6">${esc((api.access || []).join(', '))}${api.how ? `. ${esc(api.how)}.` : '.'}
+        <a href="${esc(api.docs_url)}" target="_blank" rel="noopener">Vendor docs →</a>${api.mcp_docs_url && api.mcp_docs_url !== api.docs_url ? ` · <a href="${esc(api.mcp_docs_url)}" target="_blank" rel="noopener">MCP setup →</a>` : ''}</p>
+        ${fs.existsSync(path.join(ROOT, 'guides', 'agent-ready-cre-data.html')) ? `<p style="margin:6px 0 0;font-size:13.5px;opacity:.8">Compare data access across vendors in the <a href="/guides/agent-ready-cre-data.html">agent-ready CRE data guide</a>.</p>` : ''}
+      </div>` : '';
+
   const integrationsHTML = product.integrations && product.integrations.length
     ? `<div class="integrations-section"><h3>Integrations</h3><div class="integrations-list">${product.integrations.map(i => {
         const name = typeof i === 'string' ? i : i.name;
@@ -695,7 +708,7 @@ function renderProductPage(product) {
       ${audienceHTML}
       ${featuresHTML}
       ${pricingHTML}
-      ${integrationsHTML}${integratedByHTML}
+      ${apiHTML}${integrationsHTML}${integratedByHTML}
       ${companyHTML}
       ${faqBlockHTML}
 
