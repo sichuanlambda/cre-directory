@@ -1,0 +1,15 @@
+{
+  "tool_name": "Appraisal-AI",
+  "website": "https://www.appraisal-ai.com",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Investment & Valuation, AI & Automation, Lending & Debt",
+  "description": "AI appraisal review for US banks and AMCs: page-cited findings on commercial and residential appraisals, BRAVE XLSX generation and UAD 3.6 support.",
+  "pricing": "Custom pricing based on review volume for banks and AMCs. Contact office@appraisal-ai.com for a quote.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "Appraisal-AI reviews finished commercial and residential appraisal reports for bank chief appraisers, AMCs and independent reviewers. An AI review pass reads the full report and drafts page-cited findings, a deterministic rules engine re-checks figures, dates and rents against the extracted financial tables, and a human reviewer approves the result before delivery. It also generates the BRAVE 99-field XLSX for commercial reports, extracts financial tables to Excel, flags possible Fair Housing Act bias language, supports UAD 3.6 residential reports, and offers a Partner API with webhooks. SOC 2 Type 2. Please list us as \"Appraisal-AI\" (with the hyphen): an unrelated AMC platform uses the name \"Appraisal AI\".",
+  "screenshot_urls": "https://www.appraisal-ai.com/og-image.png",
+  "submitted_at": "2026-10-23T10:24:24.510Z",
+  "source": "web-form",
+  "status": "pending"
+}
