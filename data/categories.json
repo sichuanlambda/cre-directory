@@ -1160,7 +1160,7 @@
     "name": "Accounting & Finance",
     "slug": "accounting-finance",
     "description": "Accounting, budgeting, and financial reporting platforms tailored for commercial real estate. Handle complex fund structures, property-level P&L, and investor distributions.",
-    "product_count": 79,
+    "product_count": 82,
     "products": [
       "buildium",
       "fuel",
@@ -1240,7 +1240,10 @@
       "siteline",
       "skyslope",
       "totalbrokerage",
-      "loanboss"
+      "loanboss",
+      "itamlink",
+      "csc-ptms",
+      "avalara-property-tax"
     ],
     "seo_title": "Best Accounting & Finance Software for CRE (2026) | CRE Software Directory",
     "seo_description": "Compare accounting and financial management software for commercial real estate. Find tools for property accounting, budgeting, AP/AR, and financial reporting.",
@@ -1818,7 +1821,7 @@
     "name": "Energy & Sustainability",
     "slug": "energy-sustainability",
     "description": "Energy management, utility benchmarking, ESG reporting, and decarbonization software for buildings. Track consumption, comply with ordinances like LL97, plan retrofits, and report portfolio sustainability performance.",
-    "product_count": 7,
+    "product_count": 10,
     "products": [
       "enertiv",
       "goby",
@@ -1826,7 +1829,10 @@
       "autodesk-forma",
       "first-street",
       "landgate",
-      "noda"
+      "noda",
+      "measurabl",
+      "deepki",
+      "ibm-envizi"
     ],
     "seo_title": "Best Building Energy & Sustainability Software (2026) | CRE Software Directory",
     "seo_description": "Compare energy management systems, utility benchmarking tools, ESG reporting platforms, and decarbonization software for commercial real estate portfolios.",

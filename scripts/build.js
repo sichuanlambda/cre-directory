@@ -140,6 +140,10 @@ const TOPIC_GUIDES = {
   'cre-debt-management-software': { name: 'CRE Debt Management', category: 'lending-debt' },
   'cre-loan-servicing-software': { name: 'CRE Loan Servicing & Monitoring', category: 'lending-debt' },
   'agent-ready-cre-data': { name: 'Agent-Ready CRE Data', category: 'data-analytics' },
+  'cam-reconciliation-software': { name: 'CAM Reconciliation', category: 'property-management' },
+  'year-end-1099-software-property-managers': { name: 'Year-End Close & 1099', category: 'accounting-finance' },
+  'property-tax-appeal-software': { name: 'Property Tax Appeals', category: 'accounting-finance' },
+  'building-performance-standards-software': { name: 'BPS & Emissions Compliance', category: 'energy-sustainability' },
 };
 const guideHTML = f => fs.readFileSync(path.join(ROOT, 'guides', f), 'utf8');
 const guideH1 = f => { const m = /<h1[^>]*>([\s\S]*?)<\/h1>/.exec(guideHTML(f)); return m ? stripTags(m[1]).replace(/&amp;/g, '&').trim() : f.replace('.html', ''); };
