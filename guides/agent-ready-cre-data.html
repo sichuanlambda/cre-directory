@@ -33,7 +33,7 @@
       "name": "CRE Software"
     },
     "datePublished": "2026-10-22",
-    "dateModified": "2026-10-22"
+    "dateModified": "2026-10-23"
   }
   </script>
   <script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "What is an MCP server for real estate data?", "acceptedAnswer": {"@type": "Answer", "text": "An MCP server is a vendor-run connector, built on the open Model Context Protocol, that lets AI assistants such as Claude or ChatGPT call the vendor's data tools directly, for example to look up a parcel or pull rent comps. You sign in with your own account or key, and calls are metered like API calls."}}, {"@type": "Question", "name": "Which CRE data providers have an MCP server?", "acceptedAnswer": {"@type": "Answer", "text": "As of October 2026, Regrid, RentCast, Parcl Labs and Realie publish MCP servers with setup documentation; Cotality, Placer.ai, Prophia and Yardi Matrix offer them to customers; and ATTOM, Trepp, Green Street, CRED iQ (Enterprise) and RevolutionRE provide them through sales or subscriptions."}}, {"@type": "Question", "name": "Does CoStar have an API?", "acceptedAnswer": {"@type": "Answer", "text": "CoStar does not publish a public API, and its terms of use bar exposing its products to outside AI tools. LoopNet, also owned by CoStar Group, has no data API."}}, {"@type": "Question", "name": "Can I use property data with ChatGPT or Claude legally?", "acceptedAnswer": {"@type": "Answer", "text": "Only within your licence. Many vendors allow internal use but bar redistribution or caching, and some, such as BatchData, Cherre and MSCI, restrict third-party AI use specifically. Regrid requires model training to be turned off in your AI tool. Read the terms before connecting."}}, {"@type": "Question", "name": "What is the cheapest way to give an AI agent CRE data?", "acceptedAnswer": {"@type": "Answer", "text": "Self-serve APIs with free tiers: RentCast (50 free calls a month), Parcl Labs (100 free credits a month) and Realie (25 free tokens a month) publish prices, and Regrid offers a trial token. These lean residential; commercial data such as loans and comps costs more and mostly goes through sales."}}]}</script>
@@ -128,6 +128,7 @@
           <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/attom/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">ATTOM</a></td><td style="padding:12px 16px;">Property, deed, mortgage, AVM</td><td style="padding:12px 16px;">REST API, bulk, Snowflake, Databricks; MCP via sales</td><td style="padding:12px 16px;">30-day self-serve API trial</td><td style="padding:12px 16px;">Not published</td></tr>
           <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/corelogic/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">Cotality</a></td><td style="padding:12px 16px;">Property, market, climate risk</td><td style="padding:12px 16px;">MCP server, APIs, Snowflake, Databricks</td><td style="padding:12px 16px;">Licensed customers</td><td style="padding:12px 16px;">Not published</td></tr>
           <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/cred-iq/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">CRED iQ</a></td><td style="padding:12px 16px;">CMBS, CLO, agency loans, public records</td><td style="padding:12px 16px;">REST API; MCP and bulk feeds on Enterprise</td><td style="padding:12px 16px;">Professional plan for API</td><td style="padding:12px 16px;">$625 to $3,850/month; Enterprise custom</td></tr>
+          <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/Plotzy/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">Plotzy</a></td><td style="padding:12px 16px;">Parcels with zoning, owners</td><td style="padding:12px 16px;">REST API</td><td style="padding:12px 16px;">Scale plan via support</td><td style="padding:12px 16px;">Scale plan custom</td></tr>
           <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/placer/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">Placer.ai</a></td><td style="padding:12px 16px;">Foot traffic, trade areas, visitors</td><td style="padding:12px 16px;">MCP server, REST API, data feeds</td><td style="padding:12px 16px;">API add-on; MCP per enterprise account</td><td style="padding:12px 16px;">Not published</td></tr>
           <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/yardi-matrix/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">Yardi Matrix</a></td><td style="padding:12px 16px;">Market rents, supply, ownership, loans</td><td style="padding:12px 16px;">Claude connector; API and feeds via sales</td><td style="padding:12px 16px;">Included on every Matrix plan</td><td style="padding:12px 16px;">$199 to $1,999 per user per asset class per month</td></tr>
           <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/prophia/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">Prophia</a></td><td style="padding:12px 16px;">Your own lease data</td><td style="padding:12px 16px;">MCP server</td><td style="padding:12px 16px;">Prophia customers</td><td style="padding:12px 16px;">Not published</td></tr>
@@ -136,7 +137,6 @@
           <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/lightbox/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">LightBox</a></td><td style="padding:12px 16px;">Parcels, property, environmental</td><td style="padding:12px 16px;">REST APIs, bulk, Snowflake</td><td style="padding:12px 16px;">Free developer account</td><td style="padding:12px 16px;">Not published</td></tr>
           <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/parcl-labs/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">Parcl Labs</a></td><td style="padding:12px 16px;">Housing market metrics</td><td style="padding:12px 16px;">MCP server, REST API, CSV</td><td style="padding:12px 16px;">Free account; MCP on Pro</td><td style="padding:12px 16px;">Free 100 credits; Pro $50 per 4 weeks</td></tr>
           <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/property-data-api/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">Realie</a></td><td style="padding:12px 16px;">Parcel and property records</td><td style="padding:12px 16px;">MCP server, REST API, bulk</td><td style="padding:12px 16px;">Self-serve</td><td style="padding:12px 16px;">Free 25 tokens; $50 to $350/month</td></tr>
-          <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/Plotzy/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">Plotzy</a></td><td style="padding:12px 16px;">Parcels with zoning, owners</td><td style="padding:12px 16px;">REST API</td><td style="padding:12px 16px;">Scale plan via support</td><td style="padding:12px 16px;">Scale plan custom</td></tr>
           <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/trepp/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">Trepp</a></td><td style="padding:12px 16px;">CMBS and CRE loan data</td><td style="padding:12px 16px;">MCP servers, data feed</td><td style="padding:12px 16px;">Sales</td><td style="padding:12px 16px;">Not published</td></tr>
           <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/green-street/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">Green Street</a></td><td style="padding:12px 16px;">Research, valuations, REIT data</td><td style="padding:12px 16px;">MCP server, API, Snowflake</td><td style="padding:12px 16px;">Paid add-on for subscribers</td><td style="padding:12px 16px;">Not published</td></tr>
           <tr style="border-bottom:1px solid var(--g-row);"><td style="padding:12px 16px;"><a href="/products/msci-rca/" style="color:var(--g-accent);text-decoration:none;font-weight:600;">MSCI Real Capital Analytics</a></td><td style="padding:12px 16px;">Transactions and indexes</td><td style="padding:12px 16px;">API, Snowflake, MCP connector</td><td style="padding:12px 16px;">MSCI clients</td><td style="padding:12px 16px;">Not published</td></tr>
@@ -311,11 +311,51 @@
       </div>
     </div>
 
+    <!-- PLOTZY -->
+    <div style="background:var(--g-card);border-radius:12px;padding:28px;margin-bottom:24px;">
+      <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:16px;flex-wrap:wrap;gap:12px;">
+        <div>
+          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">5. Plotzy</h3>
+          <p style="margin:4px 0 0;color:var(--g-muted);font-size:14px;">Best for: Teams that want zoning-tagged parcel search in their own systems</p>
+        </div>
+        <a href="/products/Plotzy/" style="background:var(--g-accent-bg);color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600;">Full Profile →</a>
+      </div>
+
+      <p>Plotzy is a parcel and zoning research platform that tags every parcel with a two-level zoning designation and adds owner contacts, folders and notes. API access is part of its Scale plan, and the site publishes machine-readable files for AI agents (an llms.txt, an API catalogue and an agent skill file) that describe the product and how to authenticate.</p>
+
+      <p>There is no MCP server and no public API reference, API credentials are set up through Plotzy support rather than self-registration, and the Scale plan is custom-priced. It is the strongest fit when an agent needs zoning-aware parcel search and owner contacts from one source, and for teams already using the app who want the same searches inside their own tools.</p>
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px;">
+        <div>
+          <p style="color:var(--g-good);font-weight:600;font-size:13px;margin:0 0 8px;">What's good</p>
+          <ul style="color:var(--g-soft);font-size:14px;margin:0;padding-left:18px;">
+            <li>Zoning designation on every parcel</li>
+            <li>Machine-readable files describe the product for agents</li>
+            <li>Owner contacts alongside parcels</li>
+            <li>7-day free trial of the app</li>
+          </ul>
+        </div>
+        <div>
+          <p style="color:var(--g-bad);font-weight:600;font-size:13px;margin:0 0 8px;">What's not</p>
+          <ul style="color:var(--g-soft);font-size:14px;margin:0;padding-left:18px;">
+            <li>API only on the custom Scale plan</li>
+            <li>No MCP server or public API reference</li>
+            <li>Still labeled beta</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--g-border);">
+        <p style="color:var(--g-muted);font-size:13px;margin:0 0 6px;"><strong>Access:</strong> REST API (Scale plan). <a href="https://www.plotzy.ai/llms.txt" rel="noopener" target="_blank">llms.txt</a> · <a href="https://www.plotzy.ai/pricing" rel="noopener" target="_blank">Pricing</a></p>
+        <p style="color:var(--g-muted);font-size:13px;margin:0;"><strong>Pricing:</strong> Starter $180/month and Production $300/month (no API); Scale with API custom.</p>
+      </div>
+    </div>
+
     <!-- PLACER.AI -->
     <div style="background:var(--g-card);border-radius:12px;padding:28px;margin-bottom:24px;">
       <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:16px;flex-wrap:wrap;gap:12px;">
         <div>
-          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">5. Placer.ai</h3>
+          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">6. Placer.ai</h3>
           <p style="margin:4px 0 0;color:var(--g-muted);font-size:14px;">Best for: Retail, office and site teams that want foot traffic answers inside their assistant</p>
         </div>
         <a href="/products/placer/" style="background:var(--g-accent-bg);color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600;">Full Profile →</a>
@@ -355,7 +395,7 @@
     <div style="background:var(--g-card);border-radius:12px;padding:28px;margin-bottom:24px;">
       <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:16px;flex-wrap:wrap;gap:12px;">
         <div>
-          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">6. Yardi Matrix</h3>
+          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">7. Yardi Matrix</h3>
           <p style="margin:4px 0 0;color:var(--g-muted);font-size:14px;">Best for: Market rents, supply, ownership and loan data in Claude at a published price</p>
         </div>
         <a href="/products/yardi-matrix/" style="background:var(--g-accent-bg);color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600;">Full Profile →</a>
@@ -395,7 +435,7 @@
     <div style="background:var(--g-card);border-radius:12px;padding:28px;margin-bottom:24px;">
       <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:16px;flex-wrap:wrap;gap:12px;">
         <div>
-          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">7. Prophia</h3>
+          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">8. Prophia</h3>
           <p style="margin:4px 0 0;color:var(--g-muted);font-size:14px;">Best for: Owners who want an assistant to answer questions across their own lease portfolio</p>
         </div>
         <a href="/products/prophia/" style="background:var(--g-accent-bg);color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600;">Full Profile →</a>
@@ -435,7 +475,7 @@
     <div style="background:var(--g-card);border-radius:12px;padding:28px;margin-bottom:24px;">
       <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:16px;flex-wrap:wrap;gap:12px;">
         <div>
-          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">8. RentCast</h3>
+          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">9. RentCast</h3>
           <p style="margin:4px 0 0;color:var(--g-muted);font-size:14px;">Best for: Rent estimates and rental comps by self-serve API and MCP</p>
         </div>
         <a href="/products/rentcast/" style="background:var(--g-accent-bg);color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600;">Full Profile →</a>
@@ -475,7 +515,7 @@
     <div style="background:var(--g-card);border-radius:12px;padding:28px;margin-bottom:24px;">
       <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:16px;flex-wrap:wrap;gap:12px;">
         <div>
-          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">9. Cherre</h3>
+          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">10. Cherre</h3>
           <p style="margin:4px 0 0;color:var(--g-muted);font-size:14px;">Best for: Institutions that want agents working over their own unified portfolio data</p>
         </div>
         <a href="/products/cherre/" style="background:var(--g-accent-bg);color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600;">Full Profile →</a>
@@ -515,7 +555,7 @@
     <div style="background:var(--g-card);border-radius:12px;padding:28px;margin-bottom:24px;">
       <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:16px;flex-wrap:wrap;gap:12px;">
         <div>
-          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">10. LightBox</h3>
+          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">11. LightBox</h3>
           <p style="margin:4px 0 0;color:var(--g-muted);font-size:14px;">Best for: Developers who want a broad catalogue of parcel, property and environmental APIs</p>
         </div>
         <a href="/products/lightbox/" style="background:var(--g-accent-bg);color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600;">Full Profile →</a>
@@ -555,7 +595,7 @@
     <div style="background:var(--g-card);border-radius:12px;padding:28px;margin-bottom:24px;">
       <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:16px;flex-wrap:wrap;gap:12px;">
         <div>
-          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">11. Parcl Labs</h3>
+          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">12. Parcl Labs</h3>
           <p style="margin:4px 0 0;color:var(--g-muted);font-size:14px;">Best for: Housing market metrics for agents on a small budget</p>
         </div>
         <a href="/products/parcl-labs/" style="background:var(--g-accent-bg);color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600;">Full Profile →</a>
@@ -595,7 +635,7 @@
     <div style="background:var(--g-card);border-radius:12px;padding:28px;margin-bottom:24px;">
       <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:16px;flex-wrap:wrap;gap:12px;">
         <div>
-          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">12. Realie</h3>
+          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">13. Realie</h3>
           <p style="margin:4px 0 0;color:var(--g-muted);font-size:14px;">Best for: Cheap, self-serve parcel records with an MCP server</p>
         </div>
         <a href="/products/property-data-api/" style="background:var(--g-accent-bg);color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600;">Full Profile →</a>
@@ -628,46 +668,6 @@
       <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--g-border);">
         <p style="color:var(--g-muted);font-size:13px;margin:0 0 6px;"><strong>Access:</strong> MCP server, REST API, bulk. <a href="https://docs.realie.ai/realie-mcp-server" rel="noopener" target="_blank">MCP docs</a> · <a href="https://docs.realie.ai/api-reference/pricing" rel="noopener" target="_blank">Pricing</a></p>
         <p style="color:var(--g-muted);font-size:13px;margin:0;"><strong>Pricing:</strong> Free (25 tokens); $50, $150 or $350 a month.</p>
-      </div>
-    </div>
-
-    <!-- PLOTZY -->
-    <div style="background:var(--g-card);border-radius:12px;padding:28px;margin-bottom:24px;">
-      <div style="display:flex;justify-content:space-between;align-items:start;margin-bottom:16px;flex-wrap:wrap;gap:12px;">
-        <div>
-          <h3 style="margin:0;color:var(--g-heading);font-size:20px;">13. Plotzy</h3>
-          <p style="margin:4px 0 0;color:var(--g-muted);font-size:14px;">Best for: Teams that want zoning-tagged parcel search in their own systems</p>
-        </div>
-        <a href="/products/Plotzy/" style="background:var(--g-accent-bg);color:#fff;padding:8px 16px;border-radius:8px;text-decoration:none;font-size:13px;font-weight:600;">Full Profile →</a>
-      </div>
-
-      <p>Plotzy is a parcel and zoning research platform that tags every parcel with a two-level zoning designation and adds owner contacts, folders and notes. API access is part of its Scale plan, and the site publishes machine-readable files for AI agents (an llms.txt, an API catalogue and an agent skill file) that describe the product and how to authenticate.</p>
-
-      <p>There is no MCP server and no public API reference, API credentials are set up through Plotzy support rather than self-registration, and the Scale plan is custom-priced. For an agent that needs zoning-aware parcel search today, Regrid's zoning add-on or Zoneomics' self-serve zoning API are quicker to start with; Plotzy fits teams already using its app who want the same searches in their own tools.</p>
-
-      <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:16px;">
-        <div>
-          <p style="color:var(--g-good);font-weight:600;font-size:13px;margin:0 0 8px;">What's good</p>
-          <ul style="color:var(--g-soft);font-size:14px;margin:0;padding-left:18px;">
-            <li>Zoning designation on every parcel</li>
-            <li>Machine-readable files describe the product for agents</li>
-            <li>Owner contacts alongside parcels</li>
-            <li>7-day free trial of the app</li>
-          </ul>
-        </div>
-        <div>
-          <p style="color:var(--g-bad);font-weight:600;font-size:13px;margin:0 0 8px;">What's not</p>
-          <ul style="color:var(--g-soft);font-size:14px;margin:0;padding-left:18px;">
-            <li>API only on the custom Scale plan</li>
-            <li>No MCP server or public API reference</li>
-            <li>Still labeled beta</li>
-          </ul>
-        </div>
-      </div>
-
-      <div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--g-border);">
-        <p style="color:var(--g-muted);font-size:13px;margin:0 0 6px;"><strong>Access:</strong> REST API (Scale plan). <a href="https://www.plotzy.ai/llms.txt" rel="noopener" target="_blank">llms.txt</a> · <a href="https://www.plotzy.ai/pricing" rel="noopener" target="_blank">Pricing</a></p>
-        <p style="color:var(--g-muted);font-size:13px;margin:0;"><strong>Pricing:</strong> Starter $180/month and Production $300/month (no API); Scale with API custom.</p>
       </div>
     </div>
 
