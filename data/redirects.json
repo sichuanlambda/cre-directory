@@ -73,5 +73,6 @@
   "/products/parkmobile/": "/categories/workplace-space-management/",
   "/products/envoy-technologies/": "/categories/tenant-experience/",
   "/integrations/google-maps/": "/integrations/",
-  "/integrations/servicenow/": "/integrations/"
+  "/integrations/servicenow/": "/integrations/",
+  "/integrations/microsoft-dynamics/": "/integrations/"
 }

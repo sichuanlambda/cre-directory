@@ -177,7 +177,6 @@ Last content update: 2026-10-23
 - [CRE software that integrates with Autodesk](https://cresoftware.tech/integrations/autodesk/): 4 tools
 - [CRE software that integrates with Microsoft Excel](https://cresoftware.tech/integrations/microsoft-excel/): 4 tools
 - [CRE software that integrates with Quickbooks Online](https://cresoftware.tech/integrations/quickbooks-online/): 4 tools
-- [CRE software that integrates with Microsoft Dynamics](https://cresoftware.tech/integrations/microsoft-dynamics/): 4 tools
 - [CRE software that integrates with Hotpads](https://cresoftware.tech/integrations/hotpads/): 4 tools
 - [CRE software that integrates with Buildium](https://cresoftware.tech/integrations/buildium/): 4 tools
 - [CRE software that integrates with Follow Up Boss](https://cresoftware.tech/integrations/follow-up-boss/): 4 tools
