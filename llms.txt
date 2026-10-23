@@ -1,6 +1,6 @@
 # CRE Software Directory
 
-> Independent, editorially maintained directory of 508 commercial real estate (CRE) software tools across 16 categories, with buyer's guides, ranked alternatives guides, and head-to-head comparisons. Listings are researched from vendor documentation and public sources. Featured placements are labeled as paid and never change editorial content. No star ratings or user reviews are published.
+> Independent, editorially maintained directory of 514 commercial real estate (CRE) software tools across 16 categories, with buyer's guides, ranked alternatives guides, and head-to-head comparisons. Listings are researched from vendor documentation and public sources. Featured placements are labeled as paid and never change editorial content. No star ratings or user reviews are published.
 
 Site: https://cresoftware.tech
 Contact: hello@cresoftware.tech
@@ -14,7 +14,7 @@ Last content update: 2026-10-23
 - [AI & Automation software](https://cresoftware.tech/categories/ai-automation/): 107 tools. AI-powered tools transforming CRE workflows, from automated document extraction and lease abstraction to predictive analytics and intelligent property matching.
 - [Broker Tools software](https://cresoftware.tech/categories/broker-tools/): 100 tools. Deal management, commission tracking, and workflow tools designed for commercial brokers and brokerage firms. Streamline listings, proposals, and transaction coordination.
 - [Construction & Development software](https://cresoftware.tech/categories/construction-development/): 82 tools. Project management, budgeting, and coordination tools for ground-up development and major renovations. Track timelines, manage contractors, and keep builds on budget.
-- [Accounting & Finance software](https://cresoftware.tech/categories/accounting-finance/): 79 tools. Accounting, budgeting, and financial reporting platforms tailored for commercial real estate. Handle complex fund structures, property-level P&L, and investor distributions.
+- [Accounting & Finance software](https://cresoftware.tech/categories/accounting-finance/): 82 tools. Accounting, budgeting, and financial reporting platforms tailored for commercial real estate. Handle complex fund structures, property-level P&L, and investor distributions.
 - [Site Selection software](https://cresoftware.tech/categories/site-selection/): 47 tools. Location intelligence and site analysis platforms for retailers, restaurants, and corporate occupiers. Evaluate demographics, traffic patterns, and competitive landscapes before signing a lease.
 - [Listing Services software](https://cresoftware.tech/categories/listing-services/): 35 tools. Commercial listing platforms and marketing tools for advertising available spaces. Syndicate listings, generate lead traffic, and connect landlords with prospective tenants.
 - [Lending & Debt software](https://cresoftware.tech/categories/lending-debt/): 26 tools. Loan origination, debt marketplaces, servicing, and borrower intelligence for real estate lenders, brokers, and investors. From CRE loan origination systems to construction draw administration and private lending platforms.
@@ -22,7 +22,7 @@ Last content update: 2026-10-23
 - [Tenant Experience software](https://cresoftware.tech/categories/tenant-experience/): 21 tools. Platforms that improve the tenant journey, from building access and amenity booking to community engagement and service requests. Increase retention and justify premium rents.
 - [Crowdfunding & Investing software](https://cresoftware.tech/categories/crowdfunding-investing/): 19 tools. Platforms connecting real estate sponsors with investors. Manage fundraising, investor relations, distributions, and regulatory compliance for syndications and funds.
 - [Workplace & Space Management software](https://cresoftware.tech/categories/workplace-space-management/): 17 tools. Workspace planning, space utilization, and facility management.
-- [Energy & Sustainability software](https://cresoftware.tech/categories/energy-sustainability/): 7 tools. Energy management, utility benchmarking, ESG reporting, and decarbonization software for buildings. Track consumption, comply with ordinances like LL97, plan retrofits, and report portfolio sustainability performance.
+- [Energy & Sustainability software](https://cresoftware.tech/categories/energy-sustainability/): 10 tools. Energy management, utility benchmarking, ESG reporting, and decarbonization software for buildings. Track consumption, comply with ordinances like LL97, plan retrofits, and report portfolio sustainability performance.
 
 ## Buyer's guides
 - [Best Accounting & Finance software for CRE](https://cresoftware.tech/guides/accounting-finance.html)
@@ -31,6 +31,8 @@ Last content update: 2026-10-23
 - [Best AI Lease Abstraction Software for CRE (2026)](https://cresoftware.tech/guides/ai-lease-abstraction-software.html)
 - [Best AI Underwriting Software for CRE (2026)](https://cresoftware.tech/guides/ai-underwriting-software.html)
 - [Best Broker Tools software for CRE](https://cresoftware.tech/guides/broker-tools.html)
+- [Best Building Performance Standards (BPS) and Emissions Compliance Software](https://cresoftware.tech/guides/building-performance-standards-software.html)
+- [Best CAM Reconciliation Software for Commercial Landlords](https://cresoftware.tech/guides/cam-reconciliation-software.html)
 - [Best Construction & Development software for CRE](https://cresoftware.tech/guides/construction-development.html)
 - [Best CRE Debt Management Software for the 2027 Maturity Wall](https://cresoftware.tech/guides/cre-debt-management-software.html)
 - [Best CRE Loan Origination, Servicing and Monitoring Software for the Maturity Wall](https://cresoftware.tech/guides/cre-loan-servicing-software.html)
@@ -41,9 +43,11 @@ Last content update: 2026-10-23
 - [Best Legal & Compliance software for CRE](https://cresoftware.tech/guides/legal-compliance.html)
 - [Best Listing Services software for CRE](https://cresoftware.tech/guides/listing-services.html)
 - [Best Property Management software for CRE](https://cresoftware.tech/guides/property-management.html)
+- [Best Property Tax Management and Appeal Software for CRE Portfolios](https://cresoftware.tech/guides/property-tax-appeal-software.html)
 - [Best Site Selection software for CRE](https://cresoftware.tech/guides/site-selection.html)
 - [Best Tenant Experience software for CRE](https://cresoftware.tech/guides/tenant-experience.html)
 - [Best Workplace & Space Management software for CRE](https://cresoftware.tech/guides/workplace-space-management.html)
+- [Best Year-End Close and 1099 Software for Property Managers and Landlords](https://cresoftware.tech/guides/year-end-1099-software-property-managers.html)
 
 ## Alternatives guides
 - [All alternatives guides](https://cresoftware.tech/alternatives/)
@@ -101,7 +105,7 @@ Last content update: 2026-10-23
 - [Buildout vs Apto](https://cresoftware.tech/compare/buildout-vs-apto/): Apto appears discontinued; Buildout is the actively developed CRE brokerage platform and the practical choice. And a natural Apto migration path.
 - [Crexi vs LoopNet](https://cresoftware.tech/compare/crexi-vs-loopnet/): LoopNet wins on raw listing exposure through CoStar's audience; Crexi wins on price, deal management, and a modern workflow for active brokers.
 - [CoStar vs Reonomy](https://cresoftware.tech/compare/costar-vs-reonomy/): CoStar wins for lease comps, valuation, and market research; Reonomy wins for owner discovery and prospecting at a lower entry cost.
-- [Visual Lease vs LeaseQuery](https://cresoftware.tech/compare/visuallease-vs-leasequery/): Visual Lease wins for enterprise lease administration across real estate and equipment; LeaseQuery, now part of FinQuery, wins for accounting-first compliance at any size.
+- [Visual Lease vs FinQuery](https://cresoftware.tech/compare/visuallease-vs-leasequery/): Visual Lease wins for enterprise lease administration across real estate and equipment; LeaseQuery, now part of FinQuery, wins for accounting-first compliance at any size.
 - [Entrata vs Realpage](https://cresoftware.tech/compare/entrata-vs-realpage/): Entrata wins for operators who want one login across diverse housing types; RealPage wins for enterprise multifamily teams built around revenue management and analytics.
 - [Entrata vs Yardi](https://cresoftware.tech/compare/entrata-vs-yardi/): Yardi wins on property-type breadth, deployment options, and an affordable entry tier; Entrata wins for multifamily operators who want one modern, unified platform.
 - [Rent Manager vs AppFolio](https://cresoftware.tech/compare/rent-manager-vs-appfolio/): Rent Manager wins on accounting depth and mixed-portfolio flexibility; AppFolio wins on modern user experience and AI automation for residential managers.
@@ -143,12 +147,12 @@ Last content update: 2026-10-23
 
 ## Browse by integration
 - [All integration hubs](https://cresoftware.tech/integrations/)
-- [CRE software that integrates with Yardi](https://cresoftware.tech/integrations/yardi/): 17 tools
+- [CRE software that integrates with Yardi](https://cresoftware.tech/integrations/yardi/): 19 tools
 - [CRE software that integrates with Zillow](https://cresoftware.tech/integrations/zillow/): 16 tools
-- [CRE software that integrates with DocuSign](https://cresoftware.tech/integrations/docusign/): 13 tools
-- [CRE software that integrates with Salesforce](https://cresoftware.tech/integrations/salesforce/): 11 tools
-- [CRE software that integrates with MRI Software](https://cresoftware.tech/integrations/mri-software/): 11 tools
+- [CRE software that integrates with DocuSign](https://cresoftware.tech/integrations/docusign/): 12 tools
 - [CRE software that integrates with TransUnion](https://cresoftware.tech/integrations/transunion/): 11 tools
+- [CRE software that integrates with Salesforce](https://cresoftware.tech/integrations/salesforce/): 10 tools
+- [CRE software that integrates with MRI Software](https://cresoftware.tech/integrations/mri-software/): 10 tools
 - [CRE software that integrates with SAP](https://cresoftware.tech/integrations/sap/): 9 tools
 - [CRE software that integrates with Excel](https://cresoftware.tech/integrations/excel/): 9 tools
 - [CRE software that integrates with RealPage](https://cresoftware.tech/integrations/realpage/): 9 tools
@@ -156,23 +160,25 @@ Last content update: 2026-10-23
 - [CRE software that integrates with QuickBooks](https://cresoftware.tech/integrations/quickbooks/): 9 tools
 - [CRE software that integrates with Apartments.com](https://cresoftware.tech/integrations/apartments-com/): 8 tools
 - [CRE software that integrates with Plaid](https://cresoftware.tech/integrations/plaid/): 7 tools
-- [CRE software that integrates with VTS](https://cresoftware.tech/integrations/vts/): 6 tools
 - [CRE software that integrates with ARGUS](https://cresoftware.tech/integrations/argus/): 6 tools
+- [CRE software that integrates with Microsoft 365](https://cresoftware.tech/integrations/microsoft-365/): 6 tools
+- [CRE software that integrates with Entrata](https://cresoftware.tech/integrations/entrata/): 6 tools
+- [CRE software that integrates with Zapier](https://cresoftware.tech/integrations/zapier/): 6 tools
+- [CRE software that integrates with Appfolio](https://cresoftware.tech/integrations/appfolio/): 6 tools
 - [CRE software that integrates with Snowflake](https://cresoftware.tech/integrations/snowflake/): 5 tools
 - [CRE software that integrates with Oracle](https://cresoftware.tech/integrations/oracle/): 5 tools
 - [CRE software that integrates with Power BI](https://cresoftware.tech/integrations/power-bi/): 5 tools
+- [CRE software that integrates with VTS](https://cresoftware.tech/integrations/vts/): 5 tools
 - [CRE software that integrates with CoStar](https://cresoftware.tech/integrations/costar/): 5 tools
-- [CRE software that integrates with Microsoft 365](https://cresoftware.tech/integrations/microsoft-365/): 5 tools
-- [CRE software that integrates with Entrata](https://cresoftware.tech/integrations/entrata/): 5 tools
 - [CRE software that integrates with Stripe](https://cresoftware.tech/integrations/stripe/): 5 tools
 - [CRE software that integrates with Workday](https://cresoftware.tech/integrations/workday/): 5 tools
 - [CRE software that integrates with Trulia](https://cresoftware.tech/integrations/trulia/): 5 tools
-- [CRE software that integrates with Appfolio](https://cresoftware.tech/integrations/appfolio/): 5 tools
+- [CRE software that integrates with Rent Manager](https://cresoftware.tech/integrations/rent-manager/): 5 tools
 - [CRE software that integrates with Autodesk](https://cresoftware.tech/integrations/autodesk/): 4 tools
 - [CRE software that integrates with Microsoft Excel](https://cresoftware.tech/integrations/microsoft-excel/): 4 tools
-- [CRE software that integrates with Zapier](https://cresoftware.tech/integrations/zapier/): 4 tools
-- [CRE software that integrates with Microsoft Dynamics](https://cresoftware.tech/integrations/microsoft-dynamics/): 4 tools
+- [CRE software that integrates with Quickbooks Online](https://cresoftware.tech/integrations/quickbooks-online/): 4 tools
 - [CRE software that integrates with Hotpads](https://cresoftware.tech/integrations/hotpads/): 4 tools
+- [CRE software that integrates with Buildium](https://cresoftware.tech/integrations/buildium/): 4 tools
 - [CRE software that integrates with Follow Up Boss](https://cresoftware.tech/integrations/follow-up-boss/): 4 tools
 
 ## Product pages

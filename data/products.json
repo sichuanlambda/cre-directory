@@ -194,7 +194,7 @@
     "url": "https://www.altusgroup.com",
     "logo_url": "/img/logos/altus-group.png",
     "headline": "Trusted commercial real estate analytics.",
-    "description": "Altus Group is a leading provider of asset and fund intelligence for commercial real estate, offering software (ARGUS suite), data solutions (Altus Analytics), and advisory services globally. The company serves institutional investors, developers, lenders, and governments with solutions for property valuation, tax management, cost consulting, and portfolio analytics. Altus Analytics provides market data, benchmarking, and AI-powered insights. Altus Group is headquartered in Toronto and operates in North America, Europe, and Asia Pacific.",
+    "description": "Altus Group is a provider of asset and fund intelligence for commercial real estate, offering software (the ARGUS suite), data solutions (Altus Analytics), and advisory services. It serves institutional investors, developers, lenders, and governments with solutions for property valuation, cost consulting, and portfolio analytics. Altus sold its global Property Tax business, including the itamlink property tax software, to Ryan, LLC in January 2025, describing the sale as a step toward a pure-play CRE software, data and analytics platform. Altus Group is headquartered in Toronto.",
     "short_description": "Trusted commercial real estate analytics.",
     "target_audience": {
       "roles": [],
@@ -327,7 +327,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-10-23",
     "is_verified": false,
     "is_featured": false,
     "domain": "altusgroup.com",
@@ -3903,7 +3903,7 @@
     "url": "https://www.enertiv.com",
     "logo_url": "/img/logos/enertiv.png",
     "headline": "Energy management for real estate.",
-    "description": "Enertiv is a portfolio-scale sustainability reporting and decarbonization platform for commercial real estate. The platform provides investor-grade ESG reporting, enabling CRE firms to capture utility data, monitor progress, and disclose environmental impact. Enertiv automates utility bill ingestion with quality assurance, provides on-demand greenhouse gas calculations, and seamlessly submits data to Energy Star, GRESB, SFDR, CSRD, and TCFD frameworks. The platform offers 100% utility data coverage through a combination of tenant portals, shadow metering hardware, and mobile apps for manual reads. Enertiv also provides asset-level decarbonization pathways, demand response, energy procurement, smart irrigation, and solar deployment solutions.",
+    "description": "Enertiv is a portfolio-scale sustainability reporting and decarbonization platform for commercial real estate. It connects to utility portals to ingest bills automatically, fills gaps with tenant portals, non-proprietary shadow metering and a QR-code meter-read app, and runs automated quality checks with a resolution log. It keeps a two-way sync with ENERGY STAR Portfolio Manager, tracks local benchmarking ordinances and building performance standards thresholds and quantifies fine exposure, and exports to GRESB, SFDR, CSRD and TCFD. Carbon planning builds CRREM-aligned, asset-level decarbonization pathways from equipment surveys, with capital and operating cost recommendations and electrification comparisons. A free Portfolio Diagnostic estimates regulatory fine exposure from Portfolio Manager data. Pricing is by quote.",
     "short_description": "Energy management for real estate.",
     "target_audience": {
       "roles": [],
@@ -4001,16 +4001,15 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "100% utility data coverage through multi-strategy approach",
-      "AI-powered data quality dashboard ensures accuracy",
-      "Supports all major ESG frameworks: GRESB, SFDR, CSRD, TCFD",
-      "Asset-level decarbonization grounded in on-site reality",
-      "Replaces Measurabl for clients seeking more accurate data"
+      "Two-way ENERGY STAR Portfolio Manager sync and automated utility bill ingestion",
+      "Quantifies building performance standard fine exposure across markets",
+      "Several ways to fill utility data gaps, from tenant portals to shadow metering",
+      "Asset-level decarbonization pathways built from equipment surveys"
     ],
     "cons": [
-      "Enterprise pricing not publicly available",
+      "Pricing not publicly available",
       "Shadow metering requires hardware installation",
-      "Focused on sustainability, not a general CRE platform"
+      "Product pages name few specific laws; ask which ordinances are modeled for your markets"
     ],
     "integrations": [
       "Energy Star",
@@ -4042,7 +4041,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-23",
     "is_verified": false,
     "is_featured": false,
     "domain": "enertiv.com",
@@ -4698,13 +4697,13 @@
     "logo_url_source": "https://logo.clearbit.com/fundrise.com"
   },
   {
-    "title": "Goby",
+    "title": "Conservice ESG (formerly Goby)",
     "slug": "goby",
-    "url": "https://www.gobyinc.com",
+    "url": "https://esg.conservice.com",
     "logo_url": "/img/logos/goby.png",
-    "headline": "Sustainability management software.",
-    "description": "Goby, now rebranded as Conservice ESG, is an ESG (Environmental, Social, Governance) reporting and sustainability platform for commercial real estate. The platform helps CRE firms capture data, monitor progress, and disclose positive impact across their portfolios. Conservice ESG features AI-powered software to digitize portfolios, a hybrid platform combining SaaS with strategic expertise for end-to-end sustainable growth, and an intuitive interface making ESG simpler and accessible. The platform provides guidance through ESG reporting frameworks, strategies, and actionable insights for systematic creation of scalable, cohesive ESG programs.",
-    "short_description": "Sustainability management software.",
+    "headline": "Utility data, benchmarking ordinance and BPS compliance, and ESG reporting for real estate.",
+    "description": "Conservice ESG is the ESG and building compliance business of Conservice, the utility management company, built on Goby, which Conservice acquired in 2021 (gobyinc.com now redirects to esg.conservice.com). It captures utility bill data automatically through integrations with utility providers, fully automates the connection to ENERGY STAR Portfolio Manager, and tracks benchmarking ordinance and compliance submissions, with in-house engineers who stamp and verify applications where an ordinance requires it. Its building performance standards pages cover laws including NYC Local Law 97, Boston BERDO 2.0, Washington DC BEPS, Energize Denver and Washington State Clean Buildings, and its benchmarking pages list about 70 US and Canadian ordinances. It is a GRESB Global Partner and supports LEED and Fitwel. Pricing is by quote.",
+    "short_description": "Conservice ESG (formerly Goby): automated utility data, ENERGY STAR Portfolio Manager sync, ordinance filings and ESG reporting.",
     "target_audience": {
       "roles": [],
       "company_sizes": [],
@@ -4776,15 +4775,15 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "AI-powered software automates ESG data collection and analysis",
-      "Hybrid platform combines software with expert strategic guidance",
-      "Intuitive interface makes ESG accessible to non-specialists",
-      "Part of Conservice ecosystem with utility management expertise"
+      "Automated utility bill capture and ENERGY STAR Portfolio Manager integration",
+      "Tracks benchmarking and BPS filings across a long list of US and Canadian ordinances",
+      "Engineers verify and stamp submissions where required",
+      "Backed by Conservice's utility management business"
     ],
     "cons": [
-      "Rebranded from Goby to Conservice ESG, potential confusion",
-      "Enterprise pricing not publicly available",
-      "Focused specifically on ESG, not a general CRE platform"
+      "Pricing not published",
+      "Its public pages describe no emissions forecasting or penalty modeling for BPS limits",
+      "Renamed from Goby to Conservice ESG, so older references use the previous name"
     ],
     "integrations": [
       "Conservice utility management",
@@ -4814,18 +4813,22 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-23",
     "is_verified": false,
     "is_featured": false,
     "domain": "gobyinc.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Sustainability management software.",
+    "tagline": "Utility data, benchmarking compliance and ESG reporting for real estate.",
     "property_types": [
       "Commercial"
     ],
     "primary_category": "energy-sustainability",
-    "logo_url_source": "https://logo.clearbit.com/gobyinc.com"
+    "logo_url_source": "https://logo.clearbit.com/gobyinc.com",
+    "aliases": [
+      "Goby"
+    ],
+    "status_note": "Goby was acquired by Conservice in 2021 and now operates as Conservice ESG."
   },
   {
     "title": "HappyCo",
@@ -9304,8 +9307,7 @@
     "company": {
       "name": "RealAtom",
       "founded": 2016,
-      "headquarters": "Washington, D.C.",
-      "employees": "",
+      "headquarters": "Arlington, VA",
       "funding": "$5M+"
     },
     "categories": [
@@ -9326,7 +9328,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-08-28",
+    "last_updated": "2026-10-23",
     "is_verified": false,
     "is_featured": false,
     "domain": "realatom.com",
@@ -9342,7 +9344,8 @@
     "enrichedAt": "2026-02-17T22:44:16.969851+00:00",
     "primary_category": "lending-debt",
     "logo_url_source": "https://logo.clearbit.com/realatom.com",
-    "status": "active"
+    "status": "active",
+    "status_note": "The realatom.com website is offline: its domain no longer resolves (checked October 2026). We found no announcement of a shutdown or acquisition, so confirm with the company before relying on the service."
   },
   {
     "title": "RealNex",
@@ -13414,18 +13417,15 @@
       "plans": [
         {
           "name": "Yardi Breeze",
-          "price": "From $1/unit/month",
-          "description": "Simple, affordable property management for smaller portfolios"
+          "price": "From $1/unit/month, $100/month minimum (residential); $2/unit/month, $200/month minimum (commercial); annual agreement"
         },
         {
           "name": "Yardi Breeze Premier",
-          "price": "From $2/unit/month",
-          "description": "Enhanced features including job costing, custom reports, and more"
+          "price": "From $1/unit/month, $400/month minimum (residential, terms apply); commercial by quote"
         },
         {
           "name": "Yardi Voyager",
-          "price": "Quote-based",
-          "description": "Enterprise-grade platform for large portfolios with full customization"
+          "price": "Quote-based"
         }
       ]
     },
@@ -13506,7 +13506,7 @@
         "real estate software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-10-23",
     "is_verified": false,
     "is_featured": true,
     "domain": "yardi.com",
@@ -21361,8 +21361,8 @@
     "slug": "doorloop",
     "url": "https://www.doorloop.com",
     "logo_url": "/img/logos/doorloop.png",
-    "headline": "All-in-one property management software",
-    "description": "DoorLoop is a cloud-based property management software designed for landlords, property managers, and real estate investors. It offers end-to-end rental management including online rent collection via credit card, debit card, ACH, and cash, tenant screening through TransUnion, lease management with eSignatures, maintenance request tracking, and full accounting with QuickBooks sync. DoorLoop features an AI Assistant for task automation, AI-powered property inspections, customizable workflows, and listing syndication to Zillow, Trulia, and HotPads. Trusted by tens of thousands of customers with a 98.6% satisfaction rating.",
+    "headline": "Agentic property management software for residential and commercial portfolios.",
+    "description": "DoorLoop is cloud property management software for landlords, property managers and real estate investors managing residential, commercial and mixed-use portfolios. It covers online rent collection (ACH, cards and cash payments), tenant screening, leases with eSignatures, maintenance requests, owner and tenant portals, and full property accounting with live bank sync, budgeting, owner statements, CAM charges with true-ups and tenant statements, and 1099-MISC and 1099-NEC preparation (e-filed through Avalara). DoorLoop 2.0 adds AI agents: an AI Assistant on every plan, a Receptionist Agent on Connect, and Maintenance Ops and Lease Renewal agents on Multiply. Plans are priced per unit, from $2.50 per unit per month billed yearly with a $199 monthly minimum, and every plan includes unlimited users and full API access.",
     "short_description": "All-in-one property management software for residential and commercial properties.",
     "target_audience": "Landlords, property managers, and real estate investors of any size managing single-family homes, multi-family properties, mixed-use commercial properties, HOAs, mobile home parks, student housing, and affordable housing portfolios.",
     "feature_groups": [
@@ -21466,63 +21466,45 @@
     ],
     "pricing": {
       "model": "Per unit/month",
-      "starting_price": "$69/month (billed annually)",
+      "starting_price": "$2.50/unit/month (billed yearly, $199/month minimum)",
       "billing_options": [
         "Monthly",
         "Annual"
       ],
-      "free_trial": true,
+      "free_trial": false,
       "free_tier": false,
       "plans": [
         {
-          "name": "Starter",
-          "price": "$69 annual ($99 monthly), up to 10 units, $3 per additional unit",
-          "period": "monthly (billed annually)",
+          "name": "DoorLoop One",
+          "price": "$2.50/unit/month billed yearly ($3.00 monthly); $199/month minimum ($239 monthly); $1.50/unit above 100 units ($1.80 monthly)",
+          "period": "monthly",
           "features": [
-            "Online rent & fee payments",
-            "Tenant portal",
-            "Maintenance management",
-            "Two-way SMS",
-            "Accounting & reporting",
-            "Tenant screening",
-            "Lease management",
-            "eSignature"
+            "Unlimited users",
+            "Unlimited document storage",
+            "Full API access",
+            "AI Assistant",
+            "Accounting, CAM charges and 1099s"
           ]
         },
         {
-          "name": "Pro",
-          "price": "$149",
-          "period": "monthly (billed annually)",
+          "name": "DoorLoop Connect",
+          "price": "$4.00/unit/month billed yearly ($4.80 monthly); $299/month minimum ($359 monthly)",
+          "period": "monthly",
           "features": [
-            "Everything in Starter",
-            "AI Assistant & AI Inspections",
-            "Workflows",
-            "Advanced accounting",
-            "QuickBooks sync",
-            "Live bank connect",
-            "Listings syndication",
-            "CAM charges",
-            "Budgeting"
+            "Everything in One",
+            "Receptionist Agent",
+            "Free incoming ACH",
+            "VIP priority support"
           ]
         },
         {
-          "name": "Premium",
-          "price": "$209",
-          "period": "monthly (billed annually)",
+          "name": "DoorLoop Multiply",
+          "price": "$5.00/unit/month billed yearly ($6.00 monthly); $399/month minimum ($479 monthly)",
+          "period": "monthly",
           "features": [
-            "Everything in Pro",
-            "VIP Priority Support",
-            "Free incoming ACH payments",
-            "Free personalized website",
-            "Custom dashboards"
-          ]
-        },
-        {
-          "name": "Enterprise",
-          "price": "Custom quote",
-          "period": "",
-          "features": [
-            "300+ units"
+            "Everything in Connect",
+            "Maintenance Ops Agent",
+            "Lease Renewal Agent"
           ]
         }
       ]
@@ -21543,16 +21525,16 @@
     ],
     "video_url": null,
     "pros": [
-      "Comprehensive all-in-one property management with AI features",
-      "Easy setup with data migration in days, not months",
-      "98.6% customer satisfaction rating with world-class support",
-      "Integrates with thousands of apps via Zapier and Open API",
-      "Mobile-friendly with full functionality on any device"
+      "Residential, commercial and mixed-use management in one system, including CAM charges and true-ups",
+      "Published per-unit pricing with unlimited users on every plan",
+      "Full API access and Zapier on every plan",
+      "AI Assistant included; AI agents for reception, maintenance and renewals on higher plans"
     ],
     "cons": [
-      "Starting price of $69/month may be high for very small landlords",
-      "Advanced features like AI and workflows require Pro plan or higher",
-      "Per-unit pricing can add up for large portfolios"
+      "$199 monthly minimum is high for very small landlords",
+      "AI agents for maintenance and renewals require the top plan",
+      "No free trial advertised on the pricing page; sales starts with a demo",
+      "1099 e-filing runs through a CSV hand-off to Avalara rather than inside DoorLoop"
     ],
     "integrations": [
       "QuickBooks Online",
@@ -21570,8 +21552,7 @@
       "name": "DoorLoop",
       "founded": 2019,
       "headquarters": "Miami, FL",
-      "employees": "50-200",
-      "funding": ""
+      "funding": "$10M seed (2021), $20M Series A led by Alpine Investors (2022), $100M Series B led by JMI Equity (2024)"
     },
     "categories": [
       "Property Management",
@@ -21591,13 +21572,13 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-09-02",
+    "last_updated": "2026-10-23",
     "is_verified": false,
     "is_featured": false,
     "domain": "doorloop.com",
     "pricing_model": "Per unit/month",
     "is_free": false,
-    "tagline": "All-in-one property management software",
+    "tagline": "Property management software with built-in AI agents.",
     "property_types": [
       "Residential",
       "Multifamily",
@@ -21623,7 +21604,7 @@
       "Open API for custom integrations",
       "Mobile access and on-site functionality"
     ],
-    "pricing_info": "Subscription-based pricing starting at $69/month with plans that scale by unit count and feature needs. Higher tiers include advanced features like full accounting, maintenance management, and extensive integrations. Contact for specific pricing tiers and custom enterprise solutions.",
+    "pricing_info": "Per-unit plans: One from $2.50/unit/month ($199 minimum), Connect from $4.00/unit/month ($299 minimum) and Multiply from $5.00/unit/month ($399 minimum), billed yearly; monthly billing costs more. Tenant screening is $35.",
     "enriched": true,
     "enrichedAt": "2026-02-17T23:29:10.695824Z",
     "primary_category": "property-management",
@@ -21751,12 +21732,12 @@
     "status_note": "RealCrowd appears inactive with no new offerings; verify current status before relying on the platform."
   },
   {
-    "title": "LeaseQuery",
+    "title": "FinQuery",
     "slug": "leasequery",
     "url": "https://finquery.com/lease-accounting-software/",
     "logo_url": "/img/logos/leasequery.png",
     "headline": "Lease accounting software for compliance with financial regulations.",
-    "description": "LeaseQuery (now rebranded as FinQuery) is the G2-leading lease accounting software built for compliance with ASC 842, IFRS 16, and GASB 87 lease accounting standards. The platform automates lease data management, journal entry generation, disclosure reporting, and compliance workflows. FinQuery serves organizations of all sizes, from small businesses to Fortune 500 enterprises, and is recognized for top satisfaction scores in quality of support, ease of use, and implementation accuracy. It also handles prepaid expenses and accrual management beyond leases. The leasequery.com domain now redirects to FinQuery, whose lease accounting software includes automated lease abstracts with AI-assisted data abstraction, and a LeaseGuru trial lets you enter your first two leases free.",
+    "description": "FinQuery (formerly LeaseQuery, renamed in February 2024) is lease accounting and subledger software. Its lease product, LeaseQuery powered by FinQuery, handles compliance with ASC 842, IFRS 16, FRS 102, GASB 87, GASB 96 and SFFAS 54: lease data management with AI-assisted abstraction, amortization schedules, journal entries and disclosure reporting. FinQuery also covers fixed assets, debt, and prepaids and accruals, and integrates with general ledgers including NetSuite, Infor, Acumatica, Sage, Microsoft, SAP, QuickBooks and Workday. LeaseGuru lets you enter your first two leases free, and an Essential tier serves portfolios of 25 leases and under; other pricing is by quote. leasequery.com redirects to finquery.com.",
     "short_description": "Lease accounting software for compliance with financial regulations.",
     "target_audience": "Accountants, CFOs, controllers, and finance professionals at organizations with lease portfolios requiring compliance with modern lease accounting standards. Serves small businesses to large enterprises across all industries needing ASC 842, IFRS 16, GASB, or other lease accounting compliance.",
     "feature_groups": [
@@ -21870,7 +21851,7 @@
     "cons": [
       "Pricing not publicly available, must contact sales",
       "Primarily focused on accounting compliance, limited operational lease management",
-      "Rebranded from LeaseQuery to FinQuery which may cause market confusion",
+      "Renamed from LeaseQuery to FinQuery in 2024, so older references use the previous name",
       "Less comprehensive for real estate operations compared to full property management platforms"
     ],
     "integrations": [
@@ -21879,20 +21860,28 @@
         "category": "ERP"
       },
       {
+        "name": "Infor",
+        "category": "ERP"
+      },
+      {
+        "name": "Acumatica",
+        "category": "ERP"
+      },
+      {
+        "name": "Sage",
+        "category": "Accounting"
+      },
+      {
+        "name": "Microsoft",
+        "category": "ERP"
+      },
+      {
         "name": "SAP",
         "category": "ERP"
       },
       {
-        "name": "Sage Intacct",
-        "category": "Accounting"
-      },
-      {
         "name": "QuickBooks",
         "category": "Accounting"
-      },
-      {
-        "name": "Microsoft Dynamics",
-        "category": "ERP"
       },
       {
         "name": "Workday",
@@ -21900,11 +21889,7 @@
       }
     ],
     "company": {
-      "name": "LeaseQuery",
-      "founded": null,
-      "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "name": "FinQuery (formerly LeaseQuery)"
     },
     "categories": [
       "Accounting & Finance",
@@ -21924,7 +21909,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-20",
+    "last_updated": "2026-10-23",
     "is_verified": false,
     "is_featured": false,
     "domain": "finquery.com",
@@ -21955,7 +21940,10 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T23:29:57.672753Z",
     "primary_category": "accounting-finance",
-    "logo_url_source": "https://logo.clearbit.com/leasequery.com"
+    "logo_url_source": "https://logo.clearbit.com/leasequery.com",
+    "aliases": [
+      "LeaseQuery"
+    ]
   },
   {
     "title": "Roofstock",
@@ -23019,7 +23007,7 @@
     "url": "https://www.knockcrm.com",
     "logo_url": "/img/logos/knock.png",
     "headline": "CRM and leasing tools for property managers and real estate professionals.",
-    "description": "Knock CRM is the leading front office technology platform for the multifamily industry, delivering tools for leasing teams to efficiently guide renters from lead to lease to retained resident. The platform helps owners and operators improve operational efficiency by profitably acquiring and retaining high-value, long-term residents to maximize NOI. Knock features self-service tour scheduling (Knock Now) that increases tour volume 2.5x, multi-channel messaging across email, text, voice, and chat from a single screen, AI-powered source attribution for marketing optimization, gamified task management, centralized leasing operations, and Knock Insights analytics with billions of data points.",
+    "description": "Knock CRM is a front office platform for multifamily leasing teams, guiding renters from lead to lease to retained resident. It is owned by RealPage, which acquired Knock in 2022. Features include self-service tour scheduling (Knock Now, which Knock says increases tour volume 2.5x), multi-channel messaging across email, text, voice and chat from a single screen, marketing source attribution, task management for leasing teams, Knock Insights analytics, mobile apps, and AI solutions including RealPage's Lumina AI leasing agent. It integrates with RealPage, Yardi and Entrata.",
     "short_description": "CRM and leasing tools for property managers and real estate professionals.",
     "target_audience": "Multifamily property owners and operators, leasing teams, property managers, marketing directors, operations teams, IT departments, and corporate multifamily organizations seeking to optimize leasing performance and maximize NOI through technology-enabled processes.",
     "feature_groups": [
@@ -23094,11 +23082,10 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Self-service tour scheduling increases tour volume 2.5x",
+      "Self-service tour scheduling that Knock says increases tour volume 2.5x",
       "Single-screen multi-channel communication improves efficiency",
-      "Gamified task management motivates leasing teams",
-      "Knock Insights provides deep analytics from billions of data points",
-      "Centralization enables remote leasing operations"
+      "Task management built for leasing teams",
+      "Backed by RealPage, with RealPage AI leasing tools alongside"
     ],
     "cons": [
       "Enterprise pricing not publicly available",
@@ -23106,17 +23093,15 @@
       "Requires significant adoption effort for leasing teams"
     ],
     "integrations": [
-      "Yardi",
       "RealPage",
-      "Entrata",
-      "MRI Software"
+      "Yardi",
+      "Entrata"
     ],
     "company": {
-      "name": "Knock CRM",
+      "name": "Knock CRM (a RealPage company)",
       "founded": 2014,
       "headquarters": "Seattle, WA",
-      "employees": "100-200",
-      "funding": "$80M+"
+      "funding": "Acquired by RealPage (2022)"
     },
     "categories": [
       "CRM & Marketing",
@@ -23136,7 +23121,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-23",
     "is_verified": false,
     "is_featured": false,
     "domain": "knockcrm.com",
@@ -23144,7 +23129,7 @@
     "is_free": false,
     "tagline": "CRM and leasing tools for property managers and real estate professionals.",
     "property_types": [
-      "Commercial"
+      "Multifamily"
     ],
     "features": [
       "Knock Now™ self-scheduling for prospect tours (2.5x increase)",
@@ -24204,13 +24189,13 @@
     "unpublished_reason": "Not CRE software: consumer robo-advisor"
   },
   {
-    "title": "SimpleNexus",
+    "title": "nCino Mortgage",
     "slug": "simplenexus",
-    "url": "https://www.simplenexus.com",
+    "url": "https://www.ncino.com/mortgage/us",
     "logo_url": "",
-    "headline": "Mortgage origination software for real estate professionals.",
-    "description": "SimpleNexus, now part of the nCino Mortgage Suite, is a digital mortgage platform that increases financial institutions' mortgage profitability by automating loan processing and closing, delivering modern customer convenience, and surfacing data insights. The platform has achieved a 29% increase in application pull-through rates, 80% decrease in loan closing time, and 49% improvement to average cycle time for its users. Trusted by leading lenders including credit unions and banks, the nCino Mortgage Suite includes mortgage origination, incentive compensation management, and mortgage analytics. The platform is used by over 2,700 financial institutions for end-to-end mortgage simplicity.",
-    "short_description": "Mortgage origination software for real estate professionals.",
+    "headline": "Residential mortgage point-of-sale and origination software for banks and credit unions (formerly SimpleNexus).",
+    "description": "nCino Mortgage is the mortgage suite of nCino, built from SimpleNexus, which nCino acquired in January 2022 and rebranded as nCino's Mortgage Suite in September 2023 (simplenexus.com now redirects to nCino). It is residential mortgage software for banks, credit unions and mortgage lenders: a mortgage point of sale with borrower and loan officer apps, document collection and eClose, integrations with loan origination systems plus Freddie Mac AIM and dual automated underwriting, mortgage analytics, and incentive compensation management. nCino says the mortgage point of sale is trusted by more than 2,700 institutions. Pricing is quote-based.",
+    "short_description": "nCino Mortgage Suite (formerly SimpleNexus): digital mortgage point of sale, analytics and incentive compensation for lenders.",
     "target_audience": "Financial institutions, mortgage lenders, credit unions, and banking organizations seeking to modernize their mortgage lending operations and increase profitability through digital transformation and process automation.",
     "feature_groups": [
       {
@@ -24280,28 +24265,25 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "29% increase in application pull-through rate",
-      "80% decrease in loan closing time",
-      "Part of nCino ecosystem trusted by 2,700+ financial institutions",
-      "Comprehensive analytics with real-time pipeline visibility",
-      "Automated incentive compensation saves hours per payroll"
+      "Part of nCino's banking platform, trusted by 2,700+ institutions for mortgage point of sale",
+      "Borrower and loan officer apps with document collection and eClose",
+      "Mortgage analytics and incentive compensation in the same suite"
     ],
     "cons": [
       "Enterprise pricing not publicly available",
-      "Primarily for financial institutions, not independent mortgage brokers",
+      "Residential mortgage software; not built for commercial real estate lending",
       "May require significant implementation effort"
     ],
     "integrations": [
-      "nCino Platform",
-      "Salesforce",
-      "Various LOS systems"
+      "Loan origination systems (LOS)",
+      "Freddie Mac AIM",
+      "Dual AUS"
     ],
     "company": {
       "name": "nCino (formerly SimpleNexus)",
-      "founded": 2012,
-      "headquarters": "Lehi, UT (nCino: Wilmington, NC)",
-      "employees": "1000+ (nCino)",
-      "funding": "Acquired by nCino (NASDAQ: NCNO) in 2022 for $1.2B"
+      "founded": 2011,
+      "headquarters": "Wilmington, NC (nCino)",
+      "funding": "Acquired by nCino (NASDAQ: NCNO), completed January 2022"
     },
     "categories": [
       "Lending & Debt"
@@ -24320,15 +24302,15 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-23",
     "is_verified": false,
     "is_featured": false,
-    "domain": "simplenexus.com",
+    "domain": "ncino.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Mortgage origination software for real estate professionals.",
+    "tagline": "The nCino Mortgage Suite, formerly SimpleNexus.",
     "property_types": [
-      "Commercial"
+      "Residential"
     ],
     "features": [
       "End-to-end automated loan processing and closing",
@@ -24350,7 +24332,12 @@
     "enriched": true,
     "enrichedAt": "2026-02-17T23:33:59.771579Z",
     "primary_category": "lending-debt",
-    "logo_url_source": "https://logo.clearbit.com/simplenexus.com"
+    "logo_url_source": "https://logo.clearbit.com/simplenexus.com",
+    "aliases": [
+      "SimpleNexus",
+      "nCino Mortgage Suite"
+    ],
+    "status_note": "SimpleNexus was acquired by nCino in January 2022 and rebranded as nCino's Mortgage Suite in September 2023."
   },
   {
     "title": "Fund That Flip",
@@ -24474,13 +24461,13 @@
     "logo_url_source": "https://logo.clearbit.com/fundthatflip.com"
   },
   {
-    "title": "LendingHome",
+    "title": "Kiavi",
     "slug": "lendinghome",
-    "url": "https://www.lendinghome.com",
+    "url": "https://www.kiavi.com",
     "logo_url": "/img/logos/lendinghome.png",
-    "headline": "Real estate investment loans for residential properties.",
-    "description": "LendingHome, now rebranded as Kiavi, is a technology-powered lending platform providing financing for real estate investors. Kiavi leverages cutting-edge technology for faster, simpler access to fix-and-flip, rental, and new construction loans. With a 4.8/5 star rating, the platform serves non-owner-occupied investment properties across 40+ US states plus Washington D.C. Kiavi has funded billions in real estate investment loans, offering competitive rates and a streamlined digital process that eliminates traditional lending hassles.",
-    "short_description": "Real estate investment loans for residential properties.",
+    "headline": "Fix-and-flip, bridge, rental (DSCR) and construction loans for residential real estate investors.",
+    "description": "Kiavi (formerly LendingHome, renamed in 2021) is a technology-driven lender to residential real estate investors. It offers fix-and-flip, bridge, new construction, rental (DSCR) and jumbo loans (up to $5 million) for non-owner-occupied properties in 49 states plus Washington, D.C., with an online application and pricing process, and says it has originated more than $30 billion in loans. Figure Technology Solutions completed its acquisition of Kiavi on September 1, 2026, and Kiavi now operates as a Figure subsidiary.",
+    "short_description": "Fix-and-flip, bridge, rental (DSCR) and construction loans for residential real estate investors.",
     "target_audience": "Real estate investors, fix-and-flip investors, rental property investors, real estate developers, and anyone seeking financing for non-owner-occupied investment properties including single-family rentals, multi-family properties, and new construction projects.",
     "feature_groups": [
       {
@@ -24540,23 +24527,21 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "4.8/5 star rating from borrowers",
-      "Available in 40+ states",
-      "Technology-driven fast funding",
-      "Billions in loans funded"
+      "Lends in 49 states plus Washington, D.C.",
+      "Fix-and-flip, bridge, construction, DSCR rental and jumbo loans from one lender",
+      "Online application and pricing for faster funding",
+      "More than $30 billion in loans originated, by Kiavi's count"
     ],
     "cons": [
-      "Non-owner-occupied properties only",
+      "Non-owner-occupied residential investment properties only",
       "Rates vary by borrower qualification and market",
-      "Rebranded from LendingHome to Kiavi"
+      "Ownership changed in 2026, so confirm current loan programs and terms"
     ],
     "integrations": [],
     "company": {
-      "name": "Kiavi (formerly LendingHome)",
+      "name": "Kiavi (formerly LendingHome), a Figure company",
       "founded": 2013,
-      "headquarters": "San Francisco, CA",
-      "employees": "200-400",
-      "funding": "$300M+"
+      "funding": "Acquired by Figure Technology Solutions (completed September 1, 2026)"
     },
     "categories": [
       "Lending & Debt"
@@ -24575,13 +24560,13 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-23",
     "is_verified": false,
     "is_featured": false,
-    "domain": "lendinghome.com",
+    "domain": "kiavi.com",
     "pricing_model": "Interest rate-based",
     "is_free": false,
-    "tagline": "Real estate investment loans for residential properties.",
+    "tagline": "Fix-and-flip, bridge, rental (DSCR) and construction loans for residential real estate investors.",
     "property_types": [
       "Residential"
     ],
@@ -24607,7 +24592,11 @@
     "primary_category": "lending-debt",
     "logo_url_source": "https://logo.clearbit.com/lendinghome.com",
     "not_software": true,
-    "entity_type": "a technology-powered lender (now Kiavi)"
+    "entity_type": "a technology-driven lender to residential real estate investors",
+    "aliases": [
+      "LendingHome"
+    ],
+    "status_note": "LendingHome rebranded as Kiavi in 2021. Figure Technology Solutions completed its acquisition of Kiavi on September 1, 2026."
   },
   {
     "title": "PeerStreet",
@@ -28714,16 +28703,15 @@
         "category": "Property Management"
       },
       {
-        "name": "VTS",
-        "category": "Leasing"
+        "name": "ChatGPT, Claude and Gemini (MCP)",
+        "category": "AI"
       }
     ],
     "company": {
       "name": "Prophia, Inc.",
       "founded": 2018,
       "headquarters": "San Francisco, CA",
-      "employees": "50-100",
-      "funding": "Private"
+      "funding": "Backed by SignalFire and Cercano"
     },
     "categories": [
       "Property Management",
@@ -28743,7 +28731,7 @@
         "CRE lease management"
       ]
     },
-    "last_updated": "2026-10-20",
+    "last_updated": "2026-10-23",
     "is_verified": false,
     "is_featured": false,
     "domain": "prophia.com",
@@ -29712,8 +29700,8 @@
     "slug": "covercy",
     "url": "https://www.covercy.com",
     "logo_url": "/img/logos/covercy.png",
-    "headline": "Investment management platform with embedded banking for CRE.",
-    "description": "Covercy is a CRE investment management platform that uniquely combines investment management software with embedded banking. It enables GPs and syndicators to manage fundraising, investor relations, distributions, and banking, all from one platform. Covercy's embedded banking eliminates the need for separate bank accounts and manual wire transfers, allowing automated distribution payments directly from the platform. The system covers investor CRM, fundraising automation, waterfall distributions, reporting, and compliance.",
+    "headline": "Investment management platform with embedded banking for CRE syndicators and funds.",
+    "description": "Covercy is a CRE investment management platform for GPs, syndicators and fund managers that combines fundraising, investor CRM, an investor portal, waterfall distributions and reporting with embedded US banking (through Thread Bank) and international payments (through Currencycloud). Distributions and capital calls can be paid from the same platform that calculates them, without separate wire work. The current product, Covercy One, adds an AI assistant called Neo. Investment management plans are priced per legal entity and billed monthly, from $249 per entity on Fundraising Starter (listed at $498 a month for two entities), with 14-day trials; banking tiers start with a free Smart Payments plan. Covercy started in 2015 as a cross-border payments company and launched investment management in 2020.",
     "short_description": "Investment management platform with embedded banking for CRE.",
     "target_audience": {
       "roles": [
@@ -29787,39 +29775,55 @@
       }
     ],
     "pricing": {
-      "model": "Freemium",
-      "starting_price": "Free",
+      "model": "Per entity subscription",
+      "starting_price": "$498/month (Fundraising Starter, 2 entities)",
       "billing_options": [
         "Monthly"
       ],
       "free_trial": true,
-      "free_tier": true,
+      "free_tier": false,
       "plans": [
         {
-          "name": "Free",
-          "price": "Free",
+          "name": "Fundraising Starter",
+          "price": "$249/entity/month ($498/month for 2 entities)",
           "period": "monthly",
           "features": [
-            "Basic investment management",
-            "Limited features"
+            "Fundraising and investor CRM",
+            "14-day trial"
           ]
         },
         {
           "name": "Standard",
-          "price": "Contact for pricing",
+          "price": "$566/month for 2 entities, scaling to $1,680/month for 30+ entities",
           "period": "monthly",
           "features": [
-            "Full investment management",
-            "Banking integration"
+            "Investment management",
+            "Distributions and reporting"
           ]
         },
         {
-          "name": "Pro",
-          "price": "Contact for pricing",
+          "name": "Professional",
+          "price": "$812/month for 2 entities, scaling to $2,520/month for 30+ entities",
           "period": "monthly",
           "features": [
-            "Advanced features",
-            "Priority support"
+            "Most popular plan",
+            "Advanced features"
+          ]
+        },
+        {
+          "name": "Enterprise / Fund Administration",
+          "price": "Contact sales",
+          "period": "",
+          "features": [
+            "Custom"
+          ]
+        },
+        {
+          "name": "Banking tiers",
+          "price": "Smart Payments $0; Core $79/month; Advanced $239/month; Premium Banking $799/month",
+          "period": "monthly",
+          "features": [
+            "Embedded US banking"
           ]
         }
       ]
@@ -29834,16 +29838,16 @@
     ],
     "video_url": null,
     "pros": [
-      "Unique embedded banking eliminates manual wire transfers",
-      "Free tier available for getting started",
-      "Combines investment management + banking in one platform",
+      "Embedded banking pays distributions without manual wire transfers",
+      "Published per-entity pricing with 14-day trials",
+      "Combines investment management, banking and international payments in one platform",
       "Automated waterfall distributions save significant time"
     ],
     "cons": [
       "Smaller player, less market recognition than Juniper Square or InvestNext",
+      "Per-entity pricing adds up for sponsors with many SPVs",
       "Banking features may not suit firms with existing banking relationships",
-      "Limited property management or operational features",
-      "International payment capabilities unclear"
+      "Limited property management or operational features"
     ],
     "integrations": [
       {
@@ -29855,16 +29859,42 @@
         "category": "Banking"
       },
       {
-        "name": "DocuSign",
+        "name": "Dropbox Sign",
         "category": "eSigning"
+      },
+      {
+        "name": "Rent Manager",
+        "category": "Property Management"
+      },
+      {
+        "name": "Yardi",
+        "category": "Property Management"
+      },
+      {
+        "name": "Google Workspace",
+        "category": "Productivity"
+      },
+      {
+        "name": "Microsoft 365",
+        "category": "Productivity"
+      },
+      {
+        "name": "Thread Bank",
+        "category": "Banking"
+      },
+      {
+        "name": "Currencycloud",
+        "category": "Payments"
+      },
+      {
+        "name": "VerifyInvestor.com",
+        "category": "Compliance"
       }
     ],
     "company": {
-      "name": "Covercy, Inc.",
-      "founded": 2019,
-      "headquarters": "New York, NY / Tel Aviv",
-      "employees": "20-50",
-      "funding": "$10M+"
+      "name": "Covercy",
+      "founded": 2015,
+      "headquarters": "New York, NY (offices in London and Ramat Gan, Israel)"
     },
     "categories": [
       "Crowdfunding & Investing",
@@ -29884,11 +29914,11 @@
         "embedded banking"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-23",
     "is_verified": false,
     "is_featured": false,
     "domain": "covercy.com",
-    "pricing_model": "Freemium",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Investment management platform with embedded banking for CRE.",
     "property_types": [
@@ -36168,8 +36198,8 @@
     "slug": "azibo",
     "url": "https://www.azibo.com",
     "logo_url": "/img/logos/azibo.png",
-    "headline": "Free landlord platform for rent collection, accounting, and screening.",
-    "description": "Azibo is a free financial and property management platform for independent landlords and rental property owners. It combines online rent collection via ACH, card, and check with automated reminders and late fees, tenant applications and screening with credit, criminal, and eviction reports, and digital lease management. Accounting tools include a real estate-specific chart of accounts, tax preparation support, document storage, and role-based team access for collaborators and accountants. The platform supports single-family, multifamily, commercial, and short- to long-term rentals, and monetizes through payment processing, screening fees, and optional services rather than subscriptions. Azibo announced it is now part of TurboTenant.",
+    "headline": "Former free landlord platform, now part of TurboTenant.",
+    "description": "Azibo was a free financial and property management platform for independent landlords, combining rent collection, tenant screening, leases and real estate accounting, funded by payment processing and screening fees rather than subscriptions. TurboTenant acquired Azibo in May 2025 and has since shut the Azibo platform down: Azibo logins redirect to TurboTenant, and migrated landlords received TurboTenant accounts. For the same jobs today, see TurboTenant.",
     "short_description": "Free rent collection, rental accounting, screening, and lease tools for independent landlords.",
     "tagline": "Manage your rental property finances for free.",
     "categories": [
@@ -36252,9 +36282,9 @@
       "Supports many rental types including commercial and short-term units"
     ],
     "cons": [
-      "Built for small independent landlords, not professional management companies",
-      "Now part of TurboTenant, so the standalone product's long-term roadmap is less certain",
-      "Some capabilities (like e-signatures) were listed as coming soon on the site"
+      "The Azibo platform has shut down; new landlords sign up with TurboTenant instead",
+      "Applications, screening reports, maintenance requests, messages and documents were not migrated to TurboTenant",
+      "Built for small independent landlords, not professional management companies"
     ],
     "deployment": [
       "Cloud",
@@ -36274,9 +36304,11 @@
       "Commercial"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
-    "status": "active",
-    "enriched": true
+    "last_updated": "2026-10-23",
+    "status": "acquired",
+    "enriched": true,
+    "previous_status": "active",
+    "status_note": "TurboTenant acquired Azibo (announced May 6, 2025). TurboTenant says Azibo's property management platform has shut down and Azibo logins no longer work; properties, tenants, leases and payment settings were migrated to TurboTenant."
   },
   {
     "title": "Back At You",
@@ -42300,9 +42332,9 @@
     "url": "https://www.leadsimple.com",
     "logo_url": "/img/logos/leadsimple.png",
     "headline": "CRM, communications, and process automation for property management companies.",
-    "description": "LeadSimple is sales and operations software for property management companies, unifying leads, calls, processes, and work orders in one system. Its CRM provides lead pipelines, owner prospecting, and conversion playbooks with speed-to-lead routing and SLA escalation, while Phone + Inbox consolidates calls, texts, and email with recording and assignment. The Operations module automates workflows with SLAs, PMS-triggered processes, and automated owner communications, and a Maintenance module covers triage, dispatch, and tenant updates. An AI engine adds voice agents, lead scoring, intake triage, and message drafting, and the platform integrates with AppFolio, Buildium, Rentvine, Propertyware, and Rent Manager. Published pricing includes Phone + Inbox from $29/user/month, CRM from $99/month, Operations at $1.35/door/month, and an all-in Platform plan at $2.99/door/month, with 14-day free trials on most plans.",
+    "description": "LeadSimple is sales and operations software for property management companies, unifying leads, calls, processes, leasing and work orders in one system. LeadSimple One bundles CRM and growth pipelines, a shared phone and inbox, operations workflows, leasing, maintenance, reporting and an AI assistant with voice agents, and integrates with AppFolio, Buildium, Rent Manager, Propertyware and Rentvine. Two plans include every product and unlimited teammates: One at $199 a month month-to-month ($169 on an annual commitment, 50 doors included) and One Max at $499 a month ($429 annual, 100 doors included), with per-door, calling, messaging and AI voice overages published. A 14-day trial requires a credit card.",
     "short_description": "CRM, unified phone/inbox, and workflow automation built for property management companies.",
-    "tagline": "Grow doors without chaos.",
+    "tagline": "Grow the business. Keep the connection.",
     "categories": [
       "Property Management",
       "CRM & Marketing",
@@ -42371,46 +42403,40 @@
       }
     ],
     "pricing": {
-      "model": "Modular subscription",
-      "starting_price": "$29/user/month (Phone + Inbox Core, annual)",
+      "model": "Subscription (plus per-door and usage)",
+      "starting_price": "$169/month on an annual commitment ($199 month-to-month)",
+      "billing_options": [
+        "Monthly",
+        "Annual commitment"
+      ],
       "free_trial": true,
       "free_tier": false,
       "plans": [
         {
-          "name": "Phone + Inbox Core",
-          "price": "$29/user/month annual ($35 monthly)",
-          "description": "Shared inbox, IVR phone menu, assign and resolve, contact history, mobile apps."
+          "name": "One",
+          "price": "$199/month month-to-month or $169/month annual",
+          "description": "All products, unlimited teammates, 50 doors, 2 CRM pipelines, 500 calling minutes, 1,000 messaging credits, 50 AI voice minutes, 1 number."
         },
         {
-          "name": "Phone + Inbox Pro",
-          "price": "$59/user/month annual ($65 monthly)",
-          "description": "Adds ring groups, warm transfers, AI voice agent minutes, SMS, recording and reporting."
+          "name": "One Max",
+          "price": "$499/month month-to-month or $429/month annual",
+          "description": "100 doors, unlimited pipelines, calling and texting within fair use, 500 AI voice minutes, 10 numbers."
         },
         {
-          "name": "CRM",
-          "price": "$99/month annual ($115 monthly)",
-          "description": "1 user and 1 pipeline included; additional users/pipelines $30 each."
-        },
-        {
-          "name": "Operations",
-          "price": "$1.35/door/month annual ($200 minimum)",
-          "description": "Branching logic, PMS auto-triggers, templates, escalation dashboards."
-        },
-        {
-          "name": "Platform",
-          "price": "$2.99/door/month annual ($500 minimum)",
-          "description": "All products: CRM, Phone + Inbox Pro, Operations, maintenance, AI, unlimited calling/texting."
+          "name": "Extra doors",
+          "price": "$2.49, $1.99 or $1.79 per door month-to-month ($1.99, $1.49, $1.29 annual) by volume band",
+          "description": "Bands: up to 250, 251 to 1,000, over 1,000 doors."
         }
       ]
     },
     "pros": [
       "Purpose-built for property management sales and operations rather than a generic CRM",
       "Deep integrations with the major residential PMS platforms",
-      "Modular pricing lets companies adopt one product at a time"
+      "Two all-inclusive plans with unlimited teammates and published overage rates"
     ],
     "cons": [
-      "Complements rather than replaces a PMS - accounting and leasing still live elsewhere",
-      "Per-door minimums on Operations and Platform plans add up for small portfolios",
+      "Complements rather than replaces a PMS; accounting still lives elsewhere",
+      "Trial requires a credit card",
       "Residential management focus; not aimed at commercial brokerage or asset teams"
     ],
     "deployment": [
@@ -42418,7 +42444,8 @@
       "Mobile"
     ],
     "company": {
-      "name": "LeadSimple, Inc."
+      "name": "LeadSimple",
+      "founded": 2013
     },
     "domain": "leadsimple.com",
     "is_verified": false,
@@ -42430,7 +42457,7 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-23",
     "status": "active",
     "enriched": true
   },
@@ -43446,7 +43473,7 @@
     "url": "https://motioncre.com",
     "logo_url": "/img/logos/motioncre.png",
     "headline": "Deal management workspace for commercial real estate teams.",
-    "description": "MotionCRE is deal management software for commercial real estate teams that replaces spreadsheets, shared drives, and email threads with a single workspace per deal. A real-time pipeline offers drag-and-drop stage management with days-in-stage tracking and filtering by asset class, market, or assignee, while each deal workspace centralizes files, contacts, tasks, key dates, financing quotes, and notes. Per-workspace email forwarding addresses automatically file attachments and extract context, and an AI associate summarizes documents, drafts investment committee memos, and answers questions about the pipeline. Supporting tools include password-protected data rooms, a financing tracker for lender quotes, and leadership reporting. Published plans run from $249/month for three users to $699/month for ten, all with a 14-day free trial.",
+    "description": "MotionCRE is deal management software for commercial real estate teams that replaces spreadsheets, shared drives, and email threads with a single workspace per deal. A real-time pipeline offers drag-and-drop stage management with days-in-stage tracking and filtering by asset class, market, or assignee, while each deal workspace centralizes files, contacts, tasks, key dates, financing quotes, and notes. Per-workspace email forwarding addresses automatically file attachments and extract context, and an AI associate summarizes documents, drafts investment committee memos, and answers questions about the pipeline. Supporting tools include password-protected data rooms, a financing tracker for lender quotes, and leadership reporting. Published month-to-month plans run from $399 a month for three seats to $999 a month for ten, with metered AI credits; a free trial follows a demo and setup is guided.",
     "short_description": "CRE deal pipeline, deal workspaces, email capture, data rooms, and an AI associate for acquisition teams.",
     "tagline": "Replace the spreadsheets, shared drives, and email threads with one workspace where every deal lives.",
     "categories": [
@@ -43526,36 +43553,45 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": "$249/month (3 users)",
+      "starting_price": "$399/month (3 seats)",
+      "billing_options": [
+        "Monthly"
+      ],
       "free_trial": true,
       "free_tier": false,
       "plans": [
         {
           "name": "Team",
-          "price": "$249/month",
-          "description": "3 users, 50 GB storage, full feature access."
+          "price": "$399/month",
+          "description": "3 fixed seats, 50 GB storage, 15,000 AI credits/month."
         },
         {
           "name": "Plus",
-          "price": "$399/month",
-          "description": "5 users; additional seats $69/month."
+          "price": "$599/month",
+          "description": "5 seats, 200 GB, 35,000 AI credits; extra seats $99/month."
         },
         {
           "name": "Power",
-          "price": "$699/month",
-          "description": "10 users, 1 TB storage; additional seats $59/month."
+          "price": "$999/month",
+          "description": "10 seats, 1 TB, 100,000 AI credits; extra seats $79/month."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom quote",
+          "description": "Quoted individually."
         }
       ]
     },
     "pros": [
-      "Transparent flat-team pricing with a 14-day free trial and no contracts",
+      "Transparent team pricing, month-to-month with no contracts",
       "Every plan includes the full feature set, including the AI associate",
       "Email-to-workspace capture removes manual filing",
-      "Self-serve setup with no implementation fees"
+      "Guided same-day setup"
     ],
     "cons": [
       "Newer entrant with a shorter track record than legacy CRE CRMs",
-      "Minimum three-seat plan; no solo tier",
+      "Minimum three-seat plan at $399 a month; no solo tier",
+      "No self-serve signup; the trial starts after a demo",
       "AI usage is metered by monthly credits per plan"
     ],
     "deployment": [
@@ -43577,7 +43613,7 @@
       "Land"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-23",
     "status": "active",
     "enriched": true
   },
@@ -48112,10 +48148,10 @@
   {
     "title": "ShowMojo",
     "slug": "showmojo",
-    "url": "https://showmojo.com",
+    "url": "https://hello.showmojo.com",
     "logo_url": "/img/logos/showmojo.png",
     "headline": "Leasing automation for showings, screening, syndication, and self-guided tours.",
-    "description": "ShowMojo is a leasing automation platform for residential property managers, owner-operators, and leasing agents. It automates the rental leasing workflow end to end, including listing syndication to more than 50 rental sites, instant inquiry response, showing scheduling for in-person and self-guided tours, and tenant screening with credit, background, and ID verification. Smart lock integrations provide digital access for self-guided tours, and real-time reports track the leasing funnel from leads through showings to placements. An AI virtual agent engages prospects around the clock, backed by an optional live answering service. The platform integrates with Yardi, Buildium, AppFolio, Rent Manager, and Zapier.",
+    "description": "ShowMojo is a leasing automation platform for residential property managers, owner-operators, and leasing agents. It automates the rental leasing workflow end to end, including listing syndication to rental sites, instant inquiry response, showing scheduling for in-person and self-guided tours, and tenant screening with credit, background, and ID verification. Smart lock integrations and ShowMojo's own MojoBox and MojoLock devices provide access for self-guided tours, and leasing analytics and owner reports track the funnel from leads through showings to placements. The Ultra plan adds a live answering service, and an AI Virtual Agent is an add-on. Pricing is published per unit (annual plans from $1.30 per unit on Pro and $2.70 on Ultra) or per listing ($50 and $110). The platform integrates with AppFolio, Buildium, Entrata, RentCafe, Rent Manager, Rentec Direct, Rentvine, Yardi and Zapier.",
     "short_description": "Leasing automation for property managers: syndication, scheduling, self-guided tours, and screening.",
     "tagline": "Market leading leasing automation, now with AI.",
     "categories": [
@@ -48196,17 +48232,46 @@
       }
     ],
     "pricing": {
-      "model": "Subscription",
+      "model": "Per unit or per listing",
+      "starting_price": "$1.30/unit (Pro, annual plans)",
       "free_trial": false,
-      "free_tier": false
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Pro (unit-based)",
+          "price": "Annual plans from $1.30 per unit",
+          "description": "Scheduling, access control, syndication, analytics and owner reports, screening."
+        },
+        {
+          "name": "Ultra (unit-based)",
+          "price": "Annual plans from $2.70 per unit",
+          "description": "Pro plus live answering service, call routing, self-showing assistance, tracking numbers."
+        },
+        {
+          "name": "Pro (listing-based)",
+          "price": "$50 per listing",
+          "description": "For low or irregular listing volume."
+        },
+        {
+          "name": "Ultra (listing-based)",
+          "price": "$110 per listing",
+          "description": "Ultra features per listing."
+        },
+        {
+          "name": "Devices",
+          "price": "MojoBox from $64, MojoLock from $85, plus $3.50/month per ShowMojo device or $5.00/month per third-party device",
+          "description": "Self-showing hardware."
+        }
+      ]
     },
     "pros": [
       "Covers the full leasing funnel from ad syndication through screening in one system",
-      "Self-guided tour support with smart lock integrations reduces agent time per showing",
-      "Integrates with the major property management systems (Yardi, Buildium, AppFolio, Rent Manager)"
+      "Published per-unit and per-listing pricing",
+      "Self-guided tour support with smart locks reduces agent time per showing",
+      "Integrates with the major property management systems"
     ],
     "cons": [
-      "Pricing is not published and requires contacting sales",
+      "AI Virtual Agent and two-way messaging are priced add-ons",
       "Focused on leasing operations, not a full property management or accounting suite",
       "Aimed at residential rentals rather than commercial leasing workflows"
     ],
@@ -48227,9 +48292,21 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-23",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "integrations": [
+      "AppFolio",
+      "Buildium",
+      "Entrata",
+      "HeroPM",
+      "RentCafe",
+      "Rent Manager",
+      "Rentec Direct",
+      "Rentvine",
+      "Yardi",
+      "Zapier"
+    ]
   },
   {
     "title": "SignTraker",
@@ -52177,8 +52254,8 @@
     "slug": "archistar",
     "url": "https://www.archistar.ai",
     "logo_url": "/img/logos/archistar.png",
-    "headline": "AI property analysis and generative design for site feasibility.",
-    "description": "Archistar is an AI platform that assesses the development potential of sites by analyzing zoning regulations, planning overlays, and constraints such as setbacks and height limits. Its generative design engine automatically produces code-compliant 3D building concepts and massing studies in minutes, helping developers test what is feasible on a property before engaging consultants. AI PreCheck (formerly eCheck) evaluates architectural plans against digitized zoning and building codes at the feasibility and design stages. The platform consolidates planning data from more than 25,000 government and property sources, and serves property developers, architects, real estate agents, and government and town planners.",
+    "headline": "AI plan review for cities, plus site feasibility and generative design for Australian property.",
+    "description": "Archistar is an AI platform for planning and property. Its main product today is AI PreCheck (formerly eCheck), which checks building plans against digitized zoning and building codes and is used by more than 30 cities across Australia, Canada and the US. For developers, architects and agents it also offers site feasibility: zoning, overlays and constraint analysis, due diligence reports, and a generative design engine that produces compliant 3D massing options. Feasibility subscriptions are published in Australian dollars (GST included) and currently cover Australia's 8 states and territories, from a free tier through Basic, Professional and National plans. Archistar Pty Ltd was founded in 2010 and has offices in Sydney, Vancouver and Culver City.",
     "short_description": "AI site feasibility: zoning analysis plus generative design that produces compliant 3D building concepts.",
     "tagline": "Find and assess development sites in minutes.",
     "categories": [
@@ -52247,30 +52324,60 @@
       }
     ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Freemium (AUD)",
+      "starting_price": "Free; paid plans from A$79.17/month billed annually",
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
-      "free_tier": false
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Free",
+          "price": "A$0",
+          "description": "Generative 3D design and basic site tools."
+        },
+        {
+          "name": "Basic",
+          "price": "A$79.17/month billed annually (A$95 monthly)",
+          "description": "One state; sites of 2,000 sq m or less."
+        },
+        {
+          "name": "Professional",
+          "price": "A$287.50/month billed annually (A$345 monthly)",
+          "description": "One state; all sites; Nearmap imagery and Cordell listings."
+        },
+        {
+          "name": "National",
+          "price": "A$495.83/month billed annually (A$595 monthly)",
+          "description": "Professional access across Australia."
+        }
+      ]
     },
     "pros": [
       "Automates early feasibility work that traditionally required consultants",
+      "Published pricing with a free tier",
       "Generative engine produces compliant massing options rather than blank-canvas modeling",
-      "Serves government plan-checking as well as private developers"
+      "Serves government plan review as well as private developers"
     ],
     "cons": [
-      "Pricing not published",
-      "Planning-data depth is strongest in its home Australian market; coverage varies elsewhere",
+      "Site feasibility plans cover Australia only; other countries by private discussion",
+      "Prices are in Australian dollars",
       "Early-stage feasibility tool, not a full design or development management platform"
     ],
     "deployment": [
       "Cloud"
     ],
     "company": {
-      "name": "Archistar"
+      "name": "Archistar Pty Ltd",
+      "founded": 2010,
+      "headquarters": "Sydney, Australia (offices in Vancouver and Culver City)"
     },
     "domain": "archistar.ai",
     "is_verified": false,
     "is_featured": false,
-    "pricing_model": "Quote-based",
+    "pricing_model": "Freemium",
     "is_free": false,
     "property_types": [
       "Residential",
@@ -52278,7 +52385,7 @@
       "Mixed-Use"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-23",
     "status": "active",
     "enriched": true,
     "screenshots": [
@@ -52537,12 +52644,12 @@
     "enriched": true
   },
   {
-    "title": "Autodesk Forma",
+    "title": "Forma Site Design",
     "slug": "autodesk-forma",
     "url": "https://www.autodesk.com/products/forma",
     "logo_url": "/img/logos/autodesk-forma.png",
     "headline": "Cloud site design with AI analyses for sun, wind, noise, and carbon.",
-    "description": "Autodesk Forma is Autodesk's cloud-based tool for early-stage site planning and design, combining the AI analysis capabilities of Spacemaker (which it succeeded) with conceptual modeling. Teams create site and massing studies quickly using design automations, then evaluate options with real-time environmental analyses including sun hours, wind comfort, noise, microclimate, embodied carbon, and operational energy. Design reviews happen in a shared cloud workspace, and models move between tools via IFC and OBJ support plus connections to Revit, Dynamo, and Rhino. Forma Site Design is sold standalone or included at no additional cost with the Autodesk AEC Collection.",
+    "description": "Forma Site Design (named Autodesk Forma until Autodesk renamed its Forma products in 2026) is Autodesk's cloud tool for early-stage site planning and design, combining the AI analysis capabilities of Spacemaker (which it succeeded) with conceptual modeling. Teams create site and massing studies quickly using design automations, then evaluate options with real-time environmental analyses including sun hours, wind comfort, noise, microclimate, embodied carbon, and operational energy. Design reviews happen in a shared cloud workspace, and models move between tools via IFC and OBJ support plus connections to Revit, Dynamo, and Rhino.",
     "short_description": "Cloud early-stage site design (ex-Spacemaker): rapid massing plus AI sun, wind, noise, and carbon analysis.",
     "tagline": "Understand your site earlier.",
     "categories": [
@@ -52657,9 +52764,13 @@
       "Mixed-Use"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-23",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "aliases": [
+      "Autodesk Forma"
+    ],
+    "status_note": "Autodesk renamed Autodesk Forma to Forma Site Design in March 2026. Autodesk's product and pricing pages blocked our checks in October 2026, so confirm current prices on autodesk.com."
   },
   {
     "title": "Avestor",
@@ -55255,7 +55366,7 @@
   {
     "title": "DataTree",
     "slug": "datatree",
-    "url": "https://www.datatree.com/",
+    "url": "https://dna.firstam.com/solutions/property-data/datatree-property-research",
     "logo_url": "",
     "headline": "First American's nationwide property research and recorded document platform.",
     "description": "DataTree is First American Data & Analytics' web-based property research platform, providing access to property data and recorded land document images covering 99% of US housing stock. Users can research ownership, deeds, mortgages, foreclosures, assignments, lien releases, and parcel boundaries, drawing on a database of more than 5.5 billion recorded document images. The platform includes property reports, advanced search, interactive maps, and a Verified Record feature that uses proprietary algorithms to verify public-record information. It is used by title and escrow professionals, lenders, appraisers, investors, and other real estate professionals for property research and due diligence.",
@@ -55350,7 +55461,7 @@
       "Commercial"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-23",
     "status": "active",
     "enriched": true
   },
@@ -57151,7 +57262,7 @@
   {
     "title": "FlipperForce",
     "slug": "flipperforce",
-    "url": "https://www.flipperforce.com",
+    "url": "https://flipperforce.com",
     "logo_url": "/img/logos/flipperforce.png",
     "headline": "Deal analysis, project management, and accounting for house flipping teams.",
     "description": "FlipperForce is an all-in-one platform for managing residential real estate investment projects from acquisition through completion, operating since 2018. Deal analysis tools include flip and BRRRR calculators, comps research, and rehab cost estimators. Project management covers scheduling, task management, photo logging, and material catalogs, with a mobile app for field updates. Accounting features include an AI-powered receipt analyzer, expense tracking, and budget-vs-actual reporting. The company reports more than 125,000 active projects hosted on the platform.",
@@ -57228,43 +57339,42 @@
       }
     ],
     "pricing": {
-      "model": "Freemium",
-      "starting_price": "$49/month (Deal Analysis); $79/month (All-in-One)",
+      "model": "Subscription",
+      "starting_price": "$59/month billed annually ($79 monthly)",
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": true,
-      "free_tier": true,
+      "free_tier": false,
       "plans": [
         {
-          "name": "Rookie Analysis",
-          "price": "Free",
-          "description": "Deal analysis only, 1 user, up to 5 projects."
-        },
-        {
           "name": "Solo",
-          "price": "$79/mo ($708/yr)",
-          "description": "All-in-one for 1 user and up to 50 projects."
+          "price": "$79/month monthly or $59/month billed annually ($708/year)",
+          "description": "1 user, up to 50 leads and projects."
         },
         {
           "name": "Teams",
-          "price": "$199/mo ($1,788/yr)",
-          "description": "All-in-one for 5 users and up to 100 projects."
+          "price": "$199/month monthly or $149/month billed annually ($1,788/year)",
+          "description": "5 users, up to 100 leads and projects."
         },
         {
           "name": "Business",
-          "price": "$499/mo ($4,188/yr)",
-          "description": "All-in-one with unlimited users and projects."
+          "price": "$499/month monthly or $349/month billed annually ($4,188/year)",
+          "description": "Unlimited users and projects."
         }
       ]
     },
     "pros": [
       "Combines analysis, project management, and accounting in one system",
-      "Free deal-analysis tier plus a 30-day trial with no credit card required",
+      "30-day free trial with no credit card required, and a 30-day money-back guarantee on annual plans",
       "Transparent published pricing across all plans",
       "Mobile app for jobsite updates"
     ],
     "cons": [
       "Built for residential fix-and-flip, not commercial projects",
-      "All-in-one plans get expensive for larger teams",
-      "Free tier is limited to 5 projects and deal analysis only"
+      "No free plan; the old free deal-analysis tier has been removed",
+      "All-in-one plans get expensive for larger teams"
     ],
     "deployment": [
       "Cloud",
@@ -57276,16 +57386,21 @@
     "domain": "flipperforce.com",
     "is_verified": false,
     "is_featured": false,
-    "pricing_model": "Freemium",
+    "pricing_model": "Subscription",
     "is_free": false,
     "property_types": [
       "Residential",
       "Single Family"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-23",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "integrations": [
+      "Google Calendar",
+      "Outlook Calendar",
+      "Public API"
+    ]
   },
   {
     "title": "Form Simplicity",
@@ -58644,7 +58759,7 @@
     "url": "https://www.jobtread.com",
     "logo_url": "/img/logos/jobtread.png",
     "headline": "Estimating, job costing, and project management for construction businesses.",
-    "description": "JobTread is construction business management software from Dallas-based JobTread Software that runs sales, project delivery, and job finances in one platform. Sales and estimating tools include a construction CRM, proposals, takeoffs, cost catalogs, and bid management, while project management covers task scheduling, daily logs, time tracking, photo and file management, subcontractor portals, and automated workflows. Job finance features span budgeting, job costing, change orders, purchase orders, AIA-style payment applications, invoicing, and financial dashboards, with client portals, online payments, and e-signatures on the customer side. It serves home builders, remodelers, specialty contractors, and commercial contractors, and integrates with QuickBooks Online, CompanyCam, EagleView, Gusto, and Zapier. Published per-user pricing starts at $16 per user per month billed annually, with unlimited jobs and documents and a 30-day money-back guarantee.",
+    "description": "JobTread is construction business management software from JobTread Software, LLC that runs sales, project delivery, and job finances in one platform. Sales and estimating tools include a construction CRM, proposals, takeoffs, cost catalogs, and bid requests, while project management covers task scheduling, daily logs, time tracking, photo and file management, subcontractor portals, and automated workflows. Job finance features span budgeting, job costing, change orders, purchase orders, AIA-style payment applications, invoicing, and dashboards, with client portals, online payments, and e-signatures on the customer side. It serves home builders, remodelers, specialty contractors and commercial contractors, and integrates with QuickBooks Online, Xero, CompanyCam, EagleView, Gusto, Zapier and supplier systems. Pricing is a base subscription of $199 a month ($159 a month on an annual plan) that includes one internal user, plus tiered per-user fees from $20 a month ($16 annual) that fall as the team grows; field crew who only upload photos, log notes or check tasks can be free users.",
     "short_description": "All-in-one construction sales, project management, and job costing platform with transparent per-user pricing.",
     "tagline": "The new standard for managing construction projects.",
     "categories": [
@@ -58712,19 +58827,35 @@
       }
     ],
     "pricing": {
-      "model": "Subscription (per user)",
-      "starting_price": "$16/user/month (billed annually)",
+      "model": "Subscription (base fee plus per user)",
+      "starting_price": "$159/month billed annually ($199 monthly), 1 internal user included",
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
-      "free_tier": false
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Base subscription",
+          "price": "$199/month monthly or $159/month on an annual plan",
+          "description": "Includes 1 internal user, unlimited jobs and documents."
+        },
+        {
+          "name": "Additional internal users",
+          "price": "$20/user (2-10), $15 (11-20), $10 (21-30), $5 (31+) monthly; $16, $12, $8, $4 on an annual plan",
+          "description": "Customer, vendor and subcontractor portal users and limited field users are free."
+        }
+      ]
     },
     "pros": [
-      "Transparent per-user pricing with volume discounts and unlimited jobs and documents",
+      "Transparent published pricing with falling per-user rates and unlimited jobs and documents",
       "Financial depth (job costing, AIA pay apps) rare at this price point",
-      "Included implementation support and a 30-day money-back guarantee"
+      "Free field and portal users, and a 30-day money-back guarantee on monthly subscriptions"
     ],
     "cons": [
-      "No free tier, and trials are replaced by a money-back guarantee",
-      "Younger platform than incumbents like Buildertrend or Procore",
+      "No free tier or free trial",
+      "$199 monthly base fee before additional users",
       "Built for SMB contractors, not enterprise GC project controls"
     ],
     "deployment": [
@@ -58745,9 +58876,20 @@
       "Commercial"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-23",
     "status": "active",
-    "enriched": true
+    "enriched": true,
+    "integrations": [
+      "QuickBooks Online",
+      "Xero",
+      "CompanyCam",
+      "EagleView",
+      "Gusto",
+      "Zapier",
+      "Home Depot",
+      "SRS",
+      "Open API"
+    ]
   },
   {
     "title": "Join",
@@ -69651,6 +69793,718 @@
     "is_featured": false,
     "review_count": 0,
     "last_updated": "2026-10-22",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "itamlink",
+    "slug": "itamlink",
+    "url": "https://www.itamlink.com",
+    "domain": "itamlink.com",
+    "headline": "Property tax management software for real estate portfolios: assessments, appeals, bills and accruals.",
+    "tagline": "Manage every part of the property tax lifecycle.",
+    "short_description": "Property tax software for multi-property owners: assessment trending, appeal calendar, bill payment, forecasts and accruals.",
+    "description": "itamlink is property tax management software for companies that own or occupy multi-property real estate portfolios. It keeps assessments, values, appeals, tax bills, payments, budgets and accruals for every parcel in one system: itamlink Capture converts paper bills and notices into data, bills route through review and approval before they are submitted for payment, values can be trended to spot appeal opportunities and errors, and an appeal calendar with notifications tracks dates and savings. It tracks buildings and tenants across parcels to allocate taxes, and has standard integrations with Yardi, MRI, Nexus and payment software. It was built by Rethink Solutions, which Altus Group bought in 2022; Ryan, LLC took over the product with Altus's property tax business in January 2025, and itamlink is now powered by Ryan's tax.com. It is SOC 2 Type II certified. Pricing is by demo and quote.",
+    "categories": [
+      "Accounting & Finance",
+      "Legal & Compliance"
+    ],
+    "primary_category": "accounting-finance",
+    "target_audience": {
+      "roles": [
+        "Property Tax Managers",
+        "Real Estate Tax Teams",
+        "Controllers",
+        "Accounts Payable"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Retail",
+        "Office",
+        "Multifamily",
+        "Industrial",
+        "Mixed-Use",
+        "Hospitality",
+        "Self-Storage"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Assessments & Appeals",
+        "features": [
+          {
+            "name": "Assessment & Values Management",
+            "description": "Review, analyze and trend values to find appeal opportunities and spot anomalies or errors."
+          },
+          {
+            "name": "Appeal & Tax Savings Management",
+            "description": "Built-in calendar and notifications for appeal dates and documents, with savings tracked in one place."
+          }
+        ]
+      },
+      {
+        "name": "Bills, Payments & Accruals",
+        "features": [
+          {
+            "name": "itamlink Capture",
+            "description": "Converts paper tax bills and notices into electronic data."
+          },
+          {
+            "name": "Tax & Expense Management",
+            "description": "Track, review, approve and submit bills for payment across property tax and related real estate expenses."
+          },
+          {
+            "name": "Budgets, Forecasts & Accruals",
+            "description": "Property tax forecasts, budgets and accruals across properties, parcels and jurisdictions."
+          },
+          {
+            "name": "Buildings, Tenants & Allocations",
+            "description": "Track buildings and tenants across parcels and allocate taxes and values to them."
+          }
+        ]
+      },
+      {
+        "name": "Platform",
+        "features": [
+          {
+            "name": "ERP and payment integrations",
+            "description": "Standard integrations with Yardi, MRI, Nexus and other ERP and payment software, plus custom integrations."
+          },
+          {
+            "name": "Security",
+            "description": "SOC 2 Type II, field-level permissions, SSO, MFA and audit logs."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "free_trial": false,
+      "free_tier": false
+    },
+    "pros": [
+      "Purpose-built for real estate property tax teams rather than general tax departments",
+      "Covers assessments, appeals, bills, payments and accruals in one system",
+      "Standard Yardi and MRI integrations for payments and allocations"
+    ],
+    "cons": [
+      "No published pricing",
+      "Ownership has changed twice since 2022 (Altus, then Ryan), so confirm the product roadmap",
+      "The vendor site does not state which countries and jurisdictions it covers"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "itamlink (Ryan, LLC / tax.com)",
+      "headquarters": "Dallas, TX (Ryan)",
+      "funding": "Acquired by Ryan, LLC with Altus Group's property tax business (January 2025)"
+    },
+    "pricing_model": "Quote-based",
+    "is_free": false,
+    "property_types": [
+      "Retail",
+      "Office",
+      "Multifamily",
+      "Industrial",
+      "Mixed-Use",
+      "Hospitality"
+    ],
+    "logo_url": null,
+    "is_verified": false,
+    "is_featured": false,
+    "review_count": 0,
+    "last_updated": "2026-10-23",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "CSC PTMS & AppealTrack",
+    "slug": "csc-ptms",
+    "url": "https://www.cscglobal.com/service/campaigns/csc-ptms-property-tax-software/",
+    "domain": "cscglobal.com",
+    "aliases": [
+      "CSC PTMS",
+      "CSC AppealTrack",
+      "AppealTrack",
+      "PTMS"
+    ],
+    "headline": "Property tax compliance (PTMS) and appeal management (AppealTrack) software from CSC.",
+    "tagline": "Property tax compliance and appeal management software.",
+    "short_description": "CSC's property tax software: PTMS for returns, assessments, payments and accruals; AppealTrack for appeals, hearings and deadlines.",
+    "description": "CSC sells two property tax products. CSC PTMS covers the property tax life cycle for business personal and real property: return preparation using assessor depreciation tables, parcel data, assessment validation with alerts for missing or over-assessed value notices and bills, OCR for notices and bills, preloaded rates, forms and due dates from thousands of jurisdictions, tax payment feeds to AP systems, apportionment to tenants and divisions, forecasts, accruals and journal entries. CSC AppealTrack manages appeals: appeal metrics and expected refunds, comparison of parcel values with assessor data, a hearing and deadline calendar with automated notifications, appeal form autofill and batch printing, letter templates, and missing-bill detection. AppealTrack is aimed at law firms, accountants and corporations; PTMS at corporate tax departments and consultants. CSC is a long-established business services company headquartered in Wilmington, Delaware. Pricing is by inquiry.",
+    "categories": [
+      "Accounting & Finance",
+      "Legal & Compliance"
+    ],
+    "primary_category": "accounting-finance",
+    "target_audience": {
+      "roles": [
+        "Corporate Tax Departments",
+        "Property Tax Consultants",
+        "Law Firms",
+        "Accountants"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Commercial",
+        "Industrial",
+        "Retail"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "PTMS: Compliance",
+        "features": [
+          {
+            "name": "Return preparation",
+            "description": "Imports asset lists, flags transfers, acquisitions and disposals, and depreciates assets by assessor tables."
+          },
+          {
+            "name": "Jurisdiction content",
+            "description": "Preloaded calculation methods, tax rates, due dates and forms from thousands of jurisdictions."
+          },
+          {
+            "name": "Notice and bill OCR",
+            "description": "Optical character recognition removes manual entry of value notices and tax bills."
+          },
+          {
+            "name": "Payments and accruals",
+            "description": "Payment feeds to AP or AR systems, tenant and division apportionment, projections, accrual true-ups and journal entries."
+          }
+        ]
+      },
+      {
+        "name": "AppealTrack: Appeals",
+        "features": [
+          {
+            "name": "Appeal metrics",
+            "description": "Analyze properties, plan appeal savings and calculate expected refunds."
+          },
+          {
+            "name": "Deadline and task tracking",
+            "description": "Hearing dates, tasks and deadlines on a central calendar with automated notifications."
+          },
+          {
+            "name": "Assessor value comparison",
+            "description": "Compare parcel values with assessor data, with jurisdictional parcel data supplied automatically."
+          },
+          {
+            "name": "Forms and letters",
+            "description": "Appeal form autofill, batch printing, and customizable letter and email templates."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "free_trial": false,
+      "free_tier": false
+    },
+    "pros": [
+      "Separate, mature products for compliance and for appeals",
+      "Jurisdiction content (rates, forms, due dates) is preloaded",
+      "Strong on business personal property returns as well as real property"
+    ],
+    "cons": [
+      "No published pricing",
+      "Built for tax departments, consultants and law firms more than for property managers",
+      "The vendor does not state jurisdiction coverage on its product pages"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "CSC (Corporation Service Company)",
+      "headquarters": "Wilmington, DE"
+    },
+    "pricing_model": "Quote-based",
+    "is_free": false,
+    "property_types": [
+      "Commercial",
+      "Industrial",
+      "Retail"
+    ],
+    "logo_url": null,
+    "is_verified": false,
+    "is_featured": false,
+    "review_count": 0,
+    "last_updated": "2026-10-23",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Avalara Property Tax",
+    "slug": "avalara-property-tax",
+    "url": "https://www.avalara.com/us/en/products/property-tax.html",
+    "domain": "avalara.com",
+    "headline": "Real and personal property tax compliance: returns, assessments, bills, payments and appeals tracking.",
+    "tagline": "Real and personal property tax compliance in one system.",
+    "short_description": "Avalara's property tax software: document extraction, assessment comparison, appeal tracking, bills and personal property returns.",
+    "description": "Avalara Property Tax brings real and personal property tax data, documents, notices, bills, payments and appeals into one cloud system with a due-date calendar and workflow engine. It extracts and validates data from uploaded bills and notices, compares assessments with deadline tracking for review dates to help find appeal opportunities, prepares personal property returns on current jurisdictional forms, tracks bill due dates, and reports liabilities and filing status for forecasting and accruals, with third-party payment integration. Avalara says it covers all 50 states for real property and the states where personal property returns are filed. The product grew out of Avalara's 2021 acquisition of CrowdReason and launched under the Avalara name in 2023, for in-house tax teams and accounting firms. Pricing is by quote; Avalara's published plan prices are for its sales tax products.",
+    "categories": [
+      "Accounting & Finance",
+      "Legal & Compliance"
+    ],
+    "primary_category": "accounting-finance",
+    "target_audience": {
+      "roles": [
+        "In-House Tax Teams",
+        "Accounting Firms",
+        "Controllers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Commercial",
+        "Retail",
+        "Industrial"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Documents & Data",
+        "features": [
+          {
+            "name": "Document processing",
+            "description": "Upload bills and notices at scale; data is extracted, validated and standardized with the source files kept."
+          },
+          {
+            "name": "Central hub",
+            "description": "Real and personal property data, notices, bills, payments and appeals in one system."
+          }
+        ]
+      },
+      {
+        "name": "Workflows",
+        "features": [
+          {
+            "name": "Assessments and appeals",
+            "description": "Compare assessments with deadline tracking for review dates and track appeals in guided workflows."
+          },
+          {
+            "name": "Personal property returns",
+            "description": "Prepare and file returns on current jurisdictional forms."
+          },
+          {
+            "name": "Due-date calendar",
+            "description": "Status, ownership and approvals for returns, assessments and bills synced to a due-date calendar."
+          },
+          {
+            "name": "Reporting",
+            "description": "Liabilities, filing status, forecasting and accrual support across the portfolio."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "free_trial": false,
+      "free_tier": false
+    },
+    "pros": [
+      "Covers real and personal property tax in one system",
+      "Automated extraction from bills and notices",
+      "Due-date calendar and workflows for returns, assessments and bills"
+    ],
+    "cons": [
+      "No published pricing for property tax",
+      "Leans toward businesses with personal property returns rather than real estate owners",
+      "US only; no Canadian property tax coverage found"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Avalara",
+      "headquarters": "Seattle, WA",
+      "funding": "Private (taken private by Vista Equity Partners, 2022)"
+    },
+    "pricing_model": "Quote-based",
+    "is_free": false,
+    "property_types": [
+      "Commercial",
+      "Retail",
+      "Industrial"
+    ],
+    "logo_url": null,
+    "is_verified": false,
+    "is_featured": false,
+    "review_count": 0,
+    "last_updated": "2026-10-23",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Measurabl",
+    "slug": "measurabl",
+    "url": "https://www.measurabl.com",
+    "domain": "measurabl.com",
+    "headline": "Sustainability data platform for real estate: utility data, compliance, reporting and decarbonization.",
+    "tagline": "ESG data management, reporting and compliance for real estate.",
+    "short_description": "Real estate ESG platform: utility data from 3,800+ providers, ordinance filing, LL97 compliance monitoring, GRESB reporting, decarbonization.",
+    "description": "Measurabl is a sustainability data platform for commercial real estate owners, operators, investors and lenders. Measurabl Connect automates utility data collection from more than 3,800 utility providers, and Data Manager adds outlier and gap detection and can lock meter data once it has been audited or assured. For regulation, Comply collects utility data and, on Comply Pro, integrates with ENERGY STAR Portfolio Manager; an Ordinance Filing service manages benchmarking filings on the customer's behalf; and Compliance Monitoring identifies which New York City buildings fall under Local Law 97 and projects whether each is likely to exceed its carbon limits. Navigate adds dashboards, framework disclosure (GRESB and others) and decarbonization planning. Measurabl offers a free tier; paid plans are by quote.",
+    "categories": [
+      "Energy & Sustainability",
+      "Data & Analytics"
+    ],
+    "primary_category": "energy-sustainability",
+    "target_audience": {
+      "roles": [
+        "Sustainability Teams",
+        "Asset Managers",
+        "Property Managers",
+        "Investment Managers",
+        "Lenders"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Office",
+        "Multifamily",
+        "Retail",
+        "Industrial",
+        "Affordable Housing"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Data",
+        "features": [
+          {
+            "name": "Measurabl Connect",
+            "description": "Automates utility data collection from over 3,800 utility providers."
+          },
+          {
+            "name": "Data Manager",
+            "description": "Outlier and gap detection, and locking of meter data once audited or assured."
+          }
+        ]
+      },
+      {
+        "name": "Compliance",
+        "features": [
+          {
+            "name": "Comply",
+            "description": "Utility data collection for benchmarking compliance; Comply Pro integrates with ENERGY STAR Portfolio Manager."
+          },
+          {
+            "name": "Ordinance Filing",
+            "description": "Measurabl manages benchmarking ordinance filings on the customer's behalf."
+          },
+          {
+            "name": "LL97 Compliance Monitoring",
+            "description": "Detects which buildings are subject to NYC Local Law 97, projects carbon performance and the likelihood of exceeding limits."
+          }
+        ]
+      },
+      {
+        "name": "Reporting & Planning",
+        "features": [
+          {
+            "name": "Disclosure",
+            "description": "Reporting to GRESB and other frameworks."
+          },
+          {
+            "name": "Decarb",
+            "description": "Decarbonization planning tools within Navigate."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Freemium",
+      "free_trial": false,
+      "free_tier": true
+    },
+    "pros": [
+      "Large utility data network (3,800+ providers) feeds compliance and reporting",
+      "Ordinance filing handled for you, plus LL97 limit projections",
+      "Free tier for getting started"
+    ],
+    "cons": [
+      "Paid pricing not published",
+      "Portfolio Manager integration is described on Comply Pro; LL97 is the only performance standard named on its pages",
+      "Several overlapping products (Navigate, Comply, Optimize), so confirm which you need"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Measurabl, Inc.",
+      "founded": 2013,
+      "headquarters": "San Diego, CA"
+    },
+    "pricing_model": "Freemium",
+    "is_free": false,
+    "property_types": [
+      "Office",
+      "Multifamily",
+      "Retail",
+      "Industrial"
+    ],
+    "logo_url": null,
+    "is_verified": false,
+    "is_featured": false,
+    "review_count": 0,
+    "last_updated": "2026-10-23",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "Deepki",
+    "slug": "deepki",
+    "url": "https://www.deepki.com",
+    "domain": "deepki.com",
+    "headline": "ESG data platform for real estate: utility connectors, audit-ready reporting, BPS exposure and CapEx planning.",
+    "tagline": "Sustainability data, reporting and transition planning for real estate portfolios.",
+    "short_description": "European real estate ESG platform: automated utility connectors, GRESB/CSRD/SFDR reporting with audit packs, North American BPS exposure tracking.",
+    "description": "Deepki is a real estate ESG data platform used by owners, occupiers and financial firms, mainly in Europe and increasingly in North America. It aggregates energy and utility data through automated connectors (the vendor cites more than 7,300), monitors data coverage year round, and generates audit-ready reports for GRESB, CSRD, SFDR, EU Taxonomy and other frameworks, with data snapshots that freeze figures at submission and audit packs that document every control. It tracks exposure and financial risk from building performance standards and local ordinances across North America, surfaces ENERGY STAR scores alongside EPC and NABERS ratings, and supports CRREM-based CapEx and decarbonization planning. Deepki holds ISO 27001, ISAE 3000 Type 2 and SOC 2 Type II. Pricing is not published.",
+    "categories": [
+      "Energy & Sustainability",
+      "Data & Analytics"
+    ],
+    "primary_category": "energy-sustainability",
+    "target_audience": {
+      "roles": [
+        "Asset Managers",
+        "Sustainability Teams",
+        "Property Managers"
+      ],
+      "company_sizes": [
+        "Enterprise"
+      ],
+      "property_types": [
+        "Office",
+        "Retail",
+        "Industrial",
+        "Residential",
+        "Mixed-Use"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Data",
+        "features": [
+          {
+            "name": "Utility data connectors",
+            "description": "Automated connectors for utility and energy data, with year-round coverage monitoring."
+          }
+        ]
+      },
+      {
+        "name": "Reporting & Compliance",
+        "features": [
+          {
+            "name": "Framework reporting",
+            "description": "Reporting campaigns and pre-formatted exports for GRESB, CSRD, SFDR, EU Taxonomy and more."
+          },
+          {
+            "name": "Data snapshotting",
+            "description": "Freezes the dataset at submission and shows live vs snapshot gaps."
+          },
+          {
+            "name": "Audit packs",
+            "description": "Evidence of every control applied, for external auditors."
+          },
+          {
+            "name": "Local BPS exposure",
+            "description": "Tracks exposure and financial risk of non-compliance with BPS and local ordinances across North America."
+          }
+        ]
+      },
+      {
+        "name": "Planning",
+        "features": [
+          {
+            "name": "CapEx and decarbonization planning",
+            "description": "CRREM-based transition planning and a stranded asset risk calculator."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based",
+      "free_trial": false,
+      "free_tier": false
+    },
+    "pros": [
+      "Assurance-grade reporting: snapshots, audit packs and ISAE 3000 Type 2",
+      "Large library of automated utility connectors",
+      "Covers EU frameworks and North American BPS exposure in one platform"
+    ],
+    "cons": [
+      "No published pricing",
+      "Europe-first; its pages name no specific US law and no Portfolio Manager integration",
+      "Built for institutional portfolios rather than small owners"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "Deepki SAS",
+      "founded": 2014,
+      "headquarters": "Paris, France (UK office in London)",
+      "funding": "EUR 150M Series C (2022)"
+    },
+    "pricing_model": "Quote-based",
+    "is_free": false,
+    "property_types": [
+      "Office",
+      "Retail",
+      "Industrial",
+      "Residential"
+    ],
+    "logo_url": null,
+    "is_verified": false,
+    "is_featured": false,
+    "review_count": 0,
+    "last_updated": "2026-10-23",
+    "status": "active",
+    "enriched": true
+  },
+  {
+    "title": "IBM Envizi",
+    "slug": "ibm-envizi",
+    "url": "https://www.ibm.com/products/envizi",
+    "domain": "ibm.com",
+    "aliases": [
+      "Envizi"
+    ],
+    "headline": "IBM's ESG data and reporting suite, with utility bill analytics and ENERGY STAR Portfolio Manager integration.",
+    "tagline": "Sustainability data management, reporting and planning from IBM.",
+    "short_description": "Enterprise ESG data suite: automated data capture, utility bill and interval meter analytics, ENERGY STAR sync, GRESB data partner, audit trails.",
+    "description": "IBM Envizi is an enterprise ESG data management and reporting suite that IBM acquired in 2022. It captures data from ERP systems, metering platforms, utility providers, spreadsheets and supplier portals, keeps data health checks and audit trails on every change, and calculates Scope 1, 2 and 3 emissions. For buildings, utility bill analytics and interval meter analytics consolidate consumption data, a Building Ratings and Benchmarks module calculates and tracks building ratings, the ENERGY STAR module uploads data to Portfolio Manager through its web services API to return scores, and Envizi sends performance indicators to GRESB as a data partner. Planning Analytics models emissions reduction targets. Pricing depends on data volume, with Essentials, Standard and Premium account bundles quoted through IBM.",
+    "categories": [
+      "Energy & Sustainability",
+      "Data & Analytics"
+    ],
+    "primary_category": "energy-sustainability",
+    "target_audience": {
+      "roles": [
+        "Sustainability Teams",
+        "Finance Teams",
+        "Real Estate & Facilities Teams"
+      ],
+      "company_sizes": [
+        "Enterprise"
+      ],
+      "property_types": [
+        "Office",
+        "Retail",
+        "Industrial",
+        "Mixed-Use"
+      ]
+    },
+    "feature_groups": [
+      {
+        "name": "Data",
+        "features": [
+          {
+            "name": "Automated data capture",
+            "description": "Ingests ESG data from ERP, IoT and metering platforms, utility providers, spreadsheets and supplier portals."
+          },
+          {
+            "name": "Audit trails",
+            "description": "Data health checks, with every change logged."
+          },
+          {
+            "name": "Utility Bill Analytics",
+            "description": "Consolidate and analyze utility billing data to find anomalies."
+          }
+        ]
+      },
+      {
+        "name": "Buildings",
+        "features": [
+          {
+            "name": "ENERGY STAR integration",
+            "description": "Uploads data to ENERGY STAR Portfolio Manager via its web services API and returns scores."
+          },
+          {
+            "name": "Building Ratings + Benchmarks",
+            "description": "Capture footprint and utility data, calculate ratings and benchmark building performance."
+          },
+          {
+            "name": "GRESB data partner",
+            "description": "Sends performance indicators to GRESB by API."
+          }
+        ]
+      },
+      {
+        "name": "Planning",
+        "features": [
+          {
+            "name": "Planning Analytics",
+            "description": "Planning and forecasting toward emissions reduction targets."
+          }
+        ]
+      }
+    ],
+    "pricing": {
+      "model": "Quote-based (data volume bundles)",
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Essentials",
+          "price": "Quote",
+          "description": "Up to 1,000 accounts."
+        },
+        {
+          "name": "Standard",
+          "price": "Quote",
+          "description": "1,001 to 5,000 accounts."
+        },
+        {
+          "name": "Premium",
+          "price": "Quote",
+          "description": "5,001 to 15,000+ accounts."
+        }
+      ]
+    },
+    "pros": [
+      "Enterprise-grade data capture and audit trails",
+      "ENERGY STAR Portfolio Manager and GRESB integrations",
+      "Covers corporate emissions reporting as well as buildings"
+    ],
+    "cons": [
+      "No published prices; cost scales with data volume",
+      "General ESG suite; no specific building performance standard laws named on its pages",
+      "Sized for large enterprises rather than small owners"
+    ],
+    "deployment": [
+      "Cloud"
+    ],
+    "company": {
+      "name": "IBM",
+      "headquarters": "Armonk, NY",
+      "funding": "Envizi acquired by IBM (January 2022)"
+    },
+    "pricing_model": "Quote-based",
+    "is_free": false,
+    "property_types": [
+      "Office",
+      "Retail",
+      "Industrial"
+    ],
+    "logo_url": null,
+    "is_verified": false,
+    "is_featured": false,
+    "review_count": 0,
+    "last_updated": "2026-10-23",
     "status": "active",
     "enriched": true
   }
