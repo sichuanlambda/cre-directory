@@ -50,3 +50,9 @@ shells that forward to `/products/<slug>/` and `/categories/<slug>/`. Keep them.
 1. Add a record to `data/products.json` (copy an existing well-filled record as a template; `slug` must be URL-safe: letters, digits, hyphens).
 2. Add the slug to the right category's `products` array in `data/categories.json` (one primary category; at most two).
 3. Run `node scripts/build.js` and commit.
+
+## Images
+
+- Editorial photos: `data/photos.json` (Unsplash, credits shown on each page and listed on the about page), files in `img/photos/` (1600px and 800px WebP). A new category or topic guide needs an entry keyed by its slug.
+- Social cards: `scripts/og-images.sh` builds 1200x630 JPEGs in `img/og/` from the photos and from each product's first screenshot. Re-run it after adding photos or screenshots.
+- The build writes og/twitter image tags (with size and alt), ImageObject JSON-LD with photographer credit and license, an image sitemap, and header-photo preloads.

@@ -29,6 +29,33 @@ const PHOTOS = fs.existsSync(path.join(ROOT, 'data/photos.json')) ? JSON.parse(f
 const UTM = 'utm_source=cresoftware&utm_medium=referral';
 const photoCredit = ph => `Photo: <a href="${ph.photo_url}?${UTM}" rel="noopener" target="_blank">${ph.photographer.replace(/&/g, '&amp;').replace(/</g, '&lt;')}</a> on <a href="https://unsplash.com/?${UTM}" rel="noopener" target="_blank">Unsplash</a>`;
 const photoVars = ph => ` style="--photo:url('${ph.src}');--photo-sm:url('${ph.src_small}')"`;
+// Social cards (img/og/, made by scripts/og-images.sh) and image metadata for photos.
+const DEFAULT_OG = { url: `${BASE}/css/og-image.png`, alt: 'CRE Software Directory: find and compare commercial real estate software', width: 1200, height: 630 };
+const ogCard = (file, alt) => fs.existsSync(path.join(ROOT, file)) ? { url: `${BASE}/${file}`, alt, width: 1200, height: 630 } : null;
+const photoOg = key => PHOTOS[key] ? ogCard(`img/og/${key}.jpg`, PHOTOS[key].alt) : null;
+const photoLd = ph => ({ "@context": "https://schema.org", "@type": "ImageObject", "contentUrl": BASE + ph.src, "url": BASE + ph.src, "width": 1600, "height": 900,
+  "caption": ph.alt, "description": ph.alt, "creditText": `${ph.photographer} / Unsplash`, "creator": { "@type": "Person", "name": ph.photographer, "url": ph.photographer_url },
+  "copyrightNotice": ph.photographer, "license": "https://unsplash.com/license", "acquireLicensePage": ph.photo_url });
+const photoPreload = ph => `<link rel="preload" as="image" href="${ph.src_small}" media="(max-width: 800px)" fetchpriority="high">
+  <link rel="preload" as="image" href="${ph.src}" media="(min-width: 801px)" fetchpriority="high">`;
+function socialMeta({ title, description, canonical, ogType = 'website', og }) {
+  const o = og || DEFAULT_OG;
+  return `<meta property="og:title" content="${esc(title)}">
+  <meta property="og:description" content="${esc(description)}">
+  <meta property="og:type" content="${ogType}">
+  <meta property="og:url" content="${canonical}">
+  <meta property="og:image" content="${esc(o.url)}">
+  <meta property="og:image:width" content="${o.width}">
+  <meta property="og:image:height" content="${o.height}">
+  <meta property="og:image:alt" content="${esc(o.alt)}">
+  <meta property="og:site_name" content="CRE Software Directory">
+  <meta property="og:locale" content="en_US">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${esc(title)}">
+  <meta name="twitter:description" content="${esc(description)}">
+  <meta name="twitter:image" content="${esc(o.url)}">
+  <meta name="twitter:image:alt" content="${esc(o.alt)}">`;
+}
 const EDITORIAL = fs.existsSync(path.join(ROOT, 'data/editorial.json'))
   ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data/editorial.json'), 'utf8'))
   : { alternatives: {}, comparisons: [] };
@@ -283,23 +310,15 @@ function footerHTML() {
 
 const ORG_LD = { "@context": "https://schema.org", "@type": "Organization", "name": "CRE Software Directory", "url": BASE, "logo": `${BASE}/img/apple-touch-icon.png`, "email": "hello@cresoftware.tech" };
 
-function headHTML({ title, description, canonical, ogType = 'website', ogImage = `${BASE}/css/og-image.png`, jsonLd = [] }) {
+function headHTML({ title, description, canonical, ogType = 'website', og = null, preload = '', jsonLd = [] }) {
   const ld = jsonLd.concat([ORG_LD]).map(o => `<script type="application/ld+json">${JSON.stringify(o)}</script>`).join('\n  ');
   return `<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>${esc(title)}</title>
   <meta name="description" content="${esc(description)}">
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
-  <meta property="og:title" content="${esc(title)}">
-  <meta property="og:description" content="${esc(description)}">
-  <meta property="og:type" content="${ogType}">
-  <meta property="og:url" content="${canonical}">
-  <meta property="og:image" content="${esc(ogImage)}">
-  <meta property="og:site_name" content="CRE Software Directory">
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="${esc(title)}">
-  <meta name="twitter:description" content="${esc(description)}">
-  <link rel="canonical" href="${canonical}">
+  ${socialMeta({ title, description, canonical, ogType, og })}
+  <link rel="canonical" href="${canonical}">${preload ? '\n  ' + preload : ''}
   <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
   <link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32">
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
@@ -674,7 +693,7 @@ function renderProductPage(product) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-  ${headHTML({ title, description, canonical, jsonLd: faqItems.length ? [softwareLd, breadcrumbLd, faqLd(faqItems)] : [softwareLd, breadcrumbLd] })}
+  ${headHTML({ title, description, canonical, og: ogCard(`img/og/products/${slug}.jpg`, `${product.title} screenshot from ${product.title}'s website`), jsonLd: faqItems.length ? [softwareLd, breadcrumbLd, faqLd(faqItems)] : [softwareLd, breadcrumbLd] })}
 </head>
 <body>
   ${navHTML('directory')}
@@ -794,7 +813,7 @@ function renderCategoryPage(slug, cat) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-  ${headHTML({ title, description, canonical, jsonLd, ...(PHOTOS[slug] ? { ogImage: BASE + PHOTOS[slug].src } : {}) })}
+  ${headHTML({ title, description, canonical, og: photoOg(slug), preload: PHOTOS[slug] ? photoPreload(PHOTOS[slug]) : '', jsonLd: PHOTOS[slug] ? jsonLd.concat([photoLd(PHOTOS[slug])]) : jsonLd })}
 </head>
 <body>
   ${navHTML('directory')}
@@ -920,7 +939,7 @@ function renderAlternativesPage(slug, alt) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-  ${headHTML({ title, description, canonical, ogType: 'article', jsonLd })}
+  ${headHTML({ title, description, canonical, ogType: 'article', og: cat ? photoOg(cat.slug) : null, jsonLd })}
 </head>
 <body>
   ${navHTML('directory')}
@@ -991,7 +1010,7 @@ function renderAlternativesIndex() {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-  ${headHTML({ title, description, canonical, jsonLd, ...(PHOTOS.alternatives ? { ogImage: BASE + PHOTOS.alternatives.src } : {}) })}
+  ${headHTML({ title, description, canonical, og: photoOg('alternatives'), preload: PHOTOS.alternatives ? photoPreload(PHOTOS.alternatives) : '', jsonLd: PHOTOS.alternatives ? jsonLd.concat([photoLd(PHOTOS.alternatives)]) : jsonLd })}
 </head>
 <body>
   ${navHTML('directory')}
@@ -1080,7 +1099,7 @@ function renderComparisonPage(cmp) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-  ${headHTML({ title, description, canonical, ogType: 'article', jsonLd })}
+  ${headHTML({ title, description, canonical, ogType: 'article', og: cat ? photoOg(cat.slug) : null, jsonLd })}
 </head>
 <body>
   ${navHTML('compare')}
@@ -1264,6 +1283,17 @@ function renderIntegrationsIndex(hubs) {
 }
 
 // ---------- sitemap ----------
+// Image entries: the page's editorial photo plus product screenshots, so Google can index images
+// shown as CSS backgrounds too.
+function sitemapImages(p) {
+  const out = [];
+  const key = p === '/' ? 'home' : p === '/about.html' ? 'about' : p === '/alternatives/' ? 'alternatives' : p === '/compare.html' ? 'retail' : p === '/market-map.html' ? 'land'
+    : (/^\/categories\/([^/]+)\/$/.exec(p) || [])[1] || (/^\/guides\/([^/]+)\.html$/.exec(p) || [])[1];
+  if (key && PHOTOS[key]) out.push(PHOTOS[key].src);
+  const prod = (/^\/products\/([^/]+)\/$/.exec(p) || [])[1];
+  if (prod) { const pr = PRODUCTS.find(x => x.slug === prod); ((pr && pr.screenshots) || []).forEach(s => out.push(typeof s === 'string' ? s : s.src)); }
+  return out;
+}
 function renderSitemap() {
   const urls = [];
   const lm = p => (LASTMOD[p] && LASTMOD[p].date) || TODAY;
@@ -1283,8 +1313,8 @@ function renderSitemap() {
   add('/advertise.html', '0.5');
   add('/about.html', '0.5');
   return `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${urls.map(u => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><priority>${u.priority}</priority></url>`).join('\n')}
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+${urls.map(u => `  <url><loc>${u.loc}</loc><lastmod>${u.lastmod}</lastmod><priority>${u.priority}</priority>${sitemapImages(u.loc.slice(BASE.length)).map(src => `<image:image><image:loc>${BASE}${src}</image:loc></image:image>`).join('')}</url>`).join('\n')}
 </urlset>
 `;
 }
@@ -1479,11 +1509,68 @@ function guideRelatedHTML(catSlug) {
 </div>
 `;
 }
+// Image meta for hand-written pages: og/twitter image tags live between HEAD-IMAGE markers (added
+// once, replacing any older og:image / twitter:image lines), robots allows large image previews, and
+// an Article's JSON-LD gets the photo as its image.
+function applyHeadImageMeta(html, og, ph, standalonePh = null) {
+  const block = `<!-- HEAD-IMAGE:START -->
+  <meta property="og:image" content="${og.url}">
+  <meta property="og:image:width" content="${og.width}">
+  <meta property="og:image:height" content="${og.height}">
+  <meta property="og:image:alt" content="${esc(og.alt)}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="${og.url}">
+  <meta name="twitter:image:alt" content="${esc(og.alt)}">${standalonePh ? `
+  <script type="application/ld+json">${JSON.stringify(photoLd(standalonePh))}</script>` : ''}
+  <!-- HEAD-IMAGE:END -->`;
+  const s = html.indexOf('<!-- HEAD-IMAGE:START -->'), e = html.indexOf('<!-- HEAD-IMAGE:END -->');
+  if (s !== -1 && e !== -1) html = html.slice(0, s) + block + html.slice(e + '<!-- HEAD-IMAGE:END -->'.length);
+  else {
+    html = html.replace(/[ \t]*<meta (?:property="og:image(?::[a-z]+)?"|name="twitter:(?:image(?::alt)?|card)") content="[^"]*">\n/g, '');
+    html = html.replace('</head>', `  ${block}\n</head>`);
+  }
+  if (!/<meta name="robots"/.test(html)) html = html.replace(/(<meta name="description"[^>]*>)/, '$1\n  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">');
+  if (ph) html = html.replace(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g, (m, body) => {
+    let o; try { o = JSON.parse(body); } catch { return m; }
+    if (o['@type'] !== 'Article') return m;
+    const { ['@context']: _c, ...img } = photoLd(ph);
+    o.image = img;
+    return `<script type="application/ld+json">\n${JSON.stringify(o, null, 2)}\n  </script>`;
+  });
+  return html;
+}
+// Photo credits list on the about page.
+injectBetween('about.html', '<!-- PHOTO-CREDITS:START (generated by scripts/build.js from data/photos.json; do not edit by hand) -->', '<!-- PHOTO-CREDITS:END -->', `
+      <h2 style="font-size:20px;margin:28px 0 10px">Photo credits</h2>
+      <p>Editorial photos on this site come from <a href="https://unsplash.com/?${UTM}" rel="noopener" target="_blank">Unsplash</a> and are used under the <a href="https://unsplash.com/license" rel="noopener" target="_blank">Unsplash License</a>. Product screenshots come from each vendor's own website. Thanks to the photographers:</p>
+      <ul style="columns:2;column-gap:28px;font-size:14px;margin:0 0 16px;padding-left:18px">
+${[...new Map(Object.values(PHOTOS).map(ph => [ph.photographer, ph])).values()].sort((x, y) => x.photographer.localeCompare(y.photographer)).map(ph => `        <li><a href="${ph.photographer_url}?${UTM}" rel="noopener" target="_blank">${esc(ph.photographer)}</a></li>`).join('\n')}
+      </ul>
+      `);
+
+// Hand pages outside guides: social tags + image meta. Pages without their own og:title get the full set.
+const HAND_SOCIAL = { 'index.html': 'home', 'about.html': 'about', 'compare.html': 'retail', 'market-map.html': 'land', 'submit.html': null, 'advertise.html': null };
+for (const [file, key] of Object.entries(HAND_SOCIAL)) {
+  const abs = path.join(ROOT, file);
+  if (!fs.existsSync(abs)) continue;
+  let html = fs.readFileSync(abs, 'utf8');
+  if (!/<meta property="og:title"/.test(html)) {
+    const t = (/<title>([\s\S]*?)<\/title>/.exec(html) || [])[1] || 'CRE Software Directory';
+    const d = (/<meta name="description" content="([^"]*)"/.exec(html) || [])[1] || '';
+    const canon = (/<link rel="canonical" href="([^"]*)"/.exec(html) || [])[1] || `${BASE}/${file}`;
+    const tags = [`<meta property="og:title" content="${t.replace(/"/g, '&quot;')}">`, `<meta property="og:description" content="${d}">`, `<meta property="og:type" content="website">`,
+      `<meta property="og:url" content="${canon}">`, `<meta property="og:site_name" content="CRE Software Directory">`, `<meta name="twitter:title" content="${t.replace(/"/g, '&quot;')}">`, `<meta name="twitter:description" content="${d}">`];
+    html = html.replace(/(<meta name="description"[^>]*>)/, `$1\n  ${tags.join('\n  ')}`);
+  }
+  html = applyHeadImageMeta(html, (key && photoOg(key)) || DEFAULT_OG, null, key === 'home' || key === 'about' ? PHOTOS[key] : null);
+  fs.writeFileSync(abs, html);
+}
+
 // Guide header photo (markers are added after the guide's <header> on first build) and matching og:image.
 function guidePhotoHTML(ph) {
   return `
     <figure style="margin:0 0 40px">
-      <img src="${ph.src}" srcset="${ph.src_small} 800w, ${ph.src} 1600w" sizes="(max-width: 840px) 100vw, 800px" width="1600" height="900" alt="${ph.alt.replace(/"/g, '&quot;')}" decoding="async" style="display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:12px">
+      <img src="${ph.src}" srcset="${ph.src_small} 800w, ${ph.src} 1600w" sizes="(max-width: 840px) 100vw, 800px" width="1600" height="900" alt="${ph.alt.replace(/"/g, '&quot;')}" fetchpriority="high" decoding="async" style="display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:12px">
       <figcaption style="font-size:12px;color:var(--g-muted);margin-top:8px">${photoCredit(ph)}</figcaption>
     </figure>
     `;
@@ -1498,7 +1585,7 @@ for (const f of guideFiles()) {
     if (i === -1) { console.warn(`SKIP guide photo ${f}: no </header> in <article>`); continue; }
     html = html.slice(0, i + 9) + '\n    <!-- GUIDE-PHOTO:START --><!-- GUIDE-PHOTO:END -->' + html.slice(i + 9);
   }
-  html = html.replace(/(<meta property="og:image" content=")[^"]*(")/, `$1${BASE}${ph.src}$2`).replace(/(<meta name="twitter:image" content=")[^"]*(")/, `$1${BASE}${ph.src}$2`);
+  html = applyHeadImageMeta(html, photoOg(f.replace('.html', '')) || DEFAULT_OG, ph);
   fs.writeFileSync(file, html);
   injectBetween(`guides/${f}`, '<!-- GUIDE-PHOTO:START -->', '<!-- GUIDE-PHOTO:END -->', guidePhotoHTML(ph));
 }
