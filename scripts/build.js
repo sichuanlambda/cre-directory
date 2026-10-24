@@ -24,6 +24,11 @@ const TODAY = new Date().toISOString().slice(0, 10);
 const ALL_PRODUCTS = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/products.json'), 'utf8'));
 const PRODUCTS = ALL_PRODUCTS.filter(p => p.status !== 'unverifiable');
 const CATEGORIES = JSON.parse(fs.readFileSync(path.join(ROOT, 'data/categories.json'), 'utf8'));
+// Editorial photography (data/photos.json): free-license images, self-hosted under img/photos/, credited on the page.
+const PHOTOS = fs.existsSync(path.join(ROOT, 'data/photos.json')) ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data/photos.json'), 'utf8')) : {};
+const UTM = 'utm_source=cresoftware&utm_medium=referral';
+const photoCredit = ph => `Photo: <a href="${ph.photo_url}?${UTM}" rel="noopener" target="_blank">${ph.photographer.replace(/&/g, '&amp;').replace(/</g, '&lt;')}</a> on <a href="https://unsplash.com/?${UTM}" rel="noopener" target="_blank">Unsplash</a>`;
+const photoVars = ph => ` style="--photo:url('${ph.src}');--photo-sm:url('${ph.src_small}')"`;
 const EDITORIAL = fs.existsSync(path.join(ROOT, 'data/editorial.json'))
   ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data/editorial.json'), 'utf8'))
   : { alternatives: {}, comparisons: [] };
@@ -789,11 +794,11 @@ function renderCategoryPage(slug, cat) {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-  ${headHTML({ title, description, canonical, jsonLd })}
+  ${headHTML({ title, description, canonical, jsonLd, ...(PHOTOS[slug] ? { ogImage: BASE + PHOTOS[slug].src } : {}) })}
 </head>
 <body>
   ${navHTML('directory')}
-  <section class="category-header">
+  <section class="category-header${PHOTOS[slug] ? ' has-photo' : ''}"${PHOTOS[slug] ? photoVars(PHOTOS[slug]) : ''}>
     <div class="container">
       <div class="breadcrumbs"><a href="/">Home</a> / ${esc(cat.name)}</div>
       <div class="category-hero-row">
@@ -803,6 +808,7 @@ function renderCategoryPage(slug, cat) {
           <div class="cat-stats"><strong>${products.length}</strong> tools in this category${guideLink ? ` · <a href="${guideLink}">Read the buyer's guide →</a>` : ''}</div>
         </div>
       </div>
+      ${PHOTOS[slug] ? `<p class="photo-credit">${photoCredit(PHOTOS[slug])}</p>` : ''}
     </div>
   </section>
   ${editorialHTML}
@@ -985,16 +991,17 @@ function renderAlternativesIndex() {
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
-  ${headHTML({ title, description, canonical, jsonLd })}
+  ${headHTML({ title, description, canonical, jsonLd, ...(PHOTOS.alternatives ? { ogImage: BASE + PHOTOS.alternatives.src } : {}) })}
 </head>
 <body>
   ${navHTML('directory')}
-  <section class="category-header">
+  <section class="category-header${PHOTOS.alternatives ? ' has-photo' : ''}"${PHOTOS.alternatives ? photoVars(PHOTOS.alternatives) : ''}>
     <div class="container">
       <div class="breadcrumbs"><a href="/">Home</a> / Alternatives guides</div>
       <h1>Best Alternatives to Popular CRE Software</h1>
       <p>Outgrowing a platform, or priced out of one? Each guide ranks the strongest replacements for a widely used tool, explains who each pick suits, and names the trade-off. Independent editorial; no vendor pays for a ranking.</p>
       <div class="cat-stats"><strong>${entries.length}</strong> guides</div>
+      ${PHOTOS.alternatives ? `<p class="photo-credit">${photoCredit(PHOTOS.alternatives)}</p>` : ''}
     </div>
   </section>
   <section class="section">
@@ -1471,6 +1478,29 @@ function guideRelatedHTML(catSlug) {
   </div>
 </div>
 `;
+}
+// Guide header photo (markers are added after the guide's <header> on first build) and matching og:image.
+function guidePhotoHTML(ph) {
+  return `
+    <figure style="margin:0 0 40px">
+      <img src="${ph.src}" srcset="${ph.src_small} 800w, ${ph.src} 1600w" sizes="(max-width: 840px) 100vw, 800px" width="1600" height="900" alt="${ph.alt.replace(/"/g, '&quot;')}" decoding="async" style="display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:12px">
+      <figcaption style="font-size:12px;color:var(--g-muted);margin-top:8px">${photoCredit(ph)}</figcaption>
+    </figure>
+    `;
+}
+for (const f of guideFiles()) {
+  const ph = PHOTOS[f.replace('.html', '')];
+  if (!ph) continue;
+  const file = path.join(ROOT, 'guides', f);
+  let html = fs.readFileSync(file, 'utf8');
+  if (!html.includes('<!-- GUIDE-PHOTO:START -->')) {
+    const i = html.indexOf('</header>', html.indexOf('<article'));
+    if (i === -1) { console.warn(`SKIP guide photo ${f}: no </header> in <article>`); continue; }
+    html = html.slice(0, i + 9) + '\n    <!-- GUIDE-PHOTO:START --><!-- GUIDE-PHOTO:END -->' + html.slice(i + 9);
+  }
+  html = html.replace(/(<meta property="og:image" content=")[^"]*(")/, `$1${BASE}${ph.src}$2`).replace(/(<meta name="twitter:image" content=")[^"]*(")/, `$1${BASE}${ph.src}$2`);
+  fs.writeFileSync(file, html);
+  injectBetween(`guides/${f}`, '<!-- GUIDE-PHOTO:START -->', '<!-- GUIDE-PHOTO:END -->', guidePhotoHTML(ph));
 }
 for (const f of guideFiles()) injectBetween(`guides/${f}`, '<!-- GUIDE-RELATED:START -->', '<!-- GUIDE-RELATED:END -->', guideRelatedHTML(f.replace('.html', '')));
 

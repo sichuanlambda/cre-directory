@@ -846,3 +846,21 @@ html[data-theme="dark"] body.guide { --g-est: #fcd34d; --g-est-bg: rgba(252,211,
 .spec-product { display: inline-flex; align-items: center; gap: 10px; }
 .spec-product .product-logo { width: 32px; height: 32px; flex-shrink: 0; display: flex; }
 .spec-table tr.spec-self th, .spec-table tr.spec-self td { background: var(--accent-light); }
+
+/* Editorial photography (data/photos.json) */
+.hero.has-photo, .category-header.has-photo { position: relative; background-color: var(--navy); background-size: cover; background-position: center; }
+.hero.has-photo { background-image: linear-gradient(135deg, rgba(14,22,48,.92) 0%, rgba(15,52,96,.82) 50%, rgba(22,33,62,.74) 100%), var(--photo); }
+.category-header.has-photo { background-image: linear-gradient(90deg, rgba(12,20,40,.90) 0%, rgba(12,20,40,.78) 55%, rgba(12,20,40,.45) 100%), var(--photo); padding: 56px 0 44px; }
+@media (max-width: 800px) {
+  .hero.has-photo { background-image: linear-gradient(135deg, rgba(14,22,48,.92) 0%, rgba(15,52,96,.84) 100%), var(--photo-sm); }
+  .category-header.has-photo { background-image: linear-gradient(180deg, rgba(12,20,40,.88) 0%, rgba(12,20,40,.80) 100%), var(--photo-sm); }
+}
+.category-header.has-photo h1 { color: #fff; }
+.category-header.has-photo p, .category-header.has-photo .cat-stats { color: rgba(255,255,255,.86); }
+.category-header.has-photo .cat-stats strong { color: #fff; }
+.category-header.has-photo a { color: #c7d7ff; }
+.category-header.has-photo .breadcrumbs, .category-header.has-photo .breadcrumbs a { color: rgba(255,255,255,.75); }
+.category-header.has-photo .category-hero-icon { color: #c7d7ff; }
+.photo-credit { position: absolute; right: 16px; bottom: 8px; margin: 0; font-size: 11px; color: rgba(255,255,255,.6) !important; }
+.photo-credit a { color: rgba(255,255,255,.75) !important; text-decoration: underline; }
+.cat-carousel-card .cat-card-photo { display: block; width: calc(100% + 64px); max-width: none; height: 140px; object-fit: cover; margin: -28px -32px 20px; border-radius: var(--radius-lg) var(--radius-lg) 0 0; }

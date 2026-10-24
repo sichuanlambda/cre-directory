@@ -141,6 +141,7 @@ function categoryCarouselCard(cat) {
   const icon = CATEGORY_ICONS[cat.slug] || '';
   const desc = cat.description || '';
   return `<a class="cat-carousel-card" href="/categories/${cat.slug}/">
+    <img class="cat-card-photo" src="/img/photos/${cat.slug}-800.webp" alt="" loading="lazy" width="800" height="450" onerror="this.remove()">
     <div class="cat-card-header">
       <div class="cat-card-icon">${icon}</div>
       <h3>${cat.name}</h3>
