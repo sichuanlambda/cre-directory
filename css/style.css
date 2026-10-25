@@ -864,3 +864,33 @@ html[data-theme="dark"] body.guide { --g-est: #fcd34d; --g-est-bg: rgba(252,211,
 .photo-credit { position: absolute; right: 16px; bottom: 8px; margin: 0; font-size: 11px; color: rgba(255,255,255,.6) !important; }
 .photo-credit a { color: rgba(255,255,255,.75) !important; text-decoration: underline; }
 .cat-carousel-card .cat-card-photo { display: block; width: calc(100% + 64px); max-width: none; height: 140px; object-fit: cover; margin: -28px -32px 20px; border-radius: var(--radius-lg) var(--radius-lg) 0 0; }
+
+/* Starter software stacks (generated from data/stacks.json) */
+.stack-item { margin: 0 0 16px; padding: 18px 20px; border: 1px solid rgba(128,128,160,.25); border-radius: 12px; }
+.stack-item-head { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+.stack-item-head .product-logo { flex-shrink: 0; }
+.stack-item-head h3 { margin: 0; font-size: 17px; }
+.stack-plan { font-size: 13px; font-weight: 500; color: var(--gray-600); }
+.stack-job { margin-top: 2px; font-size: 12px; font-weight: 600; letter-spacing: .4px; text-transform: uppercase; color: var(--gray-500); }
+.stack-item p { margin: 0 0 8px; font-size: 15px; line-height: 1.6; }
+.stack-trigger { color: var(--navy); }
+.stack-cost { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin: 10px 0 8px; padding: 10px 12px; border-radius: 8px; background: var(--gray-50); font-size: 13.5px; line-height: 1.5; }
+.stack-cost strong { font-size: 15px; color: var(--navy); }
+.stack-cost span { color: var(--gray-600); }
+.stack-item .stack-alts { margin: 0; font-size: 14px; color: var(--gray-700); }
+.stack-tier-note { margin: -8px 0 16px; color: var(--gray-600); font-size: 14.5px; }
+.stack-glance td.num, .stack-hub-table td.num { white-space: nowrap; }
+.stack-glance tfoot td { font-weight: 700; background: var(--gray-50); border-top: 1px solid var(--gray-300); }
+.stack-totals-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin: 12px 0 18px; }
+.stack-total { padding: 18px 20px; border: 1px solid var(--gray-200); border-radius: 12px; background: var(--gray-50); }
+.stack-total .label { display: block; font-size: 12px; font-weight: 600; letter-spacing: .4px; text-transform: uppercase; color: var(--gray-500); }
+.stack-total .amount { display: block; margin: 4px 0; font-size: 28px; font-weight: 800; color: var(--navy); }
+.stack-total .sub { display: block; font-size: 13px; color: var(--gray-600); }
+.stack-role-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+@media (max-width: 600px) {
+  .stack-item { padding: 16px; } .stack-total .amount { font-size: 24px; }
+  .spec-table.stack-glance, .spec-table.stack-hub-table { min-width: 0; }
+  .stack-glance .col-job, .stack-hub-table .col-job, .stack-glance .spec-product .product-logo { display: none; }
+  .stack-glance th, .stack-glance td, .stack-hub-table th, .stack-hub-table td { padding: 9px 10px; }
+  .stack-glance td.num, .stack-hub-table td.num { white-space: normal; }
+}

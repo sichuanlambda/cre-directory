@@ -60,6 +60,10 @@ const EDITORIAL = fs.existsSync(path.join(ROOT, 'data/editorial.json'))
   ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data/editorial.json'), 'utf8'))
   : { alternatives: {}, comparisons: [] };
 const productBySlug = {};
+// Starter software stacks by role (data/stacks.json): hub at /starter-stacks/, one page per role.
+const STACKS = fs.existsSync(path.join(ROOT, 'data/stacks.json'))
+  ? JSON.parse(fs.readFileSync(path.join(ROOT, 'data/stacks.json'), 'utf8'))
+  : { hub: {}, roles: [] };
 
 // ---------- helpers ----------
 const esc = s => String(s == null ? '' : s)
@@ -279,7 +283,8 @@ function footerHTML() {
   const guideLinks = guideFiles()
     .map(f => ({ name: guideName(f), f }))
     .sort((a, b) => a.name.localeCompare(b.name))
-    .map(g => `<a href="/guides/${g.f}">${esc(g.name)}</a>`).join('');
+    .map(g => `<a href="/guides/${g.f}">${esc(g.name)}</a>`).join('')
+    + ((STACKS.roles || []).length ? `<a href="/starter-stacks/"><strong>Starter stacks by role →</strong></a>` : '');
   const altLinks = altsSorted().slice(0, 12).map(x => `<a href="${alternativesPath(x.slug)}">${esc(x.product.title)} alternatives</a>`).join('')
     + `<a href="/alternatives/"><strong>All alternatives guides →</strong></a>`;
   const cmpLinks = cmpEntries().slice(0, 8).map(x => `<a href="${comparePath(x.cmp.a, x.cmp.b)}">${esc(x.A.title)} vs ${esc(x.B.title)}</a>`).join('')
@@ -374,7 +379,8 @@ function editorialBoxHTML(product) {
   const cmps = comparisonsFor(slug);
   const mentions = altMentions(slug);
   const topics = topicGuidesFor([slug]);
-  if (!own && !cmps.length && !mentions.length && !topics.length) return '';
+  const stacks = stacksFeaturing(slug);
+  if (!own && !cmps.length && !mentions.length && !topics.length && !stacks.length) return '';
   const items = [];
   if (own) items.push(`<li><a href="${alternativesPath(slug)}">Best ${esc(product.title)} alternatives (${YEAR})</a></li>`);
   cmps.forEach(c => {
@@ -387,6 +393,7 @@ function editorialBoxHTML(product) {
     items.push(`<li>Ranked #${pos} in <a href="${alternativesPath(x.slug)}">best ${esc(x.product.title)} alternatives</a></li>`);
   });
   topics.forEach(g => items.push(`<li>Featured in the <a href="/guides/${g}.html">${esc(TOPIC_GUIDES[g].name)} buyer's guide</a></li>`));
+  stacks.forEach(r => items.push(`<li>Part of the <a href="${stackPath(r.slug)}">starter software stack for ${esc(r.noun)}</a></li>`));
   return `<div class="editorial-links" style="margin:24px 0;padding:16px 20px;border-radius:10px;background:rgba(59,130,246,.08);border:1px solid rgba(59,130,246,.25);">
         <strong>Deciding on ${esc(product.title)}?</strong>
         <ul style="margin:8px 0 0;padding-left:20px;">
@@ -1149,6 +1156,275 @@ function renderComparisonPage(cmp) {
 </html>`;
 }
 
+// ---------- starter software stacks by role (data/stacks.json) ----------
+// Each role lists tools in three tiers (start / add / skip) with a monthly cost normalized from the
+// vendor's published price. Lean total = start tier; fuller total = start tier minus anything an
+// "add" item replaces, plus the add tier. Items without a published price (monthly_usd null) are
+// listed but never totaled. scripts/check-stacks.js recomputes the totals from the data.
+const stackPath = slug => slug ? `/starter-stacks/${slug}/` : '/starter-stacks/';
+const usd = n => '$' + (Number.isInteger(n) ? n.toLocaleString('en-US') : n.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 }));
+const stackItemCost = it => it && it.cost && typeof it.cost.monthly_usd === 'number' ? it.cost.monthly_usd : null;
+const stackProduct = slug => PRODUCTS.find(p => p.slug === slug && !badSlug(p.slug));
+const stackTier = (role, t) => ((role.tiers || {})[t] || []).filter(it => {
+  if (stackProduct(it.slug)) return true;
+  console.warn(`SKIP stack item (unknown slug): ${role.slug} ${t} ${it.slug}`); return false;
+});
+function stackTotals(role) {
+  const cents = n => Math.round(n * 100) / 100;
+  const start = stackTier(role, 'start'), add = stackTier(role, 'add');
+  const replaced = new Set(add.map(it => it.replaces).filter(Boolean));
+  const leanItems = start.filter(it => stackItemCost(it) !== null);
+  const fullItems = start.filter(it => !replaced.has(it.slug)).concat(add).filter(it => stackItemCost(it) !== null);
+  const sum = items => cents(items.reduce((s, it) => s + stackItemCost(it), 0));
+  return {
+    lean: sum(leanItems), full: sum(fullItems),
+    leanFrom: leanItems.some(it => it.cost.from), fullFrom: fullItems.some(it => it.cost.from),
+    excluded: start.concat(add).filter(it => stackItemCost(it) === null),
+  };
+}
+const totalText = (n, from) => `${from ? 'from ' : ''}${usd(n)}`;
+// {{lean}} / {{full}} use the current role; {{lean:slug}} / {{full:slug}} name another role.
+function fillStackTokens(text, role) {
+  return String(text || '').replace(/\{\{(lean|full)(?::([a-z0-9-]+))?\}\}/g, (m, kind, slug) => {
+    const r = slug ? (STACKS.roles || []).find(x => x.slug === slug) : role;
+    if (!r) { console.warn(`Unknown stack token ${m}`); return m; }
+    const t = stackTotals(r);
+    return kind === 'lean' ? totalText(t.lean, t.leanFrom) : totalText(t.full, t.fullFrom);
+  });
+}
+// Roles whose start or add tier includes a product (for product-page "Deciding on" links).
+const stacksFeaturing = slug => (STACKS.roles || []).filter(r => ['start', 'add'].some(t => ((r.tiers || {})[t] || []).some(it => it.slug === slug)));
+const stackPriceText = it => {
+  const n = stackItemCost(it), c = it.cost || {};
+  if (n === null) return c.note || 'Pricing on request';
+  if (n === 0) return 'Free';
+  return `${c.from ? 'From ' : ''}${usd(n)}/mo`;
+};
+function stackCostHTML(it) {
+  const c = it.cost || {};
+  const src = /^https?:\/\//.test(c.source || '') ? `<a href="${esc(c.source)}" rel="noopener nofollow" target="_blank">vendor pricing page</a>` : '';
+  const when = c.checked ? ` Checked ${fmtDate(c.checked)}${src ? ` on the ${src}` : ''}.` : /blocks automated checks/.test(c.basis || '') ? '' : ' Not rechecked against the vendor site.';
+  return `<div class="stack-cost"><strong>${esc(stackPriceText(it))}</strong><span>${esc(c.basis || '')}.${when}</span></div>`;
+}
+function stackAltsHTML(it) {
+  const alts = (it.alternatives || []).map(a => typeof a === 'string' ? { slug: a } : a).map(a => ({ ...a, p: stackProduct(a.slug) })).filter(a => a.p);
+  if (!alts.length) return '';
+  return `<p class="stack-alts"><strong>Alternatives:</strong> ${alts.map(a => `<a href="${productPath(a.slug)}">${esc(a.p.title)}</a>${a.note ? ` (${esc(a.note)})` : ''}`).join('; ')}</p>`;
+}
+function stackItemHTML(it, tier, role) {
+  const p = stackProduct(it.slug);
+  let lead = '';
+  if (tier === 'add') {
+    const prev = it.replaces ? stackTier(role, 'start').find(s => s.slug === it.replaces) : null;
+    const swap = prev ? (prev.slug === it.slug ? ` Upgrades the ${esc(prev.plan)} plan above.` : ` Replaces ${esc(stackProduct(prev.slug).title)} in the fuller total.`) : '';
+    lead = `<p class="stack-trigger"><strong>Add when</strong> ${esc(it.trigger)}.${swap}</p>`;
+  }
+  return `<div class="stack-item">
+          <div class="stack-item-head">
+            <div class="product-logo" style="width:40px;height:40px">${logoHTML(p, 40)}</div>
+            <div><h3><a href="${productPath(p.slug)}">${esc(p.title)}</a>${it.plan ? ` <span class="stack-plan">${esc(it.plan)}</span>` : ''}</h3><div class="stack-job">${esc(it.job)}</div></div>
+          </div>
+          ${lead}
+          <p>${esc(tier === 'skip' ? it.reason : it.why)}</p>
+          ${stackCostHTML(it)}
+          ${stackAltsHTML(it)}
+        </div>`;
+}
+const STACK_TIERS = [
+  { key: 'start', id: 'start-with', label: 'Start with', note: 'The essentials for day one. These make up the lean total.' },
+  { key: 'add', id: 'add-when', label: 'Add when', note: 'Worth buying once the trigger applies. These, minus anything they replace, make up the fuller total.' },
+  { key: 'skip', id: 'skip-until', label: 'Skip until', note: 'Tools newcomers are often sold too early, and what has to be true before they pay off. Not included in either total.' },
+];
+const stackBreadcrumbLd = (role, canonical) => ({ "@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+  { "@type": "ListItem", "position": 1, "name": "Home", "item": BASE + '/' },
+  { "@type": "ListItem", "position": 2, "name": "Starter software stacks", "item": BASE + stackPath() },
+  ...(role ? [{ "@type": "ListItem", "position": 3, "name": role.title, "item": canonical }] : [])] });
+function stackArticleLd(headline, canonical, description, ph) {
+  const a = articleLd(headline, canonical, description);
+  if (ph) { const { ['@context']: _c, ...img } = photoLd(ph); a.image = img; }
+  return a;
+}
+function stackRelatedHTML(role) {
+  const onPage = new Set();
+  for (const t of ['start', 'add', 'skip']) for (const it of stackTier(role, t)) {
+    onPage.add(it.slug);
+    (it.alternatives || []).forEach(a => onPage.add(typeof a === 'string' ? a : a.slug));
+  }
+  const core = new Set(['start', 'add', 'skip'].flatMap(t => stackTier(role, t).map(it => it.slug)));
+  const both = cmpEntries().filter(x => onPage.has(x.cmp.a) && onPage.has(x.cmp.b));
+  const one = cmpEntries().filter(x => !both.includes(x) && (core.has(x.cmp.a) || core.has(x.cmp.b)));
+  const cmps = both.concat(one).slice(0, 8);
+  const alts = altsSorted().filter(x => core.has(x.slug)).slice(0, 8);
+  const guides = (role.guides || []).filter(g => fs.existsSync(path.join(ROOT, 'guides', `${g}.html`)));
+  const others = (STACKS.roles || []).filter(r => r.slug !== role.slug);
+  return `<div class="related-editorial">
+        ${guides.length ? `<h2>Buyer's guides for this stack</h2>${linkList(guides.map(g => `<a href="/guides/${g}.html">${esc(guideName(`${g}.html`))} buyer's guide</a>`))}` : ''}
+        ${cmps.length ? `<h2>Head-to-head comparisons</h2>${linkList(cmps.map(cmpLink))}` : ''}
+        ${alts.length ? `<h2>Alternatives guides</h2>${linkList(alts.map(altLink))}` : ''}
+        <h2>Starter stacks for other roles</h2>
+        ${linkList(others.map(r => `<a href="${stackPath(r.slug)}">${esc(r.title)}</a>`))}
+        <p style="font-size:14px;margin:8px 0 0"><a href="${stackPath()}">All starter stacks and how we built them →</a></p>
+      </div>`;
+}
+
+function renderStackPage(role) {
+  const canonical = `${BASE}${stackPath(role.slug)}`;
+  const t = stackTotals(role);
+  const ph = PHOTOS[role.photo];
+  const title = `${role.seo_title || role.headline} (${YEAR}) | CRE Software Directory`;
+  const description = fillStackTokens(role.seo_description, role);
+  const faq = (role.faq || []).map(f => ({ question: f.question, answer: fillStackTokens(f.answer, role) }));
+  const jsonLd = [stackArticleLd(`${role.headline} (${YEAR})`, canonical, description, ph), stackBreadcrumbLd(role, canonical)];
+  if (faq.length) jsonLd.push(faqLd(faq));
+  if (ph) jsonLd.push(photoLd(ph));
+  const glanceRows = STACK_TIERS.flatMap(tier => stackTier(role, tier.key).map(it => {
+    const p = stackProduct(it.slug);
+    return `<tr><td>${esc(tier.label)}</td><td class="col-job">${esc(it.job)}</td><th scope="row"><a class="spec-product" href="${productPath(p.slug)}"><span class="product-logo">${logoHTML(p, 32)}</span><span>${esc(p.title)}${it.plan ? ` <span class="stack-plan">${esc(it.plan)}</span>` : ''}</span></a></th><td class="num">${stackItemCost(it) === null ? ((it.cost || {}).note ? 'Not totaled' : 'Pricing on request') : esc(stackPriceText(it))}</td></tr>`;
+  }));
+  const excludedNames = t.excluded.map(it => stackProduct(it.slug).title);
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  ${headHTML({ title, description, canonical, ogType: 'article', og: photoOg(role.photo), preload: ph ? photoPreload(ph) : '', jsonLd })}
+</head>
+<body>
+  ${navHTML('directory')}
+  <section class="category-header${ph ? ' has-photo' : ''}"${ph ? photoVars(ph) : ''}>
+    <div class="container">
+      <div class="breadcrumbs"><a href="/">Home</a> / <a href="${stackPath()}">Starter stacks</a> / ${esc(role.title)}</div>
+      <h1>${esc(role.headline)}</h1>
+      <p>${esc(role.intro)}</p>
+      <div class="cat-stats">Lean stack <strong>${esc(totalText(t.lean, t.leanFrom))}/mo</strong> · Fuller stack <strong>${esc(totalText(t.full, t.fullFrom))}/mo</strong> · <a href="#monthly-cost">How the totals add up</a></div>
+      ${ph ? `<p class="photo-credit">${photoCredit(ph)}</p>` : ''}
+    </div>
+  </section>
+  <div class="product-detail">
+    <div class="container">
+      ${updatedLine()}
+      <div class="description-section"><h2>Who this is for</h2><p>${esc(role.who)}</p></div>
+      <div class="editorial-criteria"><h2>Jobs the stack must cover</h2><div class="criteria-grid">${(role.jobs || []).map(j => `<div class="criteria-card"><h3>${esc(j.name)}</h3><p>${esc(j.description)}</p></div>`).join('')}</div></div>
+      <div class="similar-section"><h2>The stack at a glance</h2>
+        <div class="spec-table-wrap"><table class="spec-table stack-glance">
+          <thead><tr><th scope="col">Tier</th><th scope="col" class="col-job">Job</th><th scope="col">Tool</th><th scope="col">Monthly cost</th></tr></thead>
+          <tbody>
+          ${glanceRows.join('\n          ')}
+          </tbody>
+          <tfoot>
+            <tr><td colspan="2">Lean total (Start with)</td><td class="col-job"></td><td class="num">${esc(totalText(t.lean, t.leanFrom))}/mo</td></tr>
+            <tr><td colspan="2">Fuller total (Start with + Add when)</td><td class="col-job"></td><td class="num">${esc(totalText(t.full, t.fullFrom))}/mo</td></tr>
+          </tfoot>
+        </table></div>
+      </div>
+      ${STACK_TIERS.map(tier => { const items = stackTier(role, tier.key); return items.length ? `<div class="similar-section" id="${tier.id}"><h2>${esc(tier.label)}</h2><p class="stack-tier-note">${esc(tier.note)}</p>
+        ${items.map(it => stackItemHTML(it, tier.key, role)).join('\n        ')}
+      </div>` : ''; }).join('\n      ')}
+      <div class="description-section" id="monthly-cost"><h2>Monthly cost</h2>
+        <div class="stack-totals-grid">
+          <div class="stack-total" data-total="lean" data-usd="${t.lean}"><span class="label">Lean stack</span><span class="amount">${esc(totalText(t.lean, t.leanFrom))}/mo</span><span class="sub">Everything under Start with</span></div>
+          <div class="stack-total" data-total="full" data-usd="${t.full}"><span class="label">Fuller stack</span><span class="amount">${esc(totalText(t.full, t.fullFrom))}/mo</span><span class="sub">Lean plus every Add when tool, minus what it replaces</span></div>
+        </div>
+        <p><strong>Assumptions:</strong> ${(role.assumptions || []).map(esc).join('; ')}.</p>
+        ${excludedNames.length ? `<p><strong>Not in the totals (no published monthly price):</strong> ${excludedNames.map(esc).join(', ')}. Expect the real cost to be higher if you buy them.</p>` : ''}
+        ${t.leanFrom || t.fullFrom ? `<p>"From" means at least one line uses a vendor's starting price, so the total is a floor; quotes usually rise with seats or units.</p>` : ''}
+        <p>Totals are rebuilt from each line's published price whenever the site is published, and exclude tax, payment processing, onboarding fees and hardware. <a href="${stackPath()}#method">How we built these stacks</a>.</p>
+      </div>
+      ${faqHTMLBlock(faq)}
+      ${stackRelatedHTML(role)}
+      <div class="bottom-cta">
+        <a href="${stackPath()}" class="cta-btn cta-btn-outline">Compare stacks for every role</a>
+        <a href="/compare.html" class="claim-link">Compare any two tools side by side</a>
+      </div>
+    </div>
+  </div>
+  ${footerHTML()}
+  <script src="/js/app.js"></script>
+  <script>initNav();initBackToTop();initNavSearch();</script>
+</body>
+</html>`;
+}
+
+function renderStacksHub() {
+  const hub = STACKS.hub || {};
+  const roles = STACKS.roles || [];
+  const canonical = `${BASE}${stackPath()}`;
+  const ph = PHOTOS['workplace-space-management'];
+  const title = `Starter Software Stacks by CRE Role (${YEAR}) | CRE Software Directory`;
+  const description = `What to buy first, add later and skip for ${roles.length} commercial real estate roles, with lean and fuller monthly totals built from vendors' published prices.`;
+  const faq = (hub.faq || []).map(f => ({ question: f.question, answer: fillStackTokens(f.answer, null) }));
+  const jsonLd = [
+    stackArticleLd(`Starter Software Stacks by CRE Role (${YEAR})`, canonical, description, ph),
+    { "@context": "https://schema.org", "@type": "ItemList", "name": "Starter software stacks by CRE role", "numberOfItems": roles.length,
+      "itemListElement": roles.map((r, i) => ({ "@type": "ListItem", "position": i + 1, "url": BASE + stackPath(r.slug), "name": r.headline })) },
+    stackBreadcrumbLd(null, canonical),
+  ];
+  if (faq.length) jsonLd.push(faqLd(faq));
+  if (ph) jsonLd.push(photoLd(ph));
+  const rows = roles.map(r => { const t = stackTotals(r);
+    return `<tr data-role="${r.slug}" data-lean="${t.lean}" data-full="${t.full}"><th scope="row"><a href="${stackPath(r.slug)}">${esc(r.title)}</a></th><td class="col-job">${esc((r.assumptions || [])[0] || '')}</td><td class="num">${esc(totalText(t.lean, t.leanFrom))}/mo</td><td class="num">${esc(totalText(t.full, t.fullFrom))}/mo</td></tr>`; });
+  const card = r => { const t = stackTotals(r);
+    return `<a class="product-card product-card-link" href="${stackPath(r.slug)}" style="display:block">
+          <h3 style="margin:0 0 6px;font-size:16px">${esc(r.title)}</h3>
+          <div class="tagline">${esc(firstSentence(r.intro, 150))}</div>
+          <p style="margin:10px 0 0;font-size:13.5px"><strong>Lean ${esc(totalText(t.lean, t.leanFrom))}/mo</strong> · Fuller ${esc(totalText(t.full, t.fullFrom))}/mo</p>
+        </a>`; };
+  const guides = (hub.guides || []).filter(g => fs.existsSync(path.join(ROOT, 'guides', `${g}.html`)));
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  ${headHTML({ title, description, canonical, ogType: 'article', og: photoOg('workplace-space-management'), preload: ph ? photoPreload(ph) : '', jsonLd })}
+</head>
+<body>
+  ${navHTML('directory')}
+  <section class="category-header${ph ? ' has-photo' : ''}"${ph ? photoVars(ph) : ''}>
+    <div class="container">
+      <div class="breadcrumbs"><a href="/">Home</a> / Starter stacks</div>
+      <h1>Starter Software Stacks by Role</h1>
+      <p>${esc(hub.intro)}</p>
+      <div class="cat-stats"><strong>${roles.length}</strong> roles · totals from published prices · <a href="#method">How we built these</a></div>
+      ${ph ? `<p class="photo-credit">${photoCredit(ph)}</p>` : ''}
+    </div>
+  </section>
+  <div class="product-detail">
+    <div class="container">
+      ${updatedLine()}
+      <div class="description-section"><p>${esc(hub.summary)}</p></div>
+      <div class="similar-section"><h2>Monthly cost by role</h2>
+        <div class="spec-table-wrap"><table class="spec-table stack-hub-table">
+          <thead><tr><th scope="col">Role</th><th scope="col" class="col-job">Sized for</th><th scope="col">Lean stack</th><th scope="col">Fuller stack</th></tr></thead>
+          <tbody>
+          ${rows.join('\n          ')}
+          </tbody>
+        </table></div>
+        <p class="stack-tier-note" style="margin-top:10px">Lean = the Start with tools. Fuller = lean plus every Add when tool, minus what it replaces. Quote-only tools are listed on each page but not totaled.</p>
+      </div>
+      <div class="similar-section"><h2>Pick your role</h2>
+        <div class="stack-role-grid">
+        ${roles.map(card).join('\n        ')}
+        </div>
+      </div>
+      <div class="description-section" id="method"><h2>How we built these</h2>
+        ${(hub.methods || []).map(m => `<p>${esc(m)}</p>`).join('\n        ')}
+      </div>
+      ${faqHTMLBlock(faq)}
+      <div class="related-editorial">
+        ${guides.length ? `<h2>Buyer's guides</h2>${linkList(guides.map(g => `<a href="/guides/${g}.html">${esc(guideName(`${g}.html`))} buyer's guide</a>`))}` : ''}
+        <h2>Keep browsing</h2>
+        <ul class="link-list">
+          <li><a href="/alternatives/">All alternatives guides</a></li>
+          <li><a href="/compare.html">All comparisons</a></li>
+          <li><a href="/integrations/">Browse by integration</a></li>
+          <li><a href="/about.html">About and methodology</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  ${footerHTML()}
+  <script src="/js/app.js"></script>
+  <script>initNav();initBackToTop();initNavSearch();</script>
+</body>
+</html>`;
+}
+
 // ---------- integration hubs ----------
 const INTEGRATION_DISPLAY = { 'yardi': 'Yardi', 'zillow': 'Zillow', 'docusign': 'DocuSign', 'salesforce': 'Salesforce', 'mri software': 'MRI Software', 'transunion': 'TransUnion', 'quickbooks': 'QuickBooks', 'sap': 'SAP', 'realpage': 'RealPage', 'realtor.com': 'Realtor.com', 'apartments.com': 'Apartments.com', 'excel': 'Excel', 'plaid': 'Plaid', 'vts': 'VTS', 'argus': 'ARGUS', 'costar': 'CoStar', 'power bi': 'Power BI', 'stripe': 'Stripe', 'google maps': 'Google Maps', 'microsoft 365': 'Microsoft 365', 'snowflake': 'Snowflake', 'oracle': 'Oracle', 'workday': 'Workday', 'microsoft dynamics': 'Microsoft Dynamics' };
 
@@ -1288,7 +1564,9 @@ function renderIntegrationsIndex(hubs) {
 function sitemapImages(p) {
   const out = [];
   const key = p === '/' ? 'home' : p === '/about.html' ? 'about' : p === '/alternatives/' ? 'alternatives' : p === '/compare.html' ? 'retail' : p === '/market-map.html' ? 'land'
-    : (/^\/categories\/([^/]+)\/$/.exec(p) || [])[1] || (/^\/guides\/([^/]+)\.html$/.exec(p) || [])[1];
+    : p === '/starter-stacks/' ? 'workplace-space-management'
+    : ((STACKS.roles || []).find(r => stackPath(r.slug) === p) || {}).photo
+    || (/^\/categories\/([^/]+)\/$/.exec(p) || [])[1] || (/^\/guides\/([^/]+)\.html$/.exec(p) || [])[1];
   if (key && PHOTOS[key]) out.push(PHOTOS[key].src);
   const prod = (/^\/products\/([^/]+)\/$/.exec(p) || [])[1];
   if (prod) { const pr = PRODUCTS.find(x => x.slug === prod); ((pr && pr.screenshots) || []).forEach(s => out.push(typeof s === 'string' ? s : s.src)); }
@@ -1305,6 +1583,7 @@ function renderSitemap() {
   add('/alternatives/', '0.7');
   altEntries().forEach(x => add(alternativesPath(x.slug), '0.7'));
   cmpEntries().forEach(x => add(comparePath(x.cmp.a, x.cmp.b), '0.7'));
+  if ((STACKS.roles || []).length) { add(stackPath(), '0.7'); STACKS.roles.forEach(r => add(stackPath(r.slug), '0.7')); }
   add('/market-map.html', '0.6');
   add('/compare.html', '0.6');
   add('/integrations/', '0.6');
@@ -1342,7 +1621,11 @@ ${guideFiles().map(f => { const cs = f.replace('.html', ''); const c = categoryB
 ${line('All alternatives guides', '/alternatives/')}
 ${altsSorted().map(x => line(`Best ${x.product.title} alternatives`, alternativesPath(x.slug), firstSentence(x.alt.intro, 200))).join('\n')}
 
-## Head-to-head comparisons
+${(STACKS.roles || []).length ? `## Starter software stacks by role
+${line('Starter software stacks by role', stackPath(), `What to buy first, add later and skip for ${STACKS.roles.length} CRE roles, with lean and fuller monthly totals from published vendor prices`)}
+${STACKS.roles.map(r => { const t = stackTotals(r); return line(`Starter software stack: ${r.title}`, stackPath(r.slug), `lean ${totalText(t.lean, t.leanFrom)}/mo, fuller ${totalText(t.full, t.fullFrom)}/mo. ${firstSentence(r.who, 200)}`); }).join('\n')}
+
+` : ''}## Head-to-head comparisons
 ${line('All comparisons', '/compare.html')}
 ${cmpEntries().map(x => line(`${x.A.title} vs ${x.B.title}`, comparePath(x.cmp.a, x.cmp.b), x.cmp.one_liner || '')).join('\n')}
 
@@ -1393,6 +1676,13 @@ for (const cmp of EDITORIAL.comparisons || []) {
   writePage(comparePath(cmp.a, cmp.b), html);
   cmpCount++;
 }
+let stackCount = 0;
+for (const role of STACKS.roles || []) {
+  if (badSlug(role.slug)) { console.warn(`SKIP stack role (invalid slug): ${role.slug}`); continue; }
+  writePage(stackPath(role.slug), renderStackPage(role));
+  stackCount++;
+}
+if (stackCount) writePage(stackPath(), renderStacksHub());
 
 // ---------- hand-maintained pages: injected blocks between marker comments ----------
 function injectBetween(file, START, END, inner) {
@@ -1495,6 +1785,7 @@ function guideRelatedHTML(catSlug) {
     const own = cmpEntries().filter(x => ranked.has(x.cmp.a) || ranked.has(x.cmp.b));
     ce.cmps = own.concat(ce.cmps.filter(x => !own.some(o => o.cmp === x.cmp)));
   }
+  const stacks = (STACKS.roles || []).filter(r => (r.guides || []).includes(catSlug));
   const browse = `<p style="font-size:14px;margin:12px 0 0"><a href="${categoryPath(cat.slug)}">Browse all ${esc(cat.name)} software →</a> · <a href="/alternatives/">All alternatives guides</a> · <a href="/compare.html">All comparisons</a></p>`;
   return `
 <div style="max-width:800px;margin:0 auto;padding:0 20px 32px">
@@ -1502,7 +1793,8 @@ function guideRelatedHTML(catSlug) {
     <h2 style="margin-top:0">Related reading</h2>
     <div class="editorial-grid">
       ${ce.alts.length ? `<div><h3>Alternatives guides</h3>${linkList(ce.alts.map(altLink))}</div>` : ''}
-      ${ce.cmps.length ? `<div><h3>Head-to-head comparisons</h3>${linkList(ce.cmps.map(cmpLink))}</div>` : ''}
+      ${ce.cmps.length ? `<div><h3>Head-to-head comparisons</h3>${linkList(ce.cmps.map(cmpLink))}</div>` : ''}${stacks.length ? `
+      <div><h3>Starter software stacks</h3>${linkList(stacks.map(r => `<a href="${stackPath(r.slug)}">Starter stack for ${esc(r.noun)}</a>`).concat([`<a href="${stackPath()}">All starter stacks by role</a>`]))}</div>` : ''}
     </div>
     ${browse}
   </div>
@@ -1673,4 +1965,4 @@ fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), renderSitemap());
 fs.writeFileSync(path.join(ROOT, 'llms.txt'), renderLlmsTxt());
 saveLastmod();
 
-console.log(`Built ${productCount} product pages, ${categoryCount} category pages, ${altCount} alternatives pages + hub, ${cmpCount} comparison pages, ${HUBS.length} integration hubs, ${popCount} popular comparisons on compare.html, ${footerCount} shared footers, sitemap.xml, llms.txt`);
+console.log(`Built ${productCount} product pages, ${categoryCount} category pages, ${altCount} alternatives pages + hub, ${cmpCount} comparison pages, ${HUBS.length} integration hubs, ${stackCount} starter stacks + hub, ${popCount} popular comparisons on compare.html, ${footerCount} shared footers, sitemap.xml, llms.txt`);
