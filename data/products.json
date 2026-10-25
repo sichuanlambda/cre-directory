@@ -1853,7 +1853,20 @@
         ]
       }
     ],
-    "pricing": "Modular pricing - Start with one product, expand as needed. Contact for custom quote",
+    "pricing": {
+      "model": "Subscription",
+      "starting_price": "From $125/user/month",
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Solutions",
+          "price": "Starting at $125 per user per month",
+          "description": "Detailed pricing through a demo request; larger organizations go to enterprise sales."
+        }
+      ]
+    },
     "screenshots": [
       {
         "src": "/img/screenshots/buildout/1.webp",
@@ -1877,7 +1890,7 @@
       "50,000+ broker user base means active development and community"
     ],
     "cons": [
-      "Quote-based pricing across all products, no published prices",
+      "Only a starting rate is published; detailed pricing needs a demo",
       "Best suited for brokerages, not landlords or investors",
       "Newer AI features (Rethink+, Showcase AI) are still maturing",
       "Less suited for enterprise portfolio management vs. deal-focused workflows"
@@ -1911,7 +1924,7 @@
         "Buildout alternatives"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-10-25",
     "is_verified": true,
     "is_featured": true,
     "domain": "buildout.com",
@@ -8168,7 +8181,8 @@
           "features": [
             "Nationwide parcel search and filters",
             "Two-level zoning on every parcel",
-            "Owner contact lookup",
+            "About 1,000 parcel lookups a month",
+            "25 owner contact lookups a month",
             "Folders, notes and CSV export",
             "Saved searches"
           ]
@@ -8180,8 +8194,9 @@
           "features": [
             "Everything in Starter",
             "Sub-level zoning filters",
-            "100 owner contacts per month",
-            "Zoning AI chat",
+            "About 2,000 parcel lookups a month",
+            "100 owner contact lookups a month",
+            "Zoning AI chat (included in beta)",
             "FEMA flood and map layers"
           ]
         },
@@ -8190,7 +8205,8 @@
           "price": "Custom",
           "period": "",
           "features": [
-            "High-volume teams",
+            "Unlimited parcel lookups",
+            "Annual pricing available",
             "API access",
             "Custom workflows and integrations"
           ]
@@ -8221,9 +8237,10 @@
     ],
     "cons": [
       "Still labeled beta; sub-level zoning depth varies by municipality",
-      "Owner contacts are metered (100 per month on Production)",
+      "Owner contacts are metered (25 a month on Starter, 100 on Production)",
       "No debt, mortgage, lease or sales comp data",
-      "API access and custom integrations only on the Scale plan"
+      "API access and custom integrations only on the Scale plan",
+      "Starter and Production are marked pre-launch pricing"
     ],
     "integrations": [],
     "company": {
@@ -8252,7 +8269,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-09-02",
+    "last_updated": "2026-10-25",
     "is_verified": true,
     "is_featured": true,
     "domain": "plotzy.ai",
@@ -9858,7 +9875,7 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": "$400/month (annual subscription)",
+      "starting_price": null,
       "billing_options": [
         "Monthly",
         "Annual"
@@ -9868,12 +9885,12 @@
       "plans": [
         {
           "name": "Web app (monthly or annual)",
-          "price": "From $400/month on an annual subscription",
+          "price": "Not published (monthly or annual; annual saves 30% per the FAQ)",
           "period": "monthly or annual",
           "features": [
             "Unlimited searches",
             "Full web app access",
-            "1,000 monthly exports",
+            "Add 1,000 monthly exports (included on annual)",
             "Support chat"
           ]
         },
@@ -9919,7 +9936,7 @@
       "Useful for both brokers (prospecting) and investors (research)"
     ],
     "cons": [
-      "Only the web app starting price is published; data feed and API pricing require a sales quote",
+      "No published prices; web app, data feeds and API are sold through sign-up or sales",
       "Data accuracy varies by market, strongest in major metros",
       "Smaller data team than CoStar, some gaps in coverage",
       "Limited commercial lease data compared to CoStar or CompStak"
@@ -9966,7 +9983,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-04",
+    "last_updated": "2026-10-25",
     "is_verified": false,
     "is_featured": true,
     "domain": "reonomy.com",
@@ -12134,8 +12151,8 @@
       "Integrates with 10+ third-party apps including QuickBooks and Google Calendar"
     ],
     "cons": [
-      "Free plan limited to 10 leases and 1 GB storage",
-      "Pricing for paid plans not transparently listed on website",
+      "No free plan; Starter is $15/month billed annually ($18 monthly)",
+      "Plans are capped by lease count (10, 30, 60) rather than units",
       "Advanced features like lease builder and inspections only on higher tiers"
     ],
     "integrations": [
@@ -12171,7 +12188,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-09-02",
+    "last_updated": "2026-10-25",
     "is_verified": false,
     "is_featured": false,
     "domain": "tenantcloud.com",
@@ -14725,8 +14742,11 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
-      "billing_options": [],
+      "starting_price": "$7/user/month (billed annually)",
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": true,
       "plans": [
@@ -14735,31 +14755,42 @@
           "price": "Free",
           "period": "",
           "features": [
-            "Basic property search",
-            "Standard aerial photography"
+            "Basic property search"
           ]
         },
         {
-          "name": "Land id",
-          "price": "$9.99",
-          "period": "monthly",
+          "name": "Land id. (Parcel & Owner Info Nationwide)",
+          "price": "$7/user/month billed annually",
+          "period": "annual",
           "features": [
-            "3 maps",
-            "High-res aerial",
-            "Property boundaries",
-            "Branded maps"
+            "Private parcel info",
+            "AI Smart Search",
+            "3D maps"
           ]
         },
         {
-          "name": "Land id Pro",
-          "price": "$19.99+",
-          "period": "monthly",
+          "name": "Land id. Premium",
+          "price": "$12/user/month billed annually",
+          "period": "annual",
           "features": [
-            "Unlimited maps",
-            "Embed maps",
-            "Pro tools",
-            "Comp reports",
-            "3D tours"
+            "Create and share 3 maps",
+            "Mailing lists at extra cost"
+          ]
+        },
+        {
+          "name": "Land id. Pro",
+          "price": "$33.33/user/month (3 branded maps or tours) or $66.67 (unlimited), billed annually",
+          "period": "annual",
+          "features": [
+            "Branded maps and tours"
+          ]
+        },
+        {
+          "name": "Organizations",
+          "price": "Contact sales",
+          "period": "",
+          "features": [
+            "Seat-based annual plans"
           ]
         }
       ]
@@ -14819,7 +14850,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-25",
     "is_verified": false,
     "is_featured": false,
     "domain": "id.land",
@@ -14902,7 +14933,7 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
+      "starting_price": "$9.99/month or $99.99/year",
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
@@ -14912,10 +14943,10 @@
           "price": "$9.99",
           "period": "monthly",
           "features": [
-            "Unlimited parcel lookups",
+            "Unlimited access to mobile and desktop",
             "Property lines",
             "Ownership data",
-            "GPS tracking"
+            "157 million parcels in 3,200+ counties"
           ]
         },
         {
@@ -14925,6 +14956,14 @@
           "features": [
             "Same as Monthly",
             "17% savings"
+          ]
+        },
+        {
+          "name": "Corporate",
+          "price": "Contact for pricing",
+          "period": "",
+          "features": [
+            "Team discount for 2 or more users"
           ]
         }
       ]
@@ -14951,7 +14990,6 @@
       "Popular with wide range of users from agents to outdoor enthusiasts"
     ],
     "cons": [
-      "Website was unavailable during research (503 error)",
       "Data accuracy varies by county and state",
       "Limited analytical features compared to desktop platforms"
     ],
@@ -14980,7 +15018,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-25",
     "is_verified": false,
     "is_featured": false,
     "domain": "landglide.com",
@@ -15004,7 +15042,7 @@
       "Property corner identification",
       "Real-time GPS tracking and navigation"
     ],
-    "pricing_info": "Free 7-day trial, then \\.99/month or \\9.99/year",
+    "pricing_info": "Free for the first seven days, then $9.99/month or $99.99/year.",
     "enriched": true,
     "primary_category": "data-analytics",
     "logo_url_source": "https://logo.clearbit.com/landglide.com"
@@ -15393,6 +15431,21 @@
       "free_tier": false,
       "plans": [
         {
+          "name": "Essentials (web app)",
+          "price": "$92/mo",
+          "description": "1 user, 25 searches a month ($4.25 overage), 1 verified zoning report, 10 Bassett AI messages."
+        },
+        {
+          "name": "Advanced (web app)",
+          "price": "$279/mo",
+          "description": "1 user, 150 searches a month ($2.50 overage), 5 verified zoning reports, partner integrations, ZoneCheck plugin."
+        },
+        {
+          "name": "Enterprise (web app)",
+          "price": "Custom",
+          "description": "3+ users, 1,000+ searches, prospecting tool, white-labeled reports."
+        },
+        {
           "name": "API Starter",
           "price": "$134/mo",
           "description": "10,000 tiling calls and 100 point calls a month."
@@ -15412,7 +15465,8 @@
           "price": "Contact for pricing",
           "description": "Custom volumes."
         }
-      ]
+      ],
+      "starting_price": "$92/month (Essentials web app)"
     },
     "screenshots": [
       {
@@ -15438,8 +15492,8 @@
     ],
     "cons": [
       "Coverage varies by city and state, not all areas fully digitized",
-      "API pricing starts at $134 a month with no free plan",
-      "Search and report pricing is not shown on the API pricing page"
+      "No free plan; web app starts at $92 a month and API plans at $134",
+      "Annual billing is advertised at 20% off but annual prices are not shown"
     ],
     "integrations": [
       "Redfin",
@@ -15471,7 +15525,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-10-25",
     "is_verified": false,
     "is_featured": false,
     "domain": "zoneomics.com",
@@ -15939,15 +15993,31 @@
       }
     ],
     "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
+      "model": "Per unit/month",
+      "starting_price": "From $1.49/unit/month (Core, 50-unit minimum)",
       "billing_options": [
         "Monthly",
         "Annual"
       ],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Core",
+          "price": "Starting at $1.49 per unit per month",
+          "description": "Minimum spend and 50-unit minimum apply."
+        },
+        {
+          "name": "Plus",
+          "price": "Starting at $3.20 per unit per month",
+          "description": "Minimum spend and units apply."
+        },
+        {
+          "name": "Max",
+          "price": "Starting at $5.00 per unit per month",
+          "description": "Minimum spend and units apply."
+        }
+      ]
     },
     "screenshots": [
       {
@@ -16028,11 +16098,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-10-25",
     "is_verified": false,
     "is_featured": true,
     "domain": "appfolio.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Per unit/month",
     "is_free": false,
     "tagline": "Move Beyond Property Management Software",
     "property_types": [
@@ -17347,7 +17417,7 @@
         },
         {
           "name": "6-Month",
-          "price": "$24.95",
+          "price": "$20",
           "period": "monthly (billed semi-annually)",
           "features": [
             "Same as Monthly"
@@ -17421,7 +17491,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-09-02",
+    "last_updated": "2026-10-25",
     "is_verified": false,
     "is_featured": false,
     "domain": "rentredi.com",
@@ -30473,14 +30543,40 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
+      "starting_price": "$89/user/month (billed annually)",
       "billing_options": [
         "Monthly",
         "Annual"
       ],
       "free_trial": true,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Annual",
+          "price": "$1,068 per user per year (effectively $89/month), paid upfront",
+          "period": "annual",
+          "features": [
+            "Full CRM"
+          ]
+        },
+        {
+          "name": "Monthly",
+          "price": "$129 per user per month, month to month",
+          "period": "monthly",
+          "features": [
+            "Full CRM",
+            "Convertible to annual at any time"
+          ]
+        },
+        {
+          "name": "Free trial",
+          "price": "$0 for 10 days",
+          "period": "",
+          "features": [
+            "Then $129 per month"
+          ]
+        }
+      ]
     },
     "screenshots": [
       {
@@ -30499,7 +30595,6 @@
     ],
     "cons": [
       "Simpler than enterprise CRMs like Salesforce or Buildout",
-      "Pricing not publicly available",
       "Limited marketing and analytics features vs. Buildout",
       "Being part of LightBox may tie users to that ecosystem"
     ],
@@ -30546,7 +30641,7 @@
         "commercial real estate CRM"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-25",
     "is_verified": false,
     "is_featured": false,
     "domain": "lightboxre.com",
@@ -30642,14 +30737,26 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
+      "starting_price": "$160/month (billed annually, first 5 units)",
       "billing_options": [
-        "Monthly",
         "Annual"
       ],
       "free_trial": true,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Essential",
+          "price": "$160/month billed annually, includes 5 units, $2 each additional unit"
+        },
+        {
+          "name": "Professional",
+          "price": "$190/month billed annually, includes 5 units, $4 each additional unit"
+        },
+        {
+          "name": "Enterprise",
+          "price": "$230/month billed annually, includes 5 units, $6 each additional unit"
+        }
+      ]
     },
     "screenshots": [
       {
@@ -30708,7 +30815,7 @@
         "CRE accounting"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-25",
     "is_verified": false,
     "is_featured": false,
     "domain": "stratafolio.com",
@@ -30721,7 +30828,8 @@
     "enriched": true,
     "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
     "primary_category": "property-management",
-    "logo_url_source": "https://logo.clearbit.com/stratafolio.com"
+    "logo_url_source": "https://logo.clearbit.com/stratafolio.com",
+    "pricing_info": "A one-time onboarding fee applies and varies by business size (not published). ACH 0.05% per transaction, $2.50 minimum."
   },
   {
     "title": "Brivo",
@@ -31865,14 +31973,52 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": "$60/month",
+      "starting_price": "$59.95/month",
       "billing_options": [
         "Monthly",
         "Annual"
       ],
       "free_trial": true,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Pro",
+          "price": "$59.95/month or $599.95/year",
+          "period": "monthly or annual",
+          "features": [
+            "175 in-depth reports a month",
+            "1,000 ownership reports a month",
+            "2,000 list exports a month"
+          ]
+        },
+        {
+          "name": "Elite",
+          "price": "$79.95/month or $799.95/year",
+          "period": "monthly or annual",
+          "features": [
+            "200 in-depth reports a month",
+            "Foreclosure data"
+          ]
+        },
+        {
+          "name": "Platinum",
+          "price": "$169.95/month or $1,699.95/year",
+          "period": "monthly or annual",
+          "features": [
+            "250 in-depth reports a month",
+            "50 people searches a month",
+            "500 real owner exports a month"
+          ]
+        },
+        {
+          "name": "Group",
+          "price": "Contact sales",
+          "period": "",
+          "features": [
+            "Multi-user subscriptions"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
@@ -31924,7 +32070,7 @@
         "property research"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-10-25",
     "is_verified": false,
     "is_featured": false,
     "domain": "propertyshark.com",
@@ -31938,7 +32084,8 @@
     "enriched": true,
     "enrichedAt": "2026-02-19T09:15:00.000000+00:00",
     "primary_category": "data-analytics",
-    "logo_url_source": "https://logo.clearbit.com/propertyshark.com"
+    "logo_url_source": "https://logo.clearbit.com/propertyshark.com",
+    "pricing_info": "Prices shown are New York State pricing on the subscriptions page; other regions differ. Yearly plans save about 17%."
   },
   {
     "title": "Occupier",
@@ -33290,20 +33437,25 @@
       }
     ],
     "pricing": {
-      "model": "Pay-per-report with optional subscription",
-      "starting_price": "$75 per report",
-      "free_trial": true,
-      "free_tier": false,
+      "model": "Pay per lease",
+      "starting_price": "$75 per lease",
+      "free_trial": false,
+      "free_tier": true,
       "plans": [
         {
-          "name": "Single Report",
-          "price": "$75",
-          "description": "One full lease analysis, PDF report delivered by email. Lease comparison reports are also $75."
+          "name": "Free tools",
+          "price": "$0",
+          "description": "Clause checker, red flag quiz, lease cost calculator, negotiation checklist."
         },
         {
-          "name": "Unlimited (Brokers & Teams)",
-          "price": "$199/month",
-          "description": "Unlimited lease analyses with priority processing and renewal briefings."
+          "name": "Lease review",
+          "price": "$75 per lease, paid once",
+          "description": "Covers 22 lease terms, emailed in minutes; no subscription."
+        },
+        {
+          "name": "Volume",
+          "price": "Custom (email)",
+          "description": "For several leases a month."
         }
       ]
     },
@@ -33327,7 +33479,7 @@
     "domain": "leaselens.org",
     "is_verified": false,
     "is_featured": false,
-    "pricing_model": "Pay-per-report",
+    "pricing_model": "Pay per lease",
     "is_free": false,
     "property_types": [
       "Commercial",
@@ -33336,7 +33488,7 @@
       "Industrial"
     ],
     "review_count": 0,
-    "last_updated": "2026-10-20",
+    "last_updated": "2026-10-25",
     "status": "active",
     "enriched": true
   },
@@ -36496,8 +36648,21 @@
     ],
     "pricing": {
       "model": "Free platform (banking/transaction based)",
-      "free_trial": false,
-      "free_tier": true
+      "starting_price": "Free",
+      "free_trial": true,
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Core",
+          "price": "$0/month",
+          "description": "Banking, property-level tracking and rent reminders; banking fees may apply."
+        },
+        {
+          "name": "Smart",
+          "price": "$20/month on an annual plan",
+          "description": "Advanced automations; 30-day free trial."
+        }
+      ]
     },
     "pros": [
       "Banking, bookkeeping, and rent collection are natively integrated rather than bolted together",
@@ -36527,7 +36692,7 @@
       "Short-Term Rental"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-25",
     "status": "active",
     "enriched": true,
     "screenshots": [
@@ -54250,24 +54415,27 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": "$499/month (billed yearly)",
+      "starting_price": "$699/month (Syndication Suite)",
+      "billing_options": [
+        "Monthly"
+      ],
       "free_trial": true,
       "free_tier": false,
       "plans": [
         {
-          "name": "Syndication Portal",
-          "price": "From $499/mo (billed yearly)",
-          "description": "Branded investor portal, subscriptions, e-signature, KYC/AML, waterfalls, K-1s, and investor emails."
+          "name": "Syndication Suite",
+          "price": "Starts at $699/month",
+          "description": "AI-native syndication platform with unlimited deals, investor portal, subscriptions and distributions."
         },
         {
-          "name": "Syndication Suite",
-          "price": "From $699/mo (billed yearly)",
-          "description": "Adds AI underwriting seats, marketing emails, landing pages, lead management, and priority support."
+          "name": "Fund Admin Suite",
+          "price": "Contact sales",
+          "description": "Syndication Suite plus fund administration services, unlimited deals."
         },
         {
           "name": "Enterprise",
           "price": "Custom",
-          "description": "Custom mix of back-office services, automation configuration, and multi-fund structures."
+          "description": "Bespoke solution as the firm scales."
         }
       ]
     },
@@ -54278,8 +54446,8 @@
       "SOC 2 certified with a large base of GPs and LPs on the platform"
     ],
     "cons": [
-      "Listed prices require annual billing",
-      "$499/month entry point is significant for first-time syndicators",
+      "$699/month entry point is significant for first-time syndicators",
+      "White glove migration carries a one-time fee that is not published",
       "Broad scope may be more than teams wanting only a simple investor portal need"
     ],
     "deployment": [
@@ -54298,7 +54466,7 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-10-25",
     "status": "active",
     "enriched": true
   },

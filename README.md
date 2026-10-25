@@ -24,6 +24,7 @@ This regenerates:
 - `categories/<slug>/index.html` — one page per category
 - `alternatives/<slug>/index.html` + `alternatives/index.html` — alternatives guides and hub (from `data/editorial.json`)
 - `compare/<a>-vs-<b>/index.html` — comparison pages (from `data/editorial.json`)
+- `starter-stacks/<role>/index.html` + `starter-stacks/index.html` — starter software stacks by role (from `data/stacks.json`)
 - `integrations/<hub>/index.html` + `integrations/index.html` — integration hubs
 - `sitemap.xml` — real URLs with lastmod
 - `llms.txt` — site map for AI assistants and answer engines
@@ -32,6 +33,10 @@ This regenerates:
 `data/lastmod.json` stores a content hash per URL. A page's sitemap `lastmod` (and the visible "Updated" date on editorial pages) only moves when the content between the nav and the footer changes, so leave that file alone and commit it with the rest of the build output.
 
 Commit the regenerated output along with the data change.
+
+## Starter stacks
+
+`data/stacks.json` holds one entry per role with three tiers (`start`, `add`, `skip`). Each item names a product slug, the job it covers, alternatives, and a `cost` with `monthly_usd` (normalized from the vendor's published price, or `null` when sold by quote), the `basis` of that figure, the `checked` date and the vendor `source` URL (`"listing"` when the vendor site blocks automated checks). `from: true` marks a starting price. The lean total is the start tier; the fuller total adds the add tier and drops any start item an add item `replaces`. Text fields can use `{{lean}}` / `{{full}}` (or `{{lean:<role>}}`) and the build fills in the current totals. After a rebuild, run `node scripts/check-stacks.js` to recompute every total from the data and compare it with the generated pages.
 
 ## Hand-maintained pages
 

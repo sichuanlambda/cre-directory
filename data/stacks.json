@@ -1,0 +1,1697 @@
+{
+  "hub": {
+    "intro": "Pick your role and see what to buy first, what to add once a clear trigger hits, what to skip for now, and what the stack costs per month at the vendors' published prices.",
+    "summary": "Most CRE software is sold to newcomers in the wrong order: the big data subscription first, the boring system of record later. These stacks start with the tools that run the business day to day, many of them free or under $100 a month, and add the expensive ones only when a specific trigger makes them pay for themselves. Each role page names one or two honest alternatives for every slot, so you can swap a pick without losing the logic.",
+    "methods": [
+      "Every price comes from the vendor's own pricing page, turned into a monthly figure. An annual price is divided by 12, and per-seat or per-unit prices are multiplied by the seats or units each role assumes. Every line shows that basis and the date we checked it.",
+      "Tools that are only sold by quote are still listed where they fit, labeled \"pricing on request\", and left out of the totals. A stack that includes them will cost more than the total shown.",
+      "When a vendor publishes only a starting price (\"from\" or \"starting at\"), we use that figure and mark the line and the total \"from\". Expect a higher quote as seats or units grow.",
+      "When a vendor's site blocked our automated check, we used the price in our own listing only where it is the vendor's published figure, and the line says it was not rechecked.",
+      "The lean total is everything under Start with. The fuller total adds every Add when tool and drops any starter tool it replaces. Totals exclude tax, payment processing, screening fees paid by applicants, onboarding and setup fees, and hardware.",
+      "This is desk research from vendor documentation and published pricing, not hands-on testing. No vendor pays for a place in these stacks."
+    ],
+    "faq": [
+      {
+        "question": "How much does a starter CRE software stack cost per month?",
+        "answer": "At published prices, a self-managing landlord with about 40 units or a first-time sponsor can start at {{lean:small-residential-landlord}} a month, and a solo commercial broker at {{lean:solo-commercial-broker}}. At the other end, a manager with 1,000 doors pays {{lean:growing-property-manager}} a month for the system of record alone, and its fuller stack costs {{full:growing-property-manager}} a month. Quote-only tools come on top of these figures."
+      },
+      {
+        "question": "Why are some tools left out of the totals?",
+        "answer": "They do not publish prices. CoStar, Yardi Voyager, Juniper Square, ARGUS and most enterprise platforms are sold by quote, often by market, seat or portfolio size. We list them where they fit, label them pricing on request, and keep them out of the totals rather than guess."
+      },
+      {
+        "question": "Are free tools really enough to start?",
+        "answer": "Often, yes. Free listing tiers, free rent estimates, free bookkeeping such as Stessa Essentials and free Excel underwriting models cover a surprising amount of a first year. Each role page says where a free tier is genuinely enough and what trigger tells you it no longer is."
+      },
+      {
+        "question": "Is there a starter stack for CRE lenders and debt funds?",
+        "answer": "Not yet. Most loan origination, servicing and draw management software for commercial real estate is sold by quote only, so a cost total would be mostly blank. The CRE loan servicing and debt management buyer's guides cover that software in depth."
+      },
+      {
+        "question": "How current are these prices?",
+        "answer": "Each line shows the date its price was last checked against the vendor's site, and the totals are rebuilt from those lines whenever the site is published. Vendors change plans often, so confirm the price on the vendor's page before you buy."
+      }
+    ],
+    "guides": [
+      "broker-tools",
+      "property-management",
+      "investment-valuation",
+      "site-selection",
+      "crowdfunding-investing",
+      "accounting-finance"
+    ]
+  },
+  "roles": [
+    {
+      "slug": "solo-commercial-broker",
+      "noun": "a solo commercial broker",
+      "title": "Solo commercial broker",
+      "headline": "Starter Software Stack for a Solo Commercial Broker",
+      "photo": "broker-tools",
+      "category": "broker-tools",
+      "seo_title": "Solo Commercial Broker Software Stack",
+      "seo_description": "A solo commercial broker's first software: CRE CRM, free listing and marketing tools, then owner research. Lean {{lean}}/mo, fuller {{full}}/mo.",
+      "intro": "You work deals on your own or with a part-time assistant. You need to remember every owner and tenant you talk to, get listings in front of buyers and tenants, and know who owns a building before you call. Most of that starts cheap. The expensive data subscriptions can wait until your pipeline shows you need them.",
+      "who": "An independent or newly licensed commercial agent, or a producer at a small shop that does not supply software, working office, retail, industrial or investment sales from a single seat.",
+      "assumptions": [
+        "1 seat",
+        "Annual billing where it is offered and cheaper",
+        "US prices before tax"
+      ],
+      "jobs": [
+        {
+          "name": "Contacts and pipeline",
+          "description": "Every owner, tenant and deal in one place, with follow-ups tied to properties."
+        },
+        {
+          "name": "Listing marketing",
+          "description": "Flyers, offering memorandums and email blasts that look professional."
+        },
+        {
+          "name": "Listing exposure",
+          "description": "Getting listings in front of buyers and tenant reps where they already search."
+        },
+        {
+          "name": "Comps",
+          "description": "Lease and sale comps to price a listing or a broker opinion of value."
+        },
+        {
+          "name": "Ownership research",
+          "description": "Who owns a building and how to reach them before you prospect."
+        }
+      ],
+      "tiers": {
+        "start": [
+          {
+            "slug": "clientlook",
+            "job": "Contacts and pipeline",
+            "plan": "Annual plan",
+            "why": "Built for commercial brokers: contacts link to properties, listings and deals, and it publishes its price, which few CRE CRMs do. Month to month is $129 if you are not ready to commit.",
+            "alternatives": [
+              {
+                "slug": "wise-agent",
+                "note": "residential-first, but $42/mo billed annually for up to 5 people"
+              },
+              {
+                "slug": "realnex",
+                "note": "CRE CRM priced per user; prices load only in the pricing tool"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 89,
+              "basis": "$1,068 per user per year, paid upfront = $89/mo, 1 seat",
+              "checked": "2026-10-25",
+              "source": "https://www.lightboxre.com/product/clientlook/"
+            }
+          },
+          {
+            "slug": "crebuilder",
+            "job": "Listing marketing",
+            "plan": "Starter (free)",
+            "why": "The free plan covers 3 documents with basic templates and online viewing, enough to learn whether its flyers and OMs fit how you sell before you pay.",
+            "alternatives": [
+              {
+                "slug": "buildout",
+                "note": "the common choice at larger shops, from $125 per user per month"
+              },
+              {
+                "slug": "sharplaunch",
+                "note": "property websites, plans from $399/mo on annual billing"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 0,
+              "basis": "Starter plan $0, 1 user, 3 documents",
+              "checked": "2026-10-25",
+              "source": "https://www.crebuilder.com/pricing"
+            }
+          },
+          {
+            "slug": "crexi",
+            "job": "Listing exposure",
+            "plan": "Free listings",
+            "why": "Posting a listing costs nothing and many buyers and tenant reps search here. Add LoopNet's free basic listing for reach; pay for premium placement only on listings that need it.",
+            "alternatives": [
+              {
+                "slug": "loopnet",
+                "note": "free basic listings, paid tiers by quote"
+              },
+              {
+                "slug": "brevitas",
+                "note": "freemium listing network"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 0,
+              "basis": "Free listing tier, per our listing record; the vendor site blocks automated checks",
+              "checked": null,
+              "source": "listing"
+            }
+          },
+          {
+            "slug": "compstak",
+            "job": "Comps",
+            "plan": "Exchange (free for contributors)",
+            "why": "Brokers and appraisers who contribute their own lease comps earn access to other people's for free. If you will not trade comps, rely on your own deal history and county records until volume justifies a paid source.",
+            "alternatives": [
+              {
+                "slug": "comp-crunch",
+                "note": "subscription comps tool"
+              },
+              {
+                "slug": "costar",
+                "note": "the deepest comps database, quote only"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 0,
+              "basis": "Free for contributors, per our listing record; the vendor site blocks automated checks",
+              "checked": null,
+              "source": "listing"
+            }
+          }
+        ],
+        "add": [
+          {
+            "slug": "propertyshark",
+            "job": "Ownership research",
+            "plan": "Pro, billed annually",
+            "trigger": "you start calling owners outside the buildings you already know",
+            "why": "Recorded owners, property reports and mailing-list exports. Coverage is strongest in New York City and other large metros, so check your county first. Elite ($79.95/mo) and Platinum ($169.95/mo) add more, including real owners behind LLCs in New York City.",
+            "alternatives": [
+              {
+                "slug": "reonomy",
+                "note": "owner and debt data built for prospecting at volume, pricing on request"
+              },
+              {
+                "slug": "Plotzy",
+                "note": "if you broker land or development sites: parcel search by zoning with metered owner contacts, from $180/mo, in beta"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 50,
+              "basis": "$599.95 per year billed annually = $50.00/mo, 1 seat; New York State price on the subscriptions page, other regions differ",
+              "checked": "2026-10-25",
+              "source": "https://www.propertyshark.com/mason/Subscriptions/"
+            }
+          },
+          {
+            "slug": "crebuilder",
+            "job": "Listing marketing",
+            "plan": "Pro, billed annually",
+            "trigger": "you need more than 3 marketing documents or want tracked deal rooms",
+            "replaces": "crebuilder",
+            "why": "Full document creation, email marketing and deal rooms on one seat. Monthly billing is $89.",
+            "alternatives": [
+              {
+                "slug": "buildout",
+                "note": "from $125 per user per month"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 69,
+              "basis": "$828 billed yearly = $69/mo, 1 user",
+              "checked": "2026-10-25",
+              "source": "https://www.crebuilder.com/pricing"
+            }
+          }
+        ],
+        "skip": [
+          {
+            "slug": "costar",
+            "job": "Comps and market data",
+            "reason": "The deepest comps and listings database in the industry, but it is sold by quote, by market and seat, and costs far more than everything above combined. Wait until clients expect CoStar-grade comps in every proposal.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; sold by quote",
+              "checked": null,
+              "source": "listing"
+            }
+          },
+          {
+            "slug": "reonomy",
+            "job": "Ownership research",
+            "reason": "Strong owner, debt and contact data, but it no longer publishes prices and is built for teams prospecting at volume. PropertyShark or county records cover a solo broker's first year.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price on the pricing page; monthly and annual plans by sign-up or sales",
+              "checked": "2026-10-25",
+              "source": "https://www.reonomy.com/pricing/"
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What is the cheapest workable software setup for a solo commercial broker?",
+          "answer": "About {{lean}} a month at published prices: a commercial CRM (ClientLook at $89/mo billed annually) plus free tools for marketing documents (CREbuilder Starter), listing exposure (Crexi and LoopNet free listings) and comps (CompStak Exchange, if you contribute comps). A residential-first CRM such as Wise Agent, at $42/mo billed annually, brings it lower if you do not need properties tied to contacts."
+        },
+        {
+          "question": "Does a solo broker need CoStar?",
+          "answer": "Not to start. CoStar is the most complete comps and listings source, but it is sold by quote by market and seat. Most solo brokers start with free listing marketplaces, comps they trade or collect themselves, and an owner research tool such as PropertyShark, and add CoStar when clients or deal size demand it."
+        },
+        {
+          "question": "What does the fuller solo broker stack add?",
+          "answer": "Owner research (PropertyShark Pro, $50/mo billed annually) once you prospect beyond buildings you know, and CREbuilder Pro ($69/mo billed annually) once you outgrow 3 marketing documents. That brings the stack to {{full}} a month."
+        }
+      ],
+      "guides": [
+        "broker-tools",
+        "crm-marketing",
+        "listing-services"
+      ]
+    },
+    {
+      "slug": "commercial-brokerage-team",
+      "noun": "a commercial brokerage team",
+      "title": "Brokerage team (5 to 20 agents)",
+      "headline": "Starter Software Stack for a Commercial Brokerage Team",
+      "photo": "crm-marketing",
+      "category": "broker-tools",
+      "seo_title": "Commercial Brokerage Team Software Stack",
+      "seo_description": "Software for a 5 to 20 agent brokerage: shared CRM, back office and marketing first. Lean {{lean}}/mo, fuller {{full}}/mo for 10 agents.",
+      "intro": "Once a team shares listings, splits and a marketing coordinator, spreadsheets start losing deals. The first money goes to a shared CRM and a back office that tracks deals and commissions. Owner data, deal rooms and premium listing placement come next, each when a specific workload justifies it.",
+      "who": "A commercial brokerage or team of about 5 to 20 agents with a coordinator, doing leasing and investment sales, that wants shared records instead of each agent's own spreadsheet. Totals assume 10 agents.",
+      "assumptions": [
+        "10 agents plus 1 marketing coordinator",
+        "Annual billing where it is offered and cheaper",
+        "US prices before tax"
+      ],
+      "jobs": [
+        {
+          "name": "Shared CRM and pipeline",
+          "description": "One record per owner, tenant, property and deal, visible to the whole team."
+        },
+        {
+          "name": "Deals and commissions",
+          "description": "Deal records, splits, commission tracking and a shared listings database."
+        },
+        {
+          "name": "Listing marketing",
+          "description": "Brochures, OMs and email campaigns produced by a coordinator for every agent."
+        },
+        {
+          "name": "Listing exposure",
+          "description": "Syndicating listings to the marketplaces buyers and tenant reps search."
+        },
+        {
+          "name": "Ownership research",
+          "description": "Owner lookups and call lists for systematic prospecting."
+        },
+        {
+          "name": "Deal rooms",
+          "description": "NDAs, OM downloads and buyer activity for investment sales."
+        }
+      ],
+      "tiers": {
+        "start": [
+          {
+            "slug": "clientlook",
+            "job": "Shared CRM and pipeline",
+            "plan": "Annual plan, 10 users",
+            "why": "A CRE CRM with published per-user pricing, so the bill scales predictably as you hire. Contacts, properties, listings and deals live in one shared database.",
+            "alternatives": [
+              {
+                "slug": "ascendixre",
+                "note": "Salesforce-based CRE CRM, $79 per user per month billed annually per our listing; the vendor site blocks automated checks"
+              },
+              {
+                "slug": "apto",
+                "note": "Salesforce-based CRE CRM, pricing on request"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 890,
+              "basis": "$1,068 per user per year = $89/mo x 10 agents",
+              "checked": "2026-10-25",
+              "source": "https://www.lightboxre.com/product/clientlook/"
+            }
+          },
+          {
+            "slug": "totalbrokerage",
+            "job": "Deals and commissions",
+            "plan": "Lite, 10 seats",
+            "why": "A commercial back office for deal records, commissions and a listings database. Lite is a fixed price for 10 seats, month to month; the full modular platform starts at $150/mo on a 1-year contract.",
+            "alternatives": [
+              {
+                "slug": "commissiontrac",
+                "note": "commission and deal management, pricing on request"
+              },
+              {
+                "slug": "dealius",
+                "note": "brokerage operations platform, pricing on request"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 100,
+              "basis": "Lite fixed at $100/mo for 10 seats, billed monthly, no contract",
+              "checked": "2026-10-25",
+              "source": "https://www.totalbrokerage.com/pricing"
+            }
+          },
+          {
+            "slug": "crebuilder",
+            "job": "Listing marketing",
+            "plan": "Pro, billed annually, 3 seats",
+            "why": "Templates for flyers, OMs and email, with deal rooms included. Coordinator seats are free (they cannot own documents), so pay only for the people who publish.",
+            "alternatives": [
+              {
+                "slug": "buildout",
+                "note": "the standard at many CRE brokerages, from $125 per user per month"
+              },
+              {
+                "slug": "sharplaunch",
+                "note": "property websites, plans from $399/mo on annual billing"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 145,
+              "basis": "$69/mo for the first user ($828 billed yearly) + 2 added seats at $38/seat/mo on annual billing",
+              "checked": "2026-10-25",
+              "source": "https://www.crebuilder.com/pricing"
+            }
+          },
+          {
+            "slug": "crexi",
+            "job": "Listing exposure",
+            "plan": "Free listings",
+            "why": "Free to list, widely searched. Combine with LoopNet's free basic listing and decide on premium placement listing by listing.",
+            "alternatives": [
+              {
+                "slug": "loopnet",
+                "note": "free basic listings, paid tiers by quote"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 0,
+              "basis": "Free listing tier, per our listing record; the vendor site blocks automated checks",
+              "checked": null,
+              "source": "listing"
+            }
+          }
+        ],
+        "add": [
+          {
+            "slug": "propertyshark",
+            "job": "Ownership research",
+            "plan": "Pro, billed annually, 2 seats",
+            "trigger": "the team prospects owners as a weekly system rather than one-off lookups",
+            "why": "Two research seats usually serve a team better than ten casual ones. Group subscriptions are priced by quote; the figure here is two individual Pro seats.",
+            "alternatives": [
+              {
+                "slug": "reonomy",
+                "note": "pricing on request"
+              },
+              {
+                "slug": "Plotzy",
+                "note": "for land and development site teams: zoning-filtered parcel search with metered owner contacts, from $180/mo, in beta"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 100,
+              "basis": "$599.95 per year per seat = $50.00/mo x 2 seats; New York State price, other regions differ",
+              "checked": "2026-10-25",
+              "source": "https://www.propertyshark.com/mason/Subscriptions/"
+            }
+          },
+          {
+            "slug": "firmroom",
+            "job": "Deal rooms",
+            "plan": "2 GB",
+            "trigger": "you run several investment sales at once with NDAs, OMs and buyer tracking",
+            "why": "Unlimited users and one active data room on the 2 GB plan (5 GB allows 3 rooms for $795/mo). Check first whether CREbuilder Pro's deal rooms already cover you.",
+            "alternatives": [
+              {
+                "slug": "dealroom",
+                "note": "priced by deal volume on an annual commitment"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 395,
+              "basis": "$395/mo, monthly billing only, unlimited users, 1 active data room",
+              "checked": "2026-10-25",
+              "source": "https://firmroom.com/pricing"
+            }
+          }
+        ],
+        "skip": [
+          {
+            "slug": "costar",
+            "job": "Comps and market data",
+            "reason": "Most established teams end up with CoStar, but it is sold by quote per market and seat. Buy it when your clients and deal sizes demand its comps, not because a new team feels it should have it.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; sold by quote",
+              "checked": null,
+              "source": "listing"
+            }
+          },
+          {
+            "slug": "dealcloud",
+            "job": "Shared CRM and pipeline",
+            "reason": "A relationship and deal platform built for capital markets and investment banking groups, with quote pricing and a real implementation project. A 10-agent brokerage gets more from a CRE CRM it can set up in a week.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; sold by quote",
+              "checked": null,
+              "source": "listing"
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What should a small commercial brokerage team buy first?",
+          "answer": "A shared CRE CRM and a back office for deals and commissions. At published prices, ClientLook for 10 agents ($890/mo billed annually), TotalBrokerage Lite ($100/mo for 10 seats) and CREbuilder Pro for 3 publishing seats ($145/mo) come to {{lean}} a month, with listings on Crexi and LoopNet at no cost."
+        },
+        {
+          "question": "Should every agent get their own data subscription?",
+          "answer": "Usually not at first. Two dedicated research seats, run by the people who build call lists, tend to get used more than ten seats that sit idle. The fuller stack adds two PropertyShark Pro seats and a FirmRoom deal room for {{full}} a month in total."
+        },
+        {
+          "question": "Is Buildout worth it for a team?",
+          "answer": "It is the common choice for CRE marketing at larger shops and publishes a starting rate of $125 per user per month. For a team where one coordinator produces most materials, a tool that charges only publishing seats can cost less; compare both on your real seat count."
+        }
+      ],
+      "guides": [
+        "broker-tools",
+        "crm-marketing",
+        "listing-services"
+      ]
+    },
+    {
+      "slug": "emerging-sponsor-syndicator",
+      "noun": "an emerging sponsor or syndicator",
+      "title": "Emerging sponsor or syndicator",
+      "headline": "Starter Software Stack for an Emerging Sponsor or Syndicator",
+      "photo": "crowdfunding-investing",
+      "category": "crowdfunding-investing",
+      "seo_title": "Emerging Sponsor and Syndicator Software Stack",
+      "seo_description": "A first-time sponsor's software: free underwriting and bookkeeping, then an investor portal. Lean {{lean}}/mo, fuller {{full}}/mo.",
+      "intro": "Your first raise is mostly relationships, a sound model and clean paperwork. Software matters less than it looks in the first deal and a lot more by the second, when investor reporting, distributions and K-1s start to repeat. Start with free underwriting and bookkeeping, and buy an investor portal when the investor count makes email and spreadsheets risky.",
+      "who": "A sponsor, or two partners, raising a first fund or the first one or two syndications for multifamily or small commercial assets, with one or two legal entities and no investor relations staff yet.",
+      "assumptions": [
+        "1 to 2 sponsors",
+        "2 legal entities for portal pricing",
+        "Annual billing where it is offered and cheaper",
+        "US prices before tax"
+      ],
+      "jobs": [
+        {
+          "name": "Underwriting",
+          "description": "A model investors and lenders can follow: rent roll, operating budget, debt and waterfall."
+        },
+        {
+          "name": "Market rents",
+          "description": "Rent comps to defend the pro forma."
+        },
+        {
+          "name": "Property bookkeeping",
+          "description": "Income and expenses by property, ready for your CPA."
+        },
+        {
+          "name": "Investor raise and portal",
+          "description": "Investor CRM, subscriptions, e-signature, accreditation checks and a portal."
+        },
+        {
+          "name": "Unit-level rent data",
+          "description": "Deeper multifamily comps once you underwrite every week."
+        }
+      ],
+      "tiers": {
+        "start": [
+          {
+            "slug": "adventures-in-cre",
+            "job": "Underwriting",
+            "plan": "A.CRE model library",
+            "why": "Free, widely used Excel models for acquisitions, development and equity waterfalls. You keep every assumption visible, which investors and lenders expect to see anyway.",
+            "alternatives": [
+              {
+                "slug": "theanalyst-pro",
+                "note": "web-based analysis and marketing reports, $699.99/yr or $89.99/mo"
+              },
+              {
+                "slug": "propertymetrics",
+                "note": "web-based underwriting, pricing on request"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 0,
+              "basis": "Free models, per our listing record; the vendor site blocks automated checks",
+              "checked": null,
+              "source": "listing"
+            }
+          },
+          {
+            "slug": "rentcast",
+            "job": "Market rents",
+            "plan": "Pro, billed annually",
+            "why": "Residential rent estimates with 20 nearby comps per search and portfolio tracking, enough to sanity-check a multifamily rent roll. The free plan (5 comps, 5 properties) may be enough for a single deal. Commercial rents still come from broker comps.",
+            "alternatives": [
+              {
+                "slug": "rentometer",
+                "note": "rent comps by address; the vendor site blocks automated checks"
+              },
+              {
+                "slug": "hellodata",
+                "note": "unit-level multifamily comps, $300 per user per month"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 12,
+              "basis": "$12/mo billed annually ($19 billed monthly), 1 user",
+              "checked": "2026-10-25",
+              "source": "https://www.rentcast.io/pricing"
+            }
+          },
+          {
+            "slug": "stessa",
+            "job": "Property bookkeeping",
+            "plan": "Essentials (free)",
+            "why": "Free bank feeds, property-level income and expense tracking and basic reports for each asset. Fund accounting, capital accounts and K-1s still go to your CPA or fund administrator.",
+            "alternatives": [
+              {
+                "slug": "baselane",
+                "note": "free banking-led bookkeeping; Smart is $20/mo on an annual plan"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 0,
+              "basis": "Essentials plan, free, unlimited properties",
+              "checked": "2026-10-25",
+              "source": "https://www.stessa.com/pricing/"
+            }
+          }
+        ],
+        "add": [
+          {
+            "slug": "covercy",
+            "job": "Investor raise and portal",
+            "plan": "Fundraising Starter, 2 entities",
+            "trigger": "you raise from more than about 10 investors, or start a second deal",
+            "why": "Investor CRM and fundraising for 5 team members, with clear per-entity pricing ($249 per entity per month). That pricing adds up with every SPV. Standard ($566/mo for 2 entities) adds distributions and reporting for capital already raised.",
+            "alternatives": [
+              {
+                "slug": "cash-flow-portal",
+                "note": "Syndication Suite starts at $699/mo"
+              },
+              {
+                "slug": "agora-real-estate",
+                "note": "from $749/mo on a yearly term"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 498,
+              "basis": "$249 per entity per month x 2 entities = $498/mo, billed monthly, 5 team members",
+              "checked": "2026-10-25",
+              "source": "https://www.covercy.com/pricing"
+            }
+          },
+          {
+            "slug": "hellodata",
+            "job": "Unit-level rent data",
+            "plan": "Standard, 1 user",
+            "trigger": "you underwrite multifamily deals most weeks and need unit-level comps and concessions",
+            "why": "Automated rent surveys with unit-level data and rent trends, 10 saved surveys per user. It replaces most of what RentCast does for multifamily, but keep RentCast for single-family and small-property checks if you buy both.",
+            "alternatives": [
+              {
+                "slug": "rentometer",
+                "note": "lighter and cheaper rent comps"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 300,
+              "basis": "$300 per user per month, billed monthly, 1 user",
+              "checked": "2026-10-25",
+              "source": "https://www.hellodata.ai/pricing"
+            }
+          }
+        ],
+        "skip": [
+          {
+            "slug": "juniper-square",
+            "job": "Investor raise and portal",
+            "reason": "The standard for institutional GPs, with fund administration and deep reporting. It is sold by quote and built for firms with many funds and an investor relations team; a first-time sponsor pays for depth it will not use yet.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price on the pricing page; demo and sales only",
+              "checked": "2026-10-25",
+              "source": "https://www.junipersquare.com/pricing"
+            }
+          },
+          {
+            "slug": "investnext",
+            "job": "Investor raise and portal",
+            "reason": "A capable portal, but it publishes no prices and starts with a 12-month agreement plus an onboarding fee. Compare it once you are past the first deal and know your reporting needs.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; 12-month initial agreement and an onboarding fee",
+              "checked": "2026-10-25",
+              "source": "https://www.investnext.com/pricing/"
+            }
+          },
+          {
+            "slug": "argus",
+            "job": "Underwriting",
+            "reason": "ARGUS Enterprise is the valuation standard for multi-tenant office and retail, with tiered pricing by quote. Most first syndications, especially multifamily, underwrite fine in Excel.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; pricing is tiered and quoted",
+              "checked": "2026-10-25",
+              "source": "https://www.altusgroup.com/argus/argus-enterprise/"
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What software does a first-time syndicator actually need?",
+          "answer": "For the first deal, very little: a free Excel model such as the A.CRE library, rent comps (RentCast Pro at $12/mo billed annually), and free bookkeeping such as Stessa Essentials. That lean stack is {{lean}} a month. Your attorney and CPA matter more than software at this stage."
+        },
+        {
+          "question": "When does an investor portal pay for itself?",
+          "answer": "Usually once you pass about 10 investors or start a second deal, when subscriptions, accreditation checks, distributions and quarterly reports start to repeat. Covercy's Fundraising Starter is $498/mo for 2 entities at published prices; Cash Flow Portal starts at $699/mo and Agora at $749/mo."
+        },
+        {
+          "question": "Why is Juniper Square on the skip list?",
+          "answer": "It is excellent for institutional sponsors but sold by quote and designed for firms running many funds with investor relations staff. The fuller emerging sponsor stack, with a portal and unit-level rent data, comes to {{full}} a month at published prices."
+        }
+      ],
+      "guides": [
+        "crowdfunding-investing",
+        "investment-valuation",
+        "ai-underwriting-software"
+      ]
+    },
+    {
+      "slug": "small-residential-landlord",
+      "noun": "a small residential landlord",
+      "title": "Small residential landlord (10 to 100 units)",
+      "headline": "Starter Software Stack for a Small Residential and Multifamily Landlord",
+      "photo": "accounting-finance",
+      "category": "property-management",
+      "seo_title": "Small Landlord Software Stack, 10 to 100 Units",
+      "seo_description": "Software for a self-managing landlord: rent and leases, free bookkeeping, rent comps. Lean {{lean}}/mo, fuller {{full}}/mo at 40 units.",
+      "intro": "At this size the software has three jobs: collect rent and sign leases without chasing anyone, keep books your accountant can use, and price units correctly. All three can start under $20 a month. A full property management system earns its cost when you hire help, pass about 50 to 75 units, or start managing for other owners.",
+      "who": "An owner who self-manages single-family homes and small multifamily buildings, roughly 10 to 100 units, with little or no staff. Totals assume 40 units.",
+      "assumptions": [
+        "40 residential units, self-managed",
+        "Annual billing where it is offered and cheaper",
+        "Applicant-paid screening fees excluded",
+        "US prices before tax"
+      ],
+      "jobs": [
+        {
+          "name": "Leases, rent and listings",
+          "description": "Listing syndication, applications, screening, e-signed leases and online rent."
+        },
+        {
+          "name": "Bookkeeping",
+          "description": "Income and expenses by property and tax-ready reports."
+        },
+        {
+          "name": "Rent pricing",
+          "description": "Comps to set and defend rents at renewal and turnover."
+        },
+        {
+          "name": "Inspections",
+          "description": "Move-in and move-out records with photos for deposit disputes."
+        }
+      ],
+      "tiers": {
+        "start": [
+          {
+            "slug": "rentredi",
+            "job": "Leases, rent and listings",
+            "plan": "Annual plan",
+            "why": "One flat price covers unlimited units, tenants and team members, with rent collection, listings, screening and maintenance requests. There is no per-unit fee, which matters as you grow.",
+            "alternatives": [
+              {
+                "slug": "turbo-tenant",
+                "note": "the Free plan covers listings, screening and rent collection; Essentials is $299/yr at 31 to 60 units"
+              },
+              {
+                "slug": "tenantcloud",
+                "note": "Pro is $50/mo billed annually for up to 60 leases"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 12,
+              "basis": "$12/mo billed annually (Monthly plan is $29.95), unlimited units",
+              "checked": "2026-10-25",
+              "source": "https://rentredi.com/pricing/"
+            }
+          },
+          {
+            "slug": "stessa",
+            "job": "Bookkeeping",
+            "plan": "Essentials (free)",
+            "why": "Free bank feeds, unlimited properties and basic financial reports. Manage ($12/mo billed annually) and Pro ($28/mo billed annually) add more, but most small landlords start fine on the free plan.",
+            "alternatives": [
+              {
+                "slug": "baselane",
+                "note": "free banking-led bookkeeping; Smart is $20/mo on an annual plan"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 0,
+              "basis": "Essentials plan, free, unlimited properties",
+              "checked": "2026-10-25",
+              "source": "https://www.stessa.com/pricing/"
+            }
+          },
+          {
+            "slug": "rentcast",
+            "job": "Rent pricing",
+            "plan": "Free",
+            "why": "Free rent estimates with 5 nearby comps and up to 5 portfolio properties: enough to price a turnover.",
+            "alternatives": [
+              {
+                "slug": "rentometer",
+                "note": "rent comps by address; the vendor site blocks automated checks"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 0,
+              "basis": "Free plan, 5 comps, 5 portfolio properties",
+              "checked": "2026-10-25",
+              "source": "https://www.rentcast.io/pricing"
+            }
+          }
+        ],
+        "add": [
+          {
+            "slug": "buildium",
+            "job": "Leases, rent and listings",
+            "plan": "Essential",
+            "trigger": "you pass about 50 to 75 units, hire staff, or start managing for other owners",
+            "replaces": "rentredi",
+            "why": "Full accounting with owner statements, maintenance workflows and portals. The page lists starting prices only, and the price rises with unit count; Growth starts at $192/mo.",
+            "alternatives": [
+              {
+                "slug": "yardi",
+                "note": "Yardi Breeze is $1 per unit per month with a $100 monthly minimum on an annual agreement"
+              },
+              {
+                "slug": "doorloop",
+                "note": "$2.50 per unit per month on yearly billing, $199/mo minimum"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 62,
+              "from": true,
+              "basis": "Essential starts at $62/mo, billed monthly; price by unit count not published",
+              "checked": "2026-10-25",
+              "source": "https://www.buildium.com/pricing/"
+            }
+          },
+          {
+            "slug": "rentcast",
+            "job": "Rent pricing",
+            "plan": "Pro, billed annually",
+            "trigger": "you track rents on more than 5 properties",
+            "replaces": "rentcast",
+            "why": "20 comps per search and portfolio tracking for 50 or more properties, with rent alerts.",
+            "alternatives": [
+              {
+                "slug": "rentometer",
+                "note": "rent comps by address"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 12,
+              "basis": "$12/mo billed annually ($19 billed monthly)",
+              "checked": "2026-10-25",
+              "source": "https://www.rentcast.io/pricing"
+            }
+          },
+          {
+            "slug": "rentcheck",
+            "job": "Inspections",
+            "plan": "Launch",
+            "trigger": "you inspect every move-in and move-out and want timestamped photos for deposit disputes",
+            "why": "Unlimited inspections and users, with resident-led inspections that save drive time.",
+            "alternatives": [
+              {
+                "slug": "zinspector",
+                "note": "inspection app with a 15-day trial; plan prices are behind sign-up"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 40,
+              "basis": "$1.00 per door per month x 40 units",
+              "checked": "2026-10-25",
+              "source": "https://www.getrentcheck.com/pricing"
+            }
+          }
+        ],
+        "skip": [
+          {
+            "slug": "appfolio",
+            "job": "Property management system",
+            "reason": "Built for property management companies. Core starts at $1.49 per unit with a 50-unit minimum and an unpublished minimum spend, and a self-managing owner pays for owner accounting and leasing tools it does not need yet.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "Core from $1.49 per unit per month; 50-unit minimum and a minimum spend apply",
+              "checked": "2026-10-25",
+              "source": "https://www.appfolio.com/pricing"
+            }
+          },
+          {
+            "slug": "entrata",
+            "job": "Property management system",
+            "reason": "An enterprise multifamily suite sold by quote and built for operators with on-site leasing teams.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; sold by quote",
+              "checked": null,
+              "source": "listing"
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What is the cheapest software setup for a landlord with about 40 units?",
+          "answer": "{{lean}} a month at published prices: RentRedi's annual plan ($12/mo, unlimited units) for rent, leases and listings, Stessa Essentials for free bookkeeping, and RentCast's free plan for rent comps. TurboTenant's Free plan can bring it to $0 if you do not need online lease signing."
+        },
+        {
+          "question": "When should a small landlord move to Buildium or a similar system?",
+          "answer": "When you hire help, pass about 50 to 75 units, or start managing other owners' properties and need owner statements and trust-style accounting. Buildium Essential starts at $62/mo; with Pro rent comps and per-door inspections the fuller stack is {{full}} a month at 40 units."
+        },
+        {
+          "question": "Is AppFolio a good fit for a self-managing landlord?",
+          "answer": "Rarely at this size. AppFolio is built for management companies, starts at $1.49 per unit with a 50-unit minimum and a minimum spend, and its strengths (owner portals, leasing CRM, trust accounting) matter most when you manage for others."
+        }
+      ],
+      "guides": [
+        "property-management",
+        "accounting-finance",
+        "year-end-1099-software-property-managers"
+      ]
+    },
+    {
+      "slug": "growing-property-manager",
+      "noun": "a growing property manager",
+      "title": "Growing property manager (500 to 2,000 units)",
+      "headline": "Starter Software Stack for a Growing Property Management Company",
+      "photo": "property-management",
+      "category": "property-management",
+      "seo_title": "Growing Property Manager Software Stack",
+      "seo_description": "Software for a 500 to 2,000 door fee manager: system of record first, then automation. Lean {{lean}}/mo, fuller {{full}}/mo at 1,000 doors.",
+      "intro": "At this size the property management system is the business: trust accounting, owner statements, leasing and maintenance all run through it, and switching later is painful. Choose it first and carefully. Add process automation and inspection software when growth and staff turnover make consistency the bottleneck.",
+      "who": "A third-party residential manager with roughly 500 to 2,000 doors across single-family and small multifamily, a team of about 8 to 15, and plans to keep adding owners. Totals assume 1,000 doors.",
+      "assumptions": [
+        "1,000 residential doors managed for third-party owners",
+        "Annual commitment where it is offered and cheaper",
+        "Onboarding fees and payment processing excluded",
+        "US prices before tax"
+      ],
+      "jobs": [
+        {
+          "name": "System of record",
+          "description": "Trust accounting, owner and tenant portals, leasing and maintenance in one place."
+        },
+        {
+          "name": "Growth and processes",
+          "description": "Owner leads, onboarding, renewals and turns run as tracked processes."
+        },
+        {
+          "name": "Inspections",
+          "description": "Consistent move-in, move-out and routine inspections with photo evidence."
+        },
+        {
+          "name": "Showings",
+          "description": "Self-guided and agent showings scheduled without phone tag."
+        },
+        {
+          "name": "Maintenance coordination",
+          "description": "Triage, vendor dispatch and resident updates for work orders."
+        }
+      ],
+      "tiers": {
+        "start": [
+          {
+            "slug": "appfolio",
+            "job": "System of record",
+            "plan": "Core",
+            "why": "The most common choice in this band: trust accounting, owner and tenant portals, leasing, maintenance and a large integration marketplace. Plus (from $3.20 per unit) and Max (from $5.00) add automation and AI features.",
+            "alternatives": [
+              {
+                "slug": "doorloop",
+                "note": "One is $2.50 per unit for the first 100 and $1.50 above that on yearly billing, $1,600/mo at 1,000 doors"
+              },
+              {
+                "slug": "rentvine",
+                "note": "as low as $1.50 per unit, with a one-time setup fee"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 1490,
+              "from": true,
+              "basis": "Core from $1.49 per unit per month x 1,000 units; 50-unit minimum and an unpublished minimum spend apply",
+              "checked": "2026-10-25",
+              "source": "https://www.appfolio.com/pricing"
+            }
+          }
+        ],
+        "add": [
+          {
+            "slug": "leadsimple",
+            "job": "Growth and processes",
+            "plan": "One, annual commitment",
+            "trigger": "you grow by winning new owners and want onboarding, renewals and turns tracked as processes",
+            "why": "CRM, process automation, calling and texting for unlimited teammates, priced by door in bands. It complements the system of record; accounting stays in your PM software.",
+            "alternatives": [],
+            "cost": {
+              "monthly_usd": 1684.5,
+              "basis": "$169/mo including 50 doors + 200 doors at $1.99 + 750 doors at $1.49 (annual commitment, billed monthly) = $1,684.50/mo at 1,000 doors",
+              "checked": "2026-10-25",
+              "source": "https://www.leadsimple.com/pricing"
+            }
+          },
+          {
+            "slug": "rentcheck",
+            "job": "Inspections",
+            "plan": "Launch",
+            "trigger": "inspections vary by staff member, or deposit disputes start costing you",
+            "why": "Unlimited inspections and users, resident-led inspections and integrations with major PM systems (AppFolio Realm-X integration is $0.30 per door extra on Launch).",
+            "alternatives": [
+              {
+                "slug": "zinspector",
+                "note": "inspection app; plan prices are behind sign-up"
+              },
+              {
+                "slug": "property-inspect",
+                "note": "from $49/mo for a solo inspector"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 1000,
+              "basis": "$1.00 per door per month x 1,000 doors",
+              "checked": "2026-10-25",
+              "source": "https://www.getrentcheck.com/pricing"
+            }
+          },
+          {
+            "slug": "showmojo",
+            "job": "Showings",
+            "plan": "Pro, unit-based",
+            "trigger": "vacancies pile up because showings depend on someone being free to drive over",
+            "why": "Scheduling, self-showings with lockboxes, syndication and owner reports. The pricing page lists annual plans from $1.30 per unit but does not say per month, so we leave it out of the total; lockbox devices cost extra.",
+            "alternatives": [
+              {
+                "slug": "tenant-turner",
+                "note": "similar unit-based showing plans"
+              }
+            ],
+            "cost": {
+              "monthly_usd": null,
+              "note": "From $1.30 per unit, annual plans (not totaled)",
+              "basis": "Annual plans starting at $1.30 per unit; billing period not stated on the page",
+              "checked": "2026-10-25",
+              "source": "https://hello.showmojo.com/pricing/"
+            }
+          },
+          {
+            "slug": "property-meld",
+            "job": "Maintenance coordination",
+            "plan": "",
+            "trigger": "work orders outgrow one coordinator and residents complain about updates",
+            "why": "Maintenance coordination built for single-family and small multifamily managers, with vendor scheduling and resident updates.",
+            "alternatives": [
+              {
+                "slug": "latchel",
+                "note": "outsourced maintenance coordination, pricing on request"
+              }
+            ],
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; sold by quote",
+              "checked": null,
+              "source": "listing"
+            }
+          }
+        ],
+        "skip": [
+          {
+            "slug": "yardi",
+            "job": "System of record",
+            "reason": "Yardi Voyager is built for institutional owners and large operators, sold by quote, with a real implementation project. Yardi Breeze, Yardi's small-portfolio product at $1 per unit per month (residential, $100 minimum), is a fair alternative to the systems above.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "Voyager: no published price; Breeze is published separately",
+              "checked": "2026-10-25",
+              "source": "https://www.yardibreeze.com/pricing/"
+            }
+          },
+          {
+            "slug": "entrata",
+            "job": "System of record",
+            "reason": "An enterprise multifamily platform sold by quote, aimed at owner-operators with on-site staff rather than fee managers of scattered single-family and small multifamily.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; sold by quote",
+              "checked": null,
+              "source": "listing"
+            }
+          },
+          {
+            "slug": "realpage",
+            "job": "System of record",
+            "reason": "Built for large conventional and affordable multifamily portfolios; quote-only and more platform than a growing fee manager needs.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; sold by quote",
+              "checked": null,
+              "source": "listing"
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What does property management software cost at 1,000 doors?",
+          "answer": "At published starting prices, AppFolio Core is from $1.49 per unit, or {{lean}} a month at 1,000 doors, before its minimum spend and onboarding. DoorLoop One works out to $1,600 a month at 1,000 doors on yearly billing, and Rentvine is advertised from $1.50 per unit. Get written quotes from at least two."
+        },
+        {
+          "question": "What should a growing manager add after the PM system?",
+          "answer": "Process automation for owner growth and onboarding (LeadSimple, $1,684.50 a month at 1,000 doors on an annual commitment) and consistent inspections (RentCheck, $1.00 per door). With both, the stack is {{full}} a month, plus showing and maintenance tools that are priced by quote or unclear units and not totaled."
+        },
+        {
+          "question": "Should a 1,000-door manager move to Yardi Voyager or Entrata?",
+          "answer": "Usually not yet. Those platforms are built for institutional owners and on-site multifamily teams and are sold by quote with long implementations. Revisit when you manage large conventional or affordable communities, not scattered doors."
+        }
+      ],
+      "guides": [
+        "property-management",
+        "year-end-1099-software-property-managers",
+        "accounting-finance"
+      ]
+    },
+    {
+      "slug": "small-developer-land-team",
+      "noun": "a small developer or land team",
+      "title": "Small developer or land acquisition team",
+      "headline": "Starter Software Stack for a Small Developer or Land Acquisition Team",
+      "photo": "site-selection",
+      "category": "site-selection",
+      "seo_title": "Small Developer and Land Team Software Stack",
+      "seo_description": "Software for a small developer: zoning-led site sourcing and free models first, then test fits. Lean {{lean}}/mo, fuller {{full}}/mo.",
+      "intro": "Small development teams win or lose at sourcing: finding parcels that fit before anyone else, and killing bad sites quickly. Spend first on finding and qualifying land. Feasibility studies, verified zoning reports and project controls come later, one trigger at a time.",
+      "who": "A developer or acquisitions team of one to three people sourcing infill or land sites in a handful of counties, with one project in design or construction at a time.",
+      "assumptions": [
+        "2 people",
+        "1 active project",
+        "Monthly billing unless the vendor only offers annual",
+        "US prices before tax"
+      ],
+      "jobs": [
+        {
+          "name": "Site sourcing",
+          "description": "Searching parcels by zoning, size and location, and reaching owners."
+        },
+        {
+          "name": "Field parcel lookups",
+          "description": "Parcel lines and ownership on a phone while you drive sites."
+        },
+        {
+          "name": "Development underwriting",
+          "description": "Land residual, construction budget and returns in a model you control."
+        },
+        {
+          "name": "Project budget and payments",
+          "description": "Budgets, contracts and payment tracking once a project starts."
+        },
+        {
+          "name": "Zoning verification",
+          "description": "Code-level answers on uses, setbacks and height before an LOI."
+        },
+        {
+          "name": "Feasibility and massing",
+          "description": "Fast test fits for unit counts and parking yields."
+        }
+      ],
+      "tiers": {
+        "start": [
+          {
+            "slug": "Plotzy",
+            "job": "Site sourcing",
+            "plan": "Starter",
+            "why": "Nationwide parcel search with zoning filters, owner contact lookup, folders, notes and CSV export, so you can sweep a county for sites that fit before you drive it. Caveats: it is in beta at pre-launch pricing, owner contacts are metered (25 a month on Starter), and it has no comps or debt data. Production ($300/mo) raises owner contacts to 100 a month and adds Zoning AI chat.",
+            "alternatives": [
+              {
+                "slug": "regrid",
+                "note": "nationwide parcel data app and API; plan prices load only after sign-in"
+              },
+              {
+                "slug": "land-id",
+                "note": "parcel and owner maps from $7 per user per month billed annually, best for rural land"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 180,
+              "basis": "Starter $180/mo billed monthly, about 1,000 parcel lookups and 25 owner contact lookups a month; 7-day free trial, no card",
+              "checked": "2026-10-25",
+              "source": "https://plotzy.ai/"
+            }
+          },
+          {
+            "slug": "landglide",
+            "job": "Field parcel lookups",
+            "plan": "Personal, billed annually, 2 users",
+            "why": "Parcel lines and owner names on your phone, with unlimited lookups. Cheap enough that everyone who drives sites should have it.",
+            "alternatives": [
+              {
+                "slug": "land-id",
+                "note": "$7 per user per month billed annually"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 16.67,
+              "basis": "$99.99 per year per user = $8.33/mo x 2 users ($9.99/mo each billed monthly)",
+              "checked": "2026-10-25",
+              "source": "https://landglide.com/pricing/"
+            }
+          },
+          {
+            "slug": "adventures-in-cre",
+            "job": "Development underwriting",
+            "plan": "A.CRE model library",
+            "why": "Free development and land residual models in Excel. Lenders and equity partners will want to see your assumptions, and a spreadsheet keeps them visible.",
+            "alternatives": [
+              {
+                "slug": "refm",
+                "note": "Excel development models, one-time purchase"
+              },
+              {
+                "slug": "top-shelf-models",
+                "note": "Excel models, one-time purchase"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 0,
+              "basis": "Free models, per our listing record; the vendor site blocks automated checks",
+              "checked": null,
+              "source": "listing"
+            }
+          },
+          {
+            "slug": "mastt",
+            "job": "Project budget and payments",
+            "plan": "Starter (free)",
+            "why": "Your first project is free, with unlimited users, budgets and contracts and up to 10 tracked payments: enough to replace a budget spreadsheet before construction gets busy.",
+            "alternatives": [
+              {
+                "slug": "northspyre",
+                "note": "owner-side development management, pricing on request"
+              },
+              {
+                "slug": "jobtread",
+                "note": "builder-side project management, $159/mo billed annually"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 0,
+              "basis": "Starter plan free, first project, up to 10 payments",
+              "checked": "2026-10-25",
+              "source": "https://www.mastt.com/pricing"
+            }
+          }
+        ],
+        "add": [
+          {
+            "slug": "zoneomics",
+            "job": "Zoning verification",
+            "plan": "Essentials",
+            "trigger": "you need code-level zoning answers before an LOI more often than you can call the planning desk",
+            "why": "25 zoning searches a month and one analyst-verified zoning report. Advanced ($279/mo) gives 150 searches. Annual billing is advertised at 20% off, but the annual price is not shown.",
+            "alternatives": [
+              {
+                "slug": "gridics",
+                "note": "zoning and parcel analytics, pricing on request"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 92,
+              "basis": "Essentials $92/mo billed monthly, 1 user, 25 searches",
+              "checked": "2026-10-25",
+              "source": "https://www.zoneomics.com/pricing"
+            }
+          },
+          {
+            "slug": "testfit",
+            "job": "Feasibility and massing",
+            "plan": "Parking Solver",
+            "trigger": "you test more than a couple of sites a month and need unit counts and parking yields fast",
+            "why": "Unlimited users at a monthly price. Site Intelligence (+$150/mo) and Pro Forma (+$170/mo) are add-ons; Site Solver, the full building configurator, starts at $15,000 a year.",
+            "alternatives": [
+              {
+                "slug": "autodesk-forma",
+                "note": "$185/mo or $1,500/yr per our listing; the vendor site blocks automated checks"
+              },
+              {
+                "slug": "giraffe",
+                "note": "feasibility and site analysis, self-serve price not published"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 195,
+              "basis": "Parking Solver $195/mo billed monthly, unlimited users, no add-ons",
+              "checked": "2026-10-25",
+              "source": "https://www.testfit.io/pricing"
+            }
+          },
+          {
+            "slug": "mastt",
+            "job": "Project budget and payments",
+            "plan": "Professional",
+            "trigger": "a project moves into construction with contracts, change orders and payment claims to track",
+            "replaces": "mastt",
+            "why": "Cost, risk, schedule and dashboard modules with flexible month-to-month licences.",
+            "alternatives": [
+              {
+                "slug": "northspyre",
+                "note": "pricing on request"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 165,
+              "basis": "$165 per project per month on average, billed monthly, 1 active project",
+              "checked": "2026-10-25",
+              "source": "https://www.mastt.com/pricing"
+            }
+          }
+        ],
+        "skip": [
+          {
+            "slug": "procore",
+            "job": "Construction management",
+            "reason": "Priced on annual construction volume and billed upfront each year. It is your general contractor's system; owner-side teams usually get access through the GC's account.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; annual fee by construction volume",
+              "checked": "2026-10-25",
+              "source": "https://www.procore.com/pricing"
+            }
+          },
+          {
+            "slug": "northspyre",
+            "job": "Project budget and payments",
+            "reason": "Strong owner-side development management that pays off across several concurrent projects. With one project at a time, a lighter tool or a good spreadsheet does the job.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; Pro and Enterprise are contact-us",
+              "checked": "2026-10-25",
+              "source": "https://www.northspyre.com/pricing"
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What software does a small land acquisition team need first?",
+          "answer": "A way to search parcels by zoning and reach owners, a phone app for parcel lines in the field, and a model you trust. At published prices, Plotzy Starter ($180/mo), LandGlide for two people ($16.67/mo billed annually) and the free A.CRE models come to {{lean}} a month, with Mastt's free plan for the first project budget."
+        },
+        {
+          "question": "Is TestFit worth it for a small developer?",
+          "answer": "Once you test more than a couple of sites a month. Parking Solver is $195/mo with unlimited users; before that, a civil engineer's test fit on your best site may be the better spend. With TestFit, verified zoning searches and project controls, the fuller stack is {{full}} a month."
+        },
+        {
+          "question": "Do I need Procore as a developer?",
+          "answer": "Usually not on the owner side. Procore is priced on annual construction volume and is typically the contractor's platform; owners get project access through the GC. Owner-side budget and payment tracking can live in a lighter tool."
+        }
+      ],
+      "guides": [
+        "site-selection",
+        "construction-development",
+        "data-analytics"
+      ]
+    },
+    {
+      "slug": "small-commercial-landlord",
+      "noun": "a small commercial landlord",
+      "title": "Small commercial landlord",
+      "headline": "Starter Software Stack for a Small Commercial Landlord",
+      "photo": "listing-services",
+      "category": "property-management",
+      "seo_title": "Small Commercial Landlord Software Stack",
+      "seo_description": "Software for an owner of a few office, retail or industrial buildings: lease and CAM accounting first. Lean {{lean}}/mo, fuller {{full}}/mo.",
+      "intro": "Commercial leases are where small landlords lose money quietly: missed escalations, CAM that never gets reconciled, options nobody tracked. The first purchase is a system built around commercial leases and recoveries. Maintenance software and lease visibility tools follow when a building engineer, a lender or a broker asks for them.",
+      "who": "An owner-operator of a few office, retail or light industrial buildings, roughly 20 to 50 tenant suites, keeping books in QuickBooks or similar, with a part-time building engineer. Totals assume 4 buildings and 30 suites.",
+      "assumptions": [
+        "4 buildings, 30 tenant suites",
+        "2 maintenance users",
+        "Annual billing where it is offered and cheaper",
+        "Onboarding fees excluded",
+        "US prices before tax"
+      ],
+      "jobs": [
+        {
+          "name": "Leases, rent and CAM",
+          "description": "Commercial lease terms, escalations, recoveries and rent collection."
+        },
+        {
+          "name": "Work orders and maintenance",
+          "description": "Tenant requests and preventive maintenance with a history per building."
+        },
+        {
+          "name": "Lease visibility",
+          "description": "Stacking plans, expirations and critical dates to share with brokers and lenders."
+        }
+      ],
+      "tiers": {
+        "start": [
+          {
+            "slug": "stratafolio",
+            "job": "Leases, rent and CAM",
+            "plan": "Essential",
+            "why": "Built for commercial owners: lease tracking, rent, CAM and recoveries on top of QuickBooks. It requires QuickBooks, so it suits owners who already keep their books there. A one-time onboarding fee applies and is not published.",
+            "alternatives": [
+              {
+                "slug": "doorloop",
+                "note": "handles CAM charges; $199/mo minimum on yearly billing"
+              },
+              {
+                "slug": "yardi",
+                "note": "Yardi Breeze commercial is $2 per unit per month with a $200 monthly minimum on an annual agreement"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 210,
+              "basis": "$160/mo base including 5 units + 25 more units at $2 = $210/mo, billed annually",
+              "checked": "2026-10-25",
+              "source": "https://stratafolio.com/pricing/"
+            }
+          }
+        ],
+        "add": [
+          {
+            "slug": "upkeep",
+            "job": "Work orders and maintenance",
+            "plan": "Essential, 2 users",
+            "trigger": "you have a building engineer or several vendors, and work orders live in texts and email",
+            "why": "Work orders and preventive maintenance schedules with an asset history per building. Premium ($55 per user per month) is the vendor's usual entry point for larger teams.",
+            "alternatives": [
+              {
+                "slug": "limble-cmms",
+                "note": "maintenance software, prices shown through a calculator"
+              },
+              {
+                "slug": "building-engines",
+                "note": "commercial operations platform, pricing on request"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 48,
+              "basis": "$24 per user per month x 2 users; billing period not stated on the page",
+              "checked": "2026-10-25",
+              "source": "https://upkeep.com/pricing/"
+            }
+          },
+          {
+            "slug": "stackplanner",
+            "job": "Lease visibility",
+            "plan": "Starter, billed annually",
+            "trigger": "brokers, lenders or partners keep asking for stacking plans and expiration schedules",
+            "why": "Visual stacking plans, expirations and critical dates for up to 5 properties and 3 users. It is a visibility tool, not accounting, and it launched in the US recently.",
+            "alternatives": [
+              {
+                "slug": "prophia",
+                "note": "AI lease data and abstraction, pricing on request"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 99,
+              "basis": "$99/mo billed annually ($114 billed monthly), up to 5 properties and 3 users",
+              "checked": "2026-10-25",
+              "source": "https://stackplanner.io/pricing"
+            }
+          }
+        ],
+        "skip": [
+          {
+            "slug": "mri-software",
+            "job": "Leases, rent and CAM",
+            "reason": "MRI and Yardi's commercial suites are the institutional standards, sold by quote with real implementation projects. A four-building owner rarely earns back the cost.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; sold by quote",
+              "checked": null,
+              "source": "listing"
+            }
+          },
+          {
+            "slug": "vts",
+            "job": "Lease visibility",
+            "reason": "Leasing and asset management for large office and industrial portfolios; quote only and built for teams with dedicated leasing and asset managers.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; sold by quote",
+              "checked": null,
+              "source": "listing"
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What software does a small commercial landlord need?",
+          "answer": "A system built for commercial leases, escalations and CAM recoveries. StrataFolio Essential is $210 a month billed annually at 30 suites, which is the whole lean stack at {{lean}}. DoorLoop and Yardi Breeze commercial are published alternatives with $199 and $200 monthly minimums."
+        },
+        {
+          "question": "Can residential landlord software handle commercial leases?",
+          "answer": "Some can, but check CAM reconciliation, percentage rent and escalations before you commit. Tools built for single-family rentals often treat every lease as a fixed monthly rent, which is where commercial owners lose recoveries."
+        },
+        {
+          "question": "What does the fuller commercial landlord stack add?",
+          "answer": "Work order software for two users (UpKeep Essential, $48 a month) once a building engineer or several vendors are involved, and stacking plans for brokers and lenders (Stackplanner Starter, $99 a month billed annually). Together that is {{full}} a month."
+        }
+      ],
+      "guides": [
+        "property-management",
+        "cam-reconciliation-software",
+        "ai-lease-abstraction-software",
+        "property-tax-appeal-software"
+      ]
+    },
+    {
+      "slug": "acquisitions-analyst",
+      "noun": "an acquisitions analyst",
+      "title": "Acquisitions and investment analyst",
+      "headline": "Starter Software Stack for an Acquisitions Analyst at a Small Firm",
+      "photo": "investment-valuation",
+      "category": "investment-valuation",
+      "seo_title": "Acquisitions Analyst Software Stack",
+      "seo_description": "An acquisitions analyst's stack: free models, rent roll extraction, rent comps and owner records. Lean {{lean}}/mo, fuller {{full}}/mo.",
+      "intro": "An analyst's week is screening deals, cleaning up rent rolls and T-12s, and backing up rent and value assumptions. Cheap tools now handle the tedious parts. The expensive data platforms are worth it only once deal volume or asset type demands them.",
+      "who": "The one analyst, or the principal doing the analysis, at a small investment firm buying multifamily and small commercial assets, screening a few deals a week.",
+      "assumptions": [
+        "1 analyst seat",
+        "Annual billing where it is offered and cheaper",
+        "US prices before tax"
+      ],
+      "jobs": [
+        {
+          "name": "Underwriting model",
+          "description": "Acquisition models your partners and lenders can audit."
+        },
+        {
+          "name": "Rent roll and T-12 extraction",
+          "description": "Turning broker PDFs into clean spreadsheets fast."
+        },
+        {
+          "name": "Rent comps",
+          "description": "Market rents to test the pro forma."
+        },
+        {
+          "name": "Ownership and property records",
+          "description": "Owners, sales history and property details for screening and off-market outreach."
+        },
+        {
+          "name": "Lease and sale comps",
+          "description": "Verified commercial comps for office, retail and industrial."
+        }
+      ],
+      "tiers": {
+        "start": [
+          {
+            "slug": "adventures-in-cre",
+            "job": "Underwriting model",
+            "plan": "A.CRE model library",
+            "why": "Free acquisition models for multifamily, office, retail and industrial in Excel, the format partners and lenders expect.",
+            "alternatives": [
+              {
+                "slug": "theanalyst-pro",
+                "note": "$699.99 per year or $89.99/mo plus setup"
+              },
+              {
+                "slug": "propertymetrics",
+                "note": "web-based underwriting, pricing on request"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 0,
+              "basis": "Free models, per our listing record; the vendor site blocks automated checks",
+              "checked": null,
+              "source": "listing"
+            }
+          },
+          {
+            "slug": "cre-data-extractor",
+            "job": "Rent roll and T-12 extraction",
+            "plan": "Pro",
+            "why": "Converts rent roll PDFs to spreadsheets, 200 pages a month. The free plan's 15 pages total is enough to test it on a real offering memorandum first.",
+            "alternatives": [
+              {
+                "slug": "clik-ai",
+                "note": "AI underwriting and extraction, pricing on request"
+              },
+              {
+                "slug": "lobby-cre",
+                "note": "AI deal screening, pricing on request"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 20,
+              "basis": "Pro $20/mo billed monthly, 200 rent roll pages a month",
+              "checked": "2026-10-25",
+              "source": "https://credataextractor.com/pricing"
+            }
+          },
+          {
+            "slug": "rentcast",
+            "job": "Rent comps",
+            "plan": "Pro, billed annually",
+            "why": "Residential rent estimates with 20 comps per search; enough to check a multifamily pro forma at screening stage.",
+            "alternatives": [
+              {
+                "slug": "rentometer",
+                "note": "rent comps by address; the vendor site blocks automated checks"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 12,
+              "basis": "$12/mo billed annually ($19 billed monthly)",
+              "checked": "2026-10-25",
+              "source": "https://www.rentcast.io/pricing"
+            }
+          },
+          {
+            "slug": "propertyshark",
+            "job": "Ownership and property records",
+            "plan": "Pro, billed annually",
+            "why": "Owners, sales history, property reports and list building, with deepest coverage in large metros.",
+            "alternatives": [
+              {
+                "slug": "reonomy",
+                "note": "owner and debt data, pricing on request"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 50,
+              "basis": "$599.95 per year billed annually = $50.00/mo, 1 seat; New York State price, other regions differ",
+              "checked": "2026-10-25",
+              "source": "https://www.propertyshark.com/mason/Subscriptions/"
+            }
+          }
+        ],
+        "add": [
+          {
+            "slug": "hellodata",
+            "job": "Rent comps",
+            "plan": "Standard, 1 user",
+            "trigger": "you underwrite multifamily most weeks and need unit-level comps and concessions",
+            "replaces": "rentcast",
+            "why": "Unit-level multifamily rent surveys, trends and exports, with 10 saved surveys per user.",
+            "alternatives": [
+              {
+                "slug": "rentcast",
+                "note": "keep it for single-family and small-property checks"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 300,
+              "basis": "$300 per user per month, billed monthly, 1 user",
+              "checked": "2026-10-25",
+              "source": "https://www.hellodata.ai/pricing"
+            }
+          },
+          {
+            "slug": "compstak",
+            "job": "Lease and sale comps",
+            "plan": "Enterprise",
+            "trigger": "you buy office, industrial or retail and need verified lease comps for every deal",
+            "why": "Verified lease and sale comps by market. Firms that do not contribute comps to the free Exchange buy Enterprise access, which is priced by quote.",
+            "alternatives": [
+              {
+                "slug": "costar",
+                "note": "the broadest comps database, pricing on request"
+              }
+            ],
+            "cost": {
+              "monthly_usd": null,
+              "basis": "Enterprise pricing on request, per our listing record",
+              "checked": null,
+              "source": "listing"
+            }
+          }
+        ],
+        "skip": [
+          {
+            "slug": "argus",
+            "job": "Underwriting model",
+            "reason": "ARGUS Enterprise matters when you buy multi-tenant office or retail with lease-by-lease cash flows and your lenders or partners expect it. For multifamily and simple net lease deals, Excel is standard. Pricing is tiered and quoted.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; pricing is tiered and quoted",
+              "checked": "2026-10-25",
+              "source": "https://www.altusgroup.com/argus/argus-enterprise/"
+            }
+          },
+          {
+            "slug": "dealpath",
+            "job": "Deal pipeline",
+            "reason": "Pipeline software pays off when a team screens hundreds of deals a year. One analyst can track a pipeline in a spreadsheet or the firm's CRM.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; sold by quote",
+              "checked": null,
+              "source": "listing"
+            }
+          },
+          {
+            "slug": "costar",
+            "job": "Lease and sale comps",
+            "reason": "The broadest comps and analytics platform, sold by quote by market and seat. Worth it when your deal flow and asset types need it every day; until then, targeted comps sources cost less.",
+            "cost": {
+              "monthly_usd": null,
+              "basis": "No published price; sold by quote",
+              "checked": null,
+              "source": "listing"
+            }
+          }
+        ]
+      },
+      "faq": [
+        {
+          "question": "What software does an acquisitions analyst at a small firm need?",
+          "answer": "Free Excel models such as the A.CRE library, a rent roll extractor (CRE Data Extractor Pro, $20/mo), rent comps (RentCast Pro, $12/mo billed annually) and owner records (PropertyShark Pro, $50/mo billed annually). That lean stack is {{lean}} a month at published prices."
+        },
+        {
+          "question": "Do I need ARGUS to underwrite deals?",
+          "answer": "Only for multi-tenant office and retail where lenders and partners expect ARGUS cash flows. Multifamily and simple net lease deals are underwritten in Excel almost everywhere, and ARGUS pricing is quoted."
+        },
+        {
+          "question": "What does the fuller analyst stack add?",
+          "answer": "Unit-level multifamily comps (HelloData Standard, $300 per user per month) in place of RentCast, and verified commercial lease comps from CompStak Enterprise, which is priced by quote and not totaled. The published-price total is {{full}} a month."
+        }
+      ],
+      "guides": [
+        "investment-valuation",
+        "ai-underwriting-software",
+        "data-analytics"
+      ]
+    }
+  ]
+}
