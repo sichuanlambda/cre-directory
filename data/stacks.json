@@ -182,10 +182,6 @@
               {
                 "slug": "reonomy",
                 "note": "owner and debt data built for prospecting at volume, pricing on request"
-              },
-              {
-                "slug": "Plotzy",
-                "note": "if you broker land or development sites: parcel search by zoning with metered owner contacts, from $180/mo, in beta"
               }
             ],
             "cost": {
@@ -214,6 +210,29 @@
               "checked": "2026-10-25",
               "source": "https://www.crebuilder.com/pricing"
             }
+          },
+          {
+            "slug": "Plotzy",
+            "job": "Land and development prospecting",
+            "plan": "Starter",
+            "trigger": "you take land, development or redevelopment assignments and need parcels that match a buyer's zoning, size and use requirements",
+            "why": "Search parcels nationwide by zoning, lot size and use, see the recorded owner, look up owner contacts, and save sites to folders with notes and CSV export, so a buyer's criteria become a call list in an afternoon. Caveats: it is in beta at pre-launch pricing, owner contacts are metered (25 a month on Starter, 100 on Production at $300/mo), and it has no comps or debt data.",
+            "alternatives": [
+              {
+                "slug": "regrid",
+                "note": "nationwide parcel data app and API; plan prices load only after sign-in"
+              },
+              {
+                "slug": "propertyshark",
+                "note": "recorded owners and property reports, strongest in large metros"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 180,
+              "basis": "Starter $180/mo billed monthly, about 1,000 parcel lookups and 25 owner contact lookups a month; 7-day free trial, no card",
+              "checked": "2026-10-25",
+              "source": "https://plotzy.ai/"
+            }
           }
         ],
         "skip": [
@@ -226,7 +245,8 @@
               "basis": "No published price; sold by quote",
               "checked": null,
               "source": "listing"
-            }
+            },
+            "alternatives": []
           },
           {
             "slug": "reonomy",
@@ -237,7 +257,8 @@
               "basis": "No published price on the pricing page; monthly and annual plans by sign-up or sales",
               "checked": "2026-10-25",
               "source": "https://www.reonomy.com/pricing/"
-            }
+            },
+            "alternatives": []
           }
         ]
       },
@@ -252,7 +273,7 @@
         },
         {
           "question": "What does the fuller solo broker stack add?",
-          "answer": "Owner research (PropertyShark Pro, $50/mo billed annually) once you prospect beyond buildings you know, and CREbuilder Pro ($69/mo billed annually) once you outgrow 3 marketing documents. That brings the stack to {{full}} a month."
+          "answer": "Owner research (PropertyShark Pro, $50/mo billed annually) once you prospect beyond buildings you know, and CREbuilder Pro ($69/mo billed annually) once you outgrow 3 marketing documents, plus Plotzy Starter ($180/mo) if you take land or development assignments. That brings the stack to {{full}} a month."
         }
       ],
       "guides": [
@@ -401,10 +422,6 @@
               {
                 "slug": "reonomy",
                 "note": "pricing on request"
-              },
-              {
-                "slug": "Plotzy",
-                "note": "for land and development site teams: zoning-filtered parcel search with metered owner contacts, from $180/mo, in beta"
               }
             ],
             "cost": {
@@ -432,6 +449,29 @@
               "checked": "2026-10-25",
               "source": "https://firmroom.com/pricing"
             }
+          },
+          {
+            "slug": "Plotzy",
+            "job": "Land and development prospecting",
+            "plan": "Starter, 1 seat for the land or development lead",
+            "trigger": "the team builds a land, industrial outdoor storage or development practice and needs a repeatable way to source sites for buyers",
+            "why": "One seat for whoever runs land and development deals: zoning-aware parcel search across 3,200+ counties, owner contacts, folders and CSV export into the team CRM. Caveats: it is in beta at pre-launch pricing, owner contacts are metered (25 a month on Starter, 100 on Production at $300/mo), and it has no comps or debt data.",
+            "alternatives": [
+              {
+                "slug": "regrid",
+                "note": "nationwide parcel data app and API; plan prices load only after sign-in"
+              },
+              {
+                "slug": "land-id",
+                "note": "parcel and owner maps from $7 per user per month billed annually, best for rural land"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 180,
+              "basis": "Starter $180/mo billed monthly, about 1,000 parcel lookups and 25 owner contact lookups a month; 7-day free trial, no card",
+              "checked": "2026-10-25",
+              "source": "https://plotzy.ai/"
+            }
           }
         ],
         "skip": [
@@ -444,7 +484,8 @@
               "basis": "No published price; sold by quote",
               "checked": null,
               "source": "listing"
-            }
+            },
+            "alternatives": []
           },
           {
             "slug": "dealcloud",
@@ -455,7 +496,8 @@
               "basis": "No published price; sold by quote",
               "checked": null,
               "source": "listing"
-            }
+            },
+            "alternatives": []
           }
         ]
       },
@@ -466,7 +508,7 @@
         },
         {
           "question": "Should every agent get their own data subscription?",
-          "answer": "Usually not at first. Two dedicated research seats, run by the people who build call lists, tend to get used more than ten seats that sit idle. The fuller stack adds two PropertyShark Pro seats and a FirmRoom deal room for {{full}} a month in total."
+          "answer": "Usually not at first. Two dedicated research seats, run by the people who build call lists, tend to get used more than ten seats that sit idle. The fuller stack adds two PropertyShark Pro seats, a FirmRoom deal room and one Plotzy seat for the land or development lead, for {{full}} a month in total."
         },
         {
           "question": "Is Buildout worth it for a team?",
@@ -1635,6 +1677,29 @@
               "checked": null,
               "source": "listing"
             }
+          },
+          {
+            "slug": "Plotzy",
+            "job": "Site and zoning screening",
+            "plan": "Starter",
+            "trigger": "your firm buys land, ground-up or value-add sites where zoning decides whether the deal works",
+            "why": "Screen sites by zoning designation, lot size and use before you build a model, and pull owner contacts for off-market outreach. Two-level zoning on every parcel answers the first question an investment committee asks about a development site. Caveats: it is in beta at pre-launch pricing, owner contacts are metered (25 a month on Starter, 100 on Production at $300/mo), and it has no comps or debt data.",
+            "alternatives": [
+              {
+                "slug": "zoneomics",
+                "note": "code-level zoning answers and reports, web plans from $92/mo"
+              },
+              {
+                "slug": "regrid",
+                "note": "nationwide parcel data with a zoning add-on"
+              }
+            ],
+            "cost": {
+              "monthly_usd": 180,
+              "basis": "Starter $180/mo billed monthly, about 1,000 parcel lookups and 25 owner contact lookups a month; 7-day free trial, no card",
+              "checked": "2026-10-25",
+              "source": "https://plotzy.ai/"
+            }
           }
         ],
         "skip": [
@@ -1647,7 +1712,8 @@
               "basis": "No published price; pricing is tiered and quoted",
               "checked": "2026-10-25",
               "source": "https://www.altusgroup.com/argus/argus-enterprise/"
-            }
+            },
+            "alternatives": []
           },
           {
             "slug": "dealpath",
@@ -1658,7 +1724,8 @@
               "basis": "No published price; sold by quote",
               "checked": null,
               "source": "listing"
-            }
+            },
+            "alternatives": []
           },
           {
             "slug": "costar",
@@ -1669,7 +1736,8 @@
               "basis": "No published price; sold by quote",
               "checked": null,
               "source": "listing"
-            }
+            },
+            "alternatives": []
           }
         ]
       },
@@ -1684,7 +1752,7 @@
         },
         {
           "question": "What does the fuller analyst stack add?",
-          "answer": "Unit-level multifamily comps (HelloData Standard, $300 per user per month) in place of RentCast, and verified commercial lease comps from CompStak Enterprise, which is priced by quote and not totaled. The published-price total is {{full}} a month."
+          "answer": "Unit-level multifamily comps (HelloData Standard, $300 per user per month) in place of RentCast, and verified commercial lease comps from CompStak Enterprise, which is priced by quote and not totaled, plus Plotzy Starter ($180/mo) for zoning-led site screening if your firm buys land or development sites. The published-price total is {{full}} a month."
         }
       ],
       "guides": [

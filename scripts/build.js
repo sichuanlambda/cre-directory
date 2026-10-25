@@ -1765,6 +1765,27 @@ function injectHomeComparisons() {
 }
 injectHomeComparisons();
 
+// Homepage: starter stacks by role, with current lean / fuller totals from data/stacks.json.
+function injectHomeStacks() {
+  const roles = STACKS.roles || [];
+  if (!roles.length) return 0;
+  const card = r => {
+    const t = stackTotals(r), ph = PHOTOS[r.photo];
+    return `<a class="product-card product-card-link" href="${stackPath(r.slug)}" style="display:flex;flex-direction:column;gap:10px">
+          ${ph ? `<img src="${ph.src_small}" alt="" loading="lazy" width="800" height="450" style="display:block;width:100%;height:120px;object-fit:cover;border-radius:8px">` : ''}
+          <h3 style="margin:0;font-size:16px">${esc(r.title)}</h3>
+          <div class="tagline" style="margin:0">Lean <strong>${totalText(t.lean, t.leanFrom)}/mo</strong> · Fuller <strong>${totalText(t.full, t.fullFrom)}/mo</strong></div>
+        </a>`;
+  };
+  return injectBetween('index.html', '<!-- HOME-STACKS:START -->', '<!-- HOME-STACKS:END -->', `
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px">
+        ${roles.map(card).join('\n        ')}
+      </div>
+      <p style="margin:16px 0 0;font-size:14px"><a href="${stackPath()}">Compare every starter stack →</a></p>
+      `) ? roles.length : 0;
+}
+injectHomeStacks();
+
 function injectHomeAlternatives() {
   return injectBetween('index.html', '<!-- HOME-ALTERNATIVES:START -->', '<!-- HOME-ALTERNATIVES:END -->', `
       ${altChipsHTML()}
