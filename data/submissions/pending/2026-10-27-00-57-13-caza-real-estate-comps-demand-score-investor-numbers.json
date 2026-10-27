@@ -1,0 +1,15 @@
+{
+  "tool_name": "Caza: Real Estate Comps, Demand Score & Investor Numbers",
+  "website": "https://usecaza.com",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Investment & Valuation, Data & Analytics",
+  "description": "Cap rate, cash flow, GRM and DSCR on Zillow listings, plus comps and a buyer-demand score. Free right now.",
+  "pricing": "Free right now. No account required.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "Caza is a Chrome extension for investors who size up deals while browsing Zillow listings. It adds investor numbers to the listing: cap rate, cash flow, GRM and DSCR, alongside sales comps and rental comps, with every input labeled as reported or assumed. A 0 to 100 buyer-demand score shows how much buyer attention a listing is getting, and client-ready PDFs can be exported. To be upfront, Caza is residential-first: it covers houses, condos and multifamily buildings listed on Zillow, not office, retail or industrial assets. It may suit small residential investors and the agents who serve them. Everything runs in the browser with no account and no servers. Free right now.\r\nStore listing: https://chromewebstore.google.com/detail/oojoopmelbnbddhjmemdggbkeflhjnpk?utm_source=cresoftware&utm_medium=directory&utm_campaign=launch-2-8-1",
+  "screenshot_urls": "",
+  "submitted_at": "2026-10-27T00:57:13.203Z",
+  "source": "web-form",
+  "status": "pending"
+}
