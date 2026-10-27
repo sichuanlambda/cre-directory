@@ -1,0 +1,15 @@
+{
+  "tool_name": "AutoCoder.cc",
+  "website": "https://autocoder.cc",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "CRM & Marketing",
+  "description": "AI-powered no-code platform for building and deploying full-stack applications from natural-language prompts.",
+  "pricing": "Freemium",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "AutoCoder is a browser-based, AI-powered software development platform that transforms natural-language ideas into functional, production-ready applications. Users describe what they want to build, and AutoCoder generates the frontend interface, backend APIs, business logic, database structure, user authentication, data storage, and real-time features.\r\nThe platform supports the complete development process in one workspace. Users can preview generated applications, request changes through chat, and customize text, images, colors, and layouts using a visual editor. Version history allows previous changes to be restored, while integrated deployment makes it possible to publish projects on an AutoCoder subdomain or a connected custom domain. Paid plans also provide source-code export for independent hosting and continued development.\r\nAutoCoder is designed for startup founders, product managers, designers, agencies, small businesses, and independent developers. It can create SaaS products, MVPs, CRM systems, dashboards, booking platforms, marketplaces, internal tools, websites, and customer portals. By combining AI code generation, visual editing, hosting, and deployment, AutoCoder helps users launch software faster and with less technical complexity.",
+  "screenshot_urls": "file:///Users/a123/Desktop/20260912-134102.png",
+  "submitted_at": "2026-10-27T10:50:55.964Z",
+  "source": "web-form",
+  "status": "pending"
+}
