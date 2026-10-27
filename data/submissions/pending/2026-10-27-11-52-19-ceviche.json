@@ -1,0 +1,15 @@
+{
+  "tool_name": "Ceviche",
+  "website": "https://www.ceviche.ai/?utm_source=cresoftware&utm_medium=listing",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Investment & Valuation, Accounting & Finance, AI & Automation",
+  "description": "Fund expense allocation software for PE, VC, private credit and real estate fund finance teams.",
+  "pricing": "One annual subscription, priced on your entity structure and allocation setup. No implementation fee, not per user, not based on AUM. A free 2-week sandbox on your own invoices, under an NDA.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "Ceviche is an AI that automates fund expense allocation for PE and VC firms: it reads every invoice from the AP tools a firm already uses, splits it across the management company, the funds and the SPVs by the rules the team approves, and posts the entries to the general ledger. Finance teams use it to get their management companies reimbursed faster, pull a detailed list of all expenses charged to their funds, with the pro-rata breakdown and methodology behind each one, in one click when the SEC asks, and move their allocations out of Excel, all through Ceviche. Built for real estate, PE, VC and credit fund finance teams; integrates with Ramp, Bill.com, Brex, Expensify, SAP Concur, QuickBooks Online, NetSuite and Sage Intacct. Contact: Matt Cheung, CEO.",
+  "screenshot_urls": "",
+  "submitted_at": "2026-10-27T11:52:19.923Z",
+  "source": "web-form",
+  "status": "pending"
+}
