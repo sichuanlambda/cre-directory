@@ -1,0 +1,15 @@
+{
+  "tool_name": "IziRento",
+  "website": "https://izirento.com",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Property Management",
+  "description": "Utility bills and rental records for private landlords",
+  "pricing": "Currently free to use; paid plans are not available yet.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "IziRento is an early-stage web app for private landlords to keep records per rental: utility bills, basic rent, deposit and meter-reading records, and income, arrears and utilities totals. It only keeps records; it doesn't collect rent or protect deposits.",
+  "screenshot_urls": "",
+  "submitted_at": "2026-11-01T00:01:38.267Z",
+  "source": "web-form",
+  "status": "pending"
+}
