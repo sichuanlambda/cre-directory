@@ -1,0 +1,33 @@
+name: IndexNow
+# After a push to main changes the sitemap, wait for GitHub Pages to serve it, then tell IndexNow
+# (Bing and partners) which URLs are new or changed. Manual run with "all" submits every URL.
+on:
+  push:
+    branches: [main]
+    paths: ['sitemap.xml']
+  workflow_dispatch:
+    inputs:
+      all:
+        description: 'Submit every sitemap URL'
+        type: boolean
+        default: false
+concurrency: indexnow
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Wait for the deployed sitemap to match this commit
+        run: |
+          for i in $(seq 1 40); do
+            if curl -fsSL "https://cresoftware.tech/sitemap.xml?ts=$(date +%s)" | cmp -s - sitemap.xml; then echo "live"; exit 0; fi
+            sleep 15
+          done
+          echo "Live sitemap never matched; pinging anyway"
+      - name: Ping IndexNow
+        run: node scripts/indexnow.js ${{ github.event.inputs.all == 'true' && '--all' || '' }}
