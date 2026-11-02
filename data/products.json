@@ -348,13 +348,12 @@
     "url": "https://www.apto.com",
     "logo_url": "",
     "headline": "Commercial real estate software solution",
-    "description": "Apto was a CRM and deal management platform purpose-built for commercial real estate brokers, providing tools for contact management, deal tracking, property data, and commission management. Note: The Apto website is no longer accessible, suggesting the product may have been discontinued or acquired. Apto was known for being one of the first CRMs designed specifically for CRE brokers, built on the Salesforce platform, and offering integrations with major CRE data providers.",
-    "short_description": "Commercial real estate software platform.",
+    "description": "Apto is a CRM and deal management platform for commercial real estate brokers, built on the Salesforce platform, with contact management, deal tracking, property data and commission management. Buildout acquired Apto in January 2022. Buildout says Apto remains supported for existing customers but is no longer available to new brokerages, and apto.com no longer serves a product site. New buyers are pointed toward Buildout's other tools, including Rethink, its Salesforce-based CRE CRM.",
+    "short_description": "Salesforce-based CRE brokerage CRM, owned by Buildout and no longer sold to new brokerages.",
     "target_audience": {
       "roles": [
-        "Property Managers",
         "Brokers",
-        "Investors"
+        "Brokerage Teams"
       ],
       "company_sizes": [
         "Small",
@@ -401,12 +400,9 @@
       }
     ],
     "pricing": {
-      "model": "Subscription",
-      "starting_price": null,
-      "billing_options": [
-        "Monthly",
-        "Annual"
-      ],
+      "model": "Not sold to new customers",
+      "starting_price": "Not sold to new customers",
+      "billing_options": [],
       "free_trial": false,
       "free_tier": false,
       "plans": []
@@ -414,24 +410,24 @@
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Purpose-built for CRE brokers with industry-specific features",
-      "Built on Salesforce platform for reliability and extensibility",
-      "Commission management tailored for brokerage operations"
+      "Purpose-built for CRE brokers with deal and commission tracking",
+      "Built on Salesforce for extensibility",
+      "Still supported by Buildout for existing customers"
     ],
     "cons": [
-      "Website no longer accessible, product may be discontinued",
-      "Likely requires migration to alternative CRM",
-      "Limited ongoing support if no longer active"
+      "No longer available to new brokerages",
+      "Product website no longer online",
+      "Buildout's newer tools, not Apto, are where it points brokers"
     ],
     "integrations": [
       "Salesforce"
     ],
     "company": {
-      "name": "Apto",
+      "name": "Apto (a Buildout company)",
       "founded": 2012,
       "headquarters": "Denver, CO",
       "employees": "",
-      "funding": "$15M+"
+      "funding": "Acquired by Buildout (2022)"
     },
     "categories": [
       "CRM & Marketing",
@@ -451,7 +447,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-08-29",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "apto.com",
@@ -463,7 +459,7 @@
     ],
     "primary_category": "crm-marketing",
     "logo_url_source": "https://logo.clearbit.com/apto.com",
-    "status_note": "Apto's website is no longer reachable and the product appears discontinued or absorbed; verify availability before purchasing."
+    "status_note": "Apto is owned by Buildout and is no longer available to new brokerages; existing customers are still supported."
   },
   {
     "title": "Archibus",
@@ -1570,7 +1566,7 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": "$62/month",
+      "starting_price": "$65/month",
       "billing_options": [
         "Monthly"
       ],
@@ -1579,37 +1575,38 @@
       "plans": [
         {
           "name": "Essential",
-          "price": "$62/month",
+          "price": "$65/month",
           "period": "monthly",
           "features": [
             "Basic accounting, maintenance, leasing",
-            "Standard reporting",
-            "Ticket support",
-            "AI assistant (help only)"
+            "Standard and bulk reporting",
+            "AI Assistant and basic communications",
+            "Ticket support"
           ]
         },
         {
           "name": "Growth",
-          "price": "$192/month",
+          "price": "$202/month",
           "period": "monthly",
           "features": [
-            "Essential plus customization",
+            "Essential plus customization and reporting automation",
             "Enhanced screening",
-            "Unlimited eSignatures",
-            "AI communications",
-            "Business analytics"
+            "Lower eSignature and EFT costs",
+            "AI-enhanced communications",
+            "Business analytics and live phone support",
+            "Customized onboarding required"
           ]
         },
         {
           "name": "Premium",
-          "price": "$400/month",
+          "price": "$420/month",
           "period": "monthly",
           "features": [
-            "Growth plus advanced features",
-            "Free inspections",
-            "Open API",
-            "Full AI & automations suite",
-            "Priority support"
+            "Growth plus Open API",
+            "Full AI and automations suite",
+            "Free inspections and eSignatures",
+            "Priority Support",
+            "Customized onboarding required"
           ]
         }
       ]
@@ -1630,16 +1627,16 @@
     ],
     "video_url": null,
     "pros": [
-      "Transparent, published pricing starting at $62/month",
+      "Transparent, published pricing starting at $65/month",
       "Purpose-built for residential property management with deep feature set",
-      "Strong AI features via Lumina including automated bill scanning and communications",
-      "Serves a wide range from small landlords to 15,000+ unit portfolios",
-      "Free trial available, can test before committing"
+      "AI assistant and AI-enhanced communications across plans",
+      "Serves a wide range from small landlords to portfolios above 5,000 units (quoted)",
+      "14-day free trial with no credit card"
     ],
     "cons": [
       "Primarily residential, limited commercial property management features",
-      "Pricing scales up significantly with portfolio size",
-      "Some advanced features locked behind Premium tier ($400/month)",
+      "Growth and Premium require Buildium's customized onboarding",
+      "Some advanced features locked behind Premium tier ($420/month)",
       "API access only available on highest-tier plan"
     ],
     "integrations": [
@@ -1694,7 +1691,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-09-02",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "buildium.com",
@@ -2506,7 +2503,7 @@
     "logo_url": "/img/logos/compstak.png",
     "headline": "Commercial real estate software solution",
     "description": "CompStak is the leading crowdsourced commercial real estate lease comp and sales comp data platform. Its 35,000+ member network of CRE appraisers, brokers, and researchers contribute authenticated lease and sale transaction data covering all US markets. Unlike CoStar which employs researchers, CompStak leverages a unique exchange model where members contribute comps to access the database. This produces highly detailed, granular deal-level data including effective rent, TI, free rent, and lease terms that are difficult to find elsewhere. CompStak serves institutional investors, lenders, appraisers, and brokers.",
-    "short_description": "Commercial real estate software platform.",
+    "short_description": "Crowdsourced CRE lease and sale comps: a free credit-based Exchange for brokers and appraisers, and paid data for investors and lenders.",
     "target_audience": {
       "roles": [
         "Commercial Real Estate Appraisers",
@@ -2710,7 +2707,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "compstak.com",
@@ -2746,12 +2743,24 @@
     "url": "https://www.cotality.com",
     "logo_url": "/img/logos/corelogic.png",
     "headline": "Property data and analytics, formerly CoreLogic.",
-    "description": "Cotality, known as CoreLogic until its March 2025 rebrand, is a leading global property data and analytics company providing intelligence for real estate, mortgage, insurance, and government sectors. The platform offers 98%+ property coverage in major markets, processes over 1 million data points refreshed monthly, and maintains 30 years of historical data. Cotality provides property valuations, climate and environmental risk analysis with 30-year forecasts, market analytics, automated valuation models (AVMs), and AI-powered insights through its CoreAI intelligence platform. An MCP server gives licensed customers' AI agents access to property data, market analytics and climate risk tools, and data is also offered through Snowflake and Databricks. The company serves real estate agents, lenders, insurers, investors, and government agencies worldwide.",
+    "description": "Cotality, which rebranded from CoreLogic on March 24, 2025, is a property data and analytics company serving real estate, mortgage, insurance, construction and utility markets in the United States, Canada, the United Kingdom, Australia, New Zealand and other countries. Its Araya platform combines property, owner, mortgage, market, portfolio and climate risk data covering 99.9% of US properties from 22K+ sources, with an AI assistant called Aly. Across its products the company cites 98%+ property coverage in its largest markets, 1 million+ data points refreshed monthly, 30 years of historical data, 30-year environmental risk forecasts and hundreds of analytical models, including automated valuation models. It also runs MLS and agent software such as Matrix and OneHome, hazard and storm monitoring through Hazard HQ, address verification, and the CoreAI intelligence layer. Licensed customers can connect AI agents through an MCP server whose tools follow their entitlements. Pricing is not published and varies by region.",
     "short_description": "Property data, valuation models and risk analytics for real estate, mortgage and insurance. Formerly CoreLogic.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Lenders",
+        "Insurers",
+        "Real Estate Agents",
+        "Mortgage Brokers",
+        "Valuers",
+        "Investors",
+        "Utilities"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
+        "Residential",
         "Commercial"
       ]
     },
@@ -2874,7 +2883,7 @@
       "founded": 2010,
       "headquarters": "Irvine, CA",
       "employees": "5000+",
-      "funding": "Private. Acquired by Stone Point Capital and Insight Partners in June 2021 for about $6B."
+      "funding": "Private. Funds managed by Stone Point Capital and Insight Partners completed the acquisition of CoreLogic on June 4, 2021, at $80 per share in cash."
     },
     "categories": [
       "Data & Analytics",
@@ -2894,7 +2903,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "cotality.com",
@@ -3018,7 +3027,16 @@
         ]
       }
     ],
-    "pricing": "Subscription-based - Multiple tiers available, contact for enterprise pricing",
+    "pricing": {
+      "model": "Quote-based",
+      "starting_price": null,
+      "billing_options": [
+        "Annual"
+      ],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": []
+    },
     "screenshots": [],
     "video_url": null,
     "pros": [
@@ -3086,7 +3104,7 @@
         "CoStar Group"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-11-02",
     "is_verified": true,
     "is_featured": true,
     "domain": "costar.com",
@@ -5247,24 +5265,26 @@
     "url": "https://www.hqo.com",
     "logo_url": "/img/logos/hqo.png",
     "headline": "Real Estate Experience Software - Elevating the Tenant & Real Estate Experience",
-    "description": "HqO is a Real Estate Experience (REX) platform that serves as the first CRM purpose-built for commercial real estate. The platform helps landlords and property operators bridge the Experience Gap by transforming portfolios into adaptive platforms and turning experiences into measurable outcomes. HqO enables CRE leaders to manage assets and engage tenants through data-driven intelligence and unified tenant engagement, ultimately boosting financial performance and creating experiential real estate portfolios that continuously earn tenant business.",
-    "short_description": "First CRM purpose-built for CRE, delivering exceptional tenant experiences and measurable outcomes.",
+    "description": "HqO positions itself as the system of action for commercial real estate: a shared record of each building (Digital Grid), an operating layer (HqOS) and an AI operator called REX that answers plain-language portfolio questions, generates role-specific reports and handles routine triage, routing and drafting with human approval. Five suites run on HqOS: Portfolio, Experience, Operations, Commerce and Intelligence, covering leases, service requests, access control, analytics and tenant health, with channels across web, mobile and wallets, vendor and merchant portals, kiosks and signage, and integrations. HqO says it powers 1B+ square feet across 2,000 properties in 32 countries for 100+ asset managers and REITs, across office and mixed-use, industrial, life sciences, flex and coworking, and campuses. The workplace research firm Leesman has been part of HqO since 2022. Pricing is tiered (Pilot, Foundation, Integrated, Enterprise) and scoped to the portfolio, with no published prices.",
+    "short_description": "CRE operating platform with tenant experience, operations, portfolio and commerce suites plus REX, an AI operator.",
     "target_audience": {
       "roles": [
-        "Property Managers",
+        "Owners and Operators",
         "Asset Managers",
-        "Leasing Teams",
-        "Facility Managers",
-        "Portfolio Managers"
+        "Property Managers",
+        "Developers",
+        "Flex and Coworking Operators"
       ],
       "company_sizes": [
         "Mid-Market",
         "Enterprise"
       ],
       "property_types": [
-        "Commercial",
         "Office",
-        "Mixed-Use"
+        "Mixed-Use",
+        "Industrial",
+        "Life Sciences",
+        "Flex"
       ]
     },
     "feature_groups": [
@@ -5303,7 +5323,35 @@
         ]
       }
     ],
-    "pricing": "Quote-based - Contact for custom pricing",
+    "pricing": {
+      "model": "Quote-based",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Pilot",
+          "price": "Contact for pricing",
+          "description": "Entry tier with one build project, ontology setup and data import."
+        },
+        {
+          "name": "Foundation",
+          "price": "Contact for pricing",
+          "description": "Everything in Pilot plus more storage, REX agent seats and build projects."
+        },
+        {
+          "name": "Integrated",
+          "price": "Contact for pricing",
+          "description": "Everything in Foundation with larger allowances."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Contact for pricing",
+          "description": "Scoped to the portfolio, with custom allowances and onsite training."
+        }
+      ]
+    },
     "screenshots": [
       {
         "src": "/img/screenshots/hqo/1.webp",
@@ -5320,17 +5368,16 @@
     ],
     "video_url": null,
     "pros": [
-      "First CRM purpose-built specifically for commercial real estate",
-      "Comprehensive tenant experience management platform",
-      "Strong AI-powered analytics and insights",
-      "Unified portfolio management across single buildings to global portfolios",
-      "Focus on measurable experience outcomes and tenant satisfaction"
+      "Broad platform spanning tenant experience, operations, portfolio and commerce",
+      "REX AI operator works on a shared record of each building",
+      "Multi-asset coverage including office, industrial, life sciences and flex",
+      "Leesman workplace research is part of HqO"
     ],
     "cons": [
-      "Primarily focused on tenant experience vs. broader property management",
-      "Enterprise-focused platform may be complex for smaller landlords",
-      "New methodology may require significant training and change management",
-      "Premium pricing for comprehensive experience platform capabilities"
+      "No published pricing; tiers are scoped to the portfolio",
+      "Suites are bought as a whole, which is more than a single-building landlord may need",
+      "Value depends on integrations with access, work order and accounting systems",
+      "Tenant-facing features depend on tenant adoption"
     ],
     "integrations": [],
     "company": {
@@ -5358,7 +5405,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": true,
     "domain": "hqo.com",
@@ -6300,8 +6347,8 @@
     "url": "https://www.lightboxre.com",
     "logo_url": "/img/logos/lightbox.png",
     "headline": "Connected data for commercial real estate",
-    "description": "LightBox delivers the most authoritative property data, integrated CRE workflows, and unmatched industry connections for commercial real estate professionals. The platform provides comprehensive property characteristics, tax parcels, building footprints, and spatial & environmental data through their flagship LightBox Vision platform. With solutions ranging from location intelligence to environmental due diligence to lending and valuation resources, LightBox helps CRE professionals locate, analyze, and act with confidence by providing connected data and integrated technology solutions.",
-    "short_description": "Most authoritative CRE property data with integrated workflows and industry connections.",
+    "description": "LightBox is a commercial real estate data and technology company that links property ownership, transactions, environmental history, zoning and market activity to one property identity, the LightBox ID. LightBox Data covers parcels, structures, boundaries, geocoding, land use, zoning, corporate and true-owner records and assessor information, delivered as bulk data, APIs, GIS and feature services, Snowflake shares and MCP. LightBox Live is a deal workspace for investors covering 156M parcels and 40M+ properties, with listings, saved searches and alerts, data rooms, document extraction from offering memoranda, rent rolls and leases, export to Excel underwriting models, and AI agents for comparable analysis and market insight. The company also runs EDR environmental due diligence and LightBox Vision for evaluating development sites, and serves brokers, lenders, environmental professionals, developers, investors and government. Pricing is not published.",
+    "short_description": "Commercial property data and workflows: parcels, structures, zoning, true owners and environmental due diligence, via apps, APIs and bulk data.",
     "target_audience": {
       "roles": [
         "Brokers",
@@ -6363,11 +6410,36 @@
         ]
       }
     ],
-    "pricing": "Quote-based - Contact for custom pricing based on solutions and usage",
+    "pricing": {
+      "model": "Quote-based",
+      "starting_price": null,
+      "free_trial": false,
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "LightBox Data",
+          "price": "Contact for pricing",
+          "description": "Bulk data, APIs, GIS and feature services, Snowflake and MCP delivery."
+        },
+        {
+          "name": "LightBox Live",
+          "price": "Contact for pricing",
+          "description": "Deal workspace for investors with property records, listings, data rooms and document extraction."
+        }
+      ]
+    },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
-    "cons": [],
+    "pros": [
+      "Parcels, structures, zoning and true-owner data linked by one persistent LightBox ID",
+      "Many delivery options: bulk files, APIs, GIS feature services, Snowflake and MCP",
+      "Environmental due diligence (EDR) and deal workflows from the same company"
+    ],
+    "cons": [
+      "No published pricing; every product goes through sales",
+      "Enterprise-oriented product set is more than a small brokerage or land team needs",
+      "LightBox Live is aimed mainly at investors, with broker workflows listed as coming"
+    ],
     "integrations": [],
     "company": {
       "name": "LightBox Holdings, L.P.",
@@ -6394,7 +6466,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "lightboxre.com",
@@ -9370,8 +9442,8 @@
     "url": "https://www.realnex.com",
     "logo_url": "/img/logos/realnex.png",
     "headline": "Real estate solutions for professionals.",
-    "description": "RealNex is the most complete integrated software suite for commercial real estate brokers, combining CRM, financial analysis, presentation/marketing, transaction management, and marketplace in one platform. RealNex Navigator includes a market-leading CRM with RX Data (property records, ownership, loan details, tenant data), predictive analytics for identifying likely buyers/sellers, investment and lease analysis engine, elegant presentation builder with 60+ templates, collaborative transaction management, and a dynamic marketplace with virtual deal rooms. Used by individual brokers through multi-office brokerages.",
-    "short_description": "Real estate solutions for professionals.",
+    "description": "RealNex is an integrated software platform for commercial real estate professionals that combines CRM, financial analysis, marketing, leasing workflow and a listing marketplace. KRM (Knowledge and Relationship Management) is its property-centric CRM with pipeline, contacts, history and alerts; MarketEdge builds branded offering memorandums, BOVs and presentations backed by investment and lease analysis; Bridge handles tour books, proposals and collaborative negotiation; MarketPlace offers free listing and search across a community of 300,000+ users; and Vault adds deal rooms with staged access, NDAs and engagement analytics. Navigator bundles these modules, Insights adds Power BI dashboards on KRM data, and an AI layer called Intelligence works on the firm's property and transaction data. Pricing is published per user, with annual, monthly-with-annual-commitment and month-to-month options and a one-time implementation fee on most plans. RealNex serves investment sales brokers, tenant reps, leasing agents, brokerage leaders, marketing, research and asset management teams.",
+    "short_description": "All-in-one CRE platform: KRM CRM, MarketEdge analysis and OMs, Bridge tour books, MarketPlace listings and Vault deal rooms.",
     "target_audience": {
       "roles": [
         "Commercial Real Estate Brokers",
@@ -9469,15 +9541,47 @@
       }
     ],
     "pricing": {
-      "model": "Subscription",
-      "starting_price": null,
+      "model": "Subscription (per user)",
+      "starting_price": "$129/user/month (billed annually)",
       "billing_options": [
-        "Monthly",
-        "Annual"
+        "Annual",
+        "Monthly with annual commitment",
+        "Monthly"
       ],
       "free_trial": true,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "MarketPlace",
+          "price": "Free",
+          "description": "List and search the national CRE listing database, saved searches, watch lists and a professional profile (excludes Nevada, where a subscription is required)."
+        },
+        {
+          "name": "KRM",
+          "price": "$129/user/month billed annually ($134 monthly with annual commitment, $159 month to month)",
+          "description": "CRE CRM with property, client and pipeline tracking, Outlook and Gmail sync, matching and Insights dashboards. One-time $99 per user implementation fee."
+        },
+        {
+          "name": "MarketEdge",
+          "price": "$129/user/month billed annually ($134 monthly with annual commitment, $159 month to month)",
+          "description": "Branded OMs, BOVs, proposals and flyers with investment and lease analysis, plus Vault deal rooms. One-time $99 per user implementation fee."
+        },
+        {
+          "name": "Bridge",
+          "price": "$129/user/month billed annually",
+          "description": "Tour books, leasing pipeline, client portal and proposal management. One-time $99 per user implementation fee."
+        },
+        {
+          "name": "MarketPlace Pro",
+          "price": "$129/user/month billed annually",
+          "description": "Enterprise listing management, marketing analytics and a RealCampaigns starter pack of 1,000 sends per month."
+        },
+        {
+          "name": "Navigator",
+          "price": "$199/user/month billed annually ($229 monthly with annual commitment, $259 month to month)",
+          "description": "KRM, MarketEdge with Vault, MarketPlace Pro, Bridge and data integration in one suite. One-time $149 per user implementation fee."
+        }
+      ]
     },
     "screenshots": [
       {
@@ -9502,10 +9606,10 @@
       "Virtual deal rooms with 7-level security for transaction management"
     ],
     "cons": [
-      "Pricing not publicly listed",
-      "User interface can feel dated compared to newer competitors like Buildout",
-      "Smaller market share and community compared to Buildout or CoStar tools",
-      "Learning curve to leverage all features across the integrated suite"
+      "One-time implementation fee of $99 to $149 per user on most plans",
+      "Best prices require an annual commitment",
+      "Learning curve to use all modules of the integrated suite",
+      "Not built on Salesforce, so it is less customizable than Salesforce-based CRMs"
     ],
     "integrations": [
       {
@@ -9530,7 +9634,7 @@
       }
     ],
     "company": {
-      "name": "RealNex",
+      "name": "RealNex, LLC",
       "founded": null,
       "headquarters": "",
       "employees": "",
@@ -9555,11 +9659,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-11-02",
     "is_verified": true,
     "is_featured": false,
     "domain": "realnex.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Subscription",
     "is_free": false,
     "tagline": "Real estate solutions for professionals.",
     "property_types": [
@@ -9596,7 +9700,7 @@
     "logo_url": "/img/logos/realpage.png",
     "headline": "Commercial real estate software solution",
     "description": "RealPage is a leading property management software and data analytics platform serving the multifamily rental housing industry. It provides an integrated suite covering leasing, revenue management, spend management, utility management, resident services, and marketing. Its AI-powered Lumina workforce automates routine tasks across leasing, operations, and finance. RealPage's DemandX platform optimizes occupancy through demand forecasting and targeted advertising. Used by some of the world's largest multifamily operators, RealPage manages millions of units and delivers analytics-driven revenue optimization.",
-    "short_description": "Commercial real estate software platform.",
+    "short_description": "Rental housing operations platform: OneSite property management, Lumina AI, revenue management, screening, payments and resident tools.",
     "target_audience": {
       "roles": [
         "Property Managers",
@@ -9769,11 +9873,11 @@
       }
     ],
     "company": {
-      "name": "Realpage",
+      "name": "RealPage",
       "founded": null,
       "headquarters": "",
-      "employees": "",
-      "funding": ""
+      "employees": "8,500+",
+      "funding": "Backed by Thoma Bravo"
     },
     "categories": [
       "Property Management",
@@ -9793,7 +9897,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "realpage.com",
@@ -9875,7 +9979,7 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
+      "starting_price": "$400/month (annual subscription)",
       "billing_options": [
         "Monthly",
         "Annual"
@@ -9884,14 +9988,26 @@
       "free_tier": false,
       "plans": [
         {
-          "name": "Web app (monthly or annual)",
-          "price": "Not published (monthly or annual; annual saves 30% per the FAQ)",
-          "period": "monthly or annual",
+          "name": "Web app, annual",
+          "price": "From $400/month on annual subscription",
+          "period": "annual",
           "features": [
             "Unlimited searches",
             "Full web app access",
-            "Add 1,000 monthly exports (included on annual)",
-            "Support chat"
+            "1,000 monthly exports",
+            "Support chat",
+            "Annual saves 30% versus monthly"
+          ]
+        },
+        {
+          "name": "Web app, monthly",
+          "price": "Not published",
+          "period": "monthly",
+          "features": [
+            "Unlimited searches",
+            "Full web app access",
+            "1,000 monthly exports",
+            "Cancel or upgrade anytime"
           ]
         },
         {
@@ -9899,8 +10015,7 @@
           "price": "Contact sales",
           "period": "",
           "features": [
-            "CSV delivery of property and ownership data",
-            "Custom cadence"
+            "CSV delivery of 10k+ records on a custom cadence"
           ]
         },
         {
@@ -9908,7 +10023,7 @@
           "price": "Contact sales",
           "period": "",
           "features": [
-            "On-demand API access to Reonomy data"
+            "Up to 1M properties per request"
           ]
         }
       ]
@@ -9960,11 +10075,11 @@
       }
     ],
     "company": {
-      "name": "Reonomy, Inc.",
+      "name": "Reonomy, an Altus Group business",
       "founded": 2013,
       "headquarters": "New York, NY",
       "employees": "100-200",
-      "funding": "Series B+"
+      "funding": "Acquired by Altus Group"
     },
     "categories": [
       "Data & Analytics"
@@ -9983,7 +10098,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-25",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": true,
     "domain": "reonomy.com",
@@ -10015,68 +10130,110 @@
     "logo_url_source": "https://logo.clearbit.com/reonomy.com"
   },
   {
-    "title": "Rethink CRM",
+    "title": "Rethink CRM by Buildout",
     "slug": "rethink-crm",
-    "url": "https://www.rethinkcrm.com",
+    "url": "https://www.buildout.com/solutions/rethink-by-buildout",
     "logo_url": "/img/logos/rethink-crm.png",
-    "headline": "Commercial real estate CRM.",
-    "description": "REthink CRM was a commercial real estate CRM platform built on the Salesforce platform, providing deal tracking, contact management, and property analytics for CRE brokers and firms. Note: The REthink CRM website domain has been taken over by an unrelated entity (gambling site), indicating the product has been discontinued. REthink CRM was known for being one of the early CRE-specific CRMs built on Salesforce, offering brokerage-focused features including commission tracking, comp management, and pipeline reporting.",
-    "short_description": "Commercial real estate CRM.",
+    "headline": "Commercial real estate CRM built by brokers, for brokers.",
+    "description": "Rethink is a commercial real estate CRM owned by Buildout, which acquired the company in February 2021. It is built on the Salesforce platform and covers contact management and activity tracking, deal pipeline management, a property and listing database with comps tracking, dashboards, branded client activity reports and map-based search of CRM data, with a marketing integration to Buildout Showcase. Rethink+, launched in 2025, adds property ownership data, intelligent property and owner search, AI owner research, predictive analytics and property records fueled by Prospect by Buildout, plus 10 hours of premium support. Buildout publishes pricing of $129 per month for Rethink and $299 per month for Rethink+ and provides onboarding that imports contacts, companies, properties and historical deals. It is used by individual brokers, teams and brokerages across investment sales, leasing, tenant rep and capital markets. The old rethinkcrm.com domain no longer belongs to the product.",
+    "short_description": "Buildout's CRE brokerage CRM on Salesforce: contacts, properties, comps and deal pipelines, with a Rethink+ data upgrade.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Brokers",
+        "Brokerage Teams",
+        "Brokerage Owners"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Industrial",
         "Office",
-        "Retail"
+        "Industrial",
+        "Retail",
+        "Multifamily"
       ]
     },
     "feature_groups": [
       {
-        "name": "CRM (Discontinued)",
+        "name": "CRM",
         "features": [
           {
-            "name": "Deal Tracking",
-            "description": "CRE-specific deal pipeline management on Salesforce."
+            "name": "Contacts and Activity",
+            "description": "Contact management and activity tracking for CRE relationships."
           },
           {
-            "name": "Contact Management",
-            "description": "Relationship management for CRE brokers."
+            "name": "Deal Pipelines",
+            "description": "Pipeline management across investment sales, leasing, tenant rep and capital markets deals."
           },
           {
-            "name": "Commission Tracking",
-            "description": "Broker commission calculation and tracking."
+            "name": "Properties, Listings and Comps",
+            "description": "Property and listing database with comparable tracking and map-based search of CRM data."
+          },
+          {
+            "name": "Dashboards and Client Reports",
+            "description": "Dashboards plus branded client activity reports."
+          }
+        ]
+      },
+      {
+        "name": "Rethink+",
+        "features": [
+          {
+            "name": "Ownership Data and Owner Search",
+            "description": "Property ownership data and intelligent property and owner search, fueled by Prospect by Buildout."
+          },
+          {
+            "name": "AI Owner Research and Predictive Analytics",
+            "description": "AI research on owners and predictions of likely sellers."
           }
         ]
       }
     ],
     "pricing": {
-      "model": "Discontinued",
-      "starting_price": null,
+      "model": "Subscription",
+      "starting_price": "$129/month",
       "billing_options": [],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Rethink",
+          "price": "$129/month",
+          "description": "Core CRE CRM: contacts, deal pipelines, properties, listings, comps, dashboards and client reports."
+        },
+        {
+          "name": "Rethink+",
+          "price": "$299/month",
+          "description": "Everything in Rethink plus ownership data, owner search, AI owner research, predictive analytics, property records and 10 hours of premium support."
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Was an early CRE-specific CRM on Salesforce platform"
+      "Purpose-built CRE CRM on the Salesforce platform",
+      "Published pricing for both tiers",
+      "Rethink+ adds ownership data and AI owner research inside the CRM",
+      "Connects to Buildout's marketing and prospecting tools"
     ],
     "cons": [
-      "Product appears to be discontinued",
-      "Website domain taken over by unrelated entity",
-      "Users should seek alternative CRE CRM solutions"
+      "Buildout's page does not say whether the published prices are per user or how they are billed",
+      "No free trial advertised; access starts with a demo",
+      "Ownership data and predictive analytics require the Rethink+ upgrade"
     ],
     "integrations": [
-      "Salesforce (historical)"
+      "Salesforce",
+      "Buildout Showcase",
+      "Prospect by Buildout"
     ],
     "company": {
-      "name": "REthink CRM (discontinued)",
-      "founded": 2009,
+      "name": "Buildout, Inc.",
+      "founded": 2013,
       "headquarters": "Chicago, IL",
-      "employees": "",
-      "funding": ""
+      "employees": "100-250",
+      "funding": "Rethink acquired by Buildout (2021)"
     },
     "categories": [
       "CRM & Marketing",
@@ -10096,13 +10253,13 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
-    "domain": "rethinkcrm.com",
-    "pricing_model": "Discontinued",
+    "domain": "buildout.com",
+    "pricing_model": "Subscription",
     "is_free": false,
-    "tagline": "Commercial real estate CRM.",
+    "tagline": "Commercial real estate CRM built by brokers, for brokers.",
     "property_types": [
       "Industrial",
       "Office",
@@ -10112,7 +10269,8 @@
     "enrichedAt": "2026-02-17T22:44:28.521110+00:00",
     "enrichmentFailed": true,
     "primary_category": "crm-marketing",
-    "logo_url_source": "https://logo.clearbit.com/rethinkcrm.com"
+    "logo_url_source": "https://logo.clearbit.com/rethinkcrm.com",
+    "status_note": ""
   },
   {
     "title": "Roam",
@@ -12934,7 +13092,26 @@
     "headline": "The industry's leading leasing and asset management platform, powered by 13B+ SF of CRE data and AI.",
     "description": "Comprehensive commercial real estate technology platform that unifies leasing, asset management, property management, and marketing operations. VTS brings together every person, process, and AI agent to help the CRE industry move faster, smarter, and more profitably with over 13 billion square feet of assets managed globally.",
     "short_description": "Leading CRE platform for leasing, asset management, tenant experience, and market intelligence, with 13B+ SF managed globally.",
-    "target_audience": "Commercial real estate landlords, brokers, property managers, asset managers, and leasing professionals",
+    "target_audience": {
+      "roles": [
+        "Landlords",
+        "Asset Managers",
+        "Leasing Teams",
+        "Property Managers",
+        "Brokers"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Office",
+        "Retail",
+        "Industrial",
+        "Multifamily",
+        "Mixed-Use"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Leasing Management (VTS Lease)",
@@ -13038,7 +13215,14 @@
         ]
       }
     ],
-    "pricing": null,
+    "pricing": {
+      "model": "Quote-based",
+      "starting_price": null,
+      "billing_options": [],
+      "free_trial": false,
+      "free_tier": false,
+      "plans": []
+    },
     "screenshots": [],
     "video_url": "https://www.youtube.com/c/VTSvideo",
     "pros": [
@@ -13132,7 +13316,7 @@
         "VTS Activate"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": true,
     "domain": "vts.com",
@@ -13343,7 +13527,24 @@
     "headline": "Elevate Your Real Estate with AI-Enabled Property Management Software",
     "description": "Yardi is a comprehensive AI-enabled real estate software platform that provides property management solutions for diverse portfolios including multifamily, commercial, affordable housing, and specialized markets. The platform delivers seamless collaboration, smarter decision-making and greater efficiency across entire real estate portfolios.",
     "short_description": "The global leader in AI-enabled property management and real estate investment software.",
-    "target_audience": "Property managers, asset managers, investment managers, multifamily operators, commercial property owners, affordable housing providers, senior living facilities, coworking spaces",
+    "target_audience": {
+      "roles": [
+        "Property Managers",
+        "Asset Managers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Multifamily",
+        "Commercial",
+        "Affordable Housing",
+        "Senior Living",
+        "Residential"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Voyager Suite",
@@ -13523,7 +13724,7 @@
         "real estate software"
       ]
     },
-    "last_updated": "2026-10-23",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": true,
     "domain": "yardi.com",
@@ -13643,12 +13844,18 @@
     "logo_url": "/img/logos/zillow.png",
     "headline": "Real estate and rental marketplace.",
     "description": "Zillow is the most visited real estate website in the US with 200M+ monthly unique visitors, offering property search, Zestimate home valuations, rental listings, and agent matching. While primarily residential, Zillow is relevant to CRE through its rental platform (Zillow Rental Manager), data/analytics (Zillow Research), and the Zestimate AVM covering 100M+ homes. Zillow Rental Manager enables landlords to list properties, screen tenants, collect rent online, and manage leases. Zillow's data and APIs power many prop-tech applications. Zillow Group also includes Trulia, StreetEasy, and HotPads.",
-    "short_description": "Real estate and rental marketplace.",
+    "short_description": "Real estate and rental marketplace with free Zestimate and Rent Zestimate estimates and Zillow Rental Manager for landlords.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Landlords",
+        "Property Managers"
+      ],
+      "company_sizes": [
+        "Individual",
+        "Small"
+      ],
       "property_types": [
-        "Commercial"
+        "Residential"
       ]
     },
     "feature_groups": [
@@ -13734,12 +13941,22 @@
       }
     ],
     "pricing": {
-      "model": "Quote-based",
+      "model": "Free",
       "starting_price": null,
       "billing_options": [],
       "free_trial": false,
-      "free_tier": false,
-      "plans": []
+      "free_tier": true,
+      "plans": [
+        {
+          "name": "Rent Zestimate",
+          "price": "Free",
+          "period": "",
+          "features": [
+            "Rent estimate by address from home attributes, rental comps, local market rates and public data",
+            "Research similar advertised rentals nearby"
+          ]
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
@@ -13813,7 +14030,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2025-02-17",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "zillow.com",
@@ -14667,14 +14884,33 @@
     "logo_url_source": "https://logo.clearbit.com/lightboxre.com"
   },
   {
-    "title": "LandID",
+    "title": "Land id",
     "slug": "land-id",
     "url": "https://id.land/",
     "logo_url": "/img/logos/land-id.png",
     "headline": "Owner info; parcel boundaries. Basic research.",
-    "description": "Land id (formerly AcreValue) is a real estate mapping software platform trusted by over 40,000 real estate and industry professionals. The platform provides extensive parcel data, property lines, and interactive map creation capabilities across all 50 US states. Land id enables users to create branded, interactive property maps with 40+ basemap overlays, comparable sales reports, 3D property tours, and embedding capabilities. The platform serves rural and land real estate professionals particularly well, offering detailed property data including ownership, year built, and front footage. Over 3 million maps have been created on the platform.",
-    "short_description": "Owner info; parcel boundaries. Basic research.",
-    "target_audience": "Real estate agents and brokers, property developers, land investors, surveyors, appraisers, agricultural professionals",
+    "description": "Land id, founded in 2014 as MapRight, is a property mapping platform used by more than 50,000 real estate and land professionals. It provides parcel boundaries and owner information in all 50 states, AI search, 40+ data layers and 7 basemaps, comparable sales reports, soil reports, mailing lists, a measurement tool and deed plotting. For marketing, users build branded and 3D maps, virtual tours with 360 panoramas, photos and video, and embed or share them; customers have created more than 3 million maps. Desktop and mobile apps support offline use, waypoints and survey overlays. Plans are per user and billed annually, starting at $7 a month, with a 7-day free trial that needs no card. The company has offices in Bozeman, Montana and Austin, Texas.",
+    "short_description": "Land and rural mapping: parcel and owner info in all 50 states, comps, soil reports, branded maps and 3D tours.",
+    "target_audience": {
+      "roles": [
+        "Land Brokers",
+        "Real Estate Agents",
+        "Land Investors",
+        "Surveyors",
+        "Appraisers",
+        "Agricultural Professionals"
+      ],
+      "company_sizes": [
+        "Individual",
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Land",
+        "Agricultural",
+        "Residential"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Property Data",
@@ -14747,25 +14983,16 @@
         "Monthly",
         "Annual"
       ],
-      "free_trial": false,
-      "free_tier": true,
+      "free_trial": true,
+      "free_tier": false,
       "plans": [
         {
-          "name": "Free",
-          "price": "Free",
-          "period": "",
-          "features": [
-            "Basic property search"
-          ]
-        },
-        {
-          "name": "Land id. (Parcel & Owner Info Nationwide)",
+          "name": "Land id.",
           "price": "$7/user/month billed annually",
           "period": "annual",
           "features": [
-            "Private parcel info",
-            "AI Smart Search",
-            "3D maps"
+            "Parcel and owner info from all 50 states",
+            "40+ data layers and 7 basemaps"
           ]
         },
         {
@@ -14773,8 +15000,8 @@
           "price": "$12/user/month billed annually",
           "period": "annual",
           "features": [
-            "Create and share 3 maps",
-            "Mailing lists at extra cost"
+            "Parcel AI Insights and property mapping",
+            "3 maps"
           ]
         },
         {
@@ -14790,7 +15017,7 @@
           "price": "Contact sales",
           "period": "",
           "features": [
-            "Seat-based annual plans"
+            "Seat-based annual plans with centralized billing and SSO"
           ]
         }
       ]
@@ -14811,25 +15038,24 @@
     ],
     "video_url": null,
     "pros": [
-      "40,000+ real estate professionals trust the platform",
-      "3 million+ maps created demonstrates strong adoption",
-      "40+ basemap overlays provide rich contextual data",
-      "3D property tours create engaging property showcases",
-      "Affordable pricing starting at $9.99/month"
+      "Parcel and owner info in all 50 states from $7 per user per month",
+      "Branded maps, 3D maps and virtual tours for marketing land listings",
+      "Comparable sales, soil reports and 40+ data layers in one tool",
+      "7-day free trial with no card required"
     ],
     "cons": [
-      "Best suited for rural/land real estate, less for urban commercial",
-      "Free plan has very limited functionality",
-      "Some advanced features require Pro plan"
+      "Best suited for rural and land work, less for urban commercial",
+      "Listed prices are per user and billed annually",
+      "Branded tours and unlimited maps require the Pro plan"
     ],
     "integrations": [
       "Matterport",
       "Various listing platforms via embed"
     ],
     "company": {
-      "name": "Land id",
-      "founded": 2017,
-      "headquarters": "Austin, TX",
+      "name": "Land id (formerly MapRight)",
+      "founded": 2014,
+      "headquarters": "Bozeman, MT and Austin, TX",
       "employees": "20-50",
       "funding": ""
     },
@@ -14850,7 +15076,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-25",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "id.land",
@@ -14888,9 +15114,26 @@
     "url": "https://landglide.com/",
     "logo_url": "/img/logos/landglide.png",
     "headline": "Owner; basic parcel & demographic info. Basic research.",
-    "description": "LandGlide is a mobile parcel data app that provides property boundary maps and ownership information directly on your smartphone or tablet. The app overlays property lines on satellite and aerial imagery, allowing users to tap any parcel to view ownership details, assessed values, legal descriptions, and more. LandGlide is popular with real estate professionals, land buyers, outdoor enthusiasts, and anyone who needs to quickly identify property ownership and boundaries while in the field. Note: The LandGlide website was unavailable during research (503 error).",
-    "short_description": "Owner; basic parcel & demographic info. Basic research.",
-    "target_audience": "Real estate professionals, property managers, surveyors, agribusiness professionals, land investors",
+    "description": "LandGlide is a parcel data app for iOS, Android and desktop that shows property boundaries and ownership information over aerial imagery. Users locate themselves by GPS, tap or hover over a parcel to see owner, mailing address, square footage, acreage, school district, sale price and transfer date, then save favorites, add notes and export. It works online and offline on mobile devices and covers more than 157 million parcel records across 3,200+ counties, or over 99% of the US population. LandGlide is a trademark of Real Estate Portal, USA, which also runs ReportAll. It costs $9.99 a month or $99.99 a year after a 7-day free trial, with corporate licenses for teams.",
+    "short_description": "Mobile and web parcel app: boundaries and owner info on 157M+ parcel records in 3,200+ counties, from $9.99 a month.",
+    "target_audience": {
+      "roles": [
+        "Real Estate Professionals",
+        "Land Investors",
+        "Surveyors",
+        "Agribusiness Professionals",
+        "Property Managers"
+      ],
+      "company_sizes": [
+        "Individual",
+        "Small"
+      ],
+      "property_types": [
+        "Land",
+        "Residential",
+        "Commercial"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Property Data",
@@ -14934,8 +15177,11 @@
     "pricing": {
       "model": "Subscription",
       "starting_price": "$9.99/month or $99.99/year",
-      "billing_options": [],
-      "free_trial": false,
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
+      "free_trial": true,
       "free_tier": false,
       "plans": [
         {
@@ -14943,10 +15189,10 @@
           "price": "$9.99",
           "period": "monthly",
           "features": [
-            "Unlimited access to mobile and desktop",
-            "Property lines",
-            "Ownership data",
-            "157 million parcels in 3,200+ counties"
+            "7-day free trial",
+            "Mobile and desktop access",
+            "Property lines and ownership data",
+            "157 million parcel records in 3,200+ counties"
           ]
         },
         {
@@ -14955,7 +15201,7 @@
           "period": "annual",
           "features": [
             "Same as Monthly",
-            "17% savings"
+            "About 17% savings"
           ]
         },
         {
@@ -14963,7 +15209,7 @@
           "price": "Contact for pricing",
           "period": "",
           "features": [
-            "Team discount for 2 or more users"
+            "Corporate account licenses for teams"
           ]
         }
       ]
@@ -15018,7 +15264,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-25",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "landglide.com",
@@ -15568,7 +15814,30 @@
     "headline": "Site feasibility & planning. Understand if you can make a deal make sense.",
     "description": "TestFit is a site feasibility platform that lets developers, architects and brokers generate and edit building configurations on a real site. Its generative engine produces an AI-generated site plan with 3D massing that the user then adjusts, with automatic takeoffs for parking, infrastructure and earthwork. Typologies include multifamily, single-family, industrial, data centers, retail, hotels and parking. The Site Intelligence add-on layers zoning (FAR, lot coverage, setbacks, height), FEMA flood, wetlands, soil and utility data onto the site, and the Pro Forma add-on keeps the financial model live-linked to the plan so returns move as the layout changes. Designs push to Revit and export to AutoCAD, SketchUp, Excel and PDF. Pricing is published: Parking Solver at $195 a month with unlimited users, Site Solver from $15,000 a year and Site Solver Portfolio from $20,000 a year.",
     "short_description": "Site feasibility & planning. Understand if you can make a deal make sense.",
-    "target_audience": "Real estate developers, architects, planners, investment professionals, development managers, site acquisition teams",
+    "target_audience": {
+      "roles": [
+        "Developers",
+        "Architects",
+        "Planners",
+        "Investment Professionals",
+        "Development Managers",
+        "Site Acquisition Teams"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Multifamily",
+        "Single-Family",
+        "Industrial",
+        "Data Center",
+        "Retail",
+        "Hospitality",
+        "Parking"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Site Planning",
@@ -15733,7 +16002,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-20",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "testfit.io",
@@ -15955,7 +16224,22 @@
     "headline": "Move Beyond Property Management Software",
     "description": "AppFolio is a cloud-based property management platform that combines property management, investment management, and AI-powered automation in a single unified experience. Branded as the 'Performance Platform,' it features agentic AI as a core building block for automating busywork across leasing, accounting, maintenance, and communications. AppFolio serves residential property managers from ~50 units to 14,000+ units, offering tools for online payments, tenant screening, maintenance coordination, marketing, and investor reporting. Its Realm-X Flows engine standardizes workflows for consistent high performance.",
     "short_description": "AI-native property management platform that delivers real performance through unified data and agentic AI.",
-    "target_audience": "Property managers, asset managers, investment managers, real estate operators, development companies",
+    "target_audience": {
+      "roles": [
+        "Property Managers",
+        "Real Estate Operators"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Residential",
+        "Multifamily",
+        "Commercial"
+      ]
+    },
     "feature_groups": [
       {
         "name": "AI-Native Platform",
@@ -16098,7 +16382,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-25",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": true,
     "domain": "appfolio.com",
@@ -16316,8 +16600,27 @@
     "logo_url": "/img/logos/entrata.png",
     "headline": "Commercial real estate software solution",
     "description": "Entrata is a comprehensive property management operating system serving multifamily, student, affordable, military, commercial, and manufactured housing operators. It provides a unified platform covering accounting, leasing, marketing, resident services, maintenance, and utility management. Entrata's Layered Intelligence (ELI) infuses AI across the platform for automated communications, review responses, and workflow automation. With 32,000+ properties, 3.2M+ unit spaces, and 700+ PM companies, Entrata is one of the largest property management platforms in the industry.",
-    "short_description": "Commercial real estate software platform.",
-    "target_audience": "Property managers across multifamily, student housing, affordable housing, military housing, commercial and manufactured housing sectors",
+    "short_description": "Property management platform for multifamily, student, affordable and military housing with native Leasing, Maintenance and Payments AI.",
+    "target_audience": {
+      "roles": [
+        "Property Managers",
+        "Leasing Teams",
+        "Operators",
+        "Owners"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Multifamily",
+        "Student Housing",
+        "Affordable Housing",
+        "Military Housing",
+        "Commercial",
+        "Manufactured Housing"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Leasing & Marketing",
@@ -16477,7 +16780,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "entrata.com",
@@ -16681,7 +16984,21 @@
     "headline": "Professional property management software for residential properties.",
     "description": "Propertyware is a rental property management software platform specifically designed for single-family property managers and their unique operational needs. The platform stands out with its highly customizable interface, open API with two-way data exchange, multi-location management capabilities, and portfolio-level accounting and reporting. Propertyware offers tools for maintenance management, marketing and leasing, tenant screening, accounting, and reporting. The platform includes custom fields, dashboards, and reports that let property managers run their business their way. Part of the RealPage family, Propertyware serves property management companies managing single-family rental portfolios.",
     "short_description": "Professional property management software for residential properties.",
-    "target_audience": "Single family rental property managers, real estate investors, property management companies focused on SFR portfolios",
+    "target_audience": {
+      "roles": [
+        "Property Management Companies",
+        "Property Managers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Single-Family Rentals",
+        "Residential"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Accounting & Reporting",
@@ -16762,9 +17079,11 @@
     ],
     "pricing": {
       "model": "Per unit/month",
-      "starting_price": null,
-      "billing_options": [],
-      "free_trial": false,
+      "starting_price": "$1/unit/month ($250/month minimum)",
+      "billing_options": [
+        "Monthly"
+      ],
+      "free_trial": true,
       "free_tier": false,
       "plans": [
         {
@@ -16772,10 +17091,8 @@
           "price": "$1/unit/month",
           "period": "monthly (min $250)",
           "features": [
-            "Accounting",
-            "Marketing",
-            "Online payments",
-            "Maintenance"
+            "Accounting, leasing, maintenance and portals",
+            "Implementation fee: 2x monthly subscription"
           ]
         },
         {
@@ -16783,10 +17100,8 @@
           "price": "$1.50/unit/month",
           "period": "monthly (min $350)",
           "features": [
-            "Everything in Basic",
-            "Advanced reporting",
-            "Custom fields",
-            "API access"
+            "Most popular tier",
+            "Implementation fee: 2x monthly subscription"
           ]
         },
         {
@@ -16794,10 +17109,16 @@
           "price": "$2/unit/month",
           "period": "monthly (min $450)",
           "features": [
-            "Everything in Plus",
-            "Custom dashboards",
-            "Priority support",
-            "Advanced integrations"
+            "Highest tier",
+            "Implementation fee: 2x monthly subscription"
+          ]
+        },
+        {
+          "name": "Enterprise/API add-on",
+          "price": "+$1/unit/month",
+          "period": "monthly",
+          "features": [
+            "Added to any package for API access"
           ]
         }
       ]
@@ -16825,8 +17146,8 @@
       "Part of RealPage ecosystem with access to broader tools"
     ],
     "cons": [
-      "Monthly minimums of $250-$450 make it expensive for small portfolios",
-      "Interface can feel dated compared to newer competitors",
+      "Monthly minimums of $250 to $450 make it expensive for small portfolios",
+      "Implementation fee of twice the monthly subscription, and API access costs an extra $1 per unit",
       "Primarily focused on single-family, less suitable for multifamily"
     ],
     "integrations": [
@@ -16860,7 +17181,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "propertyware.com",
@@ -16884,7 +17205,7 @@
       "Tenant screening and leasing tools",
       "Financial management and reporting"
     ],
-    "pricing_info": "Clear pricing with no hidden fees (specific rates not disclosed)",
+    "pricing_info": "Per-unit pricing published on propertyware.com: Basic $1, Plus $1.50, Premium $2 per unit per month with $250, $350 and $450 monthly minimums. Implementation fee is 2x the monthly subscription, Enterprise/API access adds $1 per unit per month, billable units adjust in 50-unit increments, and screening and payments carry transaction fees. A limited-access free trial is available with no credit card.",
     "enriched": true,
     "primary_category": "property-management",
     "logo_url_source": "https://logo.clearbit.com/propertyware.com"
@@ -16896,8 +17217,27 @@
     "logo_url": "/img/logos/rent-manager.png",
     "headline": "Robust property management software.",
     "description": "Rent Manager is a comprehensive, customizable property management software built to scale with portfolios of every type and size. The platform provides a complete accounting system functioning in both cash and accrual simultaneously, 450+ built-in reports, marketing and leasing tools, maintenance management, and extensive customization options. Rent Manager features Orion AI for smarter automation and deeper insights, an rmAppSuite Pro mobile app for field operations, and an open API for building integrations. The platform supports residential, commercial, HOA, self-storage, and mixed-portfolio management with tools for communication via SMS, email, web chat, and phone broadcasts.",
-    "short_description": "Robust property management software.",
-    "target_audience": "Property management companies of all sizes, residential property managers, multi-family operators, commercial property managers",
+    "short_description": "Configurable property management software for residential, commercial, HOA, student, manufactured housing and self storage portfolios.",
+    "target_audience": {
+      "roles": [
+        "Property Management Companies",
+        "Property Managers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Residential",
+        "Commercial",
+        "Associations",
+        "Student Housing",
+        "Manufactured Housing",
+        "Self Storage",
+        "Affordable Housing"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Accounting",
@@ -17046,7 +17386,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "rentmanager.com",
@@ -17082,7 +17422,21 @@
     "headline": "Property management software for landlords and property managers.",
     "description": "Rentec Direct is a cloud-based property management software trusted by landlords and professional property managers for managing rental properties of all types including single-family, multi-family, apartments, student housing, commercial, and affordable housing. Starting at $2/unit/month for landlords, the platform offers complete accounting with general ledger, tenant screening with instant credit, criminal, and eviction reports, online rent payments (free ACH), vacancy publishing to 20+ listing sites, secure file management, and custom rental websites. Rentec Direct has won the American Business Awards for Customer Service Department of the Year multiple times.",
     "short_description": "Property management software for landlords and property managers.",
-    "target_audience": "Landlords, property managers, real estate professionals managing residential and commercial properties of all sizes",
+    "target_audience": {
+      "roles": [
+        "Landlords",
+        "Property Managers"
+      ],
+      "company_sizes": [
+        "Individual",
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Residential",
+        "Commercial"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Accounting",
@@ -17281,7 +17635,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-09-02",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "rentecdirect.com",
@@ -17318,7 +17672,20 @@
     "headline": "Streamlined property management for landlords.",
     "description": "RentRedi is an all-in-one property management platform designed for landlords of all sizes, from first-time owners to investors with large portfolios. The platform is the official property management software for BiggerPockets' 3 million landlords and provides exclusive member access for NAR's 1.5 million realtors. RentRedi was recognized on the Inc. 5000 list of fastest-growing companies for two consecutive years. Key features include AI-powered onboarding, rent collection via ACH, card, and cash at 90,000+ retail locations, TransUnion tenant screening, and maintenance management with photo/video requests. RentRedi manages $34B in assets with 99% on-time rent payments using autopay.",
     "short_description": "Streamlined property management for landlords.",
-    "target_audience": "Individual landlords, real estate investors, realtors, property managers, small to medium portfolio owners",
+    "target_audience": {
+      "roles": [
+        "Landlords",
+        "Real Estate Investors"
+      ],
+      "company_sizes": [
+        "Individual",
+        "Small"
+      ],
+      "property_types": [
+        "Residential",
+        "Multifamily"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Rent Collection",
@@ -17491,7 +17858,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-25",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "rentredi.com",
@@ -17525,14 +17892,23 @@
     "slug": "resman",
     "url": "https://myresman.com/",
     "logo_url": "/img/logos/resman.png",
-    "headline": "Property management software for multifamily and commercial properties.",
-    "description": "ResMan is a cloud-based property management software platform designed for multifamily operators and their unique needs. The platform provides an all-in-one solution for accounting, reporting, traffic management, leasing, and unit information management. ResMan integrates with payment processing platforms like Paylease for resident portal functionality. The platform is known for being easy to navigate with comprehensive features that save property management companies thousands in bookkeeping fees. ResMan serves property management companies managing conventional, affordable, and student housing portfolios, delivering tools for financial reporting, lease management, and resident communication.",
-    "short_description": "Property management software for multifamily and commercial properties.",
+    "headline": "Property management software for multifamily and affordable housing.",
+    "description": "ResMan is a cloud-based property management platform for multifamily and affordable housing operators, part of Inhabit (formerly Inhabit IQ), which added ResMan in August 2021. Based in Plano, Texas, it combines property and corporate accounting, leasing with an online renter experience, payments, score-based screening with identity, employment and residence verification, BudgetsPro budgeting and reforecasting, and a BoardRoom KPI dashboard. AI tools include AI Invoice Entry, an AI Leasing Assistant and a multilingual AI Resident Assistant, and add-on solutions cover contact center, CRM AI, fraud detection, credit building, utilities and websites. The affordable offering supports HUD (including RAD conversions), Rural Development, tax credit and state and local rental assistance programs. ResMan says it serves thousands of customers and hundreds of integration partners; pricing is quote-based through a demo request.",
+    "short_description": "Cloud property management platform for conventional multifamily and affordable housing operators, part of Inhabit.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Property Management Companies",
+        "Multifamily Operators",
+        "Affordable Housing Operators"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Multifamily"
+        "Multifamily",
+        "Affordable Housing"
       ]
     },
     "feature_groups": [
@@ -17618,8 +17994,8 @@
       "Supports conventional, affordable, and student housing"
     ],
     "cons": [
-      "Pricing not publicly available",
-      "Less suitable for single-family or commercial properties",
+      "Pricing not publicly available; quotes come through a demo request",
+      "Current site does not describe single-family or commercial property management",
       "Smaller market presence than larger competitors like Yardi or RealPage"
     ],
     "integrations": [
@@ -17629,11 +18005,11 @@
       "Zillow"
     ],
     "company": {
-      "name": "ResMan",
+      "name": "ResMan (part of Inhabit)",
       "founded": 2012,
       "headquarters": "Plano, TX",
       "employees": "100-200",
-      "funding": ""
+      "funding": "Acquired by Inhabit IQ (now Inhabit) in August 2021"
     },
     "categories": [
       "Property Management",
@@ -17653,13 +18029,13 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "myresman.com",
     "pricing_model": "Quote-based",
     "is_free": false,
-    "tagline": "Property management software for multifamily and commercial properties.",
+    "tagline": "Property management software for multifamily and affordable housing.",
     "property_types": [
       "Multifamily"
     ],
@@ -17827,7 +18203,20 @@
     "headline": "Free property management software for landlords.",
     "description": "TurboTenant is a free property management software platform that helps over 500,000 landlords streamline their rental process. The platform is designed for landlords with one to 1,000+ doors, offering tools for listing vacancies, screening tenants, collecting rent, managing leases, and tracking maintenance, all from a consolidated dashboard. TurboTenant's free plan includes core features while the Premium plan offers advanced capabilities. The platform emphasizes keeping passive income truly passive by automating repetitive tasks and eliminating the need for multiple apps and paper filing systems. TurboTenant serves both first-time landlords and experienced residential investors.",
     "short_description": "Free property management software for landlords.",
-    "target_audience": "First-time landlords, experienced residential investors, small to large-scale property owners",
+    "target_audience": {
+      "roles": [
+        "Landlords",
+        "Real Estate Investors"
+      ],
+      "company_sizes": [
+        "Individual",
+        "Small"
+      ],
+      "property_types": [
+        "Residential",
+        "Multifamily"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Marketing & Screening",
@@ -18003,7 +18392,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-04",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "turbotenant.com",
@@ -18833,7 +19222,22 @@
     "headline": "Short-term rental data and analytics for investment insights.",
     "description": "AirDNA is the leading short-term rental data and analytics platform, providing comprehensive market intelligence for Airbnb and Vrbo properties worldwide. The platform offers tools for market research, revenue estimation, competitor analysis, and performance benchmarking. AirDNA's Rentalizer tool estimates potential rental income for any address, while Market Insights provides historical and forward-looking data on occupancy rates, daily rates, and revenue. Used by individual hosts, property managers, real estate investors, and hospitality companies, AirDNA covers millions of short-term rental listings globally.",
     "short_description": "Short-term rental data and analytics for investment insights.",
-    "target_audience": "Short-term rental investors, vacation rental property managers, real estate analysts",
+    "target_audience": {
+      "roles": [
+        "Short-Term Rental Investors",
+        "Vacation Rental Property Managers",
+        "Hosts"
+      ],
+      "company_sizes": [
+        "Individual",
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Short-Term Rentals",
+        "Residential"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Market Research",
@@ -18892,9 +19296,12 @@
       }
     ],
     "pricing": {
-      "model": "Subscription",
+      "model": "Freemium",
       "starting_price": null,
-      "billing_options": [],
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": true,
       "plans": [
@@ -18903,33 +19310,32 @@
           "price": "Free",
           "period": "",
           "features": [
-            "Limited Rentalizer",
-            "Limited Market Insights",
-            "Browse For Sale properties"
+            "Limited Rentalizer (revenue calculator)",
+            "Limited Market Insights for 120,000+ markets",
+            "Browse for-sale properties"
           ]
         },
         {
-          "name": "Research",
-          "price": "$34/month (billed annually) or $125/month",
+          "name": "Market Research",
+          "price": "$34/month billed annually ($400/year) or $125/month",
           "period": "monthly",
           "features": [
             "Customizable Rentalizer",
             "Historical Market Insights",
-            "Comparable Sets",
-            "Future Demand Data",
-            "Top Markets and Properties"
+            "Comparable sets",
+            "Future demand data",
+            "Property performance and top markets",
+            "5 Rentalizer Agent reports"
           ]
         },
         {
-          "name": "Host",
-          "price": "$50/month (billed annually) or $150/month",
+          "name": "Adapt (dynamic pricing)",
+          "price": "$20/listing/month",
           "period": "monthly",
           "features": [
-            "Everything in Research",
-            "Performance Benchmarking",
-            "Custom Comp Sets",
-            "Competitor Rate Calendar",
-            "Property Management Software (3 listings)"
+            "AI-native nightly pricing",
+            "Integrates with Guesty, Hostaway, Hospitable, OwnerRez and Uplisting",
+            "30-day free trial"
           ]
         },
         {
@@ -18937,11 +19343,10 @@
           "price": "Custom",
           "period": "",
           "features": [
-            "Everything in Host",
-            "Identify New Leads",
-            "Benchmark Against Competitors",
-            "Expand to New Markets",
-            "Track Reviews & Policies"
+            "For PMs with 6+ properties",
+            "Lead identification and competitor benchmarking",
+            "Professional revenue forecasts",
+            "25 Rentalizer Agent reports"
           ]
         }
       ]
@@ -18990,7 +19395,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "airdna.co",
@@ -20867,8 +21272,8 @@
     "url": "https://www.housecanary.com",
     "logo_url": "/img/logos/housecanary.png",
     "headline": "Real estate valuation and analytics platform",
-    "description": "HouseCanary is the most accurate AI-powered residential real estate data and analytics platform, covering 136M+ properties across the US. It provides instant property valuations (AVMs), CMAs, market forecasts, and investment analytics for single-family rental operators, mortgage lenders, investment banks, and prop-tech companies. HouseCanary's AI algorithms analyze data from thousands of sources with image recognition for property condition assessment. Six of the top 10 SFR REIT operators and major mortgage lenders rely on HouseCanary. The platform also includes a 50-state brokerage and digital banking/customer engagement tools.",
-    "short_description": "Automated valuation models and real estate analytics powered by advanced data science.",
+    "description": "HouseCanary is a residential real estate data and analytics company covering 136M+ US properties. Its products include automated valuation models and valuation reports, a custom valuation and comp tool, the CanaryAI generative assistant, a real estate data API, bulk property data, HPI and RPI data, MSA and ZIP level analytics, portfolio monitoring, the Instant Insights search platform for single-family rental investors, the ComeHome customer engagement platform for lenders, and a 50-state brokerage. It uses image recognition to classify rooms and assess condition. Plans are published from $19 a month (Basic) to $199 a month (Teams), with core API access starting on the $79 Pro plan and enterprise contracts above that. HouseCanary filed voluntary Chapter 11 petitions on September 22, 2026, in the US Bankruptcy Court for the District of New Jersey, and states that customers, partners and listings programs continue to be served without interruption.",
+    "short_description": "Residential AVMs, property and market data by API and bulk files, valuation reports and CanaryAI, with plans from $19 a month.",
     "target_audience": {
       "roles": [
         "Lenders",
@@ -20964,30 +21369,50 @@
       }
     ],
     "pricing": {
-      "model": "Quote-based",
-      "starting_price": null,
+      "model": "Subscription and enterprise",
+      "starting_price": "$19/month",
       "billing_options": [
         "Monthly",
         "Annual"
       ],
       "free_trial": false,
       "free_tier": false,
-      "plans": []
+      "plans": [
+        {
+          "name": "Basic",
+          "price": "$19/month or $190/year",
+          "description": "1 user, 2 custom valuation reports a month, CanaryAI."
+        },
+        {
+          "name": "Pro",
+          "price": "$79/month or $790/year",
+          "description": "1 user, 15 custom valuation reports and 15 AVM PDF reports a month, core API access with usage-based costs."
+        },
+        {
+          "name": "Teams",
+          "price": "$199/month or $1,990/year",
+          "description": "10 active users, 40 custom valuation and 40 AVM PDF reports a month, monitoring for 50 properties, advanced APIs, SSO."
+        },
+        {
+          "name": "Enterprise",
+          "price": "Contact for pricing",
+          "description": "Custom user limits, negotiable minimums, custom datasets and a dedicated customer success representative."
+        }
+      ]
     },
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "Most accurate AVMs in the industry, trusted by 6 of top 10 SFR REITs",
-      "Block-level granularity surpasses MSA-level competitors",
-      "AI image recognition for property condition assessment is innovative",
-      "Well-documented API makes integration straightforward",
-      "Covers 136M+ properties, comprehensive US coverage"
+      "Published plans from $19 a month, with API access from $79",
+      "Residential AVMs, valuation reports and data on 136M+ properties",
+      "Image recognition for room type and condition",
+      "API, bulk data and portfolio monitoring from one vendor"
     ],
     "cons": [
-      "Primarily residential/SFR, limited commercial property coverage",
-      "Quote-based pricing, no public price transparency",
-      "Can be expensive for individual investors or small teams",
-      "50-state brokerage model adds complexity to the product positioning"
+      "Filed for Chapter 11 on September 22, 2026; operations continue under court supervision",
+      "Primarily residential and single-family rental, with limited commercial coverage",
+      "API usage carries additional usage-based costs on top of the plan",
+      "50-state brokerage alongside the data business complicates positioning"
     ],
     "integrations": [
       {
@@ -21032,7 +21457,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-17",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "housecanary.com",
@@ -21251,9 +21676,24 @@
     "url": "https://www.rentometer.com",
     "logo_url": "/img/logos/rentometer.png",
     "headline": "Rental pricing data and analysis for property owners and investors.",
-    "description": "Rentometer is a rent comparison and analysis platform that provides hyperlocal rent estimates and comparable rental data for landlords, property managers, real estate agents, and investors. The platform offers QuickView rent estimates for instant market rent analysis, detailed Pro Reports with comprehensive rental comparables, and downloadable rent comp data. Rentometer also provides a Yield Tracker for investment analysis, a Batch Processor for analyzing multiple properties at once, an API for integration, and lead generation tools. The platform has been trusted by real estate professionals for years as the go-to source for accurate, location-specific rental market data.",
+    "description": "Rentometer is a rent comparison and analysis platform that provides hyperlocal rent estimates and comparable rental data for landlords, property managers, real estate agents and investors. QuickView rent estimates give the average and median rent for any US property; Pro Reports add comps, historical trends, a rent analysis summary and public record data; rent comp data can be downloaded as CSV. Atlas Market Insights covers rent trends, demographics and school districts for every metro, city, ZIP code and neighborhood. The Pro plan adds custom report branding, a deal analysis worksheet, a batch processor for up to 500 properties, lead generation tools and API access, and paid plans include iOS and Android apps. Plans start at $59 a year, and a free account is available.",
     "short_description": "Rental pricing data and analysis for property owners and investors.",
-    "target_audience": "Real estate investors, real estate agents, wholesale real estate businesses, property managers, and anyone needing rental market analysis and comparable data for investment decisions.",
+    "target_audience": {
+      "roles": [
+        "Real Estate Investors",
+        "Landlords",
+        "Property Managers",
+        "Agents"
+      ],
+      "company_sizes": [
+        "Individual",
+        "Small"
+      ],
+      "property_types": [
+        "Residential",
+        "Multifamily"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Rent Analysis",
@@ -21313,33 +21753,43 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": null,
-      "billing_options": [],
+      "starting_price": "$59/year (Basic)",
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": [
         {
-          "name": "Essential",
-          "price": "Contact for pricing",
-          "period": "monthly",
+          "name": "Basic",
+          "price": "$59/year",
+          "period": "annual only",
           "features": [
-            "QuickView Rent Estimates",
-            "Pro Reports",
-            "Rent Comp Downloads",
-            "Custom Report Branding",
-            "Mobile App"
+            "10 rent estimates",
+            "5 rent reports with comps"
+          ]
+        },
+        {
+          "name": "Essential",
+          "price": "$16/month or $96/year",
+          "period": "monthly or annual",
+          "features": [
+            "Unlimited rent estimates",
+            "3 rent reports with comps per month (50 per year on annual)",
+            "iOS and Android app"
           ]
         },
         {
           "name": "Pro",
-          "price": "Contact for pricing",
-          "period": "monthly",
+          "price": "$29/month or $199/year",
+          "period": "monthly or annual",
           "features": [
-            "Everything in Essential",
-            "Rentometer API",
-            "Yield Tracker",
-            "Batch Processor",
-            "Lead Generation"
+            "Unlimited rent estimates",
+            "10 rent reports with comps per month (200 per year on annual)",
+            "Market updates and Atlas Market Insights",
+            "Custom report branding and deal analysis worksheet",
+            "Batch rent estimates, lead generation and API access"
           ]
         }
       ]
@@ -21360,16 +21810,16 @@
     ],
     "video_url": null,
     "pros": [
-      "Hyperlocal rent data with high accuracy validated by years of user trust",
-      "Quick and easy rent estimates for any address in seconds",
+      "Hyperlocal rent estimates and comps for any US address in seconds",
+      "Published pricing from $59 a year with monthly and annual options",
       "Custom branding for professional client-facing reports",
-      "Batch processing saves time for portfolio analysis",
-      "API available for integration into other platforms"
+      "Batch processing for up to 500 properties on Pro",
+      "API access included on the Pro plan"
     ],
     "cons": [
-      "Pricing not transparently listed on website",
+      "Report counts are capped by plan",
       "Limited to US rental markets",
-      "Free access is very limited; most features require subscription"
+      "Batch processing, lead generation and API require Pro"
     ],
     "integrations": [],
     "company": {
@@ -21397,7 +21847,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "rentometer.com",
@@ -21434,7 +21884,21 @@
     "headline": "Agentic property management software for residential and commercial portfolios.",
     "description": "DoorLoop is cloud property management software for landlords, property managers and real estate investors managing residential, commercial and mixed-use portfolios. It covers online rent collection (ACH, cards and cash payments), tenant screening, leases with eSignatures, maintenance requests, owner and tenant portals, and full property accounting with live bank sync, budgeting, owner statements, CAM charges with true-ups and tenant statements, and 1099-MISC and 1099-NEC preparation (e-filed through Avalara). DoorLoop 2.0 adds AI agents: an AI Assistant on every plan, a Receptionist Agent on Connect, and Maintenance Ops and Lease Renewal agents on Multiply. Plans are priced per unit, from $2.50 per unit per month billed yearly with a $199 monthly minimum, and every plan includes unlimited users and full API access.",
     "short_description": "All-in-one property management software for residential and commercial properties.",
-    "target_audience": "Landlords, property managers, and real estate investors of any size managing single-family homes, multi-family properties, mixed-use commercial properties, HOAs, mobile home parks, student housing, and affordable housing portfolios.",
+    "target_audience": {
+      "roles": [
+        "Property Managers",
+        "Landlords"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Residential",
+        "Multifamily",
+        "Commercial"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Rent Collection & Payments",
@@ -21642,7 +22106,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-23",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "doorloop.com",
@@ -22187,8 +22651,24 @@
     "logo_url": "",
     "headline": "Real estate investment property data and analysis platform.",
     "description": "Mashvisor is a real estate investment data analytics platform specializing in short-term rental (Airbnb) and long-term rental analysis. The platform helps investors find profitable investment properties by providing market data, rental revenue estimates, and property analytics across the United States. Key tools include the Market Finder for discovering top-performing markets, Property Finder for searching investment opportunities across multiple locations, Dynamic Pricing powered by AI for Airbnb hosts, and a comprehensive real estate data API. Mashvisor provides cap rates, cash-on-cash returns, occupancy rates, and rental comps to support data-driven investment decisions.",
-    "short_description": "Real estate investment property data and analysis platform.",
-    "target_audience": "Real estate investors seeking rental property opportunities, Airbnb hosts looking to optimize their short-term rental performance, property managers managing vacation rental portfolios, and API developers building real estate applications requiring reliable market data.",
+    "short_description": "Long-term and Airbnb rental income, ROI and market analytics for investment property buyers, plus a data API.",
+    "target_audience": {
+      "roles": [
+        "Real Estate Investors",
+        "Short-Term Rental Hosts",
+        "Agents",
+        "Proptech Developers"
+      ],
+      "company_sizes": [
+        "Individual",
+        "Small"
+      ],
+      "property_types": [
+        "Residential",
+        "Short-Term Rentals",
+        "Multifamily"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Market Analysis",
@@ -22269,9 +22749,9 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": "$49.99/month",
+      "starting_price": "$39.99/month (billed annually)",
       "billing_options": [
-        "Monthly",
+        "Quarterly",
         "Annual"
       ],
       "free_trial": false,
@@ -22279,38 +22759,59 @@
       "plans": [
         {
           "name": "Lite",
-          "price": "$49.99",
+          "price": "$39.99/month billed annually ($49.99 billed quarterly)",
           "period": "monthly",
           "features": [
-            "Market analysis",
-            "Property search",
-            "Basic analytics"
+            "Long-term and Airbnb rent and occupancy estimates",
+            "ROI (cash on cash and cap rate) estimates",
+            "Investment opportunity scores",
+            "Short-term rental rules for 500+ cities"
           ]
         },
         {
           "name": "Standard",
-          "price": "$99.99 monthly ($74.99 billed annually)",
+          "price": "$74.99/month billed annually ($99.99 billed quarterly)",
           "period": "monthly",
           "features": [
             "Everything in Lite",
-            "Advanced analytics",
-            "Rental comps",
-            "Short-term vs long-term rental analysis"
+            "Nationwide property search",
+            "Rental comps and heatmaps",
+            "Smart Property Finder and neighborhood analytics",
+            "Side-by-side comparison",
+            "Excel exports"
           ]
         },
         {
           "name": "Professional",
-          "price": "$119.99 monthly ($99.99 billed annually)",
+          "price": "$99.99/month billed annually ($119.99 billed quarterly)",
           "period": "monthly",
           "features": [
             "Everything in Standard",
-            "Export and reporting",
-            "Priority support"
+            "Multifamily listings for up to 3 cities (by request)",
+            "Foreclosure filters",
+            "Agent and property manager CRM and client outreach",
+            "Property PDFs and listing uploads"
+          ]
+        },
+        {
+          "name": "Enterprise",
+          "price": "Custom",
+          "features": [
+            "Custom data outputs",
+            "Up to 10 years of historical data",
+            "API, data dumps and bulk downloads"
+          ]
+        },
+        {
+          "name": "API Free",
+          "price": "$0",
+          "features": [
+            "30 one-time sample requests, no credit card"
           ]
         },
         {
           "name": "API Starter",
-          "price": "$129/mo",
+          "price": "$129/mo ($1,290/yr)",
           "features": [
             "500 API calls a month",
             "$0.30 per extra call"
@@ -22318,16 +22819,18 @@
         },
         {
           "name": "API Professional",
-          "price": "$249/mo",
+          "price": "$249/mo ($2,490/yr)",
           "features": [
-            "1,000 API calls a month"
+            "1,000 API calls a month",
+            "$0.30 per extra call"
           ]
         },
         {
           "name": "API Growth",
-          "price": "$599/mo",
+          "price": "$599/mo ($5,990/yr)",
           "features": [
-            "3,000 API calls a month"
+            "3,000 API calls a month",
+            "$0.30 per extra call"
           ]
         },
         {
@@ -22362,6 +22865,7 @@
       "User-friendly interface accessible to beginner investors"
     ],
     "cons": [
+      "No free trial and no refunds; billing is quarterly or annual only",
       "Data accuracy can vary in smaller or rural markets",
       "API calls are priced separately from the investor plans",
       "Focused primarily on US market"
@@ -22397,7 +22901,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "mashvisor.com",
@@ -22663,9 +23167,22 @@
     "url": "https://www.stessa.com",
     "logo_url": "/img/logos/stessa.png",
     "headline": "Real estate investor portfolio management and tax preparation",
-    "description": "Stessa (by Roofstock) is the #1 free app for rental property investors, covering the entire investment lifecycle from acquisition to exit. It replaces spreadsheets with automated bookkeeping, real-time financial dashboards, rent collection, tenant screening, maintenance tracking, eSigning, and landlord banking. Stessa's free Essentials plan includes unlimited properties and automatic bank feeds, while paid plans ($12-$35/month) add features like maintenance management, Schedule E reports, budgeting, and a 3.24% APY banking account. Investors report saving $4,000 and 100+ hours annually.",
+    "description": "Stessa, part of Roofstock, is a rental property finance app used by more than 350,000 landlords. It automates bookkeeping with bank feeds and receipt scanning, produces Tax Package and Schedule E reports, and adds online rent collection, RentPrep tenant screening, vacancy marketing, maintenance tracking, legal forms and eSignatures. Per-property bank accounts are provided through Thread Bank, with variable APY that depends on plan and balance. The free Essentials plan includes unlimited properties in one portfolio; Manage ($12 a month billed annually, $15 monthly) adds a Schedule E report, 60+ legal forms and one eSignature a month; Pro ($28 billed annually, $35 monthly) adds unlimited portfolios, all advanced reports, budgeting and pro forma, unlimited receipt scanning, seven eSignatures a month and the highest banking yield. Full-service property management is offered through Mynd.",
     "short_description": "Portfolio management and tax preparation software for real estate investors.",
-    "target_audience": "Rental property investors and landlords of all sizes, from individual property owners to larger portfolio managers, seeking to automate their property management workflows, improve financial tracking, and streamline tenant management processes.",
+    "target_audience": {
+      "roles": [
+        "Rental Property Investors",
+        "Landlords"
+      ],
+      "company_sizes": [
+        "Individual",
+        "Small"
+      ],
+      "property_types": [
+        "Residential",
+        "Multifamily"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Bookkeeping & Accounting",
@@ -22759,10 +23276,13 @@
           "price": "Free",
           "period": "",
           "features": [
-            "Income and expense tracking",
-            "Financial reporting",
-            "Document storage",
-            "Bank account linking"
+            "Unlimited properties, one portfolio",
+            "Automatic bank feeds",
+            "Basic reports",
+            "Vacancy marketing and tenant screening",
+            "Online rent collection",
+            "Maintenance tracking",
+            "Banking up to 2.02% APY (variable)"
           ]
         },
         {
@@ -22771,9 +23291,11 @@
           "period": "monthly",
           "features": [
             "Everything in Essentials",
-            "Rent collection",
-            "Tenant screening",
-            "Higher-yield cash management"
+            "Schedule E report",
+            "One eSignature per month",
+            "60+ legal forms and unlimited state-specific leases",
+            "Accelerated rent payments",
+            "Priority chat support"
           ]
         },
         {
@@ -22783,8 +23305,12 @@
           "features": [
             "Everything in Manage",
             "Unlimited portfolios",
-            "Advanced reporting",
-            "Priority support"
+            "All advanced reports",
+            "Budgeting and pro forma",
+            "Unlimited receipt scanning",
+            "Seven eSignatures per month",
+            "Banking up to 3.49% APY (variable)",
+            "Priority phone support"
           ]
         }
       ]
@@ -22807,15 +23333,15 @@
     "pros": [
       "Generous free tier with unlimited properties and core features",
       "Purpose-built for rental property investors, not adapted from generic accounting software",
-      "High-yield banking (3.24% APY) provides tangible financial value",
+      "Per-property bank accounts with variable APY up to 3.49% on Pro",
       "Extremely easy to use, designed for non-technical landlords",
-      "Backed by Roofstock, institutional-grade investment analytics"
+      "Part of Roofstock, with full-service management available through Mynd"
     ],
     "cons": [
-      "Best features require Pro plan ($28-35/month)",
-      "Primarily designed for individual investors, not for large property management companies",
-      "Limited commercial property support",
-      "No dedicated property management workflows (beyond basic maintenance)"
+      "Budgeting, all advanced reports and unlimited portfolios require Pro ($28 to $35/month)",
+      "eSignatures are metered: one a month on Manage, seven on Pro",
+      "Primarily designed for individual investors, not for property management companies; no trust accounting",
+      "Limited commercial property support"
     ],
     "integrations": [
       {
@@ -22860,11 +23386,11 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-09-02",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "stessa.com",
-    "pricing_model": "Quote-based",
+    "pricing_model": "Freemium",
     "is_free": true,
     "tagline": "Real estate investor portfolio management and tax preparation",
     "property_types": [
@@ -22901,9 +23427,24 @@
     "url": "https://www.dealmachine.com",
     "logo_url": "/img/logos/dealmachine.png",
     "headline": "Real estate marketing and lead generation tool for property investors.",
-    "description": "DealMachine is a real estate lead generation and marketing platform designed for investors, wholesalers, and agents to find off-market properties. The platform offers a database of 150 million+ US properties with 700 data points and 70+ filters for building targeted lead lists. Key features include driving for dollars with GPS route tracking, an AI-powered cold-calling dialer with instant transcriptions and automated follow-ups, and personalized direct mail campaigns with handwritten letters. DealMachine provides instant property owner contact information from multiple reliable sources, making it a go-to tool for real estate prospecting.",
-    "short_description": "Real estate marketing and lead generation tool for property investors.",
-    "target_audience": "Real estate investors, wholesalers, fix-and-flip investors, and real estate professionals looking to generate leads through driving for dollars, direct mail campaigns, and cold calling to find off-market property deals and connect with motivated sellers.",
+    "description": "DealMachine is a real estate data and outreach platform from DealMachine Operations, Inc., founded in Indianapolis in 2017 by David Lecko and Dave Oster. It started as a driving-for-dollars app and now covers 150M+ US properties and 240M+ people records with AI search in plain language, 800+ filters, list building, skip tracing and contact enrichment. The Driving for Dollars app (route tracking, photos, instant owner lookups) is included on every plan, direct mail postcards are billed per piece, and every plan includes API, CLI and webhook access plus Zapier and an MCP server. Plans are per seat with monthly data credits that are spent when revealing contacts and exporting records. It serves investors, agents, home-service teams, lenders and insurers, and reports 150,000+ people using the product.",
+    "short_description": "Nationwide property and owner data with skip tracing, a Driving for Dollars app, direct mail and API access for investors.",
+    "target_audience": {
+      "roles": [
+        "Real Estate Investors",
+        "Wholesalers",
+        "Agents & Brokers",
+        "Home Service Businesses",
+        "Lenders & Insurers"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
+      "property_types": [
+        "Residential"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Lead Generation",
@@ -22962,50 +23503,55 @@
       }
     ],
     "pricing": {
-      "model": "Subscription",
-      "starting_price": null,
-      "billing_options": [],
+      "model": "Subscription (per seat with monthly data credits)",
+      "starting_price": "$119/month",
+      "billing_options": [
+        "Monthly",
+        "Annual (save 17%)"
+      ],
       "free_trial": false,
-      "free_tier": false,
+      "free_tier": true,
       "plans": [
         {
-          "name": "Starter",
-          "price": "$99",
-          "period": "monthly",
-          "features": [
-            "Lead lists",
-            "Driving for dollars",
-            "Property data",
-            "Contact info"
-          ]
+          "name": "Free account",
+          "price": "$0",
+          "description": "Explore searches with no credit card; owner, contact and property details stay locked until you choose a plan."
+        },
+        {
+          "name": "Basic",
+          "price": "$119/mo per seat ($1,190/yr)",
+          "description": "10,000 data credits per seat per month, Driving for Dollars app, pay-as-you-go mail, API/CLI/webhooks, standard support."
         },
         {
           "name": "Pro",
-          "price": "$249",
-          "period": "monthly",
-          "features": [
-            "Everything in Starter",
-            "AI Dialer",
-            "Direct mail",
-            "Automated follow-ups",
-            "Skip tracing"
-          ]
+          "price": "$179/mo per bundle ($1,790/yr)",
+          "description": "3 users and 20,000 data credits per bundle per month, premium filters, priority support."
+        },
+        {
+          "name": "Scale",
+          "price": "$599/mo per package",
+          "description": "100,000 records and 10 seats per package, SSO/SAML, onboarding, dedicated account manager. Sold through sales."
+        },
+        {
+          "name": "Direct mail",
+          "price": "$0.70 to $0.89 per postcard",
+          "description": "Usage-based by size and plan; prepaid bulk rates from $0.58."
         }
       ]
     },
     "screenshots": [],
     "video_url": null,
     "pros": [
-      "150M+ property database with 700 data points is comprehensive",
-      "Driving for dollars feature with GPS tracking is unique for finding off-market deals",
-      "AI-powered dialer with transcription saves significant time",
-      "Automated direct mail campaigns with personalized handwritten letters",
-      "Mobile app enables field work and instant property lookups"
+      "Driving for Dollars app with route tracking and instant owner lookups included on every plan",
+      "150M+ properties and 240M+ people records with skip tracing and enrichment in one workspace",
+      "API, CLI, webhooks and an MCP server included on every plan",
+      "Free account to explore with no credit card"
     ],
     "cons": [
-      "Can be expensive for beginners at $99-249/month",
-      "Direct mail and skip tracing have additional per-use costs",
-      "Primarily focused on US market only"
+      "Data credits are consumed by contact reveals and exports, so heavy list work needs more seats or a Scale package",
+      "Direct mail is billed per piece on top of the subscription",
+      "No time-limited free trial; search results stay locked until you pay",
+      "Residential investor focus; little for commercial or land analysis"
     ],
     "integrations": [
       "Zapier",
@@ -23015,7 +23561,7 @@
       "Salesforce"
     ],
     "company": {
-      "name": "DealMachine",
+      "name": "DealMachine (DealMachine Operations, Inc.)",
       "founded": 2017,
       "headquarters": "Indianapolis, IN",
       "employees": "50-100",
@@ -23025,7 +23571,8 @@
       "CRM & Marketing"
     ],
     "deployment": [
-      "Cloud"
+      "Cloud",
+      "Mobile"
     ],
     "rating": null,
     "review_count": 0,
@@ -23038,7 +23585,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "dealmachine.com",
@@ -23046,7 +23593,7 @@
     "is_free": false,
     "tagline": "Real estate marketing and lead generation tool for property investors.",
     "property_types": [
-      "Commercial"
+      "Residential"
     ],
     "features": [
       "Access to 150+ million property records nationwide",
@@ -23065,11 +23612,12 @@
       "Custom property highlights and drive tracking",
       "Off-market lead discovery tools"
     ],
-    "pricing_info": "Subscription-based pricing model with unlimited access to property owner contact information included. Pricing tiers likely based on feature access including AI dialer, direct mail volume, and advanced list building capabilities. Contact for specific pricing details on premium features and enterprise solutions.",
+    "pricing_info": "Per-seat Basic and Pro plans with monthly data credits, Scale packages of 100,000 records through sales, and usage-based direct mail. Monthly or annual billing (annual saves 17%). No time-limited free trial; a free account lets you explore with results locked.",
     "enriched": true,
     "enrichedAt": "2026-02-17T23:31:31.719597Z",
     "primary_category": "crm-marketing",
-    "logo_url_source": "https://logo.clearbit.com/dealmachine.com"
+    "logo_url_source": "https://logo.clearbit.com/dealmachine.com",
+    "status": "active"
   },
   {
     "title": "Knock",
@@ -23078,8 +23626,22 @@
     "logo_url": "/img/logos/knock.png",
     "headline": "CRM and leasing tools for property managers and real estate professionals.",
     "description": "Knock CRM is a front office platform for multifamily leasing teams, guiding renters from lead to lease to retained resident. It is owned by RealPage, which acquired Knock in 2022. Features include self-service tour scheduling (Knock Now, which Knock says increases tour volume 2.5x), multi-channel messaging across email, text, voice and chat from a single screen, marketing source attribution, task management for leasing teams, Knock Insights analytics, mobile apps, and AI solutions including RealPage's Lumina AI leasing agent. It integrates with RealPage, Yardi and Entrata.",
-    "short_description": "CRM and leasing tools for property managers and real estate professionals.",
-    "target_audience": "Multifamily property owners and operators, leasing teams, property managers, marketing directors, operations teams, IT departments, and corporate multifamily organizations seeking to optimize leasing performance and maximize NOI through technology-enabled processes.",
+    "short_description": "RealPage-owned multifamily leasing CRM: multi-channel messaging, self-scheduled tours, attribution and AI solutions.",
+    "target_audience": {
+      "roles": [
+        "Leasing Teams",
+        "Property Managers",
+        "Marketing Teams",
+        "Multifamily Owners"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
+      "property_types": [
+        "Multifamily"
+      ]
+    },
     "feature_groups": [
       {
         "name": "Lead Management",
@@ -23191,7 +23753,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-23",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "knockcrm.com",
@@ -23564,13 +24126,25 @@
     "url": "https://www.clearcapital.com",
     "logo_url": "/img/logos/clear-capital.png",
     "headline": "Real estate valuation and appraisal technology for professionals.",
-    "description": "Clear Capital is a real estate valuation technology company providing automated and hybrid valuation solutions for lenders, servicers, investors, and government agencies. The company combines data analytics, artificial intelligence, and a nationwide network of local real estate professionals to deliver property valuations, appraisals, and inspection services. Clear Capital's platform supports the mortgage lifecycle from origination through servicing with products including desktop appraisals, hybrid appraisals, broker price opinions (BPOs), and automated valuation models (AVMs). The company is known for its fast turnaround times and accuracy in property valuation.",
-    "short_description": "Real estate valuation and appraisal technology for professionals.",
+    "description": "Clear Capital is a real estate valuation technology and services company for mortgage origination, home equity, servicing, capital markets, GSEs, insurance and proptech. Its analytics include ClearAVM, a rental AVM, a Property Analytics API and the ClearProp interactive valuation tool, and its PropertyNova data line covers tax assessment, recorder deed and mortgage data plus the Home Data Index of market trends. Services span traditional, hybrid and desktop appraisals, broker price opinions, residential and commercial evaluations, property condition and post-disaster inspections, and an automated property condition report from aerial imagery. Appraisal review tools include Collateral Desktop Analysis and AURA, and the CubiCasa app produces automated floor plans. Pricing is not published.",
+    "short_description": "Valuation, appraisal and property data for lenders, servicers and insurers: AVMs, appraisals, BPOs, evaluations and public-record data.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Lenders",
+        "Servicers",
+        "Insurers",
+        "Appraisers",
+        "Capital Markets Teams",
+        "Investors"
+      ],
+      "company_sizes": [
+        "Mid-Market",
+        "Enterprise"
+      ],
       "property_types": [
-        "Commercial"
+        "Residential",
+        "Commercial",
+        "Single-Family Rentals"
       ]
     },
     "feature_groups": [
@@ -23668,6 +24242,7 @@
       "Investment & Valuation"
     ],
     "deployment": [
+      "Cloud",
       "Mobile"
     ],
     "rating": null,
@@ -23681,7 +24256,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "clearcapital.com",
@@ -25123,12 +25698,19 @@
     "description": "CRED iQ is a commercial real estate data, analytics and valuation platform built on the universe of securitized CRE debt, spanning CMBS, SASB, CRE CLO and Fannie Mae, Freddie Mac and Ginnie Mae multifamily loans, joined to public records, sales, ownership and comps. Founded in 2020, it says it covers more than $2 trillion in loans, with loan balances and maturity dates, borrower and ownership data, special servicing status and property-level operating statements. The web platform includes a maturity pipeline, instant valuation and refinance models, watchlists, portfolio uploads and distress alerts, and investors, lenders, brokers and analysts use it to monitor loans and source refinancing and acquisition leads. Pricing is published: API access starts on the Professional plan, and an MCP server and bulk feeds to Snowflake, Databricks and SFTP come with Enterprise.",
     "short_description": "CRE and CMBS loan data, analytics, and valuation platform for investors, lenders, and brokers.",
     "target_audience": {
-      "roles": [],
+      "roles": [
+        "Investors",
+        "Lenders",
+        "Brokers",
+        "Analysts"
+      ],
       "company_sizes": [],
       "property_types": [
-        "Industrial",
+        "Multifamily",
         "Office",
-        "Retail"
+        "Retail",
+        "Industrial",
+        "Hospitality"
       ]
     },
     "feature_groups": [
@@ -25275,7 +25857,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "crediq.com",
@@ -27244,10 +27826,18 @@
     "description": "Casafy AI is a property intelligence platform that uses computer vision on street-level imagery to identify distressed and value-add properties before they reach the market. It maintains AI condition assessments on more than 2 million scanned properties and over 159 million parcel records nationwide, combined with live MLS data, customizable filters, comparable-property analysis, and built-in skip tracing for owner contact information. It targets real estate investors as well as trades contractors, direct mail marketers, and insurance users who need property-condition data.",
     "short_description": "Computer-vision platform that scans street-level imagery to surface distressed, off-market properties for investors.",
     "target_audience": {
-      "roles": [],
-      "company_sizes": [],
+      "roles": [
+        "Real Estate Investors",
+        "Direct Mail Marketers",
+        "Roofers & Trades",
+        "Insurance"
+      ],
+      "company_sizes": [
+        "Small",
+        "Mid-Market"
+      ],
       "property_types": [
-        "Commercial"
+        "Residential"
       ]
     },
     "feature_groups": [
@@ -27271,10 +27861,15 @@
     },
     "screenshots": [],
     "video_url": null,
-    "pros": [],
+    "pros": [
+      "Computer vision condition scoring on street-level imagery surfaces visibly distressed properties",
+      "AI driving-for-dollars search without driving",
+      "Owner information and skip tracing built in, with live MLS data and comps"
+    ],
     "cons": [
-      "Website blocked automated access",
-      "Limited product information available"
+      "Pricing is not published on the site",
+      "Condition scores depend on areas the platform has already processed",
+      "Smaller vendor with less product documentation than established list tools"
     ],
     "integrations": [],
     "company": {
@@ -27302,7 +27897,7 @@
         "CRE software"
       ]
     },
-    "last_updated": "2026-08-28",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "casafy.ai",
@@ -27310,7 +27905,7 @@
     "is_free": false,
     "tagline": "Search for value add properties across the United States",
     "property_types": [
-      "Commercial"
+      "Residential"
     ],
     "primary_category": "data-analytics",
     "status": "active",
@@ -27752,8 +28347,8 @@
     "url": "https://www.buildingengines.com",
     "logo_url": "/img/logos/building-engines.png",
     "headline": "AI-powered property operations platform built for commercial real estate.",
-    "description": "Building Engines (by JLL Technologies) is a property operations platform for commercial real estate owners and operators that streamlines tenant service, building operations, risk management, and tenant experience. The platform covers work order management, preventive maintenance, vendor management, tenant communication, inspection tracking, and certificate of insurance management. Building Engines helps property teams deliver consistent operational excellence while reducing risk and improving tenant satisfaction across office, industrial, retail, and mixed-use portfolios.",
-    "short_description": "AI-powered property operations platform built for CRE.",
+    "description": "Building Engines, part of JLL since 2021, sells Prism, a building operations platform for commercial real estate owners and managers. Prism covers work order management, preventive maintenance, inspections through a mobile app, vendor and risk management, visitor management and reporting, and gives tenants a single web or mobile app to submit requests. JLL positions it with AI-powered operations tools and cites 6B square feet managed globally across office, retail and industrial portfolios. Pricing is not published; JLL offers demos.",
+    "short_description": "Prism by Building Engines, a JLL product: work orders, tenant requests, visitor access, inspections and vendor management for CRE.",
     "target_audience": {
       "roles": [
         "Property Manager",
@@ -27893,7 +28488,7 @@
         "property operations software"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "buildingengines.com",
@@ -33049,11 +33644,11 @@
   {
     "title": "MSCI Real Capital Analytics",
     "slug": "msci-rca",
-    "url": "https://www.msci.com/our-solutions/real-assets",
+    "url": "https://www.msci.com/data-and-analytics/real-estate",
     "logo_url": "/img/logos/msci-rca.png",
     "headline": "Global commercial property transaction data and analytics.",
-    "description": "MSCI Real Assets (formerly Real Capital Analytics/RCA) provides the industry's leading global CRE transaction data, analytics, and performance benchmarking. Covers $50T+ in transactions, $2T+ in private real estate assets, 120,000+ investor/lender profiles, and 80+ performance indexes across 170+ countries. Institutional investors, fund managers, and lenders use MSCI for performance attribution, transaction screening, and climate risk assessment.",
-    "short_description": "Global commercial property transaction data and analytics.",
+    "description": "Real Capital Analytics (RCA) is MSCI's global database of commercial properties, transactions, investors and loans. MSCI acquired RCA in 2021, and it now sits within MSCI's real estate data and analytics line alongside Index Intel, Mortgage Debt Intelligence, Income Insights, Performance Insights, Property Intel (Finland, Norway and Sweden), Real Estate Climate Risk and the MSCI Private Real Estate Indexes. MSCI cites $50 trillion+ in transactions, $2 trillion+ of private real estate assets covered, 120,000+ investor and lender profiles and 80+ performance indexes, with data from more than 170 countries. Mortgage Debt Intelligence covers securitized and non-securitized property loans. Institutional investors, fund managers and lenders use it for deal sourcing, asset allocation, benchmarking and risk analysis. Pricing is not published.",
+    "short_description": "MSCI's Real Capital Analytics: global commercial property transaction, investor and loan data, plus indexes and debt intelligence.",
     "target_audience": {
       "roles": [
         "Institutional Investor",
@@ -33190,7 +33785,7 @@
         "CRE market data"
       ]
     },
-    "last_updated": "2026-02-19",
+    "last_updated": "2026-11-02",
     "is_verified": false,
     "is_featured": false,
     "domain": "msci.com",
@@ -42316,24 +42911,24 @@
     ],
     "pricing": {
       "model": "Freemium subscription",
-      "starting_price": "$12/month (Pro, plus $1 per unit above 3)",
+      "starting_price": "$12/month billed annually ($15 monthly), 3 units included, $1.20 per extra unit",
       "free_trial": true,
       "free_tier": true,
       "plans": [
         {
           "name": "Go",
           "price": "$0/month",
-          "description": "Up to 3 units and 1 user; listings, applications, rent collection, basic expense tracking."
+          "description": "Up to 3 units and 1 user; listings, syndication, online rent collection, basic PDF reports, 10 documents."
         },
         {
           "name": "Pro",
-          "price": "$12/month + $1 per additional unit",
-          "description": "Up to 5 users; AI bookkeeping, bank feeds, 20+ advanced reports, Xero integration; 14-day free trial."
+          "price": "$15/month or $144/year (3 units) + $1.20 per additional unit",
+          "description": "3 users; AI-assisted bookkeeping, 5 bank feeds, 20+ advanced reports, CSV export, Xero integration, automated reminders; 14-day free trial with no credit card."
         },
         {
           "name": "Pro Plus",
-          "price": "$28/month + $1 per additional unit",
-          "description": "Up to 10 users; unlimited documents, 20 bank feeds, dedicated account manager."
+          "price": "$35/month or $336/year (3 units) + $1.20 per additional unit",
+          "description": "10 users; 20 bank feeds, 250 bank rules, unlimited documents, dedicated account manager."
         }
       ]
     },
@@ -42364,7 +42959,7 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-11-02",
     "status": "active",
     "enriched": true,
     "screenshots": [
@@ -52811,7 +53406,7 @@
   {
     "title": "Forma Site Design",
     "slug": "autodesk-forma",
-    "url": "https://www.autodesk.com/products/forma",
+    "url": "https://www.autodesk.com/products/forma-site-design/overview",
     "logo_url": "/img/logos/autodesk-forma.png",
     "headline": "Cloud site design with AI analyses for sun, wind, noise, and carbon.",
     "description": "Forma Site Design (named Autodesk Forma until Autodesk renamed its Forma products in 2026) is Autodesk's cloud tool for early-stage site planning and design, combining the AI analysis capabilities of Spacemaker (which it succeeded) with conceptual modeling. Teams create site and massing studies quickly using design automations, then evaluate options with real-time environmental analyses including sun hours, wind comfort, noise, microclimate, embodied carbon, and operational energy. Design reviews happen in a shared cloud workspace, and models move between tools via IFC and OBJ support plus connections to Revit, Dynamo, and Rhino.",
@@ -52880,19 +53475,14 @@
     ],
     "pricing": {
       "model": "Subscription",
-      "starting_price": "$185/month or $1,500/year",
+      "starting_price": "From $59/month",
       "free_trial": true,
       "free_tier": false,
       "plans": [
         {
-          "name": "Monthly",
-          "price": "$185/month",
-          "description": "Standalone Forma Site Design subscription."
-        },
-        {
-          "name": "Annual",
-          "price": "$1,500/year",
-          "description": "Saves about a third versus paying monthly; a 3-year term is $4,500."
+          "name": "Forma Site Design subscription",
+          "price": "From $59/month",
+          "description": "Starting price published on autodesk.com; monthly, annual and 3-year terms are sold, with annual and multi-year terms priced lower per month. 30-day free trial."
         },
         {
           "name": "AEC Collection",
@@ -52929,7 +53519,7 @@
       "Mixed-Use"
     ],
     "review_count": 0,
-    "last_updated": "2026-10-23",
+    "last_updated": "2026-11-02",
     "status": "active",
     "enriched": true,
     "aliases": [
@@ -53377,7 +53967,7 @@
         {
           "name": "Growth",
           "price": "$119/mo",
-          "description": "10k monthly leads, 20k exports, 3 users, phone numbers and emails included."
+          "description": "10k monthly leads, 20k exports, 3 users, phone numbers and emails included, limited BatchRankAI signals."
         },
         {
           "name": "Professional",
@@ -53393,6 +53983,11 @@
           "name": "Enterprise",
           "price": "Custom",
           "description": "Up to 1M leads/month, dedicated account manager, annual contracts."
+        },
+        {
+          "name": "Add-ons",
+          "price": "Dialer AI $89/mo; Reia AI $19/mo",
+          "description": "Leads, exports or imports beyond the monthly limit cost 4 cents each. Annual prepay on Growth, Professional and Scale saves 40%."
         }
       ]
     },
@@ -53412,7 +54007,7 @@
       "Mobile"
     ],
     "company": {
-      "name": "BatchLeads (BatchService)"
+      "name": "BatchLeads (owned by PropStream, a Stewart company)"
     },
     "domain": "batchleads.io",
     "is_verified": false,
@@ -53424,7 +54019,7 @@
       "Multifamily"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-11-02",
     "status": "active",
     "enriched": true
   },
@@ -58083,31 +58678,38 @@
     ],
     "pricing": {
       "model": "Subscription",
+      "starting_price": "US$45/month",
       "free_trial": true,
       "free_tier": false,
       "plans": [
         {
-          "name": "Self serve",
-          "price": "Not published",
-          "description": "For individuals and small teams; run feasibility, site analysis, and design workflows. Start free, no credit card required."
+          "name": "Core",
+          "price": "US$45/month ($540 a year)",
+          "description": "Unlimited projects, 3D modelling, layered maps and the calculation engine, your own automations, PDF drawing sets and IFC export, view-only sharing with free viewers. Two-week free trial of Giraffe Design, no credit card."
+        },
+        {
+          "name": "Teams",
+          "price": "US$1,500 per user per year",
+          "description": "Everything in Core plus shared billing, shared editing, shared content and library templates, and private apps. No trial for Teams."
         },
         {
           "name": "Enterprise",
           "price": "Contact sales",
-          "description": "Custom apps and workflows, bespoke datasets, dedicated account manager, SSO, audit logs, SLA, and custom onboarding."
+          "description": "For organizations larger than 5 staff: internal data connections, enterprise security and custom workflows."
         }
       ]
     },
     "pros": [
       "Design, GIS data, and feasibility economics live in one map-based workspace",
-      "Free start with no credit card for self-serve users",
-      "SDK enables custom apps and integration into existing deal flow",
-      "SOC 2 and ISO 27001 certified"
+      "Published pricing from US$45 a month, with a two-week free trial and no credit card",
+      "Live area, unit and parking calculations linked to feasibility and cash flow models",
+      "SDK enables custom apps; SOC 2 and ISO 27001 certified"
     ],
     "cons": [
-      "Self-serve pricing not published on the pricing page",
+      "Organizations larger than 5 staff move to enterprise pricing",
+      "No trial on the Teams plan",
       "Early-stage planning focus; not a construction or project management tool",
-      "Advanced datasets and workflows are gated to enterprise plans"
+      "Marketplace automations are priced by their makers and billed separately"
     ],
     "deployment": [
       "Cloud"
@@ -58126,7 +58728,7 @@
       "Industrial"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-11-02",
     "status": "active",
     "enriched": true
   },
@@ -62773,8 +63375,20 @@
     ],
     "pricing": {
       "model": "Subscription",
+      "starting_price": "$78/month (billed annually)",
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
-      "free_tier": false
+      "free_tier": false,
+      "plans": [
+        {
+          "name": "Privy",
+          "price": "$97/month or $78/month billed annually",
+          "description": "Comparative Search, direct MLS feeds, nationwide public records and investor activity data; 30-day money-back guarantee."
+        }
+      ]
     },
     "pros": [
       "Live MLS-sourced data rather than delayed public-record scrapes",
@@ -62782,9 +63396,9 @@
       "Investor activity heatmaps are a distinctive sourcing signal"
     ],
     "cons": [
-      "MLS coverage limited to supported markets",
+      "Single plan with no free tier or trial, only a 30-day money-back guarantee",
       "Residential focus; not built for commercial asset analysis",
-      "Pricing not published on the main site"
+      "BRRRR filters still listed as coming soon"
     ],
     "deployment": [
       "Cloud"
@@ -62801,7 +63415,7 @@
       "Residential"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-11-02",
     "status": "active",
     "enriched": true
   },
@@ -63286,7 +63900,7 @@
     "url": "https://www.propstream.com/",
     "logo_url": "/img/logos/propstream.png",
     "headline": "Nationwide property data, lead lists, comps, and marketing for investors.",
-    "description": "PropStream is a nationwide real estate data and lead generation platform with access to 160+ million property records, 308+ million deeds, and 185+ million mortgages. Users build lead lists with 165+ filters and 20 pre-built list types, run comparable market analysis, use investment calculators, and pull demographic data. PropStream Connect adds skip tracing, click-to-dial, and lead automation, while the marketing suite covers direct mail, email, landing pages, and dialer campaigns; AI-powered insights come through PropStream Intelligence. It serves real estate investors, agents and brokers, property managers, lenders, contractors, and appraisers, with iOS and Android apps and team collaboration tools.",
+    "description": "PropStream is a nationwide real estate data and lead generation platform with access to 160+ million property records, 308+ million deeds and sales, 185+ million mortgages, 41+ million pre-foreclosures and 70+ million MLS records. Users build lead lists with 165+ filters and 20 pre-built list types, run comparable market analysis, use investment calculators and work from free iOS and Android apps. PropStream Connect adds skip tracing, click-to-dial and lead automation, while the marketing suite covers direct mail, email and landing pages; AI-powered insights come through PropStream Intelligence. PropStream has been owned by Stewart Information Services since November 2021 and acquired BatchLeads and BatchDialer in July 2025; those products remain separate subscriptions. It serves real estate investors, agents and brokers, property managers, lenders, contractors and appraisers.",
     "short_description": "AI-enhanced nationwide property data, lead generation, comps, skip tracing, and marketing tools for investors.",
     "tagline": "Find better leads, make more connections, get deals.",
     "categories": [
@@ -63372,17 +63986,17 @@
         {
           "name": "Essentials",
           "price": "$99/mo ($81/mo annual)",
-          "description": "25,000 monthly saves/exports, 1 team member, Intelligence Assistant, $100 marketing credit."
+          "description": "25,000 monthly saves/exports, 1 user, $100 one-time marketing credit. Skip tracing is an add-on at 12 cents per contact or via PropStream Connect from $30/month."
         },
         {
           "name": "Pro",
           "price": "$199/mo ($165/mo annual)",
-          "description": "50,000 monthly saves/exports, 2 team members, PropStream Connect with free skip tracing, click-to-dial."
+          "description": "50,000 monthly saves/exports, 2 users (up to 5), PropStream Connect with skip tracing included, lead automation for 50,000 properties."
         },
         {
           "name": "Elite",
           "price": "$699/mo ($583/mo annual)",
-          "description": "100,000 monthly saves/exports, 9 team members, expanded skip tracing and marketing credits."
+          "description": "100,000 monthly saves/exports, 9 users, skip tracing included, lead automation for 120,000 properties."
         }
       ]
     },
@@ -63394,7 +64008,7 @@
     ],
     "cons": [
       "Oriented to residential investing; limited value for institutional CRE analysis",
-      "Higher tiers get expensive, and skip tracing/marketing can add usage costs",
+      "Skip tracing is not included on Essentials (12 cents per contact or a Connect add-on), and mail, email and extra users cost extra",
       "Per-plan caps on monthly saves and exports"
     ],
     "deployment": [
@@ -63402,7 +64016,7 @@
       "Mobile"
     ],
     "company": {
-      "name": "PropStream"
+      "name": "PropStream (a Stewart Information Services company)"
     },
     "domain": "propstream.com",
     "is_verified": false,
@@ -63415,7 +64029,7 @@
       "Land"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-11-02",
     "status": "active",
     "enriched": true
   },
@@ -63763,7 +64377,7 @@
     "url": "https://rabbu.com/",
     "logo_url": "/img/logos/rabbu.png",
     "headline": "Free Airbnb revenue projections and market data for STR investors.",
-    "description": "Rabbu provides free short-term rental data tools that help investors evaluate Airbnb potential before buying. Its Airbnb Calculator estimates revenue and returns for any US address, projecting occupancy, average daily rate (ADR), revenue per available night (RevPAN), and seasonalized monthly revenue. Market-level Airbnb data pages cover occupancy rates, ADR, supply growth, and seasonal trends, with an ROI Score for quickly comparing markets on revenue potential, pricing, and demand. Data is built from live Airbnb and short-term rental listings, historical performance, and real estate indicators, and a Chrome extension brings projections into listing browsing. It fits buyers evaluating STR markets, agents comparing Airbnb potential, and operators planning expansion.",
+    "description": "Rabbu is a short-term rental investing platform built around a marketplace for buying and selling Airbnb properties, with listings that show historical operating income or modeled projections, plus connections to specialized STR agents, DSCR lenders and concierge search help. Its free tools include an Airbnb Calculator that estimates revenue for any US address, with average daily rate, occupancy, RevPAN, seasonality, comp selection and an underwriting calculator for cap rate and cash-on-cash return, refreshed weekly from millions of Airbnb listings. Market data pages and a Market Finder rank US markets, and Rabbu AI (beta) gives free personalized analysis. It fits buyers evaluating STR markets and properties, agents comparing Airbnb potential, and sellers listing operating rentals.",
     "short_description": "Free Airbnb calculator and market data with occupancy, ADR, and RevPAN projections for any US address.",
     "tagline": "Take the guesswork out of short-term rental investing.",
     "categories": [
@@ -63848,7 +64462,7 @@
       "Short-Term Rentals"
     ],
     "review_count": 0,
-    "last_updated": "2026-08-30",
+    "last_updated": "2026-11-02",
     "status": "active",
     "enriched": true
   },
@@ -64575,13 +65189,24 @@
     ],
     "pricing": {
       "model": "Usage-based (self-serve API) and enterprise licences",
+      "starting_price": "Free Property App account",
       "free_trial": true,
-      "free_tier": false,
+      "free_tier": true,
       "plans": [
+        {
+          "name": "Property App",
+          "price": "Free account; paid Starter, Pro and Team plans",
+          "description": "Look up parcels and view boundaries on web and mobile without a credit card. Data exports are optional and priced by volume and fields."
+        },
         {
           "name": "Self-serve API",
           "price": "Monthly plans; overage $0.10 per record (Standard) or $0.15 (Premium), $0.001 per tile",
-          "description": "Includes 2,000 records and 200,000 tiles a month; trial token limited to 7 counties."
+          "description": "Includes 2,000 records and 200,000 tiles a month; trial token limited to 7 counties. Interactive API Sandbox free for 30 days."
+        },
+        {
+          "name": "Data Store",
+          "price": "Per download",
+          "description": "Self-serve checkout for county and state parcel files."
         },
         {
           "name": "Enterprise",
@@ -64618,7 +65243,7 @@
       "Land"
     ],
     "review_count": 0,
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-11-02",
     "status": "active",
     "enriched": true,
     "screenshots": [
@@ -69704,13 +70329,18 @@
     ],
     "pricing": {
       "model": "Quote-based (enterprise); published price for CMBS PRO",
+      "starting_price": "$20/user/month (CMBS PRO)",
+      "billing_options": [
+        "Monthly",
+        "Annual"
+      ],
       "free_trial": false,
       "free_tier": false,
       "plans": [
         {
           "name": "CMBS PRO",
-          "price": "$20/month or $200/year",
-          "description": "Backshop tools packaged as SaaS for smaller owners and borrowers."
+          "price": "$20 per user per month or $200 per user per year",
+          "description": "Backshop tools packaged as SaaS for smaller owners and borrowers; sold as the Professional plan at signup."
         },
         {
           "name": "BACKSHOP",
@@ -69748,7 +70378,7 @@
     "is_verified": false,
     "is_featured": false,
     "review_count": 0,
-    "last_updated": "2026-10-22",
+    "last_updated": "2026-11-02",
     "status": "active",
     "enriched": true
   },
