@@ -251,12 +251,13 @@
           {
             "slug": "reonomy",
             "job": "Ownership research",
-            "reason": "Strong owner, debt and contact data, but it no longer publishes prices and is built for teams prospecting at volume. PropertyShark or county records cover a solo broker's first year.",
+            "reason": "Strong owner, debt and contact data, but it starts at $400 a month on an annual subscription and is built for teams prospecting at volume. PropertyShark or county records cover a solo broker's first year.",
             "cost": {
-              "monthly_usd": null,
-              "basis": "No published price on the pricing page; monthly and annual plans by sign-up or sales",
-              "checked": "2026-10-25",
-              "source": "https://www.reonomy.com/pricing/"
+              "monthly_usd": 400,
+              "basis": "Starts at $400/mo on an annual subscription, per the vendor homepage; monthly plans and API by sales",
+              "checked": "2026-11-02",
+              "source": "https://www.reonomy.com/",
+              "from": true
             },
             "alternatives": []
           }
@@ -840,10 +841,10 @@
               }
             ],
             "cost": {
-              "monthly_usd": 62,
+              "monthly_usd": 65,
               "from": true,
-              "basis": "Essential starts at $62/mo, billed monthly; price by unit count not published",
-              "checked": "2026-10-25",
+              "basis": "Essential starts at $65/mo; price by unit count not published",
+              "checked": "2026-11-02",
               "source": "https://www.buildium.com/pricing/"
             }
           },
@@ -919,7 +920,7 @@
         },
         {
           "question": "When should a small landlord move to Buildium or a similar system?",
-          "answer": "When you hire help, pass about 50 to 75 units, or start managing other owners' properties and need owner statements and trust-style accounting. Buildium Essential starts at $62/mo; with Pro rent comps and per-door inspections the fuller stack is {{full}} a month at 40 units."
+          "answer": "When you hire help, pass about 50 to 75 units, or start managing other owners' properties and need owner statements and trust-style accounting. Buildium Essential starts at $65/mo; with Pro rent comps and per-door inspections the fuller stack is {{full}} a month at 40 units."
         },
         {
           "question": "Is AppFolio a good fit for a self-managing landlord?",

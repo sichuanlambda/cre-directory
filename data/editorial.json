@@ -400,7 +400,7 @@
       ]
     },
     "reonomy": {
-      "intro": "Reonomy's ownership intelligence, piercing LLCs and trusts and tracking debt maturity, makes it a favorite prospecting tool, but the data flags real limitations. Pricing is not publicly available, data accuracy varies by market and is strongest in major metros, the research operation is smaller than CoStar's with some coverage gaps, and commercial lease data is limited compared to CoStar or CompStak. If your work leans on lease comps or secondary-market coverage, those gaps matter.\n\nChoosing a replacement depends on which Reonomy job you are hiring for. Pure prospecting and owner lookup can be had much cheaper. Lease and transaction comps need a comps-first platform. Institutional teams stitching multiple data sources together may want a data-integration layer rather than another standalone database. And map-driven parcel research is its own category. Test any alternative in your actual markets first, since coverage variability is the common weakness across property data tools.",
+      "intro": "Reonomy's ownership intelligence, piercing LLCs and trusts and tracking debt maturity, makes it a favorite prospecting tool, but the data flags real limitations. Pricing starts at $400 a month on an annual subscription, which is steep for a solo broker, data accuracy varies by market and is strongest in major metros, the research operation is smaller than CoStar's with some coverage gaps, and commercial lease data is limited compared to CoStar or CompStak. If your work leans on lease comps or secondary-market coverage, those gaps matter.\n\nChoosing a replacement depends on which Reonomy job you are hiring for. Pure prospecting and owner lookup can be had much cheaper. Lease and transaction comps need a comps-first platform. Institutional teams stitching multiple data sources together may want a data-integration layer rather than another standalone database. And map-driven parcel research is its own category. Test any alternative in your actual markets first, since coverage variability is the common weakness across property data tools.",
       "picks": [
         {
           "slug": "propertyshark",
@@ -432,17 +432,17 @@
         },
         {
           "slug": "land-id",
-          "reason": "The lightweight, cheap option: parcel boundaries and owner info from $9.99/month with a free plan, trusted by 40,000+ professionals. It is best for rural and land work and far shallower than Reonomy for commercial ownership research."
+          "reason": "The lightweight, cheap option: parcel boundaries and owner info from $7 per user per month billed annually, with a 7-day free trial. It is best for rural and land work and far shallower than Reonomy for commercial ownership research."
         }
       ],
       "faq": [
         {
           "question": "What is the best free alternative to Reonomy?",
-          "answer": "There is no free tool that replicates Reonomy's LLC-piercing ownership intelligence. Land id offers a free plan for basic parcel and owner lookups, though it is limited and geared to rural and land work. Reonomy itself offers a free trial, which is worth using to benchmark any alternative. For most professionals, the realistic budget option is paid but cheap: PropertyShark at $60/month."
+          "answer": "There is no free tool that replicates Reonomy's LLC-piercing ownership intelligence. Land id offers a 7-day free trial and low-cost plans for basic parcel and owner lookups, though it is geared to rural and land work. Reonomy itself offers a free trial, which is worth using to benchmark any alternative. For most professionals, the realistic budget option is paid but cheap: PropertyShark at $60/month."
         },
         {
           "question": "Is there a cheaper alternative to Reonomy for small teams?",
-          "answer": "Yes. Reonomy does not publish pricing, but PropertyShark starts at a transparent $60/month with a free trial and covers owner lookup, list building, and distressed-property tracking, strongest in NYC and major metros. Land id runs $9.99-$19.99/month for basic parcel and ownership research. Neither matches Reonomy's debt-maturity data or AI-connected ownership profiles, which remain its differentiators."
+          "answer": "Yes. Reonomy starts at $400 a month on an annual subscription, while PropertyShark starts at a transparent $60/month with a free trial and covers owner lookup, list building, and distressed-property tracking, strongest in NYC and major metros. Land id starts at $7 per user per month billed annually for basic parcel and ownership research. Neither matches Reonomy's debt-maturity data or AI-connected ownership profiles, which remain its differentiators."
         }
       ]
     },
@@ -944,7 +944,7 @@
       "picks": [
         {
           "slug": "reonomy",
-          "reason": "Reonomy, now part of Altus Group, is the closest like-for-like upgrade for prospecting: national coverage, AI-connected ownership records that surface the people behind LLCs and trusts, and debt maturity data for finding motivated sellers. A free trial lets you compare coverage in your market first. Pricing is not published, and like PropertyShark its data is strongest in major metros with limited lease detail."
+          "reason": "Reonomy, now part of Altus Group, is the closest like-for-like upgrade for prospecting: national coverage, AI-connected ownership records that surface the people behind LLCs and trusts, and debt maturity data for finding motivated sellers. A free trial lets you compare coverage in your market first. Plans start at $400 a month on an annual subscription, and like PropertyShark its data is strongest in major metros with limited lease detail."
         },
         {
           "slug": "proptracercom",
@@ -956,7 +956,7 @@
         },
         {
           "slug": "land-id",
-          "reason": "Land id is the low-cost option, with a free plan and paid plans from $9.99 per month, covering parcel lines, ownership and comparable sales in all 50 states with branded interactive maps. It fits land, rural and suburban work far better than dense urban commercial, so NYC-focused PropertyShark users will find it thin for their core market."
+          "reason": "Land id is the low-cost option, with a 7-day free trial and plans from $7 per user per month billed annually, covering parcel lines, ownership and comparable sales in all 50 states with branded interactive maps. It fits land, rural and suburban work far better than dense urban commercial, so NYC-focused PropertyShark users will find it thin for their core market."
         },
         {
           "slug": "landvision",
@@ -978,7 +978,7 @@
         },
         {
           "question": "What is the cheapest alternative to PropertyShark?",
-          "answer": "Land id offers a free plan and paid plans from $9.99 per month for parcel, ownership and comparable sales data across all 50 states, though it is strongest for land and rural property rather than urban commercial buildings."
+          "answer": "Land id offers a 7-day free trial and plans from $7 per user per month billed annually for parcel, ownership and comparable sales data across all 50 states, though it is strongest for land and rural property rather than urban commercial buildings."
         },
         {
           "question": "Which PropertyShark alternative is best for contacting property owners?",
@@ -1140,7 +1140,7 @@
         },
         {
           "slug": "reonomy",
-          "reason": "Reonomy, an Altus Group business, is the right swap if what you wanted from Cherre was property intelligence rather than plumbing: AI-connected ownership, debt maturity and transaction records searchable in a web app, with a free trial. It suits investors and brokers doing sourcing and research. Data quality varies by market, lease data is thin, and pricing is not published."
+          "reason": "Reonomy, an Altus Group business, is the right swap if what you wanted from Cherre was property intelligence rather than plumbing: AI-connected ownership, debt maturity and transaction records searchable in a web app, with a free trial. It suits investors and brokers doing sourcing and research. Data quality varies by market, lease data is thin, and plans start at $400 a month on an annual subscription."
         },
         {
           "slug": "cred-iq",
@@ -1162,7 +1162,7 @@
         },
         {
           "question": "What is the cheapest alternative to Cherre?",
-          "answer": "None of the direct alternatives publish pricing. Reonomy offers a free trial for property intelligence, and NavigatorCRE positions itself as a low-IT-lift way to centralize CRE data, but both are quote-based like Cherre."
+          "answer": "Reonomy is the only direct alternative with a published starting price, $400 a month on an annual subscription, and it offers a free trial for property intelligence. NavigatorCRE positions itself as a low-IT-lift way to centralize CRE data and, like Cherre, is quote-based."
         },
         {
           "question": "Which Cherre alternative is best for CRE debt data?",
@@ -1277,7 +1277,7 @@
         },
         {
           "slug": "reonomy",
-          "reason": "Reonomy, an Altus Group business, is the pick when the parcels you care about have buildings on them: ownership unmasking through LLCs, debt maturity, transaction history and 200+ filters for investment sales prospecting. It is thinner on land and zoning, pricing is not published, and it is a research tool rather than a map-first workflow."
+          "reason": "Reonomy, an Altus Group business, is the pick when the parcels you care about have buildings on them: ownership unmasking through LLCs, debt maturity, transaction history and 200+ filters for investment sales prospecting. It is thinner on land and zoning, plans start at $400 a month on an annual subscription, and it is a research tool rather than a map-first workflow."
         },
         {
           "slug": "regrid",
@@ -1312,6 +1312,939 @@
         {
           "question": "Do these alternatives require an annual contract?",
           "answer": "Plotzy and PropertyShark are month to month. Reonomy offers monthly and annual billing. LightBox Vision, Regrid and CoStar are typically sold on annual or enterprise terms."
+        }
+      ]
+    },
+    "regrid": {
+      "intro": "Regrid sells standardized land parcel data: 100% of US parcels in one schema, plus Canadian parcels and coverage in 22 countries in total, enriched with matched building footprints, standardized zoning, daily ownership updates and secondary addresses. It is delivered by API and tiles, an Esri-compatible feature service, bulk files, a self-serve Data Store and an MCP server, with a web and mobile Property App on top that is free to start. The reasons people shop around come from that data-first design. The app is built for looking up and saving parcels, not for running a prospecting workflow with owner contacts. Self-serve API plans cover modest volumes, and anything above 10,000 records a month moves to enterprise licensing. The API terms bar using the data to train AI models. And teams that only need one state, or a phone app in the field, pay for national depth they do not use.\n\nStart with the slice of Regrid you actually use. If it is the parcel feed for your own GIS or software, compare other licensed data providers on coverage, schema, delivery and contract terms. If it is the Property App for finding sites and their owners, an application with zoning search and owner contacts will save more time than raw data. If it is a quick parcel check on a phone, a low-cost mobile app does the job. And if your work stops at the California state line, a California-only service is deeper for less money.",
+      "picks": [
+        {
+          "slug": "lightbox",
+          "reason": "LightBox is the closest like-for-like on the data side: parcels, structures, zoning, land use and true-owner records tied together by the LightBox ID, delivered as bulk data, APIs, GIS feature services, Snowflake shares or MCP. Its LightBox Live workspace covers 156M parcels for investors working deals, and environmental due diligence sits in the same company. Choose it when you need enterprise parcel data with commercial workflows around it. Pricing is quote-based and the buying process is enterprise-shaped, so it is rarely the cheaper option."
+        },
+        {
+          "slug": "Plotzy",
+          "reason": "Plotzy is the app-first answer for brokers, land acquisition teams and developers who use parcel data to find sites rather than to feed a GIS. It searches 150M+ parcels across 3,200+ counties by permitted use, lot size, land use, assessed value, owner type and sale date, with two-level zoning on every parcel, owner contact lookup, folders and CSV export, at $180 to $300 a month with a 7-day trial and no credit card. It is still labeled beta, sub-level zoning depth varies by municipality, owner contacts are metered and API access sits on the custom Scale plan, so it does not replace Regrid as a bulk data source."
+        },
+        {
+          "slug": "attom",
+          "reason": "ATTOM suits data teams that want parcels plus everything recorded against them: ownership, deeds, mortgages, foreclosures, building permits, boundaries and AVMs on 160M+ US properties, delivered by API, bulk files, Snowflake, Databricks or MCP. A 30-day API trial lets you test coverage before talking price. Licensing is negotiated per use, and zoning is not part of its published dataset list, so it complements a parcel geometry layer more than it replaces one."
+        },
+        {
+          "slug": "landglide",
+          "reason": "LandGlide is the low-cost field companion: tap a parcel on your phone to see boundaries, owner, mailing address, acreage and sale data across 157M+ parcel records in 3,200+ counties, with offline access on iOS and Android. It costs $9.99 a month or $99.99 a year after a 7-day free trial, which makes it the obvious swap for people who mainly use Regrid's mobile app. It is a viewer, not a data feed, zoning search or prospecting tool."
+        },
+        {
+          "slug": "land-id",
+          "reason": "Land id, formerly MapRight, is built for land and rural brokers: parcel and owner info in all 50 states, 40+ data layers, comparable sales, soil reports and mailing lists, plus branded maps and 3D tours for marketing listings. Plans start at $7 per user per month billed annually, after a 7-day free trial with no card required. It is a mapping and marketing tool rather than a data product, and it is thin for dense urban commercial work."
+        },
+        {
+          "slug": "parcelquest",
+          "reason": "ParcelQuest is the better choice if your work is in California only: about 13 million properties across all 58 counties, updated daily from county assessors, with owner details, APN maps, recorded documents and zoning data. Access starts at $99.95 for 7 days, then $199.95 to $249.95 a month per user, with bulk data and an ArcGIS gateway on quote. Per-item fees apply for documents and exports beyond plan allowances, and it has nothing outside California."
+        },
+        {
+          "slug": "propertyradar",
+          "reason": "PropertyRadar fits residential investors, agents and service businesses who use parcel data to find owners and contact them: list building, owner phones and emails, email sends, property monitoring and integrations in one account. Plans run $99 to $549 a month billed annually, or $119 to $599 monthly, with a 5-day trial. Phone and email quotas are modest on lower tiers and do not roll over, and it is a marketing tool rather than a source of standardized parcel geometry or zoning."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Regrid free to use?",
+          "answer": "Partly. The Regrid Property App lets you look up parcels and view boundaries without a credit card, and a free account unlocks more; paid Starter, Pro and Team plans and volume-priced exports sit above that. API access runs on self-serve monthly plans with a 30-day Interactive API Sandbox, and needs above 10,000 records a month go to enterprise licensing."
+        },
+        {
+          "question": "What is the cheapest Regrid alternative?",
+          "answer": "For parcel and owner lookups, LandGlide costs $9.99 a month or $99.99 a year and Land id starts at $7 per user per month billed annually. Both offer 7-day free trials. Neither sells a data feed, so they replace the Property App rather than the API."
+        },
+        {
+          "question": "Which Regrid alternative is best for finding development sites by zoning?",
+          "answer": "Plotzy is built for that job: search by permitted use and lot size with two-level zoning on every parcel, then look up owners and export the shortlist. It starts at $180 a month with a 7-day trial and no credit card, and it is still labeled beta."
+        },
+        {
+          "question": "Which alternative replaces Regrid's API or bulk parcel files?",
+          "answer": "LightBox and ATTOM both license nationwide data by API and bulk delivery, including Snowflake and MCP options, on quote-based terms; ATTOM offers a 30-day API trial. ParcelQuest sells bulk data for California only."
+        }
+      ]
+    },
+    "attom": {
+      "intro": "ATTOM is a national property data provider covering 160M+ US properties: ownership, deeds and mortgages, foreclosures, assessor records, building permits, boundaries, schools and neighborhood data, plus an AVM, a rental AVM, comparable sales and hazard and default-propensity analytics. It sells through a property data API with a 30-day free trial, bulk file licensing, Snowflake and Databricks shares and an MCP server. The reasons people look at alternatives are mostly commercial and practical. Pricing is unpublished and negotiated per license, bulk delivery is built for enterprise scale, and the value depends on engineering time to integrate the data. Buyers who only need one slice, such as parcel geometry, owner contacts, rents or valuations, end up licensing breadth they will not use.\n\nDecide which slice of ATTOM you rely on before comparing. If it is the full record set at national scale, the realistic alternatives are the other enterprise data houses. If it is owner contact data for outreach, a vendor that bundles skip tracing will cost less per usable record. If it is parcel boundaries and zoning, a parcel-first dataset fits better. If your team wants answers on screen rather than a data feed, a parcel search application can replace the integration project. And for rent and value estimates on residential deals, a self-serve API with published per-call pricing is the fastest start.",
+      "picks": [
+        {
+          "slug": "corelogic",
+          "reason": "Cotality, formerly CoreLogic, is the peer at the same scale: property, ownership, mortgage, market and climate risk data and AVMs, with its Araya platform covering 99.9% of US properties from 22K+ sources and an MCP server for licensed customers. It suits lenders, insurers and large data teams that want one enterprise vendor for records, valuations and risk. Like ATTOM it is quote-based, and contracts are negotiated across a broad product suite."
+        },
+        {
+          "slug": "datatree",
+          "reason": "DataTree, from First American Data & Analytics, is the alternative for title, lending and due diligence teams that need the documents behind the data: property records on 99% of US housing stock and more than 5.5 billion recorded document images covering deeds, mortgages, assignments, lien releases and foreclosures. It replaces ATTOM's ownership and transaction research rather than its analytics layer. Pricing is quote-based, and it leans toward title and residential research more than CRE modeling."
+        },
+        {
+          "slug": "batchdata",
+          "reason": "BatchData is the choice when the slice of ATTOM you use is owners and contacts at volume. It combines property, assessor, mortgage, permit, pre-foreclosure, listing and AVM data with skip tracing and contact enrichment, delivered by real-time API or in bulk to S3, Snowflake or flat files. It publishes pricing: property data from $1,000 a month for 100,000 records up to $10,000 for 3,000,000, and skip tracing from $2,000 a month. No trial is listed, and coverage is primarily residential."
+        },
+        {
+          "slug": "regrid",
+          "reason": "Regrid replaces ATTOM's boundary data with a parcel-first dataset: 100% of US parcels in one standardized schema, with matched building footprints, standardized zoning and daily ownership updates as add-ons, delivered by API, tiles, an Esri feature service, bulk files or MCP. Self-serve monthly API plans and county or state downloads make it easy to start small, with enterprise licensing above 10,000 records a month. It has no deeds, mortgages or AVMs, so it complements ATTOM's transaction data rather than replacing it."
+        },
+        {
+          "slug": "lightbox",
+          "reason": "LightBox is the commercial-leaning data alternative: parcels, structures, zoning, land use and true-owner records linked by the LightBox ID, delivered as bulk data, APIs, GIS feature services, Snowflake or MCP, alongside EDR environmental due diligence and the LightBox Live deal workspace. It suits CRE lenders, brokers and investors who want commercial workflows around the data. Pricing is quote-based and the sales process is enterprise-shaped."
+        },
+        {
+          "slug": "Plotzy",
+          "reason": "Plotzy fits ATTOM buyers whose real need is finding parcels and owners rather than licensing a feed. It searches 150M+ parcels across 3,200+ counties by permitted use, lot size, land use, assessed value, owner type and sale date, with two-level zoning on every parcel, owner contact lookup and CSV export, at $180 to $300 a month with a 7-day trial and no credit card. It has no deeds, mortgage, comps or AVM data, owner contacts are metered, it is still labeled beta, and API access is only on the custom Scale plan, so it is not a bulk data replacement."
+        },
+        {
+          "slug": "rentcast",
+          "reason": "RentCast is the budget API: 150M+ property records with owner details, value and rent estimates, sales and rental comps, active listings and market trends across 38,000+ zip codes, plus an MCP server. The Developer plan is free for 50 calls a month, and paid plans run $74 to $449 a month for 1,000 to 25,000 calls. It is built for residential and rental use, and per-call pricing gets expensive at the volumes where a bulk license makes sense."
+        }
+      ],
+      "faq": [
+        {
+          "question": "How is ATTOM priced?",
+          "answer": "ATTOM does not publish prices. API, bulk and cloud licenses are quoted per use case and volume. You can test the property data API with a free 30-day trial key and explore datasets in ATTOM Nexus before talking to sales."
+        },
+        {
+          "question": "What is the cheapest ATTOM alternative with an API?",
+          "answer": "RentCast has a free Developer plan with 50 calls a month and paid plans from $74 a month for 1,000 calls. Regrid offers self-serve monthly API plans for parcel data and a 30-day API sandbox."
+        },
+        {
+          "question": "Which ATTOM alternatives publish their pricing?",
+          "answer": "BatchData publishes monthly prices by record volume, from $1,000 a month for property data. RentCast publishes per-call API plans. Plotzy publishes $180 and $300 monthly plans for its parcel search application. Cotality, DataTree and LightBox are quote-based like ATTOM."
+        },
+        {
+          "question": "Which alternative is best for commercial real estate teams?",
+          "answer": "LightBox is the strongest commercial data alternative, with zoning, true-owner data and environmental due diligence. If your team wants to search parcels by zoning and contact owners without building an integration, Plotzy covers that in an application, though it has no deed, mortgage or comps data."
+        }
+      ]
+    },
+    "propstream": {
+      "intro": "PropStream is a nationwide property data and lead generation platform for residential investors, wholesalers and agents: 160+ million property records, 165+ filters and 20 pre-built lead lists, comps and calculators, mobile apps and a marketing suite for mail, email and landing pages. It has been owned by Stewart Information Services since November 2021, and in July 2025 it bought BatchLeads and BatchDialer, which still run as separate products with their own subscriptions. Plans are published at $99, $199 and $699 a month, less on annual billing, with a 7-day trial that includes 50 leads. The reasons people shop around are structural. Skip tracing is not included on Essentials, so owner phones cost 12 cents a contact or a PropStream Connect add-on; mail, emails, extra users and document images are billed on top; every plan caps monthly saves and exports; and the data model is built around residential motivated-seller lists, which leaves commercial and land prospectors paying for filters they do not use.\n\nDecide which slice of PropStream you actually use. If it is building lists and reaching owners, an all-in-one alternative that bundles contacts or prices them lower may cost less in practice. If it is driving neighborhoods, pick the tool with the strongest field app. If it is comps and deal math, a dedicated analysis app is far cheaper. If your deals are commercial buildings or land sites rather than houses, you need ownership or zoning data that PropStream's residential lists do not lead with. And if you only want the raw data in your own CRM, buy it as a feed.",
+      "picks": [
+        {
+          "slug": "propertyradar",
+          "reason": "PropertyRadar is the closest all-in-one replacement: public records on 160M+ properties and 318M+ mortgages across 3,000+ counties, 30+ distress signals, and outreach by phone, text, email, mail and online ads from the same list, with API access on every paid plan. Plans run from $119 a month, or $99 on annual billing, after a 5-day trial. Contact allowances are tight on the lower tiers (250 phones and emails a month on Solo), and the dialer and SMS are priced separately."
+        },
+        {
+          "slug": "dealmachine",
+          "reason": "DealMachine suits investors who find deals in the field: the Driving for Dollars app with route tracking and instant owner lookups is included on every plan, alongside 150M+ properties, 240M+ people records, skip tracing and pay-per-piece postcards. Plans are per seat with monthly data credits, from $119 a month, and a free account lets you explore before paying. Credits are spent on contact reveals and exports, so heavy list builders should size the plan carefully."
+        },
+        {
+          "slug": "batchleads",
+          "reason": "BatchLeads bundles owner phone numbers and emails into every plan, from $119 a month for 10,000 leads and three users, with AI lead scoring and an optional AI dialer at $89 a month. It is the pick if PropStream's per-contact skip tracing is your main complaint. Note that PropStream now owns BatchLeads, so it is a different product rather than a different vendor, and leads and exports above the monthly cap cost 4 cents each."
+        },
+        {
+          "slug": "Plotzy",
+          "reason": "Plotzy is the pick if your deals are land or commercial sites where zoning decides value: search 150M+ parcels across 3,200+ counties by permitted use, lot size, land use, owner type and sale date, with two-level zoning on every parcel, owner contact lookup and CSV export. It is month to month at $180 to $300 with a 7-day trial and no credit card. It is not a residential wholesaling tool: owner contacts are metered (25 a month on Starter, 100 on Production), there are no skip-traced lists at scale, no dialer or direct mail, no comps or mortgage and equity data, and the product is still labeled beta."
+        },
+        {
+          "slug": "reonomy",
+          "reason": "Reonomy, an Altus Group business, covers the commercial side PropStream does not lead with: 53M+ US commercial properties, 200+ filters, machine-learning ownership that resolves LLCs and trusts to real owners, and sales, debt and lien history for timing outreach. Monthly and annual plans include 1,000 exports a month and a trial is available on request. Plans start at $400 a month on an annual subscription, and there are no residential distress lists or built-in marketing."
+        },
+        {
+          "slug": "dealcheck",
+          "reason": "If you mostly opened PropStream for comps and calculators, DealCheck covers that job for a fraction of the cost: sales and rental comps with ARV and rent estimates, and analysis for rentals, flips, BRRRR and multifamily. There is a free plan, Plus at $10 a month and Pro at $20, with a 14-day trial on paid plans. It has no lead lists, owner data or skip tracing, so it replaces only the analysis half."
+        },
+        {
+          "slug": "batchdata",
+          "reason": "BatchData sells the data layer without the app: property, mortgage, pre-foreclosure and owner data plus skip tracing by API or bulk delivery, with published plans from $1,000 a month for 100,000 property records and $2,000 a month for 100,000 skip traces. It is self-funded and separate from PropStream, which bought BatchLeads but not BatchData. Choose it when an engineer will feed your own CRM; the entry price is far above a seat license."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Who owns PropStream?",
+          "answer": "PropStream is owned by Stewart Information Services, which acquired it in November 2021. In July 2025 PropStream acquired BatchLeads and BatchDialer; BatchLeads remains a separate product with its own subscription and login."
+        },
+        {
+          "question": "Does PropStream include skip tracing?",
+          "answer": "Not on the $99 Essentials plan, where skip tracing costs 12 cents per contact or comes with the PropStream Connect add-on from $30 a month. Pro and Elite include skip tracing through PropStream Connect, with additional contacts at 10 cents each."
+        },
+        {
+          "question": "What is the cheapest PropStream alternative?",
+          "answer": "For deal analysis alone, DealCheck has a free plan and paid plans from $10 a month. For list building with owner contacts, PropertyRadar starts at $99 a month on annual billing, and BatchLeads at $119 a month includes phone and email skip tracing on every plan."
+        },
+        {
+          "question": "Which alternative is better for commercial or land deals?",
+          "answer": "Reonomy is built for commercial buildings, with ownership behind LLCs and debt history. For land and development sites where zoning drives value, Plotzy searches parcels by permitted use and lot size with owner contact lookup, though its contacts are metered and it has no comps or mortgage data."
+        }
+      ]
+    },
+    "propertyradar": {
+      "intro": "PropertyRadar is a property data and marketing platform that has tracked foreclosures since 2007 and now covers 160M+ properties, 318M+ mortgages and 1.1M+ listings across 3,000+ counties, with 30+ distress signals, automated alerts when a property changes status, and outreach by phone, text, email, mail and online ads. API access comes with every paid plan and an MCP server connects AI assistants. Published plans are Solo at $119 a month ($99 on annual prepay), Team at $249 ($199) and Business at $599 ($549), after a 5-day trial that requires a card and mobile number and does not allow exports or contact appends. The reasons people look elsewhere sit in the allowances: Solo includes 250 phones and emails a month, extra contacts cost 4 to 8 cents each, the dialer ($59 to $149) and SMS ($49 and up) are separate purchases, postcards are billed per piece, and extra users cost $25 to $50 a month. It also leans toward investors, agents and home-service businesses, so institutional commercial teams and land buyers find it thin.\n\nStart with the part of PropertyRadar you depend on. If it is the contact volume behind your campaigns, compare how many phones and emails each alternative includes before comparing sticker prices. If it is field prospecting, a tool with a driving app fits better. If it is the API feeding your own systems, a data provider will scale further. And if your targets are commercial owners or land sites, choose a platform built around ownership entities or zoning rather than residential distress signals.",
+      "picks": [
+        {
+          "slug": "propstream",
+          "reason": "PropStream is the most direct swap for residential list building: 160M+ property records, 308M+ deeds, 185M+ mortgages, 165+ filters, 20 pre-built lead lists, comps and a marketing suite, from $99 a month ($81 on annual billing) with a 7-day trial and 50 free leads. Pro at $199 includes skip tracing through PropStream Connect. Essentials does not, at 12 cents a contact, and every plan caps monthly saves and exports."
+        },
+        {
+          "slug": "batchleads",
+          "reason": "BatchLeads fits users who outgrow PropertyRadar's contact allowances: every plan includes owner phones and emails on saved leads, starting at $119 a month for 10,000 leads, 20,000 exports and three users. AI lead scoring is built in and Dialer AI is an $89 monthly add-on. It is owned by PropStream since July 2025, residential in focus, and overages run 4 cents a record."
+        },
+        {
+          "slug": "dealmachine",
+          "reason": "DealMachine adds what PropertyRadar lacks for field investors, a Driving for Dollars app with route tracking and instant owner lookups on every plan, alongside 150M+ properties, 240M+ people records, skip tracing, postcards and API access. Per-seat plans with monthly data credits start at $119 a month, and a free account lets you explore first. Contact reveals and exports draw down credits, and there is no built-in dialer listed on current plans."
+        },
+        {
+          "slug": "Plotzy",
+          "reason": "Plotzy is the pick if your deals are land or commercial sites where zoning decides value: search 150M+ parcels across 3,200+ counties by permitted use, lot size, land use, assessed value and owner type, see two-level zoning on every parcel, then look up owner contacts and export to CSV. It is month to month at $180 to $300 with a 7-day trial and no credit card. It does not cover PropertyRadar's marketing side: owner contacts are metered (25 a month on Starter, 100 on Production), there are no distress signals, mortgage data, dialer, texting or mail, and it is still labeled beta."
+        },
+        {
+          "slug": "reonomy",
+          "reason": "Reonomy, an Altus Group business, is the step up for commercial agents: 53M+ US commercial properties, 200+ filters, machine-learning ownership that resolves LLCs and trusts, ranked owner contacts and sales and debt history across 68M+ transactions. Monthly and annual plans include 1,000 exports a month, and a trial is available on request. Plans start at $400 a month on an annual subscription, and there is no built-in outreach."
+        },
+        {
+          "slug": "attom",
+          "reason": "ATTOM is the choice when PropertyRadar's API is the part you value most: data on 160M+ US properties covering ownership, deeds, mortgages, foreclosures, boundaries and valuations, delivered by API, bulk files, Snowflake, Databricks or an MCP server. It suits teams building their own prospecting or CRM workflows. Pricing is quote-based and it has no list-building or marketing interface."
+        },
+        {
+          "slug": "propertyshark",
+          "reason": "PropertyShark is the budget research option, with owner lookup, comparable sales and foreclosure tracking from $59.95 a month and a free trial. It suits brokers and investors who need occasional ownership research rather than campaigns. Coverage is deepest in New York City and major metros, and it has no texting, dialer or automated alerts like PropertyRadar's."
+        }
+      ],
+      "faq": [
+        {
+          "question": "How much does PropertyRadar cost?",
+          "answer": "Solo is $119 a month or $99 a month prepaid annually, Team is $249 or $199, and Business is $599 or $549. Extra phones and emails cost 4 to 8 cents each depending on plan, and the dialer and SMS are separate purchases."
+        },
+        {
+          "question": "Does PropertyRadar have a free trial?",
+          "answer": "Yes, a 5-day trial on all plans. It requires a credit card and mobile number, includes 5 phone numbers and 5 email addresses, and does not allow exports, document images or contact appends."
+        },
+        {
+          "question": "Which PropertyRadar alternative includes the most owner contacts?",
+          "answer": "BatchLeads includes phone and email skip tracing on every saved lead within its monthly limits, starting at 10,000 leads for $119 a month. PropStream Pro at $199 includes skip tracing through PropStream Connect."
+        },
+        {
+          "question": "What is the best PropertyRadar alternative for commercial prospecting?",
+          "answer": "Reonomy is built for commercial buildings, with owners behind LLCs, contacts and debt history. For land and development sites chosen by zoning, Plotzy searches parcels by permitted use and lot size with owner contact lookup, though its contacts are metered."
+        }
+      ]
+    },
+    "batchleads": {
+      "intro": "BatchLeads is a list building, skip tracing and outreach platform for residential investors and wholesalers, built by BatchService and acquired with BatchDialer by PropStream, a Stewart Information Services company, in July 2025. It still sells as its own product, now branded \"powered by PropStream\": 10,000 to 75,000 leads a month on published plans of $119, $349 and $749, owner phone numbers and emails included on every plan, BatchRankAI lead scoring, comps, and direct mail, with a 7-day trial for individual plans. People leave for predictable reasons. The AI pieces cost extra (Dialer AI at $89 a month, Reia AI at $19), full BatchRankAI signals start on the $349 plan, every tier caps leads and exports with 4 cent overages, and annual prepay renews automatically unless you cancel before the anniversary. The ownership change matters too: buyers who left PropStream for BatchLeads now find the same parent company behind both, and the data model is still built for residential motivated-seller lists rather than commercial or land work.\n\nPick a replacement by the job BatchLeads does for you. If it is a single seat pulling lists and calling owners, compare all-in-one tools on how many contacts each plan really includes. If it is driving neighborhoods, choose the strongest field app. If you need raw skip trace and property data for your own CRM at volume, buy a feed instead of seats. And if your targets are commercial buildings or land sites, switch to a tool built around ownership entities or zoning rather than residential distress flags.",
+      "picks": [
+        {
+          "slug": "propertyradar",
+          "reason": "PropertyRadar is the strongest independent all-in-one alternative: 160M+ properties and 318M+ mortgages across 3,000+ counties, 30+ distress signals, automated alerts when a property's status changes, and campaigns by phone, text, email, mail and online ads, with API access on every paid plan. Solo costs $119 a month or $99 on annual billing, with a 5-day trial. Included contacts are modest (250 phones and emails a month on Solo, 4 to 8 cents for more), so heavy skip tracers should price the Team or Business tier."
+        },
+        {
+          "slug": "dealmachine",
+          "reason": "DealMachine is the alternative for field-first investors, with the Driving for Dollars app, owner lookups, skip tracing and pay-per-piece postcards on every plan, plus API and CLI access for teams that automate. Plans are per seat with monthly data credits from $119 a month, and a free account lets you explore with results locked. Its current plans do not list a built-in dialer, so BatchLeads users who live in Dialer AI will need a separate calling tool."
+        },
+        {
+          "slug": "propstream",
+          "reason": "PropStream is the larger sibling: 160M+ property records, 308M+ deeds, 185M+ mortgages, 165+ filters and 20 pre-built lists, plus comps, mobile apps and a marketing suite, from $99 a month or $81 on annual billing with a 7-day trial. It suits users who want deeper record history than BatchLeads offers. Skip tracing is extra on Essentials (12 cents per contact) and it shares an owner with BatchLeads, so it is not an escape from that company."
+        },
+        {
+          "slug": "Plotzy",
+          "reason": "Plotzy is the pick if your deals are land or commercial sites where zoning decides value. It searches 150M+ parcels across 3,200+ counties by permitted use, lot size, land use, owner type and sale date, shows two-level zoning on every parcel, and adds owner contact lookup, folders and CSV export, month to month at $180 to $300 with a 7-day trial and no card. It does not replace BatchLeads for wholesaling: owner contacts are metered (25 a month on Starter, 100 on Production), there are no skip-traced lists at scale, no dialer, direct mail, comps or mortgage and equity data, and it is still labeled beta."
+        },
+        {
+          "slug": "batchdata",
+          "reason": "BatchData is the data business BatchService kept when BatchLeads was sold: property data, skip tracing, reverse skip tracing and contact enrichment by API or bulk delivery, with published plans from $1,000 a month for 100,000 property records and $2,000 a month for 100,000 skip traces. It is self-funded and independent of PropStream. Choose it for high-volume teams with an engineer and their own CRM; it has no list-building interface for a solo investor."
+        },
+        {
+          "slug": "casafy-ai",
+          "reason": "Casafy AI replaces virtual driving with computer vision: it scores the condition of properties from street-level imagery to surface visibly distressed houses, and layers on live MLS data, comps, owner information and skip tracing. It suits investors whose best leads come from what a house looks like rather than a public-records flag. Pricing is not published on the site, and condition scores depend on the areas it has already processed."
+        },
+        {
+          "slug": "reonomy",
+          "reason": "For commercial prospectors, Reonomy, an Altus Group business, covers 53M+ US commercial properties with 200+ filters, owners resolved behind LLCs and trusts, ranked phone and email contacts, and sales and debt history. Monthly and annual plans include 1,000 exports a month and a trial is available on request. Plans start at $400 a month on an annual subscription, and it has no dialer, mail or residential distress lists."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is BatchLeads owned by PropStream?",
+          "answer": "Yes. PropStream, a Stewart Information Services company, acquired BatchLeads and BatchDialer in July 2025. BatchLeads remains a separate product with its own subscription, and its site now reads \"powered by PropStream\". BatchData was not part of the sale."
+        },
+        {
+          "question": "Does BatchLeads include skip tracing?",
+          "answer": "Yes. Every plan enriches saved leads with owner phone numbers and emails. Leads, exports or imports beyond the plan's monthly limit cost 4 cents each, and Dialer AI ($89 a month) and Reia AI ($19 a month) are paid add-ons."
+        },
+        {
+          "question": "What is the cheapest BatchLeads alternative?",
+          "answer": "PropertyRadar starts at $99 a month on annual billing ($119 monthly), and PropStream Essentials at $99 a month, though skip tracing costs extra there. DealMachine offers a free account to explore before paid plans from $119 a month."
+        },
+        {
+          "question": "Does BatchLeads require an annual contract?",
+          "answer": "No. Growth, Professional and Scale can be paid monthly and cancelled before the next cycle, with no partial refunds. Annual prepay saves 40% and renews automatically unless cancelled before the anniversary; Enterprise is annual only."
+        }
+      ]
+    },
+    "dealmachine": {
+      "intro": "DealMachine started in Indianapolis in 2017 as a driving-for-dollars app and is now a property and owner data platform from DealMachine Operations, Inc.: 150M+ US properties and 240M+ people records, AI search in plain language, 800+ filters, list building, skip tracing and enrichment, a Driving for Dollars app on every plan, per-piece postcards, and API, CLI, webhook and MCP access. Pricing moved to per-seat plans with monthly data credits: Basic at $119 a month per seat with 10,000 credits, Pro at $179 a month for a three-user bundle with 20,000 credits, and Scale packages of 100,000 records for $599 a month through sales, with 17% off on annual billing. The time-limited trial is gone; a free account lets you search, but owner and contact details stay locked until you pay. The reasons people look elsewhere follow from that model. Credits are spent on contact reveals and exports, so list-heavy users need more seats or a Scale package; mail is billed per piece on top; the current plans do not list a built-in dialer; and the data and filters are built for residential motivated-seller work, not commercial or land analysis.\n\nChoose a replacement by the part of DealMachine you rely on. If it is driving neighborhoods, look for a field app or an imagery-based alternative that finds distress without the miles. If it is list building and owner contacts, compare how many contacts each tool includes per dollar. If it is outreach, pick a platform that bundles calling, texting and mail in one place. And if you buy land or commercial sites, you need parcel, ownership and zoning data first, with owner contacts as the last step.",
+      "picks": [
+        {
+          "slug": "propstream",
+          "reason": "PropStream is the deepest residential database in this group: 160M+ property records, 308M+ deeds, 185M+ mortgages, 41M+ pre-foreclosures, 165+ filters and 20 pre-built lead lists, with comps, a free mobile app and a marketing suite. Plans start at $99 a month ($81 on annual billing) with a 7-day trial and 50 free leads. Skip tracing is extra on Essentials at 12 cents a contact and included from Pro at $199, and monthly saves and exports are capped."
+        },
+        {
+          "slug": "batchleads",
+          "reason": "BatchLeads suits DealMachine users who want calling and contacts bundled: owner phones and emails come with every plan, from $119 a month for 10,000 leads and three users, with AI lead scoring and an $89 a month Dialer AI add-on. Direct mail is built in with plan-based discounts. PropStream has owned it since July 2025, and leads and exports above the cap cost 4 cents each."
+        },
+        {
+          "slug": "propertyradar",
+          "reason": "PropertyRadar is the outreach-heavy alternative: public records on 160M+ properties across 3,000+ counties, 30+ distress signals, automated alerts when a property changes, and campaigns by phone, text, email, mail and online ads with API access on every paid plan. Plans run from $119 a month or $99 on annual billing after a 5-day trial. Solo includes only 250 phones and emails a month, and the dialer and SMS are add-ons."
+        },
+        {
+          "slug": "Plotzy",
+          "reason": "Plotzy is the pick if your deals are land or commercial sites where zoning decides value. Instead of driving for distress, you search 150M+ parcels across 3,200+ counties by permitted use, lot size, land use, owner type and sale date, see two-level zoning on every parcel, then look up owners and export to CSV, month to month at $180 to $300 with a 7-day trial and no card. It is not a house-wholesaling tool: owner contacts are metered (25 a month on Starter, 100 on Production), there are no skip-traced lists at scale, no driving app, dialer or mail, no comps or mortgage and equity data, and it is still labeled beta."
+        },
+        {
+          "slug": "casafy-ai",
+          "reason": "Casafy AI is driving for dollars without the car: computer vision scores property condition from street-level imagery to flag visibly distressed houses, with live MLS data, comps, owner information and skip tracing alongside. It suits investors who valued DealMachine for spotting distress rather than for its mail. Pricing is not published, and condition scores cover only areas the platform has already processed."
+        },
+        {
+          "slug": "landglide",
+          "reason": "LandGlide is the low-cost field companion for land investors: GPS shows which of 157 million parcels you are standing on, with owner, mailing address, acreage and sale data, online or offline, for $9.99 a month or $99.99 a year after a 7-day trial. It suits rural and land prospecting where DealMachine's house-focused driving routes add little. It has no skip tracing, lists or mail, so outreach happens elsewhere."
+        }
+      ],
+      "faq": [
+        {
+          "question": "How much does DealMachine cost?",
+          "answer": "Basic is $119 a month per seat with 10,000 data credits, Pro is $179 a month for a three-user bundle with 20,000 credits, and Scale is $599 a month per package of 100,000 records and 10 seats through sales. Annual billing saves 17%, and postcards cost $0.70 to $0.89 each depending on size and plan."
+        },
+        {
+          "question": "Does DealMachine have a free trial?",
+          "answer": "No time-limited trial. DealMachine offers a free account with no credit card that lets you run searches, but owner names, contact details and property data stay locked, and lists, Driving for Dollars, mail and exports require a paid plan."
+        },
+        {
+          "question": "What is the best DealMachine alternative for driving for dollars?",
+          "answer": "Casafy AI replaces the drive with computer vision on street-level imagery to flag distressed properties. For land and rural parcels, LandGlide is a $9.99 a month field app that shows parcel lines and owners from your GPS position. PropStream also offers a free mobile app with its subscription."
+        },
+        {
+          "question": "Is DealMachine good for land or commercial deals?",
+          "answer": "It is built for residential motivated-seller work. Land investors often pair a field app like LandGlide with a parcel search tool, and Plotzy fits land and commercial sites where zoning decides value, with metered owner contacts rather than bulk skip tracing."
+        }
+      ]
+    },
+    "corelogic": {
+      "intro": "Cotality (formerly CoreLogic) took its new name on March 24, 2025, and has been privately held since funds managed by Stone Point Capital and Insight Partners completed their acquisition of CoreLogic in June 2021. It sells property, mortgage, market and climate risk data and analytics to lenders, insurers, agents and MLSs, investors and utilities, through products such as the Araya intelligence platform (99.9% of US properties from 22K+ sources), automated valuation models, hazard monitoring, MLS software and an MCP server for licensed customers. People look at alternatives for familiar enterprise reasons. There is no public price list and pricing varies by region, contracts are negotiated across a broad suite when many teams need one slice of it, integration takes engineering time, and the breadth that suits a national lender or carrier is more than a regional lender, insurer or proptech team needs.\n\nThe right replacement depends on which part of Cotality you use, and most teams end up with two narrower vendors rather than one. For property records, deeds and mortgages at national scale, look at the other data houses. For AVMs, appraisal review and collateral risk in a lending workflow, a valuation specialist will sit closer to how your credit team works. For climate peril data in underwriting or portfolio risk, a dedicated climate model is the cleaner fit. Price the slice, not the suite.",
+      "picks": [
+        {
+          "slug": "attom",
+          "reason": "ATTOM is the most direct replacement for Cotality's property data: ownership, deeds, mortgages, foreclosures, assessor records, permits, boundaries, AVMs and hazard and default-propensity analytics on 160M+ US properties, delivered by API, bulk files, Snowflake, Databricks or MCP. A 30-day API trial lets data teams test match rates before negotiating. Licensing is quote-based, and it does not replicate Cotality's mortgage workflow, MLS or insurance underwriting products."
+        },
+        {
+          "slug": "datatree",
+          "reason": "DataTree, from First American Data & Analytics, suits title, lending and due diligence teams that rely on recorded documents: property records on 99% of US housing stock and more than 5.5 billion recorded document images covering deeds, mortgages, assignments, lien releases and foreclosures. It replaces the property research side of Cotality rather than its models. Pricing is quote-based, and it is oriented to title and residential research more than analytics."
+        },
+        {
+          "slug": "veros",
+          "reason": "Veros is a valuation and collateral risk specialist for mortgage originators, servicers, capital markets teams and home equity lenders: the VeroVALUE AVM family and ValuSTREAM AVM cascade, Collateral Integrity Analysis, Disaster Vision, VeroHPI and VeroFORECAST, plus appraisal delivery technology for UCDP and UAD 3.6. Choose it to replace Cotality's AVM and collateral tools specifically. Pricing is not published, and it covers residential mortgage use cases only."
+        },
+        {
+          "slug": "clear-capital",
+          "reason": "Clear Capital combines valuation analytics with valuation services: ClearAVM, a rental AVM and a Property Analytics API, PropertyNova tax assessment, deed and mortgage data, plus appraisals, BPOs, residential and commercial evaluations, and property condition and post-disaster inspections for insurers. It fits lenders and servicers that want automated and human valuations from one vendor across origination, home equity, servicing and capital markets. Pricing is on request."
+        },
+        {
+          "slug": "quantarium",
+          "reason": "Quantarium offers AVMs, licensed property data, the TerraIndex home price index and computer vision that classifies rooms, rates condition and detects damage, alongside a valuation services platform for BPOs and appraisals. Banks, lenders and insurers use it as an AVM and data source, and a marketplace sells individual property reports. Pricing goes through sales, and the focus is residential mortgage rather than commercial property."
+        },
+        {
+          "slug": "first-street",
+          "reason": "First Street replaces Cotality's climate and hazard analytics for insurers, lenders and investors: physics-based models of flood, wildfire, wind, heat and air quality for US properties, translated into financial loss estimates and delivered by API. MSCI completed its acquisition of First Street on August 3, 2026, and is folding the data into its climate solutions. It covers physical climate risk only, not property records or valuations, and pricing is quote-based."
+        },
+        {
+          "slug": "housecanary",
+          "reason": "HouseCanary is the one valuation vendor here with published plans: residential AVMs, valuation reports, CanaryAI and data on 136M+ properties, with core API access on Pro at $79 a month and Teams at $199, plus enterprise contracts above that. That makes it practical for smaller lenders and single-family rental investors who cannot justify an enterprise license. It filed for Chapter 11 on September 22, 2026, and says customers are served without interruption, which lenders will want to weigh in vendor risk review."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Cotality the same company as CoreLogic?",
+          "answer": "Yes. CoreLogic announced its global rebrand to Cotality on March 24, 2025, with Patrick Dodd continuing as president and CEO. The company has been private since Stone Point Capital and Insight Partners completed their acquisition of CoreLogic on June 4, 2021."
+        },
+        {
+          "question": "How much does Cotality cost?",
+          "answer": "Cotality does not publish prices. Data licenses, platforms such as Araya and analytics products are quoted through sales, and the company notes that pricing varies by region."
+        },
+        {
+          "question": "Which Cotality alternative publishes its pricing?",
+          "answer": "HouseCanary publishes plans from $19 a month, with API access starting on the $79 Pro plan. ATTOM does not publish prices but offers a free 30-day API trial. Veros, Clear Capital, Quantarium, DataTree and First Street are quote-based."
+        },
+        {
+          "question": "What is the best Cotality alternative for insurers?",
+          "answer": "First Street is the closest match for climate peril modeling, now as part of MSCI. ATTOM adds hazard analytics alongside its property records, and Clear Capital offers property condition and post-disaster inspections. Few insurers replace Cotality with a single vendor."
+        }
+      ]
+    },
+    "testfit": {
+      "intro": "TestFit, from Dallas-based TestFit, Inc., is a site feasibility platform: its generative engine lays out buildings, parking and roads on a real site in 3D, with automatic takeoffs, typologies from multifamily to industrial, data centers, retail, hotels and parking, and exports to Revit, AutoCAD, SketchUp, Excel and PDF. Pricing is published: Parking Solver at $195 a month with unlimited users plus paid add-ons for zoning data, a live pro forma and an MCP connection, and the full Site Solver with generative design from $15,000 a year. The reasons people look elsewhere follow from that structure. The jump from the monthly entry plan to annual Site Solver is steep, zoning data and the pro forma cost extra on the entry plan, no free trial is listed, and the tool covers the feasibility stage only, so teams still need other software to find sites upstream and design them downstream.\n\nPick the replacement by the question you use TestFit to answer. If it is \"what massing fits here, and how does it perform for sun, wind and daylight\", an architect-oriented design tool is the closer match. If it is \"does this deal pencil\", look for massing tied to a live financial model at a monthly price. If it is \"what does the zoning allow on this lot\", a zoning capacity tool answers that without a full layout. Teams outside the US should check data coverage first. And if the hard part is finding sites worth testing, that is a parcel search job that comes before any test fit.",
+      "picks": [
+        {
+          "slug": "autodesk-forma",
+          "reason": "Forma Site Design, Autodesk's successor to Spacemaker, is the natural pick for architects and design-led developers: automatic site setup with terrain and surrounding buildings, manual or generated massing with live area metrics, and analysis of sun hours, daylight, wind, noise, views, microclimate and total carbon, with Revit, Rhino, Dynamo, ArcGIS and IFC connections. It is included at no extra cost with the Autodesk AEC Collection, is also accessible through Revit and Forma for Buildings subscriptions, and offers a free trial. It is lighter than TestFit on parking automation and live pro forma economics, and it delivers the most inside the Autodesk ecosystem."
+        },
+        {
+          "slug": "giraffe",
+          "reason": "Giraffe is the closest all-round match at a fraction of the price: a map-based workspace with zoning, ownership, infrastructure and environmental layers, AI that finds parcels and reads broker PDFs, live layout calculations for areas, unit counts and parking, and links to feasibility and cash flow models, with CAD, BIM and Excel exports. Core costs US$45 a month after a two-week free trial with no card, and Teams is US$1,500 per user per year. Organizations larger than 5 staff move to enterprise pricing, and it has no dedicated parking solver of the kind TestFit sells on its own."
+        },
+        {
+          "slug": "deepblocks",
+          "reason": "Deepblocks DEV produces feasibility studies for US cities with instant 3D massing next to a financial model, priced by the number of cities: $99.99 a month for about 5 cities up to $499.99 for about 30, with cities not yet built added on request within 0 to 3 business days. It suits small development teams who want massing plus numbers without a $15,000 annual contract. No free trial is listed, usage is capped by city count, and its AIM site selection product is still listed as coming soon."
+        },
+        {
+          "slug": "archistar",
+          "reason": "Archistar pairs zoning, planning-rule and environmental constraint data with a generative design engine that produces compliant 3D concepts for duplexes, townhouses, subdivisions, apartments, commercial and mixed-use schemes, and its free tier includes generative design. Paid plans run A$79.17 to A$495.83 a month billed annually (A$95 to A$595 monthly), with no contract. The catch for US teams is coverage: feasibility plans cover Australia's states and territories, with other countries by direct discussion, so it is the TestFit alternative for Australian developers."
+        },
+        {
+          "slug": "gridics",
+          "reason": "Gridics approaches feasibility from the zoning side: its rules engine converts ordinances into parcel-level data, ZoneIQ shows a site's zoned development potential in real-time 3D, a Zoning Data API exposes hundreds of parcel-level data points, and expert-prepared Property Zoning Reports answer feasibility questions. Choose it when the binding constraint is what the code allows rather than how a parking field lays out. Coverage depends on which municipalities Gridics has calibrated, with South Florida cities prominent, and pricing is by demo."
+        },
+        {
+          "slug": "Plotzy",
+          "reason": "Plotzy sits upstream of a test fit: it finds the parcels worth testing. Search 150M+ parcels across 3,200+ counties by permitted use, lot size and land use with two-level zoning on every parcel, check FEMA flood layers and look up owners, then take the shortlist into a massing tool. It does not generate site plans, massing, unit counts or yield studies, it is still labeled beta, and at $180 to $300 a month it is an addition to a feasibility tool rather than a replacement for one."
+        }
+      ],
+      "faq": [
+        {
+          "question": "How much does TestFit cost?",
+          "answer": "Parking Solver is $195 a month billed monthly with unlimited users, plus optional Site Intelligence (+$150 a month), Pro Forma (+$170) and MCP Connection (+$100) add-ons. Site Solver starts at $15,000 a year and Site Solver Portfolio at $20,000 a year, both billed annually. The pricing page does not list a free trial."
+        },
+        {
+          "question": "What is the cheapest TestFit alternative?",
+          "answer": "Giraffe Core costs US$45 a month and includes 3D modelling, layered maps and its calculation engine, after a two-week free trial. Deepblocks starts at $99.99 a month for about 5 US cities. In Australia, Archistar has a free tier that includes generative 3D design."
+        },
+        {
+          "question": "Is there a free alternative to TestFit?",
+          "answer": "Archistar's free tier includes generative 3D design, but feasibility coverage is Australia only. Giraffe and Forma Site Design offer free trials, and Forma Site Design is included at no extra cost for Autodesk AEC Collection subscribers."
+        },
+        {
+          "question": "Can any of these tools find sites as well as test them?",
+          "answer": "Giraffe includes AI that finds parcels matching your criteria, and Deepblocks lists a site selection product as coming soon. For nationwide site sourcing by zoning and permitted use with owner lookup, teams pair a parcel search tool such as Plotzy with their feasibility software."
+        }
+      ]
+    },
+    "stessa": {
+      "intro": "Stessa is a free-to-start bookkeeping and portfolio tracking app for rental property investors, part of Roofstock, with full-service management available through Mynd. More than 350,000 landlords use it for automatic bank feeds, income and expense tracking, Tax Package and Schedule E reports, rent collection, RentPrep screening and per-property bank accounts provided through Thread Bank. The free Essentials plan covers unlimited properties in one portfolio; Manage costs $12 a month billed annually ($15 monthly) and Pro $28 ($35 monthly). People shop around for structural reasons: budgeting, advanced reports, unlimited portfolios and the top banking yield sit on Pro, eSignatures are metered, the best rates assume your operating cash lives in Stessa's accounts, and it is built for owners tracking their own rentals rather than landlords who want fuller operations or managers who need trust accounting.\n\nPick the replacement by the job Stessa does for you. If it is bookkeeping tied to a bank account, a landlord banking platform is the closest swap. If it is tax-time reports and receipts, a mobile-first landlord accounting app does the same job with bank feeds and accountant exports. If you mainly need to list, screen, sign leases and collect rent, a free or flat-rate landlord tool covers more day-to-day operations than Stessa does. And if you now manage for other owners, you need trust accounting and owner reporting, which means a property management system rather than an investor app.",
+      "picks": [
+        {
+          "slug": "baselane",
+          "reason": "Baselane is the closest like-for-like swap: landlord banking with unlimited checking and savings accounts through Thread Bank, property-level bookkeeping, automated rent collection and an accountant tax package with Schedule E reports on its free Core plan. Smart, at $20 a month on an annual plan with a 30-day free trial, adds auto-tagging, receipt matching and two-day rent deposits. As with Stessa, the value depends on running your cash through its accounts, and it is a finance tool rather than a leasing system."
+        },
+        {
+          "slug": "landlord-studio",
+          "reason": "Landlord Studio is a mobile-first accounting app for DIY landlords, with bank feeds, AI-assisted bookkeeping, 20+ reports and a Xero integration on Pro, plus listings and rent collection. The free Go plan covers 3 units; Pro is $12 a month billed annually ($15 monthly) for 3 units plus $1.20 per extra unit, with a 14-day trial and no credit card. Per-unit charges make it cost more than Stessa as the portfolio grows, and bank feed counts are capped by plan."
+        },
+        {
+          "slug": "turbo-tenant",
+          "reason": "TurboTenant is the pick if you want more landlord operations than Stessa offers for little or no cost. The free plan covers listings, screening and online rent collection; Essentials and Pro are billed yearly by unit count, from $149 and $199 a year for 1 to 10 units, and Pro adds income verification, tax-ready reports and built-in financial tools backed by its REI Hub accounting acquisition. Its accounting sits inside a broader landlord suite, so check that the reports cover what your CPA expects."
+        },
+        {
+          "slug": "rentredi",
+          "reason": "RentRedi charges one flat price for unlimited properties, tenants, teammates and connected bank accounts: $12 a month billed annually, $20 on six-month billing or $29.95 month to month, with accounting, rent collection, listings, maintenance and messaging on every term. Screening is tenant-paid. It suits landlords who want one predictable bill as they add doors, but there is no free plan or trial, only a 30-day money-back guarantee."
+        },
+        {
+          "slug": "tenantcloud",
+          "reason": "TenantCloud bundles accounting, rent collection, screening and maintenance in plans that cap leases rather than units: Starter is $15 a month billed annually ($18 monthly) for 10 leases, with Growth and Pro raising the cap to 30 and 60 leases and Business from $100 a month, all with a 14-day trial. Full accounting with tax reports and bank reconciliation needs Pro. It fits small landlords who self-manage leasing; the lease caps are the constraint to watch."
+        },
+        {
+          "slug": "rentec-direct",
+          "reason": "Rentec Direct is the step up for landlords who want real property accounting with automatic bank sync and QuickBooks data sync. Starter is a flat $25 a month for up to 10 properties, while Rentec Pro and Rentec PM start at $50 a month and scale with units; every edition has a two-week free trial and no long-term contract. Bank and QuickBooks sync are not in Starter, so most Stessa users will land on Pro."
+        },
+        {
+          "slug": "buildium",
+          "reason": "Buildium is where to go when Stessa has become a side tool for a growing management business. It runs accounting, leasing, maintenance and communications in one system, with Essential from $65 a month, Growth from $202 and Premium from $420, and a 14-day trial with no credit card. Growth and Premium require Buildium's customized onboarding, and it is far more software, at several times the price of Stessa Pro, than a solo investor needs."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Stessa free?",
+          "answer": "Yes. Stessa's Essentials plan is free with unlimited properties in one portfolio, automatic bank feeds, basic reports, rent collection, screening and maintenance tracking. Manage costs $12 a month billed annually ($15 monthly) and Pro $28 ($35 monthly); Pro adds unlimited portfolios, all advanced reports, budgeting and pro formas, and the highest banking yield."
+        },
+        {
+          "question": "Who owns Stessa?",
+          "answer": "Stessa is part of Roofstock, the single-family rental investment platform, and its pricing page offers full-service property management through Mynd. Banking inside Stessa is provided by Thread Bank; Stessa itself is not a bank."
+        },
+        {
+          "question": "What is the best free alternative to Stessa?",
+          "answer": "Baselane's free Core plan is the closest match, with banking, property-level bookkeeping, rent collection and Schedule E reports. TurboTenant's free plan is better if you mainly need listings, screening and rent collection, and Landlord Studio's free Go plan covers up to 3 units."
+        },
+        {
+          "question": "Which alternative suits landlords who start managing for other owners?",
+          "answer": "Choose software with trust accounting. Rentec PM adds trust accounting and owner management from $50 a month, and Buildium starts at $65 a month with a 14-day trial for a full property management system. Stessa and most landlord apps are built for owners tracking their own rentals."
+        }
+      ]
+    },
+    "rentcast": {
+      "intro": "RentCast is a rent estimate and property data service for US rentals. The app gives rent estimates and nearby comps for most residential addresses, market trends across 38,000+ zip codes and portfolio rent alerts: free with 5 comps and up to 5 portfolio properties, or Pro at $12 a month billed annually ($19 monthly) with 20 comps, branded reports and a 14-day trial. Its self-serve API covers 150+ million property records with value and rent AVMs, listings and market statistics, from a free 50-request Developer plan to Scale at $449 a month for 25,000 requests, with no long-term contracts. People look elsewhere when an estimate is not the whole job: investors want rent folded into deal analysis, multifamily operators want unit-level comps with concessions, short-term rental investors need nightly-rate data, and product teams that outgrow the API or need mortgage and risk data move to licensed national datasets.\n\nChoose by the output you need. For a quick rent number with comps on single-family and small multifamily, a dedicated rent comp tool or even a free estimate will do. For apartment communities, use a multifamily data provider that surveys units daily. For an investor deciding whether to buy, a deal analyzer that pulls rent and sale comps together saves a step. For product teams, compare price per call and coverage against licensing a national property dataset by API or bulk file.",
+      "picks": [
+        {
+          "slug": "rentometer",
+          "reason": "Rentometer is the closest like-for-like swap for rent comps: QuickView rent estimates for any US address, Pro Reports with comps and public record data, and CSV comp downloads, with batch processing, lead generation and API access on Pro. Basic is $59 a year, Essential $16 a month or $96 a year, and Pro $29 a month or $199 a year, with a free account to start. Report counts are capped by plan, and its API comes bundled with Pro rather than as a metered developer plan like RentCast's."
+        },
+        {
+          "slug": "hellodata",
+          "reason": "HelloData is the upgrade for multifamily operators and underwriters: it surveys 38.5M+ units daily from more than 250,000 property leasing pages, capturing unit-level asking and effective rents, concessions and amenities, with automated comps and market surveys. Standard costs $300 per user per month with a free trial; Portfolio is priced per unit and bills API calls at $0.10 each. It is multifamily-only and far pricier than RentCast for a landlord pricing one house."
+        },
+        {
+          "slug": "dealcheck",
+          "reason": "DealCheck suits investors who use RentCast as one step in deciding whether to buy. It pulls sale and rental comps with ARV and rent estimates into cash flow, flip, BRRRR and multifamily analysis, with an offer calculator, owner lookup and branded reports. The free Starter plan covers 15 saved properties and 5 comps; Plus is $10 a month and Pro $20, each with a 14-day trial. Its rent numbers serve the deal analysis rather than ongoing market monitoring."
+        },
+        {
+          "slug": "mashvisor",
+          "reason": "Mashvisor fits investors weighing long-term against short-term rental income: rent and Airbnb revenue estimates, cap rate and cash-on-cash returns, opportunity scores and STR rules for 500+ cities, with nationwide search, rental comps and heatmaps from the Standard plan. Investor plans run $39.99 to $99.99 a month billed annually ($49.99 to $119.99 billed quarterly), and its data API starts at $129 a month. There is no free trial, no refunds and no monthly billing option."
+        },
+        {
+          "slug": "zillow",
+          "reason": "Zillow's free Rent Zestimate is the no-cost baseline: enter an address in Zillow Rental Manager for an estimate built from the home's attributes, comparable rentals, local market rates and public data, then research similar advertised rentals nearby. Landlords can also advertise listings across Zillow, Trulia and HotPads. Treat it as a starting point, as Zillow itself does, and expect to give an email address to see the result."
+        },
+        {
+          "slug": "attom",
+          "reason": "ATTOM is the route when RentCast's API is one feature in a larger data build: 160M+ US properties with ownership, deed, mortgage, foreclosure, permit, boundary and neighborhood data, the ATTOM AVM and a Rental AVM, delivered by API, bulk files, cloud delivery or an MCP server. A free API trial is available for evaluation. Pricing is negotiated per license, so it suits teams with a data budget rather than a single landlord."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is RentCast free?",
+          "answer": "Yes. RentCast's free app plan includes nationwide rent estimates, 5 nearby comps and up to 5 portfolio properties, and its Developer API plan includes 50 requests a month at no cost. Pro is $12 a month billed annually or $19 monthly, with a 14-day free trial."
+        },
+        {
+          "question": "What is the best free alternative to RentCast?",
+          "answer": "Zillow's Rent Zestimate is free for any address through Zillow Rental Manager. DealCheck's free Starter plan adds up to 5 sale and rental comps with rent estimates inside a deal analysis. Rentometer offers a free account, with paid plans from $59 a year."
+        },
+        {
+          "question": "Which RentCast alternative is best for apartment communities?",
+          "answer": "HelloData, which surveys 38.5M+ units daily with unit-level rents and concessions, from $300 per user per month. ALN Apartment Data is a long-standing alternative with monthly property-level updates on occupancy, rents and concessions, sold by quote."
+        },
+        {
+          "question": "Which RentCast alternatives offer an API?",
+          "answer": "Rentometer includes API access on its Pro plan, Mashvisor sells data API plans from $129 a month, HelloData's Portfolio plan bills API calls at $0.10 each, and ATTOM licenses national property data by API, bulk file or cloud delivery on negotiated terms."
+        }
+      ]
+    },
+    "mashvisor": {
+      "intro": "Mashvisor is an investment property analytics platform for comparing long-term and short-term (Airbnb) rental potential. It estimates rental income, occupancy and returns for individual properties, scores opportunities and tracks short-term rental rules in 500+ cities, and higher plans add nationwide search, rental comps, heatmaps and a CRM. It draws on MLS, Zillow, Rentometer, Airbnb and Census data, says it covers 95% of US markets, and sells a data API from $129 a month. Investor plans cost $39.99 to $99.99 a month billed annually, or $49.99 to $119.99 billed quarterly. People switch because there is no free trial, refund or monthly option, so testing it means paying for a quarter; dedicated STR investors want deeper market data than a dual-strategy tool; flippers and wholesalers need lead lists and ARV more than rental projections; and buyers who only need a rent number pay for search features they do not use.\n\nChoose by strategy. Short-term rental investors should start with a dedicated STR data platform, several of which have free tiers for testing. Long-term rental buyers can get rent comps and deal math from lower-cost tools. Flippers and wholesalers are better served by lead-generation platforms with skip tracing or MLS-based flip analysis. Developers using Mashvisor's API should compare per-call costs against rental data APIs that offer free developer tiers.",
+      "picks": [
+        {
+          "slug": "airdna",
+          "reason": "AirDNA is the short-term rental specialist: occupancy, daily rate and revenue data across 120,000+ markets and 15M+ active listings, the Rentalizer revenue calculator and future demand data. The free plan includes a limited Rentalizer and market view; Market Research is $34 a month billed annually ($400 a year) or $125 monthly, and Adapt dynamic pricing is $20 per listing per month with a 30-day trial. It is built for short-term rentals, so dual-strategy buyers will pair it with a long-term rent tool."
+        },
+        {
+          "slug": "rabbu",
+          "reason": "Rabbu gives STR investors a free Airbnb calculator for any US address, with ADR, occupancy, RevPAN, seasonality and an underwriting calculator for cap rate and cash-on-cash return, refreshed weekly from millions of listings, plus market data and a top-markets finder. Rabbu now centers on a marketplace for buying and selling Airbnbs, with specialized agents, DSCR lenders and concierge services. The tools are free because they feed that marketplace, and they cover short-term rentals only."
+        },
+        {
+          "slug": "dealcheck",
+          "reason": "DealCheck is the low-cost pick for long-term rental and flip analysis: sale and rental comps with ARV and rent estimates, cash flow and return projections for rentals, flips, BRRRR and multifamily deals, an offer calculator, owner lookup and branded reports. Starter is free, Plus is $10 a month and Pro $20, with 14-day trials on paid plans. It is an analysis tool for deals you bring rather than a market research platform with heatmaps."
+        },
+        {
+          "slug": "rentcast",
+          "reason": "RentCast is the cheaper option if you mainly used Mashvisor for long-term rent estimates: rent estimates and comps for most US residential addresses, market trends across 38,000+ zip codes and portfolio rent alerts, free or $12 a month billed annually ($19 monthly) with a 14-day trial. Its API starts free at 50 requests a month and scales to $449 for 25,000, well below Mashvisor's API pricing. It covers long-term rents and values, not short-term rental revenue."
+        },
+        {
+          "slug": "privy",
+          "reason": "Privy suits flippers and value-add investors: direct MLS feeds, nationwide public records and proprietary investor activity data drive its patented Comparative Search, with before-and-after data on completed flips, rental comp tables and automated deal sourcing. It costs $97 a month, or $78 a month billed annually, with a 30-day money-back guarantee. BRRRR filters are still marked coming soon, and it is aimed at buy-improve-sell strategies more than short-term rentals."
+        },
+        {
+          "slug": "propstream",
+          "reason": "PropStream is the lead-generation alternative: nationwide property data with 165+ search filters, lead lists, comps from public records and MLS data, rental ROI and flip calculators, and skip tracing from 10 to 12 cents per contact. Essentials is $99 a month ($81 billed annually), Pro $199 and Elite $699, with a 7-day trial that includes 50 free leads. It is built for finding motivated sellers rather than projecting Airbnb income, and it costs more than Mashvisor's entry plans."
+        },
+        {
+          "slug": "rentometer",
+          "reason": "Rentometer is the narrow, inexpensive choice if long-term rent estimates were what you used Mashvisor for: QuickView estimates for any US address, comp reports and CSV downloads, from $59 a year for Basic, $16 a month for Essential and $29 a month for Pro, which adds batch processing and API access. It is limited to long-term rent data, with no short-term rental projections or property search."
+        }
+      ],
+      "faq": [
+        {
+          "question": "How much does Mashvisor cost?",
+          "answer": "Investor plans are Lite at $39.99 a month, Standard at $74.99 and Professional at $99.99 billed annually, or $49.99, $99.99 and $119.99 a month billed quarterly. There is no monthly billing, free trial or refund. Data API plans start at $129 a month, with 30 one-time sample requests free."
+        },
+        {
+          "question": "What is the best Mashvisor alternative for Airbnb investors?",
+          "answer": "AirDNA is the most complete short-term rental data source, with a free plan and Market Research from $34 a month billed annually. Rabbu's Airbnb calculator and market data are free to use."
+        },
+        {
+          "question": "Is there a free alternative to Mashvisor?",
+          "answer": "No single free tool replaces it, but Rabbu's Airbnb calculator, AirDNA's free plan, RentCast's free plan for long-term rents and DealCheck's free Starter plan for deal analysis together cover most of the analysis, without Mashvisor's nationwide search and heatmaps."
+        },
+        {
+          "question": "Does Mashvisor have an API?",
+          "answer": "Yes. Mashvisor sells data API plans: Starter at $129 a month for 500 calls, Professional at $249 for 1,000 and Growth at $599 for 3,000, with $0.30 per extra call and custom Enterprise volumes. Its data covers 20M+ MLS listings, 6M+ long-term rentals and 11M+ short-term rentals. RentCast is a lower-cost API for long-term rent data, with a free tier and paid plans from $74 a month."
+        }
+      ]
+    },
+    "propertyware": {
+      "intro": "Propertyware is RealPage's property management software for single-family rental management companies, built around customization: custom fields, custom dashboards and unlimited custom reports, portfolio-level accounting, multi-location management, owner and tenant portals, and an open API for two-way data exchange. Pricing is published per unit: Basic $1, Plus $1.50 and Premium $2 per unit per month, with monthly minimums of $250, $350 and $450, a one-time implementation fee of twice the monthly subscription, units billed in 50-unit increments, and API access as a $1 per unit add-on. That structure explains most departures: small managers pay the minimum regardless of door count, the implementation fee, API surcharge and transaction fees on screening and payments add to the real cost, the customization demands configuration time a small team lacks, and some managers prefer a vendor focused on their segment over one product among many at RealPage.\n\nDecide by size and by what you value in Propertyware. Professional single-family managers who chose it for accounting depth and an open API should look at the newer per-unit platforms built for third-party management, which publish pricing and include integrated trust accounting. Smaller managers paying the $250 minimum for a modest portfolio will save with flat-rate or low-minimum tools. And if your portfolio is shifting toward multifamily, commercial or associations, pick a system that covers those asset types natively rather than another single-family specialist.",
+      "picks": [
+        {
+          "slug": "rentvine",
+          "reason": "Rentvine is the closest modern match for professional single-family managers: fully integrated trust accounting, an open API and MCP server, AI-drafted owner statements, maintenance coordination between tenants and vendors, unlimited custom fields and next-day ACH funding. Pricing starts as low as $1.50 per unit per month with a 30-unit minimum for new accounts, plus a one-time setup fee covering migration and a dedicated onboarding specialist. There is no free trial, and the setup fee amount is not published."
+        },
+        {
+          "slug": "appfolio",
+          "reason": "AppFolio is the scale alternative with published per-unit pricing: Core from $1.49, Plus from $3.20 and Max from $5.00 per unit per month, with a 50-unit minimum on Core and minimum spend on every tier. Plus adds custom fields and a read-only API; Max adds a leasing CRM and read/write API. It suits growing third-party managers who want AI automation across accounting, leasing and maintenance, but the upper tiers cost more per unit than Propertyware and there is no free trial, only a demo."
+        },
+        {
+          "slug": "buildium",
+          "reason": "Buildium is the common step for small and mid-sized residential managers who do not need Propertyware's customization: Essential from $65 a month, Growth from $202 and Premium from $420, with a 14-day trial and no credit card. It covers accounting, leasing, maintenance and communications, with the open API and the full AI and automation suite on Premium. Growth and Premium require customized onboarding, and portfolios above 5,000 units are quoted by sales."
+        },
+        {
+          "slug": "rent-manager",
+          "reason": "Rent Manager, from London Computer Systems, is the pick for managers whose portfolio mixes single-family homes with commercial, association, manufactured housing, student housing or self storage properties. It is highly configurable, with custom workflows, standard and custom reporting, and AI tools across its Basic, Plus and Premium bundles, plus an MCP connector on Premium. Pricing is quote-based, so budget for a sales process and time for configuration."
+        },
+        {
+          "slug": "doorloop",
+          "reason": "DoorLoop is the all-in-one option with published pricing for residential and commercial portfolios: DoorLoop One at $2.50 per unit per month billed yearly ($1.50 per unit above 100) with a $199 minimum, Connect at $4.00 with a $299 minimum, and Multiply at $5.00 with a $399 minimum, the higher tiers adding AI receptionist, maintenance and lease renewal agents. Yearly billing saves up to 25% over monthly. Its per-unit rates run above Propertyware's for larger portfolios, so price it at your unit count."
+        },
+        {
+          "slug": "yardi",
+          "reason": "Yardi Breeze is the low-minimum route to a major vendor: residential from $1 per unit per month with a $100 monthly minimum, commercial from $2 per unit with a $200 minimum, on an annual agreement with no onboarding, training or support fees. Breeze Premier adds depth from a $400 minimum, and Yardi Voyager serves enterprise portfolios on quote. The annual agreement is less flexible than month-to-month tools, and Breeze favors simplicity over Propertyware-style customization."
+        },
+        {
+          "slug": "rentec-direct",
+          "reason": "Rentec Direct suits smaller managers paying Propertyware's minimum for a modest door count. Rentec PM starts at $50 a month and scales with units, and includes trust accounting, owner management, automatic bank sync and QuickBooks data sync, with a two-week free trial and no long-term contract. It is built for smaller operators, so firms running several offices or relying on heavy custom reporting will find it limited."
+        }
+      ],
+      "faq": [
+        {
+          "question": "How much does Propertyware cost?",
+          "answer": "Propertyware publishes per-unit pricing: Basic $1, Plus $1.50 and Premium $2 per unit per month, with monthly minimums of $250, $350 and $450. Implementation costs twice the monthly subscription, Enterprise/API access adds $1 per unit per month, units are billed in 50-unit increments, and screening and payments carry transaction fees."
+        },
+        {
+          "question": "Who owns Propertyware?",
+          "answer": "Propertyware is a RealPage company. RealPage, which is backed by Thoma Bravo, also sells the OneSite property management system and a wide range of rental housing software, while Propertyware stays focused on single-family property management companies."
+        },
+        {
+          "question": "What is the cheapest Propertyware alternative for a small portfolio?",
+          "answer": "Rentec Direct starts at $50 a month for property managers (Rentec PM, with trust accounting), and Yardi Breeze starts at $1 per unit with a $100 monthly minimum on an annual agreement. Both cost less than Propertyware's $250 minimum for a small portfolio."
+        },
+        {
+          "question": "Does Propertyware offer a free trial?",
+          "answer": "Yes, a limited-access trial with no credit card: you request login credentials through a form and Propertyware follows up. Buildium and Rentec Direct offer self-serve trials of 14 days and two weeks, while Rentvine, AppFolio and Rent Manager sell through demos and quotes."
+        }
+      ]
+    },
+    "resman": {
+      "intro": "ResMan is a cloud property management platform for conventional multifamily and affordable housing operators, part of Inhabit (formerly Inhabit IQ) since August 2021 and still based in Plano, Texas. It combines property and corporate accounting, leasing, payments, screening, BudgetsPro budgeting and a BoardRoom KPI dashboard with AI tools for invoice entry, leasing and resident questions, and its affordable offering supports HUD, Rural Development and tax credit programs. Pricing is not published; Get Pricing leads to a demo request. People look elsewhere because quote-only pricing slows comparison, owners with commercial or single-family assets need coverage the current site does not describe, enterprise operators may want the wider ecosystems of the largest vendors, and some owners consolidate on the system their third-party managers already use.\n\nStart from the reason you are leaving. If it is breadth, the large multifamily suites cover leasing, resident experience, AI agents and accounting under one contract, at the cost of longer implementations. If it is a mixed portfolio, choose a platform that runs commercial and residential in one system. If it is budget visibility for a smaller operator, a vendor with published per-unit pricing lets you price the move before the first sales call. Affordable housing operators should have every finalist demonstrate the specific compliance programs they run before signing.",
+      "picks": [
+        {
+          "slug": "entrata",
+          "reason": "Entrata is the most direct multifamily peer, positioned as an autonomous property management platform: an operations side covering accounting, leasing center, facilities and bill pay, a resident side with portal, rewards, rent reporting and renters insurance, and 100+ native AI agents for leasing, maintenance, payments and renewals. It serves multifamily, student, affordable, military, commercial and manufactured housing. Pricing is demo-only, and its scope means a substantial implementation."
+        },
+        {
+          "slug": "yardi",
+          "reason": "Yardi suits operators who want one vendor from small portfolios to enterprise. Yardi Breeze starts at $1 per unit per month with a $100 residential minimum on an annual agreement and no onboarding fees, Breeze Premier starts from a $400 minimum, and Yardi Voyager is quoted for large multifamily, affordable and commercial portfolios. The breadth across asset classes is the draw; Voyager pricing is quote-based and its implementations take planning."
+        },
+        {
+          "slug": "realpage",
+          "reason": "RealPage is the scale option: OneSite property management, the Lumina AI suite and AI workforce, AI revenue management, Knock CRM, resident screening, payments and the LOFT resident portal, across multifamily, affordable, student, senior, single-family and commercial housing. Backed by Thoma Bravo, it says it helps manage more than 24 million rental units. Pricing is through sales only, and buying a suite this broad is a long evaluation for a mid-sized operator."
+        },
+        {
+          "slug": "appfolio",
+          "reason": "AppFolio fits mid-sized operators who want published pricing and heavy automation: Core from $1.49 per unit per month with a 50-unit minimum, Plus from $3.20 and Max from $5.00, with a read-only API on Plus and a leasing CRM plus read/write API on Max. It is strong for conventional residential portfolios. Affordable housing operators should test its compliance coverage against their programs, since that is a ResMan strength."
+        },
+        {
+          "slug": "mri-software",
+          "reason": "MRI Software suits owners with mixed residential and commercial portfolios: its platform spans multifamily, affordable, public housing, single-family rental, condo and HOA, plus office, industrial and retail, and it reports 45,000+ clients, 16.5 million units and 400+ partners. The open, connected approach lets you add partner products rather than take one vendor's suite. Pricing is quote-based, and assembling the right modules takes more evaluation than an all-in-one platform."
+        },
+        {
+          "slug": "rent-manager",
+          "reason": "Rent Manager, from London Computer Systems, fits operators with unusual mixes: residential, affordable and student housing alongside commercial, manufactured housing, self storage and associations, in one configurable system with AI tools and an MCP connector on its Premium bundle. It is a practical choice for mid-sized multi-asset managers. Pricing is quote-based, and its configurability means setup takes time."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Who owns ResMan?",
+          "answer": "ResMan is part of Inhabit, a property management software company formerly known as Inhabit IQ, which added ResMan in August 2021. Inhabit's other brands include ResidentIQ, Streamline and LiveRez. ResMan remains based in Plano, Texas."
+        },
+        {
+          "question": "How much does ResMan cost?",
+          "answer": "ResMan does not publish pricing. Its pricing page routes to a demo request, so expect a quote based on your portfolio and modules. AppFolio and Yardi Breeze are the main multifamily-capable alternatives with published per-unit pricing."
+        },
+        {
+          "question": "What is the best ResMan alternative for affordable housing?",
+          "answer": "Yardi, RealPage, MRI Software and Entrata all serve affordable housing. Ask each to demonstrate the exact programs you run, such as HUD, tax credit or Rural Development compliance, because depth varies by program and that is where ResMan is strongest."
+        },
+        {
+          "question": "Does ResMan handle commercial properties?",
+          "answer": "ResMan's current site focuses on conventional multifamily and affordable housing and does not describe commercial property management. Operators with office, retail or industrial assets usually look at MRI Software, Yardi or Rent Manager, which run commercial and residential portfolios together."
+        }
+      ]
+    },
+    "apto": {
+      "intro": "Apto is a CRM and deal management platform built on Salesforce for commercial real estate brokers, covering contacts, deal tracking, property records and commission management. Buildout acquired Apto in January 2022, and Buildout now says Apto is supported for existing customers but no longer available to new brokerages; apto.com no longer serves a product site. That changes why people look for alternatives. New teams cannot buy it, existing customers see Buildout's own messaging pointing brokers toward its newer tools, and any Salesforce-based CRM carries real overhead in licensing, administration and customization. Many brokerages also now expect ownership data, listing marketing and back-office commission work alongside the CRM, which a standalone CRM does not cover.\n\nStart with the part of Apto your team actually depends on. If it is the Salesforce foundation and custom objects your admin has built, move to another Salesforce-native CRE CRM so the data model carries over. If it is a simple pipeline and contact database for a small team, a standalone CRE CRM with published per-user pricing is faster to adopt. If it is marketing and listings tied to the CRM, a broader brokerage suite makes sense, and if it is commissions and invoicing, a back-office platform fills that gap better than a CRM.",
+      "picks": [
+        {
+          "slug": "rethink-crm",
+          "reason": "Rethink is Buildout's own CRE CRM, also built on Salesforce, so it is the natural landing spot for Apto customers who want to stay with the same vendor. It covers contacts, deal pipelines, properties, listings and comps, and the Rethink+ tier adds ownership data and AI owner research fueled by Prospect by Buildout. Buildout publishes $129 a month for Rethink and $299 for Rethink+, but its page does not say whether that is per user, and there is no advertised free trial."
+        },
+        {
+          "slug": "ascendixre",
+          "reason": "AscendixRE is the closest independent match: a Salesforce-based CRE CRM for deals, listings, stacking plans and commissions, with the Salesforce license included in published pricing of $79 per user per month on Foundations and $99 on Enterprise, billed annually. It suits brokerages that want to keep Salesforce flexibility without buying licenses separately. Expect an annual commitment, and the AI Suite is a separate add-on."
+        },
+        {
+          "slug": "buildout",
+          "reason": "Buildout is the broader option if you want CRM, prospecting, marketing and transaction management on one platform. It says 50,000+ brokers use it, and its Suite ties listings marketing, proposals and deal stages together with AI features. Solutions start at $125 per user per month plus platform maintenance, but detailed pricing sits behind a demo, and a full suite is more than a small team that only needs a CRM will use."
+        },
+        {
+          "slug": "clientlook",
+          "reason": "ClientLook, a LightBox product, is the budget pick for small brokerages: $89 per user per month billed annually, or $129 month to month, with a 10-day free trial. It covers contacts, properties, listings, comps, deals and client reports, and can import property records from LightBox data. It is not Salesforce-based, so heavy customization and Apto-style custom objects will not carry over."
+        },
+        {
+          "slug": "realnex",
+          "reason": "RealNex suits brokers who want the CRM bundled with financial analysis, offering memorandums, tour books and a listing marketplace. Pricing is published per user: the KRM CRM is $129 per month on annual billing and the full Navigator suite is $199, with one-time implementation fees of $99 to $149 per user. The integrated suite takes time to learn, and it is a full platform switch rather than a lift-and-shift from Salesforce."
+        },
+        {
+          "slug": "dealius",
+          "reason": "Dealius is a brokerage management platform that covers pipeline dashboards, commission calculations, invoicing and a comps database, which makes it a fit for firms that used Apto mainly for commission and back-office tracking. Multi-office networks such as Lee & Associates use it. Plans are customized, every plan needs an admin license and a one-time onboarding fee, and pricing is on request."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Apto still available?",
+          "answer": "Only to existing customers. Buildout acquired Apto in January 2022 and says Apto is supported for current customers but no longer available to new brokerages. New buyers need a different CRM."
+        },
+        {
+          "question": "What is the cheapest Apto alternative?",
+          "answer": "ClientLook starts at $89 per user per month on annual billing, with a 10-day free trial. AscendixRE starts at $79 per user per month on annual billing and includes the Salesforce license, which makes it the lowest-cost Salesforce-based option."
+        },
+        {
+          "question": "Which alternative is closest to Apto on Salesforce?",
+          "answer": "AscendixRE and Rethink are both CRE CRMs built on Salesforce. Rethink keeps you with Buildout, the company that owns Apto, while AscendixRE is independent and bundles the Salesforce license into its per-user price."
+        },
+        {
+          "question": "Can I move my Apto data to another CRM?",
+          "answer": "Yes. Contacts, companies, properties and deal history can be exported and imported into another CRM, and Buildout says its team handles imports for Rethink onboarding. Custom Salesforce objects and automations move most easily to another Salesforce-based CRM."
+        }
+      ]
+    },
+    "realnex": {
+      "intro": "RealNex is an all-in-one platform for commercial real estate brokers: the KRM CRM, MarketEdge for financial analysis, OMs and BOVs, Bridge for tour books and proposals, a free MarketPlace listing network it says reaches 300,000+ users, Vault deal rooms and Insights dashboards, bundled together as Navigator. Unlike many CRE CRMs it publishes pricing: individual modules start at $129 per user per month on annual billing, and Navigator is $199 per user per month on annual billing, rising to $259 month to month, plus a one-time implementation fee of $99 to $149 per user. The reasons people shop around follow from that model. Per-user module pricing and setup fees add up across a team, the best rates require an annual commitment, the breadth of the suite brings a learning curve, and firms that standardize on Salesforce or want deeper prospecting data find it a poor fit.\n\nDecide which slice of RealNex you rely on. If it is the CRM alone, a focused CRE CRM costs less and is quicker to roll out. If it is CRM plus marketing materials and listings, a brokerage suite is the like-for-like move. If your team lives in Salesforce, choose a CRE CRM built on it. If what you valued was RX Data and predictive seller analytics, a prospecting database replaces that piece, and if the real need is commissions and invoicing, a back-office platform covers it better than any CRM.",
+      "picks": [
+        {
+          "slug": "buildout",
+          "reason": "Buildout is the closest all-in-one replacement: CRM and prospecting, listing marketing, proposals and transaction management on one data layer, used by 50,000+ brokers according to the company. It suits brokerages that want marketing output and deal tracking under one login. Solutions start at $125 per user per month plus platform maintenance, detailed pricing requires a demo, and there is no advertised free trial."
+        },
+        {
+          "slug": "ascendixre",
+          "reason": "AscendixRE is the pick for brokerages that want a Salesforce-based CRE CRM with deals, listings, stacking plans and commission tracking. The Salesforce license is included in published pricing of $79 per user per month on Foundations and $99 on Enterprise, billed annually. It has no built-in listing marketplace or OM builder, so pair it with a marketing tool if you used RealNex for presentations."
+        },
+        {
+          "slug": "clientlook",
+          "reason": "ClientLook from LightBox is the lower-cost CRM swap for small teams: $89 per user per month billed annually or $129 month to month, with a 10-day free trial and no setup fee published. It covers contacts, properties, listings, comps, deals and client reports, and imports property data from LightBox. It lacks RealNex's financial analysis and presentation tools."
+        },
+        {
+          "slug": "rethink-crm",
+          "reason": "Rethink is Buildout's CRE CRM built on Salesforce, at a published $129 per month, with Rethink+ at $299 per month adding ownership data, owner search, AI owner research and predictive analytics. It suits brokers who want CRM plus prospecting data in one screen. Buildout's page does not say whether those prices are per user, and marketing materials come from Buildout's separate tools."
+        },
+        {
+          "slug": "prospect-by-buildout",
+          "reason": "Prospect by Buildout replaces the data side of RealNex rather than the CRM: an AI property and owner database covering 155M properties, 18M businesses and properties it predicts are likely to sell in the next 12 months. Regional and nationwide plans are available and there is a free trial. It is a prospecting tool, so you still need a CRM to manage relationships and deals."
+        },
+        {
+          "slug": "dealius",
+          "reason": "Dealius suits brokerages whose real need is back office: pipeline dashboards, commission automation, invoicing and a comps database, used by multi-office networks such as Lee & Associates. It is not a marketing or presentation tool. Plans are customized with a required admin license and a one-time onboarding fee, and pricing is on request."
+        }
+      ],
+      "faq": [
+        {
+          "question": "How much does RealNex cost?",
+          "answer": "RealNex publishes per-user pricing. KRM, MarketEdge, Bridge and MarketPlace Pro are each $129 per user per month on annual billing, and the Navigator suite is $199 per user per month on annual billing, $229 monthly with an annual commitment or $259 month to month. Most plans add a one-time implementation fee of $99 to $149 per user, and basic MarketPlace listing and search is free."
+        },
+        {
+          "question": "What is the cheapest RealNex alternative?",
+          "answer": "ClientLook starts at $89 per user per month on annual billing with a 10-day free trial. AscendixRE starts at $79 per user per month on annual billing and includes the Salesforce license, though it requires an annual commitment."
+        },
+        {
+          "question": "Which alternative is best for brokerages on Salesforce?",
+          "answer": "AscendixRE and Rethink are both CRE CRMs built on Salesforce. AscendixRE bundles the Salesforce license into its per-user price, while Rethink adds Buildout's ownership data and AI owner research on its Rethink+ tier."
+        },
+        {
+          "question": "Is there a free alternative to RealNex?",
+          "answer": "None of the full CRE CRMs listed here are free. RealNex's own MarketPlace offers free listing and search, and ClientLook and Prospect by Buildout offer free trials before you pay."
+        }
+      ]
+    },
+    "hqo": {
+      "intro": "HqO is best known as a tenant experience platform for office landlords, but it now calls itself the system of action for commercial real estate: a shared building record (Digital Grid), an operating layer (HqOS) and an AI operator called REX, with Portfolio, Experience, Operations, Commerce and Intelligence suites on top. It says it powers 1B+ square feet across 2,000 properties in 32 countries, serves office, mixed-use, industrial, life sciences and flex assets, and has owned the workplace research firm Leesman since 2022. Pricing is quote-based, in Pilot, Foundation, Integrated and Enterprise tiers scoped to your portfolio, and HqO says a suite is bought as a whole. That breadth is why people look elsewhere. Landlords who only want a branded tenant app, amenity booking or visitor access end up evaluating a portfolio operating system, pricing is not visible until a sales conversation, rollout depends on integrations with access, work order and accounting systems, and the value of any tenant-facing product still rests on tenant adoption.\n\nName the slice you actually need before you compare. If it is tenant engagement and community in office buildings, a dedicated tenant experience platform is the closest swap. If it is work orders, inspections and service requests, a building operations platform does that job more deeply. If it is mobile access and visitor management, an access control vendor covers it directly. And if your leasing team already runs on one vendor, its tenant experience add-on may be the simplest path.",
+      "picks": [
+        {
+          "slug": "equiem",
+          "reason": "Equiem is the most direct alternative: Equiem One combines tenant engagement, property operations, flex space management, portfolio data and integrations, with tenant apps for iOS and Android. It reports 800+ buildings and 145M+ square feet across 25+ countries, from A-grade offices to business parks and mixed-use. Pricing is not published, and like any tenant app its value depends on tenant adoption."
+        },
+        {
+          "slug": "vts",
+          "reason": "VTS Activate, which combined VTS's earlier Rise and Lane products in 2023, offers branded tenant apps, mobile building access, visitor management, amenity booking, work orders and building communications. It is the natural pick for landlords already running leasing and asset management in VTS. Pricing is quote-based and enterprise-oriented, so it is a heavier buy for a single building."
+        },
+        {
+          "slug": "building-engines",
+          "reason": "Prism by Building Engines, now a JLL product, is the operations-first alternative: work orders, preventive maintenance, inspections, vendor and risk management, visitor management and a tenant app for requests. JLL cites 6B square feet managed globally. Choose it when service delivery matters more than community programming; pricing is by demo, and some firms weigh the JLL ownership."
+        },
+        {
+          "slug": "mri-angus",
+          "reason": "MRI Angus covers tenant service requests through a branded portal, visitor security with badges and access card activation, shared resource booking, preventive maintenance and certificate of insurance tracking. It fits owners already using MRI Software for accounting or leasing. It is a practical operations tool rather than a community and engagement platform, and pricing is by demo."
+        },
+        {
+          "slug": "facilio",
+          "reason": "Facilio is an AI-driven CMMS and connected buildings platform with work orders, preventive maintenance, inspections, vendor management, visitor management and workplace booking, plus AI agents for service intake, dispatch and invoice processing. It says it manages one billion+ square feet. It has no dedicated tenant app on its site, so it replaces HqO's operations layer, not its tenant experience."
+        },
+        {
+          "slug": "brivo",
+          "reason": "Brivo is the pick when the HqO feature you rely on is access: cloud access control, mobile keys, visitor management and video for commercial and multifamily properties, with figures of 80K companies and 25M users on its site. It covers one slice of tenant experience very well. Expect hardware and installation costs on top of the software subscription, and no community or amenity features."
+        }
+      ],
+      "faq": [
+        {
+          "question": "How is HqO priced?",
+          "answer": "HqO does not publish prices. It sells in Pilot, Foundation, Integrated and Enterprise tiers, priced on asset mix, business model and organizational needs, and says a suite is bought as a whole. A demo is required for a quote."
+        },
+        {
+          "question": "Is HqO just a tenant app?",
+          "answer": "No. HqO began with tenant experience but now positions itself as an operating system for commercial real estate, with Portfolio, Experience, Operations, Commerce and Intelligence suites and an AI operator called REX. Its tenant app is one part of that platform."
+        },
+        {
+          "question": "What is the best HqO alternative for office tenant engagement?",
+          "answer": "Equiem and VTS Activate are the closest matches for office and mixed-use landlords. Equiem adds flex space management, while VTS Activate fits landlords already using VTS for leasing and asset management."
+        },
+        {
+          "question": "Which alternative is best for building operations and work orders?",
+          "answer": "Prism by Building Engines and MRI Angus are built around service requests, preventive maintenance, inspections and visitor management. Facilio adds AI agents for intake, dispatch and invoice processing across larger portfolios."
+        }
+      ]
+    },
+    "eliseai": {
+      "intro": "EliseAI is an AI platform for housing operators (and, separately, healthcare practices) that handles prospect and resident conversations across text, email, chat and voice. Its housing products include LeasingAI for prospect management and AI-guided tours, ResidentAI for move-in, maintenance, renewals and delinquency, EliseCRM, VoiceAI and lease audits; voice runs in seven languages and written replies in 51. Named customers include Equity Residential and LeFrak. Pricing is not published and starts with a demo. People look at alternatives for practical reasons: the enterprise sales motion and quote-based pricing suit large portfolios better than small ones, many operators already pay for a CRM or property management system that now ships its own AI agents, running a separate AI layer adds another integration to maintain, and single-family or scattered-site managers often need showing logistics and self-guided tours more than conversational depth.\n\nStart with where the AI needs to live. If you want one front-office system with AI built in, a multifamily CRM with a native leasing agent replaces both EliseAI and your current CRM. If you are committed to your property management system, its native AI is the least disruptive option. If marketing and lead generation are part of the problem, a platform that bundles ads, websites and an AI leasing agent covers more ground. And if you lease single-family homes, a showing automation tool with an AI add-on fits the workflow better.",
+      "picks": [
+        {
+          "slug": "funnel-leasing",
+          "reason": "Funnel is the closest all-in-one alternative: a renter-centric CRM with Fenix, its AI agent across email, phone, text and chat, plus online applications with fraud checks and a resident portal. Funnel says it powers 2 million units and integrates with major property management systems. Choosing it means replacing your CRM, not just adding AI, and pricing is quote-based."
+        },
+        {
+          "slug": "respage",
+          "reason": "Respage bundles an AI leasing agent, chatbot, CRM and reputation management with paid social, Google Ads, SEO and apartment websites, and says it serves 10,000 apartment communities. It suits operators who want marketing and AI leasing from one vendor. Pricing is not published, and teams that already have an agency for ads and websites will pay for overlap."
+        },
+        {
+          "slug": "knock",
+          "reason": "Knock is a multifamily leasing CRM owned by RealPage since 2022, with multi-channel messaging across email, text, voice and chat, Knock Now self-scheduling, attribution and AI solutions. Its API-first design connects to any property management system. It fits operators that want a mature leasing CRM with AI added, though some Yardi or Entrata shops prefer to avoid a RealPage-owned front office."
+        },
+        {
+          "slug": "entrata",
+          "reason": "Entrata is the option for operators already on its property management platform: Leasing AI, Maintenance AI, Payments AI and Renewals AI run natively alongside 100+ built-in agents, so there is no separate integration to maintain. It covers multifamily, student, affordable and military housing. It only makes sense if you run Entrata as your system of record, and pricing is by demo."
+        },
+        {
+          "slug": "venn",
+          "reason": "Venn pairs an AI leasing agent, which it says replaces CRM, lead nurture and tour tools, with a resident app that includes an AI concierge, amenities, maintenance and packages. It suits large owner-operators focused on resident experience and retention, with customers such as Bozzuto and Related. It is built for big portfolios, and pricing is on request."
+        },
+        {
+          "slug": "showmojo",
+          "reason": "ShowMojo is the pick for single-family and scattered-site managers: listing syndication, showing scheduling, self-guided tours with its own lockboxes, screening, an AI Virtual Agent add-on and an AI outbound voice leasing agent. It publishes pricing from $1.30 per unit on annual Pro plans or $50 per listing. The AI add-on price is not published, and it does not cover resident communications after move-in."
+        }
+      ],
+      "faq": [
+        {
+          "question": "How is EliseAI priced?",
+          "answer": "EliseAI does not publish pricing. Quotes come through a demo and depend on the products and portfolio involved."
+        },
+        {
+          "question": "What is the cheapest EliseAI alternative?",
+          "answer": "ShowMojo is the only option here with published pricing, from $1.30 per unit on annual Pro plans or $50 per listing, with an AI Virtual Agent available as an add-on. The multifamily platforms on this list are all quote-based."
+        },
+        {
+          "question": "Should I use my property management system's AI instead?",
+          "answer": "If you run Entrata, its native Leasing, Maintenance, Payments and Renewals AI avoids a separate integration. Operators who want AI that works across several property management systems usually choose a standalone layer such as EliseAI or a PMS-agnostic CRM like Funnel or Knock."
+        },
+        {
+          "question": "Which alternative is best for single-family rentals?",
+          "answer": "ShowMojo is built around single-family and scattered-site leasing, with self-guided tours, lockboxes, screening and an AI Virtual Agent add-on. The other options focus on multifamily communities."
+        }
+      ]
+    },
+    "trepp": {
+      "intro": "Trepp provides data, analytics and technology for structured finance, commercial real estate and banking, and it is the long-standing reference source for CMBS deal and loan surveillance. Its products span CMBS analytics and cash flow modeling, TreppLoan for managing and valuing CRE loan portfolios, TreppCRE for property-level ownership, lease, tax and financial data, bulk data feeds and MCP servers that connect Trepp data to AI assistants. In April 2026 Fitch Group agreed to buy Trepp from Rothermere Continuation Holdings, the parent of DMGT, with Trepp to become a subsidiary of Fitch Solutions. Pricing is quote-based and sold on enterprise terms. The reasons people look elsewhere are mostly about fit and cost: licenses priced for bond desks and large lenders are hard to justify for a broker who wants loan maturity leads, a lender that needs origination workflow, or an investor who mainly needs bond cash flow models, and a change of ownership gives some clients a natural moment to review vendors.\n\nDecide which part of Trepp you actually use. If it is loan-level CMBS and agency data for sourcing refinance and distress opportunities, a newer platform with published pricing covers that at lower cost. If it is bond cash flow modeling, the independent deal library standard is the direct substitute. If it is debt alongside transactions and market research, an institutional data house fits. And if you are a lender who needs origination and underwriting workflow with CMBS data built in, a lending suite is the right shape.",
+      "picks": [
+        {
+          "slug": "cred-iq",
+          "reason": "CRED iQ is the most direct alternative for loan-level research: CMBS, SASB, CRE CLO and agency multifamily loans joined to ownership, sales and comps, with maturity pipelines, valuation and refinance models and distress alerts. Its pricing is published, from $625 a month billed annually for one seat, with a free view-only trial and API access from the Professional plan. It is a younger company founded in 2020, and bulk feeds and its MCP server sit on the custom Enterprise plan."
+        },
+        {
+          "slug": "intex",
+          "reason": "Intex is the standard independent cash flow model library for securitizations, with more than 50,000 deals modeled across CMBS, RMBS, ABS and CLOs and delivery through desktop software, APIs and Excel plug-ins. Choose it if you use Trepp mainly for bond cash flows and scenario analysis. It is not a property or loan research tool, and pricing is quote-based."
+        },
+        {
+          "slug": "msci-rca",
+          "reason": "MSCI's Real Capital Analytics pairs global transaction data with Mortgage Debt Intelligence, which covers securitized and non-securitized property loans and links lenders to deals. It suits institutional investors and lenders who want debt in the context of $50 trillion+ of recorded transactions. It is not a CMBS bond analytics tool, and pricing is enterprise and quote-based."
+        },
+        {
+          "slug": "moodys-lending-suite-cre",
+          "reason": "Moody's Lending Suite for CRE is built for lenders: deal screening, sizing, rent roll and cash flow analysis, credit memos and decisioning, plus CMBS and securitized loan data, property and ownership data and early warning monitoring. Choose it when origination and portfolio monitoring matter more than bond surveillance. Pricing is by consultation."
+        },
+        {
+          "slug": "green-street",
+          "reason": "Green Street combines independent CRE research with data products that include debt data, sales comps for deals of $5M and up and the Commercial Property Price Index. It suits investors who want debt alongside valuation and market research. It is not a loan-level surveillance system, and subscriptions are quote-based and institutional."
+        },
+        {
+          "slug": "backshop",
+          "reason": "Backshop from CMBS.com is an underwriting and asset management system for CRE lenders with an integrated CMBS library of loans and bonds. Its Professional plan for individual users costs $20 per user per month or $200 per user per year, the lowest published price on this list. Analytics are lighter than Trepp's, and the full Backshop platform is licensed by quote."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Who owns Trepp?",
+          "answer": "Trepp has been part of DMGT since 2004. In April 2026 Fitch Group announced an agreement to buy it from Rothermere Continuation Holdings, DMGT's parent, with Trepp to become a wholly owned subsidiary of Fitch Solutions, subject to regulatory clearance."
+        },
+        {
+          "question": "What is the cheapest Trepp alternative?",
+          "answer": "CMBS.com's Professional plan costs $20 per user per month or $200 per user per year. For a full loan research platform, CRED iQ starts at $625 a month billed annually and offers a free view-only trial."
+        },
+        {
+          "question": "Which alternative is best for CMBS bond cash flow modeling?",
+          "answer": "Intex is the independent standard for securitization cash flow models, with more than 50,000 deals modeled and access through APIs and Excel plug-ins."
+        },
+        {
+          "question": "Does Trepp publish its pricing?",
+          "answer": "No. Trepp sells on quote-based, enterprise terms. CRED iQ and CMBS.com are the alternatives here that publish prices."
+        }
+      ]
+    },
+    "msci-rca": {
+      "intro": "Real Capital Analytics is MSCI's global database of commercial property transactions, investors and loans. MSCI bought RCA in 2021 and still sells it under that name within its real estate data and analytics line, next to Mortgage Debt Intelligence, Index Intel, Performance Insights, climate risk tools and the MSCI Private Real Estate Indexes. MSCI cites $50 trillion+ of transactions, 120,000+ investor and lender profiles and data from more than 170 countries. It is built for institutional capital markets work, and that explains why people look elsewhere. Pricing is quote-based on enterprise terms, its institutional, global capital-markets focus is more than a regional broker or smaller investor needs, and it does not center on lease comps, true-owner contact details or loan-level CMBS surveillance, which many teams need alongside sales data.\n\nStart by naming the job. If it is US sales and lease comps for valuation and pitching, a comps database is the better fit. If it is pricing trends and research for institutional allocation, an independent research house substitutes well. If it is finding owners and their transaction histories for prospecting, a property intelligence tool is cheaper and more direct. And if the real question is debt, maturities and refinancing risk, a loan data platform answers it better than a transaction database.",
+      "picks": [
+        {
+          "slug": "costar",
+          "reason": "CoStar is the broadest substitute for US transaction work: its COMPS Professional sales comps cover the US, UK and parts of Canada, alongside lease comps, property records, market analytics and the CoStar Commercial Repeat-Sale Indices. It suits brokers, appraisers and investors who need sales and leasing data in one subscription. It is premium-priced on annual contracts and less global than RCA."
+        },
+        {
+          "slug": "green-street",
+          "reason": "Green Street is the closest institutional alternative: verified sales comps for deals of $5M and up, the Commercial Property Price Index for the US with Canadian and European versions, REIT analytics, debt data and independent sector research. It suits investors who want pricing context and research, not just a deal list. Subscriptions are quote-based and aimed at institutions."
+        },
+        {
+          "slug": "compstak",
+          "reason": "CompStak crowdsources lease and sale comps from brokers, appraisers and researchers, with sale comps that include price, cap rate, NOI and the true buyer and seller across 105 US markets. Qualifying professionals can use the free Exchange by contributing comps for credits, while investors and lenders pay for subscription access. It is US-only and depends on member contributions in each market."
+        },
+        {
+          "slug": "reonomy",
+          "reason": "Reonomy, an Altus Group business, covers 53M+ US commercial properties and 68M+ transactions, with full sales history, debt and lien records and the people behind LLCs. It is the pick for brokers and lenders who use transaction data to find and contact owners. Plans start at $400 a month on an annual subscription with a free trial, but it has no global coverage or capital flows analytics."
+        },
+        {
+          "slug": "trepp",
+          "reason": "Trepp is the alternative when debt is the question: CMBS deal and loan surveillance, loan valuation and property-level financial data used by bond investors, lenders and banks. Fitch Group agreed in April 2026 to acquire it. It does not replace RCA's sales transaction coverage, and pricing is enterprise and quote-based."
+        },
+        {
+          "slug": "cred-iq",
+          "reason": "CRED iQ joins securitized CRE debt, including CMBS, CRE CLO and agency multifamily loans, to ownership, sales and comps, with maturity pipelines and distress alerts for sourcing refinance and acquisition leads. Published pricing starts at $625 a month billed annually, with a free view-only trial. Its strength is loans, not a full transaction history of private deals."
+        },
+        {
+          "slug": "yardi-matrix",
+          "reason": "Yardi Matrix offers property-level research with ownership, transaction history and loan intelligence across 180+ US markets, strongest in multifamily, office, industrial and self storage. Published pricing starts at $199 per user per asset class per month for one metro. Costs rise with each asset class and metro, and it does not cover international markets."
+        }
+      ],
+      "faq": [
+        {
+          "question": "Is Real Capital Analytics still a product?",
+          "answer": "Yes. MSCI acquired Real Capital Analytics in 2021 and still sells it as Real Capital Analytics within its real estate data and analytics line, alongside Mortgage Debt Intelligence, Index Intel and the MSCI Private Real Estate Indexes."
+        },
+        {
+          "question": "What is the cheapest alternative to MSCI Real Capital Analytics?",
+          "answer": "CompStak's Exchange is free for qualifying brokers, appraisers and researchers who contribute comps. Among paid tools, Yardi Matrix starts at $199 per user per asset class per month and Reonomy starts at $400 a month on an annual subscription."
+        },
+        {
+          "question": "Which alternative is best for global transaction data?",
+          "answer": "Few match RCA's global reach. Green Street publishes price indexes for the US, Canada and Europe, and CoStar's sales comps cover the US, UK and parts of Canada. The other options here are US-focused."
+        },
+        {
+          "question": "How is MSCI Real Capital Analytics priced?",
+          "answer": "MSCI does not publish pricing. Access is quote-based and sold through MSCI's sales team, typically on institutional terms."
         }
       ]
     }
@@ -1744,7 +2677,7 @@
     {
       "a": "costar",
       "b": "reonomy",
-      "verdict": "CoStar and Reonomy both sell commercial real estate data, but they answer different questions. CoStar maintains the largest CRE database in the United States, with building data, ownership, lease comps, sales transactions, and submarket analytics maintained by a research team of over 1,000 people. Reonomy, an Altus Group business since its 2021 acquisition, is a property intelligence platform. It stitches title, assessor, geospatial, and demographic records into unified property profiles using machine learning, with a focus on ownership and debt.\n\nCoStar wins on depth and defensibility. Appraisers, lenders, and researchers who need lease comps, sales history, and market forecasts they can cite in a report will not find an equivalent in Reonomy, which has limited lease data. CoStar also covers all major property types at submarket granularity. The cost of that depth is premium pricing, annual contracts with limited flexibility, and a learning curve that overwhelms users who only need basic search.\n\nReonomy wins on prospecting. Its core strength is uncovering the true owner behind LLCs and trusts and surfacing contact details, plus mortgage and debt maturity data that flags likely sellers. Brokers building a call list or investors hunting off-market deals get to a usable target list faster than in CoStar. A free trial lowers the evaluation risk, though pricing is not published. Accuracy varies by market and is strongest in major metros.\n\nPick CoStar if your work depends on comps, valuation, or market analytics, and the budget supports an enterprise contract. Pick Reonomy if the job is finding and contacting owners. Firms that need both often pair a CoStar seat for research with Reonomy for the prospecting team, since the overlap between the two is smaller than it looks.",
+      "verdict": "CoStar and Reonomy both sell commercial real estate data, but they answer different questions. CoStar maintains the largest CRE database in the United States, with building data, ownership, lease comps, sales transactions, and submarket analytics maintained by a research team of over 1,000 people. Reonomy, an Altus Group business since its 2021 acquisition, is a property intelligence platform. It stitches title, assessor, geospatial, and demographic records into unified property profiles using machine learning, with a focus on ownership and debt.\n\nCoStar wins on depth and defensibility. Appraisers, lenders, and researchers who need lease comps, sales history, and market forecasts they can cite in a report will not find an equivalent in Reonomy, which has limited lease data. CoStar also covers all major property types at submarket granularity. The cost of that depth is premium pricing, annual contracts with limited flexibility, and a learning curve that overwhelms users who only need basic search.\n\nReonomy wins on prospecting. Its core strength is uncovering the true owner behind LLCs and trusts and surfacing contact details, plus mortgage and debt maturity data that flags likely sellers. Brokers building a call list or investors hunting off-market deals get to a usable target list faster than in CoStar. A free trial lowers the evaluation risk, and plans start at $400 a month on an annual subscription. Accuracy varies by market and is strongest in major metros.\n\nPick CoStar if your work depends on comps, valuation, or market analytics, and the budget supports an enterprise contract. Pick Reonomy if the job is finding and contacting owners. Firms that need both often pair a CoStar seat for research with Reonomy for the prospecting team, since the overlap between the two is smaller than it looks.",
       "one_liner": "CoStar wins for lease comps, valuation, and market research; Reonomy wins for owner discovery and prospecting at a lower entry cost.",
       "faq": [
         {
@@ -1757,7 +2690,7 @@
         },
         {
           "question": "Is Reonomy cheaper than CoStar?",
-          "answer": "Reonomy's pricing is not published, so a direct comparison is not possible. Reonomy does offer a free trial, while CoStar is enterprise-priced on annual contracts."
+          "answer": "Usually. Reonomy publishes a starting price of $400 a month on an annual subscription and offers a free trial, while CoStar does not publish pricing and is sold on annual enterprise contracts."
         },
         {
           "question": "Can Reonomy replace CoStar?",
@@ -2049,7 +2982,7 @@
       "a": "Plotzy",
       "b": "reonomy",
       "one_liner": "Reonomy is the property intelligence choice for existing commercial buildings, with ownership unmasking and debt data; Plotzy is the parcel and zoning choice for land and development sourcing at a lower, published price.",
-      "verdict": "Plotzy and Reonomy both help CRE professionals find properties and reach owners, but they start from different objects. Reonomy, an Altus Group business, builds connected records for commercial buildings: ownership unmasked through LLCs and trusts, debt and mortgage maturity, transaction history, 200+ search filters and predictive signals for likely sellers, with API and bulk feeds for enterprise. Plotzy starts from the parcel: 150M+ parcels across 3,200+ counties with a two-level zoning designation on each, filters for permitted use, lot size, owner type and sale date, owner contact lookup, folders and CSV export.\n\nReonomy wins for investment sales and lending work on standing assets. If the play is finding the owner of a specific office or industrial building, spotting loans coming due, or working a market of existing properties with debt signals, its data depth is the product, and the free trial lets you test it on your market. Pricing is not published, and third-party listings put it at several hundred dollars per user per month.\n\nPlotzy wins for land, development sites and zoning-driven search. Reonomy has little to say about what a parcel is zoned for; Plotzy makes that the first filter and follows it with owner contacts and exports for outreach. It is priced month to month at $180 or $300, offers a 7-day trial with no card, and suits solo brokers and small land teams that would not clear Reonomy's price. It has no debt or mortgage data, is thinner on building-level attributes, and is still labeled beta.\n\nDecision rule: buildings and debt, Reonomy; parcels and zoning, Plotzy. Brokerages that do both often run each for its half.",
+      "verdict": "Plotzy and Reonomy both help CRE professionals find properties and reach owners, but they start from different objects. Reonomy, an Altus Group business, builds connected records for commercial buildings: ownership unmasked through LLCs and trusts, debt and mortgage maturity, transaction history, 200+ search filters and predictive signals for likely sellers, with API and bulk feeds for enterprise. Plotzy starts from the parcel: 150M+ parcels across 3,200+ counties with a two-level zoning designation on each, filters for permitted use, lot size, owner type and sale date, owner contact lookup, folders and CSV export.\n\nReonomy wins for investment sales and lending work on standing assets. If the play is finding the owner of a specific office or industrial building, spotting loans coming due, or working a market of existing properties with debt signals, its data depth is the product, and the free trial lets you test it on your market. Plans start at $400 a month on an annual subscription.\n\nPlotzy wins for land, development sites and zoning-driven search. Reonomy has little to say about what a parcel is zoned for; Plotzy makes that the first filter and follows it with owner contacts and exports for outreach. It is priced month to month at $180 or $300, offers a 7-day trial with no card, and suits solo brokers and small land teams that would not clear Reonomy's price. It has no debt or mortgage data, is thinner on building-level attributes, and is still labeled beta.\n\nDecision rule: buildings and debt, Reonomy; parcels and zoning, Plotzy. Brokerages that do both often run each for its half.",
       "faq": [
         {
           "question": "Does Plotzy have debt and mortgage data like Reonomy?",
@@ -2061,7 +2994,7 @@
         },
         {
           "question": "How do the prices compare?",
-          "answer": "Plotzy publishes $180 and $300 monthly plans with a 7-day free trial and no annual contract. Reonomy does not publish pricing; third-party listings place it at several hundred dollars per user per month, with a free trial available."
+          "answer": "Plotzy publishes $180 and $300 monthly plans with a 7-day free trial and no annual contract. Reonomy starts at $400 a month on an annual subscription, with a free trial available."
         }
       ]
     },
