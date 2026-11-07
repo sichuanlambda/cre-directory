@@ -1,0 +1,15 @@
+{
+  "tool_name": "PropertyIndex",
+  "website": "https://www.propertyindex.ae",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Investment & Valuation, Data & Analytics, AI & Automation",
+  "description": "Property Index Dubai shows the registered sale and rent prices of Dubai property, from every DLD sale and Ejari rental contract, with PIX values and alerts.",
+  "pricing": "Free. Pro from AED 500 per month. PIX API from AED 5,000 per month.",
+  "submitter_name": "",
+  "relationship": "",
+  "notes": "PropertyIndex (Property Index Dubai) is a Dubai real estate data platform built on the registered market. It is approved by the Dubai Land Department under the REES Initiative, and every figure traces back to a registered DLD sale or an Ejari rental contract. There are no listings, no asking prices and no scraped data.\r\n\r\n**Accurate property prices, not asking prices**\r\n\r\nThe most accurate property prices in Dubai are the transaction prices the DLD recorded, not the asking prices on listings. PropertyIndex shows those confirmed outcomes for every community, project and building, so asking versus achieved is a number you can see before you offer, and the market value of a home comes from comparable sales rather than from an estimate.\r\n\r\n**What you get**\r\n\r\n- PIX values for every Dubai project and building, the market value PropertyIndex derives from the registered sales of comparable homes.\r\n- Transaction records: 11M+ DLD sales and Ejari rental contracts, searchable by community, project, building, type, bedrooms, size, date and price.\r\n- Project analytics and Dubai property market insights: price per square foot, rent levels, yields, volumes and rankings across the market.\r\n- The Dubai real estate index, PIX, a chained, mix-adjusted measure of Dubai property price trends from 2012, updated daily.\r\n- Alerts on new DLD sales and Ejari contracts in the places you follow, and reports you can hand to a client.\r\n\r\n**AI and API**\r\n\r\nPropertyIndex reaches ChatGPT and Claude through official plugins and any other MCP client through a public MCP endpoint, so an assistant can answer with registered prices rather than estimates. Developers use the PIX API, a REST API for sales, rentals, locations and the index.\r\n\r\n**Who uses it**\r\n\r\nPropertyIndex helps investors make informed independent decisions. Investors, brokers, landlords, valuers, lenders, developers and research teams use it to reach an independent judgment on a price, with a conviction they can explain from the registered evidence.\r\n\r\n**Pricing**\r\n\r\nFree to start. PIX Pro at AED 500 per month unlocks complete values, recent records, analytics and the AI connector. Teams from two seats at AED 400 per seat. The PIX API from AED 5,000 per month.\r\n\r\nFeatures: https://www.propertyindex.ae/features",
+  "screenshot_urls": "",
+  "submitted_at": "2026-11-07T00:57:27.694Z",
+  "source": "web-form",
+  "status": "pending"
+}
