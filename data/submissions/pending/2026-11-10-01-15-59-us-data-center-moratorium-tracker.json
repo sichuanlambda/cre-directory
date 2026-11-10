@@ -1,0 +1,15 @@
+{
+  "tool_name": "US Data Center Moratorium Tracker",
+  "website": "https://pacificsoftwareventures.com/data-center-moratorium-tracker",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Data & Analytics, Site Selection",
+  "description": "A free, sourced tracker of US data center moratoriums and pauses, with a CSV download.",
+  "pricing": "Free. CSV download, no sign-up.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "Hi, Ben from Pacific Software Ventures again. Our newsroom covers data center development for commercial real estate, and this tracker brings the US data center moratoriums and pauses we follow into one table. Each row links to the order, filing, docket or ordinance where one is public, and the full table downloads as a CSV that anyone can reuse with a citation. We hope it helps site selection and development teams. Thank you. Ben Truong",
+  "screenshot_urls": "",
+  "submitted_at": "2026-11-10T01:15:59.532Z",
+  "source": "web-form",
+  "status": "pending"
+}
