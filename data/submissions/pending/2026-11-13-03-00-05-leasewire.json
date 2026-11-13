@@ -1,0 +1,15 @@
+{
+  "tool_name": "LeaseWire",
+  "website": "https://www.getleasewire.com/",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Investment & Valuation, AI & Automation",
+  "description": "AI lease abstraction for commercial real estate, delivered into your own Excel model. Every value cited to its page and exact quote, redundant testing and review before delivery.",
+  "pricing": "Per lease, no subscription required: $150 standard lease, $250 multi-tenant, complex leases from $500. Monthly plans from $599. No free trial.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "LeaseWire is a lease abstraction service for US commercial real estate brokers, investors, lenders and property managers. Two independent AI models abstract each lease, their outputs are reconciled field by field, and any field where they diverge is verified by a person against the source document. Results are returned inside the client's own Excel underwriting model with formulas and named ranges intact, usually within 24 hours. It may also fit your AI Lease Abstraction guide.",
+  "screenshot_urls": "",
+  "submitted_at": "2026-11-13T03:00:05.566Z",
+  "source": "web-form",
+  "status": "pending"
+}
