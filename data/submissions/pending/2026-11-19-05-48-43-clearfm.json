@@ -1,0 +1,15 @@
+{
+  "tool_name": "ClearFM",
+  "website": "https://clearfm.io/",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Property Management",
+  "description": "ClearFM is operations software for commercial, retail, and multifamily buildings. Run work orders, vendor compliance, RFPs, and payments in one platform.",
+  "pricing": "https://clearfm.io/pricing/",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "Contact: Shawn Grant, Founder, shawn@clearfm.io. HQ: Minneapolis, Minnesota, USA. Company size: 1-10. Platforms: Web, iOS. License: Commercial / proprietary SaaS. Other categories: Facility Management, CMMS, Property Management Operations, Vendor Management.\r\n\r\nClearFM is operations software for commercial, retail, and multifamily property and facility teams. It brings work orders, preventive maintenance, asset and inventory tracking, vendor compliance, bidding, and payments into one record, from request through invoice.\r\n\r\nManagers can create work orders and tickets, set preventive maintenance schedules, and keep asset and inventory records tied to each property. Invoices are matched to the work order and approved scope before payment. Providers can be paid by card or ACH through ClearFM.\r\n\r\nBuyers can search verified provider profiles by trade, service area, and certifications, and can read ratings and reviews. Providers can quote, schedule, and invoice in the platform, and can be paid through ClearFM. Teams can also invite vendors they already work with. Marketplace providers can bid on RFPs. ClearFM does not source or recruit vendors for buyers.\r\n\r\nRFP tools include templates and a scope builder, side-by-side bid leveling, and an award workflow that can convert to a work order or a contract. Only compliant vendors can bid or be awarded.\r\n\r\nVendor compliance tracks certificates of insurance, required insurance limits, W-9s, and licenses. The platform sends automated COI expiration reminders and blocks noncompliant vendors from bids and payment.\r\n\r\nAn AI agent helps teams move through workflows, with human approval before records are updated. A public REST API, import and export, and an MCP server let customers and AI assistants work with ClearFM data. ClearFM does not claim integrations with named third-party products.\r\n\r\nHeadquartered in Minneapolis, Minnesota. Current plans: https://clearfm.io/pricing/.",
+  "screenshot_urls": "",
+  "submitted_at": "2026-11-19T05:48:43.333Z",
+  "source": "web-form",
+  "status": "pending"
+}
