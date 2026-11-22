@@ -1,0 +1,15 @@
+{
+  "tool_name": "ReportRivet",
+  "website": "https://reportrivet.pages.dev",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Construction & Development",
+  "description": "Turn site photos into a captioned, branded Word or PDF report that records site conditions or completed repairs.",
+  "pricing": "$25 CAD one-time purchase per user, no subscription. Free download; a license code unlocks it. 14-day refund policy.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "ReportRivet is a Windows desktop app for documenting site conditions with photos. A property manager can import photos from a walkthrough, sort them by area (Roof, Exterior, Common areas), caption each one, and export a dated Word or PDF report with their company's logo. Two common uses: recording a building's condition before a capital project or lease change, and a before-and-after record that verifies a contractor's repair before the invoice is approved. It works offline, projects stay on your computer, and original photos are never changed. Windows 10 and 11. Sample report: https://reportrivet.pages.dev/#sample. Submitted by the maker, Marcus Gerrard.",
+  "screenshot_urls": "https://reportrivet.pages.dev/assets/img/sample-page-1.webp, https://reportrivet.pages.dev/assets/img/sample-page-3.webp, https://reportrivet.pages.dev/assets/img/app-organize.webp, https://reportrivet.pages.dev/assets/img/app-preview.webp",
+  "submitted_at": "2026-11-22T22:42:53.694Z",
+  "source": "web-form",
+  "status": "pending"
+}
