@@ -1,0 +1,15 @@
+{
+  "tool_name": "vekstio",
+  "website": "https://vekstio.com",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Investment & Valuation, AI & Automation",
+  "description": "vekstio turns the OM, T12 and rent roll into a reviewed underwriting model and the price the deal supports, in minutes. Your first deal is free.",
+  "pricing": "Trial: $0, one complete analysis, no card required. Analyst: $83/month billed yearly ($990/year). Sponsor: $333/month billed yearly ($3,990/year). Firm: $833/month billed yearly ($9,990/year). Overage: $15 per extra analysis, $25 per extra presentation. Monthly billing is also offered; the site says plans from $99 a month. Details: https://vekstio.com/pricing (read 24 Nov 2026, ET).",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "vekstio is an underwriting workspace for multifamily investors. Drop the offering memorandum, the T12 and the rent roll. It maps every line, rebuilds the model, flags what the seller left out and shows the price the deal supports, the questions to ask the broker, and a letter of intent ready to send.\r\n\r\nEvery figure is computed by a deterministic engine: the same inputs always give the same result. Each number shows where it came from: the document line, your own entry, or a default you have not confirmed yet. The AI reads and explains. It does not generate the numbers.\r\n\r\nYour files and deals are private to your workspace. They are never used to train AI, and we never sell data.\r\n\r\nYour first deal is free.\r\n\r\nvekstio is an educational underwriting tool. It is not investment, tax, legal or lending advice.\r\n\r\nSuggested categories on this directory: Investment & Valuation, and AI & Automation.\r\n\r\nWebsite: https://vekstio.com\r\nPricing: https://vekstio.com/pricing\r\nBlog: https://vekstio.com/blog\r\nPublic email: hello@vekstio.com\r\nX: https://x.com/vekstio\r\nLinkedIn company page (optional, verify it is the live company page before using): https://www.linkedin.com/company/vekstio\r\nLogo (SVG): https://vekstio.com/logo.svg\r\nSocial image: https://vekstio.com/og/home.jpg\r\n\r\nPlease do not invent customer counts, reviews or case studies. There are none to publish. The building used in site illustrations (Marlowe Court, 64 units) is invented.",
+  "screenshot_urls": "https://vekstio.com/og/home.jpg",
+  "submitted_at": "2026-11-24T14:52:59.216Z",
+  "source": "web-form",
+  "status": "pending"
+}
