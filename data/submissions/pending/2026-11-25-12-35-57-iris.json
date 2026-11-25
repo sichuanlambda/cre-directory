@@ -1,0 +1,15 @@
+{
+  "tool_name": "IRIS",
+  "website": "https://www.irisplatform.nl",
+  "email": "[redacted - contact info kept off the public repo]",
+  "category": "Data & Analytics, Site Selection",
+  "description": "IRIS by The Big Data Company forecasts store revenue for a candidate location, with an 80% prediction interval, and shows the impact on your existing network.",
+  "pricing": "Flat rate per year, excl. VAT: IRIS Market EUR 6,000, IRIS Studio from EUR 13,000, IRIS from EUR 24,000. No free trial.",
+  "submitter_name": "",
+  "relationship": "I work there",
+  "notes": "IRIS by The Big Data Company (Utrecht, NL, founded 2018): store revenue forecasting and site selection software for retail chains, franchise networks and QSR expansion teams. Includes catchment analysis by drive time, cannibalisation and impact analysis, whitespot analysis, scenario comparison, an AI agent, a REST API and an MCP server. Data built and hosted in the EU.",
+  "screenshot_urls": "",
+  "submitted_at": "2026-11-25T12:35:57.890Z",
+  "source": "web-form",
+  "status": "pending"
+}
